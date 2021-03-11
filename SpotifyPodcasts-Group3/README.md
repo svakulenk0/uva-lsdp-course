@@ -1,5 +1,5 @@
 # podcastDA
-Analyzing (spoken) dialogues within and between podcast episodes from the Spotify Podcast Dataset using AI models.
+Analyzing sentiment within and between podcast episodes from the Spotify Podcast Dataset using AI models.
 \
 \
 Bart van Vulpen - 11865210\
