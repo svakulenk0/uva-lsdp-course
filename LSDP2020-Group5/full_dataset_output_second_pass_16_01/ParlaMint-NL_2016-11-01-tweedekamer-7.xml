@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-11-01 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-11-01 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 16, Session 7 (2016-11-01)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 16, Session 7 (2016-11-01)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="16">Meeting 16</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="7">7 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="7">7 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="114">114 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="114">114 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-11-01">2016-11-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="8"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="7"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-11-01">2016-11-01</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.seg1">Voor de stemmingen geef ik eerst het woord aan de heer Recourt namens de PvdA.</seg>
+            </u>
+            <u who="#JeroenRecourt" ana="#regular" xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.seg2">Voorzitter. Mede namens andere partijen, het CDA, D66, de SP en … Heb ik ze allemaal gehad? Nee, ik was de VVD nog vergeten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.seg3">Ja, dan hebt u een meerderheid.</seg>
+            </u>
+            <u who="#JeroenRecourt" ana="#regular" xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.seg4">Mede namens die partijen vraag ik wederom een week uitstel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.seg5">Dat geldt dus voor de punten 3 en 4, de stemmingen in verband het wetsvoorstel Wet organisatie hoogste bestuursrechtspraak en de moties. Daar zullen we op een ander moment over stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.seg6">Ik geef het woord aan mevrouw Kooiman.</seg>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.seg7">Voorzitter. Ik wil graag mijn motie onder punt 6, het VAO gevangeniswezen, (24587, nr. 666) aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2016-11-01-tweedekamer-7.seg8">Deze motie zal worden aangehouden.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

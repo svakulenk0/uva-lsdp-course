@@ -1,0 +1,146 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-05-30 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-05-30 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 80, Session 3 (2017-05-30)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 80, Session 3 (2017-05-30)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="80">Meeting 80</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="18">18 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="18">18 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1879">1879 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1879">1879 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-05-30">2017-05-30</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="25"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="18"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-05-30">2017-05-30</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Helder</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg1">Mevrouw Helder is vandaag jarig.</seg>
+            </u>
+            <note>(Geroffel op de bankjes)</note>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg2">Voorzitter. Als ik vandaag mijn zin niet krijg, dan weet ik het niet meer! Als u de microfoon uitzet, zeg ik hoe oud ik ben geworden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg3">Dat is goed.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg4">Voorzitter. Toch maar even de mondelinge vragen, want die zijn natuurlijk heel belangrijk. Op 18 mei jongstleden ontvingen wij het rapport "De lokale betekenis van basisteams". Afgelopen zaterdag schetste een wijkagente in de media een beeld van de praktijk, een verhaal dat ik helaas op werkbezoeken ook hoor. Dat beeld lijkt in niets op de juichverhalen die steeds naar buiten worden gebracht over de criminaliteit die zou dalen. Criminaliteit daalt niet, maar wordt niet aangepakt en burgers doen nauwelijks aangifte. Alleen voor zogenoemde high impact crimes, zoals diefstal, straatroof en overvallen wordt voldoende capaciteit vrijgemaakt, maar slachtoffers van andere criminaliteitsvormen, zoals cybercrime en internetfraude, vinden geen gehoor. Door het structurele tekort aan rechercheurs hebben criminelen dan ook vrij spel. Het ergste van dit alles is dat deze punten al heel lang bekend zijn, maar het lukt blijkbaar nog steeds niet om ze aan te pakken. Niet alleen de agenten, maar ook bestuurders en burgers zijn de klos, en criminelen zijn de lachende derden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg5">Ik heb daarom twee vragen aan de minister. Ten eerste, meer dan eens wordt aangegeven dat agenten hun verhaal anoniem moeten doen, omdat zij anders kunnen rekenen op interne maatregelen. Hoe gaat de minister bevorderen dat agenten verbeterpunten nu juist wel blijven aankaarten?</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg6">Bij mijn tweede vraag hoort een korte inleiding. Er zijn namelijk ook nog de overige bekende punten die de wijkagente in haar relaas aankaart. Het is nog steeds niet mogelijk om camerabeelden van burgers op internet te zetten. Er zijn te weinig dienstauto's. Er is geen tijd en er is geen capaciteit om de organisaties achter de simpele drugsdealers of dieven aan te kunnen pakken. Agenten verdwijnen uit de wijken door het sluiten van bureaus. Er zijn te weinig mensen en te weinig dienstauto's voor te grote werkgebieden. Mijn tweede vraag luidt daarom: wat gaat de minister doen om hier eindelijk eens een einde aan te maken?</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg7">Voorzitter. Mevrouw Helder gaat in op het interview dat een wijkagente aan De Telegraaf heeft gegeven en dat aansluit bij een aantal bevindingen uit het rapport "De lokale betekenis van basisteams", dat ik kortgeleden naar de Kamer heb gestuurd. Uit dat rapport komt een aantal beelden naar voren. Een daarvan is het beeld, dat de wijkagente ook aangeeft, dat in de wijkteams met een enorme inzet wordt gewerkt, maar dat vaak het gevoel ontstaat dat men onvoldoende kan doen om de georganiseerde criminaliteit aan te pakken. Daarnaast geeft het rapport aan dat zowel burgemeesters, lokale gezagsdragers als burgers die gevraagd worden naar hun ervaringen met politie, een ruime voldoende geven, omdat hun ervaringen met de politie gelukkig goed zijn. Zij hebben natuurlijk ook een aantal wensen, zij willen over het algemeen ook meer capaciteit, maar zowel burgemeesters als het publiek vinden in de praktijk de dienstverlening adequaat.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg8">Dat neemt niet weg dat het signaal dat zowel uit het onderzoek als uit het interview waarnaar mevrouw Helder verwijst naar voren komt, serieus genomen moet worden. Ik plaats daarnaast een interview waarnaar mevrouw Helder niet verwijst, maar dat ook over dit onderzoek ging: het interview met de teamchef in Sneek, mevrouw Marja Doosje. Zij is de teamchef van een van de onderzochte teams uit het onderzoek dat leidde tot dat deels kritische, deels positieve rapport. In dat interview geeft zij aan dat er in haar team in Sneek heel veel veranderd en verbeterd is sinds het onderzoek plaatsvond. Ze zegt: ja, er zijn een hoop ingewikkelde opgaves, maar je moet niet blijven hangen in het onderzoek, dat natuurlijk alweer van enige tijd geleden is, want het kost even tijd; wij hebben echt grote stappen kunnen zetten. Dat herken ik; net als mevrouw Helder ga ik graag met agenten op stap. En ja, er zijn dingen die niet goed gaan, maar er zijn ook dingen die fantastisch geregeld zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg9">Wat zeker nog beter moet, is bijvoorbeeld de informatie-uitwisseling tussen de recherche en de agenten op straat, een van de punten die heel cruciaal zijn bij de aanpak van georganiseerde criminaliteit. Die taak ligt over het algemeen niet bij de wijkteams — die hebben een signalerende functie — maar bij de districtsrecherche of bij de landelijke recherche. Het is van groot belang dat informatie goed gekoppeld kan worden. Dat is eigenlijk ook een ICT-vraagstuk. Dit is een van de opgaven die voorligt.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg10">Mevrouw Helder stelt de klassieke capaciteitsvraag. Dat is een beetje de gouwe ouwe in mijn debatten hier in de Kamer. Hij kwam ook aan bod bij de vorige vraag. Ik blijf erop wijzen dat mijn begroting beschikbaar is gesteld. Ik ben dankbaar voor het extra geld, ook voor de politie en de aanpak van de georganiseerde criminaliteit. Maar ik ben gehouden aan die begroting. Degenen die nog meer geld willen voor de politie hebben mijn warme sympathie, maar zij moeten zich op dit moment volgens mij bij de heer Tjeenk Willink melden.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg11">Laat ik het zo zeggen: ik heb het rapport natuurlijk ook goed gelezen. Daarin stond het volgende citaat van een van de ondervraagden: als ik een crimineel was, dan zou ik het basisteam ook zo inrichten. Met die ruime voldoende ben ik het dus niet eens. U kunt zich daar wel tegen afzetten, minister, maar ik ga niet verzanden in een welles-nietesspelletje. Dat doe ik wel als het gaat om extra geld. Dat blijf ik zeggen. Er ging een half miljard, 500 miljoen, vanaf en er kwam 250 miljoen terug. Er is dus geen sprake van extra geld.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg12">Maar ik heb niet gevraagd om geld. Ik zal de woorden van de minister als aanknopingspunt nemen. Hij zegt dat wijkteams een signalerende functie hebben. Dat is helemaal waar. En vervolgens kunnen ze er niets mee, want ze vinden geen gehoor bij de rechercheurs. Als ze al gehoor vinden, mogen de rechercheurs niet doorrechercheren, want dan is het onderzoek te groot voor het basisteam en te klein voor de regionale recherche. Kortom, de wijkagenten zijn gewoon de klos. Ze raken gefrustreerd en houden er dan mee op. En dan komen we over drie jaar terug bij de gouwe ouwe "waar zijn onze wijkagenten gebleven?" Kort en goed: ik vind dit echt geen antwoord van de minister. Dit moet echt veel beter.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg13">Het zou helpen als de vraag wat concreter was. Ik heb aangegeven dat een aantal zaken beter moeten, maar ook dat bijvoorbeeld een collega van de geïnterviewde agent, in dit geval de teamchef in Sneek, zegt dat sinds het onderzoek een aantal zaken zijn verbeterd. Ik heb daarnaast aangegeven dat ik ook nog concrete stappen zie die gezet moeten en kunnen worden, bijvoorbeeld de verbetering van de informatiedeling tussen wijkteams en agenten. In die zin zou ik kunnen zeggen dat mevrouw Helder en ik hierover niet van mening verschillen. Partijen die honderden miljoenen weten te vinden en dat ook fatsoenlijk weten te dekken, hebben altijd mijn warme sympathie.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg14">Ik zal twee concrete vragen stellen. Ik vind dat er geen politiebureaus meer gesloten moeten worden. Kan de minister er in ieder geval een stop op zetten? Dan blijven de agenten wel degelijk in de wijk en is er ook een punt waar verdachten naartoe gebracht kunnen worden. Dat scheelt rondrijden met een dienstauto die vervolgens niet meer beschikbaar is. Waar blijft het voertuigenplan dat de Kamer was toegezegd? Daar is ook al heel vaak over geklaagd.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg15">Ik zou het heel onverstandig vinden om centraal in Den Haag te beslissen dat de korpschef, die iedere keer weer moet afwegen hoe hij zijn mensen en middelen inzet, nergens meer een kantoor mag sluiten. Hij kan heel goede redenen hebben om te zeggen: op deze plaats bespaar ik liever wat geld voor bakstenen, omdat ik dat geld liever inzet voor goede mensen. Het eerste verzoek van mevrouw Helder vind ik dus heel onverstandig.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg16">Als er beloofd is dat de Kamer een voertuigenplan krijgt, dan krijgt de Kamer dat. U zult het mij vergeven dat ik niet uit mijn hoofd weet wanneer dat plan er komt, maar ik heb geen reden om het niet te sturen zodra het er is.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg17">We zijn inmiddels vijf jaar verder na de invoering van de nationale politie. Wij hebben in de Kamer het meeste gedebatteerd over de functie van de wijkteams en de wijkagenten, met name in de straat of in de wijk waar het moet gebeuren. Voortdurend blijkt dit het kwetsbaarste punt te zijn. Er zijn meer punten, maar dit blijft als kwetsbaarste punt terugkomen wanneer het gaat over de invoering van de nationale politie. Het is te snel gegaan. Dat heeft uiteraard met geld te maken, maar ook met de visie die toen is neergelegd. Het rapport ligt er nu. Ik wil graag een uitgebreide reactie van het kabinet in plaats van het nu alleen in het vragenuur te bespreken. Gaan we nu ook specifiek evalueren hoe de functie van de wijkagenten en de wijkteams efficiënter, minder bureaucratisch en slimmer kan worden georganiseerd?</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg18">De Kamer krijgt de gevraagde uitgebreide reactie op het rapport. De evaluatie van de wijkteams, en breder van de nationale politie, is ook toegezegd aan de Kamer. Daar werkt de heer Kuiken met een team aan. Uit het hoofd zeg ik dat die evaluatie dit najaar naar deze Kamer komt.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg19">Voor het verslag zeg ik dat de heer Kuiken geen familie van mij is.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg20">Toen we hier spraken over de nationale politie, zei iedereen in de Kamer dat er te weinig wijkagenten zijn. Maar het ministerie zei: dat is niet waar. Toen de nationale politie werd ingericht, zeiden alle politieagenten dat er te weinig wijkagenten zijn. Maar het ministerie zei: dat is niet waar. Als we nu praten met burgemeesters en met burgers, zegt iedereen dat er te weinig wijkagenten zijn. Maar het ministerie zegt: dat is niet waar. Wat is er mis op het ministerie? Zijn de ramen dicht? Is de deur gesloten? Hoe kan het toch dat het ministerie niet wil zien wat iedereen wel ziet?</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg21">De heer Van Raak stelt op zijn bekende onnavolgbare wijze weer de capaciteitsvraag aan de orde. Hij zegt dat hij graag meer agenten wil. Hij is niet de enige met die wens, maar ook hij levert geen boter bij de vis. Agenten kosten geld. Geld kan één keer worden uitgegeven. Geld dat naar agenten gaat, kan niet naar onderwijzers, niet naar wegen en niet naar uitkeringen. Het maken van die keuze is de kern van het politieke bedrijf. Dat kun je traditioneel bij een formatie doen. Dat is ongeveer nu het moment. Het kan ook op een begrotingsmoment. Nogmaals, ik ben de Kamer dankbaar voor het extra geld dat beschikbaar is gesteld. Hier door een microfoon te roepen dat er meer agenten moeten komen, helpt echter niet als je geen geld erbij levert.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg22">Mijnheer Van Raak, geen vervolgvraag, maar u mag iets rechtzetten.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg23">Even voor de Handelingen: ik heb op 30 maart nog een motie ingediend om per direct 200 miljoen extra ter beschikking te stellen voor de politie, maar het opmerkelijke was dat de minister dat geld niet wilde hebben.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg24">Een motie is papier, een motie is geen geld. Ik moet dus constateren dat de heer Van Raak geen geld heeft geleverd, alleen maar woorden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2017-05-30-tweedekamer-3.seg25">Dank u wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

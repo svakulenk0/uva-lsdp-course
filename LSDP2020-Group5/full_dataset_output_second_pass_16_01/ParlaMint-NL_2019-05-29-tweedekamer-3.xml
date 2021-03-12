@@ -1,0 +1,212 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-05-29 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-05-29 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 87, Session 3 (2019-05-29)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 87, Session 3 (2019-05-29)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="87">Meeting 87</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="24">24 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="24">24 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1866">1866 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1866">1866 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-05-29">2019-05-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="33"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="24"/>
+               <tagUsage gi="note" occurs="48"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-05-29">2019-05-29</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Digitale Overheid</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg1">Thans is aan de orde het VAO Digitale Overheid. Een hartelijk woord van welkom aan de staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties. Fijn dat u bij ons bent. Wij hebben vier sprekers van de zijde van de Kamer. De eerste spreker is de heer Verhoeven van D66. Ik geef hem graag het woord. Hij heeft, zoals iedereen, twee minuten spreektijd.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg2">Voorzitter. Dank. We hebben twee weken geleden gesproken over een aantal zaken. Ik heb twee moties en weinig tijd, dus ik licht kort toe waar ik het over wil hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg3">Het eerste onderwerp waar we het over gehad hebben, betreft algoritmes, in het bijzonder algoritmes bij de overheid die op allerlei manieren worden gebruikt. D66 heeft al langer gezegd dat er meer grip en controle op moet zijn en dat het zich nu een beetje buiten het oog van de politiek afspeelt. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat overal binnen de overheid algoritmes worden toegepast zonder dat er zicht en grip op is;</note>
+               <note>overwegende dat overheden vooraf niet voldoende nadenken over de mogelijke nadelige gevolgen, zoals uitsluiting of discriminatie;</note>
+               <note>overwegende dat verschillende organisaties, waaronder de Raad van State, waarschuwen voor de gevolgen voor mensen van automatisering van overheidsprocessen;</note>
+               <note>overwegende dat zowel het nadenken vooraf als de controle achteraf op het gebruik van algoritmes en gebruikte datasets versterkt moet worden;</note>
+               <note>verzoekt de regering een richtlijn te ontwikkelen voor het gebruik door overheden van algoritmes met mogelijk ingrijpende consequenties op burgerrechten, waarvan in ieder geval onderdeel uitmaken een impactanalyse van zowel dataset als algoritme en de wijze van openbaarmaking;</note>
+               <note>verzoekt de regering tevens een voorstel uit te werken voor toezicht op het gebruik van algoritmes door de overheid, inclusief de gebruikte datasets,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Verhoeven en Van der Molen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-26643-610</note>
+            </u>
+            <note>Gelukkig kwam mevrouw Özütok net binnen. Nu hebben we tenminste vijf leden.</note>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg4">Voorzitter. Mijn tweede motie heeft niet direct betrekking op het AO, maar ik heb tijdens het AO al wel aangekondigd dat we met een aantal leden van deze Kamer bezig zijn om te kijken naar een manier waarop de politiek meer grip kan krijgen op het onderwerp digitalisering. Met die drie leden dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat digitalisering toenemende invloed heeft op onze samenleving, onze economie, onze veiligheid en onze vrijheid;</note>
+               <note>overwegende dat digitalisering alle sectoren en aspecten van onze maatschappij raakt en dat vanuit de samenleving bij herhaling een oproep aan de politiek is gedaan om hierin een actieve positie in te nemen zodat Nederland kansen beter kan benutten en uitdagingen beter kan aanpakken;</note>
+               <note>overwegende dat digitalisering overkoepelende thema's kent die vooralsnog niet doelmatig in het huidige systeem van vaste Kamercommissies te behandelen zijn;</note>
+               <note>overwegende dat de Tweede Kamer voldoende kennis en grip moet hebben om politieke controle en sturing te kunnen uitoefenen op digitalisering en relevante ontwikkelingen op dit gebied;</note>
+               <note>spreekt uit dat het wenselijk is dat de Tweede Kamer zelf onderzoek doet naar concrete mogelijkheden om de nodige kennis op te bouwen en meer politieke grip te krijgen op het thema "digitalisering";</note>
+               <note>verzoekt het Presidium voor het zomerreces van de Tweede Kamer een voorstel te doen voor een tijdelijke onderzoekscommissie die hier werk van maakt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Verhoeven, Middendorp, Buitenweg en Van Dam. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-26643-611</note>
+            </u>
+            <note>Ik stel vast dat dit een motie is aan het Presidium. Het staat de staatssecretaris vrij om iets te zeggen over de motie, maar dat hoeft hij niet, want de motie gaat over de Tweede Kamer zelf. Daarnaast geef ik u in alle vriendschap in overweging om dit voorstel maandag bij het debat over de Raming van de Tweede Kamer nog eens aan de orde te stellen. Het is natuurlijk een interne zaak van de Tweede Kamer. Maar dat is slechts een suggestie.</note>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg5">Voorzitter. Suggesties van uw kant, doordrenkt met wijsheid, neem ik altijd graag ter harte. Dus ik zal daar absoluut over nadenken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg6">Dat siert u.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg7">En ik dank u voor uw geduld.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg8">Kunt u nu gewoon gaan zitten?</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg9">Haha! Precies!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg10">Dan gaan we nu luisteren naar de heer Middendorp van de fractie van de VVD.</seg>
+            </u>
+            <u who="#JanMiddendorp" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg11">Voorzitter. Het AO over de digitale overheid was een goed en ook een heel vol AO. We hebben heel veel gesproken over het Bureau ICT-toetsing en eigenlijk te weinig over algoritmen. De VVD heeft vandaag de initiatiefnota Menselijke grip op algoritmen gelanceerd. Ik denk dat dat ook iets breder gaat dan alleen de digitale overheid. Dat vraagt namelijk om zicht op meerdere perspectieven. Ik sta dan ook op het punt van algoritmen nu, mede dankzij mijn collega's Wörsdörfer en Van Gent, die vanuit een heel ander perspectief naar algoritmen kijken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg12">Terug naar het BIT, want daarover, zei ik, hebben we wel uitgebreid gesproken. Ik heb daarover ook een motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het Bureau ICT-toetsing (BIT) in 2015, voor een periode van vijf jaar, is opgericht om de risico's en slaagkansen van ICT-projecten van de overheid te toetsen, teneinde zo de besturing en beheersing van deze projecten te verbeteren;</note>
+               <note>constaterende dat er wordt gewerkt aan een analyse van de mogelijke scenario's voor de positionering alsmede de governance van het BIT;</note>
+               <note>verzoekt de regering bij deze analyse in ieder geval te betrekken: de onafhankelijkheid, de bemensing en de aansturing van het BIT, alsmede de toegang die de Kamer heeft tot het BIT en de resultaten van de door haar uitgevoerde toetsing van ICT-projecten;</note>
+               <note>verzoekt de regering voorts de Kamer vóór Prinsjesdag 2019 te informeren over welke scenario's voor de positionering van het BIT onderzocht worden en welke governance daarbij aan de orde kan zijn, een en ander aan de hand van de hiervoor genoemde aandachtspunten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Middendorp, Van der Molen en Verhoeven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-26643-612</note>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg13">Dank u wel. De laatste spreker van de zijde van de Kamer is de heer van der Molen van het CDA.</seg>
+            </u>
+            <u who="#HarryvanderMolen" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg14">Voorzitter. Een aantal collega's hebben het al aangegeven. In het algemeen overleg met de staatssecretaris hebben we uitgebreid stilgestaan bij de situatie van Bureau ICT-toetsing. Ook met de staatssecretaris is onze zorg als Kamer gedeeld dat wij heel veel belang hechten aan het voortbestaan van dit bureau, dat een heel zorgvuldige taak heeft: het toetsen van grote ICT-projecten, waar helaas bij de rijksoverheid met enige regelmaat wat over te doen is. We hebben ook in die vergadering de staatssecretaris al horen zeggen dat hij in zekere zin — dat waren mijn woorden — als een soort beschermheer van het BIT wil optreden, in de zin dat hij ook het belang van het BIT onderstreept.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg15">De CDA-fractie denkt dat het van belang is om als Kamer ook uit te spreken dat wij heel graag willen dat het BIT blijft bestaan. Het BIT staat nu onder druk, ook door recente omstandigheden, dus er zijn nog altijd zorgen, ook over de huidige omstandigheden waarin ze moeten functioneren. Maar het wordt, denk ik, ook tijd vanuit de Kamer om een duidelijk signaal te geven dat wij graag willen dat het BIT blijft bestaan, ook na de evaluatie. Vandaar dat ik de volgende motie indien.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het Bureau ICT-toetsing (BIT) in 2015 op voorstel van de tijdelijke commissie ICT is ingesteld voor een periode van vijf jaar;</note>
+               <note>overwegende dat onafhankelijke advisering met het oog op verbetering van ICT-projectbeheersing bij de overheid noodzakelijk blijft;</note>
+               <note>verzoekt de regering voorstellen te doen waarbij ook gekeken wordt naar de wettelijke grondslag en onafhankelijke positionering van het Bureau ICT-toetsing,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van der Molen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-26643-613</note>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg16">Kan de staatssecretaris reeds antwoorden? Dat is het geval. Dan geef ik graag het woord aan hem.</seg>
+            </u>
+            <u who="#RaymondKnops" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg17">Voorzitter. Dank aan de leden voor hun inbreng. Inderdaad, we hebben vooral gesproken in het algemeen overleg over het BIT en de toekomst van het BIT, waar ook een aantal moties over gaan. Daar zal ik zo iets over zeggen. Omdat er geen afzonderlijke vragen zijn gesteld, ga ik meteen in op de moties. Ik begin met de motie van de heren Verhoeven en Van der Molen op stuk nr. 610 over het vraagstuk van algoritmes. Dat is een belangrijk vraagstuk, ook voor de rijksoverheid, misschien wel met name voor de rijksoverheid omdat we nog veel niet weten en iedereen op zoek is naar hoe dit in goede banen kan worden geleid. Op dit moment werk ik samen met de minister voor Rechtsbescherming aan een brief in de richting van de Kamer, die ingaat op de aspecten die in de motie worden genoemd. Hoewel de motie mij buitengewoon sympathiek voorkomt, verzoek ik beide leden om de motie aan te houden, zodat wij daar na het zomerreces, wanneer de brief er ligt, inhoudelijk over kunnen spreken. De punten die in de motie worden genoemd, zal ik meenemen in de brief.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg18">Ik zie weinig actie bij de heer Verhoeven, maar nu wel. Het is nog wat vroeg voor hem.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg19">Voorzitter. Actie vraagt ook om timing. Ik weet dat er een brief onderweg is over dit onderwerp, maar die is nog een aantal weken van de Kamer verwijderd. Ik weet ook dat wij hiervoor een jaar geleden ook al aandacht hebben gevraagd. Ik ben op zich best bereid om te kijken of ik mijn motie aanhoud. Ik wil er nog even over nadenken, maar zo snel als de overheid op allerlei plekken algoritmes aan het toevoegen is aan allerlei systemen en besluitvormingsprocessen, zo langzaam zijn we in het kijken naar manieren waarop we controle, toezicht en grip op die algoritmes krijgen. Ik vind dat een lastige situatie. Ik wil echt tempo van het kabinet en meer dan alleen een inventarisatie van een aantal mogelijkheden. Ik wil echt dat we stappen zetten om die algoritmes onder controle te krijgen.</seg>
+            </u>
+            <u who="#RaymondKnops" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg20">Een terecht punt van de heer Verhoeven. Ik heb dat gevoel van urgentie en haast zelf ook. Tegelijkertijd is het een heel complex vraagstuk, niet alleen in technische zin, maar ook kijkend naar inrichtingsvraagstukken van: wie gaat waarover en hoe ver ga je daarin? We kennen allemaal die assen van vrijheidsgraden die de een meer vrijheid geven, maar de ander beperken. Dat is hier aan de orde. Begrip dus, maar het is uiteraard aan de Kamer en in eerste instantie aan de heer Verhoeven om mijn advies over te nemen. Als hij dat niet doet, dan komt de motie gewoon in stemming.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg21">Ik hoop dus op een oordeel van u. Ik nodig de staatssecretaris uit om een oordeel over de motie te geven, want vooralsnog wordt die niet aangehouden.</seg>
+            </u>
+            <u who="#RaymondKnops" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg22">Dan moet ik de motie ontraden.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg23">Ik heb de staatssecretaris gehoord. Ik wil erover nadenken. Ik wil even kijken wat verstandig is, maar als ik deze motie ook aanhoud, dan heb ik al drie aangehouden moties. Op een gegeven moment wordt dat wat veel. Ik zal erover nadenken, maar ik heb gehoord wat de staatssecretaris heeft gezegd. Ik weet dat er een brief aankomt, maar het moet dan wel een substantiële brief zijn, want anders schieten we niet op met dit onderwerp.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg24">En er is inmiddels een oordeel van de staatssecretaris.</seg>
+            </u>
+            <u who="#RaymondKnops" ana="#regular" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg25">Dan de motie van de heer Verhoeven op stuk nr. 611, waarvan de voorzitter mij bijna uitnodigde om er iets van te vinden. Ik zeg in alle bescheidenheid dat het een sympathieke motie is, waarover het oordeel uiteraard niet aan mij is omdat die is gericht aan het Presidium. Ik denk wel, gezien het belang van deze onderwerpen, dat het heel goed is dat de Kamer daarin een eigenstandige positie inneemt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg26">Dan de motie op stuk nr. 612 van de heer Middendorp, samen met de heren Van der Molen en Verhoeven, over het BIT. Daarin wordt de regering verzocht om bij de analyse een aantal criteria te betrekken die de heer Middendorp in het debat heeft genoemd. Wat mij betreft is het overigens geen limitatieve opsomming van criteria, want het zouden er meer kunnen zijn. De regering wordt ook verzocht om de Kamer vóór Prinsjesdag te informeren over welke scenario's voor de positionering van het BIT onderzocht worden. Ik acht het van groot belang dat een instituut als het BIT bestaat. Ook de evaluatie heeft uitgewezen dat het hard nodig is dat ICT-projecten worden onderworpen aan onafhankelijke toetsing. Maar onafhankelijk betekent ook onafhankelijk. Dat betekent: geen enkele inmenging van in dit geval mij als systeemverantwoordelijke voor het BIT als het gaat om adviezen van het BIT. Ik heb aangegeven dat ik dat nooit heb gedaan en ook nooit zal doen, omdat dit de onafhankelijkheid in het geding brengt. Ik heb u ook aangegeven, mede op verzoek van de heer Middendorp, maar ook van de heer Drost, dat ik de Kamer respectievelijk voor en na het zomerreces zal informeren over de projecten die nu zijn uitgevoerd.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg27">Uiteindelijk moet het antwoord op de vraag "hoe kun je de onafhankelijkheid in de toekomst goed borgen?" de resultante zijn van een aantal onderzoeken die nu lopen en van één dat al is afgerond. Het onderzoek dat is afgerond, is het onderzoek van AEF. Dat hebt u ook toegestuurd gekregen. U heeft daarin kunnen lezen dat AEF een aantal suggesties doet voor mogelijkheden om die onafhankelijkheid en die positionering op een goede manier in te richten. Maar AEF geeft geen eenduidige conclusie over wat het zou moeten zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg28">De onderzoeken die ik aan de Kamer heb toegezegd en die aan het einde van het jaar moeten leiden tot een conclusie hoe en waar we het BIT zo onafhankelijk mogelijk kunnen ophangen, heeft u dus nog tegoed. Dat zal aan het einde van het jaar zijn. Tot die tijd heb ik de onafhankelijkheid en ook het voortbestaan van het BIT gegarandeerd. Zoals ik in het debat heb aangegeven, is er op geen enkele manier een beeld of overtuiging aan mijn zijde dat het BIT geen toegevoegde waarde zou hebben. Integendeel.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg29">Ik ben hierover ook in gesprek met de toezichtsraad van het BIT, ook naar aanleiding van de brief die zij aan de Kamer hebben gestuurd. Zij volgen dit proces kritisch. Ik ken hun standpunt op dit punt. In de hele afweging wil ik zowel de inbreng van de Kamer als de rapporten meenemen. Ik weet dat de leden van de toezichtsraad de uitkomsten meenemen in hun eigen afweging over hun eigen functioneren in die toezichtsraad. Dat hebben zij ook in hun brief gezet. Dat wachten we even af. Ik wil gewoon ordentelijk dat proces doorlopen en ik ben ervan overtuigd dat wij dan op het einde van dit jaar die conclusie kunnen trekken. Ik kan dan ook het oordeel over deze motie aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg30">De motie-Van der Molen op stuk nr. 613 past helemaal in die lijn, te weten het belang van het BIT. Wij komen met voorstellen en gaan kijken op welke manier die onafhankelijkheid gewaarborgd blijft en wordt, wat daarvoor nodig is en of er een wettelijke grondslag voor nodig is of niet. Dat hoort allemaal bij de scenario's die dan worden uitgewerkt en waarover u voor het einde van het jaar wordt geïnformeerd. Ook het oordeel over deze motie laat ik aan de Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg31">Helder, dank u wel. Ik dank de staatssecretaris voor zijn aanwezigheid.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg32">Dinsdag stemmen wij over de moties.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-29-tweedekamer-3.seg33">Tot zover dit debat. Ik schors vier minuten en dan gaan wij door met VAO Toerisme.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,126 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-09-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-09-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 5, Session 7 (2015-09-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 5, Session 7 (2015-09-23)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="5">Meeting 5</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="7">7 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="7">7 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="813">813 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="813">813 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-09-23">2015-09-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="10"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="7"/>
+               <tagUsage gi="note" occurs="19"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-09-23">2015-09-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Elektronische gegevensuitwisseling in de zorg</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg1">Het AO over dit onderwerp is gehouden op 18 juni, dus voor het zomerreces. Er hebben zich voor dit overleg twee sprekers gemeld. Drie woordvoerders hebben zich ingeschreven om de mogelijkheid te hebben om te interrumperen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg2">Ik heet de minister van Volksgezondheid, Welzijn en Sport van harte welkom.</seg>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg3">Ik kreeg net van de minister een speldje uitgereikt in het kader van Alzheimerweek. Ik zal het zo opspelden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg4">Voorzitter. Inderdaad hebben we op 18 juni het debat gevoerd over de elektronische gegevensuitwisseling. Daarover is heel veel gezegd door mijn collega Leijten. Er ligt ook een wet in de Eerste Kamer. Wat de SP betreft is uit dat debat één ding vooral naar voren gekomen, namelijk de kwestie van de kwaliteit van de beschikbare data. Uit het rapport van Human Inference blijkt dat de gegevens in bronregisters, zoals het BIG-register, niet optimaal zijn. Nummers van artsen ontbreken bijvoorbeeld, maar soms ontbreekt ook gewoon het adres. Daardoor is een goede koppeling van gegevens niet mogelijk. Human Inference doet wat aanbevelingen om dit op te lossen, maar een verdere analyse van de kwaliteit van data hebben we niet. Volgens de SP zou het juist wel goed zijn om zo'n analyse op te stellen. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat uit het rapport van Human Inference blijkt dat de kwaliteit van data in bronregisters van de overheid of namens de overheid beheerd niet goed genoeg was voor goede gegevensuitwisseling en gegevenskoppeling;</note>
+               <note>van mening dat het wenselijk is een overzicht te hebben van de kwaliteit van data in bronregisters;</note>
+               <note>verzoekt de regering, een bredere analyse te laten maken van de kwaliteit en volledigheid van bronregisters teneinde te weten wat de kwaliteit van data is,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kooiman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32620-163</note>
+            </u>
+            <u who="#LeendertdeLange" ana="#regular" xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg5">Tijdens het algemeen overleg is hierover uitgebreid gesproken. De minister heeft daarbij toegezegd dat er verbeteringen zouden komen. Het voorstel dat mevrouw Kooiman nu doet, lijkt toch een beetje op een verzoek, een analyse van de analyse te gaan maken. Ik ben het met mevrouw Kooiman eens dat het zou moeten gaan om de verbetering van de kwaliteit. Is het niet een veel beter idee om ervoor te zorgen dat de minister gewoon haar toezegging gaat uitvoeren, in plaats van nog eens een analyse van de analyse te gaan maken?</seg>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg6">Ik was natuurlijk niet zelf de woordvoerder tijdens het algemeen overleg. Mijn collega Leijten was daarbij aanwezig. Ik heb echter wel goed nagelezen wat er tijdens dat overleg is gezegd door bijvoorbeeld de heer De Lange en door mijn collega Leijten. Ik heb begrepen dat veel gemeenten tegen die gegevensuitwisseling aanhikken en dat AWBZ-dossiers niet altijd volledig zijn. Het zou volgens mij heel handig zijn als er zo'n grondige analyse komt. Je kunt wel zeggen dat er verbeteringen kunnen worden doorgevoerd, maar daar is toch altijd een grondige analyse voor nodig. Ik ben het echter met de heer De Lange eens. Laten we inderdaad goed luisteren naar wat de minister hierover te zeggen heeft. Ik ben natuurlijk heel benieuwd wat zij van deze motie vindt. Mogelijk kan zij daarbij ook reageren op de toevoeging van de heer De Lange.</seg>
+            </u>
+            <u who="#ReinetteKlever" ana="#regular" xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg7">Voorzitter. De PVV wil dat cruciale medische gegevens gemakkelijker en sneller toegankelijk worden, maar daarvoor hebben we geen LSP, geen landelijk schakelpunt nodig. Het LSP lost geen problemen op, maar creëert die juist, vanwege de grootschaligheid en het risico van privacyschending. Daarbij ontbreekt er in het LSP een heel belangrijke schakel, namelijk de patiënt zelf. De PVV denkt dat er goede alternatieven voor het LSP zijn, bijvoorbeeld in de vorm van een chipkaart die kan worden uitgelezen, of in de vorm van een app. Ik noem ook het recente initiatief van de Huisartsenkring Amsterdam en de UvA, de zogeheten Whitebox. De PVV wil niet dat het LSP een monopoliepositie krijgt. Mijn fractie wil alternatieven een kans geven. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>van oordeel dat er betere alternatieven zijn dan het grootschalige en onveilige LSP om noodzakelijke medische basisgegevens op te slaan c.q. toegang toe te "verlenen";</note>
+               <note>verzoekt de regering, onderzoek te doen naar mogelijke alternatieven voor het LSP, waaronder een chipkaart, een app, een zorgpas en de Whitebox, en de Kamer hierover te rapporteren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Klever. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32620-164</note>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg8">Voorzitter. In de motie op stuk nr. 163 verzoekt het lid Kooiman van de SP de regering, een bredere analyse te laten maken van de kwaliteit en volledigheid van het bronregister, teneinde te weten te komen wat de kwaliteit van data is. Dit is inderdaad uitgebreid aan de orde geweest in het AO. Human Inference doet technisch onderzoek naar datakwaliteit en samenhang tussen bronregisters. Conclusie van dat onderzoek is dat de datakwaliteit van elk afzonderlijk register goed is, maar dat de sleutelgegevens verbetering behoeven. Het gaat hier dus om gegevens die zorgen voor de samenhang tussen de registers en niet om gegevens op patiëntniveau. Belangrijke stap is het toevoegen van het handelsregisternummer aan het AGB-bestand. Zoals ik heb gemeld in het algemeen overleg wordt die stap nu uitgevoerd door Vektis. Derhalve ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg9">In de motie op stuk nr. 164 verzoekt mevrouw Klever van de PVV ons, onderzoek te doen naar mogelijke alternatieven voor het LSP, waarbij zij een aantal suggesties doet. Wij hebben al jaren geleden met elkaar geconstateerd dat de overheid niet verantwoordelijk is voor systemen, maar wel voor de randvoorwaarden waarbinnen gegevens worden uitgewisseld. Als iemand bepaalde zaken toe wil passen en die binnen de randvoorwaarden passen die de overheid heeft gesteld, dan vinden wij dat prima. Wij hebben al eens onderzoek gedaan, wat ik niet wil herhalen. Iedereen mag van start gaan, met welk systeem dan ook, als het maar aan de randvoorwaarden voldoet. Ik ontraad derhalve de motie.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2015-09-23-tweedekamer-7.seg10">Komende dinsdag zal over de ingediende moties worden gestemd.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,269 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-02-22 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-02-22 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 56, Session 14 (2018-02-22)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 56, Session 14 (2018-02-22)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="56">Meeting 56</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="14">Session 14</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="42">42 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="42">42 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2191">2191 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2191">2191 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-02-22">2018-02-22</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="47"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="42"/>
+               <tagUsage gi="note" occurs="55"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-02-22">2018-02-22</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>RBZ/Handel</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u1">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg1">Ik heropen de agenda. We gaan verder met het VSO RBZ/Handel. Ik geef mevrouw Becker namens de VVD het woord.</seg>
+            </u>
+            <u who="#BenteBecker" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u2">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg2">Het VAO is aangevraagd door mevrouw Diks.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u3">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg3">Doe ik iets verkeerd? Op mijn lijst staat mevrouw Becker op 1 en mevrouw Diks op 2. Maar als mevrouw Diks de aanvrager is, is zij inderdaad de eerste spreker. Het woord is aan mevrouw Diks.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u4">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg4">Dank u wel, voorzitter. Ik heb drie moties in te dienen, dus ik ga meteen beginnen met het voorlezen daarvan.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat 77% van de claims vanuit Nederland op basis van ISDS-geschillenbeslechting op basis van handelsakkoorden afkomstig is van brievenbusfirma's;</note>
+               <note>overwegende dat het onwenselijk is dat bedrijven die hun economische bedrijvigheid niet hoofdzakelijk in Nederland uitvoeren, maar slechts hun zetel hier hebben gevestigd, gebruik kunnen maken van investeringsgeschillenbeslechting die bedoeld is om investeringen van Nederlandse bedrijven te beschermen;</note>
+               <note>verzoekt de regering, brievenbusfirma's in alle toekomstige handelsakkoorden uit te sluiten van investeringsgeschillenbeslechting,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Diks en Van den Hul. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-1829</note>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u5">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg5">Dan nu de motie over het opzeggen van investeringsakkoorden met EU-lidstaten.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat Nederland nog altijd bilaterale investeringsakkoorden met andere EU-lidstaten heeft, die ook investeringsbeslechtingsbepalingen bevatten;</note>
+               <note>verzoekt de regering de nog bestaande bilaterale investeringsakkoorden tussen Nederland en andere EU-lidstaten onverwijld op te zeggen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Diks en Alkaya. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-1830</note>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u6">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg6">En dan mijn laatste motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat op basis van de onderhandelingsrichtsnoeren voor het voorgenomen multilateraal investeringshof een gerecht wordt gecreëerd waartoe investeerders wel toegang hebben, maar EU-burgers en belangenorganisaties niet;</note>
+               <note>verzoekt de regering niet in te stemmen met het aanvangen van onderhandelingen voor een multilateraal investeringshof op basis van voorliggende onderhandelingsrichtsnoeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Diks en Van den Hul. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-1831</note>
+            </u>
+            <note>Dank u wel, mevrouw Diks. Dan ga ik nu naar mevrouw Becker namens de VVD.</note>
+            <u who="#BenteBecker" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u7">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg7">Dank u wel, voorzitter. We hebben een onderwerp aan de orde gehad bij het SO Handel, namelijk mededeling en verordening investeringstoets. We hebben daar ook een vragenronde over gehad. Het is echter zo'n technisch onderwerp met zo veel aspecten dat ik de rest van mijn spreektijd ga gebruiken om een uitgebreide motie hierover voor te lezen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Europese Commissie een raamwerk voorstelt voor nationale toetsingsmechanismes voor inkomende investeringen van buiten de EU die kunnen raken aan openbare orde en veiligheid;</note>
+               <note>overwegende dat de verordening de Commissie de zelfstandige bevoegdheid zou geven inkomende investeringen te toetsen en lidstaten te adviseren hoe hiermee om te gaan;</note>
+               <note>overwegende dat een open en aantrekkelijk handels- en investeringsklimaat in het belang is van Nederlandse welvaart en banen;</note>
+               <note>overwegende dat voorkomen moet worden dat de nieuwe verordening leidt tot extra bureaucratie en hindernissen rond wenselijke investeringen of wordt gebruikt als wapen tussen lidstaten om investeringen elders te verhinderen;</note>
+               <note>van mening dat we tegelijkertijd niet naïef moeten zijn over mogelijke gevolgen van staatsgesteunde investeringen dan wel overnames van buiten de EU binnen onze vitale sectoren, en dat Europese samenwerking hierbij wel een meerwaarde kan hebben;</note>
+               <note>verzoekt de regering er in de EU op in te zetten dat de verordening zich beperkt tot zaken die daadwerkelijk openbare orde en veiligheid raken, dat lidstaten de uiteindelijke beslissingsbevoegdheid behouden over het screenen van investeringen en dat alsnog een onderzoek wordt gedaan door de Commissie naar de impact van de verordening, alvorens hierover een definitief besluit wordt genomen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Becker. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-1832</note>
+            </u>
+            <note>Dank u wel. Dan ga ik nu naar de heer Bouali namens D66.</note>
+            <u who="#AchrafBouali" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u8">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg8">Dank u wel, mevrouw de voorzitter. Allereerst hartelijk dank aan de minister en haar ambtenaren dat zij zo snel onze schriftelijke vragen hebben beantwoord. Het ging er deze week allemaal nogal rap aan toe en daar kwam gisteren ook nog eens een technische briefing bij, die ook fantastisch was. Heel veel dank daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg9">Ik zal vandaag geen moties indienen. We hebben met tevredenheid de geannoteerde agenda voor deze Raad gelezen en met die inzet is mijn fractie zeer tevreden. Ik heb op dit moment geen behoefte om die verder aan te scherpen. Ik wil wel wat zeggen over het gevaar van het Amerikaanse protectionisme voor de open wereldhandel, waar wij als ultiem handelsland zo ongelofelijk veel belang bij hebben. Ik ben blij dat de minister aangeeft dat ook zij in haar bilaterale contacten met de collega's uit de Verenigde Staten zal zoeken naar oplossingen voor het gevaar dat uitgaat van het protectionisme van de Trumpregering. We hebben deze week gezien waar protectionisme toe kan leiden, in dit geval voor de Nederlandse staalindustrie. Dat is een helder voorbeeld van wat er gebeurt als je je als land achter de dijken terugtrekt en de rest van de wereld probeert buiten te sluiten. Dat moeten we niet hebben. Ik ben daarom blij dat deze minister dat ook zelf aan de Amerikanen duidelijk zal maken en dat niet enkel overlaat aan de Europese Commissie. Daarvoor is dit echt te belangrijk.</seg>
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg10">Ook wil ik hier nog even uitspreken dat ik verheugd ben met het antwoord van de minister dat zij bereid is met mij verder te kijken of we het concept van de zogenaamde Holland Houses internationaal verder kunnen brengen. Dit is een mooie publiek-private samenwerking die wat mij betreft navolging verdient en een aanvulling kan zijn op ons internationaal handelsinstrumentarium. Ik kijk ernaar uit om daar verder over te spreken. Daar houd ik het vandaag bij, mevrouw de voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u9">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg11">Dank u wel, meneer Bouali. Dan ga ik nu tot slot naar de heer Alkaya namens de SP.</seg>
+            </u>
+            <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u10">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg12">Dank, voorzitter. Twee punten, allereerst over de investeringstoets. Natuurlijk is het zorgwekkend dat bedrijven overal in Europa opgekocht worden door buitenlands kapitaal. Er moet ook getoetst worden of dat wel verantwoord is, maar hier hebben wij Brussel niet voor nodig. Vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Europese Commissie een verordening voorbereidt die lidstaten verplicht buitenlandse investeringen te toetsen en zichzelf de bevoegdheid geeft om lidstaten hierover te adviseren;</note>
+               <note>van mening dat het beoordelen van buitenlandse investeringen een bevoegdheid van de lidstaten is en dat de Europese Commissie hierin geen rol dient te spelen;</note>
+               <note>verzoekt de regering zich in de Raad in te spannen om de aanstaande verordening voor een van bovenaf opgelegde investeringstoets van tafel te krijgen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Alkaya. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-1833</note>
+            </u>
+            <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u11">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg13">Daarnaast, voorzitter, een stukje toelichting. Mijn tweede punt is dat je mag verwachten dat de rechtsstaat van een land dat lid mag worden van de Europese Unie op orde is. Bilaterale investeringsverdragen binnen de EU met ISDS-clausules zijn onnodig en leiden tot onwenselijke claims tegen lidstaten. Daarom steun ik de motie van mevrouw Diks zoals zij die heeft toegelicht.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u12">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg14">Dank u wel, meneer Alkaya. Dat waren de moties. Dan wachten we ongeveer vijf minuten totdat alle moties zijn gekopieerd en rondgedeeld.</seg>
+            </u>
+            <note>De vergadering wordt van 17.13 uur tot 17.16 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u13">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg15">Ik geef de minister het woord.</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u14">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg16">Dank u wel, mevrouw de voorzitter. De motie-Diks/Van den Hul op stuk nr. 1829 neem ik graag over. Het kabinet werkt aan een nieuwe modeltekst, met als doel de Nederlandse investeringsakkoorden te heronderhandelen. Het kabinet zal in deze onderhandelingen ook inzetten op het uitsluiten van bescherming van brievenbusmaatschappijen. Dat gebeurt ook in de EU-investeringsakkoorden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u15">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg17">Dan kijk ik rond of iemand bezwaar heeft tegen het overnemen van de motie op stuk nr. 1829. Mevrouw Becker.</seg>
+            </u>
+            <u who="#BenteBecker" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u16">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg18">Ik heb even wat meer tijd nodig om de gevolgen van deze motie te overzien. Dus ik zou daar graag over willen stemmen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u17">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg19">Dan wordt de motie in stemming gebracht.</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u18">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg20">Dankzij mevrouw Becker nog één caveat. Ik weet even niet meer of ik in de laatste zes uur dit puntje heb genoemd: wij werken in het kabinet aan een nieuwe modeltekst met als doel om de Nederlandse investeringsakkoorden te heronderhandelen en daar past dit gewoon helemaal in. Dit is conform het regeerakkoord.</seg>
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg21">Dan de motie-Diks op stuk nr. 1830 over het opzeggen van handelsakkoorden met EU-lidstaten. Ik wilde eerst melden, zoals mevrouw Diks waarschijnlijk goed weet, dat we samen met andere lidstaten en de Europese Commissie onderzoeken welke mogelijkheden er bestaan om Europese investeringsakkoorden met andere EU-lidstaten op een ordelijke manier op te zeggen, zonder dat afbreuk wordt gedaan aan de rechten en plichten van investeerders. Als ik de motie zo mag lezen dat de investeringsakkoorden met andere EU-lidstaten pas worden beëindigd als ik kan garanderen dat de rechten en plichten van investeerders worden geborgd, dan kan ik de motie overnemen. Als ik de motie niet op die manier kan lezen, moet ik haar helaas ontraden, want in de ogen van in het bijzonder het bedrijfsleven biedt het EU-acquis in deze landen op dit moment onvoldoende rechtszekerheid. Dus ik denk dat het een kwestie is van transitie.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u19">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg22">Ik snap heel goed wat de minister zegt. Het enige probleem is natuurlijk wel dat die investeringsakkoorden nu de mogelijkheid geven aan bedrijven om op basis van ISDS andere staten aan te klagen. Het lastige vind ik dit: er zijn een aantal voorbeelden uit bijvoorbeeld Kroatië waarbij natuur opgeofferd zou kunnen worden omdat er geen grond is om dat tegen te houden. Ik weet niet of het ... Als ik de motie zou willen aanpassen ... Ik zit even te denken hoe ik de minister tegemoet kan komen. Als u zegt: we kunnen hem pas opzeggen op het moment dat alles is geregeld, bedoelt u dan de bedrijven die vandaag aanspraak op deze handelsakkoorden maken of bedrijven die daar op enig moment aanspraak op willen maken?</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u20">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg23">We zijn met een onderzoek bezig, dus misschien kan ik uw vraag niet naar alle eerlijkheid volledig beantwoorden. Het is een onderzoek. Misschien is het de beste manier als u de motie kunt aanhouden. Dan kan er nog even beter worden gekeken wat de gevolgen zouden kunnen zijn, want we zetten in op acquis voor het bedrijfsleven, we willen een goede transitie en tegelijkertijd zetten we ook in op opzegging. Het gaat dus mijns inziens om het tijdspad en om wat de gevolgen zijn. We moeten daar geen gaten in laten vallen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u21">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg24">Wat doet u met de motie, mevrouw Diks?</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u22">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg25">Voorzitter. Dan houd ik haar graag aan, want dan wacht ik graag de schriftelijke reactie af van de minister.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u23">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg26">Op verzoek van de heer Alkaya stel ik voor zijn motie (21501-02, nr. 1830) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg27">Daartoe wordt besloten.</seg>
+            </u>
+            <note>Dan de motie op stuk nr. 1831.</note>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u24">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg28">De motie-Diks/Van den Hul op stuk nr. 1831. Ik wil graag nog even onderstrepen dat het multilaterale investeringshof de bedoeling heeft, te zorgen voor een verbetering van bestaande mechanismen voor geschillenbeslechting. Het moet natuurlijk ook zorgen voor transparante of meer transparante en onafhankelijke procedures, zonder dat er inbreuk wordt gemaakt op de rechtsmacht van de nationale rechter. Andere zorgen over investeringsbescherming, zoals die net al zijn benoemd in het tweede deel van de motie op stuk nr. 1829 — het gebruik door brievenbusmaatschappijen en de gebondenheid van investeerders aan duurzaamheidsafspraken — zullen worden geadresseerd in de nieuwe Nederlandse investeerdersakkoorden. Daarnaast zet het kabinet in op het feit dat maatschappelijke organisaties zich zouden moeten kunnen voegen in procedures tussen investeerder en de staat, als zij menen dat hun belangen worden geraakt, maar dit gezegd hebbend, moet ik deze motie zoals nu geformuleerd, ontraden.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u25">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg29">Ik begrijp wat de minister zegt. Ik vind het in ieder geval zeer te waarderen dat de minister inzet op het mogelijk maken dat ngo's en maatschappelijke organisatie ingevoegd kunnen worden, maar dat is voor mij toch onvoldoende. Wij zijn gewoon tegen het feit dat zo'n mic eventueel opgericht kan worden. Ik handhaaf de motie dus.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u26">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg30">Dat is uw goed recht. Dan gaan we naar de motie op stuk nr. 1832.</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u27">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg31">Dat is de motie over de investeringstoets. Ik kijk even of ik de juiste motie voor me heb. De motie is van mevrouw Becker. Ik zie deze motie als ondersteuning van bestaand beleid. Wij zetten er als kabinet echt op in tijdens de raadswerkgroepen dat de verordening zich beperkt tot buitenlandse investeringen die de openbare orde en veiligheid raken. Dat is dus echt een inperking. We willen ook graag dat de beslissingsbevoegdheid van de lidstaten ten aanzien van de toetsen van investeringen zelf niet wordt ingeperkt. Dus we beperken de commissie en we zorgen ervoor dat wij alle ruimte behouden. We hebben ons al ingezet voor een volledige impactanalyse. Daar was helaas geen meerderheid voor. Maar de commissie heeft wel toegezegd dat er aanvullend onderzoek komt naar de impact van de verordening. Hoe een aanvullend onderzoek en een volledige analyse zich tot elkaar verhouden, is niet helemaal helder, eerlijk gezegd. Daar moeten we even naar kijken, maar wij blijven ons inzetten voor zo veel mogelijk informatie en inzicht om te zien wat er nu wel gebeurt. We zien ook het belang van informatie-uitwisseling over inkomende buitenlandse investeringen op Europees niveau, maar er is nog een aantal vragen die al eerder zijn verwoord en beantwoord in de BNC-fiche. Ik neem de motie als ondersteuning van bestaand beleid graag over.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u28">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg32">De motie op stuk nr. 1833? Ik ga eerst rondkijken of iemand daar bezwaar tegen heeft. Dat is niet het geval. Dan is bij dezen de motie op stuk nr. 1833 van lid Alkaya overgenomen.</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u29">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg33">Mevrouw de voorzitter ...?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u30">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg34">Kijk, dat gebeurt hier. O, het is de motie op stuk nr. 1832? Maar dat was toch oordeel Kamer? En de motie op stuk nr. 1833?</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u31">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg35">Ik ga nu naar de motie op stuk nr. 1833.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u32">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg36">O, dan heb ik het verkeerd. En u was zo blij, maar het is mijn schuld. De minister heeft het woord.</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u33">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg37">Ik heb een beetje een probleem met deze motie. Het is namelijk zo dat de Europese Commissie alleen een adviserende rol heeft over de verordening. De lidstaten behouden de beslissingsbevoegdheid. Ik kan de motie niet goed beoordelen, want er staat dat het beoordelen van buitenlandse investeringen een bevoegdheid van de lidstaten moet zijn. Dat is het al. Er staat ook dat de Europese Commissie hierin geen rol dient te spelen. Dat klopt, als ik de motie zo lees dat de Europese Commissie adviserend is. Het verzoek aan de regering is om zich in te spannen om de aanstaande verordening voor een bovenaf opgelegde investeringstoets van tafel te krijgen. Dat is het dus niet, want het is adviserend en wij behouden onze bevoegdheid. Als de motie wordt aangepast, past het eigenlijk meer in de eerdere motie. Sowieso sluit de motie niet aan op de werkelijkheid van de Europese Commissie. Ik moet de motie dus ontraden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u34">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg38">De heer Alkaya.</seg>
+            </u>
+            <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u35">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg39">Dank, voorzitter. Op meerdere terreinen maken wij mee dat de Europese Commissie de randen opzoekt en over terreinen waarover ze eigenlijk geen bevoegdheid heeft, toch een soort adviserende rol opeist, of best practices tussen de lidstaten wil faciliteren. In dat opzicht eist ze toch een rol voor zichzelf op. Dat vind ik onwenselijk op dit terrein. Misschien zou de minister hierover een waardeoordeel kunnen geven. Vindt zij het wel wenselijk dat de Europese Commissie zich ook op dit terrein tegen Nederland aan gaat bemoeien?</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u36">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg40">Ik denk dat dit een bredere vraag is over de rol van de Commissie. De Commissie is adviserend. Wij behouden ons recht dat mee te nemen of niet. Er is niets mis met best practices en informatie-uitwisseling. Dat legt ons niets op. In dat geval kan ik me niet vinden in deze motie en ontraad ik deze. Daarom zei ik dat wij vrij zijn om een investeringstoets te doen of niet. We zijn vrij om het advies van de Commissie over te nemen of niet. Het is aan ons. Zoals het verwoord is in de motie sluit het niet aan bij de realiteit zoals wij die kennen in de juridische kaders.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u37">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg41">Tot slot.</seg>
+            </u>
+            <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u38">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg42">De minister is toch ook politicus, niet alleen maar jurist.</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u39">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg43">Ik ben geen jurist.</seg>
+            </u>
+            <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u40">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg44">Kijk, we zien hier een salamitactiek en dat vind ik onwenselijk. Ik vind het onwenselijk dat de Commissie hier een adviserende rol opeist. Wie weet wat de volgende stap is? Dus ik handhaaf deze motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u41">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg45">Als u een motie indient en u trekt die niet in, dan komt die automatisch in stemming.</seg>
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg46">Dan ga ik terug naar de motie van mevrouw Becker op stuk nr. 1832. De minister heeft gezegd dat zij bereid is om die motie over te nemen. Ik kijk rond of iemand daar bezwaar tegen heeft. Nee? Dan is bij dezen deze motie overgenomen.</seg>
+            </u>
+            <note>De motie-Becker (, nr. ) is overgenomen.</note>
+            <note>Dank u wel. Daarmee zijn we ook aan het einde gekomen van dit VAO.</note>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.u42">
+               <seg xml:id="ParlaMint-NL_2018-02-22-tweedekamer-14.seg47">Over de ingediende moties zullen we over twintig minuten stemmen. Ik schors de vergadering.</seg>
+            </u>
+            <note>De vergadering wordt van 17.27 uur tot 17.53 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,152 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-04-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-04-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 73, Session 6 (2015-04-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 73, Session 6 (2015-04-08)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="73">Meeting 73</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="12">12 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="12">12 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1650">1650 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1650">1650 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-04-08">2015-04-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="19"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="12"/>
+               <tagUsage gi="note" occurs="26"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-04-08">2015-04-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Staat van bestuur Aruba, Curaçao en Sint-Maarten</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg1">Ik heet alle aanwezigen in de zaal, de mensen op de publieke tribune en niet in de laatste plaats de minister van Binnenlandse Zaken en Koninkrijksrelaties van harte welkom, en natuurlijk de mensen die hier niet fysiek aanwezig zijn maar die op een andere manier dit debat volgen. Ik geef in dit VAO als eerste het woord aan de heer Van Raak van de SP.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg2">Voorzitter. Ik ben trots dat Curaçao en Sint-Maarten onderdeel willen zijn van ons Koninkrijk, maar dat geeft ons ook een verantwoordelijkheid voor de mensen op die eilanden, zeker als het gaat om goed bestuur. We hebben daarover een overleg gehad. Ik dien hierover vandaag graag twee moties in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er toenemende aanwijzingen zijn van infiltratie van crimineel geld in het bestuur van Curaçao en Sint-Maarten;</note>
+               <note>constaterende dat deze praktijken nadelig zijn voor de internationale positie en reputatie van alle landen in het Koninkrijk;</note>
+               <note>constaterende dat alle landen in het kader van het Koninkrijk een verantwoordelijkheid hebben voor goed bestuur in de verschillende landen;</note>
+               <note>overwegende dat geldstromen zich niet beperken tot de landen van het Caribische deel van het Koninkrijk, maar ook tussen deze landen en met landen buiten het Koninkrijk;</note>
+               <note>verzoekt de regering, in het kader van het Koninkrijk een onderzoek mogelijk te maken naar de (illegale) geldstromen tussen onder- en bovenwereld op Curaçao en Sint-Maarten, tussen deze landen en met landen buiten het Koninkrijk;</note>
+               <note>verzoekt de regering tevens, hierbij in het bijzonder aandacht te besteden aan de invloed en het optreden van de (illegale) gokindustrie,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat in oktober 2011 een grootschalige diefstal van gegevens heeft plaatsgevonden bij de geheime dienst van Curaçao (VDC);</note>
+               <note>constaterende dat hierbij mogelijk informatie is ontvreemd afkomstig van andere geheime diensten, waaronder de AIVD;</note>
+               <note>constaterende dat een aantal klokkenluiders van de VDC bereid is in beslotenheid hun verhaal te doen tegenover de Tweede Kamer;</note>
+               <note>constaterende dat hiervoor toestemming nodig is van de regering van Curaçao;</note>
+               <note>verzoekt de regering, contact op te nemen met de regering van Curaçao om te bezien hoe eventuele drempels voor een besloten hoorzitting kunnen worden weggenomen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Raak en Bosman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31568-156</note>
+               <note>Deze motie is voorgesteld door de leden Van Raak, Segers en Oskam. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31568-157</note>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg3">Voorzitter. De VVD heeft grote zorgen over de staat van het bestuur op Aruba, Curaçao en Sint-Maarten. De verwevenheid van de onderwereld en de bovenwereld is groot. Dat geeft rapport na rapport maar weer aan. Nog veel zorgelijker is de indicatie welke kant het opgaat met bijvoorbeeld Sint-Maarten blijkens het gebrek aan initiatief om zaken op te pakken. De integriteitskamer zou iets moeten zijn wat je met twee handen aanpakt, niet alleen op Sint-Maarten maar ook op Curaçao en op Aruba.</seg>
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg4">Ik mag naar aanleiding van een gerechtelijke uitspraak alleen nog maar op basis van feiten uitspraken doen. Daarom wil ik dat die feiten ook zichtbaar zijn. "Follow the money" is dan het meest simpele systeem. Daarom dien ik samen met collega Van Raak de motie in om geldstromen inzichtelijk te maken. Geldstromen laten belangen zien. Die belangen zitten in de gokindustrie, in het witwassen en in de vrouwenhandel, om maar een paar sectoren te noemen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg5">De focus in deze motie ligt vooral op Curaçao en Sint-Maarten, maar ik kan me voorstellen dat Aruba zich daar van harte bij gaat aansluiten. Want als goed bestuur heb je toch niets te verbergen en heb je alle ambitie om het beter te maken? Ook dit is weer een lakmoesproef ten aanzien van goed bestuur en integriteit. Blijft het bij mooie woorden in de Caribische landen in het Koninkrijk of gaan ze ook over tot daden? Immers, the proof of the pudding is in the eating.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg6">Er hebben zich verder geen sprekers gemeld. Ik stel voor dat wij gelijk doorgaan naar de minister van Binnenlandse Zaken en Koninkrijksrelaties voor zijn reactie op de ingediende moties.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg7">Voorzitter. Tijdens het algemeen overleg bleek dat zorgen over de staat van het bestuur in de landen van het Koninkrijk in de Kamer breed gedeeld worden. Ik heb toen ook al gezegd dat ik die zorgen deel en dat ik een bijdrage wil leveren om daar het een en ander aan te doen. Door de heer Bosman werd bijvoorbeeld de integriteitskamer op Sint-Maarten specifiek genoemd. Zoals de Kamer weet, zijn we ook bezig deze in te richten en zijn we zelfs bereid om hiervoor significante middelen vrij te maken in het budget van het ministerie van BZK. Ik hoop dat de integriteitskamer zodanig kan worden ingericht dat deze — los van het politieke bestuur van het moment —in staat is om toe te zien op de naleving van de integriteit.</seg>
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg8">Ik beperk mij tot de moties. In de motie-Van Raak/Bosman op stuk nr. 156 wordt de regering opgeroepen om in het kader van het Koninkrijk een onderzoek mogelijk te maken naar de illegale geldstromen en om daarbij vooral aandacht te besteden aan de gokindustrie. Deze motie lijkt mij een ondersteuning van het regeringsbeleid, dus ik laat het oordeel over deze motie graag over aan uw Kamer. Ik zou de motie zelfs nog breder willen trekken in die zin dat niet alleen de gokindustrie, maar ook drugs, smokkel en vrouwenhandel erbij betrokken worden. Het gaat om alle onderdelen waar de onderwereld raakt aan de bovenwereld. Ik zie ook met instemming dat in de overwegingen dit als een verantwoordelijkheid in het kader van het Koninkrijk wordt gezien. Hier hoort het ook te liggen. Ik beschouw het als een aanmoediging om door te gaan met waar we mee bezig zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg9">Ik wil er twee kanttekeningen bij plaatsen. De eerste is dat ik hier slechts namens de regering van Nederland kan spreken, dus daar waar in de motie wordt gevraagd om een aan de ordestelling in koninkrijksverband zal het ook daar in de rijksministerraad moeten gebeuren, maar ik zal mij daarvoor inspannen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg10">De tweede kanttekening is dat ik al eerder heb gezegd dat ik op zichzelf bereid ben om te zoeken naar budget. Dit zeg ik niet alleen maar om taken op te noemen. Ik ben bereid om ook een Nederlandse bijdrage te leveren aan de hele keten van de rechtshandhaving, inclusief de kustwacht, de douane, de politie en het OM. Maar dat budget heb ik niet zomaar. Zoals de Kamer weet, is de regering eerder op zoek naar budget om gaten te dichten dan dat er zomaar geld vrijkomt. Ik kan het dus niet op voorhand garanderen. Ik kan mij daar alleen maar voor inspannen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg11">Met die twee kanttekeningen laat ik het oordeel over deze motie graag aan de Kamer.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg12">Hartelijk dank daarvoor! De minister begon over de integriteitskamer. Dat soort zaken zijn bedoeld om te voorkomen dat corrupte politici in functie komen. Dat is natuurlijk dweilen, maar ik probeer met deze motie om de kraan dicht te draaien wat betreft het foute geld. Ik ben dus ontzettend blij met de toezegging van de minister dat hij in het kader van het Koninkrijk contact zal opnemen met Curaçao, Sint-Maarten en misschien ook wel met Aruba. Maar de inzet moet dan zijn dat we bekijken hoe we gezamenlijk die geldstromen, dat foute geld in kaart gaan brengen. Daarbij gaat het natuurlijk niet alleen over de gokindustrie maar bijvoorbeeld ook over prostitutie, vrouwenhandel, drugshandel; de minister weet het. We moeten ook bekijken hoe we dit in koninkrijksverband kunnen aanpakken, zodat we ervoor kunnen zorgen dat het foute geld uit de politiek verdwijnt.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg13">Ja. Ik voeg er overigens aan toe dat het initiatief niet altijd bij Nederland ligt. Bijvoorbeeld de minister van Justitie op Curaçao, de heer Navarro, is ook vaak degene die het voortouw neemt, juist in koninkrijksverband, en ook tegen Nederland zegt: ik zie hier een serieus probleem, kunnen we op dit punt samenwerken? De initiatieven komen dus vaak van verschillende kanten en niet alleen maar uit Den Haag.</seg>
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg14">Voorzitter. Ik kom op de motie-Van Raak c.s. op stuk nr. 157. Daar kijk ik toch wat anders tegenaan. Allereerst is de constatering over een eventuele grootschalige diefstal door mij niet bevestigd. Ik heb ook tijdens het algemeen overleg gezegd: wij spreken niet publiekelijk over het delen van informatie door de AIVD; laat staan over wat er in het vervolg al dan niet mee gebeurd zou zijn. Het verzoek zou ik toch willen ontraden. Als ik het goed heb begrepen, is de essentie daarvan dat de Nederlandse Tweede Kamer in gesprek zou willen met buitenlandse klokkenluiders die wellicht zelfs in dienst zijn of waren van de veiligheidsdienst van een ander land. Ik ga niet over dat gesprek van de Kamer. Ik heb al eerder gezegd dat ik, als ik faciliterend een rol kan spelen en kan zorgen voor koffie met broodjes, dat met alle plezier doe, maar dat ik er verder graag buiten wil blijven. Stel dat er sprake is van de omgekeerde situatie en dat een ander land vraagt of ik bereid ben medewerkers of oud-medewerkers van bijvoorbeeld de AIVD voor een hoorzitting naar dat andere land te sturen. Dat zou dan eigenaardig worden gevonden; laat ik het voorzichtig formuleren. Ik ontraad daarom deze motie, maar dus wel met alle begrip voor de achterliggende motieven.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg15">De minister kan niet alles zeggen, maar wij kunnen natuurlijk wel veel onderzoeken. Curaçao is een ander land, maar het is toch geen buitenland. Ik wil dat de Tweede Kamer op de een of andere manier het onderzoek dat ik ben gestart, kan voortzetten. Er zijn klokkenluiders die ons graag willen spreken, maar dat kan alleen maar als de regering van Curaçao daartoe toestemming heeft gegeven. Ik wil graag dat deze commissie dat verzoek doet en ik zou dat in eerste instantie het liefst via de koninklijke weg doen, namelijk via onze regering, i.c. de minister. Dat is de reden waarom de regering in de motie wordt gevraagd om de minister contact op te laten nemen met de regering van Curaçao, in het bijzonder met de heer Asjes, om te bezien of er een mogelijkheid is dat de Tweede Kamer klokkenluiders kan spreken. Het is dan niet de verantwoordelijk van de minister dat dat gebeurt, want het besluit daartoe moet aan de overkant in Curaçao worden genomen. Ik zou het wel fijn vinden dat de minister de Tweede Kamer toezegt dat hij haar zal helpen om dat gesprek mogelijk te maken.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg16">De vier landen vormen samen één Staat, het Koninkrijk der Nederlanden, maar het zijn wel vier landen waarover nauwkeurig is vastgelegd wat wel of niet een landstaak is en de veiligheidsdiensten behoren tot de landstaken. De veiligheidsdienst van Curaçao is dus inderdaad volledig een landsaangelegenheid van het land Curaçao. Als de Tweede Kamer in gesprek wil met mensen van de veiligheidsdienst daar, is dat een ongebruikelijk figuur, maar het is aan de Tweede Kamer om daartoe een verzoek te doen. De heer Van Raak suggereert verder dat ik de minister-president van Curaçao zou vragen om daarmee akkoord te gaan. Daarover zou ik willen zeggen: wat gij niet wilt dat u geschiedt, doet dat ook een ander niet. Als ik een dergelijk verzoek zou krijgen van de minister-president van Curaçao, zou mij dat zeer bevreemden en ik denk ook niet dat er ruimte zou zijn om daarin te bewilligen. Daarom wil ik dat zelf ook niet vragen, juist in het kader van de gelijkwaardigheid binnen het Koninkrijk. Ik wil de heer Van Raak dus ontraden mij te verzoeken omdat aan premiers Asjes te verzoeken.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg17">Ik ga het verzoek toch doen.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg18">Dat is aan u.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2015-04-08-tweedekamer-6.seg19">De stemmingen over de ingediende moties vinden komende dinsdag plaats.</seg>
+            </u>
+            <note>De vergadering wordt van 16.00 uur tot 17.02 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

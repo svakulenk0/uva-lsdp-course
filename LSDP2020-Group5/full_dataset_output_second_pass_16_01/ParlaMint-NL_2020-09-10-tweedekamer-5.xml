@@ -1,0 +1,112 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-09-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-09-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 100, Session 5 (2020-09-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 100, Session 5 (2020-09-10)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="100">Meeting 100</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="1">1 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="1">1 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="778">778 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="778">778 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-09-10">2020-09-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="25"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-09-10">2020-09-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg1">Dan is nu aan de orde de regeling van werkzaamheden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg2">Ik stel voor toe te voegen aan de agenda van de Kamer:</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg3">het VSO Ministeriële regeling ter implementatie van de kaderrichtlijn afvalstoffen (35267, nr. 21), met als eerste spreker mevrouw Kröger namens de fractie van GroenLinks;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg4">het VSO Verkeersveiligheid (29398, nr. 843), met als eerste spreker de heer Van Aalst namens de fractie van de PVV;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg5">het VSO Spoorveiligheid/ERTMS (29893, nr. 247), met als eerste spreker de heer Van Aalst namens de fractie van de PVV;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg6">het VSO Nucleaire veiligheid (25422, nr. 268), met als eerste spreker mevrouw Kröger namens de fractie van GroenLinks;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg7">het VSO Inzet en vergoeding van de psychodiagnostisch werkende (PDW) in de geestelijke gezondheidszorg (25424, nr. 550), met als eerste spreker de heer Regterschot namens de fractie van de VVD;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg8">het VSO Beleidsreactie slachtoffermonitor seksueel geweld tegen kinderen 2017-2018 (31015, nr. 202), met als eerste spreker mevrouw Westerveld namens de fractie van GroenLinks;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg9">het VSO Jaarbeeld 2019 en Klachtbeeld 2019 van de Inspectie Gezondheidszorg en Jeugd (33149, nr. 62) met als eerste spreker mevrouw Westerveld namens de fractie van GroenLinks;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg10">het VAO Spoorordening, met als eerste spreker de heer Laçin namens de fractie van de SP;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg11">het VSO Concept-Uitvoeringsbesluit Wtza, concept-wijziging BUB Wmg, concept-AMvB acute zorg (29247, nr. 316), met als eerste spreker mevrouw Van den Berg namens de fractie van het CDA;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg12">het wetsvoorstel Wijziging van de Wet op het financieel toezicht, de Wet ter voorkoming van witwassen en financieren van terrorisme, de Wet toezicht trustkantoren 2018 en enige andere wetten in verband met het herstel van gebreken en omissies bij de implementatie van Europese regelgeving op het terrein van de financiële markten (Herstelwet financiële markten 2020) (35440);</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg13">het wetsvoorstel Goedkeuring van het op 22 oktober 2015 te Riga tot stand gekomen Aanvullend Protocol bij het Verdrag van de Raad van Europa ter voorkoming van terrorisme (Trb. 2016, 180) (35381-(R2143));</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg14">het wetsvoorstel Wijziging van de Uitleveringswet, het Wetboek van Strafrecht BES en het Wetboek van Strafvordering ter uitvoering van het Aanvullend Protocol bij het Verdrag van de Raad van Europa ter voorkoming van terrorisme (35382);</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg15">het wetsvoorstel Wijziging van het Wetboek van Strafrecht BES ter uitvoering van het op 4 april 2014 te Montreal tot stand gekomen Protocol tot wijziging van het Verdrag inzake strafbare feiten en bepaalde andere handelingen begaan aan boord van luchtvaartuigen (Trb. 2019, 140 en Trb. 2020, 3) (35390);</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg16">het wetsvoorstel Goedkeuring van het op 4 april 2014 in Montreal tot stand gekomen Protocol tot wijziging van het Verdrag inzake strafbare feiten en bepaalde andere handelingen begaan aan boord van luchtvaartuigen (Trb. 2019, 140 en Trb. 2020, 3) (35391-(R2144));</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg17">het wetsvoorstel Wijziging van de Wet verplichte geestelijke gezondheidszorg en de Wet zorg en dwang psychogeriatrische en verstandelijk gehandicapte cliënten teneinde de uitvoerbaarheid op punten te vergroten en enkele technische onvolkomenheden en omissies te herstellen (35456);</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg18">het wetsvoorstel Wijziging van de Zorgverzekeringswet in verband met het vereenvoudigen van de wanbetalersbijdrage (35362);</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg19">het wetsvoorstel Uitvoering van Verordening (EU) 2017/352 van het Europees Parlement en de Raad van 15 februari 2017 tot vaststelling van een kader voor het verrichten van havendiensten en gemeenschappelijke regels inzake de financiële transparantie van havens (PbEU 2017, L 57) (Uitvoeringswet EU-zeehavenverordening) (35463);</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg20">het wetsvoorstel Wijziging van de Wegenverkeerswet 1994 en de Wet rijonderricht motorrijtuigen 1993 in verband met het niet meer opleggen van het alcoholslotprogramma in het bestuursrecht (35293);</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg21">het wetsvoorstel Wijziging van de begrotingsstaat van Koninkrijksrelaties (IV) voor het jaar 2020 (Vierde incidentele suppletoire begroting inzake voedselhulp en compensatie inkomstenderving Caribisch Nederland) (35545).</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg22">Ik stel voor donderdag 17 september aanstaande ook te stemmen over een brief van het Presidium inzake het instellen van een tijdelijke commissie Aardgaswinning Groningen (35561, nr. 1).</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg23">Ik stel voor dinsdag 22 september aanstaande ook te stemmen over Regels inzake instelling van een Mobiliteitsfonds (Wet Mobiliteitsfonds) (35426) en de daarbij ingediende moties en over een brief van de vaste commissie voor Financiën (34153, nr. 13).</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg24">Op verzoek van het lid Renkema stel ik voor zijn motie (35300-XV, nr. 44) opnieuw aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-5.seg25">Ik stel voor de volgende stukken van de stand van werkzaamheden af te voeren: 31935-62; 31865-165; 35470-IX-8; 35470-IX-7; 35470-IX-6; 35470-IX-1; 35470-24; 35470-25; 35470-26; 31865-174; 31066-626; 35205-30; 25295-382; 31066-639; 31066-658; 31066-638; 31066-662; 35492-3; 35420-77; 31066-663; 31066-675; 35302-80; 22112-2884; 35420-83; 35302-81; 21501-20-1558; 31066-659; 31066-661; 35450-3; 35468-39; 35450-4; 35450-IX-3; 32140-72; 35468-10; 21501-07-1701; 21501-07-1702; 35466-5; 31066-660; 31066-627; 21501-07-1697; 21501-03-140; 21501-03-138; 21501-03-139; 21501-07-1683; 21501-07-1669; 21501-07-1688; 35450-1; 35485-3; 21501-07-1651; 21501-07-1704; 21501-07-1708; 34298-32; 31865-168; 31865-171; 31865-173; 31935-61; 35300-IX-21; 21501-07-1707; 31066-665; 35420-82; 35433-9; 23530-127; 34958-9; 32735-310; 27925-726; 29521-411; 35300-VIII-209; 31288-845; 35400-6; 31289-427; 35300-VIII-211; 32827-195; 35490-6; 35300-XII-114; 29398-841; 35490-7; 30821-108; 33652-76; 32404-98; 29398-823; 29398-822; 29398-812; 28165-328; 35420-88; 29665-385; 30952-361; 31936-735; 31936-790; 25422-269; 31936-796; 24804-143; 31936-799; 24804-136; 31409-292; 31409-296.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

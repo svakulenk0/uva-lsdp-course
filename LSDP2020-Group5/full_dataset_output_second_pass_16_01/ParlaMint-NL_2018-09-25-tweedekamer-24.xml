@@ -1,0 +1,116 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-09-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-09-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 4, Session 24 (2018-09-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 4, Session 24 (2018-09-25)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="4">Meeting 4</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="24">Session 24</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="426">426 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="426">426 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-09-25">2018-09-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="10"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+               <tagUsage gi="note" occurs="13"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-09-25">2018-09-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Informele Raad voor Concurrentievermogen d.d. 16 en 17 juli</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.u1">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg1">Aan de orde is het VSO Informele Raad voor Concurrentievermogen, die plaatsvond op 16 en 17 juli jongstleden. Een hartelijk woord van welkom aan de staatssecretaris van Economische Zaken en Klimaat. Wij hebben hedenmiddag twee sprekers; 50% daarvan is de heer Wörsdörfer van de fractie van de VVD. Hij heeft zoals iedereen twee minuten spreektijd en het woord is aan hem.</seg>
+            </u>
+            <u who="#MartinWörsdörfer" ana="#regular" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.u2">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg2">Voorzitter. Die informele Raad is natuurlijk al voorbij. Maar in het schriftelijk overleg is toch een punt aan de orde gekomen waar wij een motie op wilden indienen. Wij maken ons namelijk zorgen over de gevolgen die de e-Privacyverordening kan hebben voor het mkb, dat nog worstelt met de naweeën van de invoering van AVG. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat in Brussel na de Algemene verordening gegevensbescherming nu wordt gesproken over invoering van de e-Privacyverordening, die gaat over vertrouwelijkheid van communicatie en tevens over privacy en die naar verwachting grote impact op het Nederlandse bedrijfsleven heeft;</note>
+               <note>overwegende dat het Nederlandse bedrijfsleven het afgelopen jaar vanwege de AVG al volop aanpassingen heeft moeten doen en het kabinet bezig is met een eerste evaluatie conform de motie-Koopmans c.s. (34851, nr. 19);</note>
+               <note>overwegende dat het kabinet in de Nederlandse Digitaliseringsstrategie expliciet de ambitie heeft opgenomen om een goede aansluiting te vinden tussen de e-Privacyverordening en de AVG;</note>
+               <note>verzoekt de regering artikelsgewijs de samenloop en overlap van e-Privacy en de AVG nader inzichtelijk te maken, voorts ter voorkoming van schade voor het Nederlandse mkb een mkb-toets voor e-Privacy uit te voeren, de Kamer over beide zaken op de hoogte te brengen, tevens de uitkomsten te betrekken bij verdere onderhandelingen over de e-Privacyverordening en tot die tijd geen onomkeerbare stappen te zetten in de Europese Raden en werkgroepen en aldaar niet langer aan te dringen op spoedige aanname van deze verordening,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Wörsdörfer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-30-441</note>
+            </u>
+            <note>Dank u wel. Dan gaan we luisteren naar de heer Moorlag van de fractie van de Partij van de Arbeid, die op mijn lijstje staat als iemand die ook twee minuten lang iets tegen ons ging zeggen. Maar dat is niet het geval. Dan zijn we door de sprekers heen en geef ik graag het woord aan de staatssecretaris.</note>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.u3">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg3">Dank u, voorzitter. Door Nederland is reeds in de Europese Raad op dit onderwerp gepleit voor spoedige aanname van de verordening op basis van de tekst van het Estse voorzitterschap en dat is ook gecommuniceerd met de Kamer. Nu gaan pleiten voor uitstel daarvan maakt Nederland ongeloofwaardig. Er is al eerder door de Europese Commissie een impactassesment gehouden. Dat is te vergelijken met de mkb-toets, namelijk wat de consequenties zijn voor het midden- en kleinbedrijf.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg4">Daarnaast lijkt hier toch enige verwarring plaats te vinden, want de e-Privacyverordening regelt echt iets compleet anders dan de Algemene verordening gegevensbescherming. Het mkb-peloton maar ook bijvoorbeeld voetbalverenigingen, wat nog wel eens een discussie is in het kader van de Algemene verordening gegevensbescherming, ondervinden geen nieuwe effecten van de e-Privacyverordening, behalve de regels die nu al gelden. Alleen het midden- en kleinbedrijf dat via het internet intermenselijke communicatiediensten verstrekt, zoals Messenger of WhatsApp, krijgt te maken met nieuwe regels.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg5">Maar dat is ook maar goed ook, want op dit moment geldt het communicatiegeheim alleen voor de klassieke telecommunicatieaanbieders en dus niet voor dit soort voorzieningen, die door ons allemaal wel heel veel gebruikt gaan worden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg6">Dus ik ontraad de motie en het is ook goed om ons met elkaar te realiseren dat in de e-Privacyverordening de grote irritatie die op het gebied van telemarketing bestaat ook regels gaat krijgen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg7">Dus ik begrijp de zorgen van de heer Wörsdörfer. De Algemene verordening gegevensbescherming is voor het midden- en kleinbedrijf best nieuwe regelgeving die impact kan hebben. Maar dat geldt voor de meeste midden- en kleinbedrijven niet, behalve dan voor bedrijven die die zogenaamde intermenselijke communicatiediensten verstrekken. Daarmee schiet deze motie haar doel ver voorbij.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg8">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.u4">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg9">Helder. Dank u wel. Tot zover dit VSO.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.u5">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-24.seg10">Dan gaan we in één vloeiende beweging door met het volgende debat. Dat is het VAO Digitalisering.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

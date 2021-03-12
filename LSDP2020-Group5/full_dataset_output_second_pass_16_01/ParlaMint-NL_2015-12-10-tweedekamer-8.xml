@@ -1,0 +1,148 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-12-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-12-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 36, Session 8 (2015-12-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 36, Session 8 (2015-12-10)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="36">Meeting 36</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="11">11 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="11">11 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1202">1202 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1202">1202 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-12-10">2015-12-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="16"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="11"/>
+               <tagUsage gi="note" occurs="27"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-12-10">2015-12-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Stedelijke vernieuwing</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg1">Ik geef het woord graag aan de heer De Vries, maar hij is niet aanwezig. Ik hoor dat hij een motie namens iedereen bij zich schijnt te hebben.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg2">Ik geef het woord aan de binnensnellende heer Albert de Vries van de PvdA.</seg>
+            </u>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg3">Excuses, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg4">Voorzitter. Ik dien de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de rijksoverheid 19 september 2011 samen met zeventien andere partijen het Nationaal Programma Kwaliteitssprong Zuid heeft getekend, waarin alle partijen zich hebben verbonden aan de ambities, de langdurige inzet en de integrale aanpak van Rotterdam-Zuid;</note>
+               <note>constaterende dat in de pijlers school, werk en veiligheid grote voortgang is gemaakt, maar dat de opgave met betrekking tot wonen in een patstelling dreigt te raken;</note>
+               <note>constaterende dat het Rijk in de voorwaardenscheppende sfeer een aantal besluiten en algemene maatregelen heeft genomen die de eigen kracht in de pijler wonen kunnen versterken;</note>
+               <note>constaterende dat de gemeente Rotterdam inmiddels besloten heeft om 10 miljoen euro beschikbaar te stellen voor de aanpak op Zuid, en voornemens is om dit een aantal jaren te continueren;</note>
+               <note>constaterende dat het desondanks niet lukt om de opgave in de pijler wonen van de grond te krijgen;</note>
+               <note>van oordeel dat het Rijk door medeondertekening van het nationaal programma de plicht heeft om samen met gemeente, corporaties en eigenaren te zoeken naar wegen om ook de in dit programma vastgelegde opgave in de pijler wonen te kunnen realiseren;</note>
+               <note>verzoekt de regering, de gemeente Rotterdam en andere betrokkenen te ondersteunen bij het opstellen van een plan voor de realisatie van de opgave in de pijler wonen, waarbij ingezet wordt op het versterken van de eigen kracht van betrokken partijen;</note>
+               <note>verzoekt de regering tevens, bij blijvend ontoereikende eigen kracht voorstellen te doen welke bijdrage het Rijk aanvullend kan leveren om spoedige realisering van het plan mogelijk te maken, en de Kamer daar voor 1 april 2016 over te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Albert de Vries, Ronnes en Koolmees. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-30136-44</note>
+            </u>
+            <u who="#FarshadBashir" ana="#regular" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg5">Voorzitter. Wij hebben in het algemeen overleg diverse keren gesproken over de leefbaarheid en het daarmee gemoeide budget. Er is een bedrag van €125 per woning per jaar uitgetrokken voor leefbaarheid. Helaas wordt de wet door de Woonautoriteit anders uitgelegd dan wij in de Kamer hadden beoogd en ook anders dan de interpretatie van de minister.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat woningcorporaties een belangrijke taak vervullen bij het leefbaar houden van de buurt, onder meer door het hebben van een huismeester;</note>
+               <note>constaterende dat de minister zich bij de berekening van het leefbaarheidsbudget beroept op de cijfers uit de verantwoordingsinformatie en op basis van de daar gehanteerde definitie, waarin nadrukkelijk de personeelsuitgaven van de eigen werkorganisatie buiten het leefbaarheidsbudget vallen;</note>
+               <note>verzoekt de regering, de personeelsuitgaven van de eigen werkorganisatie buiten het budget voor leefbaarheid van €125 per huurwoning te houden bij de verdere uitwerking van de Woningwet,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Bashir. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-30136-45</note>
+            </u>
+            <u who="#FarshadBashir" ana="#regular" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg6">Zou je dat niet doen en zou je ook andere kosten, bijvoorbeeld personeelskosten, onder die €125 houden, dan blijft van het budget ter bevordering van de leefbaarheid helemaal niets over. Dan kun je net zo goed geen leefbaarheidsbudget meer hebben. Vandaar deze motie.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg7">Dank u. Dan geef ik het woord aan de heer Ronnes. Nee, hij staat voor nul minuten spreektijd op de lijst, zie ik. Dan is het woord aan de heer Van der Linde. Het is een beetje een zoekplaatje vandaag.</seg>
+            </u>
+            <u who="#RoaldvanderLinde" ana="#regular" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg8">Voorzitter. Rotterdam-Zuid is een prachtig gebied. Ik ben niet objectief, want ik ben geboren in een wijkje op Zuid dat Reijeroord heet en waar ik een heerlijke jeugd heb gehad. Ruim opgezet, veel groen, een kleuterschooltje op loopafstand. Ik zou willen dat ik dat voor heel Rotterdam-Zuid kon zeggen, maar van de 200.000 mensen die er wonen, zitten er 70.000 in probleemgebieden. Gebieden die we hebben aangewezen in het kader van de Rotterdamwet en waarvoor we zelfs een Nationaal Programma Rotterdam Zuid (NPRZ) hebben gekregen. Dat nationale programma richt zich op achterstanden en is daarmee niet altijd een toonbeeld van geslaagde city marketing. De VVD vindt dat we veel meer uit moeten gaan van de kracht van de stad. Het Nationaal Programma Rotterdam Zuid loopt een beetje klem in de moeizame lokale politiek en de VVD wil echt iets doen om daaraan een positieve draai te geven. Private investeringen zijn er voor de kern, en de overheid zorgt voor schoon, heel en veilig. Er ligt voldoende grond braak op interessante locaties. De RandstadRail verbindt Rotterdam-Zuid met Spijkenisse en Den Haag, kortom er is potentie. De stad zou veel meer kunnen doen om private investeerders te interesseren, met duidelijkheid over de hotspots en zo mogelijk wat extra infrastructuur, zodat die investeerders ook heldere vooruitzichten hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg9">Mijn vraag aan de minister is welke rol hij hierin ziet voor de rijksoverheid en waar hij de prioriteiten denkt te leggen, als die rol er is. In het algemeen overleg heb ik al gezegd dat het heil op Rotterdam-Zuid niet allen kan komen van woningcorporaties. De Rotterdamse corporaties hebben deze week een brief daarover gestuurd aan de gemeenteraad. Zij hebben totaal geen trek om op te draaien voor het renoveren van koopwoningen en willen liever werken aan hun eigen bezit. Als ik kijk naar de kerntaak van de corporaties, nette woningen voor de kleine portemonnee, dan is er genoeg werk op Zuid. Past het opkopen van slechte woningen daar ook bij of zou de gemeente dat apart moeten organiseren? Hoe ziet de minister dat?</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u8">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg10">Dank u wel. Hiermee is er een einde gekomen aan de termijn van de zijde van de Kamer. Ik kijk naar de minister. Hij knikt ja, staat op en kan direct reageren op de ingediende moties. Ga uw gang.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u9">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg11">Voorzitter. Allereerst is er de motie op stuk nr. 44 ingediend door de heer De Vries, samen met de heren Ronnes en Koolmees. Die motie gaat in op de opgave voor Rotterdam-Zuid. De regering wordt verzocht, bij blijvend ontoereikende eigen kracht voorstellen te doen welke bijdrage het Rijk aanvullend kan leveren om spoedige realisering van het plan mogelijk te maken. Het Rijk heeft zich in 2011 gecommitteerd om de problematiek in Rotterdam-Zuid mede te helpen oplossen. Wij hebben daarvoor een aantal maatregelen genomen. We doen nu eerste ervaringen op met die maatregelen en ik vind het van groot belang dat ze goed werken. Daar zijn ze voor bedoeld. De opdracht in de motie om te overleggen met Rotterdam over de werking van de instrumenten en om eventueel aanpassingen te doen, neem ik graag op mij. De motie zelf laat ik graag over aan het oordeel van de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg12">De heer Bashir gaat in zijn motie op stuk nr. 45 in op de onduidelijkheid die er is ontstaan over het geld voor leefbaarheid. Het is goed om in herinnering te roepen dat leefbaarheid een van de onderwerpen was waarvoor de enquêtecommissie aandacht vroeg, omdat er ook allerlei projecten onder de titel leefbaarheid werden gefinancierd die zeer uit de hand liepen en waarbij er feitelijk geen koppeling meer was aan de kerntaak van de woningcorporaties.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg13">In de wet stond aanvankelijk dat leefbaarheidsuitgaven zijn toegestaan voor zover die gericht zijn op de eigen bewoners van de corporatie. De Kamer heeft dat bij amendement verbreed naar activiteiten die ook in de omgeving van complexen plaatsvinden, maar tegelijkertijd gezegd: we koppelen daar een maximumbedrag van €125 aan. Het koppelen van een bedrag brengt onvermijdelijk met zich mee dat je definieert welke kosten onder "leefbaarheid" geboekt moeten worden, want anders is dat bedrag niet te toetsen en handhaven. Ik heb in debatten en in het openbaar ook gezegd dat de klassieke huismeesterstaak in en direct grenzend aan een complex natuurlijk gewoon bij het werk van een woningcorporatie hoort. Dat is geen leefbaarheid. Als het echter veel verder gaat dan dat, ontstaat er al snel discussie. Ik heb daarom ook beloofd dat ik op korte termijn met een verduidelijking kom van wat al dan niet onder het leefbaarheidsbudget hoort. De manier waarop de heer Bashir dat zoekt, namelijk door personeelsuitgaven helemaal nooit onder leefbaarheid op te nemen, lijkt mij een wat botte bijl. Het bijdragen aan leefbaarheid kan namelijk wel degelijk gestalte krijgen door de inzet van personeel. De Kamer krijgt dus de verduidelijking waar zij om heeft gevraagd. De ingediende motie vind ik echter te kort door de bocht. Om die reden ontraad ik haar.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg14">De heer Van der Linde heeft geen motie ingediend maar gevraagd hoe ik kijk naar het opkopen van particulier bezit door een corporatie in Rotterdam-Zuid. Dat is toegestaan. Het is sowieso toegestaan om woningen op te kopen die als bestemming "sociale woningbouw" krijgen. Er is daarnaast expliciet in de Woningwet opgenomen dat in het kader van de herstructurering van eenzijdige wijken ook activiteiten buiten de sociale woningbouw mogen plaatsvinden, als de markt die niet op zich neemt. De activiteit op zich is toegestaan. Het is natuurlijk aan de corporatie samen met de gemeente en de huurders, in de driehoek van de lokale prestatieafspraken, om te beoordelen of en hoeveel middelen voor dit doel worden vrijgemaakt. Middelen die aan dit doel besteed worden, kunnen niet besteed worden aan nieuwe sociale woningbouw, verbetering van de voorraad, energiebesparing of het beperken van huurstijging. Wettelijk is er geen verbod, maar of en in welke mate het moet gebeuren, moet lokaal besloten worden. Ik hoop hiermee de moties en de vragen voldoende beantwoord te hebben.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u10">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg15">Ik zie niemand uit zijn stoel opspringen, dus ik denk dat u daarin gelijk hebt.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.u11">
+               <seg xml:id="ParlaMint-NL_2015-12-10-tweedekamer-8.seg16">De stemmingen over de ingediende moties doen wij komende dinsdag.</seg>
+            </u>
+            <note>De vergadering wordt van 12.46 uur tot 13.00 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

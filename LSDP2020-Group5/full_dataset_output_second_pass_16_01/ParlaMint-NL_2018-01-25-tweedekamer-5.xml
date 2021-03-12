@@ -1,0 +1,461 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-01-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-01-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 44, Session 5 (2018-01-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 44, Session 5 (2018-01-25)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="44">Meeting 44</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="109">109 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="109">109 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="7078">7078 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="7078">7078 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-01-25">2018-01-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="129"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="109"/>
+               <tagUsage gi="note" occurs="31"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-01-25">2018-01-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Taakomschrijving voor commissievoorzitters in het Reglement van Orde</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg1">And now for something completely different. Aan de orde is het voorstel van de commissie voor de Werkwijze tot wijziging van het Reglement van Orde in verband met de opname van een taakomschrijving voor commissievoorzitters. Ik heet uiteraard de leden van harte welkom, maar met name ook onze gewaardeerde Voorzitter mevrouw Arib, die namens de commissie voor de Werkwijze heeft plaatsgenomen in vak-K. We hebben zes sprekers van de zijde van de Kamer, die over het algemeen één of twee minuten spreken. Maar de heer Öztürk is de eerste spreker en hij heeft tien minuten. We gaan er eens goed voor zitten. Het woord is aan de heer Öztürk.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg2">Voorzitter. DENK staat voor eerlijkheid. DENK staat voor rechtvaardigheid. DENK staat voor het bestrijden van de dubbele maat. De Tweede Kamer is een voorbeeld voor de hele samenleving, dus de wijze waarop wij hier met elkaar omgaan, straalt af op onze hele samenleving. Gaat het hier in het parlement altijd eerlijk en rechtvaardig? Of is er ook in de Tweede Kamer een dubbele maat? Die indruk krijgen wij soms. Ik zit nu ruim vijf jaar in het parlement. Regelmatig hebben wij het gevoel dat sommige voorzitters sommige fracties en Kamerleden anders behandelen. Die worden vaker afgekapt. Die krijgen minder tijd en ruimte dan anderen. De toon van de voorzitters is vaker geïrriteerd en soms zelfs arrogant. Tegen een voorzitter ben je als Kamerlid echter machteloos. Ze zetten gewoon je microfoon uit. En als je ze daar achteraf op aanspreekt, staan ze niet open voor kritiek. Voorzitters zijn zich van geen kwaad bewust. Hebben ze misschien een blinde vlek? Spelen misschien toch onbewuste vooroordelen en antipathieën een rol? Gaat het misschien toch net als bij het etnisch profileren door de politie, net als bij de discriminatie op de arbeidsmarkt en net als bij de ouderadvisering op scholen?</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg3">Dit soort dingen zijn altijd lastig hard te maken. Zie het maar eens te bewijzen. Daarom heb ik een voorstel gedaan, het voorstel van een parlementaire videoscheidsrechter. Een parlementaire VAR: video assistant referee. Dit is niet een politiek geintje. Dit is een serieus voorstel. De belangen op het voetbalveld zijn groot, maar de belangen in het parlement zijn nog veel groter. Het gaat hier om onze burgers. Het is essentieel dat alle kiezers hier eerlijk en rechtvaardig vertegenwoordigd worden. Als de voorzitter een fout lijkt te maken, kan de videoscheidsrechter dat later objectief onderzoeken. Als er sprake zou zijn van onbewuste vooroordelen zou dat objectief met beeldmateriaal kunnen worden aangetoond.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg4">Overigens heb ik het hier niet alleen over DENK. Ik heb namelijk het idee dat ook Forum voor Democratie niet altijd even netjes behandeld wordt. Dat zijn bepaald niet onze politieke vrienden natuurlijk, maar iedereen in het parlement moet gelijk behandeld worden. Het moet niet zo zijn dat de gevestigde orde anders wordt behandeld dan de rebelse nieuwkomers.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg5">Wie zou de videoscheidsrechter in het parlement kunnen zijn? DENK denkt aan een burgerpanel. Als parlement zijn we immers in dienst van het volk, dus is het logisch dat de burgers als scheidsrechter boven ons staan om zich uit te spreken over de zaken die wij ze voorleggen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg6">Voorzitter. DENK maakt zich zorgen over de Nederlandse democratie. We zijn bang dat de grote partijen het de kleine partijen steeds lastiger gaan maken en dat ze met de democratische meerderheid de rechten van de parlementaire minderheden gaan beperken. Dat zagen we bijvoorbeeld bij de fractieafsplitsingen. Op het moment dat een Kamerlid zijn fractie verlaat, krijgt hij minder spreektijd en fors minder geld voor beleidsmatige ondersteuning. Je ziet het bijvoorbeeld ook aan het intrekken van de referendumwet. Daarmee pakt de regering burgers een belangrijk democratisch instrument af. DENK maakt zich ook zorgen over de commissie die gaat adviseren over een wijziging van het parlementaire stelsel. Gaan partijbelangen daar straks niet gewoon de doorslag geven?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg7">Ik wil u erop wijzen dat het vandaag gaat over de taakomschrijving van de commissievoorzitter. Ik heb u daar nog niet over gehoord. U bent wat zijpaden in geslagen, maar ik wil er even op wijzen dat u buiten het onderwerp gaat. Er is ook een vraag voor u van de heer Markuszower.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg8">Is de vertegenwoordiger van DENK zich ervan bewust dat dit debat en alle andere debatten hier ook worden opgenomen? De vertegenwoordiger van DENK pleit voor cameratoezicht dat gecontroleerd wordt door burgers. In hoeverre verschilt dat cameratoezicht door burgers dan van de huidige praktijk, waarin alle debatten, alle AO's en alles wat hier gebeurt al wordt opgenomen? Burgers kunnen al meekijken. Waar zit dan het verschil? Waar zit uw innovatieve idee dan?</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg9">Dat is een heel goede vraag. Dat had ik van de heer Markuszower niet verwacht. Het gaat erom dat we een burgerpanel hebben dat bewust bepaalde debatten in z'n totaal bekijkt. Niet iedere burger heeft de tijd om drie, vier uur naar een debat te kijken. Op het moment dat je een burgerpanel hebt dat specifiek naar de rol van de voorzitter of de commissievoorzitter kijkt en daar een oordeel over geeft, kan dat helpen om de voorzitter en de commissievoorzitter de volgende keer op een andere manier te laten voorzitten.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg10">Hoe werkt dat dan? Hebben we dan bijvoorbeeld 100 willekeurig gekozen burgers die bijvoorbeeld naar dit debat kijken? Krijgt de voorzitter dan naderhand te horen: u heeft dit wel en dit niet goed gedaan? Of is het net als bij het voetbal, dat er iets wordt teruggekeken en dat er wordt gezegd: dit was bij nader inzien toch niet buitenspel? Hoe ziet de heer Öztürk dat voor zich?</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg11">Dat laatste. Achteraf kan het burgerpanel een advies geven aan de desbetreffende commissievoorzitter of de Kamervoorzitter. De Kamervoorzitter kan dan de beelden terugkijken en waar nodig met het burgerpanel in gesprek gaan en proberen uit te leggen hoe het werkt. Daarmee krijg je dat de Kamervoorzitter eerlijke feedback krijgt van onze burgers, en niet van de gevestigde orde van hier.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg12">In de sport is makkelijker te zeggen of een bal binnen of buiten de lijn is. Hier gaat het om politiek. Daar zit al per definitie een bepaalde mate van subjectiviteit in. Hoe kunnen we er zeker van zijn dat dit altijd objectief is? Zou het niet veel logischer zijn dat we de voorzitter het vertrouwen vooraf geven en daarvan uitgaan? Als we vinden dat iets niet goed gebeurt, kunnen we een open gesprek ingaan, zoals we nu doen. Ik heb bijvoorbeeld in de commissie voor VWS meegemaakt dat mensen één keer per jaar open input kunnen geven over hoe zij vinden dat het gaat. De voorzitter vroeg ook expliciet: hoe vindt u dat ik het doe? Dat zou toch veel beter zijn?</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg13">Dat hebben we de afgelopen tijd geprobeerd, maar het werkt niet. Wij merken dat de voorzitters hier de gevestigde orde en de grote partijen een beetje aan het bedienen zijn. Het is juist belangrijk dat een onafhankelijk burgerpanel feedback geeft zodat de voorzitter het gevoel krijgt dat het niet de Kamer met een politieke kleur is die in een bepaalde richting stuurt, maar dat het de burgers zijn, voor wie wij hier zitten, die objectief en eerlijk zeggen hoe het anders kan. Wij kunnen beelden laten zien — ik heb die beelden ook aan de Kamervoorzitter aangeboden, maar zij heeft die geweigerd — waarop te zien is dat wij in de regeling van werkzaamheden binnen vijftien, twintig seconden worden afgekapt. Terwijl anderen, met name Geert Wilders, hier een minuut lang hun verhaal houden. We kunnen objectief, op de seconde, laten zien hoe de Kamervoorzitter en de commissievoorzitters soms kleine partijen wegduwen en het woord afpakken. Dat kunnen we laten zien.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg14">U continueert.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg15">Yes. Voorzitter. De grote partijen kiezen een stelsel waarin de kleine partijen het zo moeilijk mogelijk krijgen. Het proces zou 100% democratisch zijn, want de meerderheid beslist. Maar het is niet in de geest van de democratie om het nieuwkomers extra lastig te maken. In een ideale democratie zou de meerderheid juist moeten waken voor de positie van de minderheden. De grote partijen zouden juist blij moeten zijn met de kleine partijen. In een democratie moeten de stemmen van zo veel mogelijk mensen, burgers, gehoord worden. Dat is een verrijking voor de democratie.</seg>
+            </u>
+            <u who="#SvenKoopmans" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg16">Het is heel interessant. De heer Öztürk pleit hier dus voor een burgerpanel van ongeveer 100 burgers. Hij zegt ook dat hij opkomt voor de democratie en dat zo veel mogelijk burgers moeten worden gehoord. Op dit moment wordt dit debat gevolgd door iedereen die dat wil, alle burgers van Nederland. Nu zegt de heer Öztürk: nee, we willen niet dat alle burgers meekijken, maar we willen dat 100 burgers worden geselecteerd. Misschien dan met een DENK-methode. U zegt dus eigenlijk dat we de democratie gaan verkleinen tot een selectie van door DENK goedgekeurde mensen. Wat een grappige variant van de democratie. Meneer Öztürk, over welke democratie heeft u het dan? We zijn hier in Nederland.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg17">Wat een simpele benadering door de VVD. Ik heb gezegd dat iedere burger hiernaar mag kijken. Iedere burger mag kritiek leveren, graag, maar los daarvan geven we een burgerpanel van 100, misschien 200 of 1.000 mensen de gelegenheid om extra alert en scherp te kijken en een oordeel te vormen. Als de VVD daar niet naar wil luisteren en iets wil vinden om ons verhaal zwart te maken, vind ik dat heel zwak. Tijdens de VVD-training over hoe je moet debatteren, hebben ze u misschien niet getraind om te debatteren met DENK. Ik stel voor om er de volgende keer een training aan toe te voegen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg18">Dat is afgesproken. U continueert.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg19">Voorzitter. Behalve het voorstel voor een parlementaire videoscheidsrechter hebben we nog een aantal andere voorstellen gedaan. DENK wil dat commissievoorzitters solliciteren op hun functie, net als de Kamervoorzitter dit nu doet. DENK wil dat de commissievoorzitters ieder jaar geëvalueerd worden, zoals ook gebeurt met de jaarplannen van de commissies. Zo houden we de commissievoorzitters een beetje scherp. Wat DENK betreft kunnen we dit ook zo doen met de Kamervoorzitter, namelijk ieder jaar de Kamervoorzitter evalueren en kijken of zij haar werk goed doet. Gewone mensen hebben toch ook ieder jaar een functioneringsgesprek? Zo'n jaarlijks functioneringsgesprek is ook goed voor de Kamervoorzitter, want dan hoeft zij het niet in de media te horen als fractievoorzitters over haar hebben geklaagd, maar hoort zij het rechtstreeks, open en transparant. Dan hoort ze gewoon direct van de fractievoorzitters wat ze van haar vinden. Kan de Kamervoorzitter aangeven of ze bereid is om zo'n jaarlijkse evaluatie te ondergaan?</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg20">Voorzitter, ik rond af. Hoe meet je de kracht van een land? De kracht van een land is niet hoeveel geld het heeft. De kracht van een land is hoe de meerderheid met de minderheid omgaat. Gandhi heeft dit ook gezegd: de beschaving van een samenleving valt af te meten aan de manier waarop we omgaan met de zwakkeren, met de minderheden, met andersdenkenden. Democratie is niet de meerderheid plus één. Democratie wil zeggen dat de stem van het volk gehoord wordt in het parlement, dat de stem van het volk niet belemmerd wordt omdat de voorzitter de microfoon uitzet. Het vrije woord moet niet door de voorzitter worden weggedrukt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg21">Voorzitter, tot slot. Ik vind het heel prettig dat de Kamervoorzitter nu in het regeringsvak zit. Het is mooi dat u daar zit, Kamervoorzitter. Nu kunt u mijn microfoon niet uitzetten. Nu kan ik het vrije woord zeggen en kan ik het volk hier volledig vertegenwoordigen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg22">Ik kan u wel uitzetten, hè.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg23">Dat kunt u, maar dat gaat u niet doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg24">U kent mij niet.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg25">Nu kan ik zeggen wat ik denk. Ik ben benieuwd wat u te zeggen hebt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg26">Wat de Voorzitter te zeggen heeft.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg27">Durf eerlijk en rechtvaardig te zijn. Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg28">Dank u wel. Nog kort een vraag van de heer Koopmans.</seg>
+            </u>
+            <u who="#SvenKoopmans" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg29">De heer Öztürk begon zijn betoog met te zeggen dat de omgangsvormen hier afstralen op het hele land. Hij heeft ook betoogd dat we ons aan de regels moeten houden en dat die gelijk moeten zijn voor iedereen. In april vorig jaar gaf ik hier mijn maidenspeech. Wij hebben de regel dat je maidenspeechers niet interrumpeert. Ik was nog niet bij mijn tweede zin of de heer Öztürk, conform zijn reputatie, schreeuwde erdoorheen. Ik begrijp nu dat hij vraagt om strenger gedisciplineerd te worden. Ik vraag de heer Öztürk: kunt u zich niet gewoon een beetje meer inhouden?</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg30">Er is geen regel dat je bij een maidenspeech niet interrumpeert. Dat staat nergens. Dat is een ongeschreven regel en daar heb ik mij aan gehouden. Ik ben voorstander van het Engelse parlementsstelsel, in de zin dat er meer reuring is, dat er geluid is, dat de samenleving hier gehoord wordt. Het is nu een saai gebeuren. Ik weet dat bij de VVD alleen de voorzitter mag praten en dat de rest Netflix kijkt voor de stemmingen. We hebben het boek van degene gelezen die dat geschreven heeft; laat ik de naam maar niet noemen. Het gaat erom dat er meer reuring is, dat het volk hier gehoord wordt, dat de democratie volledig werkt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg31">Prima.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg32">Daar hoort ook geluid bij. Geluid is goed. Dat u al die geluiden wilt wegmoffelen, dat u het alleen maar als grootste fractie hier voor het zeggen wil krijgen, snap ik, maar zolang de kiezer ons kiest zullen wij hier het geluid van de burger laten horen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg33">Dank u wel. Zitten we straks met z'n allen in een filmpje van DENK?</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg34">Ik denk dat ik het stukje van u er dan uit ga knippen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg35">Hè, dat vind ik nu weer jammer. Dank u wel. De volgende spreker van de zijde van de Kamer is de heer Koopmans van de fractie van de VVD.</seg>
+            </u>
+            <u who="#SvenKoopmans" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg36">Voorzitter, dank u wel. Ik bedank de commissie voor het doen van dit voorstel, dat voor zich spreekt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg37">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg38">Nou, u had nog wat spreektijd over. Dan is nu het woord aan … Meneer Koopmans, er is nog een interruptie voor u van de heer Öztürk. Hij was er even niet bij. Hij krijgt hiervoor een standje van de videoreferee, denk ik.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg39">Dit is nou gevestigde-ordegedrag. In de achterkamertjes is alles al geregeld en in het parlement zeg je zo min mogelijk en dien je zo min mogelijk moties in. En dan een beetje proberen de nieuwkomer belachelijk te maken, wat overigens niet is gelukt. Waarom gaat u nu niet het volk dat nu naar u luistert, zeggen hoe de VVD hierin zit en welke ideeën de VVD hierover heeft, de VVD die tijdens de verkiezingen naar voren is gekomen en hier ook het verhaal zou moeten houden? Waarom doet u dat niet? Waarom kiest u ervoor om in de achterkamertjes alles …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg40">Met "u" bedoelt u de heer Koopmans waarschijnlijk.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg41">Jazeker. Waarom kiest de heer Koopmans ervoor om in de achterkamertjes alles te beslissen en zwijgt hij hier?</seg>
+            </u>
+            <u who="#SvenKoopmans" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg42">Het is heel aardig dat de heer Öztürk zichzelf als nieuwkomer bestempelt, omdat hij hier volgens mij al een aantal jaren zit, eerst namens de PvdA, voordat hij is overgelopen. Het is ook heel grappig dat hij mij verwijt dat ik iets in een achterkamertje regel, terwijl dit voorstel komt van een commissie die Kamerbreed wordt gedragen. Dit voorstel bevat heel beperkte toevoegingen aan het Reglement van Orde, toevoegingen waar ik u helemaal niet over heb horen spreken, meneer Öztürk. Het is namelijk heel simpel: de voorzitter wordt geacht de commissie te vertegenwoordigen. De voorzitter vertegenwoordigt de commissie in het buitenland. Het zijn heel simpele voorstellen waarover iedereen heeft kunnen meespreken. De heer Öztürk kan nu zijn bijdrage leveren. Dat doet hij. Hij praat over heel andere dingen. Ik weet niet waar hij vandaag mee komt als hij nu zegt dat ik in een achterkamertje iets zit te regelen. Hij verzint dingen die hij hier nu opbrengt die helemaal niet ter zake doen. En nu verwijt hij dat mij. Dat is heel jammer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg43">Kort en puntig en dan gaan we verder.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg44">Je ziet gewoon dat de VVD als gevestigde orde niets in te brengen heeft, ook in dit debat niet. Ik denk dat wij onze tijd niet moeten verdoen. Laten we gewoon doorgaan met de volgende spreker.</seg>
+            </u>
+            <u who="#SvenKoopmans" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg45">Ik denk niet dat ik mijn tijd wil verdoen met het beantwoorden van een vraag die geen inhoud heeft.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg46">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg47">Dan gaan we luisteren naar mevrouw Voortman van de fractie van GroenLinks.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg48">Voorzitter, dank u wel. De commissie voor de Werkwijze heeft in alle openbaarheid voorgesteld om de taakomschrijving van commissievoorzitters in het Reglement van Orde op te nemen. Wij als GroenLinks zijn daar voorstander van omdat je daarmee meer duidelijkheid geeft aan wat de taken van een commissievoorzitter omvatten. Ik zou nog wel willen zeggen dat ik zelf vijf jaar lid ben geweest van een kleine fractie. Ik heb nooit het idee gehad dat ik daardoor meer werd afgekapt dan nu ik in een iets grotere fractie zit. Ik zou het wel goed vinden als fracties die dat wel roepen misschien ook een beetje bij zichzelf te rade gaan of het ook aan het eigen gedrag ligt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg49">Een vraag nog van de heer Öztürk. Hij heeft er zin in vandaag.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg50">Jazeker, voorzitter. Dit is het moment, de arena, het debat. Hier vraagt de burger om. Daarvoor zijn wij hier.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg51">Voorzitter. Discriminatie op de arbeidsmarkt werd jarenlang ontkend. Discriminatie op de ondernemersmarkt wordt nu ontkend. Etnisch profileren is ook jarenlang ontkend. Politiemensen hebben gezegd: nee, ik doe daar niet aan mee. Dat geldt hier ook in de Kamer, het parlement. Open uw ogen, zou ik zeggen tegen de woordvoerder van GroenLinks, en zie dat op dit moment niet iedereen in deze Kamer gelijkwaardig wordt behandeld. Zie dat gewoon. Ik kan u beelden laten zien. Kijk naar die beelden en probeer nu niet mee te gaan met de gevestigde orde, maar probeer ook …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg52">Helder.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u44">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg53">… daar creatief en transparant naar te kijken.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u45">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg54">Voorzitter. Als er één fractie is die zich sterk heeft gemaakt voor het tegengaan van discriminatie op de arbeidsmarkt, voor het tegengaan van etnisch profileren, dan is het wel GroenLinks. Dat deed GroenLinks ook al voordat DENK überhaupt bestond. Dus ik snap niet waar deze kritiek vandaan komt. Als het gaat om het optreden van de voorzitter, dan zijn er verschillende mogelijkheden waarmee wij kenbaar kunnen maken of wij vinden dat iets wel of niet goed is. Ik noemde al het voorbeeld van de commissievoorzitter. Op het moment dat er geëvalueerd wordt hoe het nu gaat in de commissie kan dan ook besproken worden: hoe vinden we dat het gaat? Zo zou het wat mij betreft moeten zijn. Van zo'n videoreferee denk ik niet dat dat iets toevoegt. Laten we dit in alle openheid en vanuit vertrouwen doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u46">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg55">De heer Öztürk, afrondend.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u47">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg56">Voorzitter. Jammer dat GroenLinks er niet voor kiest dat een burgerpanel van onafhankelijke mensen, de mensen waarvoor we hier zitten, een opmerking kan maken over het functioneren van de Kamervoorzitter. Dat is ook de Kamervoorzitter van de burgers. Waarom bent u bang voor zo'n …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u48">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg57">Waarom is mevrouw Voortman bang?</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u49">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg58">Ik probeer …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u50">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg59">Anders denk ik dat u mij aanspreekt. Dan denk ik: ha, ik kom in zo'n filmpje.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u51">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg60">Ik denk dat iedereen weet wie ik aanspreek.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u52">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg61">Nee, u spreekt mij aan.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u53">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg62">Waarom is GroenLinks bang …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u54">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg63">Heel goed.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u55">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg64">Waarom is GroenLinks bang om dit belangrijke onderwerp aan onze burgers over te laten? Dat kan toch geen kwaad?</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u56">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg65">GroenLinks is ook een van de partijen die een groot voorstander is van burgers meer ruimte geven. En wat referenda,betreft was juist GroenLinks er heel kritisch op dat het kabinet voornemens is om de referendumwet in te trekken. Ik vind het juist goed om alle burgers hierin gelijkwaardig te behandelen. Ik krijg regelmatig mailtjes van mensen die iets vinden van hoe ik iets doe in de Kamer. Daar reageer ik dan op. Ik vind niet dat de stem van zo'n losse burger minder zou moeten tellen dan die van iemand die gekozen is in een panel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u57">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg66">Prima. We gaan luisteren naar de heer Sneller van de fractie van D66.</seg>
+            </u>
+            <u who="#JoostSneller" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u58">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg67">Voorzitter. Ik wilde eigenlijk een poging doen om deze spreektekst zo veel mogelijk te laten lijken op het blanco verslag dat we hebben geleverd bij de schriftelijke voorbereiding, maar het is misschien goed om te zeggen dat een groot deel van het werk plaatsvindt in de commissies waar dit voorstel over gaat. Dat is vaak minder zichtbaar voor de buitenwereld, maar daarom niet minder belangrijk dat wat er hier in deze zaal gebeurt, waar inderdaad wat meer camera's staan dan in de commissiezalen, ook al hangen die daar tegenwoordig ook. We moeten het belang van een goede organisatie van die commissies en het in goede banen leiden van de debatten daar dan ook niet onderschatten. Naast de griffiers en de onderzoekers hebben ook commissievoorzitters een grote rol bij het goed laten verlopen daarvan, dus mijn fractie steunt van harte het voorstel om dit in het Reglement van Orde nader vast te leggen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg68">Het lijkt me wel goed om ook nog even vanuit D66 te reageren op de woorden van de heer Öztürk. Dankzij D66 ligt ook in de profielschets voor de Voorzitter vast dat die vernieuwingsgezind moet zijn; "gericht op verbetering" staat daar. Dus in principe vind ik het interessant om na te denken over vernieuwing. Ik vind alleen dat het voorstel dat de heer Öztürk doet getuigt van heel weinig respect. Hij noemt het Britse voorbeeld en zegt daarbij meer reuring te willen. Maar de reuring in het Britse parlement — daar zijn mooie documentaires over — gaat gepaard met respect. Dat mis ik volledig. Daar zou nooit een videoscheidsrechter worden ingesteld.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u59">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg69">Was dat uw bijdrage?</seg>
+            </u>
+            <u who="#JoostSneller" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u60">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg70">Ik wou nog wel even doorgaan over het voorstel, want ik had er nog wat meer problemen mee, maar ik zie een interruptie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u61">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg71">Ik wijs er nogmaals op dat we vandaag spreken over een voorstel van de commissie voor de Werkwijze inzake de taakomschrijving voor de commissievoorzitters. Het gaat nu alle kanten op. Ik vind het best, maar ... Goed, de heer Öztürk.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u62">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg72">Spijtig om dit van een D66-Kamerlid te horen. Hij wil de burgers de mogelijkheid ontnemen om commentaar te geven over hoe de Kamervoorzitter functioneert. En dan gebruikt hij het woord "respect". U bent respectloos tegenover onze burgers. Dat bent u gewoon. Op het moment dat u het recht van het referendum wilt afnemen, bent u respectloos.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u63">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg73">Is de heer Sneller respectloos.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u64">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg74">Op het moment dat hier een kleine fractie een opmerking maakt omdat de Kamervoorzitter zijn microfoon uitzet, vindt u dat respectloos. Stel je dat eens voor! Ik denk dat het goed is dat we een keer samen naar het Britse parlement gaan. U heeft documentaires gezien, maar blijkbaar heeft u niet alles gezien wat daar gezegd wordt. Dan zal ik met u willen zien wat hier respectloos is gezegd.</seg>
+            </u>
+            <u who="#JoostSneller" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u65">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg75">Ik zal er kort op reageren, in de zin van mevrouw Voortman. Ik heb gewerkt voor een fractie van drie, toen D66 hier drie zetels had, en ik herken niet in het minst wat u zegt over de behandeling van kleinere fracties. Ik denk ook dat we dat zo moeten houden. Ik ga graag met de heer Öztürk mee naar Londen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u66">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg76">Stuur ons een ansichtkaartje, zou ik zeggen. De laatste spreker van de zijde van de Kamer is de heer Markuszower.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u67">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg77">Nee, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u68">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg78">Meneer Öztürk nog even. Het is uw moment of fame, dus pak het ook!</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u69">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg79">D66 is een gevestigde partij en hoort bij de gevestigde orde. Toen ze drie zetels hadden, klaagde ook de heer Pechtold; laten we eerlijk zijn. Maar nu ze weer in de regering zitten, hebben ze de draai gemaakt. Ze hebben de referendumwet afgeschaft. Ze vinden een videoscheidsrechter en een burgerpanel niet meer interessant. Als ze weer een klap krijgen bij de verkiezingen, wil ik weleens horen hoe ze over de burgers denken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u70">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg80">Helder. Dank u wel. Dit was geen vraag. De heer Markuszower van de Partij voor de Vrijheid.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u71">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg81">Voorzitter. Vandaag behandelen wij een voorstel dat de taken van de commissievoorzitters formaliseert. In de toelichting van het voorstel tot wijziging van het Reglement van Orde van de Tweede Kamer wordt vooral gesproken van een technische aanpassing, maar dat is naar mijn mening niet helemaal volledig geformuleerd. Door het opnemen van een nota bene niet-limitatieve opsomming van de taken van de commissievoorzitter, vindt een geformaliseerde verzwaring ten opzichte van de huidige taken plaats. Dus wij spreken vandaag niet alleen over het formaliseren van een technische wijziging van het Reglement van Orde van onze Kamer, maar juist ook over de verzwaring van de taken van de commissievoorzitters.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg82">Welnu, indien de taken van de commissievoorzitters nagenoeg op commissieniveau gelijkgetrokken worden met de taken van de Voorzitter van de Kamer, is mijn fractie van mening dat ook de benoeming van een commissievoorzitter gelijk dient te zijn aan de benoeming van de Voorzitter. Zoals het voorgestelde artikel 26a zich spiegelt aan het huidige artikel 6, zo moet ook het door mij beoogde artikel 26 gespiegeld gaan worden aan het huidige artikel 4. Ik verzoek de indiener van dit voorstel dan ook het voorstel zodanig aan te passen dat de procedure voor het kiezen van de commissievoorzitters gelijk wordt aan de procedure voor het kiezen van de Voorzitter van deze Kamer. Dus Kamerleden die commissievoorzitter wensen te worden, moeten zich op basis van een door de commissie gemaakte profielschets kandideren. Die kandidatuur moet openbaar zijn, evenals de gehele sollicitatieprocedure. Kandidaten moeten hun kandidatuur motiveren ten overstaan van de commissie — heel Nederland kan meekijken — en de commissie zal dan overgaan tot stemmen. Dit alles gelijk aan de procedure die thans gevolgd wordt bij het kiezen van de Voorzitter van deze Kamer. Graag uw reactie hierop.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg83">Het pilletje van DENK is bijna uitgewerkt, maar hij komt toch, zie ik.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u72">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg84">De heer Markuszower probeert een beetje grappig te zijn, maar het lukt hem niet. U moet een beetje meer oefenen, meneer Markuszower. Ik heb het voorstel al ingediend. Ik heb gezegd: commissievoorzitters moeten naar onze mening ook, zoals de Kamervoorzitter, solliciteren en benoemd worden, en ieder jaar geëvalueerd worden. U neemt dus een-op-een mijn voorstel over. Dank daarvoor!</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u73">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg85">Ik denk toch dat ik het iets beter heb geformuleerd en juridisch iets grondiger heb aangekleed, maar wat u hier heeft neergezet is wel het maximale dat we konden verwachten.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u74">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg86">Misschien begrijp ik het niet helemaal goed, maar nu kan ook ieder lid van de commissie zich toch kandidaat stellen voor het voorzitterschap? In de praktijk is er vaak maar één kandidaat, maar iedereen die wil kan zich kandidaat stellen, toch?</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u75">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg87">Over de huidige praktijk zouden we van mening kunnen verschillen. Ik ben echt een relatieve nieuwkomer en ik heb toch een beetje het idee dat het kiezen van de commissievoorzitters een bedisseling en een bekonkeling is. Maar laat ik daarvan wegblijven, want u heeft gelijk. Artikel 26 van het huidige reglement heeft het inderdaad over het benoemen en ik heb ook gezien dat er in de huidige commissie met stembriefjes wordt gewerkt. Formeel heeft u dus geen ongelijk, maar volgens mij heb ik formeel ook geen ongelijk. Als de taken van de commissievoorzitters formeel gelijk worden aan de taken die nu omschreven zijn in artikel 6, uit mijn hoofd gezegd, waarom zouden we bij het kiezen van de voorzitter dan niet exact dezelfde procedure hanteren als nu in het Reglement van Orde opgenomen is? Dan spiegel je het 100%. U bent het denk ik ook met mij eens dat het kiezen van de Voorzitter van de Kamer nu toch anders gebeurt. De procedure is anders, het is openbaar, men kan zich kandideren en er ligt een motivatie aan ten grondslag. Dat is niet zo bij de huidige commissievoorzitters.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u76">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg88">Heel goed. Dank u wel. Tot zover de termijn van de Kamer. Dan gaan we nu luisteren naar de Voorzitter. Ik wijs er nog even op dat we het echt gaan hebben over het voorstel van de commissie voor de Werkwijze, dus over de taakomschrijving voor commissievoorzitters. Het woord is aan de Voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u77">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg89">Dank u, voorzitter. Ik dank alle Kamerleden voor hun bijdrage. Dit voorstel was eigenlijk bedoeld om de informatiepositie van de Kamer te versterken. Zoals jullie weten, heb ik zowel bij mijn verkiezing in 2016 als bij mijn herverkiezing in 2017 aangegeven dat het verder versterken van de kennispositie van de Kamer een van mijn speerpunten is. Ook bij de Raming hebben veel fracties daarom gevraagd, zowel vorig jaar als dit jaar alsook voor het komende jaar. We hebben als Presidium anderhalf jaar geleden gezegd dat we daar iets aan gingen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg90">Op initiatief van mij en het Presidium hebben we een aantal Kamerleden gevraagd, met name vanuit het Presidium: Stientje van Veldhoven, Pieter Duisenberg, Linda Voortman en Mei Li Vos. Zij vormden een kleine klankbordgroep en gingen allerlei gesprekken aan met Kamerleden om te vragen waar zij behoefte aan hadden bij de ondersteuning van hun Kamerwerk, vooral als het gaat om informatie. Wat hebben ze precies nodig? Dat heeft geleid tot een rapport over de kennis- en onderzoeksfunctie van de Kamer, waarin het voorstel werd gedaan om de commissies precies zo in te richten als de heer Sneller zojuist heeft verwoord. De commissies hebben een heel belangrijke taak. Alle aandacht is gericht op deze zaal en natuurlijk is dat ook heel belangrijk, maar heel veel belangrijke debatten vinden in de commissies plaats. Het is heel belangrijk om ook die commissies te versterken. Daarom hebben wij het rapport van de KVKO — een beetje een rare afkorting — omarmd.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg91">We hebben besloten om de commissies anders te gaan ondersteunen door parallel aan de enquêtecommissies vanuit de organisatie mensen vrij te maken die de commissies gaan ondersteunen. We creëren een staf, een team met griffiers en kenniscoördinatoren en dergelijke, zodat de kwaliteit van het werk dat Kamerleden leveren beter wordt, zodat de informatie op tijd is en zodat het goed geregeld wordt. We hebben zelfs de organisatie daarop aangepast. Drie diensten moesten worden samengevoegd en nieuwe functies zijn gecreëerd. In het begin was het een beetje eng, maar uiteindelijk heeft het tot veel tevredenheid geleid, bij de Kamerleden sowieso, maar ook bij de mensen die nu de commissies ondersteunen, dus ook bij de ambtenaren. Die vinden nieuwe energie, nieuwe dynamiek en daar is grote tevredenheid over. Door alle commissies wordt nu zo'n werkwijze gehanteerd.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg92">In het kader van het versterken van het commissiewerk is er ook gezegd dat wij de zalen anders moeten gaan inrichten. Het dualistische systeem dat wij hier hebben — het kabinet zit hier in vak-K en de Kamer zit daar — willen we ook in de zalen. We hebben volgens mij twee zalen zo ingericht dat je aan de ene kant staand kan vergaderen en dat er aan de andere kant een beetje leven in die commissiezalen plaatsvindt. Dat gebeurt ook.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg93">De meeste Kamerleden hebben gezegd dat de commissies een gezicht hebben. Dat gezicht is de voorzitter van de commissie. Toen ik Kamerlid was, was ik ook commissievoorzitter en ook ondervoorzitter van een andere commissie. Dat deed ik als Kamerlid erbij. Dat was een soort corvee. Je ging eerst een algemeen overleg voeren of je stond in de zaal en daarna moest je rennen naar een commissie, want er was een procedure. Dat is ook niet helemaal terecht. We zien dat de commissievoorzitters heel veel doen. Ze leiden heel veel algemene overleggen. Ze doen al die procedurevergaderingen. Maar ze zijn ook het gezicht van de commissie naar buiten, als ze op werkbezoeken gaan of hoorzittingen organiseren. Ze ontvangen ook delegaties uit binnen- en buitenland. We hebben als Presidium gezegd dat we die positie een beetje willen verankeren zodat het een status krijgt, omdat het niet iets is wat je zomaar erbij doet. In dit verband wil ik het voorbeeld noemen van de heer Pechtold, die nu voorzitter is van de commissie Antillen. Dat is een goed voorbeeld dat het niet iets is wat je zomaar erbij doet, maar dat het heel belangrijk is om dat te kunnen doen. In dat kader is deze wijziging door de commissie voor de Werkwijze voorgesteld.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg94">Eerlijk gezegd dacht ik dat het een heel mooi voorstel was en dat iedereen het zou omarmen, maar het is een beetje ontaard in een totaal andere discussie waarvan ik denk: daar gaat het helemaal niet over. Dus ik houd mij graag bij het voorstel dat ik, althans een aantal Kamerleden hier vandaag op de agenda wilden zetten. Dat voorstel is bedoeld om het commissiewerk te versterken en om de commissievoorzitters een beetje houvast te geven om hun werk op een goede manier te kunnen doen.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u78">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg95">Ik heb gevraagd om uw reactie op mijn voorstel, dat wel ziet op uw voorstel. Daar hoor ik toch nog graag een reactie op.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u79">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg96">Ja, dat ga ik doen. Tot zover mijn algemene gedeelte.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg97">Er zijn wat vragen gesteld, geen concrete vragen, die in elk geval betrekking hebben op dit voorstel. De heer Öztürk heeft het over de videoscheidsrechter. Even kijken of ik snel kan tellen. Wij hebben hier een stuk of vijf camera's, denk ik. Het wordt gewoon uitgezonden. Wij hebben Debat Direct. Iedereen kan het live volgen en ook terugkijken met Debat Gemist. Het is op de website. Het wordt live gestreamd. In die zin bedienen wij DENK ook voor een paar filmpjes, dus dat is ook meegenomen. Als DENK een voorstel wil doen voor een videoscheidsrechter, dan is het aan DENK om dat zelf te doen en de Kamer om een uitspraak te vragen. Ik verdedig gewoon het voorstel van de commissie voor de Werkwijze. Als DENK zelf iets wil, moeten ze daar een voorstel voor doen, lijkt mij. En uiteindelijk is het aan de Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u80">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg98">Öztürk, over het onderwerp.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u81">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg99">Toen de Kamervoorzitter hier solliciteerde, heeft ze aangegeven dat zij wil opkomen voor kleine fracties en dat zij de burger zo veel mogelijk de kans wilde geven om de debatten te zien en daar ook commentaar op te leveren. De beelden zijn er al. Het enige wat we vragen is een burgerpanel van een aantal mensen, 100, 200 — 1.000 mag ook — dat objectief, transparant feedback geeft. Wat kan dat voor kwaad?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u82">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg100">Ik ga echt in op het voorstel dat de commissie voor de Werkwijze heeft gedaan. Het staat DENK vrij een voorstel te doen om het anders te doen. Ik wil wel een opmerking maken over een minderheid, een meerderheid, kleine fracties, grote fracties. Dat is in dit huis niet het geval. Als ik bijvoorbeeld nu kijk naar de sprekerslijst, zie ik dat DENK voor tien minuten heeft ingeschreven. De rest heeft voor een of twee minuten spreektijd ingeschreven. Dus het staat DENK en iedereen vrij om bij wetgeving of dit soort debatten het aantal minuten of uren dat ze willen spreken zelf in te vullen. We hebben bijvoorbeeld VAO's. Daar heeft iedereen standaard twee minuten spreektijd. Voor meerderheidsdebatten worden spreektijden bij meerderheid met elkaar afgesproken. Dus in die zin is er geen verschil tussen grote en kleine fracties. Sterker nog, ik waak er echt voor dat kleine fracties, of u het ermee eens bent of niet, ook tot hun recht komen. Dus in dat opzicht klopt wat u zegt gewoon niet met de feiten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u83">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg101">Afrondend, de heer Öztürk.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u84">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg102">Als je wilt innoveren, als je de Kamer transparant wilt maken, open wilt breken, moet je openstaan voor nieuwe ideeën, ook van kleine fracties. Kleine fracties worden oneerlijk behandeld. We hebben daar beelden van. We hebben het Presidium daar meerdere brieven over gestuurd. Dat mag de burger ook weten. We hebben onze klachten meerdere malen richting Presidium gestuurd, maar ook in het Presidium zitten de grote fracties, de gevestigde orde, en men dekt elkaar. Het is belangrijk, juist om die gevestigde orde te breken, dat we de burger de gelegenheid geven om objectief een oordeel te vellen. Ik zou nogmaals willen vragen: sta daar open voor, denk daaraan, loop er niet voor weg. Het is alleen maar goed en een verbetering voor uw functioneren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u85">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg103">De burger wordt elke keer erbij gehaald. Als de heer Öztürk de burger zou vragen waar hij van wakker ligt, denk ik niet dat de burger gaat zeggen dat hij wakker ligt van het voorstel van de commissie voor de Werkwijze tot wijziging van het Reglement van Orde in verband met de opname van een taakomschrijving voor commissievoorzitters, Kamerstuk 34793. De burger heeft zorgen, heeft problemen. Die problemen horen hier in dit huis te worden geagendeerd en het debat hoort daarover te gaan. Vandaag gaat het inderdaad over een voorstel van de commissie, en ik denk niet dat de burger daar wakker van ligt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u86">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg104">Heel goed.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u87">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg105">Misschien wordt het via de NPO live uitgezonden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u88">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg106">Met 17 miljoen videoreferees. Meneer Öztürk, echt afrondend nu, kort, puntig.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u89">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg107">Ik heb aan het begin van mijn pleidooi gezegd dat de wijze waarop wij hier met elkaar omgaan, afstraalt op de wijze waarop men in de samenleving met elkaar omgaat. Dus wij hebben een voorbeeldfunctie. Op het moment dat de nieuwkomers, de kleine fracties onrechtvaardig worden aangepakt, heeft dat ook uitstraling. Daar ligt de burger wel wakker van.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u90">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg108">Prima. Mevrouw Arib, afsluitend.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u91">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg109">Ik heb eigenlijk gezegd wat ik daarover te zeggen heb.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u92">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg110">Prima. U continueert. Over drie minuten begint het volgende debat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u93">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg111">Dan ga ik naar de heer Markuszower. Die heeft een vraag gesteld over de taakverzwaring en gezegd dat die analoog dient te zijn aan de taakomschrijving van de Kamervoorzitter. Mevrouw Voortman heeft het bij interruptie eigenlijk al gezegd: het is op dit moment zo dat iedereen zich kan kandideren voor het voorzitterschap van een commissie. De ervaring leert dat vroeger de grote partijen de voorzitters leverden. Dat is deze keer heel moeizaam gegaan, omdat er weinig mensen waren die dat wilden doen. Als we dit formaliseren in het Reglement van Orde, hoop ik dat hiermee die mogelijkheid ook voor Kamerleden wordt geopend en dat meer Kamerleden het voorzitterschap van een commissie ambiëren en zich daarvoor kandidaat stellen. Want het is de afgelopen keer echt moeizaam gegaan. Er zijn fracties die hebben gezegd: wij doen het niet, want we zijn klein. De verhoudingen zijn natuurlijk veranderd: we hebben niet echt grote fracties meer, die heel veel mensen kunnen aanleveren. Dus we moesten echt bijna smeken: wilt u alstublieft iemand voordragen met ervaring die een commissie kan voorzitten? In dit verband wil ik ook zeggen — misschien gelooft de heer Öztürk mij niet — dat ik het ontzettend belangrijk vind dat ook DENK een ondervoorzitter heeft geleverd. Daar waren we heel blij mee. In die zin is iedereen gelijk en heeft iedereen dezelfde mogelijkheden.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u94">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg112">Mijn inbreng zag eigenlijk op iets anders: niet zozeer op de taken, de beschikbaarheid of de huidige praktische invulling van het voorzitterschap, maar op de formele procedure voor de keuze van een nieuwe commissievoorzitter, zoals die door u wordt voorgesteld. Ik wil graag uw reactie horen of u het met mij eens bent dat de manier waarop de voorzitter van de hele Kamer wordt gekozen in een open sollicitatieprocedure, niet ook moet gelden bij het kiezen van een commissievoorzitter. Daar heb ik uw reactie nog niet op gehoord.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u95">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg113">Nou, dat heeft waarschijnlijk te maken met het feit dat er bijna geen kandidaten waren. Maar stel — en ik hoop dat — dat er meer kandidaten zijn, dan is het inderdaad ook aan de commissie om te zeggen: nou, we willen het eigenlijk op een andere manier doen, dus doordat ze zich presenteren of misschien een brief schrijven, zoals het ook bij het Kamervoorzitterschap gebeurt. Maar ik hoop dat dit een begin is om het op die manier te gaan organiseren. Nogmaals, voor alle 150 Kamerleden is het mogelijk om met een voorstel te komen om het Reglement van Orde te wijzigen. Als er echt concrete ideeën zijn bij de heer Markuszower, maar dat geldt ook voor de heer Öztürk, om het op een andere manier te doen, dan zou ik zeggen: werk het uit en dan gaan we daarmee aan de slag. Uiteindelijk is het aan de Kamer bij meerderheid — zo werkt het in een democratie — om dat te besluiten.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u96">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg114">Ik zou dat niet graag met de heer Öztürk willen doen, maar ik wil wel graag in die commissie voor de Werkwijze samen met u nadenken over het gelijktrekken van die verkiezingsprocedure. Ik zoek toch een beetje naar een toezegging van u voor steun.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u97">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg115">Ik sta daar open voor, zeker.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u98">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg116">Kijk, die heeft u binnen, meneer Markuszower.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg117">Was u klaar, mevrouw Arib? Dat is het geval. Dit was de termijn van de commissie voor de Werkwijze. Dan kijk ik of er behoefte bestaat aan een tweede termijn. O, de heer Öztürk. Het woord is aan u.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u99">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg118">Voorzitter. De heer Markuszower wil niet met Özturk, maar wel met Arib. Waarvan akte. Wel interessant om dat te horen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg119">Ik heb drie moties, waarmee ik de Kamer om een uitspraak vraag.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Kamervoorzitter/commissievoorzitter Kamerleden kan afkappen en hun het woord kan ontnemen;</note>
+               <note>overwegende dat Kamerleden kiezers vertegenwoordigen en dat het ontnemen van het woord van een Kamerlid feitelijk het ontnemen van het woord van de kiezers is;</note>
+               <note>constaterende dat discussie kan ontstaan of het ontnemen van het woord, al dan niet op een eerlijke en rechtvaardige manier gebeurt, dat wil zeggen voor alle partijen en Kamerleden op eenzelfde manier;</note>
+               <note>spreekt uit dat de Kamer wil experimenteren met een videoscheidsrechter die zaken beoordeelt die Kamerleden dan wel de Kamervoorzitter/commissievoorzitter aan ze voorleggen, waarbij de videoscheidsrechter bijvoorbeeld een burgerpanel zou kunnen zijn,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de commissie voor de Werkwijze een voorstel heeft gedaan om een taakomschrijving voor commissievoorzitters aan het Reglement van Orde toe te voegen, waarbij ook over een jaarlijkse evaluatie van het jaarplan wordt gesproken;</note>
+               <note>verzoekt de commissie voor de Werkwijze om tevens een voorstel tot wijziging van het Reglement van Orde in te dienen rondom een jaarlijkse evaluatie van het functioneren van commissievoorzitters,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Öztürk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34793-5</note>
+               <note>Deze motie is voorgesteld door het lid Öztürk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34793-6</note>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u100">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg120">Dan de laatste motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>van mening dat de Kamervoorzitter een cruciale rol speelt in het parlement;</note>
+               <note>spreekt uit dat de Kamer het van belang vindt om het functioneren van de Kamervoorzitter jaarlijks te evalueren en bij de Raming te bespreken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Öztürk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34793-7</note>
+            </u>
+            <note>Dank u wel. Ik denk dat er bij de leden verder geen behoefte bestaat aan een tweede termijn. De heer Markuszower wellicht? Nee, dat is niet het geval, dus dit was meteen de tweede termijn van de Kamer. Is de Voorzitter reeds in staat om de drie moties te becommentariëren? Dat is het geval. Het woord is aan haar.</note>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u101">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg121">Ik heb de moties niet, maar misschien is het goed om te zeggen dat dit anders ligt dan bij het kabinet. Een bewindspersoon kan een motie ontraden of het oordeel daarover aan de Kamer laten, maar dat is in mijn situatie niet het geval. Het is de Kamer die hierover gaat, dus de Kamer moet de moties zelf beoordelen. Maar ik wil toch één ding zeggen over de eerste motie, die gaat over zo'n videoscheidsrechter. Uiteindelijk is het aan de Kamer, maar ik wil wel waarschuwen voor het feit dat wij geen robots zijn. Politiek blijft mensenwerk, dus ook commissievoorzitters kunnen een fout maken. Dat geldt ook voor de Kamervoorzitter. We willen geen angstige voorzitters hebben, die bang zijn om door een video of wat dan ook niet meer vrij te kunnen functioneren. Daar wil ik wel voor waarschuwen. Uiteindelijk gaat het erom dat alle voorzitters naar bevind van zaken kunnen functioneren en dat de Kamer daar vertrouwen in heeft.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u102">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg122">Dank u wel. De heer Öztürk, kort.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u103">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg123">Ik ben het met de Kamervoorzitter eens. We zijn allemaal mensen, dus we kunnen ook fouten maken. We kunnen ook antipathieën of vooroordelen hebben. Juist daarom zou de Kamervoorzitter niet bang moeten zijn om beelden voor te leggen aan een burgerpanel. Daar kunnen we van leren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u104">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg124">Helder.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u105">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg125">Het moet niet zo zijn dat er een zwaar oordeel wordt geveld. Het gaat om goed functioneren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u106">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg126">Heel goed. Voorzitter Arib.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#regular" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u107">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg127">Alles wordt live uitgezonden, dus ook dit debat. Burgers volgen ons. Ik krijg genoeg feedback van burgers over hoe het hier gaat. Daar wil ik het eigenlijk bij houden. Ik dank alle Kamerleden voor hun bijdrage.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u108">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg128">Prima, tot zover.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.u109">
+               <seg xml:id="ParlaMint-NL_2018-01-25-tweedekamer-5.seg129">Aanstaande dinsdag stemmen wij over het voorstel van de commissie voor de Werkwijze en over de drie moties van de heer Özturk. Tot zover. Ik schors voor een ogenblik in afwachting van het volgende debat.</seg>
+            </u>
+            <note>De vergadering wordt van 11.06 uur tot 11.11 uur geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

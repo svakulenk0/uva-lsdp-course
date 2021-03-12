@@ -1,0 +1,309 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-11-27 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-11-27 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 29, Session 3 (2019-11-27)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 29, Session 3 (2019-11-27)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="29">Meeting 29</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="54">54 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="54">54 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="5105">5105 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="5105">5105 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-11-27">2019-11-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="81"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="54"/>
+               <tagUsage gi="note" occurs="37"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-11-27">2019-11-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Pensioenonderwerpen</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg1">Ik heet de minister van Sociale Zaken en Werkgelegenheid van harte welkom. We beginnen met het VAO Pensioenonderwerpen. Er zijn twee AO's geweest en er is één VAO. Dat betekent dat u zich gewoon aan de tijd dient te houden. De spreektijd is twee minuten en wij zien hier streng op toe.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg2">Ik geef als eerste graag het woord aan mevrouw Van Brenk. Zij spreekt namens de fractie van 50PLUS.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg3">Voorzitter. Twee moties en nog een opmerking.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de volledige implementatie van het pensioenakkoord nog wel twee jaar op zich kan laten wachten;</note>
+               <note>overwegende dat er verkiezingen in aantocht zijn waarbij pensioenkortingen voor heel veel onzekerheid kunnen zorgen;</note>
+               <note>overwegende dat een nieuw pensioenstelsel niet met het mes van kortingen op de keel zou moeten worden geïmplementeerd;</note>
+               <note>verzoekt de regering een vaste rekenrente te herintroduceren van ten minste 2%,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de minister-president tijdens de Algemene Beschouwingen in de Eerste Kamer er blijk van heeft gegeven moeite te hebben met de interpretatie van de brandbrief van 60 economen over de rekenregels voor pensioenfondsen;</note>
+               <note>verzoekt de regering op korte termijn in overleg te treden met een delegatie van de ondertekenaars, teneinde elke mogelijke verwarring en verkeerde interpretatie van de strekking van de brandbrief uit te sluiten, en de Kamer hier zo spoedig mogelijk over te infomeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Brenk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32043-506</note>
+               <note>Deze motie is voorgesteld door het lid Van Brenk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32043-507</note>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg4">Voorzitter. Wij zijn van mening dat geen enkele korting gerechtvaardigd is zolang er wordt gerekend met de risicovrije marktrente van bijna 0%. Daarom hebben wij afgesproken dat wij in ieder geval ook mee tekenen met de motie van de SP om ook de korting voor de 600.000 mensen die nog steeds met pensioenkortingen worden bedreigd, van tafel te halen. Wij vinden het hypocriet dat partijen die de voorpagina halen met het statement "alle kortingen van tafel", het nu prima vinden om 600.000 mensen alsnog op te zadelen met onnodige pensioenkortingen.</seg>
+            </u>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg5">Wij werden impliciet aangesproken, volgens mij. Dat hoor ik in de wat abstracte bewoordingen van mevrouw Van Brenk. Ik wil erop wijzen dat ik ook tijdens het AO heb benadrukt dat wij geen politieke verantwoordelijkheid kunnen nemen voor met name fondsen die slecht gefinancierd zijn. Wij zijn blij dat er nu al een ruim gebaar wordt gemaakt naar zo veel mogelijk fondsen.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg6">Impliciet? Nee, wat mij betreft zelfs expliciet. De PvdA en GroenLinks mogen zich dit inderdaad aantrekken. Zeker ook in het licht van hetgeen vandaag in de krant staat, namelijk dat de ECB een verschil maakt van 1,7% voor de rente. Daarmee is het nog steeds een probleem voor die fondsen. Eigenlijk is het geen probleem, want als je zou zeggen: wij rekenen met in ieder geval dat stukje erbij; dan zouden ook die fondsen waarvan meneer Van Dijk nu zegt dat ze echt in de problemen zitten, helemaal niet in de problemen zijn. Het is dus gewoon echt die fictieve en belachelijk lage rekenrente waardoor zij in de problemen komen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg7">Voorzitter, dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg8">Dank u wel, mevrouw Van Brenk.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg9">Het woord is aan de heer Van Kent en hij spreekt namens de Socialistische Partij.</seg>
+            </u>
+            <u who="#BartvanKent" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg10">Dank, voorzitter. Mevrouw Van Brenk heeft volkomen gelijk als zij zegt dat het totaal onrechtvaardig is dat een pensioenverlaging dreigt voor honderdduizenden mensen. Dat partijen die zeggen dat zij steun verlenen aan het pensioenakkoord onder de voorwaarde dat al die onnodige pensioenverlagingen worden voorkomen, hiermee akkoord gaan, is hypocriet en ongeloofwaardig. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat voor honderdduizenden mensen pensioenverlagingen dreigen;</note>
+               <note>verzoekt de regering om samen met de partijen die bij het pensioenakkoord betrokken zijn in overleg te treden teneinde ook deze pensioenverlagingen zo veel als mogelijk te voorkomen, en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Kent en Van Brenk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32043-508</note>
+            </u>
+            <u who="#BartvanKent" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg11">Voorzitter. Ik heb de motie expres zó geformuleerd dat ook de partijen die deze belofte hebben gedaan, deze motie kunnen steunen, zodat die belofte gestand kan worden gedaan. Ik kan me toch niet voorstellen dat partijen zoals het CDA en de ChristenUnie — hier vandaag niet aanwezig — akkoord gaan met de gigantische pensioenverlagingen die voor honderdduizenden mensen dreigen, een verlaging op basis van rekenregels en een gemanipuleerde rente. Het staat vandaag ook in de krant. Ik kan me niet voorstellen dat deze partijen dat voor hun rekening nemen. Ik ga ervan uit dat ook de pensioenverlaging voor die vele honderdduizenden mensen alsnog van tafel gaat.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg12">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg13">Dank u wel, meneer Van Kent.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg14">Dan is nu het woord aan de heer De Jong. Hij spreekt namens de fractie van de PVV.</seg>
+            </u>
+            <u who="#LeondeJong" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg15">Voorzitter, hartelijk dank. Het is absoluut waar. Het is een grof schandaal dat je het komende jaar 600.000 mensen nog gewoon een pensioenkorting laat krijgen. Dat is totaal onnodig gezien het huidige pensioenstelsel en gezien de pensioenpot. Het is allemaal niet nodig en toch gebeurt het. De partijen die de afgelopen weken een grote mond hadden, zo van "nou, we gaan die kortingen echt wel voorkomen", zijn de partijen die zelf zeggen: weet je wat, die 600.000 mensen, ach, dat is dan maar het risico.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg16">Voorzitter. Dat is onacceptabel, en daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er nog altijd pensioenkortingen dreigen voor 600.000 mensen in 2020 en miljoenen pensioendeelnemers in 2021;</note>
+               <note>verzoekt de regering te komen met een reële rekenrente voor pensioenfondsen, waardoor pensioenkortingen voor miljoenen Nederlanders direct van tafel gaan,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid De Jong. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32043-509</note>
+            </u>
+            <u who="#LeondeJong" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg17">Voorzitter. Niet alleen heeft deze minister de gewone politieke verantwoordelijkheid in deze Kamer voor het doen van voorstellen om het vertrouwen in het pensioenstelsel te houden en dat te verbeteren, het is natuurlijk ook onacceptabel is dat deze minister zich laat gijzelen door de ECB. Vandaag werd duidelijk dat, indien de ECB helemaal niets zou hebben gedaan en gewoon achterover was gaan leunen — wat het beste is — wij hier helemaal niet hadden hoeven te staan om te spreken over een pensioenkorting, want dan was de rekenrente 1,5% hoger geweest. Dat had betekend dat wij een vele procenten hogere dekkingsgraad hadden gehad en dat pensioenfondsen dus uit de problemen waren gekomen. Sterker nog, dan hadden ze misschien wel kunnen indexeren.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg18">Voorzitter. Mijn oproep aan de minister is dan ook om zich niet langer te laten gijzelen door de ECB en gewoon zijn eigen plan te trekken — of het plan van de PVV aan te houden, wat nog beter zou zijn — en de rekenrente aan te passen tot een reële rekenrente.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg19">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg20">Dank u wel, meneer De Jong.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg21">Dan geef ik het woord aan de heer Smeulders. O. De heer Van Weyenberg namens D66.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg22">Sorry, voorzitter, de heer Smeulders had mij al een sneakpreview gegeven. Dat was nog voor zijn spreektijd.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg23">Voorzitter. Ik ben blij dat bij de uitvoering van de motie van collega Gijs van Dijk een oplossing is gevonden om onnodige kortingen te voorkomen. Dat gebeurt op een gebalanceerde manier, waarbij de minister niet buigt voor de rekenrentetovenaars die zeggen "schuif de rekening en de risico's maar door naar werkenden en jongeren". Nee, hij heeft nu voor een oplossing gekozen die naar mijn mening rechtvaardig is, gegeven het feit dat die niet alleen voor gepensioneerden, maar ook voor jongeren en voor werkenden eerlijk is. Zij hangt ook echt samen met de uitwerking van het pensioenakkoord. Ik zeg hier nog een keer dat we die uitwerking de komende maanden ook echt, echt moeten regelen.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg24">De rekenrentetovenaars. Betekent dit dat de heer Van Weyenberg al die 60 notabelen die de brief hebben geschreven, tot de rekenrentetovenaars rekent?</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg25">Ik vind het altijd goed als mensen zich in het publieke debat mengen; daar heb ik altijd alleen maar waardering voor. Bij het huidige contract, met een collectieve pot en met harde aanspraken, vind ik het gewoon onverstandig om ... Overigens hebben wij op die risicovrije rente al de ultimate forward rate; dus voor de langetermijnrente hebben wij al een opslag. Op dat vlak meer doen in dit contract vind ik niet verstandig. Dat zeggen ook heel veel mensen die hebben gereageerd op de oproep. Bij die oproep zaten overigens ook een aantal mensen — ik zal geen namen noemen — die in hun eigen rol in de pensioenfondsen wat mij betreft af en toe keuzes hebben gemaakt die niet hebben geholpen om hun pensioenfonds gezond te maken. Dat vind ik onverstandig. Ik ben het dus met iedereen eens die zegt dat je heel goed moet kijken, ook naar een nieuw contract. Als je persoonlijke pensioenpotten hebt, hoef je wat mij betreft ook niet te rekenen met die risicovrije rente. Dat is een heel andere vraag. Maar ik vind het heel verstandig dat de minister niet is gebogen voor de "na mij de zondvloed"-lijn. Ik herhaal het hier: echt gerealiseerde hogere rendementen mogen natuurlijk in de praktijk worden meegerekend. Maar wel eerst verdienen en niet op de pof leven.</seg>
+            </u>
+            <u who="#BartvanKent" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg26">Ik had deze vraag ook graag aan de PvdA en GroenLinks gesteld. Ze stonden op de sprekerslijst, maar komen hier toch niet het woord voeren. Daarom de vraag aan D66: wat vindt u ervan dat voor honderdduizenden mensen alsnog pensioenverlagingen dreigen? Vindt u dat uw minister voldoende heeft gedaan om te voorkomen dat de pensioenen verlaagd worden, in afwachting van de uitwerking van het pensioenakkoord?</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg27">Ja, dat vind ik. Voor miljoenen mensen gaan de kortingen van tafel. Ten eerste doordat de minister heeft gezegd dat je niet hoeft te korten met een dekkingsgraad tussen de 100 en 104. Nu zegt de minister ook nog dat hij ruimte geeft voor een dekkingsgraad tussen 90 en 100. Dat is nogal wat. Dan zeggen we eigenlijk: we blijven uitkeren, terwijl het er volgens de boekhouding niet is. Ik vind dat ook rechtvaardig, omdat we tegelijkertijd nog wat langer toestaan dat de premies te laag zijn. Ik ben het ook helemaal met iedereen eens die zegt dat gepensioneerden daarmee juist de pensioenopbouw van werkenden ondersteunen. De minister heeft wel gezegd dat er ergens een grens aan zit. Onder de 90% vind ik het gewoon niet verantwoord. Dan heb je eigenlijk 10% geld tekort in kas voor je toekomstige verplichtingen. Ik vind het verstandig dat de minister dit begrenst. Die begrenzing van 90% zit overigens ook in het nieuwe pensioenakkoord, het nieuwe pensioencontract. Maar ik ben het helemaal met de heer Van Kent eens dat dit een hele zure boodschap is en een zwaar gelag is voor al die mensen die dit betreft. En verder: ik kan niet voor mijn twee collega's van andere partijen antwoorden. Maar dat snapt de heer Van Kent, denk ik.</seg>
+            </u>
+            <u who="#BartvanKent" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg28">Een heel lang verhaal, dat er eigenlijk op neerkomt dat de heer Van Weyenberg blij is met zijn eigen minister. Dat begrijp ik ook.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg29">Ik ben ook blij met u, hoor.</seg>
+            </u>
+            <u who="#BartvanKent" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg30">Maar ik had gevraagd wat de heer Van Weyenberg ervan vindt dat alsnog voor bijna 700.000 mensen, zoals ik had uitgerekend bij het algemeen overleg, pensioenverlagingen dreigen. Vindt de heer Van Weyenberg dat verantwoord, ook in relatie tot de uitwerking van het pensioenakkoord? Acht de heer Van Weyenberg het dreigen van deze pensioenverlagingen een risico voor een goede uitkomst van die pensioenonderhandelingen?</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg31">Natuurlijk is het heel erg zuur. Geen misverstand daarover. Het hangt ervan af. Een aantal fondsen zit net onder de 90. Wellicht weten ze daar toch nog net overheen te gaan. Dat hopen we allemaal, denk ik. Mocht die korting plaatsvinden ... Ik vind het nog steeds heel vervelend. U noemde zelf een fonds met, geloof ik, 89,8. Dan is de korting natuurlijk gelukkig niet al te groot. Maar het blijft een korting en dat is heel vervelend. Maar als we het niet doen, terwijl we in het nieuwe pensioenakkoord zeggen dat er onder de 90 onvermijdelijk maatregelen genomen moeten worden ... We kunnen gewoon helaas die pijnlijke situatie niet wegtoveren. Niets doen zou ik nog veel erger vinden.</seg>
+            </u>
+            <u who="#BartvanKent" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg32">Tot slot constateer ik dat de heer Van Weyenberg gewoon een gokje neemt met de pensioenen van honderdduizenden mensen, terwijl het verschil minimaal is en de gekozen grens arbitrair is. De echte oplossing zit in het aanpassen van die belachelijke rekenregels waardoor pensioenfondsen zich arm moeten rekenen.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg33">Ik neem helemaal geen gok. Ik zeg dat het onder de 90 helaas niet verantwoord is om maatregelen langer uit te stellen. Volgens mij is het toch een beetje de gokverslaafde die zegt dat het eenmalig kopen van een staatslot gevaarlijk is. De heer Van Kent gokt namelijk gigantisch met het pensioen van alle werkenden en jongeren, met zijn ideeën over de rekenrente. Dat is mijn punt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg34">Dit is uitlokking, maar we gaan het debat niet opnieuw doen.</seg>
+            </u>
+            <u who="#BartvanKent" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg35">Het is vooral heel belachelijk.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg36">Fijn dat de heer Van Kent zijn eigen idee zo omschrijft. Ik zou het gewoon niet doen. De crux is dat het buitengewoon zuur is als je gekort wordt. Nogmaals, geen enkel misverstand daarover. Dat het nu voor miljoenen mensen kan worden voorkomen, vind ik goed nieuws.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg37">Ik wilde nog een ander punt maken en dat gaat over de AIO. Dat is de aanvulling voor inkomensondersteuning voor ouderen die een onvolledige AOW hebben en geen fors aanvullend pensioen, waardoor er eigenlijk sprake is van een soort bijstand voor mensen met een onvolledige AOW. Nu blijkt dat misschien wel de helft van de rechthebbenden daar geen gebruik van maakt en dat vind ik schokkend. Dat blijkt uit sommen van de Rekenkamer en mevrouw Van Brenk heeft hier ook vaak aandacht voor gevraagd, evenals ik in het AO. Het kabinet zou in overleg gaan met gemeenten over wat er gedaan kan worden om ervoor te zorgen dat mensen die gewoon recht hebben op die aanvulling, die ook aanvragen en krijgen. Kan de minister er al iets over zeggen en, zo nee, kan hij dan aangeven wanneer hij er wel meer over kan zeggen? Want dit is een groep ouderen die hierdoor echt onder het minimum zakt, terwijl we regelingen hebben om hen juist daarbij te helpen. Dat kunnen we wat mij betreft echt niet over onze kant laten gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg38">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg39">Dank u wel. Dan is het woord aan de heer Van der Linde namens de VVD.</seg>
+            </u>
+            <u who="#RoaldvanderLinde" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg40">Voorzitter. We hebben in Nederland drie miljoen mensen die hard hebben gewerkt en altijd netjes hun belastingen en premies hebben betaald en die nu machteloos toekijken hoe aan hun oudedagsvoorziening wordt gemorreld. Dat voelt niet eerlijk, maar het is ook niet eerlijk om problemen in pensioenland te negeren en op de oude voet door te gaan. Als je 68 bent, moet je zeker weten dat er ook een goed pensioen is en ook als je 78 bent, als je 88 bent of als je 98 bent. Daarom waren en zijn wij zo mordicus tegen dat getover met die discontovoet, die rekenrente, of tegen het zomaar weer verlengen van hersteltermijnen of tegen het omhoog kijken van de rente, tegen beter weten in.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg41">Het nieuwe pensioenakkoord gaat veel problemen oplossen. Mensen krijgen wat meer zicht op hun eigen pensioenvermogen en hoe zich dat ontwikkelt en we zijn die venijnige discussie tussen de generaties kwijt. Maar ook de VVD ziet dat het niet gaat lukken om dat nieuwe pensioenakkoord rustig uit te rollen als die drie miljoen gepensioneerden in Nederland moeten betalen voor de handhaving van regels die over twee jaar misschien niet meer gelden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg42">We vinden dat er nu een afgewogen pakket ligt dat rust geeft voor alle pensioendeelnemers maar toch — en dat is goed — een harde ondergrens bevat, namelijk die 90%. Er moet nu wel geleverd worden. We geven lucht aan de pensioenfondsen en aan de sociale partners om hard te werken aan het uitvoeren van het nieuwe akkoord. We wachten met grote spanning op de hoofdlijnennotitie die komende zomer klaar moet zijn.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg43">Ik hoor de heer Van der Linde toch een heel interessante opmerking maken: als het nieuwe contract over twee jaar gereed is. Mag ik dan van de VVD ook de toezegging krijgen dat we niet een jaar de kortingen aan de kant schuiven maar twee jaar? Kunnen we dat nu dan alvast inboeken?</seg>
+            </u>
+            <u who="#RoaldvanderLinde" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg44">Nee, wij willen eerst zeker weten dat er van de zomer een hoofdlijnennotitie ligt en dat de dingen voor elkaar zijn. We gaan niet zomaar alles weer vooruitschuiven, want dan gebeurt er helemaal niks in Nederland.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg45">Dan is het gewoon een opmerking voor de bühne. Duidelijk.</seg>
+            </u>
+            <u who="#RoaldvanderLinde" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg46">Waarvan akte.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg47">Ik was aan het eind van mijn betoog.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg48">Dank u wel. Dan kijk ik naar de heer Omtzigt als laatste spreker in deze termijn en hij spreekt namens het CDA.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg49">Dank u wel, voorzitter. Sorry dat ik iets te laat was en ik iets eerder weg moet, maar het lukt mij niet goed om alle dingen met Malta en de Belastingdienst en dit tegelijk te doen vanmorgen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg50">Voorzitter. Sinds het laatste plenaire pensioendebat is de rente verder gedaald en heeft de nieuwe voorzitter van de Europese Centrale Bank kenbaar gemaakt dat de lage rente langdurig laag zal blijven. Dat zet de uitwerking van het pensioenakkoord onder druk. Dat is ook de reden waarom ik al sinds de uitwerking van het pensioenakkoord zo benieuwd ben naar de doorrekeningen. Wat betekent deze lage rente en wat betekenen de nieuwe regels voor hoeveel pensioen je kunt opbouwen? Hoe variabel wordt het pensioen? In het nieuwe pensioencontract wordt het pensioen variabeler, maar dat zou niet al te variabel worden. Ik dring er bij deze regering op aan om deze berekeningen spoedig, binnen een aantal weken naar de Kamer te sturen, zodat wij inzicht hebben in hoe dat nieuwe contract er uit gaat zien, een halfjaar nadat we het zijn overeengekomen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg51">Voorzitter. Er is een interessante studie van de ECB verschenen. De ECB zelf — dus niet iemand anders, maar de ECB zelf — zegt dat het verschil tussen de rente zoals die nu is en zoals die zou zijn zonder ingrijpen van de ECB 1,6% is. Als de rente 1,6% hoger zou zijn, dan zouden wij hier nu niet spreken over kortingen, maar waarschijnlijk over hoeveel indexatie we zouden hebben. We zouden geen volledige indexatie hebben — dat zeg ik er wel bij — maar een aantal pensioenfondsen zou van mogelijke korting naar mogelijk een stukje indexeren gaan. Dat is een enorm verschil. De impact van de ECB is enorm. Daar waarschuwt het CDA al jaren voor. Het gaat impact hebben op de studie van het CBP naar de vraag of het optimaal is om überhaupt een kapitaalgedekt stelsel te houden met de negatieve rente. Daarom dringen wij er ook op aan om die CBP-studie en Netsparstudie zo snel mogelijk te laten beginnen. Dat gaat namelijk om de fundamentele keuze hoe we het stelsel inrichten en wat de prijzen zijn. Wil de minister ervoor zorgen dat die studie zo snel mogelijk begint, zodat we de resultaten begin juni op tafel hebben, wanneer we hier weer een wat groter debat over de pensioenen voeren?</seg>
+            </u>
+            <u who="#LeondeJong" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg52">Ik hoor de heer Omtzigt terecht zeggen dat hij zich grote zorgen maakt over de invloed van de ECB hierop, maar ik heb toch een vraag. De PVV heeft een aantal keren een motie ingediend om in ieder geval zolang het ECB-beleid wordt gevoerd zoals het nu wordt gevoerd, de rekenrente aan te passen. Dat zou een tijdelijke maatregel kunnen zijn. Nu zien we dat het, als de ECB het niet zou doen, ongeveer 1,5% zou schelen. Dat scheelt enorm voor de dekkingsgraden. Daar hebben wij ook toe opgeroepen in moties. De heer Omtzigt heeft toen tegengestemd. Kan de heer Omtzigt uitleggen waarom?</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg53">Ja, dat kan ik uitleggen. De rekenrente is geen fictieve rente, maar is de feitelijke rente die een pensioenfonds krijgt op de obligaties die het heeft. Als u op dit moment een tienjarige obligatie koopt bij minister Hoekstra, heeft u tien jaar lang 0% rente. Als je dan gaat rekenen met een rente van 1,6% over tien jaar — want die zou je zonder ingrijpen dan hebben — klopt het niet, want die rente krijg je niet. Aan het eind van het jaar krijg je namelijk niet 1,6% rente op je spaarrekening of op je obligatie, maar 0% rente.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg54">Daarom heeft het CDA ook andere zaken voorgesteld. Vorige week is een motie aangenomen waarin de regering wordt gevraagd om de tekst voor een verdragswijziging voor te bereiden, om te kijken hoe we ervoor kunnen zorgen dat de ECB niet meer zo massaal kan opkopen en niet meer zo massaal verstorend kan werken. We willen daar internationaal ook steun voor verzamelen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg55">Het tweede is dat de ECB nu zelf waarschuwt dat hij zelf het grootste probleem is voor de macro-economische stabiliteit. Ons lijkt het dus beter om het op die manier aan te pakken dan om te zeggen: wij doen alsof de rente anders is dan hij op dit moment is. Hoewel dat wel aantrekkelijk is, ben ik daar niet zo'n voorstander van.</seg>
+            </u>
+            <u who="#LeondeJong" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg56">De heer Omtzigt stelt zich afhankelijk van de ECB en van internationale contacten op. Hij wil dit probleem internationaal oplossen, terwijl wij nu met dit probleem te maken hebben. Voor komend jaar hangt 600.000 mensen een korting boven het hoofd en voor het jaar daarna gaat het om miljoenen mensen, want ook die kortingen zijn nog steeds niet van tafel. Dat komt mede door het beleid van de ECB. Dan zegt de heer Omtzigt: we moeten kijken of de ECB iets anders kan doen of dat we internationaal steun kunnen vergaren. U had er, als tijdelijke noodoplossing, ook voor kunnen kiezen om, zolang de ECB doet wat hij doet, hier in Nederland iets te doen aan die rekenrente, aan dat verschil met als de ECB niets zou hebben gedaan. Het is niet uit te leggen dat de heer Omtzigt daar niet in meegaat. Ik wil best kijken naar de plannen die de heer Omtzigt naar voren brengt om te kijken hoe we het kunnen oplossen, maar zolang hij hier in de Tweede Kamer blijft zeggen hoe verschrikkelijk hij het vindt, terwijl hij vervolgens oplossingen die voor heel veel pensioengerechtigden een verbetering kunnen zijn, wegstemt, zijn die plannen niets waard.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg57">Ik ben overigens blij dat ook de PVV die motie gesteund heeft. Maar het is geen oplossing om te zeggen "we krijgen 1,6% rente" wanneer je 0% rente krijgt. Dat is geen oplossing, dat is een manier om te zeggen: we schuiven het probleem naar achter toe. Daarom wil ik dat het probleem bij de kern aangepakt wordt en dat is dat opkoopprogramma, dat er nooit in deze mate had mogen zijn. Dat moet aangepakt worden. Dat dat niet makkelijk is en dat dat niet binnen een dag zal lukken, erken ik onmiddellijk, maar het gaat impact hebben op hoe ons pensioenstelsel eruitziet. Daarom wil ik die CPB-studie hier zo snel mogelijk hebben, zodat open op tafel ligt wat de impact is. Die impact op ons pensioenstelsel zou volgens mijn berekeningen boven de 150 miljard kunnen liggen. We hebben het hier altijd over de vraag: moeten we een klein beetje extra aan de begroting van Brussel bijdragen? Dit zijn de echte kosten die wij als Nederland hebben vanwege één monetair beleid. En die zijn veel groter dan de kosten van bijvoorbeeld de Brusselse begroting.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg58">Dank u wel, meneer Omtzigt. De minister kan meteen doorgaan. Ik geef graag het woord aan de minister.</seg>
+            </u>
+            <u who="#WouterKoolmees" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg59">Dank u wel, mevrouw de voorzitter. Ik dank de Kamer voor de gestelde vragen. Ik zal eerst even een paar vragen langslopen en daarna ingaan op de moties.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg60">De heer Van Weyenberg heeft een specifieke vraag gesteld over de AIO. Het is terecht dat de heer Van Weyenberg daar aandacht voor vraagt. Mevrouw Van Brenk en de heren Slootweg en Omtzigt hebben er ook aandacht voor gevraagd in de schriftelijke vragen naar aanleiding van het rapport van de Algemene Rekenkamer. Ik heb over dit punt contact gehad met de heer Irrgang, collegelid van de Rekenkamer. Ik begrijp de frustratie heel goed over het weinige gebruik op dit moment van de regeling om mensen met een onvolledige AOW-opbouw inkomensondersteuning te bieden. We zijn nu bezig met het in kaart brengen van de mogelijkheden voor bestandsvergelijking. Dan moet je daarbij een evenwicht vinden met de privacybescherming — dat is altijd weer de zoektocht — maar ik heb ook richting de heer Irrgang aangegeven dat we, wat mij betreft, echt een stap verder moeten zetten om dit mogelijk te maken. Daar zijn we nu mee bezig. Ik heb hierover gisteren een brief naar uw Kamer gestuurd. Ik ben nog in overleg met onder andere de G4. De heer Groot Wassink, de wethouder van Amsterdam, heeft hier aandacht voor gevraagd. Ik ben voorts nog in overleg met de SVB om dit op te lossen. Geef me even de tijd om na te denken wat de mogelijkheden zijn om het niet-gebruik terug te dringen. Maar we zijn ermee bezig.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg61">Het tweede punt van de heer Van Weyenberg komt ook nog aan de orde bij de moties. In de oplossing die ik heb gekozen, is inderdaad gezocht naar een evenwicht tussen jong en oud. Het is ook in de tijd begrensd, omdat we ook de tijd moeten hebben om het pensioenakkoord uit te werken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg62">De heer Omtzigt had twee specifieke vragen, maar heeft daarover geen moties ingediend. De ene vraag ging over de doorrekening van het CPB. Het CPB is al begonnen. Ik ben het met hem eens dat we snel een helder beeld moeten hebben. Het gaat eigenlijk over de vraag kapitaaldekking versus omslagdekking tegen de achtergrond van de lage rente. Ik heb vorige week op verzoek van mevrouw Van Brenk de onderzoeksvragen naar de Kamer gestuurd. Dat onderzoek moet inderdaad voor de zomer gereed zijn, zodat we het hele pakket bij elkaar kunnen nemen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg63">Daarnaast heb ik in het AO toegezegd dat ik in december in mijn voortgangsbrief inga op de sommen naar aanleiding van het huidige en het nieuwe contract, op de betekenis van de lage rente voor die contractvergelijking. Dat was nieuw voor mij, want dat had ik verkeerd begrepen in het vorige AO. En door de oogharen heen: wat betekent dat voor de opbouw, voor de volatiliteit? De vragen die de heer Omtzigt hierover heeft gesteld, wil ik meenemen in de voortgangsbrief van december. Maar ik had het in het vorige AO gewoon verkeerd begrepen. Mijn excuses daarvoor.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u41">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg64">Meneer Omtzigt, heeft u hierover een vraag?</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u42">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg65">Dank u wel. Dank ook voor beide toezeggingen. Eigenlijk was de vraag impliciet of de minister het CPB wil meegeven dat het de ECB-studie die nu zegt dat het 1,6% is, ook meeneemt als input bij de vraag wat het ECB-beleid betekent voor de optimale keuze. Dwingt het ECB-beleid ons straks om terug te gaan naar een omslagstelsel en leidt het ECB-beleid ertoe dat wij het kapitaaldekkingsstelsel niet kunnen handhaven? Die vraag moet eigenlijk ook beantwoord worden nu dat verschil zo groot is. Hoe het CPB die vraag beantwoordt, is natuurlijk aan het CPB.</seg>
+            </u>
+            <u who="#WouterKoolmees" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u43">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg66">Het CPB is altijd onafhankelijk.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u44">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg67">Gelukkig wel.</seg>
+            </u>
+            <u who="#WouterKoolmees" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u45">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg68">Ik vind dat een terecht punt. Dat is natuurlijk ook niet helemaal nieuw. Philip Lane heeft vorige week in Londen over 1,6% gesproken. Een jaar geleden was het 0,95%, was het 95 basispunten, maar ook met een range daartussenin. Het is dus geen nieuw fenomeen. Maar wij zullen het CPB vragen om deze vraag mee te nemen in het onderzoek. Er hoort overigens ook wel een ander verhaal bij, namelijk dat de lage rente natuurlijk ook gewoon effect heeft op de economie, op de beurzen en op de obligatiekoersen. Die heeft dus aan twee kanten van de balans een effect. Dat wordt vaak vergeten in deze discussie. Je kunt niet zo maar zeggen dat, als je er 1,6% bovenop gooit, de dekkingsgraad opeens een stuk hoger is. Je moet dan ook meenemen dat bijvoorbeeld de prijzen op de woningmarkt en de vastgoedmarkt, en de aandelenkoersen of de obligatiekoersen fors hoger zijn geworden door die daling van de rente. Dat weet de heer Omtzigt. Zijn punt vind ik wel terecht en dat nemen wij mee.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg69">Ik kom bij de moties. De motie op stuk nr. 506 van mevrouw Van Brenk gaat over de rekenrente. Zij kent mijn standpunt daarover. Ik ontraad de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg70">Dan de motie op stuk nr. 507 van mevrouw Van Brenk over het in overleg gaan met een delegatie van de ondertekenaars van de prominentenbrief, de 60 mensen die de brief hebben ondertekend. Ik spreek regelmatig met leden van deze groep prominenten, maar ook met leden van de groep hoogleraren die een dag daarna een tegenbrief hebben gestuurd. Juist voor het meenemen van de wetenschappelijke inzichten bij de uitwerking van het pensioenakkoord hebben we in de stuurgroep en de werkgroepen voor de uitwerking van het pensioenakkoord ook een wetenschappelijk beraad. Daar zit een aantal hoogleraren en deskundigen in die dan wel de prominentenbrief, dan wel de hooglerarenbrief hebben ondertekend. Het heeft dus geen zin om een apart overleg met de vertegenwoordigers van die groepen te voeren. Wij nemen hun geluiden dus mee in het wetenschappelijk beraad over de uitwerking van het pensioenakkoord. Daarom ontraad ik deze motie.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u46">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg71">Ik kan die motie intrekken als ik van de minister een toezegging krijg op een ander onderdeel. De minister-president ...</seg>
+            </u>
+            <u who="#WouterKoolmees" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u47">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg72">Zijn we aan het dealen?</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u48">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg73">Ja, tuurlijk. Ik ben van huis uit een onderhandelaar. De minister-president heeft in de Eerste Kamer echt onzin gesproken ten opzichte van de heer Van Rooijen, in die zin dat hij de brief heel anders interpreteerde. Misschien wil de minister in ieder geval met de minister-president praten over wat de brief echt inhoudt. Dat zou in ieder geval schelen.</seg>
+            </u>
+            <u who="#WouterKoolmees" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u49">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg74">Dat heb ik gedaan, zowel voor het debat over de Algemene Politieke Beschouwingen in deze Kamer als voor de Algemene Politieke Beschouwingen in de Eerste Kamer. Ik vond de samenvatting, al zijn er natuurlijk allerlei nuances, van de minister-president van de brief tamelijk accuraat. Ik heb overigens een heel leuk gesprek gehad met de heer Van Rooijen in de wandelgangen van de Eerste Kamer, wel een half uur lang. We hadden iets meer tijd om de nuances op te zoeken, zal ik maar zeggen. Maar geloof mij als ik zeg dat ik de minister-president hierover uitgebreid heb gesproken. Houdt u nu uw motie aan?</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u50">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg75">Neen, nee. Ik ben heel erg teleurgesteld in de minister-president, maar dat lijkt mij duidelijk.</seg>
+            </u>
+            <u who="#WouterKoolmees" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u51">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg76">Dat moet u met de minister-president opnemen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u52">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg77">De minister gaat door.</seg>
+            </u>
+            <u who="#WouterKoolmees" ana="#regular" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u53">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg78">Ik kom bij de motie van de heer Van Kent en mevrouw Van Brenk op stuk nr. 508. Daarin wordt mij verzocht om in overleg te treden met partijen om de dreigende korting voor 600.000 gepensioneerden weg te nemen. Ik wil heel helder opmerken dat, als wij niets hadden gedaan, 7,8 miljoen deelnemers aan pensioenfondsen komend jaar een korting zouden hebben gekregen. Door deze maatregel is dat aantal gereduceerd tot 600.000. Ik ben het met de heer Gijs van Dijk eens dat het daarbij over fondsen gaat die er structureel slecht voor staan. Elke grens is inderdaad arbitrair, maar je moet een grens stellen. Het meetmoment blijft 31 december van dit jaar. Op basis van de cijfers van eind oktober is sprake van een aantal van 600.000 gepensioneerden, ten opzichte van 7,8 miljoen gepensioneerden. Maar het meetmoment blijft 31 december van dit jaar. Als het herstelt, worden het minder mensen, maar als het slechter wordt, kunnen het er meer worden. Deze fondsen staan er echt slecht voor. De heer Van Weyenberg stelde overigens terecht dat we ook in het pensioenakkoord een backstop hebben opgenomen van 90%. Als het percentage daaronder komt, moeten we een en ander herstellen naar een gezonde situatie. Tegen die achtergrond ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg79">Dan ben ik bij de motie van de heer De Jong op stuk nr. 509. Die gaat ook over de rekenrente. U kent mijn opvatting daarover. Het is heel verleidelijk om bij dit VAO uitgebreid in te gaan op het voorbeeld van de heer Van Kent over wat voor caravans je kunt kopen, maar dat ga ik niet doen. Ik ontraad de motie. Ik zie de heer De Jong verbaasd kijken, maar hij was er toen niet bij. De heer Van Kent gaf een heel mooi voorbeeld over het sparen van caravans.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.u54">
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg80">Uw oordeel is duidelijk. Hiermee zijn wij gekomen aan het eind van dit VAO over de pensioenonderwerpen. Aanstaande dinsdag zal er over de moties worden gestemd.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-27-tweedekamer-3.seg81">Ik schors nu voor enige ogenblikken, want ik zie nog niet alle woordvoerders voor het volgende onderwerp.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

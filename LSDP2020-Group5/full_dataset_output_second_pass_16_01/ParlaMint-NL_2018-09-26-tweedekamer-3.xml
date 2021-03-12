@@ -1,0 +1,884 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-09-26 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-09-26 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 5, Session 3 (2018-09-26)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 5, Session 3 (2018-09-26)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="5">Meeting 5</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="220">220 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="220">220 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="18815">18815 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="18815">18815 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-09-26">2018-09-26</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="308"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="220"/>
+               <tagUsage gi="note" occurs="53"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-09-26">2018-09-26</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Tekort aan rechercheurs</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg1">Aan de orde is het dertigledendebat over een tekort aan rechercheurs. Daarbij hanteren we een spreektijd van drie minuten. Ik zou u willen voorstellen om in eerste instantie te volstaan met twee interrupties, als u daarmee akkoord kunt gaan. Dan geef ik als eerste het woord aan de heer Van Raak van de Socialistische Partij. Gaat uw gang. Excuses, uiteraard heet ik de minister welkom. Dat zou ik bijna vergeten. Fijn dat u er bent.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg2">Je kunt bijna niet zonder.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg3">Nee, anders zou het een te rustig debat worden.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg4">Veel agenten hebben het vertrouwen in de politietop en ook in de politiek verloren. Zeker toen de minister sprak over de noodzaak van meer flexibilisering, terwijl agenten niet anders dan flexibel zijn. De Nederlandse Politiebond heeft een paar maanden geleden een rapport doen verschijnen over het grote tekort aan rechercheurs. Door de onderbezetting zou 80% van de aangemelde zaken blijven liggen. Er zou ook veel minder op eigen initiatief onderzoek worden gedaan. Onze recherche is veel kleiner dan in veel omringende landen. En de gemiddelde leeftijd van de medewerkers loopt snel op, tot gemiddeld bijna 50 jaar. De tekorten zijn heel groot. Dat was ook voor de politiemensen een van de redenen om in actie te komen, om te gaan staken en actie te voeren. Ik heb de minister opgeroepen om niet naar de rechter te gaan, maar een overeenkomst te sluiten. Ik wil de minister van harte complimenteren met het feit dat hij dat heeft gedaan. Hij is niet naar de rechter gegaan, hij heeft een akkoord gesloten. Een cao-akkoord dat nu voorligt bij de politieagenten, die daar nu hun mening over moeten geven.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg5">Als ik kijk naar dat akkoord, zie ik dat niet alle problemen worden opgelost. Integendeel. Heel veel problemen blijven bestaan. Maar ik zie wel dat er een kentering is, dat er eigenlijk voor het eerst sinds vele jaren geïnvesteerd gaat worden in de politie, en dat er serieus na wordt gedacht over hoe agenten hun werk beter kunnen doen. Ik zie ook investeringen — geld — in mensen, maar gezien de tekorten die er zijn, bijvoorbeeld bij de recherche, dan blijft het nog maar heel mager. De minister heeft gezegd dat hij heel serieus met de politiebonden, de ACP, NPB, VMHP en ANPV gaat kijken naar het Herstelplan Nationale Politie. Maar in dat herstelplan staat over opsporing dat de politiebonden zeggen dat er nood is aan een substantiële uitbreiding van het aantal rechercheurs met 2.000 fte, zo snel mogelijk. Dat zie ik in de plannen van de minister nog lang niet terug, dat die ook grotendeels ten goede moeten komen aan de basisteams, dat er na moet worden gedacht over de administratie, met name wat betreft de aanwijzingen van het Openbaar Ministerie, en vooral ook over de versnippering van verantwoordelijkheden binnen de recherche. Zijn dat ook zaken die de minister nu gaat regelen, samen met de bonden? Is hij het met mij eens dat de cao-afspraken die zijn gemaakt en waar de agenten nog hun akkoord aan moeten geven, niet het eindpunt maar een aftrap zijn? Is hij bereid om met de politiebonden zo snel mogelijk dit Herstelplan Nationale Politie uit te gaan voeren en als onderdeel daarvan er ook voor te zorgen dat er zo snel mogelijk mensen bij komen bij de recherche? En wat vindt hij van de opmerking in dat herstelplan dat 2.000 fte nodig is?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg6">Dank je, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg7">Dank u wel. Dan is het woord aan mevrouw Helder van de Partij voor de Vrijheid.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg8">Dank u wel, voorzitter. In mei 2016 verscheen het rapport Handelen naar waarheid, een sterkte- en zwakteanalyse met als doel te komen tot aanbevelingen voor de inrichting van de opsporing die is toegerust voor huidige en toekomstige uitdagingen. Dat is een hele mond vol, maar met die ambitie kan niemand het oneens zijn. Die ambitie is ook nodig, want de conclusies liegen er niet om. Laat ik de drie belangrijkste noemen. Ten eerste: politieambtenaren worden na de basisopleiding niet meer getoetst op actuele kennis van bevoegdheden. Twee: elementaire recherchevaardigheden ontbreken te vaak. Drie: onvoldoende verbinding tussen recherche en blauw ofwel de agenten op straat.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg9">Dit is zeker niet alleen op het bordje van de politie te schuiven. Je moet ook met voldoende mensen zijn om zaken te kunnen oppakken en om de noodzakelijke kennis en vaardigheden bij te houden zonder je collega's te belasten omdat jij er niet bent. Ook daar schort het aan. Dat is de opeenvolgende ministers allemaal bekend. Dan verwacht je actie. Die kwam er nauwelijks. Wat kwam er wel? Voortgangsbrieven en proeftuinen die gestart worden om te kijken — dat is een citaat — "welke vernieuwingen mogelijk en wenselijk zijn". Dat klinkt allemaal goed, maar het is wel tijdverspilling, terwijl we geen tijd hebben. Want de criminaliteit neemt toe ondanks het eeuwigdurende mantra van het kabinet dat de criminaliteit daalt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg10">Toegegeven, de minister doet zijn best, maar wat levert het op? Niet de gevraagde 2.000 extra rechercheurs, maar 171 fte agenten ofwel 8% van wat er minimaal nodig is. Zo sla je natuurlijk nog geen gat in een natte krant. Niet onbelangrijk is ook dat zij worden verdeeld over de tien regionale eenheden en de landelijke eenheid. De vraag aan de minister is hoe zij als één blok kunnen worden ingezet als ze worden verdeeld over elf eenheden. Hoe gaan zij het verschil maken?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg11">Dit is niet alleen onacceptabel vanwege het feit dat de criminaliteit helemaal niet daalt, maar ook vanwege het feit dat de rechercheurs die we nu wel hebben, uitstromen, niet vanwege de pensioengerechtigde leeftijd maar omdat ze ontmoedigd worden door het gebrek aan mogelijkheden dan wel doorstroommogelijkheden. Dat was ook een van de conclusies van het rapport en ook van het boek uit 2015 van de heer Princen, met als titel De gekooide recherche.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg12">Voorzitter. Ik rond af. Er gaapt een enorm gat tussen enerzijds de conclusie in het rapport Handelen naar waarheid en de reacties van de agenten in de enquête van de Nederlandse Politiebond en anderzijds wat de minister heeft toegezegd, die 171 fte. Wat mij betreft hebben de agenten het gelijk aan hun kant, want zij ervaren de knelpunten dagelijks. Ik zeg dus tegen de minister: handel naar waarheid. Kan hij toezeggen dat in deze kabinetsperiode die 2.000 fte ofwel rechercheurs erbij komen?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg13">Omdat ik nog achttien seconden heb, geef ik ter onderbouwing van die noodkreet — zo noem ik het ook maar even — een citaat van plaatsvervangend korpschef de heer Van Essen: "'Vooropgesteld: elke dag leveren duizenden rechercheurs goed werk af. Zij vangen boeven en leveren een wezenlijke bijdrage aan de veiligheid in Nederland. Op elementen doen we het hartstikke goed. (...) Maar over de gehele linie is de druk zeer groot."</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg14">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg15">Ik dank u zeer. Dan geef ik het woord aan mevrouw Kuiken van de Partij van de Arbeid.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg16">Voorzitter. Je voelt je pas thuis in je eigen buurt als het veilig is, als je veilig over straat kunt lopen en als je dochter 's avonds gewoon weer thuiskomt. Het zijn onze agenten en onze rechercheurs die bitter noodzakelijk zijn om die veiligheid te kunnen blijven garanderen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg17">Ik moet erkennen dat het kabinet een aantal stappen zet. Er komt meer geld en er is een cao-akkoord gesloten. Dat is ontzettend belangrijk. Althans, wij hopen dat er een akkoord zal worden gesloten. Dat is ontzettend belangrijk, maar je ziet dat het gat tussen wat is gewenst en wat nu wordt geleverd, nog steeds ontzettend groot is. Een kleine 200 rechercheurs versus de 2.000 die worden gevraagd. Mevrouw Helder refereerde er ook al aan. Het woord "rechercheurs" komt in de hele begroting nauwelijks voor. En er is meer nodig dan alleen capaciteit.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg18">Er is al eerder een externe commissie aangekondigd om de bureaucratie terug te dringen. Mijn eerste vraag aan de minister is dan ook: hoe staat het met die commissie? Zijn de eerste resultaten al behaald? Welke stappen kunnen wij verwachten op het terrein van ICT; ook een groot probleem waar veel rechercheurs tegen aanlopen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg19">Wat doen wij in de tussentijd? Het werven van nieuwe mensen kost veel tijd en wij zien dat het eigenlijk te lang duurt voordat nieuwe rechercheurs op de werkvloer staan. Komen wij in de tussentijd met andere innovatieve oplossingen? Wordt er extern geworven? Hoe gaan wij dat gat dichten, vraag ik via u, voorzitter, aan de minister. Hoe zorgen wij ervoor dat rechercheurs in de tussentijd niet bezwijken onder de werkdruk? Het ziekteverzuim is ontzettend hoog en het loopt eigenlijk alleen nog maar op. Hoe voorkomen wij dat nog meer mensen uitstromen terwijl wij al die mensen zo ontzettend hard nodig hebben?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg20">Mijn laatste vraag gaat over het ouderenbeleid. Dat is niet in het cao-akkoord opgenomen terwijl dit een van de belangrijkste zaken is. Ook bij mij geven mensen aan dat oudere rechercheurs het gevoel hebben dat zij niet meer serieus worden genomen; zij worden vaak al op een zijspoor gezet. Mevrouw Helder sprak er ook al over. Verder is er behoefte aan de mogelijkheid om vroegtijdig uit te stromen. Ik weet dat dat allemaal niet eenvoudig is, maar er zal linksom of rechtsom wel een vorm van ouderenbeleid moeten komen om mensen gezond en fit op de werkvloer te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg21">Voorzitter, ik rond af. Veiligheid gaat ons allemaal aan. Wij moeten dit serieus nemen, handelen naar waarheid en goede en belangrijke handvatten bieden. Ik hoop dat de minister nog meer dan nu, bereid is om het gat tussen de wens en de praktijk te dichten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg22">Dank u wel. Er is een interruptie van de heer Van Raak.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg23">Ik ben heel blij met dit verhaal van mevrouw Kuiken namens de Partij van de Arbeid. Ik vraag me af hoe zij terugkijkt op de vorige kabinetsperiode, toen de agenten op de nullijn zijn gezet en er een stop is gezet op het aannemen en opleiden van nieuwe mensen, althans dat daar een rem op is gezet. Is het ook niet goed om terugkijkend te beseffen dat de fouten die toen zijn gemaakt, er mede toe hebben geleid dat wij nu met deze grote problemen zitten?</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg24">Wij gaan straks de evaluatie van de Politiewet doen. Dan zien wij dat de invoering van de nationale politie, waar wij allemaal bij waren, ook te wensen overlaat. Wij hebben de agenten niet op de nullijn gezet, want juist de Partij van de Arbeid heeft er altijd samen de heer Van Raak voor geknokt om daar ook in moeilijke tijden wat geld voor uit te trekken. Opstelten heeft keuzes gemaakt in het wel of niet opleiden van mensen en met de wetenschap van nu zou je dat anders willen doen. Ik voeg hieraan toe dat wij uit een tijd van enorme crisis komen, dat het aan alle kanten heel ingewikkeld en moeizaam was. Wij zien nu dat wij 2 miljard euro weggeven aan multinationals. Volgens mij kunnen u en ik daar heel veel andere mooie dingen mee doen.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg25">Ook daar ben ik het mee eens, maar toen wij de nationale politie hebben ingericht, ging ik er in ieder geval van uit dat het politiewerk weliswaar heel onzeker is, maar dat er ook enkele zekerheden zijn, namelijk de leeftijd van agenten, wanneer agenten met pensioen gaan en wanneer agenten uitstromen. Dat 17.000 mensen uitstromen, wisten wij vijf jaar geleden ook al en dat wisten wij ook tijdens de vorige kabinetsperiode. Is mevrouw Kuiken met mij toch ook wel enigszins verbaasd dat de politietop en misschien ook wel het ministerie, deze zekerheden uit de weg zijn gegaan en gewoon hebben toegekeken terwijl men wist dat er grote tekorten zouden ontstaan? Constateert mevrouw Kuiken met mij ook dat wij ondanks de investeringen van de minister, aan het einde van deze kabinetsperiode minder agenten hebben dan nu?</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg26">Ja.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg27">Dank u wel.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg28">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg29">Dan is het woord aan mevrouw Laan-Geselschap van de Volkspartij voor Vrijheid en Democratie, die we ook wel kennen onder de afkorting VVD.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg30">Voorzitter. Het tweede basisniveau van de piramide van Maslow is bestaanszekerheid, oftewel zekerheid en veiligheid. De VVD heeft dan ook veel respect voor de vrouwen en mannen die dagelijks bezig zijn met het bewaken en afdwingen van juist die veiligheid en zekerheid. Wij staan dan ook voor, naast en achter het politiekorps. Zij moeten het werk kunnen doen waarvoor zij zijn aangenomen. De VVD is dan ook heel erg blij met de extra 291 miljoen euro per jaar die we investeren in de nationale politie. De minister heeft zich in zijn brief van 12 maart positief uitgelaten en streeft dezelfde waarden na. Dat hebben we kunnen lezen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg31">Voorzitter. Signalen uit de organisatie zelf moeten we wel serieus nemen. Daarom een aantal vragen aan de minister.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg32">We investeren 100 miljoen euro in een ondermijningsfonds. Wordt een deel van die 100 miljoen besteed aan het opleiden of aantrekken van rechercheurs?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg33">De minister heeft in april jongstleden naar aanleiding van een motie van de VVD een aanvalsplan ziekteverzuim gepresenteerd. Door een spoedige aanpak daarvan kunnen zo'n 1.000 tot 1.500 agenten weer aan het werk raken. Hoe is het gesteld met het ziekteverzuim bij de recherche? Wat is de stand van zaken met betrekking tot het terugdringen van het ziekteverzuim? En zijn er al effecten te merken van het plan van aanpak? Of op welke termijn verwacht de minister anders de eerste effecten?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg34">Voorzitter. Afgelopen zondag was de voorzitter van het College van procureurs-generaal bij Buitenhof. Hij zei dat het oplossen van het ondermijningsvraagstuk en de daaraan gerelateerde criminele activiteiten een zaak van lange adem is. De recherche werkt lang en intensief aan onderzoeken. Het is dan aan het Openbaar Ministerie om aan de hand van deze onderzoeken aan de slag te gaan. Het kan enorm frustrerend zijn als het OM geen vervolg geeft aan deze onderzoeken. Is de minister bereid om te kijken welke stappen door het OM gezet kunnen worden? Hoe kan ervoor gezorgd worden dat minder zaken — en dat geldt zeker voor zaken waarin de recherche veel tijd heeft gestoken — geseponeerd worden?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg35">Voorzitter. Het laatste onderdeel. Het verhogen van de ophelderingspercentages zit hem niet altijd in de hoeveelheid mensen. Het gaat erom dat je de kennis en de expertise in huis hebt. Mijn collega Arno Rutte heeft daarom eerder het voorstel gedaan om vooral bij de aanpak van cybercriminaliteit experts uit het bedrijfsleven in te zetten als politievrijwilliger. Hoever is de minister met de concretisering van dit voorstel van de VVD? Hier liggen wat ons betreft zowel voor de politie als het bedrijfsleven kansen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg36">Tot zover mijn eerste termijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg37">Er is nog een interruptie voor u. Twee zelfs.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg38">Ik hoor mijn collega van de VVD het hebben over die 291 miljoen. Ik denk dat collega Van Raak het daar ook wel over zal gaan hebben. Een groot deel daarvan is gekoppeld aan de flexibiliseringsagenda. Wat mijn fractie betreft is dat een totale miskenning van de flexibiliteit die er al op de werkvloer is en die tot het maximale is uitgerekt. Dat is één.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg39">Ik hoor mijn collega ook over het ondermijningsfonds. Dat is eenmalig. Dus zelfs als dat bestemd zou zijn voor het opleiden van rechercheurs — wat niet zo is; dat geef ik u meteen mee — geldt dat je voor een eenmalig bedrag geen mensen kunt aanstellen. Maakt dat uw vragen aan de minister niet iets prangender? Lees: maakt het het standpunt van de VVD niet iets sterker als zij zegt "laten we nu eindelijk eens een keer zorgen voor echt geld, zodat er ook echt mensen bij kunnen komen"?</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg40">Om die laatste vraag te beantwoorden: wij zien graag hoe de minister die investeringen gaat concretiseren. Op basis daarvan zullen wij het plan beoordelen. Eenmalig geld is eenmalig geld — dat realiseer ik me heel goed — maar dat kan ook goed besteed worden.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg41">Dat vind ik altijd de makkelijke weg: doorschuiven naar de minister. De coalitiepartijen geven de minister een bepaald bedrag en stellen daar grenzen aan. De minister stelt dat vervolgens aan de korpsleiding ter beschikking, die wij dan niet kunnen verwijten dat ze te weinig mensen hebben omdat wij ze maar een beperkt zakje met geld geven. De vraag voor mijn collega van de VVD blijft dus staan. Wij beslissen hier hoeveel geld deze minister mag gaan uitgeven. Dus u kunt die vraag niet doorschuiven naar de minister. Wanneer toont de VVD nu eindelijk eens een keertje ruggengraat en komt zij met geld voor de politie?</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg42">De VVD steunt deze coalitie en deze coalitie heeft voor de nationale politie structureel 291 miljoen extra uitgetrokken, voor cybersecurity 95 miljoen extra en voor het ondermijningsfonds 100 miljoen extra. Al deze bedragen zullen ertoe leiden dat er binnen de politie meer ruimte is om betere keuzes te maken. We zullen zien en evalueren of dit genoeg is en op basis daarvan in de toekomst andere besluiten nemen. Maar op dit moment is dit waar de minister mee aan de slag gaat, en daar staan we achter.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg43">Afrondend, voorzitter. Er worden een heleboel bedragen genoemd die helemaal niet voor de politie bedoeld zijn. Daarmee kom ik terug op mijn eerdere interruptie, dus dat ga ik niet herhalen. Ik concludeer alleen maar dat de VVD zegt: we gaan het vervolgens evalueren en in een volgende termijn gaan we misschien, hopelijk, meer geld krijgen voor de politie. Wat mijn fractie betreft, komt de VVD in een volgende termijn echt niet meer aan bod en mogen wij het hopelijk gaan doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg44">Wilt u nog reageren?</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg45">Nou, een positieve bijdrage. Dank u wel.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg46">Een nieuw gezicht bij de VVD, wellicht ook een nieuwe blik op de politie. Ik vraag mevrouw Laan-Geselschap om toch even terug kijken naar hoe we in deze problemen zijn gekomen. 2.000 rechercheurs tekort. In een vorige kabinetsperiode hebben VVD en PvdA gezegd: we gaan er een rem op zetten, we gaan een slot zetten op het opleiden en aannemen van mensen. Moet mevrouw Laan-Geselschap, als nieuw gezicht bij de VVD en terugkijkend, ook niet concluderen dat dat ontzettend stom is geweest?</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg47">Dat soort woorden zou ik niet snel in de mond nemen, zeker niet ten aanzien van beleid. Ten tweede: bezuinigen is in die tijd op alle beleidsterreinen gebeurd. We hebben met z'n allen gezien dat de crisis bij iedereen pijn heeft gedaan. Ook bij de politie, net zo goed als bij de zorg en alle andere terreinen waarvoor u regelmatig vooraan bij de interruptiemicrofoon staat. Het was toen zoals het was. Wij zien in dit coalitieakkoord een goede stap vooruit. We hopen dat het de komende tijd echt stukken beter gaat en wat dat betreft hebben we daar vertrouwen in.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg48">"Bij iedereen pijn"? Ik denk toch dat weinig VVD'ers echt geleden hebben onder de crisis. Maar de agenten wel. Nou komt de VVD met een oplossing. We hebben het slot erop gegooid. We hebben geen mensen aangenomen en opgeleid. Wat gaan we nu doen? Vrijwilligers vragen, particulieren vragen. Dat is toch wel een beschamende vertoning, hè, dat je zelf als politiek faalt en dan zegt: dan gaan we die gaten wel vullen met vrijwilligers. Dat is toch wel een klein beetje stuitend.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg49">Ik wil ook vragen wat mevrouw Laan-Geselschap vindt van het Herstelplan Nationale Politie van de politiebonden. Zij zeggen: er zijn 2.000 rechercheurs nodig. Dus niet vrijwilligers, niet particulieren, maar echte rechercheurs.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg50">Volgens mij waren dat drie vragen, voorzitter. Maar om op de eerste vraag in te gaan: u heeft gevraagd of ik het vreselijk vind en u heeft gezegd dat ik het wil invullen met vrijwilligers. Dat heb ik niet gezegd. Ik heb gezegd dat je voor specifieke onderdelen binnen het recherchewerk vrijwilligers zou kunnen inzetten. Wat is een win-winsituatie voor zowel de politie als voor bepaalde mensen die daar graag een bijdrage aan willen leveren. Dat is dus niet vervangen, maar en-en. En dat werkt alleen maar goed, want voor de VVD gaat het uiteindelijk om de veiligheid van mensen op straat, dus dat hun problemen worden opgelost en dat zij zich veiliger voelen. Dat sluit aan bij die piramide van Maslow, waar ik net mee begon. En wat betreft het tweede onderdeel: ook daarvoor geldt dat het geld dat nu wordt ingezet, gaat leiden tot een betere politieorganisatie met betere oplossingen voor de problemen van nu.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg51">De heer Van Raak, ten slotte.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg52">Ja. Er is een akkoord. De agenten moeten dat nog goedkeuren. Die agenten willen ook weten wat dit nou allemaal voorstelt. De minister heeft gezegd dat hij serieus aan de slag gaat met dat herstelplan nationale politie. Maar daar staat bijvoorbeeld in: 2.000 extra rechercheurs. Dat staat gewoon in dat plan. Is mevrouw Laan-Geselschap van de VVD het eens met dat punt uit het herstelplan van de politiebonden, dus dat er 2.000 rechercheurs bij moeten?</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg53">Ik denk dat daar een afweging in gemaakt moet worden, dat de input serieus genomen moet worden en dat je vervolgens moet kijken hoe je daarmee omgaat, gezien de situatie zoals die nu is. De bedragen liggen ervoor. Nou gaan we kijken wat er ook mogelijk is.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg54">Voorzitter. De directe aanleiding voor dit debat was het plan, of de oproep, of noodkreet van de recherche. De recherche zei inderdaad dat er een tekort was van 2.000 rechercheurs, en dat slechts een op de negen criminele netwerken in beeld was. U heeft dat ongetwijfeld gelezen. Wat waren uw reflecties daarop?</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg55">Daar heeft u net mijn betoog over gehoord.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg56">Was u geschrokken door het feit dat er zo veel zaken blijven liggen?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg57">Via de voorzitter graag.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg58">Was u ook geschrokken, meneer de voorzitter?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg59">Ik heb het niet gelezen.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg60">Ik zou het iedereen aanraden, want het is nogal schokkend als er inderdaad zo weinig criminele netwerken in beeld zijn en als 80% van de zaken blijft liggen. Ik vraag mevrouw Laan-Geselschap daarom: was dat nou iets waarvan u dacht dat we dat echt niet hadden kunnen bevroeden, was u daar echt door geschokt? Of vond mevrouw Laan-Geselschap dat wel te verwachten?</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg61">Ik heb in mijn tekst letterlijk aangegeven dat we signalen uit de organisatie zelf serieus moeten nemen. Ik denk dat we dat hebben gedaan. En op basis daarvan heb ik vragen aan de minister gesteld.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u41">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg62">Ik vind dat nogal mager als je leest hoeveel van de georganiseerde criminaliteit niet in beeld is en hoeveel we ons eigenlijk vooral concentreren op het pakken van het kleine grut. Iedereen heeft wel zijn mond vol van het aanpakken van ondermijning, maar het blijkt dat de grote georganiseerde misdaad structureel buiten beeld blijft doordat er te weinig capaciteit is bij de recherche. Ik verwacht dan toch een groter gevoel van urgentie bij de VVD dan alleen maar: we luisteren af en toe naar de werkvloer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u42">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg63">Mevrouw Laan, ten slotte.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u43">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg64">Wij gaan ermee om zoals wij ermee omgaan. Ik heb vragen gesteld aan de minister en op basis daarvan zullen wij ons oordeel vellen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg65">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u44">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg66">Dank u wel. Dan is het woord aan mevrouw Buitenweg van GroenLinks.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u45">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg67">Dank u wel, meneer de voorzitter. Dan zal ik gelijk doorgaan met waar ik net was. Vorige week hoorden we hier een betoog van VVD-leider Dijkhoff over een plan voor harder straffen wanneer misdrijven worden gepleegd in probleemwijken. Cokeverkopers op de Zuidas hoeven dan wat minder hard gestraft te worden dan verkopers in Amsterdam-West. En dat allemaal om de integratie van vrouwen en meisjes te bevorderen. Ik vond het een hele ingewikkelde bocht. Maar hoe dan ook, het opsporen van de kopstukken van de georganiseerde misdaad die achter de verkoop van de lijntjes coke zitten, lijkt mij een stuk belangrijker dan alleen het oppakken van de kleine dealertjes, waar die zich ook bevinden, omdat die topcriminelen, met veel te veel geld en het vermogen om buurten te terroriseren, echt een serieus gevaar vormen voor de rechtsstaat. Hen opsporen is wat Nederland echt veiliger maakt. Daarbij gaat het niet om het verhogen van de strafmaat, of niet alleen, maar het gaat vooral om het verhogen van de pakkans, van zowel de kleine crimineeltjes als de grote jongens. Maar — ik probeerde dat net al in mijn interruptie duidelijk te maken — daar wordt te weinig serieus werk van gemaakt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg68">Het is goed dat er wel meer menskracht komt bij de politie. Wat dat betreft complimenten voor de minister. Maar is het voldoende? Volgens de Nederlandse Politiebond gaat nu 80% van de aandacht naar brengzaken, dus naar zaken die bij de politie worden gemeld of waarvan aangifte is gedaan. Dat moet natuurlijk ook gebeuren. Maar het betekent wel dat er veel te weinig tijd overblijft om zorgvuldig te rechercheren op de minder zichtbare vormen van criminaliteit, op de netwerken die zich minder makkelijk laten vangen, op die acht van de negen criminele netwerken. Kloppen de cijfers of de inschatting die hierover gegeven worden? Wat is de inschatting van de minister?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg69">Voorzitter. Het is van belang om de recherchecapaciteit uit te breiden. Dat kan door middel van het inzetten van extra rechercheurs. Het kan ook door het inzetten van administratieve krachten voor het werk dat rechercheurs nu doen maar dat meer in het administratieve veld ligt. Het kan misschien ook in samenhang met het verminderen van de administratieve lasten. Maar het is wel van belang dat er een grotere slagkracht komt bij de recherche. Zelfs als er meer menskracht bij komt, is het niet makkelijk om de vacatures te vullen. Dat komt mede doordat een tactisch rechercheur veel minder geld verdient dan een wijkagent, omdat een rechercheur geen toeslagen ontvangt. Op welke wijze heeft de minister dit verschil in beloning meegenomen bij de cao-onderhandelingen?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg70">Ten slotte. Criminele netwerken trekken zich vaak niks aan van de grenzen van de natiestaat. Daarom is het ook zo belangrijk om internationaal samen te werken bij de opsporing. Maar ik las in het rapport dat ruim de helft van de ondersteuningsverzoeken uit het buitenland niet of onvoldoende in behandeling worden genomen. Klopt dit? Wat doet dit met de reputatie van Nederland en van de Nederlandse politie als betrouwbare partner in de strijd tegen de zware en georganiseerde misdaad? Het is van belang dat we in Nederland serieus werk maken van het opsporen van de zware en georganiseerde misdaad, in samenwerking met onze buurlanden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg71">Hartelijk dank.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u46">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg72">Dank u wel. Dan geef ik graag het woord aan de heer Van Dam van het Christen Democratisch Appèl, het CDA.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u47">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg73">Voorzitter, dank u wel. In 1985 begon mijn politieloopbaan als rechercheur bij het fameuze bureau Soesterbergstraat. Inmiddels bestaat het niet meer; het is opgegaan in het bureau Zuiderpark. Daar zat ik dan een jaar lang in een hok verhoren te houden met winkeldieven, mishandelaars en brommer- en fietsendieven. Ik begrijp dus heel erg goed wat recherchewerk betekent en ook wat het betekent voor rechercheurs om wel een aangifte op te nemen, en niet de ruimte te hebben om die helemaal uit te rechercheren.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg74">Aan de moordende bureaucratie die zich in de loop van de jaren in dat recherchewerk heeft genesteld, moeten we zeker heel veel doen. Ik kijk met verwachting uit naar de rapportage die de minister heeft beloofd over het rapport over de herijking van de opsporing. Volgens mij is dat de opvolger van het rapport Handelen naar waarheid, die we eind dit jaar verwachten.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg75">Het is juist voor die rechercheurs dat ik hier keer op keer sta om de minister keer op keer aan te sporen zodat de ICT van de politie ook voor de diender verbetert. Maar de grote uitdaging van dit moment, ook bij de recherche, is het werven van personeel. Er kunnen pas politiemensen doorstromen naar de recherche als er ook voldoende nieuwe aanvulling is. Dat is mijn grote zorg van dit moment: hoe werven we de komende tijd 14.000 nieuwe mensen?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg76">Afgelopen zomer was ik her en der op werkbezoek en toen was ik ook bij de marechaussee in Hoek van Holland. Daar hoorde ik dat de marechaussee "last heeft" van andere diensten die hun mensen weghalen. Ik hoor van de Douane dat die hun mensen bij de politie weghalen. Ik kwam ook een jongen tegen die heeft gesolliciteerd bij een van die diensten. Dat traject duurde negen maanden en aan het eind werd hij afgewezen. Jammer. Maar in tussentijd is hij niet gezien door andere diensten waar hij misschien wél een goede kandidaat voor was. Daar komt bij dat onze jongeren echt niet zitten te wachten op een sollicitatietraject van negen maanden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg77">Daarom is het intensivering van die werving het allerbelangrijkste wat op dit moment op het politie-erf moet gebeuren. Dat is wat ik aan de minister wil vragen: wil hij samenwerken, met de minister van Defensie en de staatssecretaris van Financiën — want ook de Douane heeft de komende tijd een enorme opdracht — maar ook met het mbo en het hbo, in het werven en selecteren van politiemensen? Op straat werken deze diensten fantastisch met elkaar samen, maar als het gaat om een onderwerp als personeel is daar nog heel veel aan te verbeteren.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u48">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg78">Op zich heeft de heer Van Dam een heel goed punt, namelijk dat er ook tussen de diensten enorme concurrentie is. Als we erop gaan drukken dat er vooral meer geworven moet worden bij de politie, kan dat ten koste gaan van de werving bij andere belangrijke diensten, zoals de Marechaussee of het leger. Dat vind ik dus een heel belangrijk punt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg79">De vraag is wel waar het door komt dat mensen gemakkelijk weggaan, en ook niet gemakkelijk gaan werken bij die overheidsdienst. De heer Van Dam komt dan met een oplossing, en zegt dat we echt meer werk moeten gaan maken van werving. Maar het kan ook zo zijn dat er bij de overheid gewoon te weinig wordt verdiend en dat de werkomgeving misschien ook onvoldoende stimulerend is.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u49">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg80">Mijn ervaring is dat mensen die dit soort werk bij de overheid doen natuurlijk goed betaald moeten worden, maar dat dat niet de primaire reden voor mensen is om van baan te veranderen. Dat heeft meer met organisatiefrustratie te maken.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg81">Heel veel politiemensen zeggen tegen mij iets als: "het politiewerk is fantastisch maar die organisatie, daar ben ik klaar mee". Dat is een onderwerp wat wij hier uit en te na bespreken. Het is een onderwerp dat bij de evaluatie van de Politiewet aan de orde zal komen. Het is ook een onderwerp waar ik juist een initiatiefnota over heb geschreven, omdat dit mij heel veel zorgen baart.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg82">Als het de bedoeling is dat er 2.000 rechercheurs bij komen, waar we het vandaag over hebben, dan zal dat alleen tot stand kunnen komen door naast zij-instromers — ook hoger gekwalificeerd, hbo-niveau — ook heel veel doorstroming te realiseren binnen de politie. Die doorstroming kun je alleen realiseren als je op andere plekken nieuwe aanwas hebt. Dat is de prioriteit die wij hier hebben.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u50">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg83">Ik ben blij dat het inderdaad wat wordt verbreed, want het is onvoldoende om het alleen te hebben over de werving. De heer Van Dam sprak over organisatiefrustratie. Daar hoor ik inderdaad ook veel over. Het gaat er ook om dat mensen zich kunnen blijven scholen en dat ze zich in hun expertise, hun vakmanschap, kunnen blijven ontwikkelen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg84">We zijn er dus niet met meer werven. Er moet meer capaciteit bij en er moet geworven worden. Maar vervolgens moet er ook blijvend geïnvesteerd worden in mensen, zodat zij ook echt als vakmens aan de slag kunnen in een organisatie en die frustratie kan afnemen. Als de heer Van Dam zich daar ook verder druk om blijft maken, dan ben ik al een stuk blijer.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u51">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg85">Ik maak me over heel veel dingen druk op dit terrein. Ik vind ook dat we het breder moeten maken. Maar als mevrouw Buitenweg dan begint over cokehandelaren op de Zuidas, dan moeten we daar ook wel bij zeggen dat dat niet alleen een probleem van de politie en van de overheid is. Ik denk dat die cokehandelaren ook hun pilletjes en hun "snuifs" ergens afzetten en dat het ook een maatschappelijk probleem is dat we dit soort criminaliteit met z'n allen in stand houden. De korpschef had er een mooie naam voor die mij nu even niet te binnen schiet, ik dacht de "yogasnuiver" of wat dan ook. Het is echt een maatschappelijk probleem waarvan ik denk dat we met z'n allen op dat vlak moeten beseffen dat we niet de politie alleen moeten laten met deze problematiek.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u52">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg86">Kort afrondend, mevrouw Buitenweg.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u53">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg87">Ik begreep niet helemaal waarom de heer Van Dam hierbij naar mij verwees. Ik wil zeggen dat ik toch op forse afstand van de Zuidas woon.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u54">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg88">Dat is goed om te weten.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u55">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg89">Ik doe dat enkel en alleen omdat u de begrippen "Zuidas" en "coke" in uw mond neemt, overigens wel het begrip maar niet het spul.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u56">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg90">Gaat u verder.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u57">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg91">Ik ben bijna waar ik wezen wil. Ik zou in ieder geval aan de minister willen vragen hoe hij die samenwerking tussen Defensie, Financiën en Onderwijs, dus mbo en hbo, kan intensiveren en hoe we ervoor kunnen zorgen dat kandidaten die interesse hebben in de politie — dat zijn ook mensen die misschien best als ze er wat meer van weten interesse hebben in de marechaussee of de Douane — vervolgens behouden kunnen blijven voor de veiligheidsketen en niet gefrustreerd afzwaaien en naar een wereld gaan waar ze misschien veel minder op hun plek zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u58">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg92">Dank u wel. Dan geef ik graag het woord aan de heer Bisschop van de Staatkundig Gereformeerde partij, de SGP. Dat is ook leerzaam voor de publieke tribune. Ja. ik blijf een schoolmeester, hè.</seg>
+            </u>
+            <u who="#RoelofBisschop" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u59">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg93">Voorzitter, dank u wel. Het is goed dat u af en toe de volledige naam noemt. Het overkwam mij ooit eens als docent dat ik bij een toetsje vroeg naar de betekenis van de SGP — dat deed ik overigens ook wel van andere partijen, dit om u gerust te stellen — en dat een van de leerlingen blijmoedig opschreef "Socialistisch Gereformeerde Partij". Ik heb het niet goed gerekend. Maar dat even terzijde.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg94">Voorzitter. Het lijken eigenlijk wel twee werelden. Aan de ene kant heb je de noodkreet van de recherche, een betrokken en indringend pleidooi voor een sterkere recherche. Ik lees daarin over onderbezetting, veel te weinig rechercheurs, 80% werkvoorraad zoals dat dan eufemistisch wordt genoemd, geen tijd voor bijscholing, een verhaal van teleurstelling dat eigenlijk een beetje moed benemend is. Aan de andere kant is er een redelijk optimistische reactie van het kabinet. Ik citeer: "De noodkreet past bij het lopende traject van herijking van de opspring". En: "goede resultaten van het traject", "werving van hoger opgeleide specialisten", "innovatieve recherche" et cetera. Een verhaal van optimisme dus.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg95">Voorzitter. Naar mijn beleving zijn dat toch twee schurende verhalen. De SGP gelooft direct in de goede inzet van de minister en de vele betrokkenen en willen daar ook waardering voor uitspreken, maar wat merken de mensen die het werk moeten doen er nu eigenlijk feitelijk van? Zijn de klachten over papieren exercities en bureaucratie eigenlijk niet heel realistisch? Ik hoor al sinds de vorming van de nationale politie spreken over de herverdeling van mensen. Echt, de SGP is blij met extra investeringen in de politie, maar levert dat ook echt extra mensen op of zijn het uiteindelijk slechts minder vertrekkende mensen? Gaat het daadwerkelijk om uitbreiding qua aantallen of blijft het allemaal een beetje bij hetzelfde? Ik weet dat die getallen door elkaar worden gegoocheld en dat het allemaal heel mooi lijkt, maar ik heb niet het idee dat er daadwerkelijk stappen in worden gezet.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg96">We zijn nu twee jaar verder na het rapport Handelen naar waarheid en ik hoor graag hoe de minister de discrepantie tussen de geformuleerde ambities en de ervaren realiteit binnen de organisatie verklaart en wat hij gaat doen om die beide werelden bij elkaar te brengen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg97">Voorzitter. Dan de lokale rechercheurs. Vorige zomer is een motie aangenomen van de collega's Van der Staaij, Segers, Van Raak en Kuiken, die vroeg om lokale rechercheurs die met wijkagenten echt de georganiseerde misdaad aanpakken, bij de wortel als het ware op locatie. Worden de extra middelen daarvoor ook daadwerkelijk ingezet of gaan die middelen meer in algemene zin gebruikt worden? Als we dat doen, zou dat een mooie invulling zijn van de aanbeveling om de lokale driehoek zelf meer zeggenschap te geven over de aanpak en opspring van lokale criminaliteit. De SGP zegt tegen de minister: neem het noodsignaal over de recherche serieus, kies voor meer afstemming met de werkvloer en voor meer lokaal recherchewerk en laten we de echte vaklui hoog houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg98">Voorzitter, ik dank u zeer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u60">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg99">Dank u. Dan is het woord aan de heer Hiddema van Forum voor Democratie.</seg>
+            </u>
+            <u who="#TheoHiddema" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u61">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg100">Voorzitter. We hebben de brief van de minister van 12 maart, een reactie op de noodkreet van de recherche in het rapport van februari. De rechercheurs vragen om de recherche acuut met 2.000 mensen uit te breiden om het werk aan te kunnen. 80% van de zaken blijft nu al op de plank liggen en de aangiftebereidheid is inmiddels gedaald tot onder de 20%. Dit betekent dat minder dan 4% van alle criminaliteit in Nederland wordt onderzocht en 96% niet. Slechts een op de negen criminele organisaties wordt überhaupt onderzocht. Misdaad loont in Nederland onder minister Grapperhaus.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg101">In Nederland is de recherche slechts 13% van de politie. In Denemarken is dat 19% en in Duitsland 20%. Er is sprake van fundamentele onderbezetting. En dan heb ik het nog niet eens over het structurele ziekteverzuim van 7%. Naar mijn weten is dat bij de recherche inmiddels opgelopen tot 12%. Nergens anders is dat zo hoog als bij onze politie. Dat is niet zo gek ook, want agenten worden helemaal gek van de bureaucratische verplichtingen en managers. Dat is een probleem dat we bij de hele Nederlandse overheid te zien krijgen. De minister heeft nu een commissie opgericht van managers om de managementcultuur binnen de politie te onderzoeken en de bureaucratie te verminderen. De lamme leidt de blinde.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg102">De minister zegt in zijn brief toe dat er dit jaar 100 miljoen extra naar de politie gaat, net genoeg om een krappe 180 rechercheurs aan te nemen. Verder gaat hij investeren in kwaliteit, aanscherping van de startbekwaamheid, de ontwikkeling van de hulpofficier en een experimentje hier en daar. Maar er is sprake van een veel breder probleem. De komende vijf jaar gaat een derde van de politiemensen met pensioen. Dat zijn 14.000 agenten. De Politieacademie kan bij lange na niet genoeg nieuwe agenten opleiden om dit gaat op te vullen. Wat moet er dan wel gaan gebeuren? De minister moet nu bellen met minister Kaag voor Ontwikkelingssamenwerking om de 100 miljoen van Rihanna op te eisen voor de Nederlandse politiemacht. De beveiliging van de Nederlandse bevolking moet centraal staan bij iedere andere te nemen overheidsbeslissing. Daarna moet de minister van zijn andere collega-ministers eisen dat onmiddellijk alle zinloze projecten, zoals Toyota's voor jihadisten, worden gestaakt, zodat het geld gebruikt kan worden voor het op kracht brengen van onze politiemacht. Aan het eind van deze kabinetsperiode moeten 4.000 rechercheurs zijn opgeleid om het Europees gemiddelde te benaderen. En geef ze ook eens een fatsoenlijk salaris, anders meldt geen hond zich bij de Politieacademie.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg103">Dit kabinet moet structureel meer investeren in de politie. We moeten de komende vijf jaar minstens 20.000 nieuwe agenten opleiden om de ernstige ondercapaciteit die nu al bestaat op te lossen en om de massale uitstroom die eraan komt op te vangen. Ik roep minister-president Rutte op om nu de regie te nemen en de problemen bij de politie op te lossen om Nederland veilig te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg104">Dan heb ik nog een slotvraag, als het mij vergund is qua tijd. Altijd wordt in de reacties van de minister gewag gemaakt van het feit dat de Nederlandse bevolking zich veiliger voelt en dat er meer criminaliteitszaken worden opgelost. Op gezette tijden komen die rapportages op ons af. Ik wil met mijn simpele boerenverstand kunnen begrijpen hoe de minister dit soort berichtgeving verklaart, als hij de hele cijferbrij die aan die onderzoeken ten grondslag ligt, daarbij betrekt, overwegende dat 80% van alle zaken nu op de plank blijft liggen en dat er thuis nog een heleboel zaken op de plank liggen omdat 20% van de Nederlanders geen aangifte doet.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u62">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg105">Dank u wel.</seg>
+            </u>
+            <u who="#TheoHiddema" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u63">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg106">Een op de negen criminele organisaties wordt niet eens onderzocht; dat is een schande van jewelste.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u64">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg107">Dat heeft u al verteld.</seg>
+            </u>
+            <u who="#TheoHiddema" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u65">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg108">Hoe kun je, met de hersens die een minister behoort te hebben, dan nog waarde toekennen aan het Centraal Bureau voor de Statistiek?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u66">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg109">Dank u wel. Er is een interruptie voor u van de heer Van Dam.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u67">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg110">Via u, voorzitter, wil ik een vraag stellen aan de heer Hiddema, zeker gelet op zijn ervaring in het strafrecht. Wij hebben als commissie regelmatig bijeenkomsten over de evaluatie van de Politiewet. Daar hebben we meerdere hoorzittingen over gehad. Morgen hebben we nog een laatste hoorzitting met de voorzitter van de bonden. Er is een initiatiefnota waar wij een hoorzitting over hebben gehad. We spreken in de commissie veelvuldig over dit onderwerp. Ik zou hem toch willen uitnodigen om daar ook een keer aan te schuiven, omdat alle waardevolle opmerkingen die hij maakt, in ieder geval door mij, daar node worden gemist.</seg>
+            </u>
+            <u who="#TheoHiddema" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u68">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg111">Ik heb de bijdragen van alle collega's, die u kennelijk wel heeft ontmoet in commissiekamers, gevolgd. Ik heb niet kunnen bemerken dat hun aanwezigheid bij die commissies enige aanscherpende werking heeft gehad in die zin dat ze nu met meer kennis van zaken over deze kwesties iets te berde kunnen brengen dan ik. Maar die gelegenheid hebt u nu.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u69">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg112">Dat is precies de reden waarom ik u eens te meer uitnodig om ons wel met uw aanwezigheid te verlichten, want dat zou dan kennelijk van enorme waarde zijn.</seg>
+            </u>
+            <u who="#TheoHiddema" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u70">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg113">O, dat verandert de zaak. Goed, als dat verzoek collectief gedragen wordt, zal ik daar ernstig over nadenken, meneer Van Dam.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u71">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg114">Dank u wel. Dan geef ik het woord aan mevrouw Den Boer van Democraten 66.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u72">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg115">Zo heet het tegenwoordig niet meer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u73">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg116">Jawel. Nou ja, D66. Ik dacht dat u dat wel wist. Ga uw gang.</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u74">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg117">Dank u wel, voorzitter. De claim dat Nederland een narcostaat zou zijn, stamt al van zo'n twintig jaar geleden. Toen noemde de Franse senator Masson Nederland le narco-Etat du Nord. Deze uitspraak vormde het startpunt voor grensoverschrijdende samenwerking tussen Nederland en Frankrijk. Wat dat betreft is het recente rapport van de politievakbond weinig nieuws onder de zon. Maar net zoals de bewering "Nederland narcostaat" geen nieuwe bewering is, is de bewering dat er schaarste in de opsporing zou zijn ook geen nieuws. In het verleden zijn er al diverse programma's voor de versterking van de opsporing geweest. Mijn vraag aan de minister is: wat hebben deze programma's eigenlijk opgeleverd?</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg118">Voorzitter. Waar de vorige kabinetten de politie met lege handen lieten zitten, zorgt dit kabinet juist voor meer en volle handen. Dit kabinet investeert namelijk veel meer in opsporingscapaciteit door geld uit te trekken voor meer capaciteit in de wijk; door 1.111 extra agenten in dienst te nemen. Dit leidt ertoe dat ook deze agenten in de wijk hun opsporingsbevoegdheden kunnen inzetten. Opsporing is geen monopolie meer. Juist samenwerking tussen de FIOD, de Financial Intelligence Units, de Belastingdienst en de Koninklijke Marechaussee creëert meer gezamenlijk recherchevermogen. Ook burgers en recherchebureaus leveren steeds vaker een bijdrage. En laten we tot slot — het is ook al genoemd — de internationale samenwerking niet vergeten. Partners zoals Europol en Eurojust zijn wat D66 betreft essentiële schakels, waardoor onze opsporing ook over de grenzen effectiever kan worden georganiseerd.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg119">Wat D66 betreft gaat het dus niet alleen om rechercheurs, maar ook om het rechercheren; een belangrijke dimensie van de veiligheidstaak, waarin we allemaal iets kunnen betekenen, zowel reactief als preventief. Dus we zijn niet zozeer op zoek naar meer rechercheurs, maar vooral ook naar een ander type rechercheur: hoger opgeleid, met analytische en strategische vaardigheden, internationaal georiënteerd en met kennis van de problemen van vandaag, zoals mensenhandel en cybercrime.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u75">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg120">Ik hoor toch ineens iets waarvan ik denk: hé, een nieuw geluid. Ik hoor namelijk een vertegenwoordiger van D66 een positieve opmerking maken over de private opsporing. Dat klinkt mij als muziek in de oren. Ik wil de vertegenwoordiger toch eens vragen of ik dat goed begrijp. Vindt u dat die private opsporing ook een wezenlijke betekenis heeft in die brede politiefunctie die niet alleen door de politie wordt uitgevoerd, maar door al die diensten die u noemt?</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u76">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg121">Ik maakte niet zozeer een positieve opmerking dan wel een vaststellende opmerking ofwel een observatie, namelijk dat het recherchevermogen mede bestaat uit het aandeel dat door particuliere recherchebureaus wordt geleverd.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u77">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg122">En hoe waardeert u dat aandeel dat door die particuliere recherchebureaus wordt geleverd?</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u78">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg123">Ik stel vast dat er al heel lang sprake is van een groei van die particuliere of private recherchecapaciteit. Die zit bij bedrijven, bijvoorbeeld bij grote multinationals; zij hebben hun eigen recherchecapaciteit. Die groei is al heel erg lang geleden ingezet. We moeten vaststellen dat ook daar een bijdrage wordt geleverd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u79">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg124">Meneer Van Dam, ten slotte.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u80">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg125">Dank u wel.</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u81">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg126">Dus het kabinet investeert. Ik ben wel heel benieuwd of de minister kan aangeven hoe hij die middelen inzet om dat nieuwe type rechercheur ook daadwerkelijk aan te trekken. Graag een reactie daarop van de minister.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg127">Tot slot, voorzitter. Rechercheren is ook keuzes maken. Waar zetten we de rechercheurs voor in en waarvoor niet? Focussen rechercheurs wel op de prioritaire onderwerpen? Die vraag is net ook al aan de orde geweest. Zou het systeem van rechercheren misschien efficiënter georganiseerd kunnen worden? Er bestaat een ruim arsenaal aan middelen en wetgeving. De vraag is of dat potentieel wel voldoende wordt benut. Ik hoor heel graag van de minister hoe hij daartegen aankijkt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg128">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u82">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg129">Dank u wel. Er is nog een interruptie van mevrouw Helder.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u83">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg130">Ik hoorde collega Den Boer spreken over internationale samenwerking, over Europol en Eurojust, en ik hoorde haar zeggen dat rechercheren ook keuzes maken is. Net op dat kernpunt miste ik het Europees Openbaar Ministerie. Er is voor onze rechercheurs weinig keuze te maken, want die richtlijn over het Europees Openbaar Ministerie schrijft voor dat vanuit Brussel door een Europese officier van Justitie — je verzint het niet, vreselijk dit! —gedicteerd zal worden dat hier te lande agenten, rechercheurs, worden ingezet om fraude met Europees geld op te sporen. En inmiddels — de inkt is nog niet droog van dat wangedrocht — wil het Europees Parlement dat mandaat al gaan uitbreiden. Kort en goed, straks beslist Brussel hoe onze rechercheurs worden ingezet. Wat vindt collega Den Boer daar nu van?</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u84">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg131">We weten allemaal dat het kabinet de bijdrage aan het Europees Openbaar Ministerie van harte ondersteunt. Ook D66 is een groot voorstander van het Europees Openbaar Ministerie. We weten dat op dit moment hard wordt gewerkt aan de oprichting van het Europees Openbaar Ministerie. Ik wil helemaal nog niet vooruitlopen op de recherchekeuzes die daar worden gemaakt.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u85">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg132">Mevrouw Den Boer zegt "van harte ondersteunt". Ik zou toch even naar de voorgeschiedenis kijken. Het was gewoon de VVD die met heel veel mooie woorden toch weer door de pomp ging, en uiteindelijk komt dat dat Europees Openbaar Ministerie er toch. Zo gaat dat helaas. Maar het probleem is dan ook nog een keer dat deze minister politiek helemaal niet meer verantwoordelijk is voor iets wat een Europese officier van justitie bepaalt. Want daar gaat deze minister helemaal niet over. Dus misschien ondersteunt het kabinet dat van harte, maar ik waag dat te betwijfelen. Hoe denkt collega Den Boer dan überhaupt vanuit staatsrechtelijk oogpunt over dat wangedrocht?</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u86">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg133">Ik stel ten eerste vast dat er door collega Helder een opmerking gemaakt wordt over de VVD. Ik denk dat die vraag dan aan mijn collega gesteld zou moeten worden. En er wordt ook een opmerking gemaakt over de minister en het vorige kabinet. Misschien kun u diezelfde vraag zo meteen ook nog aan de minister stellen om te zien hoe hij daarin staat?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u87">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg134">Mevrouw Helder, ten slotte.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u88">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg135">Ja, voorzitter, dat doen collega's altijd als ze in het nauw zitten. Dan schuiven ze de vraag door naar de minister. Staatsrechtelijk is deze minister gewoon de opvolger van de vorige minister. Ik stelde geen vraag, maar ik maakte een feitelijke constatering zoals collega Den Boer net in haar inbreng ook deed. Eerst was alleen D66 een warmhartig voorstander van het Europees Openbaar Ministerie. Ik hoor mevrouw Buitenweg roepen: en wij! Inderdaad, ook GroenLinks was voorstander. Er was toen sprake van een minderheid, maar vervolgens is er dankzij de VVD een meerderheid gekomen. Uit staatsrechtelijk oogpunt klopt dit gewoon niet. Dat is ook een constatering.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u89">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg136">Mevrouw Den Boer, wilt u nog reageren?</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u90">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg137">Ik hoorde geen vraag. Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u91">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg138">Dank u wel. Ik merk op dat ook meneer Van Dam niet wil reageren.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg139">Hiermee komt er een einde aan de eerste termijn van de zijde van de Kamer.</seg>
+            </u>
+            <note>De vergadering wordt van 11.05 uur tot 11.15 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u92">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg140">We zijn toe aan de eerste termijn van de zijde van de minister. Ik geef hem daartoe graag het woord.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u93">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg141">Voorzitter. We spreken vandaag over de recherche naar aanleiding van een artikel dat enige tijd geleden is verschenen, de zogeheten Noodkreet Recherche, van de Nederlandse Politiebond. Daar vroeg uw lid Van Raak aandacht voor in het kader van dit debat.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg142">We hebben op 20 februari over dat stuk in het mondeling vragenuur gesproken, op 21 februari tijdens het algemeen overleg Georganiseerde criminaliteit en op 22 februari tijdens het algemeen overleg Criminaliteitsbestrijding. Op 12 maart zond ik uw Kamer een inhoudelijke reactie en tijdens het AO Politie op 20 juni spraken wij ook over die reactie. Ik zal daar aan het slot nog iets over zeggen. Dan ga ik ook in op een aantal aardige dingen die door Kamerleden zijn gezegd. Dan wil ik namelijk, aan het slot, ook de samenwerking benadrukken en het op die manier ook verder komen, ook al zijn we het niet altijd met elkaar eens, die we in die AO's en in de commissie ook juist met elkaar hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg143">Het laat ieder geval zien dat ik de zorg over het functioneren van de recherche serieus neem en dat ik daar een aantal keren met uw Kamer over van gedachten heb gewisseld. Dit debat geeft ons de gelegenheid om nog eens over de genomen maatregelen en wat er verder moet gebeuren van gedachten te wisselen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg144">Dat geldt ook voor de lopende trajecten versterking van de opsporing en de ontwikkelingen die zich sinds eind februari hebben voorgedaan en die zich mede uitstrekken tot de recherche. Ontwikkelingen waar ik me ook tijdens een groot aantal werkbezoeken juist op heb gericht om me te verdiepen in wat er gebeurt bij de recherche. Komt men verder, wordt er vooruitgang geboekt, maar ook hoe zit het met de werkdruk? De Kamerleden met wie ik vaak in de commissie van gedachten heb gewisseld, weten dat dat punt van ziekteverzuim en, helaas, in het verlengde daarvan in sommige gevallen posttraumatische stressstoornis, voor mij ook echt een belangrijk aandachtspunt is. Dat is het, dat blijft het en daar mag u mij voortdurend op aanspreken. Ik ga naar zo naar aanleiding van de vragen, onder andere van mevrouw Buitenweg, nog nader op in.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg145">Heel concreet, er is een intensivering van 291 miljoen voor de politie. Daar is ook al een aantal keren met uw Kamer over van gedachten gewisseld. Ik heb in het kader van die investering, maar ook in het kader van de gesprekken over de cao, een persoonlijke inzet geformuleerd richting de politiemensen, via de bonden. Ik heb daarbij mijzelf gecommitteerd om ook zelf elke vier maanden in gesprek te gaan over de voortgang met betrekking tot zaken die het voltooien van het proces van de nationale politie betreffen, maar ook zaken die door de bonden zijn aangeroerd in dat herstelplan. Wij doen dat gezamenlijk met elkaar, met korpsleiding en bonden, om te kijken hoe dat vordert.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u94">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg146">Dat is heel mooi. Ik heb dat Herstelplan Nationale Politie natuurlijk ook bestudeerd, met veel punten, 130 punten. Daarin staat bijvoorbeeld punt 20: zorg zo snel mogelijk voor een substantiële uitbreiding van het aantal rechercheurs met 2.000 fte. Met alle respect, de huidige plannen komen daar nog niet echt in de buurt. Dus committeert de minister zich ook aan deze aspecten van dat herstelplan?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u95">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg147">Ik committeer mij niet aan aantallen. Dat heb ik ook vaker op vragen, c.q. interrupties van het lid Van Raak aangegeven. Wat ik heel duidelijk heb uitgesproken, is dat we elke vier maanden met elkaar, dat wil zeggen de korpsleiding, de bonden en ik — de medezeggenschap zal daar ook ongetwijfeld bij betrokken worden — in gesprek gaan om te kijken hoe het vordert met de zaken zoals die hier ook vandaag aan de orde worden gesteld. Het herstelplan van de bonden is het kader voor wat de bonden hebben geformuleerd.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u96">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg148">Dat is toch wat anders. Op dit moment zijn er veel bijeenkomsten in het land met politiemensen, waarbij politiemensen discussiëren over de vraag of ze de cao gaan steunen of niet.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u97">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg149">Het onderhandelingsresultaat.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u98">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg150">Ja, het onderhandelingsresultaat. Dan komt het er nogal op aan wat er precies in staat. Bij mij en veel agenten heeft de gedachte postgevat dat het Herstelplan Nationale Politie een uitgangspunt was voor de minister om samen met de politiemensen te gaan werken aan herstel van vertrouwen en herstel van het politiewerk. Gaat de minister dat herstelplan van de politiebonden nou omarmen? In welke mate gaat hij dat omarmen? Of zegt hij: dat is ook een plannetje; daar kunnen we ook weleens naar kijken?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u99">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg151">Ik haak meteen in op die laatste zin. Nee, dat is niet "ook een plannetje". De reden dat ik mij heb gecommitteerd om elke vier maanden gesprekken aan te gaan, is om te kijken hoe de voltooiing van de nationale politie zich ontwikkelt én hoe een aantal concrete afspraken in de "concept-cao" — zo zal ik die maar even noemen — die nu is voorgelegd aan de politiemensen, zich ontwikkelen. Hoe gaat dat? Komen we inderdaad verder met elkaar? Daarbij is het herstelplan zeker ook een stuk dat serieus in het kader op tafel ligt en wordt meegewogen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u100">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg152">De heer Van Dam.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u101">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg153">Ja, dat is toch niet ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u102">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg154">Nee, de heer Van Dam.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u103">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg155">Voorzitter, ik heb een soort ordepunt.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u104">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg156">Ik heb ook een ordepunt. Je kunt als voorzitter van tevoren met ons afspreken dat we interrupties in tweeën doen. Je kunt met ons afspreken dat we interrupties in drieën doen, maar je kunt niet bij sommige mensen interrupties in drieën doen en bij andere mensen interrupties in tweeën.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u105">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg157">Nee. Ik heb ze in eerste termijn in drieën toegestaan. Ik zou willen voorstellen om ze nu in tweeën te gaan doen. Maar daar heeft u niet op gerekend, dus u krijgt nu nog de kans van mij.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u106">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg158">Volgens mij is bij de cao-onderhandelingen — het resultaat daarvan ligt nu voor bij de agenten — afgesproken dat de minister en de bonden samen gaan kijken hoe het Herstelplan Nationale Politie uitgevoerd kan worden. Het Herstelplan Nationale Politie is het voorstel van de politiebonden om het vertrouwen in de korpsleiding en in de politiek te herstellen en om het politiewerk weer mogelijk te maken voor de agenten. Ik zie hier dat de minister zegt: het is een plan; daar kunnen we ook naar kijken. Dat is volgens mij niet wat er in de hoofden van de agenten zit. In de hoofden van de agenten zit dat ze actie hebben gevoerd en hebben gestreden en dat dit herstelplan nu het uitgangspunt is voor het herstel van de nationale politie.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u107">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg159">Ik denk dat u het nu wel erg gaat simplificeren. Er is een inzet geweest van de bonden en daarbij hebben ze een reactie geformuleerd. Men gaat ervan uit dat we gaan uitbreiden op basis van de investeringsmiddelen die dat mogelijk maken. U weet dat we in de komende drie jaar nog 58 miljoen extra in de politie investeren. Maar daar kom ik straks nog even op terug in de beantwoording van de vragen van mevrouw Buitenweg en mevrouw Den Boer. Zoals ik net al zei, hebben we van de zaken die de bonden geformuleerd hebben in het herstelplan gezegd: oké, dat blijft een stuk dat in die gesprekken ook ter sprake blijft komen. Maar de afspraken die liggen vast in het onderhandelingsresultaat. Daar horen een heleboel zaken bij. Daar horen de loonsverhogingen bij die voor de komende tijd zijn afgesproken. Maar daar hoort bijvoorbeeld ook bij — dat heeft u mij hardop horen zeggen, dus dat kan ik hier ook nog herhalen — dat we ons de kritiek op de werkdruk in het licht van bepaalde flexibilisering hebben aangetrokken en daar nadere afspraken over hebben gemaakt. Daar hoort heel veel bij. Het is niet zo, want anders had dat met een nietje erdoorheen met de titel Onderhandelingsresultaat voorgelegen, dat alles wat in het herstelplan staat tussen de partijen als onderhandelingsresultaat is overeengekomen. Dat weet de heer Van Raak.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u108">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg160">Meneer Van Dam.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u109">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg161">Ik heb een soort punt van orde. Ik vind het ongemakkelijk om hier over de cao te praten. Als je het over het herstelplan hebt, dan heb je het in no time over de cao. Ik wil dat eigenlijk ook van de minister weten. Ieder kan hier voor zichzelf aangeven waar hij wel of niet over praat, maar ik wil in elk geval expliciteren dat ik daar probeer weg te blijven omdat het inderdaad nog geen definitief onderhandelingsresultaat is. Ik vind dat wij dan als politiek een beetje afstand moeten houden. Ik zou de minister bijna willen vragen om dat ook te doen.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u110">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg162">Dat vind ik wel heel moeilijk, want er zijn vandaag een aantal vragen gesteld — laat ik het zo maar zeggen — die ik begrijp in het licht van het onderwerp waar wij het vandaag over hebben, namelijk de versterking van de recherche, bijvoorbeeld vragen over het ouderenbeleid. Ik moet dat op een gegeven moment dan wit of zwart maken — zo heet dat, geloof ik — zodra het punt van de cao aan de orde komt. Ik begrijp het punt van de heer Van Dam dat wij het vandaag niet over de cao moeten hebben, maar ik ontkom er niet aan om sommige dingen toch wel te verantwoorden. Bijvoorbeeld dat persoonlijke commitment van mij, dat kun je zien in het licht van het onderhandelingsresultaat — daar hebben wij het nog steeds over — maar ik geef de Kamer ook mee dat ik heb gezegd dat wij met elkaar elke vier maanden op deze grote punten moeten zien hoe het vordert.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u111">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg163">Ik ga uw opmerking nu wel als een interruptie beschouwen, meneer Van Dam.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u112">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg164">Als de minister dit zegt, dan voel ik ook mij minder geremd om op dat punt te raken aan de inhoud. Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u113">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg165">Gaat u verder, minister.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u114">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg166">Voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u115">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg167">Ik neem aan dat u nu met een punt van orde komt, meneer Van Raak.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u116">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg168">Ja, ik vind het toch wel opmerkelijk. We hebben het over de capaciteit bij de politie, de capaciteit bij de recherche. Er liggen nu afspraken voor om die capaciteit uit te breiden. Ik vind dat onvoldoende. Anderen vinden dat voldoende, maar daar hebben wij een debat over. Dan zou het wel heel opmerkelijk zijn om die reusachtige roze olifant die voor ons staat — ik doel dan uiteraard op het coalitieakkoord — te ontkennen, om het daar niet over te mogen hebben. Dan zouden wij ons als nationale vergadering een beetje belachelijk maken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u117">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg169">Meneer Van Raak, als ik mag. Volgens mij is hier niemand die iets onbespreekbaar verklaart. We zouden in het kader van de orde ook helemaal niemand tegen kunnen houden om het daarover te hebben. Dus dat gaan wij ook helemaal niet doen. Voelt u zich vrij om het over elke olifant te hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg170">Het woord is aan de minister.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u118">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg171">Ik benadruk dat. Er is voor mij niets onbespreekbaar, maar de Bijbel zegt natuurlijk wel: er is een tijd voor alle dingen, om het zo te zeggen. Het is dus vers twee of het allemaal vandaag moet.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg172">Via u, voorzitter, wil ik nog iets tegen de heer Van Raak zeggen, ook in het verlengde van de punten die door de bonden zijn genoemd in het herstelplan. In het verlengde van de onderhandelingen over het arbeidsvoorwaardenakkoord hebben de korpschef en de bonden afspraken gemaakt over de opsporing. Het korps heeft de administratieve lasten in de opsporing onderzocht in het rapport effectiviteit van de opsporing. De tien belangrijkste ergernissen van politiemensen bij de opsporing zal de politie ook echt gaan aanpakken, uiteraard op de punten waar het ook in de macht van het korps ligt om die zelf te beïnvloeden. Voor eind 2018 zal daarover een voorstel komen. De administratievelastendruk zal in ieder geval worden verminderd door het terugdringen van het hoge percentage aan herstelwerk, dat op dit moment veel capaciteit kost. De politie zal daartoe investeren in het verhogen van de start- en vakbekwaamheid en daar waar mogelijk vrijgestelde hulpofficieren van justitie toevoegen aan de basisteams. Daarvoor zullen wij met een concreet voorstel komen in het eerste kwartaal van 2019. Verder zal de administratieve ondersteuning in de opsporing worden versterkt door gerichte inzet van extra capaciteit vanuit de mogelijkheden die de Participatiewet biedt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg173">Vanaf vóór de zomer van 2019 krijgen we ieder kwartaal een volgend voorstel voor een volgend onderwerp, en de gezamenlijke doelen van korpsleiding en bonden zijn het vereenvoudigen en stroomlijnen van de aansturing binnen de opsporing en het verbeteren van de aansluiting tussen opsporing en het gebiedsgebonden politiewerk. Via u, voorzitter, zeg ik tegen de heer Van Raak dat dit ook echt is waar ik over dit soort onderwerpen elke vier maanden met de bonden en de leiding in gesprek ga, om te kijken hoe we ervoor staan, of de overeengekomen maatregelen werken of dat we andere dingen moeten gaan doen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg174">Er is al het een en ander gezegd over de getallen rondom de versterking van de recherche. Dat zal ik niet herhalen. Ik wou wel in antwoord op mevrouw Kuiken nog iets zeggen over de ICT-ondersteuning, die het mogelijk maakt om eenduidig te monitoren wat het retourpercentage is van ingestuurde strafzaken en wat de reden van de retourzending is door het OM. Dat betekent dat je gewoon gerichter kunt interveniëren en verbeteren.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg175">Het afgelopen jaar heeft de politie ook een forse inspanning gepleegd om de basis van de opsporing en vervolging op orde te brengen door het werven van hogeropgeleide specialisten op het gebied van bijvoorbeeld financieel-economische criminaliteit en cybercriminaliteit. De beschikbare functies voor hogeropgeleide specialisten zijn per 31 december 2017 voor 96% gevuld door middel van zowel door- als zijinstroom voor functies op de werkgebieden digitale opsporing, financieel-economische criminaliteit, intelligence en forensische opsporing. Daardoor is de bezetting inmiddels zover op orde dat de streefwaarde van 20% hbo'ers in de opsporing in ieder geval is gerealiseerd.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg176">Ik zeg daar wel bij dat er op fundamentele vragen zoals ambitie- en realisatieniveau ten aanzien van de kwaliteit, cultuur en "mbo versus hbo" nog onvoldoende antwoord is, en dat komt ook naar voren in de uitgevoerde sterkte- en zwakteanalyse Handelen naar waarheid. Daarin staat dus ook die ontwikkelagenda opsporing, die de politie nu in nauwe samenwerking met het OM en het ministerie maakt. Die zal ik uw Kamer, zoals eerder toegezegd, eind 2018 toesturen, en heel concreet vóór de begrotingsbehandeling. Het lijkt mij goed om daarover in dat kader te kunnen spreken. Althans, het is natuurlijk aan de Kamer, maar het kán in ieder geval in het kader van de begrotingsbehandeling aan de orde komen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg177">Ik wil een tipje van de sluier lichten. Over de inhoud van de ontwikkelagenda heb ik al in de brief van 12 maart geschreven. Daar zijn drie lijnen in te zien. Het definiëren van de gewenste veranderingen en het versterken van het eigenaarschap, ook het definiëren van fundamentele, wat men noemt disruptieve aanpassingen, bijvoorbeeld op het terrein van forensische opsporing, cybercrime en burgerparticipatie. Ik vertelde u over werkbezoeken en ik zou de Kamercommissie daartoe ook willen aanmoedigen, al weet ik niet of "aanmoedigen" het goede woord is. Maar ik ben bijvoorbeeld in Apeldoorn geweest om te kijken naar wat daar de ontwikkelingen zijn van veel verdergaand gerobotiseerde aangiftemogelijkheden. Dat werkt dan ook echt met een bot die alle goede vragen stelt en rubriceert en dergelijke. De derde lijn die ik aankondigde, is het versterken van de kwaliteit van de aanpak en het effect daarvan op de vijftien meest voorkomende delicten.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg178">Maar goed, ik hoop dat uw Kamer de uitnodiging van de korpschef aanneemt om begin november kennis te nemen van alle actuele ontwikkelingen in de opsporing.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg179">Voorzitter. Er zijn vragen gesteld over het ziekteverzuim bij de recherche en ook nog over het ouderenbeleid, door respectievelijk mevrouw Geselschap en mevrouw Kuiken. Ook bij de recherche moet het ziekteverzuim dalen. De afgelopen jaren hebben laten zien dat het terugdringen van het ziekteverzuim bij de politie complex en weerbarstig is. We moeten er ook rekening mee houden dat het verzuim bij de politie wel altijd hoger zal blijven — dat laat de geschiedenis zien — dan gemiddeld, gezien het bijzondere karakter van het politiewerk. Iedere doelstelling die tegen die achtergrond geformuleerd wordt, moet dus ook realistisch zijn. De kern van de aanpak van de politie zit niet in nog meer instrumenten, maar in daadwerkelijke aandacht voor de gezonde en zieke medewerker. In dit voorjaar heb ik u wat dat betreft ook het plan van aanpak van de korpsleiding dienaangaande gestuurd. Maar goed, het doorvoeren van een grote cultuurverandering in een organisatie van 60.000 man kost ook wel enige tijd. Daarom heeft de politie, zoals al eerder door mij aangegeven, vijf jaar nodig om tot de 10% reductie van het verzuim te komen. Ik zal uw Kamer dit najaar verder informeren over dat ziekteverzuim.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg180">Dan het punt van het ouderenbeleid.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u119">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg181">Voorzitter, ik kom heel charmant aanrennen, op hoge hakken, ik weet het. Ik heb een klein punt van orde. Kunnen we dat ook voor de begroting verwachten?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u120">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg182">Ja. Dat gaat kunnen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u121">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg183">Gaat u verder.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u122">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg184">Voorzitter. Mevrouw Kuiken vroeg terecht extra aandacht voor het ouderenbeleid. Zij zei: daar moeten echt goede afspraken over gemaakt worden. In het onderhandelaarsakkoord — daar kom ik dan toch even op — is de mogelijkheid ingevoerd voor ouderen om in combinatie met een tijdelijke aanstelling een op maat gesneden minder belastend pakket aan werkzaamheden samen te stellen zodat ouderen op een gezonde manier hun pensioen- of AOW-leeftijd halen. Overigens zijn er ook in de huidige rechtspositie allerlei mogelijkheden om een stap terug te doen, zoals nachtdienstontheffing. Ook dit is een onderwerp waarvan we de komende paar jaar in het kader van dat periodieke voortgangsoverleg met bonden en korpsleiding moeten kijken wat er nog meer nodig is.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u123">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg185">Ik heb daar toch nog wel een vraag over. "De komende jaren bekijken" betekent niet dat er echt concreet iets gaat gebeuren. Het is niet alleen maar dat de uitstroom groot is — het ziekteverzuim is hoog — maar ook de bejegening van de wat meer ervaren seniorpolitieagenten laat te wensen over. Ook ik ken heel veel verhalen van mensen die zeggen: jongens, ik wil nog van alles, maar ik word nu al op een zijspoor gezet; ik moet nog vijf jaar tot mijn pensioen, maar er wordt nu al over het prepensioen met mij gesproken terwijl ik weet dat ik nog een aantal jaren mee moet. Het gaat dus over een heel aantal facetten. Ik zou dan willen dat er iets meer urgentie uitspreekt dan "de komende jaren gaan we eens even met elkaar verkennen wat we eventueel gaan doen".</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u124">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg186">Met alle respect voor het lid Kuiken, maar ik zei al dat dit de reden is dat ik in de komende jaren in dat periodieke viermaandelijkse overleg kijk of we verder komen met een aantal van deze maatregelen. Ik vind dat we in dat overleg ook moeten spreken over de zorgen die mevrouw Kuiken uit over geluiden uit het korps dat er mensen zijn die juist op grond van hun leeftijd worden tegengewerkt. Dat zou ik zeer verkeerd vinden. We zeggen dus niet dat we over drie jaar eens gaan kijken. Nee, elke vier maanden is dit een onderwerp waar we naar kijken. Ik wil mevrouw Kuiken erop wijzen dat die 58 miljoen die ik alsnog heb gekregen van het kabinet bedoeld is om er in de komende drie jaar voor te zorgen dat de extra uitstroom van gepensioneerden wordt opgevangen, juist ook door maatregelen te financieren die mensen ook willen, zoals het onder voorwaarden langer doorwerken van mensen die dat willen. Dat staat dus juist op een heel andere richting. Overigens wil ik dan meteen maar in het kader van de tijd de vraag van de heer Bisschop beantwoorden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u125">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg187">Nou, laten we eerst even deze interruptie afmaken.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u126">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg188">Pardon.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u127">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg189">Mevrouw Kuiken.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u128">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg190">Ik sta hier graag, maar niet voor niets. De minister zegt: het kan toch niet zo zijn dat ze nu al op een zijspoor worden gezet? Nee, dat kan inderdaad niet zo zijn, maar het gebeurt wel. Dat is het cultuuraspect. Dan de feitelijke situatie. Kijk, het feit dat de minister elke vier maanden met de bonden verder gaat praten over dit probleem is mooi, maar dat is rustig drie jaar vol te houden zonder dat er na zo veel overleggen iets concreets ligt. Dus ik wil dan toch aan de minister vragen: wanneer kunnen wij dan het debat gaan voeren met de minister? Dan moeten we desnoods een debat ouderenbeleid organiseren; ik denk dat de heer Van Raak zeer voor is. Wij kunnen alleen maar controleren en wij kunnen moties indienen, maar ik wil dus iets concreets waar we een handvat aan hebben.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u129">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg191">Ik heb eigenlijk verondersteld, zeker gezien de scherpe en ook sportieve wijze waarop ik de onderhandelingen van de afgelopen maanden heb aanvaard, dat de bonden in dat viermaandelijkse overleg toch echt in staat zijn om, als ik het maar even zo rechtstreeks mag zeggen, mij op de pijnbank te leggen op die punten waarvan men zegt: kijk, daar zien we dus eigenlijk niets of veel te weinig gebeuren. Daar heb ik dus alle vertrouwen in. Wat betreft het periodiek rapporteren aan de Kamer: zoals ik in mijn inleiding schetste, hebben wij echt regelmatig overleg met elkaar. Het lijkt mij goed om af te spreken dat we in ieder geval in die overleggen ook bijpraten over hoe die gesprekken verlopen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u130">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg192">U gaat hier nog een interruptie aan wijden?</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u131">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg193">Nee, dan rond ik af, voorzitter. Dan rest ons ook niets anders dan de pijnbank. Dat zullen we dan periodiek blijven doen, totdat er stappen worden gezet, ook als het gaat over een gezond ouderenbeleid.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u132">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg194">Dank u wel. Gaat u verder, minister.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u133">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg195">Er worden dus al stappen gezet voor een gezond ouderenbeleid en we gaan ook toetsen of dat werkt, respectievelijk wat daarbij moet.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg196">Dan was er nog een vraag over de externe adviescommissie. Ik zal snel naar de Kamer komen met de exacte invulling van de opdracht maar ook van de commissie zelf. Er is een AO op 17 oktober aanstaande en ik zet alles op alles om u daarvoor een brief over dit onderwerp te sturen, zodat we daar dan uitvoerig op in kunnen gaan, als u als Kamer dat wil uiteraard.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg197">Mevrouw Kuiken ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u134">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg198">Een ogenblik. Meneer Van Dam.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u135">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg199">U heeft bij de beantwoording van de schriftelijke vragen gezegd dat er zo'n commissie kwam. Dat is begin dit jaar geweest. We leven nu ergens dik in september en u gaat binnenkort hier een brief over aan de Kamer sturen. Daar word ik nou zo moedeloos van, want dan denk ik: we gaan de bureaucratie bestrijden, we doen dat met een commissie, het duurt driekwart jaar om die commissie in te richten en dan moet er nog een brief komen. Ik hoop dat u begrijpt dat dit niet echt het traject is dat ik zou willen. Ik heb zelf in mijn initiatiefnota gezegd: richt nou gewoon een soort korpsmarinier in, iemand die binnen de politie de ruimte krijgt om regels af te schaffen. Want een heleboel van die bureaucratische regels komen gewoon uit zo'n organisatie zelf. Dat is niet alleen bij de politie zo, maar dat is in allerlei organisaties. Zou de minister daar toch nog eens over na willen denken?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u136">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg200">Ik wil de heer Van Dam bij dezen toezeggen dat ik in de brief voorafgaand aan 17 oktober op dat punt van de korpsmarinier, zoals u dat noemt, toch nog eens uitvoeriger zal ingaan. We hebben daar eerder over van gedachten gewisseld, maar ik wil wel toezeggen om dat nog een keer te doen. En dan kunnen we daar op 17 oktober wat mij betreft echt serieus over van gedachten wisselen.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u137">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg201">Het gaat mij er niet om dat die term van mij het wordt. Maar deze minister kennende, kan ik me toch ook niet voorstellen dat dit nou een ambitieuze manier van doen is om die bureaucratie te gaan. Alles dan dit is beter.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u138">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg202">Even los van de bijzonder vriendelijke beschrijving die de heer Van Dam veronderstellenderwijs van mijn karakter geeft, grijp ik juist het handvat aan door te zeggen: ik kom daar in die brief ook op terug en dan kunnen we met elkaar op 17 oktober vaststellen wat we nou eigenlijk de beste weg vinden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u139">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg203">Gaat u verder.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u140">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg204">Voorzitter. Over de 58 miljoen heb ik al het een en ander gezegd. Nogmaals, dat is om de komende drie jaar de tijdelijke effecten op de inzetbaarheid door de enorme uitstroom in ieder geval goed te verminderen. Er werd gevraagd of we dat kunnen benutten om de opsporingscapaciteit sec te vergroten. Dat kunnen we niet, want dan ga je incidenteel geld voor iets structureels inzetten.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg205">Ik wil meteen de vraag van de heer Bisschop beantwoord hebben. Het is natuurlijk inderdaad zo dat de politie met 1.111 fte's uitgebreid zal zijn ten opzichte van de huidige fte-formatie. Het is dus niet zo dat die 1.111 fte's juist niet bedoeld zijn om alleen maar gaten te dichten vanwege extra uitstroom. Integendeel, daar is die extra 58 miljoen voor.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg206">Mevrouw Laan-Geselschap vroeg of de minister bereid is om te kijken naar stappen die gezet kunnen worden bij het OM zodat er minder zaken worden geseponeerd. Dat valt enigszins aan de zijkant van dit debat, maar ik ga de vraag toch beantwoorden. In het zogenaamde Bestuurlijk Ketenberaad, dat enige jaren geleden is opgericht, komen de taakorganisaties van Justitie en Veiligheid bij elkaar. Een van de producten daarvan is de strafrechtsketenmonitor. Daar informeer ik u ook over. Die monitor is er nou juist om de taakorganisaties te helpen, en de productie en de processen te optimaliseren. De Kamer heeft tijdens het vragenuur van 12 september vorig jaar kritische vragen gesteld over het hoge aantal sepotbeslissingen. Ik heb toen toegezegd dat er op dat punt een verdiepend onderzoek zou komen. Dat wordt onder de vlag van het Bestuurlijk Ketenberaad uitgevoerd en is nagenoeg afgerond. Ik streef ernaar om uw Kamer binnenkort over de uitkomsten te informeren. Voor zover iemand hiervoor naar de interruptiemicrofoon zou willen lopen, wil ik nu alvast zeggen dat ik mijn best zal doen om dat onderzoek nog voor de begrotingsbehandeling naar uw Kamer te sturen. Ik heb dat echter niet in de hand, maar ik zal kijken of dat kan. Ik kan het echter op dit moment niet garanderen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg207">Over de 100 miljoen voor de ondermijning zeg ik het volgende. Mevrouw Helder wees er terecht op dat dit een incidenteel fonds is. Natuurlijk bepleit ik bij de collega's om de komende jaren ook grote bedragen beschikbaar te hebben voor het bestrijden van ondermijnende criminaliteit. Dat geld zal worden besteed. Daar heb ik een uitvraag voor gedaan bij alle regio's en eenheden, maar ook bij de landelijke partners. Iedereen moet met voorstellen komen, die door het onafhankelijk Strategisch Beraad Ondermijning zullen worden beoordeeld. Aan mij zal dan worden voorgelegd wat de projecten zijn die het meest in aanmerking komen voor een bijdrage uit het ondermijningsfonds.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg208">Mevrouw Buitenweg vroeg op welke wijze ik het verschil in beloning tussen noodhulp recherche heb meegenomen in de cao-onderhandelingen. Daar zijn in het onderhandelaarsakkoord geen afspraken over gemaakt. Er wordt geen onderscheid gemaakt naar groepen in het onderhandelaarsakkoord, maar er wordt gekeken naar het type werkzaamheden. Als die werkzaamheden toeslagen rechtvaardigen, dan wordt daarover gesproken. En als ook rechercheurs onregelmatig werken, krijgen zij ook die toeslagen. Maar aan beide kanten van de tafel, dus ook aan de kant van de bonden, is geen aanleiding gezien om dit onderwerp nu op te brengen in de onderhandelingen die tot het onderhandelaarsresultaat hebben geleid.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg209">Mevrouw Buitenweg en mevrouw Den Boer vroegen naar de internationale rechtshulpverzoeken. Er wordt substantieel geïnvesteerd in het tegengaan van cybercrime, en internationale samenwerking wordt bevorderd door het aanstellen van 111 fte's bij de landelijke eenheid en 60 fte's agenten met specifieke digitale expertise ten behoeve van de regionale eenheden. Daarbij wordt ook het LIRC versterkt, dat internationale verzoeken behandelt. In de reorganisatie zijn binnen de sterkte van de Landelijke Recherche zijn twee teams ingericht voor de afhandeling van die rechtshulpverzoeken. Daarbij zijn in totaal 40 fte's betrokken. Vanuit de regeerakkoordgelden zijn 65 mensen gelabeld voor internationaal. Zeven daarvan worden toegevoegd aan die twee rechercheteams. Dat komt dan dus uit op 47.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg210">Dan ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u141">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg211">Een interruptie van mevrouw Buitenweg.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u142">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg212">Er komen heel veel cijfers van hoeveel mensen het zijn, 111. En heel veel andere mensen houden zich ermee bezig. Maar mijn vraag was of het klopt dat ruim de helft van de ondersteunende verzoeken uit het buitenland nu niet of onvoldoende in behandeling wordt genomen.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u143">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg213">Dat cijfer kan ik niet bevestigen.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u144">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg214">Het kan zo zijn dat er meer dan 110 mensen mee bezig zijn, maar het gaat er ook om hoeveel er nodig zijn. Dus ik wil dan op een later tijdstip van de minister horen hoeveel van de ondersteunende verzoeken uit het buitenland in behandeling worden genomen. Hoeveel zijn dat er, hoeveel worden er in behandeling genomen? Er kunnen natuurlijk ook heel goede redenen zijn om ze niet in behandeling te nemen, maar die wil ik dan wel kunnen gaan begrijpen. Het is problematisch als we, wanneer er sprake is van de internationale zware georganiseerde misdaad, onvoldoende samenwerken met de landen om ons heen.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u145">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg215">Ik moet even heel erg oppassen dat het niet ineens een vlucht gaat nemen. Twee dingen. Ik kan de cijfers die u noemt in ieder geval niet terugvinden. U noemt er zelf ook geen bron voor. Ik zeg bij dezen toe dat ik zeker bereid ben om in een nadere brief voor u uiteen te zetten hoe dat zit met die internationale rechtshulpverzoeken. Ook daarbij moeten we kijken of dat nog voor de begrotingsbehandeling zou kunnen, maar straks zijn we helemaal niet meer met de begroting bezig. Ik vind het een belangrijk punt, dus ik wil ook echt serieus daarop ingaan. Ik wil wel benadrukken dat wat betreft de internationale samenwerking de Nederlandse politie hoog scoort in internationale onderzoeken. Ik denk dat we dat wel in de gaten moeten houden. Er is ook gezegd door een van de leden dat bepaalde dingen in buurlanden beter zouden zijn. Ik blijf het herhalen: de Nederlandse politie staat op de wereldranglijst van internationale onderzoeken op nummer zes qua professionaliteit, qua integriteit en, zo zal ik maar zeggen, qua organisatiewerking. Ik wil daar toch even aan vasthouden, maar ik heb de toezegging gedaan aan mevrouw Buitenweg: ik kom met zo'n brief.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u146">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg216">De toezegging is helder, maar blijkbaar wilt u er nog iets over kwijt, mevrouw Buitenweg?</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u147">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg217">De minister stelde eigenlijk een vraag aan mij, namelijk wat mijn bron was. Ik kan zeggen: dat is de Nederlandse Politiebond zelf. Ook in de Noodkreet Recherche staat heel specifiek dat er onvoldoende tijd is om juist aan die internationale verzoeken gehoor te geven. Ik ben blij dat daar een reactie op komt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u148">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg218">Ja, een heldere bron.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u149">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg219">Met alle respect voor de noodkreet van de Nederlandse Politiebond, maar daar staan een aantal noodkreten in. Ik denk dat we dit echt getalsmatig met elkaar moeten uitzoeken. Hoewel Churchill zei dat de statistieken nog erger zijn dan halve waarheden en leugens, moeten we toch echt even goed uitzoeken — maar dat heb ik toegezegd aan u — hoe het nou getalsmatig zit, en niet direct afgaan op de zorgen dat het onvoldoende zou zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u150">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg220">Gaat u verder.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u151">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg221">Over het ophelderingspercentage is ook het een en ander gevraagd, met name door mevrouw Buitenweg. De ophelderingspercentages verschillen sterk per misdrijf. Zo is het ophelderingspercentage bij rijden onder invloed zeer hoog, omdat de politie bij constatering van het strafbare feit de verdachte bij wijze van spreken voor zich heeft. Bij fietsendiefstal is het percentage relatief laag, omdat bij dat delict over het algemeen sprake is van weinig opsporingsindicaties. Dat zijn gewoon even twee voorbeelden die ik eruit wil lichten. Door die grote verschillen is het heel moeilijk om een algemeen wenselijk niveau te stellen. Bij specifieke delicten kan dat wel zinvol zijn en gebeurt het ook. Zo is in het kader van de Veiligheidsagenda de doelstelling geformuleerd om het ophelderingspercentage bij bijvoorbeeld overvallen te laten stijgen tot meer dan 50% in 2018. Er is ook het een en ander gezegd over de afnemende criminaliteit. Ik heb het al een aantal keren gezegd en het is ook algemeen bekend: de high-impact crimes zijn in de afgelopen vijf, zes jaar — dat is dus in ieder geval niet een verdienste waar ik bij betrokken ben geweest — door allerlei campagnes en gericht beleid teruggedrongen. Maar er is andere criminaliteit die zeer veel aandacht behoeft, zoals het aanpakken van criminele organisaties. Ik heb dat, denk ik, ook meermalen hardop uitgesproken.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u152">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg222">Mijn vraag gaat over de 50% die de minister net noemde. Stel dat je thuis of in je winkel wordt overvallen. Slechts 50% van die overvallen wordt dan opgelost. De minister noemt dat nu als een soort streefcijfer waarnaartoe zou moeten worden gewerkt. Waarop wordt die 50% gebaseerd? Waarop wordt gebaseerd dat dat cijfer oké zou zijn?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u153">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg223">Dat wordt gevormd door een groot aantal factoren die te maken hebben met de bewijsindicaties die er zijn, zoals ik bijvoorbeeld bij fietsendiefstal aangaf, waarbij er ook een weging wordt gemaakt van de opsporingsmogelijkheden. Laat ik u dit zeggen: ik denk dat iedereen die hier aanwezig is het liefst een maatschappij zou hebben waarin we bij alles een oplossingspercentage van honderd procent hebben, maar dat is feitelijk een illusie.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u154">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg224">Ik deel met u dat dat een illusie is. We leven niet in 1984, van dat bekende boek, hè. Ik ben wel geïntrigeerd door die 50%. Er wordt gezegd dat daarnaar wordt gestreefd, maar ik denk dat dat lastig uit te leggen is aan de bevolking. Ik zou wel willen weten hoe je tot die 50% komt. Waarom is het geen 60%, of 70%, of iets dergelijks? Ik blijf daar wel door geïntrigeerd, ondanks het antwoord van de minister.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u155">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg225">Twee dingen daarover. In de eerste plaats is het zo — de heer Hiddema refereerde daar ook al aan — dat uit de Veiligheidsmonitor blijkt dat burgers zich veilig voelen. Het percentage dat vertrouwen in de politie heeft, is hoog. De commissie-Kuijken heeft als compliment aan de politie in haar evaluatierapport vorig jaar nog eens benadrukt dat het vertrouwen van de burger in de politie nog steeds erg hoog is, ondanks het feit dat men ook veel tijd in die moeilijke reorganisatie moest steken. De ene kant van het verhaal is dat je de burger laat zien dat je als politie, als overheid maximale inspanningen doet om zaken op te lossen. Dat is de ene kant. De andere kant van het verhaal is dat je bij diverse vormen van criminaliteit een aantal factoren hebt — ik noemde ze al — die de opsporing, respectievelijk de oplossing wel of niet kunnen beïnvloeden. Dat leidt bij een delict als overvallen tot het feit dat je naar het oordeel van deskundigen op een hoog percentage zit als je meer dan 50% daadwerkelijk kunt oplossen. Ik ben op zichzelf bereid om nader inzicht te verschaffen in de onderliggende onderzoeksgegevens, maar ik heb die nu even niet in mijn tas zitten.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u156">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg226">Bij de burger laten zien dat een maximale inspanning geleverd wordt, gaat het natuurlijk vooral over zichtbare misdaad. Het grote probleem, dat we vandaag ook bespraken, is dat heel veel misdrijven onzichtbaar zijn en ook minder onderzocht worden. De minister zegt dat je bij sommige zaken bij het constateren van het delict gelijk een verdachte hebt, bijvoorbeeld bij rijden onder invloed; bij andere zaken is dat natuurlijk moeilijker. Het punt is wel of wij hier voldoende zicht op hebben. Uit de Noodkreet Recherche komt naar voren dat slechts een op de negen criminele netwerken echt wordt onderzocht. De minister zei net zelf dat hij enorm veel waarde hecht aan onderzoek, zodat we echt precies weten over welke cijfers we het hebben. Dan wil ik heel graag een reactie van de minister: klopt het dat naar alle waarschijnlijkheid — want het is natuurlijk geen wetenschap — een op de acht criminele netwerken niet onderzocht wordt?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u157">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg227">Het Nationaal dreigingsbeeld georganiseerde criminaliteit van 2017 nuanceert die beelden. Dat wil zeggen dat het — hoe moet ik dat nou goed zeggen? — niet zo somber is als de noodkreet van de politiebonden zou doen vermoeden. Maar ik heb ook menigmaal hardop uitgesproken — dat doe ik hier nogmaals — dat de aanpak van georganiseerde criminaliteit en criminele netwerken een grote, hoge maatschappelijke prioriteit moet hebben, want het zijn dat soort criminele netwerken die onschuldige burgers intimideren en bedreigen en in gewone buurten gaan zitten. U kent dat verhaal; dat zal ik u hier besparen, maar daar zet ik enorm op in, omdat dit aan twee kanten verkeerd werkt. Aan de ene kant breiden die criminele netwerken, als je daar niet wat aan doet, hun activiteiten uit. Aan de andere kant trekken gewone burgers zich terug in hun schulp of laten zij zich in het slechtste geval onder druk en dreiging misbruiken door dat soort netwerken. Daar kent u allemaal voorbeelden van: mensen die noodgedwongen hun schuur of hun zolder ter beschikking stellen voor een synthetisch drugslaboratorium omdat ze geïntimideerd worden door de een of andere enge buurman. Laat ik daar dus heel duidelijk over zijn: het heeft voor mij echt een hoge prioriteit. Ik denk dat ik niet uit de weg ga dat er een aantal van die netwerken zijn die we misschien wel langzaam in beeld hebben maar nog niet hebben opgerold. Daar moeten we op inzetten. Heel bemoedigend is dat het Openbaar Ministerie het afgelopen jaar heel belangrijke resultaten heeft geboekt op het gebied van de zogeheten OMG's, de outlaw motorcycle gangs. Dat is natuurlijk maar één voorbeeld, maar we zijn er echt hard mee bezig en ik denk dat mevrouw Buitenweg en ik elkaar echt erin vinden dat dit voor de komende jaren voor opsporing en vervolging maar ook voor de hele maatschappij een hoge prioriteit heeft.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u158">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg228">De minister scoort heel hoog op de motivatie-input. Hij blijft maar steeds benadrukken dat hij hier persoonlijk heel erg aan hecht en dat hij hier echt heel veel aan doet. Dat geloof ik eigenlijk ook wel. Het idee is natuurlijk dat geld altijd goed besteed wordt en dat we ook echt naar de doelmatigheid kijken. Wat vindt de minister zelf dat hij bereikt moet hebben over drie jaar, juist ook op dit terrein? Als hij nu zegt dat acht op de negen criminele netwerken in ieder geval volgens de Nederlandse Politiebond onvoldoende worden onderzocht — ik heb daar nog niets tegenover gehoord, maar daar komt de minister nog mee — wat is op dit terrein dan zijn doel? Waar kunnen we hem over drie jaar op afrekenen? Ik begrijp best dat het ingewikkeld is en ik snap ook dat hij niet kan zeggen dat 100% zijn doel is, maar er moet toch iets meer een doel worden gesteld dan alleen maar "ja, maar ik doe echt mijn best".</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u159">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg229">"Ik doe echt mijn best" is een simplificatie die ik, ondanks alle aardige dingen die gezegd zijn, toch even van mij afduw, want we steken in ieder geval 291 miljoen structureel extra in politie. We steken 100 miljoen in een ondermijningsfonds. Daarnaast steken we daar nog vijf jaar jaarlijks geld in. We steken 90 miljoen in cybersecurity, waarvan een deel ook ter bestrijding van cybercrime is. Zoals mevrouw Buitenweg weet, hebben we van het kabinet op het laatst nog 30 miljoen extra gekregen voor de bestrijding van alles op het gebied van cybercrime, ondermijning, cybersecurity en dergelijke. Daar ben ik zeer dankbaar voor. Het is dus niet alleen maar dat ik mijn best sta te doen. Ik vrees ook dat dat niet heel erg geruststellend zou zijn voor de Nederlandse bevolking. Maar een ander ding is inderdaad: waar moeten we over drie jaar staan? Dat moet ik natuurlijk niet zelf beoordelen. Dat moet u beoordelen. Ik denk dat u over drie jaar moet zeggen: we hebben de criminele netwerken in Nederland de afgelopen jaren inderdaad een flinke duw richting de uitgang van onze maatschappij gegeven. Dat moet natuurlijk blijken uit echte statistieken — daarvoor verwijs ik toch echt een beetje naar het Nationaal dreigingsbeeld van vorig jaar — en uit hoe de burger dat in zijn buurt ervaart.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg230">Ik meen dat zowel uw Kamercommissie als ik een werkbezoek aan Eindhoven hebben gebracht. Daar zijn we rondgereden door een buurt die echt een voorbeeld is van een wijk die zucht onder het juk van georganiseerde criminaliteit die de mensen lastigvalt, intimideert, bedreigt. Levensgevaarlijk. De wijk heeft synthetische drugslabjes in een garage midden tussen gewone huizen, met alle gevaren voor ontploffing en weet ik veel wat van dien. Daar moeten we ons met elkaar en met alle politieke tegenstellingen die wij hier en daar af en toe toch ook hebben, zo meen ik te bespeuren, op richten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u160">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg231">Dank u wel. Gaat u verder.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u161">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg232">Dat is meer dan alleen ons best doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u162">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg233">Mag ik tussendoor even vragen hoever u ongeveer bent met de beantwoording?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u163">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg234">Ik zou willen zeggen dat ik al een heel een end op dreef ben — afstand bedoel ik dan — dus ik heb het merendeel al gedaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u164">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg235">Goed. Gaat uw gang verder.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u165">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg236">Ik heb nog slechts te beantwoorden ... Nee. Ik heb eigenlijk alle punten beantwoord. Ik wilde aan het slot ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u166">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg237">Zo heb ik het ook weer niet bedoeld.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u167">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg238">Nou ja, voorzitter, voor zover ik weet, heb ik dat gedaan. Ik wou wel nog even aan het slot de volgende opmerking maken. Ik heb die aan het begin al aangekondigd. Ik stel het op prijs dat in ieder geval de investeringen die het ministerie doet en die ik natuurlijk zeer steun, gewaardeerd worden. Ik begrijp natuurlijk ook dat men kritisch kijkt: is het genoeg? Daarbij zeg ik maar — de heer Van Dam roerde dat punt al even aan — dat ik altijd zeer uitkijk naar de commissievergaderingen die we met elkaar hebben, omdat we daar wel een zinnig, inhoudelijk en soms fel debat hebben. Laten we dat blijven doen, want de bestrijding van criminaliteit en het goed inzetten op kwaliteit van politie en opsporing zijn echt gewoon maatschappelijke, niet door politieke partijlijnen verschillend gemaakte doelstellingen. Die moeten we met z'n allen ondersteunen. Nogmaals, ik wil dat gewoon nog eens hardop gezegd hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u168">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg239">Dank u wel. Een interruptie van mevrouw Den Boer.</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u169">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg240">Terwijl de minister ons kabbelend naar de eindstreep van deze eerste termijn brengt, stel ik hem toch nog een vraag. Hoe komt het nou dat de effecten of de resultaten van vorige versterkingsprogramma's inzake de opsporingscapaciteit en kwaliteit van de Nederlandse politie zo onzichtbaar lijken te zijn op langere termijn? Wat is daar nou eigenlijk nog van over gebleven?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u170">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg241">Ook dat is — ik zal het niet kabbelend zeggen, maar vrij direct — toch iets te veel een sweeping statement, vrees ik. Want natuurlijk hebben we de afgelopen jaren ook in de opsporing verbeteringen gezien. Ik denk dat het project van het samenbrengen van de nationale politie, het formeren daarvan, extra werkdruk heeft gebracht. Daar is iedereen het over eens. Daar ben ik ook, terecht denk ik, op aangesproken door veel politiemensen in het land bij de discussies die wij hadden, ook een enkele keer als er een blokkade was of wat dan ook. Ik denk dat hierbij ook heel erg het feit heeft meegespeeld dat maatregelen van de afgelopen jaren niet altijd even goed neervielen. Maar ik heb u bijvoorbeeld ook gewezen op het echte succes dat is geboekt door voorgangers, niet door mij, op het gebied van die High Impact Crimes. Dat zijn de vormen van misdaad die gewone mensen heel direct in het gezicht treffen, dus straatroof, overvallen, inbraak en dergelijke. Daar is dus wel degelijk grote vooruitgang geboekt. Dat ik naar aanleiding van de vragen van mevrouw Buitenweg nu veel aandacht heb besteed aan de georganiseerde misdaad is wel omdat dat de komende jaren een harde prioriteit moet zijn.</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u171">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg242">Het lijkt er toch wel een beetje op dat we eigenlijk niet zo goed weten hoe we van vorige programma's de effecten op de langere termijn moeten meten, dus hoe dat neerslaat op de kwaliteit en de kwantiteit van de opsporing. Deelt de minister mijn mening dat de opsporing in Nederland, de recherche, in ieder geval een enorme bagage op de plank heeft liggen, een potentieel dat nog enigszins onderbenut blijft?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u172">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg243">Nou, het is wel goed dat dit punt nog ter sprake komt, want wat ik nog niet heb gezegd is dat we op dit moment landelijk met elkaar aan het kijken zijn waar allerlei efficiencyslagen kunnen worden gemaakt, dus waar je politiemensen beter kunt inzetten dan op dit moment gebeurt. Ik wil natuurlijk niet treden in de verantwoordelijkheden die de lokale gezagen op dat punt hebben, maar wij kunnen zelf bij het ministerie en bij de politie wel ontdekken waar een slag zou kunnen worden gemaakt. Dat ben ik dus helemaal met mevrouw Den Boer eens. Ik heb het voor dit overleg niet voorbereid, maar iets anders is dat ik voor algemeen overleggen met de vaste Kamercommissie concrete cijfers heb gestuurd, waaruit bijvoorbeeld bleek hoe het met die High Impact Crimes is gegaan. Die zijn er wel degelijk.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u173">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg244">Dank u wel. Nu nog een interruptie van mevrouw Helder.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u174">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg245">Ja, voorzitter, want ik heb een vraag gesteld waarop volgens mij geen antwoord is gekomen. Ik heb gevraagd hoe die 171 fte worden verdeeld over de tien regionale eenheden en de landelijke eenheid. Dat staat in de brief van de minister van 15 juni van dit jaar. Ik heb gevraagd hoe die, als dat nodig is, als één blok kunnen worden ingezet, als ze over elf eenheden worden verdeeld. Dat kan namelijk nog weleens nodig zijn.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u175">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg246">Allereerst mijn verontschuldigingen aan het lid Helder, want het is juist dat deze vraag nog openstond. Kijk, er is zoiets als de landelijke eenheid. Vandaaruit kunnen mensen inderdaad in bepaalde situaties en bloc worden ingezet. Daarnaast bestaat de mogelijkheid dat een bepaald regionaal korps een beroep doet op andere om inzet te bieden in een hele grootscheepse zaak. De heel grote DNA-afname in de kwestie rondom de moord op Nicky Verstappen is daar een heel goed voorbeeld van. Ik ben daar ook zelf gaan kijken. Toen waren heel veel eenheden uit andere regio's tijdelijk bij die enorme operatie betrokken. Dat gebeurt dus in ieder geval. Hoe worden die 171 uiteindelijk in bepaalde situaties ingezet? De korpsleiding stelt vast dat een aantal van die mensen op enig moment in één zaak zouden kunnen worden ingezet. Dat is dus primair aan de korpsleiding, in overleg met de lokale gezagen. Dat is niet aan mij.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u176">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg247">Ik ben het wel met de minister eens dat gewoon binnen de korpsen moet worden besloten hoe die worden ingezet, maar ik probeer toch een beetje mee te denken. Dit lijkt mij in de praktijk namelijk wel lastig. Ze moeten toch een vaste werkplek hebben. Als ze dan in één keer en masse als blok moeten worden ingezet, hoe gaat dat dan? Kost dat meer geld? Geld is toch vaak de belemmerende factor. Dat puntje zou ik toch nog wel even beantwoord willen zien.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u177">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg248">Ik ga daarvan uit. Maar nogmaals, we moeten er gelukkig mee zijn dat ik me met dit soort beslissingen niet bemoei. Dat is aan de korpsleiding en de lokale gezagen. Daarbij gebeurt dat op een efficiënte wijze. Het is niet zo dat er ineens een karavaan van 100 mensen van A naar B moet worden verplaatst.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u178">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg249">Ik heb aan het einde van mijn betoog een concrete vraag gesteld over de politievrijwilligers. Mijn vraag was hoever de minister is met de concretisering van het voorstel om bij cybercriminaliteit een combinatie te maken van experts die graag vrijwilligerswerk willen doen, bijvoorbeeld uit het bedrijfsleven, en politievrijwilligers.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u179">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg250">Dit punt is inderdaad eerder door de heer Rutte naar voren gebracht. Dit is opgepakt door de korpsleiding. Ik zou de korpsleiding moeten vragen hoe het er nu mee staat. Daar heb ik even geen concrete gegevens over.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u180">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg251">Een van mijn motto's is: nee is ook een antwoord. Dus dank u wel daarvoor. Maar zou ik dan kunnen horen wat de stand van zaken is voordat wij met de begrotingsbehandeling aan de slag gaan?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u181">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg252">Ja hoor, geen enkel probleem.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u182">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg253">Dat is toegezegd. Schriftelijk, neem ik aan?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u183">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg254">Oké.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u184">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg255">Goed, daarmee komt er een einde aan de eerste termijn. Ik kijk even of er behoefte is aan een tweede termijn. Ik denk het wel. Dan zou ik graag het woord geven aan de heer Van Raak, als hij hier zou zijn. Maar hij is er niet. Ik stel voor dat we heel even schorsen.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u185">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg256">En daar komt hij aan. Doet u rustig aan. Het woord is aan de heer Van Raak. Overigens, u heeft één minuut.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u186">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg257">Dank je, voorzitter. Op dit moment komt het erop aan: gaan de agenten het akkoord dat ze met de minister hebben gesloten goedkeuren of niet? Dat is nog geen gelopen race. Ik hoop van wel, omdat we op deze manier een begin kunnen maken met het herstel van vertrouwen. Maar ook de politiek heeft een belangrijke taak om dat vertrouwen te herstellen. Of het cao-akkoord er wel of niet komt, ik denk dat het goed is dat de minister elke vier maanden gaat overleggen. Maar dan moet er ook een doel zijn. Het is al in de onderhandelingen genoemd: dat doel hoort te zijn het Herstelplan Nationale Politie. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat bij de politie sprake blijft van grote problemen met onderbezetting;</note>
+               <note>verzoekt de regering in samenwerking met de politiebonden spoedig uitvoering te geven aan het Herstelplan Nationale Politie,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Raak, Kuiken, Helder en Bisschop. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29628-808</note>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u187">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg258">Dank je, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u188">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg259">Dan geef ik het woord aan mevrouw Helder.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u189">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg260">Dank u wel, voorzitter. Dank aan de minister voor de uitgebreide beantwoording, uiteindelijk ook van mijn vraag. Capaciteit is zeker niet het enige antwoord, maar we kunnen natuurlijk niet om de feiten heen. Op dit moment maken relatief veel oudere rechercheurs deel uit van het korps. Die gaan uitstromen. Het ziekteverzuim is bij de recherche ook hoger dan over de gehele linie. Want daar is het 7% en bij de recherche is het 10% tot 12%.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg261">Voorzitter. De minister zegt dat hij zich niet aan aantallen committeert. Dat snap ik, als oud-advocaat, want dat is een resultaatsverbintenis. Daar moet je heel voorzichtig mee zijn. Maar iedereen is het erover eens dat de nood hoog is, dus ik ga dan voor een inspanningsverbintenis. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het kabinet bij zijn aantreden kenbaar heeft gemaakt te willen investeren in de politie en daarvoor structureel 291 miljoen investeert in onder meer de recherche;</note>
+               <note>van mening dat dit een goede eerste stap is, maar gezien de omvang van bijvoorbeeld ondermijning en nieuwe criminaliteitsvormen waaronder cybercriminaliteit, dit helaas onvoldoende is;</note>
+               <note>verzoekt de regering zich tot het uiterste in te spannen om in deze kabinetsperiode het totale aantal rechercheurs zo veel mogelijk te laten toenemen, liefst met 2.000 personen dan wel fte's,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Helder. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29628-809</note>
+            </u>
+            <note>Dank u wel. Dan is het woord aan mevrouw Kuiken. Die ziet ervan af. Mevrouw Laan? Ook niet. Mevrouw Buitenweg?</note>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u190">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg262">Dank u wel, mijnheer de voorzitter. Ik ben blij met een aantal toezeggingen die tijdens het debat zijn gedaan, onder andere dat we wat meer informatie krijgen over de internationale samenwerking. Ik denk echt dat het van belang is dat we juist bij die zware georganiseerde misdaad voor ogen houden dat die over de grenzen heen gaat, en dat er wapenhandel en natuurlijk ook drugshandel plaatsvindt. Het is cruciaal dat we dat beter aanpakken en dat er ook een grotere inspanning wordt geleverd voor die internationale samenwerking.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg263">Daarnaast is het natuurlijk belangrijk dat áls er mensen gepakt worden, daarna de hele strafrechtketen ook goed functioneert. Vandaag hebben we het vooral gehad over de opsporing, waarbij we hebben gezien dat vaak juist de kleinere sukkels worden gepakt, maar de grote georganiseerde misdaad te vaak nog buiten beeld blijft, omdat dat moeilijker te rechercheren is en daarvoor meer inspanning moet worden gedaan. Maar op het moment dat mensen gepakt zijn, is het natuurlijk ook cruciaal dat daarna de hele keten ook beter en sneller gaat verlopen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg264">We zien daarbij dat sommige bestuurders bijvoorbeeld wat meer vertrouwen krijgen in bestuurlijke maatregelen dan in justitie. Dat baart mij zorgen. Het is goed dat we oog hebben voor opsporing, maar ik denk dat we in toekomstige debatten vooral ook oog moeten hebben voor het hele verdere verloop, zodat er daadwerkelijk lik op stuk wordt gegeven en er snel recht kan worden gedaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u191">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg265">Dank u wel. De heer Van Dam.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u192">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg266">Voorzitter. Ik dank de minister voor de beantwoording van alle vragen die wij gesteld hebben. Ik kijk vol verwachting uit naar de beloofde opsporingsagenda. Ik denk dat het bij de recherche niet alleen om capaciteit gaat maar ook om de kwaliteit van het werk en de innovativiteit: andere mensen die erbij komen om het moderne werk aan te pakken.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg267">Ik zal dus blijven hameren op de ICT, maar het allerbelangrijkste punt van dit moment vind ik toch de werving. Daarom dien ik hierover een motie in, niet omdat ik de minister heb horen zeggen dat hij niet wil doen wat ik suggereer, maar omdat ik hem ook een beetje een opdracht meegeef richting andere leden van het kabinet, en dan kan een breed gedragen motie van de Kamer helemaal geen kwaad.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de politie de komende jaren heel veel nieuwe werknemers moet werven en opleiden;</note>
+               <note>constaterende dat de arbeidsmarkt momenteel zeer krap is;</note>
+               <note>constaterende dat politie, Koninklijke Marechaussee, Douane en andere diensten op het vlak van veiligheid, controle en toezicht deels "vissen in dezelfde vijver", dat zij ieder voor zich mensen werven en dat deze wervingstrajecten lang kunnen duren;</note>
+               <note>overwegende dat samenwerking tussen deze organisaties op het vlak van werving en selectie de kans biedt dat geschikte kandidaten breder in beeld komen;</note>
+               <note>roept de regering op te bewerkstelligen dat de veiligheidsdiensten (Koninklijke Marechaussee, politie, Douane) onderling en met het mbo/hbo samenwerken, zodat zij tot een betere gezamenlijke werving en selectie komen voor personeel, en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Dam, Laan-Geselschap, Den Boer, Buitenweg, Van Raak, Kuiken, Bisschop en Hiddema.</note>
+               <note>Zij krijgt nr. kst-29628-810</note>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u193">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg268">De heer Hiddema vertelde mij trouwens net dat hij morgen gewoon bij de hoorzitting aanwezig is en dat waardeer ik bijzonder omdat wij zijn ervaring goed kunnen gebruiken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u194">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg269">Dank u wel.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg270">De heer Bisschop ziet af van het woord. Dan geef ik het woord aan de heer Hiddema.</seg>
+            </u>
+            <u who="#TheoHiddema" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u195">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg271">Voorzitter. De heer Van Dam ontpopt zich hier min of meer als mijn persoonlijk secretaris. Ik wil hem dan ook vragen om daar bij die uitgang te gaan staan, want er komt zo iemand van mijn kantoor — zo noem ik het, maar het is een partijbureau — met twee moties en diegene is nog niet hier. Dus als u hem even wilt ontvangen, meneer Van Dam, dan kunt u in de proeftijd nog iets nuttigs doen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg272">Voorzitter. De minister gaat er kalm en bedaard aan toe, in zijn reactie, moet ik u zeggen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u196">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg273">Meneer Hiddema, realiseert u zich wel — voordat u verdergaat — dat u maar één minuut heeft, inclusief de indiening van de moties? Dat wordt dus nog een race tegen de klok.</seg>
+            </u>
+            <u who="#TheoHiddema" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u197">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg274">Nou, dat wordt het dan ook. Mag die minuut nu beginnen, of is hij al begonnen? Goed. De minister gaat er kalm en bedaard aan toe, zoals ik zei. De noodkreet van de politie is hier de revue gepasseerd, en het lijkt een stukje papier waar je verder wat over babbelt en dan is het goed.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg275">Nee, die noodkreet betekent alarm! Dat is code rood. De minister moet met zijn vuist op tafel slaan. De minister moet naar de ministerraad gaan — daar roep ik hem toe op — om bij zijn ambtgenoten te bepleiten dat de Nederlandse veiligheid centraal staat en geacht moet worden belangrijker te zijn dan de buitenlandse hobby's van zijn collega's.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg276">Dan kan hij ook nog eens aan de ministerraad duidelijk maken hoe blij de politie zou zijn als zij die missers van die idiote dividendbelasting hadden kunnen verzilveren. Misschien helpt het. Je weet maar nooit.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg277">Hier zijn de moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de tekorten bij de politie acuut zijn en de situatie niet langer houdbaar;</note>
+               <note>roept de minister op per direct in te zetten op het heropenen van zo veel mogelijk politiebureaus,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat er ernstige tekorten zijn bij de recherche;</note>
+               <note>overwegende dat de recherche zelf verzoekt om acuut 2.000 nieuwe rechercheurs te trainen;</note>
+               <note>roept de regering op de wensen van de recherche in te willigen en per onmiddellijk budget vrij te maken om minstens 2.000 rechercheurs te trainen voor 2020,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Hiddema. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29628-811</note>
+               <note>Deze motie is voorgesteld door het lid Hiddema. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29628-812</note>
+            </u>
+            <note>Daar gaan we het bij laten, meneer Hiddema. Dank u wel.</note>
+            <u who="#TheoHiddema" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u198">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg278">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u199">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg279">Dan is het woord aan mevrouw Den Boer.</seg>
+            </u>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u200">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg280">Voorzitter. Ik dank de minister voor de beantwoording van de vragen. D66 is benieuwd naar de ontwikkelagenda, die we graag tegemoetzien. Verder zien we ook graag aandacht voor de hele keten. Dat geldt ook voor de lijn in de organisatie. Alle lagen moeten op elkaar afgestemd zijn om dit goed te laten lopen. Dat betekent ook dat in de organisatie frustratie moet worden weggenomen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg281">Wij zijn heel erg verheugd dat de minister wil investeren in specialistische opsporing. We zullen dit natuurlijk ook blijven volgen. Verder is het goed dat de minister zich inspant om meer te investeren in internationale opsporing, met dien verstande dat het natuurlijk niet alleen maar gaat om de afhandeling van rechtshulpverzoeken maar bijvoorbeeld ook om grensoverschrijdende operationele samenwerking.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg282">De minister zei over ziekteverzuim dat hij vijf jaar nodig heeft om die zo'n beetje weg te werken. Dat vinden we wel heel erg lang duren. Misschien dat hij nog een beetje kan toelichten waarom hij denkt zo veel tijd nodig te hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg283">Verder is het voor ons vinger aan de pols. We kijken dan ook graag mee naar de verdere ontwikkeling van het rechercheren in Nederland.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg284">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u201">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg285">Dank u wel. Daarmee komt er een eind aan de tweede termijn van de zijde van de Kamer. Ik kijk even naar de minister. Hij kan direct antwoorden. Dan geef ik hem daartoe het woord.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u202">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg286">Voorzitter. Ik heb vijf moties, een vraag van mevrouw Den Boer en een observatie van mevrouw Buitenweg. Om met die laatste te beginnen: die observatie onderschrijf ik. Ik denk dat we inderdaad met elkaar moeten zeggen dat we ons er juist in het strafrecht op moeten richten dat de maatschappelijke orde niet verstoord wordt door criminaliteit.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg287">Dan de vraag van mevrouw Den Boer. Ik heb er in mijn eerste termijn al iets over gezegd, namelijk dat vanwege deels de specifieke problematiek die bij politiemensen speelt en deels het feit dat het beïnvloed is door het proces van de vorming van de nationale politie, wat veel van mensen heeft gevraagd, we de verlaging van het ziekteverzuim een redelijke termijn moeten geven, zoals ik die aangaf. Toen we hier meer specifiek over spraken naar aanleiding van het plan van aanpak, heb ik dat ook al uitvoerig verdedigd. Dus dat is eigenlijk mijn reactie op dat punt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg288">Dan de moties. De heer Van Raak heeft de wens uitgesproken dat het onderhandelingsresultaat wordt aanvaard. Ik onderschrijf die wens. Juist om die wens kracht bij te zetten, heb ik gezegd dat ik mij committeer aan het periodiek met elkaar toetsen hoe het gaat met een aantal afgesproken maatregelen. Maar er is een onderhandelaarsakkoord. Als dat wordt aangenomen en er komt een cao, dan moeten we dat nu met elkaar gaan uitvoeren. Daar horen ook een aantal afspraken bij die door de bonden zijn gemaakt in het kader van het aangereikte herstelplan Nationale Politie. Maar we moeten juist niet datgene wat we met elkaar hebben afgesproken weer anders vorm gaan geven. Dus ik moet de motie op stuk nr. 808 wat dat betreft ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg289">Dan de motie op stuk nr. 809 van mevrouw Helder, met het dictum: "het totaal aantal rechercheurs zo veel mogelijk te laten toenemen". Dan behandel ik ook meteen maar de motie op stuk nr. 812 van de heer Hiddema. Die spreekt overigens over "wensen van de recherche", maar ik denk dat met die motie bedoeld is te zeggen: roept de regering op om in te gaan op het advies zoals dat naar voren komt uit de notitie Noodkreet Recherche van de bonden. Voor beide gevallen geldt in ieder geval dat er fors wordt geïnvesteerd in de politie. Over de verdeling van die investeringen over mensen en middelen is zeer uitvoerig gesproken met de korpsleiding en met het Landelijk Overleg Veiligheid en Politie, waarin ook alle regioburgemeesters vertegenwoordigd zijn. Daar is de invulling uitgekomen die u kent. Vervolgens heeft men in het kabinet nog bewilligd in nog een extra bedrag van 58 miljoen, om de komende jaren de uitstroom flink op te vangen. Daarnaast wordt er geïnvesteerd — ik ga het niet herhalen — in allerlei moderniseringen en efficiencymaatregelen op het gebied van de uitvoering van opsporing. Ik denk dat er daarmee in ieder geval grote stappen gezet worden. En we gaan de komende jaren zien hoe dat verder uitwerkt. Dus de beide moties moet ik wat dat betreft onraden, want die vragen iets wat nou juist niet aan de orde is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u203">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg290">De moties op de stukken nrs. 809 en 812 zijn ontraden. Mevrouw Helder?</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u204">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg291">Met alle respect voor collega Hiddema, maar er is een fundamenteel verschil tussen zijn motie en de mijne. Ik heb het namelijk een "inspanningsverbintenis" genoemd. Ik heb gezegd: "verzoekt de regering zich in deze kabinetsperiode zo veel mogelijk in te spannen om het aantal rechercheurs toe te laten nemen". Ik houd namelijk al rekening met de beperkte opleidingscapaciteit van de Politieacademie. Ik heb er "liefst 2.000" in gezet, maar dat is geen hard cijfer, in tegenstelling tot de motie van collega Hiddema. Ik heb in mijn tweede termijn ook gezegd dat ik natuurlijk begrip en respect heb voor voor wat er allemaal gebeurt. Maar om de capaciteit kunnen we niet heen, en daarom heb ik die motie ingediend. Dus je zou bijna kunnen zeggen dat het in ieder geval voor de helft ondersteuning van het beleid is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u205">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg292">Eens kijken of de minister daar ook zo over denkt.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u206">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg293">Nou, mevrouw Helder wees op haar verleden als advocaat — een gedeeld verleden van ons — bij dat punt van "de inspanningsverbintenis" als juridisch begrip. Maar bij een inspanningsverbintenis moet je wel het doel nauwgezet formuleren. En "zo veel mogelijk" is een subjectief begrip, dat door veel partijen in de Tweede Kamer verschillend zou worden ingevuld. En met recht, want ieder heeft zijn eigen programma en prioriteiten. Ik heb door nog eens te betogen wat ik ga doen de wens van mevrouw Helder onderstreept, want dat doe ik wel. We zetten echt in op de versterking van de politie. Maar ik moet de motie ontraden, omdat een motie die zegt "gaat u nou zo veel mogelijk doen en liefst 2.000", dan is dat "zo veel mogelijk" in het civiele recht toch al ingekleurd door dat begrip "2.000". Dus ik moet die motie ontraden. Dat spijt me, maar we zitten in veel opzichten wel op dezelfde lijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u207">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg294">Voordat u allebei een advocaat in de arm gaat nemen, nog één keer mevrouw Helder.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u208">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg295">Wil je in de politiek iets binnenhalen, dan moet je het inderdaad over een andere boeg gooien. Daarom heb ik er inderdaad in gezet: "liefst zo veel mogelijk". Maar ik probeer toch een keer een motie aangenomen te krijgen, want je wilt toch ook weleens wat bereiken. Als ik die "liefst 2.000" eruit zou halen, zou de minister de motie dan het kenmerk "ondersteuning van het beleid" kunnen geven?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u209">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg296">Kijk, het is ondersteuning beleid als u de regering verzoekt om zich tot het uiterste te blijven inspannen om in deze kabinetsperiode de politie te versterken. Dat is ondersteuning beleid. Als u de motie in die zin aanpast, zal ik onmiddellijk uitspreken dat dat ondersteuning beleid is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u210">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg297">En dat zou dan "oordeel Kamer" betekenen. Maar dan moeten we eerst kijken of dat ook gaat gebeuren.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u211">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg298">Ik herinner mij scherp dat er wel degelijk moties van mevrouw Helder zijn geweest in de korte periode die ik bezig ben — dat is nog geen heel kalenderjaar — die door mij als ondersteuning beleid zijn gekwalificeerd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u212">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg299">Mevrouw Helder heeft nog alle gelegenheid om de motie eventueel te wijzigen. Dat zien we dan bij de stemmingen. Als dat gebeurt, weten we in ieder geval wat uw oordeel is.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u213">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg300">De voorgestelde tekst is, denk ik, in de Handelingen terug te vinden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u214">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg301">Goed, dan komen we bij de motie op stuk nr. 810.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u215">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg302">Ja. Die motie betreft wel ondersteuning beleid. De motie roept op te bewerkstelligen dat veiligheidsdiensten, Koninklijke Marechaussee, politie en Douane onderling en met het mbo en hbo gaan samenwerken, zodat zij tot een optimale werving en selectie kunnen komen. Daar lopen al initiatieven voor. De eerste rapportage kan de Kamer verwachten in het voorjaar van 2019. De motie is dus ondersteuning beleid.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u216">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg303">En daarmee "oordeel Kamer", neem ik aan.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u217">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg304">Ja.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg305">Dan heb ik nog de motie op stuk nr. 811 van de heer Hiddema, waarin hij oproept om per direct in te zetten op het heropenen van zo veel mogelijk politiebureaus. Ik laat even terzijde dat de motie wel erg ongespecificeerd is, maar los daarvan wil ik erop wijzen dat op het punt van het openen c.q. sluiten van politiebureaus er altijd een zorgvuldig proces is doorlopen met de lokale gezagen die hier ook een heel belangrijke stem in hebben. Ik heb er in een ander verband in uw vaste Kamercommissie ook op gewezen dat sluiting van bepaalde politiebureaus vaak samenhangt met het feit dat men een vergaande mate van digitalisering op de fiets van de wijkagent heeft ingezet. In Groningen heb ik dat zelf bij een werkbezoek ervaren. Ik heb het ook in het oosten des lands, in Dinkelland, mogen meemaken. Ik zie dat daar heel goede redenen zijn voor het opzetten van een politiepost in plaats van een politiebureau. Ik kan daar alleen maar van zeggen dat er een goede beleidsgedachte en een zorgvuldig proces achter zitten. Ik ontraad dus deze motie die oproept in te zetten op het heropenen van zo veel mogelijk politiebureaus.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u218">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg306">Dank u zeer. Hiermee zijn we aan het einde gekomen van de beraadslaging.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u219">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg307">Ik dank de minister, zijn ambtenaren, de leden en de verdere ondersteuning. Over de ingediende moties wordt volgende week dinsdag gestemd. Ik schors de vergadering tot 13.30 uur. Let u even op, want dat is een wijziging in het schema; we lopen in. Ik neem aan dat er dan begonnen zal worden met de regeling van werkzaamheden.</seg>
+            </u>
+            <note>De vergadering wordt van 12.33 uur tot 13.30 uur geschorst.</note>
+            <note> </note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.u220">
+               <seg xml:id="ParlaMint-NL_2018-09-26-tweedekamer-3.seg308">Op de tafel van de Griffier ligt een lijst van ingekomen stukken. Op die lijst staan voorstellen voor de behandeling van deze stukken. Als voor het einde van de vergadering daartegen geen bezwaar is gemaakt, neem ik aan dat daarmee wordt ingestemd.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

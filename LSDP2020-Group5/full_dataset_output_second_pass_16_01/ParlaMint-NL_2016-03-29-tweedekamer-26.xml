@@ -1,0 +1,289 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-03-29 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-03-29 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 70, Session 26 (2016-03-29)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 70, Session 26 (2016-03-29)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="70">Meeting 70</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="26">Session 26</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="65">65 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="65">65 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1503">1503 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1503">1503 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-03-29">2016-03-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="72"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="65"/>
+               <tagUsage gi="note" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-03-29">2016-03-29</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u1">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg1">Op verzoek van een aantal leden stel ik voor, de volgende door hen ingediende moties opnieuw aan te houden: 34200-VI-12; 34047-13; 32735-133.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg2">Ik stel voor, de volgende stukken van de stand van werkzaamheden af te voeren:</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg3">29544-613; 33602-6; 34362-2; 30517-28; 29754-342; 32317-373; 2015Z23716; 34300-65; 31109-19; 33033-17;33033-16; 2015Z23873; 29628-597; 33199-13; 2015Z23752; 34300-VI-71; 33552-16; 30806-34; 34362-5; 34362-3; 34362-1; 26643-383; 22112-2039; 32317-378; 32317-376; 32317-375; 22112-2036; 33602-7; 32317-377; 32317-380; 33997-59; 33997-57; 2016Z00752; 22112-2046; 22112-047; 2016Z00040; 29628-602; 31753-111; 34300-VI-73; 34200-19; 22112-2030; 22112-2017; 31865-69; 21501-07-1330; 29515-369; 32013-106; 31865-74; 2015Z23893; 21501-08-596; 27565-139; 2015Z24293; 33977-11; 33949-21; 21501-08-595; 34052-17; 34300-IX-15; 19637-2118; 34373-30; 34373-50; 33997-65; 33997-58; 33997-62; 34302-106; 34302-105; 28676-237; 32623-162; 32824-115; 32040-25; 31089-118; 31089-117; 31089-114; 31089-115.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg4">Ik stel voor, toe te voegen aan de agenda:</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg5">het VAO Wadden, met als eerste spreker het lid Van Tongeren namens GroenLinks.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u2">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg6">Het woord is aan de heer Van Raak namens de SP-fractie.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u3">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg7">Voorzitter. Op 6 april hebben wij een referendum over het verdrag met Oekraïne. De datum …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u4">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg8">Heel even, mijnheer Van Raak. Het moet echt stil zijn in de zaal. Het is voor degenen die hier staan echt bijna niet te doen.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u5">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg9">Dank u, voorzitter. Op 6 april is er een referendum over het verdrag met Oekraïne. De stempassen hadden allang bij de burgers moeten liggen. Dat is lang niet altijd het geval. Stembureaus zijn nog lang niet ingericht, terwijl gemeenten geld bedoeld voor het referendum in hun eigen zak steken en voor andere dingen gebruiken. Nu blijkt ook dat bij het versturen van stempassen in een aantal gemeenten een folder is bijgevoegd met daarin een wel heel tendentieuze samenvatting van het verdrag en een verkapt stemadvies. Eerder zei de minister tijdens het vragenuurtje dat deze tekst een politieke duiding en een verkapt stemadvies was door de burgemeesters. Dat vond ik al heel opmerkelijk.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u6">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg10">En nu?</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u7">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg11">Maar nu blijkt dat deze politieke propaganda is geschreven door PostNL, dat daar door de gemeenten ook nog flink voor is betaald. Het referendum is een rommeltje …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u8">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg12">U hebt alles al gezegd!</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u9">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg13">... en daarom wil ik graag een debat met de minister van Binnenlandse Zaken, nog deze week te houden, om ervoor te zorgen dat mensen op 6 april fatsoenlijk de kans hebben om te stemmen in een fatsoenlijk georganiseerd referendum.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u10">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg14">Steun.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u11">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg15">Steun voor het verzoek en ook voor het deze week laten plaatsvinden, dus voor de verkiezingen.</seg>
+            </u>
+            <u who="#HarmBeertema" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u12">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg16">Steun.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u13">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg17">Ik kan me voorstellen dat het deze week lastig is voor de plenaire agenda, maar misschien is het een idee om er een algemeen overleg over te houden.</seg>
+            </u>
+            <u who="#JoostTaverne" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u14">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg18">We hebben het goede gebruik om na verkiezingen een evaluatieoverleg met de minister te houden. Dat lijkt me hierbij niet anders. Daarin kan dit worden besproken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u15">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg19">Dus geen steun.</seg>
+            </u>
+            <u who="#JoostTaverne" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u16">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg20">Geen steun.</seg>
+            </u>
+            <u who="#FatmaKoşerKaya" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u17">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg21">De heer Van Raak heeft nogal wat vragen gesteld. Misschien kan er eerst een brief komen en kan er dan een AO worden gehouden, want ik denk niet dat het deze week plenair lukt.</seg>
+            </u>
+            <u who="#MustafaAmhaouch" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u18">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg22">Wij gaan ook voor een schriftelijke reactie van de minister. Dat steunen we.</seg>
+            </u>
+            <u who="#CarolaSchouten" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u19">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg23">Een brief lijkt me heel goed, en het lijkt me inderdaad ook het snelst om het bij een AO te betrekken.</seg>
+            </u>
+            <u who="#ManonFokke" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u20">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg24">Geen steun. Wij hebben inderdaad het goede gebruik om te evalueren. En wat betreft PostNL: we hebben het goede gebruik dat de lokale volksvertegenwoordiging haar werk doet als er op dat punt iets mis is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u21">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg25">Mijnheer Van Raak, u hebt geen meerderheid.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u22">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg26">Nee, ook niet voor een algemeen overleg. Dat is toch heel opmerkelijk. We zien nu namelijk al dat het een rommeltje is. De minister heeft beloofd dat hij het goed zou organiseren. We zien nu dat dat niet gebeurt. Dan hoort deze Kamer haar verantwoordelijkheid te nemen en ervoor te zorgen dat het wel gebeurt. Dus een evaluatie achteraf is niet voldoende om problemen nu te voorkomen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u23">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg27">Dat is helder, maar u hebt toch geen meerderheid. Ik zou toch proberen om via de procedurevergadering alsnog steun te krijgen voor het houden van een algemeen overleg.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u24">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg28">Ik ga het proberen, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u25">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg29">Dank u wel. Ik stel voor, het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg30">Het woord is aan de heer Rudmer Heerema namens de VVD.</seg>
+            </u>
+            <u who="#RudmerHeerema" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u26">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg31">Voorzitter. We hebben afgelopen woensdag een algemeen overleg gehad over natuurbeleid en de ecologische hoofdstructuur. Het VAO is nu al ingepland, terwijl we nog op wat antwoorden van het ministerie wachten. Ook hebben we aangegeven dat we over een aantal zaken goed willen nadenken om tot motieafstemming te komen. Mijn verzoek is dus om dat VAO uit te stellen, in ieder geval een week. Of misschien is twee weken handig, maar het VAO van morgen komt even te vroeg.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u27">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg32">Steun voor het verzoek van de heer Heerema.</seg>
+            </u>
+            <u who="#TomLeenders" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u28">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg33">Steun.</seg>
+            </u>
+            <u who="#JacoGeurts" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u29">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg34">Steun, twee weken.</seg>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u30">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg35">Steun, drie weken.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u31">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg36">Steun voor het verzoek. Een week is prima.</seg>
+            </u>
+            <u who="#FatmaKoşerKaya" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u32">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg37">Ook steun, prima.</seg>
+            </u>
+            <u who="#RikGrashoff" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u33">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg38">Zo veel bijzonders was er nou ook weer niet aan de hand met dat AO, maar met een weekje uitstel van het VAO kan ik akkoord gaan. Maar anders wordt het een soort vertragingstactiek.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u34">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg39">Het woord is aan de heer Potters namens de VVD.</seg>
+            </u>
+            <u who="#SjoerdPotters" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u35">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg40">Voorzitter. Vandaag stond in het Algemeen Dagblad dat patiënten somber zijn over de maatwerkvoorzieningen in de zorg. Ik zou hierover graag een debat aanvragen met de staatssecretaris van Volksgezondheid, Welzijn en Sport. Als wij vinden dat gemeenten deze taak serieus moeten opnemen en maatwerk de norm zou moeten zijn, is het jammer dat mensen daar somber over zijn. Ik vind dat we daar een goede discussie met elkaar over moeten voeren. Dat is de reden voor deze debataanvraag. En dat ik zo'n hijgerige stem heb, komt omdat ik hier snel naartoe ben gerend.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u36">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg41">Geeft niet.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u37">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg42">De VVD heeft de zorg tot bloedens toe kapotgeslagen en wil nu een debat over een bezuiniging op de huishoudelijke hulp die gehalveerd is, terwijl de VVD die helemaal wilde afschaffen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u38">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg43">U steunt het verzoek dus?</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u39">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg44">Natuurlijk, voorzitter, want ik zou het graag terug willen draaien.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u40">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg45">Ik steun het verzoek ook. Ik zou ook willen voorstellen dat we het debat deze week of volgende week houden. Dan kan mijn debat over TSN en de gevolgen daarvan meteen daarbij meegenomen worden. Dan kunnen we wellicht ook allerlei debatten die nog op de lijst staan, samenvoegen. Dan mag de heer Potters als eerste spreker en stel ik voor dat we vijf minuten spreektijd nemen voor al die aanvragen op dit onderwerp die de VVD niet heeft gesteund.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u41">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg46">De ChristenUnie steunt het verzoek.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u42">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg47">GroenLinks ziet ook veel kansen in dit debatverzoek. Ik steun het dus. We zouden het debat niet deze week willen houden, maar volgende week of de week erna.</seg>
+            </u>
+            <u who="#OtwinvanDijk" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u43">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg48">Steun.</seg>
+            </u>
+            <u who="#FatmaKoşerKaya" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u44">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg49">Steun.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u45">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg50">Mijnheer Potters, u hebt steun van een grote meerderheid, maar niet om het deze week nog te houden.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u46">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg51">Ik steun het verzoek om het volgende week te houden.</seg>
+            </u>
+            <u who="#SjoerdPotters" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u47">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg52">Ik heb niet het verzoek gedaan om het per se volgende week te houden. Ik wil er een goed debat over voeren. Het gaat met name om de maatwerkvoorziening. Volgens mij is het goed dat we dat zorgvuldig doen. Ik ben blij met de brede steun van de Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u48">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg53">Dan geef ik nu het woord aan de heer Knops namens het CDA.</seg>
+            </u>
+            <u who="#RaymondKnops" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u49">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg54">Voorzitter. De NAVO heeft Nederland op de vingers getikt vanwege het feit dat we te weinig investeringen doen en inspanningen plegen om onze Defensie-uitgaven en de krijgsmacht op peil te houden. Mijn collega Keijzer heeft vorige week donderdag een soortgelijk debatverzoek gedaan. Dat kon toen niet rekenen op een meerderheid in de Kamer. Een dertigledendebat heb ik dus al, maar gezien het belang van het onderwerp wil ik mijn verzoek om een regulier debat herhalen.</seg>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u50">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg55">Dit is zeer hard nodig. We hebben het verzoek vorige week gesteund en steunen het deze week weer. Hopelijk hoeven we het volgende week niet nog een keer te steunen omdat er gewoon een meerderheid is.</seg>
+            </u>
+            <u who="#RonaldVuijk" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u51">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg56">Wij steunen het verzoek om een debat.</seg>
+            </u>
+            <u who="#AngelienEijsink" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u52">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg57">Wederom steun. Ik heb nog wel een vraag. Bij de brief van de minister van vorige week is alleen het hoofdstuk over Nederland meegestuurd. Ik zou het verzoek willen doen om waar mogelijk vergelijkingen met andere landen te sturen, zodat we een breder debat kunnen voeren. De NAVO bestaat uit 28 lidstaten en niet alleen uit Nederland.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u53">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg58">Steun voor het debat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u54">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg59">Mijnheer Knops, er is een meerderheid voor uw verzoek.</seg>
+            </u>
+            <u who="#RaymondKnops" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u55">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg60">De suggestie van mevrouw Eijsink kan ik van harte ondersteunen. Laten we die meteen meenemen en proberen om het debat uiterlijk in april in te plannen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u56">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg61">Ik stel voor, het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg62">Ik geef tot slot het woord aan de heer Wassenberg namens de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u57">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg63">Voorzitter. Op 10 maart was er een AO over dierziekten en antibiotica. In verband met voorbereidingen op het VAO zou ik willen vragen om dat een week uit te stellen.</seg>
+            </u>
+            <u who="#JacoGeurts" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u58">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg64">Steun.</seg>
+            </u>
+            <u who="#JaspervanDijk" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u59">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg65">Steun.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u60">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg66">Steun.</seg>
+            </u>
+            <u who="#TjeerdvanDekken" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u61">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg67">Steun.</seg>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u62">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg68">Steun.</seg>
+            </u>
+            <u who="#FatmaKoşerKaya" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u63">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg69">Ook steun.</seg>
+            </u>
+            <u who="#HelmaLodders" ana="#regular" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u64">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg70">Ik had eigenlijk de vraag willen stellen waarom uitstel noodzakelijk is, maar volgens mij is er brede steun.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.u65">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg71">We zullen het VAO van de agenda af halen.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-26.seg72">Hiermee zijn wij aan het einde gekomen van de regeling van werkzaamheden.</seg>
+            </u>
+            <note>De vergadering wordt van 15.57 uur tot 16.30 uur geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

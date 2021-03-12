@@ -1,0 +1,125 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-02-16 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-02-16 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 54, Session 4 (2017-02-16)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 54, Session 4 (2017-02-16)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="54">Meeting 54</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="7">7 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="7">7 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1605">1605 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1605">1605 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-02-16">2017-02-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="16"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="7"/>
+               <tagUsage gi="note" occurs="12"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-02-16">2017-02-16</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Beveiliging Kamerverkiezingen 2017</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg1">Ik heet de minister van Binnenlandse Zaken en Koninkrijksrelaties van harte welkom. Het woord is aan de heer Amhaouch namens het CDA.</seg>
+            </u>
+            <u who="#MustafaAmhaouch" ana="#regular" xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg2">Voorzitter. Over vier weken hebben wij verkiezingen waar heel veel mensen in het land naar uitkijken. In deze Kamer zijn door verschillende partijen al veel vragen gesteld over hacken en beveiligen van allerlei informatiesystemen. Het CDA begrijpt niet dat de minister niet adequaat heeft gereageerd ten aanzien van het primaire proces van de verkiezingen. Hij is er niet in geslaagd om in dit verband de vinger aan de pols te houden. Het is een blamage voor Nederland, dat zich profileert als IT-land, dat er voor het verkiezingsproces alleen optelsoftware en een memorystickje worden gebruikt omdat men niet in staat is om het proces goed te beveiligen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg3">Wij willen dit nooit en nooit meer laten voorkomen, zeker niet een paar weken voor de verkiezingen. Wij hebben een motie die moet garanderen dat dit in de toekomst niet meer voorkomt. De minister heeft ons een brief laten toekomen over de wijze waarop het huidige verkiezingsproces op 15 maart geborgd wordt. Daar kunnen wij mee leven, maar met het oog op de toekomst dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de integriteit van het verkiezingsproces ter discussie staat als gevolg van fraudegevoeligheid van de software voor het tellen van de stemmen en het berekenen van de verkiezingsuitslag;</note>
+               <note>overwegende dat de beveiliging van de in het verkiezingsproces gebruikte hardware en software structureel geborgd dient te zijn;</note>
+               <note>verzoekt de regering, in overleg met de Kiesraad en de gemeenten voortdurend zorg te dragen voor adequate beveiliging van hardware en software die worden gebruikt in het verkiezingsproces en de Kamer daarover jaarlijks bij de begroting te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Amhaouch. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-26643-446</note>
+            </u>
+            <note>Ik zie dat de minister meteen wil reageren, maar eerst krijgt de heer Taverne namens de VVD nog het woord.</note>
+            <u who="#JoostTaverne" ana="#regular" xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg4">Voorzitter. In een democratie is het uitbrengen van je stem het meest fundamentele en ook het meest praktische dat je kunt doen. Omdat iedere stem telt, is het van het grootste belang dat de uitslag precies is en dat de mensen vertrouwen hebben in het stemproces. De afgelopen weken werd daaraan getwijfeld. Vorige week hebben wij daar met de minister over gesproken. Inmiddels hebben wij een brief ontvangen waarin een aantal zorgpunten wordt geadresseerd. Naar het oordeel van de VVD-fractie is dit op adequate wijze gedaan.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg5">Er blijft voor ons een vraag over. Staat u mij toe, voorzitter, dat het een beetje technisch wordt. De hulpmiddelen die worden toegelaten, impliceren dat er computers worden gebruikt. Er is gezegd dat daar meerdere mensen tegelijk bij aanwezig moeten zijn en dat die computers niet aangesloten mogen zijn op internet om hacken te voorkomen. De minister zei vorige week zelf dat als je heel lang doorredeneert, het mogelijk is dat zo'n computer op het internet aangesloten is geweest en dat je dan alsnog een probleem hebt. De minister heeft waarschijnlijk veel meer verstand van computers dan ik. Nu hij dat zelf heeft opgebracht, hoor ik graag van hem hoe dat in dit geval wordt ondervangen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg6">De minister maakt in zijn brief melding van een uitvoerig overleg met de VNG, de NVVB en de Kiesraad over het verloop van dit proces. Ik ga ervan uit dat deze organisaties ook worden betrokken bij de evaluatie van deze verkiezingen. Ik wil graag dat in de evaluatie ook wordt gereflecteerd op de samenwerking met, de verhouding tot en de functies van deze drie organisaties bij de manier waarop nu voor een oplossing is gekozen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg7">Tot slot. Ik heb zomaar het idee dat dit de laatste keer is dat ik met deze minister in dit huis debatteer over een onderwerp dat mij na aan het hart ligt. De eerste keer dat ik überhaupt in deze Kamer sprak, was op 9 december 2010 met een ambtsvoorganger van deze minister over de evaluatie van de verkiezingen van 2010. Ik vind het heel treffend om de laatste keer met deze minister te spreken over dit onderwerp. Ik spreek graag vanaf deze plek mijn dank uit voor de goede samenwerking en zie uit naar een goede en precieze uitslag.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg8">Voorzitter. Ik realiseer mij ook dat dit de laatste keer is dat ik met de heer Taverne in deze zaal spreek over dit onderwerp. Er is geen lid geweest dat in de afgelopen jaren zo nauw betrokken is geweest bij het stemproces en bij het precies in de gaten houden: hoe kun je dat automatiseren en welke voorwaarden gelden daarvoor? Ik heb het zeer gewaardeerd dat hij dit onderwerp voortdurend zo veel aandacht heeft gegeven.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg9">Ik ben heel blij dat we gisteren samen met de gemeenten, de Kiesraad en de Nederlandse Vereniging voor Burgerzaken hebben kunnen vaststellen dat er een verstandige oplossing is gekozen voor de manier waarop het optelproces bij de komende verkiezingen zal worden ingericht. Verder zullen wij erin slagen om de termijnen te halen, waarvan u, mevrouw de voorzitter, er nadrukkelijk op hebt gewezen dat die van belang zijn om tijd genoeg te hebben voor de geloofsbrieven en voor het tijdig installeren van de nieuwgekozen Kamer. Ook zijn wij het erover eens geworden dat het ministerie van Binnenlandse Zaken in de meedenkstand staat wat betreft eventuele middelen die nog nodig zijn om de gemeenten en de hoofdstembureaus te ondersteunen bij het uitvoeren van datgene wat is afgesproken.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg10">Cruciaal in de manier waarop het proces nu is ingericht, waarover we in het AO uitgebreid hebben gesproken, is dat bij de vorige verkiezingen na het handmatig tellen in het stembureau de informatie vervolgens elektronisch zou worden overgedragen met een usbstick vanaf de gemeente naar de twintig hoofdstembureaus en vanaf daar weer met een usbstick naar het centraal stembureau in Amsterdam. Dan kun je in ieder geval theoretisch niet helemaal uitsluiten dat er ergens in dat proces een contaminatie optreedt die zich vervolgens verspreidt over de rest van de optelling. Je zou dan wellicht niet 100% zeker kunnen zijn dat de uitslag ook werkelijk de uitslag is. Nogmaals, ik zeg helemaal niet dat dat waarschijnlijk is, maar je wilt niet dat die schaduw van twijfel erboven hangt. Er bleek ook in de Kamer brede steun te zijn voor de keuze om dat niet te doen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg11">Dat is nu anders. In het gemeentehuis en ook in de twintig hoofdstembureaus mag men bij het optellen van wat er aan papieren processen-verbaal binnenkomt elektronische hulpmiddelen gebruiken, maar die moeten los van het internet staan. De heer Taverne vraagt of je dan niet ook weer allerlei theoretische horrorscenario's in beeld kunt krijgen. Daarom vond ik het cruciaal om met de gemeenten en met de Kiesraad af te spreken dat zowel datgene wat de rekenmachine ingaat als datgene wat de rekenmachine uitkomt op papier wordt vastgelegd in een proces-verbaal en dat die processen-verbaal ter open inzage worden gelegd op de gemeentehuizen. Mocht er iemand ergens twijfel hebben, dan kan men zelf verifiëren dat een optelling niet op een verkeerde manier tot stand is gekomen. Met die randvoorwaarden erbij is het papier volledig leidend in dit traject en hebben we dat op een verstandige manier georganiseerd. Dit zeg ik dus nog in antwoord op de vraag van de heer Taverne. Ik zeg overigens toe dat we bij de evaluatie met de genoemde partijen goed zullen bekijken of het een volgende keer op die manier geregeld zou moeten worden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg12">De motie van de heer Amhaouch, op stuk nr. 446, zou ik willen ontraden. Ten eerste, omdat de heer Amhaouch in de overweging constateert dat de software fraudegevoelig is. Ik ben eerlijk gezegd nooit zo ver gegaan. Wat ik ook zojuist zei, is dat ik elke laatste schaduw van twijfel weg wil hebben over de vraag of de software fraudegevoelig is. Er loopt nog een Fox-IT-onderzoek naar die vraag. Ik zou dat dus nu niet opeens als stelling willen overnemen. De reden voor mijn handelen is dus niet dat ik van mening ben dat de software fraudegevoelig is. Alleen wil ik elk restrisico wegnemen dat mensen daar twijfel boven zouden kunnen laten hangen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg13">Bovendien is het dictum dat de regering in overleg met de Kiesraad en de gemeenten zorg moet dragen voor de beveiliging voor een eerlijk verkiezingsproces. Dat is echter de wet. We zouden dan bij motie nog eens het hele bestaansrecht van de Kiesraad en van de wet in dezen herhalen. Het is natuurlijk een voortdurende zorg van de regering en de Kiesraad. Dan zouden we een onderscheid gaan maken tussen die onderdelen van de wet die wél door motie bekrachtigd worden en onderdelen die niet door motie bekrachtigd worden. Dat lijkt me onwenselijk. Ik zou dus ontraden om dit nog eens specifiek in een motie vast te leggen. Want nogmaals, hier geldt gewoon de wet en iedereen doet daarin wat hij op dat punt moet doen.</seg>
+            </u>
+            <u who="#MustafaAmhaouch" ana="#regular" xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg14">Dat is juist het probleem: het is niet waar wat de minister zegt. Niet iedereen doet wat hij moet doen. We hebben al zo veel verkiezingen gehad, we hebben zo veel evaluaties gehad. We hebben een wet, maar blijkbaar is dat niet voldoende. Daarom dien ik dus deze motie in. De minister weet goed wat de geest van de motie is. Hij kan wel op alle slakken zout gaan leggen, maar de geest van de motie is dat we elk jaar terugkomen op hoe de beveiliging van het primaire verkiezingsproces georganiseerd is. Of het nou echt fraude is, of fraudegevoelig is; het gaat inderdaad om de schijn van twijfel die erover is ontstaan, doordat we er niet op tijd bij waren.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg15">De heer Amhaouch bevestigt opnieuw wat ik zojuist al zei, door te stellen dat het blijkbaar niet voldoende is. Ik weerspreek dat is gebleken dat het niet voldoende is. Ik constateer alleen dat door de combinatie van internationale omstandigheden, de persaandacht die ervoor is en ook de zorgen die vanuit de Kamer zijn uitgesproken, het het beste is om elke schijn van twijfel uit te sluiten. Daarom laat ik het papieren proces leidend zijn, ook bij het transport van de informatie van de gemeentehuizen naar de hoofdstembureaus. Maar ik zou dus niet de conclusie willen overnemen dat hoe het was, blijkbaar niet voldoende was. Zeker na de toelichting van de heer Amhaouch, ontraad ik deze motie.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2017-02-16-tweedekamer-4.seg16">Dank u wel. We zijn hiermee aan het eind gekomen van dit VAO. We zullen volgende week stemmen over de ingediende motie.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

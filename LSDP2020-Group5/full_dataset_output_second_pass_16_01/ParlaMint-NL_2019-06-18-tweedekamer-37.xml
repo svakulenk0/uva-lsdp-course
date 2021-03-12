@@ -1,0 +1,507 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-06-18 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-06-18 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 94, Session 37 (2019-06-18)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 94, Session 37 (2019-06-18)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="94">Meeting 94</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="37">Session 37</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="82">82 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="82">82 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="4382">4382 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="4382">4382 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-06-18">2019-06-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="98"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="82"/>
+               <tagUsage gi="note" occurs="162"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-06-18">2019-06-18</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Geneesmiddelenbeleid</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u1">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg1">Wij gaan verder met het VAO Geneesmiddelenbeleid en ik geef de heer Van Gerven namens de SP het woord.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u2">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg2">Voorzitter. Een tweetal moties en een vraag.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat voorgeschreven geneesmiddelen op basis van medische noodzaak aan de patiënt dienen te worden verstrekt;</note>
+               <note>constaterende dat apothekers die volgens de zorgverzekeraar te veel medicatie op basis van medische noodzaak verstrekken, kunnen worden gekort op hun contract door de verzekeraar, waardoor ze er op jaarbasis al snel €15.000 op achteruit kunnen gaan;</note>
+               <note>constaterende dat hier sprake is van perverse financiële prikkels om patiënten niet de geneesmiddelen te verstrekken die ze nodig hebben;</note>
+               <note>spreekt uit dat de financieringswijze van apothekers niet nadelig mag zijn voor een adequate uitvoering van het preferentiebeleid;</note>
+               <note>verzoekt de regering met de zorgverzekeraars en apothekers afspraken te maken waarbij de perverse prikkel dat minder afleveren van geneesmiddelen op basis van medische noodzaak leidt tot een hogere vergoeding voor de apotheker wordt afgeschaft,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat farmaceutische producenten de mogelijkheid hebben meer te vragen voor geneesmiddelen dan de kostprijs en een redelijke winstmarge;</note>
+               <note>constaterende dat informatie over de kosten van de totstandkoming van een geneesmiddel de positie van de minister versterkt in onderhandelingen over de prijs;</note>
+               <note>overwegende dat fabrikanten van dure geneesmiddelen zelden openheid geven over de totstandkoming van de hoge prijs van hun product en dat zorgverzekeraars, het Bureau Financiële Arrangementen en de Autoriteit Consument en Markt slechts in beperkte mate informatie over de productiekosten kunnen openbaren;</note>
+               <note>verzoekt de regering een onafhankelijke prijswaakhond voor dure geneesmiddelen in te stellen, die onderzoek doet naar de totstandkoming van prijzen en hierover rapporteert,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-579</note>
+               <note>Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-580</note>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u3">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg3">Tot slot een vraag aan de minister over de brief die hij gestuurd heeft over Spinraza. We hebben een debat gehad. De minister had goed nieuws voor de patiënten die Spinraza krijgen, maar nu blijkt dat het nog minstens een halfjaar duurt tot de patiënten die het middel nu niet krijgen, het wel kunnen krijgen. Ik verzoek de minister toch om dit snel te regelen. We hebben een voorbeeld van een gezin waarin het ene kind het wel krijgt en het andere niet. Dat kan echt niet en ik zou de minister willen vragen of hij toch niet het kan regelen ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u4">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg4">Dank u wel.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u5">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg5">... dat ze zeggen dat per 1 juli alle mensen dat middel kunnen krijgen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u6">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg6">Dank u wel, meneer Van Gerven. Twee minuten zijn echt twee minuten en dat geldt voor iedereen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg7">De heer Geleijnse namens 50PLUS.</seg>
+            </u>
+            <u who="#SimonGeleijnse" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u7">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg8">Dank u wel, voorzitter. Twee moties. De eerste:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering in februari 2017 (39477, nr. 417) heeft aangegeven dat eind 2017 alle patiënten van 75 jaar en ouder die voldeden aan de aangescherpte criteria een medicatiebeoordeling hadden moeten krijgen;</note>
+               <note>constaterende dat de regering in dezelfde brief aangeeft dat vanaf 2018 uiteindelijk alle risicogroepen die voldoen aan de criteria van de richtlijn Polyfarmacie bij ouderen — dus alle patiënten van 65 jaar en ouder die chronisch vijf of meer geneesmiddelen gebruiken en waarbij één of meer risicofactoren optreden — een medicatiebeoordeling hadden moeten krijgen;</note>
+               <note>overwegende dat de minister op 6 juni 2019 niet kon aangeven hoeveel mensen uit de bedoelde groepen een medicatiebeoordeling hebben gehad;</note>
+               <note>overwegende dat medicatiebeoordelingen kunnen bijdragen aan het optimaliseren van farmacotherapie en het verminderen van risico's van polyfarmacie;</note>
+               <note>verzoekt de regering de toezeggingen uit 2017 na te komen voor zover deze nog niet zijn gerealiseerd, en de Kamer daarover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Geleijnse en Arno Rutte. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-581</note>
+            </u>
+            <u who="#SimonGeleijnse" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u8">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg9">Dan mijn tweede motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat veel mensen, bijvoorbeeld als gevolg van reuma of neuropathie, moeite hebben met het openen van verpakkingen van geneesmiddelen;</note>
+               <note>overwegende dat het in het kader van therapietrouw van belang is dat voorgeschreven geneesmiddelen worden ingenomen;</note>
+               <note>overwegende dat ouderen steeds langer zelfstandig thuis wonen;</note>
+               <note>verzoekt de regering een (pro)actieve houding aan te nemen en dit probleem blijvend te agenderen in Nederland en in Europees verband — zowel voor bestaande als voor nieuwe geneesmiddelen — en in samenwerking met de sector en patiëntenvertegenwoordigers, teneinde dit probleem te verhelpen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Geleijnse, Ploumen en Dik-Faber. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-582</note>
+            </u>
+            <u who="#SimonGeleijnse" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u9">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg10">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u10">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg11">Dank u wel, meneer Geleijnse. Dan geef ik nu het woord aan mevrouw Van den Berg namens het CDA.</seg>
+            </u>
+            <u who="#JobavandenBerg" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u11">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg12">Dank u wel, voorzitter. Deze motie is mede namens mevrouw Ellemeet.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat voor sommige medicijnen geldt dat de groep gebruikers enorm groot is, wat onder andere blijkt uit het feit dat 4 miljoen Nederlanders bloeddrukverlagers gebruiken, 3 miljoen Nederlanders maagzuurremmers gebruiken en 2 miljoen Nederlanders cholesterolverlagers gebruiken, zoals beschreven in het boek Ontpillen;</note>
+               <note>overwegende dat er discussie ontstaan is over nieuwe richtlijnen voor het voorschrijven van statines (cholesterolverlagers), omdat deze richtlijn zal leiden tot een nóg verdere uitbreiding van de groep gebruikers van dit middel en er vraagtekens worden gezet bij de effectiviteit daarvan;</note>
+               <note>overwegende dat medicijnen in de praktijk veel meer bijwerkingen blijken te hebben dan uit clinical trials geconcludeerd kan worden;</note>
+               <note>overwegende dat farmaceutische bedrijven niet vrijwillig willen meebetalen aan onderzoek over effectiviteit van een geneesmiddel in de praktijk;</note>
+               <note>verzoekt de regering om bij opname van medicijnen in het basispakket als voorwaarde te stellen dat er verplicht onderzoek wordt gedaan naar effectiviteit en bijwerkingen in de praktijk, en dat dit na drie jaar tot een evaluatie van het geneesmiddel leidt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van den Berg en Ellemeet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-583</note>
+            </u>
+            <u who="#JobavandenBerg" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u12">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg13">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u13">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg14">Dank u wel, mevrouw Van den Berg. Dan geef ik nu het woord aan mevrouw Ploumen namens de PvdA</seg>
+            </u>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u14">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg15">Voorzitter, dank u wel. Ik heb drie moties, die ik snel ga voorlezen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de minister voor Medische Zorg en Sport de mogelijkheid heeft aangegeven dat een convenant wordt gesloten met de Vereniging Innovatieve Geneesmiddelen waarbij transparantie vooropstaat;</note>
+               <note>verzoekt de regering geen convenant te tekenen met de Vereniging Innovatieve Geneesmiddelen voordat de Kamer over de inhoud van het convenant is geïnformeerd en zich erover heeft kunnen uitspreken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>van mening dat het wenselijk is dat richtlijnen opgesteld worden door experts die geen banden hebben met de farmaceutische of de hulpmiddelenindustrie, om iedere vorm van belangenverstrengeling te voorkomen;</note>
+               <note>verzoekt de regering de Kamer vóór het zomerreces 2019 te laten weten of er in Nederland al dan niet medisch specialisten/experts, medical opinion leaders of key opinion leaders gevonden kunnen worden die geen banden met de industrie hebben;</note>
+               <note>verzoekt de regering tevens daarbij aan te geven welke mogelijkheden er zouden zijn om in Nederland over te gaan tot een systeem van richtlijnen die worden opgesteld door onafhankelijke deskundigen, zoals wel mogelijk is in het Verenigd Koninkrijk,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Ploumen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-584</note>
+               <note>Deze motie is voorgesteld door het lid Ploumen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-585</note>
+            </u>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u15">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg16">Mijn laatste, korte motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat in de Geneesmiddelenwet is vastgelegd dat er een voldoende voorraad van een geneesmiddel dient te zijn;</note>
+               <note>van mening dat het houden van voldoende voorraad niet mag leiden tot extra kosten voor patiënten;</note>
+               <note>verzoekt de regering ervoor zorg te dragen dat eventuele kosten voor extra voorraad op geen enkele wijze doorberekend worden aan patiënten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Ploumen en Geleijnse. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-586</note>
+            </u>
+            <note>Dank u wel. Dan geef ik nu het woord aan mevrouw Pia Dijkstra namens D66.</note>
+            <u who="#PiaDijkstra" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u16">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg17">Dank u wel, voorzitter. Ons AO begon heel goed, met het bericht dat Spinraza voor alle patiënten wordt vergoed. Maar ik heb dezelfde vraag als de heer Van Gerven, namelijk: waarom duurt het zo lang, waarom is er zo veel tijd nodig voor de voorbereiding om het te gaan verstrekken?</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg18">Voorzitter. Ik heb allerlei teksten, maar ik zal het toch maar kort houden want anders ga ik het niet redden. Ik zag namelijk hele mooie ontwikkelingen na ons AO, waarbij het ging over experimenten met no cure, no pay en drug rediscovery. Daar gaan we het een andere keer ongetwijfeld over hebben, maar het is toch een goed teken dat we stappen zetten.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg19">Voorzitter. Ik sta onder de motie van mevrouw Ellemeet over maatschappelijk verantwoord licentiëren; die komt straks. Ik heb zelf twee moties, ondersteunend aan de inzet van de minister.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat een geneesmiddelenfabrikant voor een nieuw medicijn een patent krijgt voor een periode van twintig jaar, waarin onderzoekskosten kunnen worden terugverdiend;</note>
+               <note>constaterende dat de fabrikant daarna nog een aanvullend beschermingscertificaat (ABC) kan aanvragen om de beschermde periode te verlengen;</note>
+               <note>constaterende dat de regering inzet op een unitair Europees ABC maar dat tot die tijd deze certificaten per lidstaat worden afgegeven;</note>
+               <note>verzoekt de regering zich Europees hard te maken voor een strenger unitair ABC, en tot die tijd in Nederland als voorwaarde voor een ABC op te nemen dat een fabrikant de onderzoekskosten nog niet heeft terugverdiend en dat de bewijslast hiervoor openbaar gemaakt wordt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Pia Dijkstra en Ellemeet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-587</note>
+            </u>
+            <u who="#PiaDijkstra" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u17">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg20">Ik heb ten slotte nog een korte motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de overheid over dure geneesmiddelen onderhandelt met fabrikanten;</note>
+               <note>constaterende dat ook de WHO vraagt om meer transparantie over geneesmiddelenprijzen;</note>
+               <note>verzoekt de regering om de uitkomst van onderhandelingen over geneesmiddelen standaard openbaar te maken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Pia Dijkstra en Ploumen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-588</note>
+            </u>
+            <note>Dank u wel, keurig binnen de twee minuten. Heel goed. Dan ga ik nu naar mevrouw Ellemeet namens GroenLinks.</note>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u18">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg21">Dank u wel, voorzitter. Ik heb drie moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat een modelovereenkomst voor licenties van grote waarde zal zijn voor het maken van afspraken tussen universiteiten, knowledge transfer offices en de farmaceutische industrie;</note>
+               <note>van mening dat een modelovereenkomst alleen als krachtig instrument kan fungeren als partijen zich eraan committeren en de randvoorwaarden wat betreft kennis en uitvoering op orde zijn;</note>
+               <note>verzoekt de regering de NFU bij uitwerking van de modelovereenkomst aandacht te vragen voor te treffen maatregelen als partijen de modelovereenkomst niet naleven en voor de benodigde randvoorwaarden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het rapport "Tien principes voor Maatschappelijk Verantwoord Licentiëren" een waardevolle stap is in de ontwikkeling van een wenselijke samenwerking tussen publieke onderzoeksinstellingen en de farmaceutische industrie;</note>
+               <note>van mening dat maatschappelijk verantwoord licentiëren een breed draagvlak en internationale samenwerking vereist;</note>
+               <note>van mening dat het helpt om Europese landen goed mee te nemen in het proces van maatschappelijk verantwoord licentiëren;</note>
+               <note>verzoekt de regering om het rapport "Tien principes voor Maatschappelijk Verantwoord Licentiëren" in vertaling te delen met andere Europese lidstaten en met de Tweede Kamer,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Ellemeet en Pia Dijkstra. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-589</note>
+               <note>Deze motie is voorgesteld door de leden Ellemeet en Pia Dijkstra. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-590</note>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u19">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg22">Voorzitter. Ten slotte heb ik nog een motie over Spinraza, die raakt aan het punt dat de collega's Van Gerven en Pia Dijkstra ook al maakten.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat eerder door het kabinet is toegezegd het medicijn Spinraza zo spoedig mogelijk beschikbaar te stellen;</note>
+               <note>constaterende dat uit de meest recente Kamerbrief blijkt dat de verstrekking van het medicijn nog ruim zes maanden op zich kan laten wachten;</note>
+               <note>overwegende dat bijvoorbeeld in België de eerste Spinraza-injecties binnen twee weken na het besluit tot toelating gegeven werden;</note>
+               <note>verzoekt de regering te zoeken naar mogelijkheden om behandeling met Spinraza alsnog zo snel mogelijk in gang te zetten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Ellemeet, Geleijnse en Agema. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-591</note>
+            </u>
+            <note>Dank u wel, mevrouw Ellemeet. Dan geef ik nu het woord aan de heer Arno Rutte namens de VVD.</note>
+            <u who="#ArnoRutte" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u20">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg23">Voorzitter. Het debat over hele dure geneesmiddelen is en wordt uitgebreid gevoerd, maar ook hele dure geneesmiddelen lopen op een bepaald moment uit patent — dat zijn de zogeheten biologische geneesmiddelen — en dan mogen ze worden nagemaakt. Het originele middel heet dan een "initiator" en het nagemaakte middel een "biosimilar". Ik kan het ook niet helpen, maar die termen komen terug in deze motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Noorse NOR-SWITCH-studie heeft aangetoond dat biosimilars niet inferieur zijn aan de oorspronkelijke biologische geneesmiddelen (de zogeheten initiators) die ze repliceren, maar wel veel betaalbaarder;</note>
+               <note>overwegende dat verschillende zorgaanbieders in Nederland en in het buitenland vrijwel exclusief gebruikmaken van biosimilars en hier uitstekende resultaten mee behalen;</note>
+               <note>van mening dat omwille van de duurzame betaalbaarheid het gebruik van biosimilars, indien doelmatiger dan de initiator, de eerste keuze bij de behandeling van patiënten moet zijn, tenzij er naar het oordeel van de medisch specialist een medische noodzaak bestaat een initiator voor te schrijven;</note>
+               <note>verzoekt de regering in overleg te treden met zorgaanbieders en zorgverzekeraars om hen aan te sporen het voorkeursbeleid voor het voorschrijven, verstrekken en inkopen van biosimilars te versterken, de eventuele knelpunten voor een bredere toepassing van biosimilars die uit het overleg voortkomen in kaart te brengen, en de Kamer op de hoogte te houden van de voortgang,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Arno Rutte. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. dossier/29477</note>
+            </u>
+            <u who="#ArnoRutte" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u21">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg24">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u22">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg25">Dank u wel, meneer Arno Rutte. Dan geef ik tot slot het woord aan mevrouw Agema namens de PVV.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u23">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg26">Dank u wel, voorzitter. Ik heb twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat uit meerdere wetenschappelijke publicaties blijkt dat Nederland achterblijft als het gaat om het percentage patiënten met kanker dat na vijf jaar nog in leven is en dat dit met name geldt voor longkanker;</note>
+               <note>overwegende dat de toegang tot kankergeneesmiddelen in Nederland mogelijk onvoldoende is en patiënten te lang moeten wachten op hun behandeling;</note>
+               <note>verzoekt de regering te onderzoeken waarom Nederland achterblijft in de overlevingskansen bij longkanker en daarbij de procedures van het Zorginstituut en de sluisperiode te betrekken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Agema. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. dossier/29477</note>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u24">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg27">Voorzitter. Over Spinraza heb ik wel een motie meegenomen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de leeftijdsgrens voor behandeling met het geneesmiddel Spinraza is geschrapt maar dat er pas over weer een halfjaar (vanaf 2020) met de behandeling kan worden gestart, terwijl in de tussentijd de gezondheid van de patiënten achteruit blijft gaan;</note>
+               <note>verzoekt de regering te bewerkstelligen dat de behandeling met Spinraza nog deze zomer gestart kan worden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Agema. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29477-594</note>
+            </u>
+            <note>Dank u wel, mevrouw Agema. Iedereen heeft binnen de spreektijd van twee minuten zijn bijdrage geleverd, behalve meneer Van Gerven. Dat wil ik even opgemerkt hebben in de Handelingen. Ik kijk of de minister behoefte heeft aan een schorsing. Hoeveel? Tien minuten?</note>
+            <note>De vergadering wordt van 21.58 uur tot 22.12 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u25">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg28">Ik geef het woord aan de minister.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u26">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg29">Dank u wel, voorzitter. Er zijn zestien moties ingediend en ik wil ze graag langslopen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg30">Ik wil de motie op stuk nr. 579 ontraden. Het is aan zorgverzekeraars, huisartsen en apotheken om onderling afspraken te maken. Zoals de indiener van de motie, de heer Van Gerven, weet, ben ik in overleg met alle partijen, ook met de patiënten over het meer verantwoord wisselen en de medische noodzaak. Ik wil de Kamer na de zomer informeren over dat verantwoord wisselen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg31">De motie op stuk nr. 580 over een onafhankelijke prijswaakhond wil ik ook ontraden. We hebben eerder het debat daarover gevoerd. Daarin heb ik ook verwezen naar de eerder door uw Kamer aangenomen motie om het onderzoek naar het financiële ecosysteem van geneesmiddelenontwikkeling in internationaal verband op te pakken. Dat onderzoek start nog dit jaar. Dus daarvan wil ik u dan ook graag op de hoogte houden, maar ik ben er geen voorstander van om weer een nieuw instituut te starten.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u27">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg32">Ik wilde even ingaan op de eerste motie. Is de minister het niet met de SP eens dat ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u28">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg33">U mag twee vragen stellen over uw moties. Er zijn zestien moties ingediend, dus als iedereen twee, drie vragen per motie stelt, ben ik bang dat we daar niet helemaal uitkomen. Wat zegt u, mevrouw Agema?</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u29">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg34">We hebben het algemeen overleg al gehad, voorzitter. We hebben zestien moties, dus ik zou zeggen: één toelichtende vraag, als iemand die nog heeft.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u30">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg35">Nou, ik vind het heel fijn dat u mij eindelijk een keertje steunt. Dat komt ook in de Handelingen.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u31">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg36">Ik heb een vraag in tweeën over de eerste motie. Er zit een perverse prikkel in het feit dat de apotheker er een voordeel bij heeft als de patiënt een bepaald medicijn dat medisch noodzakelijk is, niet krijgt. Vindt de minister dat ook niet pervers?</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u32">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg37">Ik blijf een beetje weg bij die kwalificatie. Mij gaat het erom dat als er moet worden gewisseld, dat verantwoord is. Daarvoor hebben we een werkgroep ingesteld, die na de zomer gaat rapporteren. Dat stel ik voorop en dat is de reden dat ik deze motie ontraad.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u33">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg38">Tot slot.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u34">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg39">Waarom heeft de minister eigenlijk niet zelf een mening?</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u35">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg40">Sorry?</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u36">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg41">Waarom heeft de minister eigenlijk niet zelf een mening? Dat zou zo prettig zijn bij dit debat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u37">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg42">Dat heeft niks met de motie te maken.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u38">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg43">Dat heeft alles met de motie te maken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u39">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg44">Oké.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u40">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg45">Het gaat erom dat een apotheker €15.000 gekort wordt als de motie die ooit in de Kamer is aangenomen met betrekking tot de verstrekking van medisch noodzakelijke medicijnen als de arts die voorschrijft, wordt uitgevoerd. Als de apotheker dat doet, kan hij €15.000 gekort worden. Dat is toch pervers, zou ik de minister willen voorhouden.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u41">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg46">Mijn mening is dat het aan de zorgverzekeraars, huisartsen en apothekers is om onderlinge afspraken te maken. Dat aan de ene kant. Ten overvloede wil ik zeggen dat ik in overleg ben met alle partijen, ook de patiënten, over het meer verantwoord wisselen. Daarvoor is een werkgroep aan de slag, die na de zomer rapporteert. Dan ben ik heel graag bereid om te kijken wat de resultaten van die werkgroep zijn en dan zal ik dat vast en zeker, in ieder geval delen daarvan, tot mijn mening maken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u42">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg47">Ik stel voor dat u verdergaat.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u43">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg48">Voorzitter. Er was nog een vraag gesteld door de heer Van Gerven. Hij zegt: het goede nieuws in het AO was dat Spinraza voor een grotere groep patiënten beschikbaar komt, maar nu lezen we in de brief dat het nog maanden duurt voordat die behandeling kan starten. Met alles wat in mij zit: ik vind het vreselijk dat het die tijd duurt voordat gerealiseerd is wat hierbij belangrijk is, namelijk dat de capaciteit in het ziekenhuis op peil is gebracht. Het gaat hier over best een grote groep patiënten, in de richting van de 200, als ik het goed begrepen heb. Daarvoor is extra capaciteit nodig. Er is tijd nodig om mensen daarvoor op te leiden. Er moeten nog veel dingen gebeuren, maar die maak ik allemaal ondergeschikt. Ik heb dat ook in het debat betoogd. Dat geldt ook voor de prijsafspraken. We moeten dat allemaal als een haas regelen, maar op het kritieke spoor zit die behandelcapaciteit. Ik vind dat vreselijk. Ik zou willen dat we het morgen hadden, maar we hebben het niet morgen, en ik moet wel eerlijk zijn. Ik heb dit ook gedeeld met de patiëntenorganisatie. Die staat ook achter deze route. Laat ik het nogmaals zeggen met alles wat in me zit: we hopen die periode te bekorten. Daarom staat er ook in de brief "uiterlijk 1 januari 2020".</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u44">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg49">Een korte vraag, de heer Van Gerven.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u45">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg50">In de brief staat eigenlijk dat het pas 1 januari kan, omdat er ook onderzoek en dergelijke moet worden opgezet. Maar gezien het debat dat we hebben gevoerd, vind ik dat de minister het niet kan maken dat het nog maanden gaat duren; tot januari. Het is niet per se een capaciteitsprobleem, want al die patiënten zijn in beeld en dat medicijn kan als het ware morgen verstrekt worden. Volgens mij moet de minister dus echt als de duvel aan het werk en zorgen dat het voor de zomer, laten we zeggen voor 1 juni, geregeld is, zoals de Kamer nu ook weer in moties heeft neergelegd. Dat moet gewoon kunnen, denk ik. Waar een wil is, is een weg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u46">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg51">Gaat u verder.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u47">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg52">Deze minister werkt snoeihard om te zorgen dat die behandeling voor deze nieuwe groep patiënten zo snel als mogelijk kan starten. Het is een simplificatie van de werkelijk als je zegt: het middel is voorhanden, we kunnen zo starten, alles is geregeld. Was het maar zo! Dat is beslist niet zo. Ik vind het een simplificatie die geen recht doet aan de situatie waarin de patiënten zich bevinden. Iedereen in deze Kamer en daarbuiten zou dolgraag willen dat we morgen kunnen beginnen, maar het zit 'm in de capaciteit. Het gaat niet om de patiënten. Die zijn in beeld. Ik bedoel dat het natuurlijk wel om de patiënten gaat en dat die in beeld zijn, maar dat het probleem in de behandelcapaciteit zit. Het is niet een kwestie van een injectie zetten of zo. Bij dat soort woorden wil ik wegblijven. Het gaat om hele intensieve behandelingen. Die moeten goed worden voorbereid. Natuurlijk moet er ook een onderzoeksopzet zijn. Er moet financiering zijn. Er moet van alles gebeuren, maar dat maak ik ondergeschikt aan de afspraak die nodig is om tot die goede behandeling te komen, en die ziet op de behandelcapaciteit. Die zit op het kritieke spoor. Daarom heb ik in de brief opgeschreven "uiterlijk 1 januari". Ik wil echt kijken wat er mogelijk is, maar ik wil ook geen hoop geven die er niet is. Wat ik wel kan doen, is in de zomervakantie snoeihard doorwerken en na de zomer iets van een voortgangsbrief aan u geven, om te kijken of het nog steeds uiterlijk 1 januari 2020 is, of dat we iets kunnen winnen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u48">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg53">Ik stel voor dat u verdergaat.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u49">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg54">Voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u50">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg55">Nee. Ik stel voor dat de minister verdergaat.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u51">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg56">Voorzitter. De motie op stuk nr. 581 gaat over medicatiebeoordelingen. Ik laat het oordeel daarover aan de Kamer. Ook ik vind het belangrijk dat het geneesmiddelengebruik van kwetsbare ouderen met polyfarmacie optimaal is. Ik ondersteun daarom het doelmatig uitvoeren van medicatiebeoordelingen door zorgverleners bij deze ouderen. Ik zal uw Kamer in het najaar informeren over de uitgevoerde medicatiebeoordelingen in de periode 2015-2018. Ik wil u daarbij tevens berichten over de wijze waarop zorgverleners in de toekomst medicatiebeoordelingen bij kwetsbare groepen gaan vormgeven. Ik geef die motie dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg57">De motie op stuk nr. 582 verzoekt de regering een (pro)actieve houding aan te nemen en het probleem van het openen van verpakkingen van geneesmiddelen blijvend te agenderen in Nederland en in Europees verband, zowel voor bestaande als nieuwe geneesmiddelen, en in samenwerking met de sector en patiëntenvertegenwoordigers, teneinde dit probleem te verhelpen. Ik heb een heel lang antwoord. De kortste samenvatting is: oordeel Kamer. Er wordt van de zijde van onder andere 50PLUS al veel langer aandacht voor dit thema gevraagd. Ik onderstreep dat van harte.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg58">Dan de motie op stuk nr. 583. Het dictum daarvan luidt: "verzoekt de regering om bij opname van medicijnen in het basispakket als voorwaarde te stellen dat er verplicht onderzoek wordt gedaan naar de effectiviteit en bijwerkingen in de praktijk, en dat dit na drie jaar tot een evaluatie van het geneesmiddel leidt." Ik ontraad deze motie. Het Zorginstituut doet al dat effectiviteitsonderzoek voordat een geneesmiddel in het pakket komt. Het Zorginstituut beoordeelt dan het onderzoek dat er op dat moment ligt. Je zou dus kunnen zeggen dat alleen bewezen effectieve geneesmiddelen instromen in het pakket. Als er nadat het geneesmiddel in het pakket is ingestroomd, signalen zijn dat het middel doelmatiger ingezet kan worden of als er twijfels zijn in de praktijk over de effectiviteit, is extra onderzoek nuttig en mogelijk. Het programma Goed Gebruik Geneesmiddelen van ZonMw kan daarin voorzien. Universiteiten, artsen en ziekenhuizen kunnen daarop inschrijven. We hebben daarnaast nog het programma Zorgevaluatie en gepast gebruik. We hebben er in het hoofdlijnenakkoord medisch-specialistische zorg gewag van gemaakt dat er op veel grotere schaal wordt geëvalueerd op het punt van het gepast gebruik. Omdat er al veel gebeurt, zowel op de effectiviteit alsook op het punt van de bijwerkingen, ontraad ik deze motie.</seg>
+            </u>
+            <u who="#JobavandenBerg" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u52">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg59">Ik heb dan wel een paar vragen aan de minister. Het gaat ons erom dat de effectiviteit in de praktijk anders kan zijn dan in de clinical trial. Dat is de reden waarom we dit hebben voorgesteld. Het tweede heb ik ook in het overleg genoemd: uit onderzoek naar bloedverdunners bleek dat die in de praktijk veel meer bijwerkingen hadden dan in de clinical trial. Het derde was het voorbeeld dat een ziekenhuis zegt dat als iets minder medicijn wordt gegeven, het waarschijnlijk zelfs effectiever is, maar dat een fabrikant daar niet aan wil meewerken. Als ik iets zou moeten wijzigen aan de tekst, wil ik daar graag over nadenken. Maar het is voor ons wel een zeer belangrijk punt dat er gewoon blijvend onderzoek is.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u53">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg60">In mijn antwoord heb ik erop gewezen dat er aan de ene kant al mogelijkheden zijn om onderzoek te doen als er in de praktijk, dus na de toelating, twijfels zijn over de effectiviteit. Dat gebeurt ook in de praktijk. Daarvoor zijn die programma's Goed Gebruik Geneesmiddelen en Zorgevaluatie en gepast gebruik bedoeld en beschikbaar. Het punt van het verzamelen van informatie over bijwerkingen is al wettelijk verplicht op grond van de Geneesmiddelenwet. Ik ontraad deze motie. Ik kan niet zo gauw een tekstje bedenken waarvan ik denk: als ik dat zus of zo lees, krijgt de motie oordeel Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u54">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg61">Mevrouw Van den Berg, tot slot.</seg>
+            </u>
+            <u who="#JobavandenBerg" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u55">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg62">Ik ben in ieder geval zwaar teleurgesteld in die zin, maar dat gaan we vanavond niet samen oplossen. Ik ga met mevrouw Ellemeet even verder in conclaaf.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u56">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg63">Daar heeft u tot dinsdag de tijd voor, want dan pas gaan we stemmen. Dan de motie op stuk nr. 584.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u57">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg64">Voorzitter. In de motie op stuk nr. 584 wordt de regering verzocht geen convenant te tekenen met de VIG voordat de Kamer over de inhoud van het convenant is geïnformeerd en zich erover kan uitspreken. Op dit moment is er geen sprake van een convenant. De indiener van de motie weet dat, want dat heb ik met de Kamer gedeeld. Ik wil u graag informeren over de voortgang. Dat wil ik ook doen voordat er definitief een krabbel onder staat van mijn kant. Als ik de motie zo mag lezen, laat ik het oordeel erover aan de Kamer. Maar er is nog geen convenant in zicht. Ik wou dat het anders was, maar het is nog niet zover.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg65">Voorzitter. Dan de motie op stuk nr. 585. Daarin wordt de regering verzocht de Kamer vóór het zomerreces 2019 te laten weten of er in Nederland al dan niet medisch specialisten/experts, medical opinion leaders of key opinion leaders gevonden kunnen worden die geen banden met de industrie hebben. Tevens wordt de regering verzocht daarbij aan te geven welke mogelijkheden er zouden zijn om in Nederland over te gaan tot een systeem van richtlijnen die worden opgesteld door onafhankelijke deskundigen, zoals wel mogelijk is in het Verenigd Koninkrijk. Ik ontraad deze motie. De suggestie dat richtlijnen alleen goed vastgesteld kunnen worden door onafhankelijke deskundigen, deel ik niet. Kennis van specialisten die betrokken zijn geweest bij onderzoeken van de industrie, is waardevol. Waar het mij steeds om gaat, is dat die relaties transparant zijn. Om die reden ontraad ik de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg66">Voorzitter. Dan de motie op stuk nr. 586. Deze verzoekt de regering ervoor zorg te dragen dat eventuele kosten voor extra voorraad op geen enkele wijze doorberekend worden aan patiënten. Hier ben ik een beetje aan het zoeken naar de boodschap aan de regering. De indiener, mevrouw Ploumen, weet dat het onderzoek naar de effecten van het vergroten van de voorraden nog loopt. Ik wil daar niet op vooruitlopen. Ik kan dat ook niet. Maar ik zal er alles aan doen om de kosten voor de patiënten niet te verhogen als gevolg van het ophogen van voorraden. Die inspanning wil ik mij dus getroosten. Als de indiener van de motie zou zeggen "ik wil een garantie", dan ontraad ik die motie. Waarom? Als er straks ergens voorraadkosten zijn, dan kunnen die misschien wel geen rol spelen in het prijspakje van de geneesmiddelen, maar dan is de patiënt via een andere route toch wel weer de betaler. Dat is mijn eerlijke antwoord. Als ik de motie dus mag lezen als een oproep tot een inspanning, om er alles aan te doen om de kosten voor patiënten niet te verhogen als gevolg van het vergroten van de voorraden, zoals wij ook hebben gewisseld in het debat, dan laat ik het oordeel aan de Kamer over.</seg>
+            </u>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u58">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg67">Ik wil dat wel doen, maar dan zou ik het toch fijn vinden als de minister nogmaals uitspreekt dat hij het met ons eens is dat de kosten in principe niet afgewenteld moeten worden op de patiënt, want dat helpt zijn inspanningsverplichting te onderbouwen.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u59">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg68">Ja, maar ik wil ook wel eerlijk zijn. Als er voorraadkosten zijn ... Laten we een fictief voorbeeld nemen waarin er een grote silo moet worden gebouwd om die geneesmiddelen in op te slaan. Dat gaat niet gebeuren. Maar dat kost 100 miljoen. Dat zijn dan wel overheidscentjes, want dat gaat de industrie allemaal niet een-twee-drie betalen. En ook wij als overheid hebben een belang bij het aanhouden van voorraden, omdat dat zekerheid voor de patiënt biedt. Voor de patiënten wil ik me er dus voor inspannen om geen extra kosten te veroorzaken die direct aan het geneesmiddel worden gekoppeld. Die inspanning wil ik me getroosten. Maar ik moet ook eerlijk zijn: via een ommetje komt die rekening natuurlijk toch bij de gemeenschap te liggen.</seg>
+            </u>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u60">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg69">Dan dank ik de minister voor zijn toezegging over de inspanningsverplichting. Dan zullen we de motie zo interpreteren. Dank u wel.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u61">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg70">Dan krijgt ze oordeel Kamer. Dank u wel.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg71">Dan de motie op stuk nr. 587. Deze verzoekt de regering zich Europees hard te maken voor een strenger unitair ABC, en tot die tijd in Nederland als voorwaarde voor een ABC op te nemen dat een fabrikant de onderzoekskosten nog niet heeft terugverdiend en dat de bewijslast hiervoor openbaar gemaakt wordt. Met de indiener ben ik van mening dat dat strengere unitaire beleid steun verdient. Dat heb ik ook opgeschreven in mijn brief en zo gedeeld in het debat. Toch ontraad ik de motie, omdat de ABC's zijn gebaseerd op een Europese verordening en Nederland niet op eigen initiatief de eisen voor een ABC kan aanpassen. Dat is één overweging. Een andere is — eerlijk is eerlijk — dat ABC's als verlenging van de rechten van het octrooi het beleidsterrein zijn van de collega van EZK. Dus all in all ontraad ik de motie, maar los daarvan wil ik wel gezegd hebben dat ook Nederland zich in Europees verband sterk maakt voor en steun geeft aan dat strengere unitaire ABC.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg72">Dan de motie op stuk nr. 588. Deze verzoekt de regering om de uitkomst van onderhandelingen over geneesmiddelen standaard openbaar te maken. Ik ontraad deze motie, terwijl ik ook heel graag transparantie wil en dat ook vraag aan fabrikanten. Dat heb ik eerder in het debat ook met heel veel verve betoogd. Maar als fabrikanten niet willen, dan kies ik ervoor dat we de toegang voor patiënten tegen een aanvaardbare prijs regelen. Als dat vertrouwelijk moet, als die onderhandelingen vertrouwelijk moeten zijn, dan is dat niet anders. Het alternatief kan zijn om een nieuw middel niet te vergoeden, en dan komt het niet op de markt. Hier zit dus een spanning. Ik zal de pillenboer altijd blijven vragen of hij bereid is om in het openbaar te onderhandelen. Daar zal ik ook altijd de nadruk op blijven leggen. Maar als de pillenboer zegt "nee, ik wil alleen maar vertrouwelijk met u onderhandelen en anders komt het medicijn niet op de markt", dan kies ik er toch voor om vertrouwelijk te onderhandelen, opdat wij een goed geneesmiddel voor een redelijke prijs bij de patiënt krijgen. Om die reden ontraad ik deze motie, maar ik heb daar dus veel woorden voor nodig, want ik zou graag anders wensen.</seg>
+            </u>
+            <u who="#PiaDijkstra" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u62">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg73">Heel kort. Ik heb dit natuurlijk al vaker van de minister gehoord en ik vind het ook zelf best lastig, maar je zou toch willen kunnen vaststellen of er inderdaad een redelijke prijs wordt betaald. Dat kunnen we nu gewoon niet.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u63">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg74">Nee, dat is heel moeilijk vast te stellen. We hebben openbare lijstprijzen, maar voor de dure medicijnen wordt er onderhandeld; mevrouw Dijkstra weet dat minstens zo goed als ik. De uitkomsten van die onderhandelingen mogen niet bekend worden. We hebben één voorbeeld uit de recente geschiedenis dat, indien de onderhandelingen klappen en dus niet tot een resultaat leiden, de overheid in een dergelijke situatie wel de ruimte heeft om die prijs bekend te maken; dat moet je ook vooraf afspreken. Zo ben ik aan het zoeken om zo veel mogelijk die duidelijkheid te krijgen, maar aan de andere kant speelt ook steeds dat patiëntenbelang. Dat weegt echt het zwaarste en daarom ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg75">Voorzitter. De motie op stuk nr. 589 verzoekt de regering de NFU bij uitwerking van de modelovereenkomst aandacht te vragen voor het treffen van maatregelen als partijen de modelovereenkomst niet naleven en voor de benodigde randvoorwaarden te zorgen. Dat zie ik als ondersteuning van ons beleid. Ik laat het oordeel over deze motie graag aan de Kamer. Ik moet die maatregelen nog wel bedenken, maar ik zie dit als een ondersteuning van het beleid.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg76">De motie op stuk nr. 590 gaat over het vertalen van Tien principes voor Maatschappelijk Verantwoord Licentiëren. Dat vind ik een sympathiek idee. Dat gaan we doen en ik zorg dat u een Engelstalig afschrift daarvan krijgt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg77">De motie op stuk nr. 591 verzoekt de regering te zoeken naar mogelijkheden om behandeling met Spinraza alsnog zo snel mogelijk in gang te zetten. Daar heb ik van gezegd wat ik gezegd heb in de antwoorden op de vraag van de heer Van Gerven. Daarom ontraad ik deze motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u64">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg78">Wat was eigenlijk het oordeel over de motie op stuk nr. 590? O, dit is de motie op stuk nr. 591. Heeft u de motie op stuk nr. 590 al beoordeeld? Oké. Dan de motie op stuk nr. 591.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u65">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg79">Ontraden.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u66">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg80">Dat vind ik gek, juist in het licht van wat de minister eerder heeft gezegd. Want ik vraag hem om te zoeken naar mogelijkheden om de behandeling zo snel mogelijk in gang te zetten.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u67">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg81">Jazeker.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u68">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg82">Ik heb de minister net gehoord en hij zegt: ik ga alles doen om dit zo snel mogelijk te organiseren.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u69">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg83">Ja.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u70">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg84">Ik denk dat dat een belangrijk signaal is, wat we juist met een uitspraak van de Kamer kunnen versterken, juist ook in de richting van de patiënten.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u71">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg85">Ja, maar ik heb de motie ontraden omdat ik de meeste moeite heb met een van de overwegingen waarop het dictum rust, namelijk de overweging dat bijvoorbeeld in België de eerste Spinraza-injecties binnen twee weken na het besluit tot toelating gegeven werden. Dat kan echt niet. Het is een veel langere en veel intensievere behandeling. Dat kan dus niet. Als die overweging er niet in zou zitten, dan zou ik de motie inderdaad zien als een ondersteuning van mijn beleid en zou ik haar oordeel Kamer geven. U weet overigens wat mijn inzet is. Die staat knalhard en recht overeind: zo snel mogelijk die behandeling fullsize voor de patiëntengroep beschikbaar krijgen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u72">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg86">Tot slot.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u73">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg87">Ik pas dit aan.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u74">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg88">Ik mag deze motie medeondertekenen. Mijn motie op stuk nr. 594 zou ik dan graag willen intrekken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u75">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg89">Prima. De naam van mevrouw Agema wordt toegevoegd aan de motie op stuk nr. 591.</seg>
+            </u>
+            <note>Aangezien de motie-Agema (, nr. ) is ingetrokken, maakt zij geen onderwerp van beraadslaging meer uit.</note>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u76">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg90">Nog een keer precies: ik ontraad de motie op stuk nr. 591, omdat in een van de overwegingen een simplificatie zit die ik niet deel. Dat heb ik net besproken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u77">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg91">Ja, dat is gewisseld.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u78">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg92">Als die overweging eruit zou vallen, zou ik zeggen dat ik de motie oordeel Kamer geef of overneem, op z'n krachtigst.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg93">Voorzitter. De motie op stuk nr. 592 verzoekt de regering in overleg te treden met zorgaanbieders en zorgverzekeraars om hen aan te sporen het voorkeursbeleid voor het voorschrijven, verstrekken en inkopen van biosimilars te versterken, de eventuele knelpunten voor een bredere toepassing van biosimilars die uit het overleg voortkomen, in kaart te brengen en de Kamer op de hoogte te houden van de voortgang. Waar biosimilars veilig en net zo effectief toegepast kunnen worden, en de kosten daarmee dalen, juichen wij dat natuurlijk toe. Dat heb ik meermalen gedeeld in het debat. Daarbij is voor mij het doel om zo veel mogelijk concurrentie tussen therapeutisch vergelijkbare middelen te stimuleren, dus concurrentie tussen het originele product en de biosimilar. Concurrentie zorgt voor lagere prijzen, en dat is toch wat we willen. Daarom financier ik ook het project Biosimilars op maat van IVM en Biosimilars Nederland. De motie spreekt mij aan omdat we het gebruik van biosimilars meer in willen zetten. Daarom geef ik de motie oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg94">Dan heb ik tot slot nog de motie op stuk nr. 593, waarin de regering wordt gevraagd te onderzoeken waarom Nederland achterblijft in de overlevingskansen bij longkanker en daarbij de procedures van het Zorginstituut en de sluisperiode te betrekken. Ik zou dat graag in twee delen willen doen. Ik zou graag de ruimte hebben om eerst te informeren bij de sector en de professionals waarom Nederland achterblijft in de overlevingskansen bij longkanker. Als ik dat eerst mag doen en de motie zo mag lezen, geef ik de motie oordeel Kamer.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u79">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg95">Dat is goed.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u80">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg96">Dan is dat ook helder: oordeel Kamer.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u81">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg97">Dan ben ik erdoorheen.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.u82">
+               <seg xml:id="ParlaMint-NL_2019-06-18-tweedekamer-37.seg98">Daarmee zijn we aan het einde gekomen van dit VAO. Over de ingediende moties zullen we volgende week dinsdag stemmen. Ik dank de minister, de Kamerleden, de medewerkers, de bodes, de griffiers en de ambtenaren.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

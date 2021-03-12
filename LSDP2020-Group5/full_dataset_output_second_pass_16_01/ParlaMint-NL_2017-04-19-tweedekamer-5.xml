@@ -1,0 +1,164 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-04-19 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-04-19 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 70, Session 5 (2017-04-19)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 70, Session 5 (2017-04-19)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="70">Meeting 70</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="25">25 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="25">25 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="711">711 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="711">711 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-04-19">2017-04-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="28"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="25"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-04-19">2017-04-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg1">Ik benoem in de commissie voor de Werkwijze het lid Krol tot lid en het lid Van Brenk tot plaatsvervangend lid in de bestaande vacatures.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg2">Ik stel voor, de volgende stukken van de stand van werkzaamheden af te voeren:</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg3">32802-36; 31332-84; 32545-65; 2017Z03719; 17050-536; 33532-68; 33532-70; 33532-69; 22112-2282; 34373-53; 2017Z03583; 2017Z03572; 34007-19.</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg4">Het woord is aan mevrouw Beckerman namens de SP.</seg>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg5">Voorzitter. Gisteren is een onderzoek uitgekomen, waaruit blijkt dat de armste Nederlanders opdraaien voor het klimaatbeleid. De armste huishoudens in Nederland betalen relatief het meest aan het klimaatbeleid, namelijk ruim 5% van hun inkomen, terwijl de rijkste 10% slechts 1,5% betaalt. De SP zou heel graag een debat voeren over de verdeling van lusten en lasten.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg6">Wij betalen allemaal te veel, maar de armsten inderdaad nog veel meer, dus veel te veel. Steun voor het verzoek.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg7">Het allerwrangste is dat de allerarmsten van deze wereld de eerste en hardste klappen van de klimaatverandering opvangen. De Partij voor de Dieren steunt het debat dus graag. Wij kijken tevens graag in brede zin hoe rechtvaardig het klimaatbeleid is, internationaal en nationaal.</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg8">Ik stel voor om een brief te vragen, maar geef geen steun voor een debat.</seg>
+            </u>
+            <u who="#TomvanderLee" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg9">Op zich heb ik begrip voor het verzoek, maar wij hebben onszelf 27 jaar geleden GroenLinks genoemd omdat wij toen al wisten dat een goed klimaatbeleid samengaat met compensatie, ook aan de onderkant.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg10">U hebt alles al gezegd. Een debat is niet nodig.</seg>
+            </u>
+            <u who="#TomvanderLee" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg11">Voor ons is er inderdaad weinig nieuws, maar een brief vinden we prima. Daarna kunnen we bekijken of er nog een debat nodig is.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg12">Ik wil graag leren van dit rapport, dus daarom steun voor het debat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg13">Er is geen meerderheid, mevrouw Beckerman.</seg>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg14">Is er genoeg steun voor een dertigledendebat?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg15">Ja.</seg>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg16">Dan zou ik graag een dertigledendebat aanvragen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg17">Prima. Dan zullen wij daar rekening mee houden. Ook is er gevraagd om een brief. Ik stel voor, het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg18">Het woord is aan mevrouw Leijten namens de SP.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg19">Voorzitter. Hoe fijn ik het ook vind om u te zien …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg20">Dat is wederzijds.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg21">Ik sta hier liever niet, en al helemaal niet als ik al drie keer eerder om informatie heb gevraagd, maar ook niet als het een debat betreft dat voor morgenavond staat geagendeerd. Artikel 68 van de Grondwet gaat niet alleen over de actieve informatieplicht, maar ook over de passieve. De Kamer is hier al jaren mee bezig. Kom maar op met die stukken! Ik wil ze echt vandaag voor 16.00 uur hebben.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg22">Ik steun het verzoek, maar als het antwoord er niet voor 18.00 uur is, dan stellen wij voor om het debat morgenavond niet te houden. We moeten het namelijk wel ordelijk voorbereiden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg23">Dat is een ander voorstel. Het debat is morgenavond. Dan moet u of mevrouw Leijten morgen bij de regeling van werkzaamheden het verzoek doen om het debat uit te stellen. Dat geldt echter niet voor het steunen van de brief, want die gaat gewoon door.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg24">Voorzitter. Ik verzoek u om de staatssecretaris te bellen, want deze staatssecretaris heeft nog weleens de neiging om de Kamer een brief te sturen zonder de bijlagen erbij te doen.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg25">Dat is het probleem.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg26">Dan weet ik precies waar het eindigt: een brief met een verwijzing naar WOB-verzoeken. De staatssecretaris heeft zelfs de originele stukken niet naar de Kamer gestuurd. Wilt u, voorzitter, de staatssecretaris bellen om de stukken voor 18.00 uur te sturen? En als er iets ligt, dan zie ik graag dat hij zijn eigen appreciatie erbij heeft gedaan, of de Kamer daarover informeert, want deze vraag wordt al twee jaar lang gesteld. Het is geen nieuwe vraag.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg27">Ik wil even reageren op de heer Van Rooijen. Ik snap heel goed dat hij zegt: we moeten dat debat volledig voeren, met alle stukken, maar ik zou het heel slecht vinden als wij een beloning zetten op het niet sturen van stukken, want dat doen we als het debat niet doorgaat. Dus laten we onderling even overleg voeren over de vraag hoe we hiermee omgaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2017-04-19-tweedekamer-5.seg28">Heel goed. Dank u wel. Ik stel voor, het stenogram van dit deel van de vergadering door te geleiden naar het kabinet. Daarmee zijn we gekomen aan het eind van de regeling van werkzaamheden.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

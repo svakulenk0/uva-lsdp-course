@@ -1,0 +1,270 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2020-06-02 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2020-06-02 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 29, Session 7 (2020-06-02)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 29, Session 7 (2020-06-02)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="29">Meeting 29</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #EK.36" corresp="#EK" n="36-upper">Meeting of the 36th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="54">54 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="54">54 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3377">3377 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3377">3377 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2020-06-02">2020-06-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="64"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="54"/>
+               <tagUsage gi="note" occurs="15"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-06-02">2020-06-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Wijziging van de Elektriciteitswet 1998 en Gaswet</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg1">Aan de orde is de voortzetting van de behandeling van wetsvoorstel 35283, Wijziging van de Elektriciteitswet 1998 en Gaswet (implementatie wijziging Gasrichtlijn en een aantal verordeningen op het gebied van elektriciteit en gas). Het wachten is op de minister.</seg>
+            </u>
+            <note>De beraadslaging wordt hervat.</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg2">Ik geef het woord aan de minister van Economische Zaken en Klimaat.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg3">Voorzitter, dank. Ik doe het gewoon even in de volgorde van sprekers en kom dus eerst terecht bij de heer Van der Linden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg4">De heer Van der Linden wijst er terecht op dat wij een connectie hebben, de BBL, die straks bestaat tussen de EU en een niet-EU-land. Die verandert dus van status. Het wordt een interconnector met een derde land. Dat klopt. De transitieperiode loopt tot eind 2020. Ik moet nog zien wat dat allemaal echt wordt, maar tot dan toe blijft het EU-kader natuurlijk in stand. Die interconnector tussen lidstaten voldeed aan het kader, dus het wettelijk regime verandert niet. De bedrijfsvoering van die interconnector kan onverkort door. Dat het een connectie wordt met een derde land, betekent dat de ontheffing opnieuw moet worden aangevraagd, maar de ontheffingsgrondslag blijft. Er is dus geen reden om die uitzondering te weigeren. Het regime verandert niet en er is ook geen reden om je daar zorgen over te maken. De ontheffing moet je dus opnieuw aanvragen, maar de ontheffingsgrondslag blijft en daarmee verandert dus het regime niet. Dit vergt dan ook geen uitvoerige onderhandelingen, maar wel de voorbereiding van een aanvraag. Wie is dan degene die dat met de UK moet regelen? Dat is in dat geval de Europese Commissie.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg5">Dan het punt van de leveringszekerheid. Ook dat klopt. Er komt in de elektriciteitsmix natuurlijk steeds meer niet-regelbaar vermogen. Om dan de balans tussen vraag en aanbod in de gaten te houden, hebben we natuurlijk meer maatregelen nodig. En dat is precies wat we doen. In het pentalateraal energieforum worden vraag en aanbod goed bekeken en wordt ook gekeken wat ervoor nodig is om de Europese consument altijd te kunnen leveren. Dat betekent op allerlei manier uitwisseling, want als het in het ene land niet waait en in het andere wel, dan kun je elkaar helpen. Dan is er in het ene land misschien een overschot en in het andere een tekort. Door dat beter op elkaar aan te sluiten en daar goed over te hebben nagedacht, kun je problemen voorkomen.</seg>
+            </u>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg6">De minister geeft aan dat als het in het ene land wel waait en in het andere land niet, je elkaar moet kunnen helpen, maar het zijn vaak weersystemen van zo'n 1.500 kilometer groot. Als het hier in Nederland niet waait, dan waait het vaak ook niet in Duitsland. Dan gaat deze redenatie toch mank?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg7">Wij kunnen hier allemaal gedachten daarover ontvouwen, maar allerlei specialiseerde partijen zijn precies daarmee bezig. Zij bestuderen precies dit punt; zij kijken wat ervoor nodig is om het systeem in de lucht te houden. Dat doen landen uiteraard samen. In het pentalateraal forum zitten, anders dan je misschien zou denken, zeven landen. De Benelux tellen we als één land. Op basis van kennis van weersystemen en het opwekkingspatroon wordt gezorgd dat dit met elkaar klopt. Maar het is wel daar duidelijk dat je er meer voor moet doen om vraag en aanbod goed op elkaar te laten aansluiten; daar heeft de heer Van der Linden gelijk in.</seg>
+            </u>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg8">Ik krijg een beetje het gevoel dat de minister mijn vraag ontwijkt. Ik had het over die weersystemen die soms gewoon 1.500 kilometer groot zijn. Dan blijft mijn vraag toch staan, want als het in Nederland niet waait, dan waait het in Duitsland ook niet. Dan gaat het dus gewoon mank. Dan kan de minister wel zeggen dat specialiseerde groeperingen daarmee bezig zijn, maar dezelfde groeperingen zeggen dat biomassacentrales duurzaam zijn. Dat zegt mij dus gewoon niets. Ik stel dus nogmaals mijn vraag over dat weersysteem: klopt de stelling dat als het in Nederland niet waait, het in Duitsland ook niet waait?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg9">Nee, dat klopt niet in het algemeen. Omdat dat niet in het algemeen klopt, zijn er mensen die daar heel goed naar kijken en die met kennis van de weersystemen — dat gaat dan niet alleen om de wind, maar ook om de zon — kijken naar de vraag hoe we stabiliteit kunnen garanderen in een systeem met minder regelbaar vermogen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg10">Voorzitter. Dan de vraag van de heer Van der Linden of het zo is dat Nederland via dit soort wetgeving moet bijdragen aan steun voor andere regio's, bijvoorbeeld regio's die nu op kolen zitten. Nee, dat heeft met deze wetgeving niets te maken. Ik denk dat de heer Van der Linden het over artikel 4 van de elektriciteitsmarktverordening heeft. Daarin staat geen financieel steuninstrument. Artikel 4 heeft het bijvoorbeeld over technische bijstand. Lidstaten kunnen van elkaar leren, zij kunnen workshops organiseren, maar het heeft geen financiële gevolgen voor de Europese Unie en ook niet voor de nettarieven. Het gaat dus niet via de nettarievensubsidie naar Poolse kolenregio's.</seg>
+            </u>
+            <u who="#RenevanderLinden" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg11">Ik vraag toch wat verduidelijking, want in de paragraaf waar de minister naar verwijst, de paragraaf over de financiële gevolgen en de lasten voor de overheid en het bedrijfsleven staat dat de kosten die voor die werkzaamheden worden gemaakt, kunnen worden verdisconteerd in de nettarieven. De kosten van die samenwerking heb ik in mijn eerste termijn beschreven. Dan is het toch gewoon zo dat de nettarieven omhooggaan door die kosten voor de Nederlandse afnemer en belastingbetaler?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg12">We hebben het hier over een zodanig groot aantal wetten die in elkaar grijpen dat ik dan met precisie zou willen antwoorden op dat precieze punt. Het ongebruikelijke voorstel van mij aan de heer Van der Linden is dus om even te omcirkelen waar hij dat in de wetgeving vindt. Dan kan ik met precisie reageren op waar zijn zorg in zit, want anders zijn we misschien langs elkaar heen aan het praten. Kan ik de heer Van der Linden dus symbolisch een pen aanbieden? Niet fysiek aan te pakken, want je weet nooit of je ziek wordt.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg13">Ik stel voor dat u dat tijdens de schorsing regelt en dat u daar in de tweede termijn op terugkomt.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg14">Uitstekend. Laten we dat zo doen. De penaanbieding is dus symbolisch.</seg>
+            </u>
+            <u who="#RenevanderLinden" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg15">Ik heb een punt van orde. Het is echt een miniparagraaf. Ik kan die hier gewoon direct voorlezen aan de minister.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg16">Ik laat het aan de voorzitter over hoe we dat doen.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg17">Als u die wilt voorlezen, dan is dat prima.</seg>
+            </u>
+            <u who="#RenevanderLinden" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg18">In de memorie van toelichting staat: "Om lidstaten en regio's die als gevolg van de energietransitie met sociale, economische en industriële uitdagingen worden geconfronteerd te ondersteunen, introduceert de Europese Commissie een initiatief voor steenkool- en koolstofintensieve regio's. Deze regio's kunnen onder meer met directe financiële steun worden bijgestaan om een rechtvaardige transitie mogelijk te maken." Dat staat in artikel 4. Verderop in de toelichting staat de passage die ik net noemde, namelijk de passage waarin staat dat de kosten voor die werkzaamheden kunnen worden verdisconteerd in de nettarieven. Dat is voor de overheid neutraal, maar voor de betaler van die tarieven niet.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg19">Deze zinnen staan niet achter elkaar in de stukken, maar wel ergens. Dit heb ik al eerder gehoord van de heer Van der Linden, maar mijn vraag aan hem is om even precies aan te duiden in welk stuk dat staat, want dan weet ik op welke wetgeving dat slaat. Maar we laten het aan de voorzitter over om de daarvan de regulering te doen.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg20">Nee, nee, meneer Van der Linden. Ik stel voor dat u dat in de schorsing doet. Wellicht komt de minister er in de tweede termijn dan op terug.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg21">Dat lijkt mij uitstekend. Ik denk dat de heer Van der Linden en ik daarmee prima zijn bediend. Dan kom ik daar later op terug.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg22">Mevrouw Faber had zorgen over de leveringszekerheid en met name over de groepen die beschermd zouden zijn. Er worden niet zozeer groepen toegevoegd. De beschermde afnemers zijn huishoudens en essentiële sociale diensten, zoals de gezondheidszorg. Het is waar dat allerlei andere groepen niet prioritair zijn. Mocht het nodig zijn die af te schakelen, dan bestaat voor dat geval ook de mogelijkheid in de wetgeving tot een vergoeding van hun kosten. Dat gaat ook om kosten van afnemers die in dat bijzondere geval zouden worden afgeschakeld. Mevrouw Faber heeft gevraagd of dat een kettingreactie veroorzaakt. Maar het lijkt er nu op dat ze eerst nog een andere vraag heeft.</seg>
+            </u>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg23">Ik wil nog even iets vragen over die risicogroepen, want in de memorie van toelichting staat wel een rijtje genoemd. Daar staan de huishoudens op. Die worden voor het eerst genoemd. Die zitten er sowieso in. Dan wordt er een rijtje genoemd van onder andere sociale instellingen en volgens mij scholen of ziekenhuizen of zoiets dergelijks. Daaronder staat dat de lidstaten die kunnen toewijzen tot beschermde afnemers. Maar mijn vraag was: welke groepen zijn er in Nederland toegevoegd aan deze beschermde groep? Is dat dat rijtje dat in de memorie van toelichting staat?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg24">Ja.</seg>
+            </u>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg25">Oké. Dat was mij niet helemaal duidelijk. Dank u wel.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg26">Maar mevrouw Faber vroeg ook: geeft dat dan een kettingreactie? Dat vind ik een logische vraag, want je kan je voorstellen dat Polen een tekort heeft, waardoor Duitsland aan Polen moet leveren, want zij zijn buren, maar dan moet Nederland weer aan Duitsland leveren en zo gaat het maar door. Maar dat kan niet, want zo zit de regel niet in elkaar. Je bent alleen maar gehouden aan een buurland te leveren als je daardoor niet zelf je beschermde afnemers hoeft te duperen. Dus in het geval dat Duitsland aan Polen levert, doet Duitsland dat op een zodanige manier dat het niet de eigen beschermde afnemers hoeft te duperen. Daardoor komt ook de situatie niet voor dat Nederland dan weer aan Duitsland zou moeten leveren. Daarmee is dus de kettingreactie niet aan de orde. Maar het was een goede vraag. Als een land dus zijn buren helpt, brengt het daarmee nooit zijn eigen beschermde afnemers in gevaar en hoeft het ook niet, en kan het ook niet, een beroep doen op zijn eigen buurland, want zijn eigen beschermde afnemers zijn niet in gevaar.</seg>
+            </u>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg27">Ik begrijp deze uitleg van de minister over de beschermde afnemers. Maar de grote bedrijven kunnen dan wel in de knel komen te zitten, want die zijn geen beschermde afnemers.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg28">Dat is waar. Die zouden daar ook voor gecompenseerd kunnen worden, maar dat geeft dus geen kettingreactie. Als Duitsland Polen helpt, dan kan het zo zijn dat Duitse bedrijven daardoor een probleem krijgen, maar omdat die geen beschermde afnemers zijn, kan Duitsland geen beroep doen op Nederland. Op ons heeft dat dan dus geen invloed.</seg>
+            </u>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg29">Deze uitleg van de minister is duidelijk. Ik heb aan de minister niet de vraag gesteld of bedrijven binnen die groep vielen, maar nu is in ieder geval duidelijk dat die geen beschermde status hebben in het geval dat wij wel zouden moeten leveren, want de grote bedrijven vallen niet onder de solidair beschermde afnemers.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg30">Ja, er is een onderscheid tussen de beschermde en de niet beschermde afnemers.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg31">Dan vraagt zij in haar tweede eerste termijn — ja, de nummering wordt complex — of bij de 0,8% efficiencywinst per jaar rekening gehouden is met bevolkingsgroei. Er is in die zin rekening gehouden met bevolkingsgroei dat dit het nettogetal is, waarbij de verwachte bevolkingsgroei is meegerekend. Zij vraagt ook of de kortingen op de doorleverkosten ... O, ik zie dat het antwoord niet in één keer bevredigend is. Ik kijk even naar de voorzitter om te zien of hij het woord wil geven aan mevrouw Faber.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg32">Dat zal ik zo doen. We hebben het nu in de eerste termijn van de minister uitsluitend over het eerste wetsvoorstel. We hebben straks nog een aparte eerste termijn van de minister over het tweede te behandelen voorstel.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg33">Daar ben ik eerlijk gezegd nu mee begonnen.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg34">Dat heb ik nu niet geagendeerd.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg35">Ah, dan zijn wij helemaal buiten de orde.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg36">Wij spreken nu over het eerste te behandelen wetsvoorstel. Het is mijn taak om de orde een beetje te bewaken.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg37">Zeker. Nee, dit wordt onordelijk. Ik zie het.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u33">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg38">Ik zou willen oproepen om u deze termijn te beperken tot het eerste genoemde wetsvoorstel. Dan komen we straks toe aan de eerste termijn van de regering over het tweede wetsvoorstel.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u34">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg39">Zeker. Dan was dit mijn eerste eerste termijn. Wij komen daar nog op terug.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u35">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg40">Gaat uw gang.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u36">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg41">Mag ik dat nu wel doen? Kunnen we nu aan de tweede eerste termijn beginnen? Ik kijk even naar de voorzitter. Nee, nog lang niet. Nee, nee.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u37">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg42">Nee, we gaan dit wetsvoorstel nu eerst behandelen in de eerste termijn van de regering. Straks krijgen we een aparte eerste termijn van de regering over het tweede wetsvoorstel. We houden dus twee debatten.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u38">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg43">Goed, dan ben ik aan het eind gekomen van mijn eerste eerste termijn.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u39">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg44">Dank u wel. Dan geef ik het woord voor de tweede termijn van de Kamer aan de heer Van der Linden.</seg>
+            </u>
+            <u who="#RenevanderLinden" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u40">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg45">Dank u wel, voorzitter. Dank ook aan de minister voor de beantwoording van de vragen die wij stelden. Dat waren er eigenlijk drie aan de hand van drie onderwerpen die wij aansneden, ten eerste de status van de brexitonderhandelingen. De minister heeft aangegeven dat de bedrijfsvoering niet in gevaar komt, dat die doorgaat en dat er op dat punt geen reden is voor zorg.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg46">Het tweede punt ging over de wiebelstroom, over het regelbare vermogen. Wat de minister daarover aangaf, was ons eigenlijk ook al duidelijk. Het is goed dat die bevestiging er is. Er komt meer niet-regelbaar vermogen door zon- en windenergie. Dat moet je dus regelen. Dat gebeurt ook in dit wetsvoorstel. Helaas, zeg ik daar namens mijn fractie bij. Wij zijn voorstanders, sterke voorstanders, van energieleveringszekerheid, van regelbaar vermogen. Daarvoor moet je niet bij zon en wind zijn. Je moet dat zoeken in de hoek van kernenergie en thorium. Totdat dat gerealiseerd is — want dat staat er ook niet morgen — kun je prima uit de voeten met gas en hypermoderne kolencentrales, waarvan helaas besloten is om die vroegtijdig te sluiten.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg47">Dan het laatste punt dat ik in mijn eerste termijn aan de orde stelde. Is het nu mogelijk dat er betaald wordt voor aan het gas koppelen van woningen of bedrijven in de EU via de tarieven van onze netbeheerders? Daar is nog geen uitsluitsel over. Ik heb daar wel een motie voor gemaakt, maar het kan zijn dat we in de schorsing tot de conclusie komen dat ik die niet hoef in te dienen als de minister absoluut bevestigt dat het uitgesloten is dat Nederlands belastinggeld wordt aangewend om in het buitenland woningen aan het aardgas te koppelen, terwijl het beleid hier in Nederland er momenteel helaas op gericht is om miljoenen uit te geven om woningen van het aardgas af te halen. Als hij dat niet uitsluit, zou ik daar een motie voor willen indienen. Maar als de minister echt expliciet uitsluit dat dat het geval is, doe ik dat niet. Ik kijk dus ook even naar de voorzitter: wat is dan de ordelijke gang van zaken?</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u41">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg48">U kunt de motie nu indienen of straks om een derde termijn vragen. Indien de Kamer u een derde termijn toestaat, kunt u alsnog uw motie indienen. Of u dient haar nu in, en trekt die even later terug.</seg>
+            </u>
+            <u who="#RenevanderLinden" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u42">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg49">Dan zal ik de motie voor het gemak nu indienen. Ik lees haar even voor en trek haar eventueel terug; dan hoeft er ook geen derde termijn te komen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg50">De:</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg51">Door het lid Van der Linden wordt de volgende motie voorgesteld:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat via de wet Implementatie wijziging Gasrichtlijn en een aantal verordeningen op het gebied van elektriciteit en gas het mogelijk wordt dat kosten voor directe steun door de EU aan steenkool- en koolstofarme regio's binnen de EU in rekening worden gebracht bij Nederlandse huishoudens via de netbeheerdertarieven;</note>
+               <note>constaterende dat niet uitgesloten is dat daarmee Nederlands belastinggeld wordt aangewend om in het buitenland woningen aan het aardgas te koppelen, terwijl het beleid in Nederland er momenteel op gericht is om miljoenen uit te geven om woningen van het aardgas af te halen;</note>
+               <note>verzoekt de minister om aan de Europese Commissie te laten weten dat de Nederlandse belastingbetaler op geen enkele manier wenst op te draaien voor kosten in het buitenland, om inwoners en/of bedrijven daar aan te sluiten op aardgas,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-35283-G</note>
+            </u>
+            <note>Wenst een van de leden in tweede termijn nog het woord over het wetsvoorstel 35283? Dat is niet het geval. Is de minister in de gelegenheid om direct te antwoorden op de zojuist afgesloten termijn van de Kamer over wetsvoorstel 35283?</note>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u43">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg52">Ik kan nog geen reactie geven op de motie, als u dat bedoelt.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u44">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg53">Is de minister in de gelegenheid om direct te antwoorden in tweede termijn op deze tweede termijn van de Kamer over wetsvoorstel 35283? Zo ja, dan geef ik de minister daarvoor graag het woord en kan hij zijn termijn aanvangen. Zo niet, dan schors ik voor een termijn die de regering vraagt.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u45">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg54">De enige reactie die er van mij verlangd wordt, is een reactie op de motie, en daarvoor heb ik even ruggespraak nodig.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u46">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg55">Dan schors ik eventjes voor vijf minuten.</seg>
+            </u>
+            <note>De vergadering wordt van 14.53 uur tot 14.59 uur geschorst.</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u47">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg56">Ik geef het woord voor de tweede termijn van de zijde van de regering over wetsvoorstel 35283 aan de minister van Economische Zaken en Klimaat.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u48">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg57">Ja, voorzitter, daarom is het zo nuttig af en toe om niet alleen te weten wát er staat, maar ook wáár het staat. Want de teksten die de heer Van der Linden voorlas, waren allemaal letterlijke teksten, op bladzijde 11 en op bladzijde 13 van de memorie van toelichting, maar ze slaan niet op elkaar. Het is waar dat regio's kunnen worden bijgestaan voor een rechtvaardige transitie, een "just transition"; dat is waar, dat staat op pagina 11. Dan staat er op pagina 13 dat "De kosten die voor deze werkzaamheden worden gemaakt, kunnen worden verdisconteerd in de nettarieven". Dat gaat over iets volstrekt anders. Dat gaat niet over enige steun aan kostenintensieve regio's, maar dat gaat over de specifieke kosten voor samenwerking tussen regionale netbeheerders, zoals die voortvloeien uit een op te richten entiteit. Dat is artikel 53. Die kosten, ter waarde van ongeveer, grosso modo, naar de huidige schatting van de experts, €1 per jaar per huishouden, kunnen, zo zij zich voordoen, worden verdisconteerd in de nettarieven. Maar dat gaat over iets volstrekt anders dan pagina 11. Dat is het geruststellende deel van mijn mededeling.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg58">Tegelijkertijd zie ik dat de motie niet rechtstreeks te maken heeft met de zorgen rond pagina 11 en pagina 13, want dan kon in nóg geruststellender zijn en de motie overbodig maken. Ik weet niet zeker of ik dat nu nog kan, want hier staat dat wij "op geen enkele manier" bijdragen aan kosten in het buitenland. Dat kan ik niet overzien, dat is een gesprek dat ook nog loopt. En het moet niet op dit specifieke issue worden bekeken, maar daarbij moet het Nederlandse belang in den brede worden gewogen. Daarom wil ik deze motie, in deze breedte, ontraden.</seg>
+            </u>
+            <u who="#RenevanderLinden" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u49">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg59">De minister brengt het in deze context, in deze brede zin. Maar is nou uitgesloten dat de Nederlandse belastingbetaler gaat betalen voor het aan het aardgas koppelen van woningen in het buitenland, of niet? Als het absoluut uitgesloten is dat er, terwijl wij hier van het aardgas afgaan, wordt meebetaald aan het aan het aardgas helpen van andere landen, dan staat hier een tevreden man. Maar als u aangeeft dat dat niet helemaal zeker is en dat de Nederlandse belastingbetaler daar misschien ook nog voor gaat betalen, maken we ons nog meer zorgen.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u50">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg60">Voor ongeveer ieder land in de Unie is aardgas een transitiebrandstof, ook voor ons. Er is nog sprake van aardgasgebruik tot en met 2050. We winnen ook nog aardgas tot 2050. Dus het is niet raar dat aardgas als transitiebrandstof wordt ingezet in allerlei landen. Ik kan niet zien of het specifiek zo is dat wij op geen enkele manier bijdragen aan die transitie in andere landen. Ik kan voorlopig alleen maar zien dat het onverstandig is om ons op één punt vast te leggen, omdat het Nederlandse belang altijd in den brede wordt nagestreefd. Daarom ontraad ik deze motie, in deze vorm.</seg>
+            </u>
+            <u who="#RenevanderLinden" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u51">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg61">De minister geeft aan dat hij dat niet kan overzien. Kan hij dan in ieder geval duiden of hij het wel of niet wenselijk zou vinden als Nederlandse belastingbetalers zouden gaan betalen voor het aan het aardgas koppelen van landen in het buitenland, van inwoners in het buitenland? De minister zegt dat hij het niet kan overzien. Maar vindt hij het wenselijk of onwenselijk?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u52">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg62">Ik vind het wenselijk dat wij vanuit het Nederlandse belang in den brede onze inzet in Europa bepalen en ons niet alleen richten op één aspect. Dus of dit wenselijk is, hangt voor mij af van de bredere context van waar we uiteindelijk uitkomen. Uiteindelijk zal de heer Van der Linden dat misschien, holistisch gezien, ook nog wel met mij eens zijn.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u53">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg63">Komt u daarmee tot het eind van uw tweede termijn? Dat is het geval.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.u54">
+               <seg xml:id="ParlaMint-NL_2020-06-02-eerstekamer-7.seg64">Ik kom tot afhandeling van het wetsvoorstel. Wenst een van de leden stemming over het wetsvoorstel? Dat is het geval. Dan stel ik voor dat we volgende week dinsdag stemmen over het wetsvoorstel. Tevens stel ik voor om volgende week te stemmen over de ingediende motie.</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,265 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-09-04 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-09-04 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 104, Session 9 (2019-09-04)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 104, Session 9 (2019-09-04)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="104">Meeting 104</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="9">Session 9</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="43">43 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="43">43 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2428">2428 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2428">2428 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-09-04">2019-09-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="48"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="43"/>
+               <tagUsage gi="note" occurs="48"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-09-04">2019-09-04</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Kinderopvang</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg1">Aan de orde is het VAO Kinderopvang. We hebben vier aangemelde sprekers. Ik heet de staatssecretaris van Sociale Zaken en Werkgelegenheid van harte welkom. Ik heet ook de collega's en de kijkers thuis van harte welkom. Ik geef als eerste het woord aan de heer Van Meenen van D66.</seg>
+            </u>
+            <u who="#PaulvanMeenen" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg2">Ik moet nog even mijn motie pakken, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg3">Dat vreesde ik al.</seg>
+            </u>
+            <u who="#PaulvanMeenen" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg4">Sorry, voorzitter. Dit is geen gelukkige entree in dit gezelschap, waar ik voor het eerst het woord mag voeren over het mooie onderwerp van de kinderopvang. Ik zal er geen gewoonte van maken. Maar ik heb wel een motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er onenigheid is over het al dan niet bestaan van een personeelstekort in de kinderopvang;</note>
+               <note>overwegende dat het van groot belang is dat er voldoende personeel is in de kinderopvang voor de ontwikkeling van het kind en de emancipatie van mannen en vrouwen;</note>
+               <note>verzoekt de regering een arbeidsmarktvisie op te stellen voor de kinderopvang, waarin ten minste een plan wordt opgesteld voor de krapte op de arbeidsmarkt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Meenen en De Pater-Postma. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31322-400</note>
+            </u>
+            <note>Bent u klaar?</note>
+            <u who="#PaulvanMeenen" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg5">Ik wel, maar ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg6">O, ik zie een interruptie van mevrouw Nijkerken-de Haan.</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg7">Even ter verduidelijking. Het punt arbeidsmarktkrapte hebben we inderdaad uitgebreid besproken. Daar heb ik ook aandacht voor gevraagd. De staatssecretaris heeft ook toegezegd om met de branche in gesprek te gaan. Moet ik uit deze motie nu afleiden dat D66 wil dat we straks voor iedere sector of branche waar arbeidsmarktkrapte is — dat is namelijk op heel veel plekken het geval — allemaal aparte plannetjes gaan maken? Zou het niet veel beter zijn om dit in een groter verband te bekijken en met één groot plan te komen voor het aanvliegen van de arbeidsmarktkrapte?</seg>
+            </u>
+            <u who="#PaulvanMeenen" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg8">Wellicht wel, maar zo hebben we het niet georganiseerd in dit huis, volgens mij. Ik mag zelf met regelmaat het woord voeren over onderwijs. Daar is ook een tekort, een lerarentekort. Dat vraagt toch net weer om een andere aanpak dan in andere sectoren nodig is, denk ik. Ik denk dat elke aanpak weer zijn eigenheid heeft in de branche waarin hij zich afspeelt. Dus ja, als het allemaal samenkomt, zou dat natuurlijk mooi zijn, maar je moet wel ergens beginnen met nadenken over de oplossing voor de krapte op de arbeidsmarkt in deze sector.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg9">Nog een korte vervolgvraag, want het is een VAO.</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u10">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg10">U heeft gelijk, voorzitter. Ik zal het hierbij laten. U begrijpt hoe ik over deze motie denk.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u11">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg11">Dat begrijp ik. Dank u wel, meneer Van Meenen. Dan is het woord aan mevrouw Westerveld van GroenLinks.</seg>
+            </u>
+            <u who="#LisaWesterveld" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u12">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg12">Dank u wel, voorzitter. GroenLinks is net als heel veel andere partijen hier groot voorstander van meer samenwerking tussen onderwijs en kinderopvang, maar we zien wel dat wet- en regelgeving die samenwerking soms bemoeilijkt. Als je bijvoorbeeld werkt op een voorschool, dan is het heel moeilijk om daarna nog bij te kunnen springen in klassen in het basisonderwijs. Daarover hebben wij de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat steeds meer scholen nauw samenwerken met kinderopvang;</note>
+               <note>overwegende dat deze samenwerking tussen onderwijs en kinderopvang voor kinderen meerwaarde oplevert als medewerkers uit verschillende sectoren inhoudelijk samenwerken, bijvoorbeeld in interprofessionele teams;</note>
+               <note>overwegende dat huidige cao's en wet- en regelgeving dit belemmeren;</note>
+               <note>verzoekt de regering te onderzoeken welke knelpunten er zijn die deze nauwe samenwerking tussen personeel uit verschillende sectoren bemoeilijkt;</note>
+               <note>verzoekt de regering ook in kaart te brengen wat nodig is om deze samenwerking te bevorderen en hierbij naast cao's en wet- en regelgeving te kijken naar de aansluiting van opleidingen en gezamenlijke (na)scholing,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Westerveld. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31322-401</note>
+            </u>
+            <u who="#LisaWesterveld" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u13">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg13">Ik heb nog een motie, voorzitter.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de verschillende financieringsstromen in de kinderopvang en het versnipperde beleid zorgen voor enorme bureaucratie en extra kosten;</note>
+               <note>overwegende dat uit onderzoek bijvoorbeeld blijkt dat vanwege het ingewikkelde stelsel vrijwel alle gemeenten ouders ondersteunen in het begeleiden en toeleiden van peuters naar de voorschool;</note>
+               <note>overwegende dat ook kinderopvangorganisaties veel tijd kwijt zijn aan het helpen van ouders bij het aanvragen van toeslagen en subsidies;</note>
+               <note>verzoekt de regering te onderzoeken wat de kosten zijn van de bureaucratie en de ondersteuning die ouders krijgen vanwege de verschillende financieringsstromen en het versnipperde beleid van het kinderopvangstelsel,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Westerveld. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31322-402</note>
+            </u>
+            <note>Dank u wel. Dan geef ik het woord aan de heer Gijs van Dijk van de Partij van de Arbeid.</note>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u14">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg14">Voorzitter, dank u wel. Ik heb één punt naar aanleiding van het algemeen overleg. We hebben het onder andere gehad over kinderopvangclubs die in meerdere gemeenten zitten. Er zijn weleens clubs — gelukkig niet heel veel, maar er zijn er een paar — die in al die gemeenten net voldoende of onvoldoende scoren, als je kijkt naar de rapporten. Eigenlijk ontbreekt er een landelijk overleg waar je dit soort problemen op tijd kan ondervangen en zo'n club kan aanspreken, omdat zij moedwillig sturen op de grootte van de club, omdat zij meer gedreven worden door winst dan door goede zorg voor de kinderen. Dat gaat ten nadele van de zorg van de jonge kinderen en ten nadele van de ouders die daarop moeten vertrouwen. Wat kan de staatssecretaris daar nog meer aan doen? Ik begrijp dat het moeilijk is om landelijk iets in wetgeving te regelen, maar ik kan me wel voorstellen dat er iets af te spreken valt met de VNG en met de GGD.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg15">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u15">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg16">Dank u wel. Dan is tot slot het woord aan de heer Kwint van de SP.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u16">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg17">Dank, voorzitter. Ik wil beginnen met iets over de kinderopvangtoeslag. Ik was de afgelopen zomer diep geraakt toen ik de verhalen los over het onrecht dat maar liefst 280 mensen die zich bij ons, bij de SP, hebben gemeld is aangedaan door toedoen van onze Belastingdienst. Mensen wier leven echt kapotgemaakt is. Niet door domme pech, niet omdat het een keer tegenzat, maar door een falende overheid. Daarom wil ik de staatssecretaris in ieder geval ons rapport met al die 280 meldingen aanbieden. Ik hoop dat ze die verhalen tot zich wil nemen, want dit gaat niet alleen over toeslagen en de Belastingdienst. Dit gaat niet alleen over uitvoering. Dit gaat ook over hoe verschrikkelijk ingewikkeld we de kinderopvang in ons land hebben georganiseerd en over het rondpompen van geld terwijl mensen klem komen te zitten in een voor hen, en eerlijk gezegd voor mij soms ook, onbegrijpelijk systeem. Dus staatssecretaris, bij dezen het verzoek: hou die wetten tegen het licht. Kijk niet alleen naar de fouten in de uitvoering, maar ook naar dit onbegrijpelijke systeem. Ik hoop dat u daarbij de verhalen van deze mensen in uw achterhoofd wil houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg18">En dan nog een motie over iets totaal anders: de personeelstekorten.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat mede door politieke keuzes zoals de beroepskracht-kindratio maar ook de krapte op de arbeidsmarkt er een personeelstekort in de kinderopvang bestaat;</note>
+               <note>constaterende dat andere bewindspersonen, bijvoorbeeld die voor Zorg, allerlei actieplannen presenteren om personeel te behouden dan wel aan te trekken;</note>
+               <note>overwegende dat de werkgevers in de kinderopvang niet verder willen gaan dan een marktconforme loonstijging, die geen recht doet aan de gigantische personeelstekorten;</note>
+               <note>verzoekt de regering om in overleg te treden met de werkgevers- en werknemersorganisaties kinderopvang en eventueel met de onderwijssector en samen tot een actieplan te komen om het personeelstekort in de kinderopvang terug te dringen en hierbij aan te dringen op een hogere loonstijging dan marktconform,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kwint. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31322-403</note>
+            </u>
+            <note>Dank u wel. Ik denk dat de staatssecretaris deze motie even wil zien. Ik schors voor vijf minuten.</note>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u17">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg19">Ik geef het woord aan de staatssecretaris van Sociale Zaken en Werkgelegenheid voor de beantwoording van de gestelde vragen en de beoordeling van de moties.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u18">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg20">Voorzitter, dank u wel. Dank aan de Kamerleden voor hun inbreng hier, maar ook tijdens het algemeen overleg, waarin wij een aantal belangrijke zaken hebben besproken die spelen in de sector. Ik heb er een aantal toezeggingen gedaan die uiteraard uitgevoerd worden en deels ook op deze thema's liggen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg21">Ik heb één vraag gekregen en een viertal moties. De vraag was van de heer Gijs van Dijk over het toezicht en de handhaving, met name bij gemeenteoverstijgende of zelfs regio-overstijgende organisaties, en het landelijk overleg daarover. Ik heb tijdens het algemeen overleg iets aangegeven dat ik hier graag herhaal: ik ben in overleg met de GGD GHOR en de VNG over de informatie-uitwisseling tussen de regio's en de gemeenten. Op dit moment wordt er op verschillende niveaus informatie uitgewisseld. Het leek ons goed om eens flink onder de loep te leggen of het allemaal goed gaat, of er meer nodig is en zo ja, wat er nodig is. Dat pak ik dus op.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg22">Voorzitter, ik kom bij de moties. Ik constateer dat er twee moties zijn over de krapte op de arbeidsmarkt. Dat geeft aan dat dat een prangend punt is. Dat is zeker een onderwerp dat altijd ter sprake komt als ik bijvoorbeeld werkbezoeken doe of praat met mensen uit de kinderopvang. Dat is natuurlijk ook gelegen in het feit dat zij dubbelop te maken hebben met economische ontwikkeling. Nu het goed gaat met de economie, zijn er steeds meer mensen die een plek willen in de kinderopvang. Tegelijkertijd ervaren zij ook de krapte in de arbeidsmarkt. Die komt dus dubbelop binnen bij de kinderopvangsector. Dat onderwerp herken ik dus inderdaad uit de inbreng van de Kamerleden in het algemeen overleg, maar ook uit de moties die flink op de agenda staan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg23">De heer Van Meenen vraagt mij in zijn motie op stuk nr. 400 hierover een arbeidsmarktvisie op te stellen, een plan voor de krapte op de arbeidsmarkt. Op dit moment zien we — dat moeten we helaas ook constateren — arbeidsmarktkrapte in verschillende sectoren, ook sectoren die dicht bij de kinderopvang liggen, bijvoorbeeld de zorg of het onderwijs. Minister Koolmees houdt zich bezig met de integrale visie op die krapte in de arbeidsmarkt. Binnen dat kader zou ik zeggen: laten we de integrale visie, de algehele visie, daar laten. Tegelijkertijd zie ik wel dat er hier wat nodig is. Ik ben ook in gesprek met de kinderopvangsector om te kijken of we elkaar kunnen versterken. Waar liggen kansen? Waar liggen bedreigingen en wat kunnen we daaraan doen? Als ik het zo mag opvatten dat we aan de hand van die gesprekken een soort spoorboekje formuleren, waarbij we kijken of we ook oplossingen hebben, dan zou ik de motie oordeel Kamer kunnen geven. Om een beetje een gevoel te geven bij wat ik bedoel: kijk bijvoorbeeld naar de discussie die er was over cijfers. Een gesprek daarover leidt ertoe dat er bij de volgende kraptecijfers van het UWV een verschil wordt gemaakt tussen bijvoorbeeld de pedagogisch medewerkers en de onderwijsassistenten. Dat was een van de bronnen waardoor er een verschil ervaren was in de cijfers over de krapte. Die gesprekken helpen dus. Op die manier zou ik graag vormgeven aan deze motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u19">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg24">De motie op stuk nr. 400 heeft met de gegeven toelichting oordeel Kamer. U komt bij de motie op stuk nr. 401.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u20">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg25">Ik kom bij de motie van mevrouw Westerveld op stuk nr. 401. Zij vraagt naar de samenwerking tussen onderwijs en kinderopvang. Dat is ook een heel belangrijk punt. Die huizen vaak ook in dezelfde gebouwen. We hebben al een taskforce aan het werk gehad over de samenwerking tussen onderwijs en kinderopvang. Die hebben in 2017 onderzocht welke knelpunten er zijn. Ze hebben gekeken naar de samenhang tussen het onderwijs en de kinderopvang en ze hebben ook een flink aantal adviezen daarover gegeven. Er worden inderdaad knelpunten ervaren, maar er zijn ook best wel een aantal mogelijkheden om ter hand te nemen. Zo zijn er bijvoorbeeld in het land al verschillende opleidingen gestart met een beroepsprofiel dat gericht is op functies in zowel de kinderopvang als in het onderwijs. Dat zijn opleidingen die in nauwe samenwerking met het werkveld zijn gestart. Omdat dat op dit moment plaatsvindt, zou ik willen zeggen dat we deze motie al aan het uitvoeren zijn. Dat klinkt misschien iets sympathieker dan dat ik moet zeggen dat ik deze motie ontraad.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u21">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg26">De motie op stuk nr. 401 is ontraden, maar mevrouw Westerveld wil daar nog wat over kwijt.</seg>
+            </u>
+            <u who="#LisaWesterveld" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u22">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg27">Ja, voorzitter. Dat er knelpunten zijn, is natuurlijk niet nieuw. Ik weet ook dat er aan aantal oplossingsrichtingen zijn ingesteld. Ik snap ook best wel dat de staatssecretaris zegt: we zijn ermee bezig. Dan zou ik het misschien wel prettig vinden om over een tijdje overzichtelijk in een brief op een rijtje te krijgen wat er nu allemaal gebeurt. Ik weet niet of dat een optie is? Dan laat ik de motie vallen. Ik ben even de formulering kwijt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u23">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg28">Dan trekt u haar in.</seg>
+            </u>
+            <u who="#LisaWesterveld" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u24">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg29">Dan trek ik de motie in. Het is reces geweest. Kunnen we dat over een tijdje overzichtelijk op een rij krijgen? Nogmaals, ik weet dat er van alles gebeurt, maar de problemen zijn natuurlijk ook nog steeds actueel.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u25">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg30">Absoluut. Het is zeker belangrijk om daar aandacht voor te houden. Ik kijk even met een schuin oog of wij hier in de volgende verzamelbrief wellicht een passage over kunnen opnemen. We zoeken naar een geschikt moment, maar dat zouden we kunnen overwegen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u26">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg31">De staatssecretaris doet een toezegging en mevrouw Westerveld trekt haar motie in.</seg>
+            </u>
+            <note>Aangezien de motie-Westerveld (, nr. ) is ingetrokken, maakt zij geen onderwerp van beraadslaging meer uit.</note>
+            <note>Dan de motie op stuk nr. 402.</note>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u27">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg32">Ik kom dan bij de motie op stuk nr. 402, ook van mevrouw Westerveld. Die heb ik als volgt ervaren. Mevrouw Westerveld heeft eerder een motie ingediend. De afronding van onze interdepartementale beleidsonderzoeken naar toeslagen en deeltijdwerk begint naderbij te komen. Ik heb al toegezegd om na afronding te onderzoeken hoe het stelsel eenvoudiger gemaakt kan worden. Mevrouw Westerveld heeft daar eerder een motie over ingediend, die ook is aangenomen. Ik zou kunnen kijken of die motie al in uitvoering is. Deze motie ontraad ik dus ook.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u28">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg33">De motie op stuk nr. 402 is ontraden, maar mevrouw Westerveld wil daar nog wat over vragen.</seg>
+            </u>
+            <u who="#LisaWesterveld" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u29">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg34">Ja, want de vorige motie, die is aangenomen, gaat echt over het stelsel. Deze motie vraagt wat de kosten zijn als het gaat om bureaucratie. Dat is toch iets anders dan een motie die vraagt om het stelsel simpeler te maken. Als de staatssecretaris zegt "deze motie is overbodig, want we doen dit al", dan vraag ik me af of we het over hetzelfde hebben.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u30">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg35">Ik lees de motie aan de ene kant in het licht van de discussie in het AO. Daar zijn wat lopende onderzoeken over. Hier wordt inderdaad specifiek ingezoomd op de bureaucratie. Het is vrij lastig om dit helemaal te gaan uitpluizen. Ik zou bijna zeggen dat we een hele bureaucratie moeten optuigen om hierachter te komen. Ik zou zeggen: laten we deze discussie ook betrekken bij de interdepartementale beleidsonderzoeken die eraan komen, om daar in ieder geval een eerste stap in te zetten. Dit zou me nu te ver gaan, want ik zou ontzettend veel moeten optuigen om dit in de verschillende financieringsstromen te achterhalen. Daarom ontraad ik de motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u31">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg36">De motie op stuk nr. 402 blijft ontraden. Mevrouw Westerveld?</seg>
+            </u>
+            <u who="#LisaWesterveld" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u32">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg37">Ik ga hier nog even over nadenken, voorzitter. Ik denk dat het heel goed is als we veel meer zicht krijgen op de kosten. We gaan ons dus nog even beraden op wat we met deze motie gaan doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u33">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg38">Dat kan. Aanstaande dinsdag staan de stemmingen gepland. U kunt tot die tijd doorgeven wat u met de motie doet. We gaat naar de laatste motie, namelijk die op stuk nr. 403.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u34">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg39">Die motie gaat ook over de krapte op de arbeidsmarkt in de kinderopvang. Deze motie grijpt in in de dialoog die belegd is bij sociale partners en vraagt om aan te dringen op een hogere loonstijging. Daar kan ik niet in interveniëren en daarom ontraad ik deze motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u35">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg40">De motie op stuk nr. 403 is ontraden, maar de heer Kwint wil daar nog wat over vragen.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u36">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg41">Ja. Ik heb namelijk erg mijn best gedaan op deze formulering. Er staat niet "geef mensen in de kinderopvang meer geld", wat verder trouwens een uitstekend idee zou zijn. Hier staat: ga in gesprek, zo'n beetje conform wat de heer Van Meenen voorstelde, en dring daarop aan. Ik snap best dat de staatssecretaris niet kan afdwingen dat mensen die bij een private instelling werken meer geld gaan verdienen. Maar net zoals haar partijleider en ons aller premier regelmatig uitlatingen doet over de hoogte van salarissen in de private sector, moet zijn partijgenoot op Sociale Zaken dat volgens mij ook prima kunnen doen.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u37">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg42">Ik denk dat met de eerder ingediende motie al voor best een heel groot deel overeenstemming bereikt kan worden over wat er in dergelijke spoorboekjes of actieplannen staat. Naar mijn oordeel gaat deze motie verder dan de bevoegdheid die ik vind dat ik heb. Daarmee ontraad ik haar.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u38">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg43">De motie blijft ontraden. De heer Kwint voor een laatste opmerking. Het is een VAO, maar vooruit.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u39">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg44">Iets uitspreken is toch op geen enkele manier buiten uw boekje treden? Welke bevoegdheden dicht ik u dan toe die u niet hebt? U heeft heel veel bevoegdheden om dingen uit te spreken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u40">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg45">De staatssecretaris, tot slot.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u41">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg46">Ik wil heel graag met de sector in gesprek om te kijken naar kansen en bedreigingen, maar dit element wil ik daarbuiten laten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u42">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg47">Dank u wel. Hiermee zijn we aan het eind gekomen van het VAO Kinderopvang.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.u43">
+               <seg xml:id="ParlaMint-NL_2019-09-04-tweedekamer-9.seg48">De stemmingen zijn voorzien voor volgende week dinsdag.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

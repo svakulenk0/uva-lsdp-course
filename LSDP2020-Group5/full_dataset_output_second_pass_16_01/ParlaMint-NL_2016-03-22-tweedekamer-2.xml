@@ -1,0 +1,89 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-03-22-tweedekamer-2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-03-22 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-03-22 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 67, Session 2 (2016-03-22)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 67, Session 2 (2016-03-22)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="67">Meeting 67</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="2">Session 2</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="1">1 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="1">1 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="113">113 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="113">113 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-03-22">2016-03-22</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="3"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-03-22">2016-03-22</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Kort stilstaan bij de aanslagen in Brussel</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-22-tweedekamer-2.u1">
+               <seg xml:id="ParlaMint-NL_2016-03-22-tweedekamer-2.seg1">Vanochtend werden we opgeschrikt door berichten over een reeks van aanslagen op de luchthaven en op verschillende metrostations. Daarbij zijn doden en gewonden gevallen. Hoeveel precies, is nog onduidelijk. De paniek en de chaos zijn groot. Hoe dichterbij het komt, hoe onveiliger het voelt.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-22-tweedekamer-2.seg2">In een open en vrije samenleving als de onze zullen we nooit wijken voor dit soort geweld. Hier in de Kamer zijn onze gedachten bij al die mensen in Brussel en in de rest van België die betrokken zijn bij deze vreselijke en laffe aanslagen; bij de slachtoffers en hun nabestaanden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-22-tweedekamer-2.seg3">Wij hopen dat er snel meer duidelijkheid komt en zullen deze schokkende aanslagen op een later moment herdenken.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

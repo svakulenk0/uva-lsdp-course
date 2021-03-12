@@ -1,0 +1,277 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-06-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-06-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 90, Session 3 (2018-06-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 90, Session 3 (2018-06-06)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="90">Meeting 90</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="40">40 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="40">40 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2756">2756 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2756">2756 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-06-06">2018-06-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="56"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="40"/>
+               <tagUsage gi="note" occurs="58"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-06-06">2018-06-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Big data en de bescherming van persoonsgegevens</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg1">Ik heet iedereen van harte welkom. Aan de orde is het VAO Big data en de bescherming van persoonsgegevens. Ik heet de minister voor Rechtsbescherming van harte welkom. Ik geef de heer Verhoeven namens D66 het woord.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg2">Dank u wel, voorzitter. Wij hebben vorige week een goed debat gehad over big data in het algemeen en over kunstmatige intelligentie. Het focuste zich heel erg op de algoritmes, dat zijn rekenformules die worden gebruikt om grote hoeveelheden data te kunnen analyseren met verschillende doelen. Dat doen commerciële bedrijven maar ook de overheid doet het steeds meer. Wij hebben daarover een lange discussie gehad met de Kamer. Ik heb op basis van dat debat twee moties opgesteld die ik nu wil indienen. Ze luiden als volgt.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het gebruik van big data, algoritmen en analysemethoden door overheden kansen kan bieden op gebied van betere dienstverlening, efficiëntie en veiligheid;</note>
+               <note>overwegende dat er ook serieuze risico's kleven aan het gebruik van big data, algoritmen en analysemethoden, met discriminatie of schending van privacy of andere grondwetten als potentieel gevolg;</note>
+               <note>verzoekt de regering na te streven dat de werking en de broncode van algoritmen en analysemethoden die een aanmerkelijke impact op burgers hebben openbaar zijn, inclusief informatie over gebruikte databestanden;</note>
+               <note>verzoekt de regering voorts bij algoritmen en analysemethoden die om zwaarwegende redenen niet openbaar gemaakt kunnen worden een technische audit uit te voeren om te controleren of de algoritmen en analysemethodes niet onbedoeld discrimineren of andere negatieve effecten hebben die al dan niet wet- en regelgeving schenden en het resultaat van die audit openbaar te maken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Verhoeven, Buitenweg en Van Nispen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32761-117</note>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg3">De tweede motie is als volgt.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het kabinet het aantonen van logica als beleidsuitgangspunt hanteert in het kader van de omgang van big data en algoritmes en dat overheden conform de AVG desgewenst informatie over de onderliggende logica van processen van overheidsdiensten moeten verschaffen;</note>
+               <note>overwegende dat de onderliggende logica van het Systeem Risico Indicatie (SyRI) niet openbaar is, terwijl het systeem een aanmerkelijke impact op burgers heeft of kan hebben;</note>
+               <note>verzoekt de regering informatie over de gebruikte databestanden, algoritmes en analysemethodes van SyRI openbaar te maken en een technische audit uit te voeren op het SyRI-systeem om te controleren op onbedoelde negatieve effecten, zoals discriminatie of strijdigheden met wet- en regelgeving schenden en het resultaat van die audit openbaar te maken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Verhoeven en Buitenweg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32761-118</note>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg4">Dank u wel.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg5">Mevrouw Buitenweg namens GroenLinks.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg6">Dank u wel, mevrouw de voorzitter. Het was inderdaad een interessant debat vorige week waarin we ook wat verder keken naar de gevolgen van big data voor de samenleving, het belang ook van de openbaarheid van de algoritmes, zoals de heer Verhoeven zei. Het is van belang dat besluiten van de overheid navolgbaar zijn en dat "the computer says no" niet een antwoord kan zijn. Wij moeten echt weten waarom besluiten worden genomen. In die machines zitten natuurlijk ook allerlei aannames waarom bepaalde datasets worden verzameld. In de algoritmes kunnen aannames zitten. Dat kan inderdaad tot discriminatie en uitsluiting leiden. Het is dus van belang dat die toetsbaar zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg7">Wij hebben het WRR-rapport heel uitgebreid besproken. Het is een ontzettend boeiend rapport met zo'n tien aanbevelingen. Het rapport is uit 2016. Ik begrijp dat de regering daarvan nu een aantal aanbevelingen aan het overnemen is in die zin dat zij onderzoek aan het uitvoeren is. Het is belangrijk dat wij nu een tandje bijzetten en dat wij daar nu wat haast mee maken, want ondertussen nemen wij allemaal besluiten die hieraan raken en waarbij wij nog steeds niet onze eigen aanbevelingen kunnen overnemen. Het is dus echt van belang om hiermee haast te maken.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg8">Ik heb een motie die gaat over het klachtrecht. Zij luidt als volgt.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat veel dataverwerkingsprojecten de belangen van individuen overstijgen, maar dat het klachtrecht nog altijd sterk gebonden is aan individuele schade;</note>
+               <note>overwegende dat de WRR adviseert om de positie van maatschappelijke en burgerrechtenorganisaties in juridische procedures te versterken zodat zij de effecten van dataverwerkingsprojecten op de samenleving aan de rechter kunnen voorleggen;</note>
+               <note>verzoekt de regering om mogelijkheden voor het verruimen van collectieve procedures bij de rechter te onderzoeken en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Buitenweg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32761-119</note>
+            </u>
+            <note>Dank u wel.</note>
+            <note>Dan geef ik nu het woord aan de heer Van Dam namens het CDA.</note>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg9">Ja, voorzitter, het was inderdaad een interessant AO vorige week. Ik moet natuurlijk wellicht de indruk wekken dat ieder AO in dit huis interessant is, maar vorige week voerden wij een discussie waarbij wij wel ieder onze eigen invalshoek hadden, maar waarin we ook heel erg op zoek waren naar het verhaal boven de big data en de artificiële intelligentie. Ik denk dat dit ook het punt is. Wij hebben het vaak over incidenten. Die zijn drivers om hier de discussie te voeren, maar ik zou zo graag willen dat we ook de bovenliggende discussie voeren, de wat meer waardengedreven discussie, over bijvoorbeeld waarheid als uitgangspunt of transparantie als uitgangspunt, of over de menselijke tussenkomst als drijvende waarde achter van alles en nog wat. Ik weet niet helemaal zeker of die discussie in de commissie JenV gevoerd moet worden, maar mijn motie richt zich tot het kabinet. En ik hoor ook graag van het kabinet hoe het denkt dat die moet landen. Ik heb één motie, en die luidt als volgt.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de samenleving door digitalisering voor nieuwe ethische en maatschappelijke uitdagingen komt te staan;</note>
+               <note>constaterende dat de samenleving behoefte heeft aan heldere, geactualiseerde, op de digitale ontwikkeling getoetste uitgangspunten rond transparantie, waarheid, privacy en veiligheid, menselijke tussenkomst, accountability en andere belangrijke publieke waarden;</note>
+               <note>overwegende dat het borgen van publieke waarden op het vlak van digitalisering een wezenlijke bijdrage kan leveren aan het formuleren van heldere rechten en normen op dat terrein;</note>
+               <note>verzoekt de regering om tot een waardegedreven benadering te komen ten aanzien van de digitalisering, waarbij bestaande en mogelijk nieuwe publieke waarden worden vertaald naar het digitale domein;</note>
+               <note>verzoekt de regering tevens hier relevante rapporten van de Wetenschappelijke Raad voor het Regeringsbeleid en van het Rathenau Instituut bij te betrekken;</note>
+               <note>verzoekt de regering voorts de Kamer hierover te informeren en de gelegenheid te geven bij deze waardenontwikkeling betrokken te raken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Dam en Van der Molen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32761-120</note>
+            </u>
+            <note>Dank u wel.</note>
+            <note>Dan geef ik nu het woord aan de heer Van Nispen namens de SP.</note>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg10">We zijn het in het algemeen overleg niet helemaal eens geworden over de capaciteit van de Autoriteit Persoonsgegevens. De SP ziet namelijk dat die op dit moment tekortschiet voor het vervullen van alle belangrijke taken. Maar een aangenomen motie gaat er ieder geval toe leiden dat het kabinet dat goed in de gaten moet houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg11">Dan over het gebruik van big data. Ja, dat biedt inderdaad veel kansen, maar heeft ook risico's. Daarom heeft de SP de motie die ertoe oproept om algoritmes in ieder geval controleerbaar te maken, net van harte medeondertekend.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg12">Iets anders, wat al langer speelt, is dat veel grote bedrijven het als verdienmodel hebben om zo veel mogelijk data, persoonsgegevens van mensen, te verzamelen. Data zijn immers geld, dus dat is het verdienmodel. Vervolgens worden mensen daar niet goed, duidelijk en ondubbelzinnig over geïnformeerd. Dat komt maar al te vaak voor. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat elke gegevensverwerker op grond van de Algemene verordening gegevensbescherming de plicht heeft om uit te kunnen leggen welke gegevens zij verzamelen, hoe zij dat doen en met wie zij de gegevens (kunnen) delen;</note>
+               <note>constaterende dat iedere gegevensverwerker aan deze informatieplicht op een eigen manier voldoet en er dus een grote verscheidenheid van informerende berichten naar de consument komt, wat de duidelijkheid niet ten goede komt;</note>
+               <note>van mening dat mensen te allen tijde moeten weten hoe ze ergens ja of nee tegen kunnen zeggen en wáár ze precies al dan niet mee instemmen;</note>
+               <note>verzoekt de regering samen met de Autoriteit Persoonsgegevens, bedrijven en (consumenten)organisaties te bezien of er standaardmodellen opgemaakt kunnen worden die door websites vrijwillig gebruikt kunnen worden voor het vragen van toestemming voor het verwerken van gegevens,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Nispen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32761-121</note>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg13">Tot slot heb ik nog een niet-beantwoorde vraag uit het algemeen overleg. We hebben daar namelijk de vraag gesteld of de overheid zelf zo veel mogelijk gebruik kan maken van privacyvriendelijke diensten. Dat was een idee dat we aan de hand kregen in het rondetafelgesprek dat we een week voor het algemeen overleg hebben gehouden. Dus de vraag is of de overheid zelf zo veel mogelijk gebruik kan maken van privacyvriendelijke diensten, diensten die een zo klein mogelijke privacy-inbreuk met zich mee brengen en voor de gemiddelde gebruiker ook echt begrijpelijk zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg14">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg15">Dank u wel, meneer Van Nispen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg16">Dan geef ik nu het woord aan de heer Middendorp namens de VVD.</seg>
+            </u>
+            <u who="#JanMiddendorp" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg17">Dank u wel, voorzitter. Door big data kunnen we beter beleid maken en de levens van mensen verbeteren. Daarvoor zullen we met kennis en kunde aan de slag moeten en door vooroordelen, onkunde en soms onzinnige soundbites heen moeten breken. Dit VAO gaat over het delen, koppelen en analyseren van data met behulp van computers en, als je het een beetje eng uitspreekt, over big data. Bij het gebruik van big data gelden wat de VVD betreft alle waarden en normen die in de normale wereld ook gelden. De mogelijkheden van big data raken breed aan het rijksoverheidsbeleid en de samenleving. Maar nu we de samenleving digitaliseren, gaan onze waarden en normen natuurlijk niet veranderen. Als er in het buitenland algoritmen zijn die op huidskleur discrimineren, dan is dat abject. Dat gaan we in Nederland natuurlijk nooit doen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg18">We moeten wel een discussie voeren over big data. Dat gebeurt hier. Ik heb ook begrepen dat er bij het AO een goede discussie was. Het is nieuw terrein en we zullen onze normen en waarden dus ook op terreinen moeten aanvullen, zoals het CDA aangaf. De discussie moeten we hierbij echter niet alleen uit juridisch perspectief voeren, of alleen vanuit financieel perspectief. De hele discussie over big data moeten we als samenleving en als overheid vanuit menselijk perspectief voeren. Ik zou de minister dan ook willen vragen om bij de discussie waartoe collega Van Dam oproept, veel meer te betrekken dan de twee in zijn motie genoemde rapporten.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg19">De VVD is jarenlang voorvechter geweest van open data, maar daar zijn wel grenzen aan. We gaan natuurlijk niet, door die open data, kwaadwillenden in deze samenleving instrumenten in handen geven om kwaad te doen. Als je alle stoplichten in Nederland kan hacken, dan ben je wat de VVD betreft een gevaar voor de nationale veiligheid. Daar gaan we je dan niet bij helpen. Wat we niet doen in de gewone wereld gaan we ook niet doen in de digitale wereld. Dat is niet eng, want we kunnen de levens van mensen in Nederland verbeteren met de digitalisering.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg20">Dank u wel.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg21">Ik ben toch getriggerd door de opmerking dat als er in het buitenland big data zijn waarbij mede geselecteerd wordt op huidskleur, we dat in Nederland niet moeten importeren. Is nu de suggestie dat er een zekerheid is dat in Nederland bij die algoritmes en de voorsortering van de database, huidskleur geen enkele rol speelt?</seg>
+            </u>
+            <u who="#JanMiddendorp" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg22">Ik hoop dat dit zo is, wat ik ook heb geprobeerd te zeggen.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg23">Het ging wat verder dan hopen dat het zo is. Eigenlijk was het een stellingname dat dit in Nederland nog niet zou gebeuren. De vraag van GroenLinks is of de VVD-fractie bereid is om te zorgen dat dit ook gecheckt wordt, juist door alle algoritmes, zeker op het veiligheidsdomein, te toetsen — als dat niet in de openbaarheid kan dan in ieder geval in een soort commissie — om te voorkomen dat er inderdaad sprake zou zijn van discriminatie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg24">Tot slot.</seg>
+            </u>
+            <u who="#JanMiddendorp" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg25">Volgens mij is dit ongeveer een herhaling van de motie die ik net al gehoord heb.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg26">Precies, dat hoorde ik net ook.</seg>
+            </u>
+            <u who="#JanMiddendorp" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg27">Ik heb al gezegd dat ik vind dat we in Nederland niet moeten toestaan dat mensen gediscrimineerd worden en dat we dat wat de VVD betreft zeker ook niet gaan doen.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg28">Ja, maar dan wil ik toch wel ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg29">Rustig, rustig, het is pas half elf, meneer Verhoeven. Goedemorgen, meneer Verhoeven.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg30">Ik heb dagen dat ik een stuk vroeger al wat irritaties heb.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg31">Gaat u verder.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg32">Ik heb overigens nu helemaal geen irritaties maar ik vind het wel even van belang om een vraag aan de heer Middendorp te stellen. Hij zegt heel duidelijk niet te willen dat er gediscrimineerd wordt op basis van algoritmes. Daar ben ik ook heel blij mee, hoewel ik ook niet anders had verwacht van de VVD. Maar is de VVD ook bereid om te kijken of door het gebruik van die formules bij de overheid, dit onbedoeld misschien wel aan de gang is en om dat dan bloot te leggen en daarmee in de toekomst te stoppen? Dat is dus een extra stap.</seg>
+            </u>
+            <u who="#JanMiddendorp" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg33">Ik heb gehoord welke motie de heer Verhoeven heeft ingediend. Ik wacht even het antwoord van de minister af, maar de suggestie dat ik op de een of andere manier algoritmes zou willen gebruiken om te gaan discrimineren, is volgens mij zeker niet wat ik gezegd heb. Ik heb juist gezegd dat waar dat gebeurt — ik hoor daar veel verhalen over — we dat niet moeten doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg34">Tot slot, de heer Verhoeven.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg35">De suggestie is door niemand gewekt dat de VVD of meneer Middendorp dat zou willen. Dat is totaal niet aan de orde hier, dus geen zorgen daarover. Ik heb zelfs het tegenovergestelde gezegd. Ik heb gezegd: ik weet zeker dat de VVD dat niet wil. Wat ik wil, is zoeken naar een manier waarop een groot deel van de Kamer ervoor zorgt dat we kijken naar de formules, de algoritmes die al gebruikt worden en dat als er eventueel in die formules elementen zitten die tot discriminatie leiden, we die bloot kunnen leggen en ermee kunnen stoppen. Is de VVD ook daartoe bereid?</seg>
+            </u>
+            <u who="#JanMiddendorp" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg36">Als dat gebeurt, dan moeten we dat stoppen. Dat is een consequentie van wat ik gezegd heb, maar ik denk dat het belangrijker is dan het steeds herhalen van de motie van de heer Verhoeven, dat we algoritmes schrijven waarin dat niet gebeurt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg37">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg38">Dank u wel. Dan geef ik nu het woord aan de minister die kort zal ingaan op de moties.</seg>
+            </u>
+            <u who="#SanderDekker" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg39">Voorzitter. Ik stel het bijzonder op prijs dat we in dit VAO nog even de kans krijgen om met betrekking tot big data en het gebruik van algoritmes een aantal puntjes op de i te zetten. Ik heb in het AO al aangegeven dat ik het principe van transparantie heel erg belangrijk vind en dat dit ook een belangrijk uitgangspunt en beginsel is van de recentelijk van kracht geworden AVG. Er zitten natuurlijk wel bepaalde beperkingen aan, bijvoorbeeld daar waar het het intellectueel eigendomsrecht betreft, de techniek of het tegengaan van calculerend gedrag, maar dat neemt niet weg dat de overheid zelf een goed voorbeeld zou moeten geven om zo transparant mogelijk te zijn als het gaat om het gebruik van algoritmen. Datzelfde geldt — dat betreft volgens mij de enige vraag zonder motie die gesteld is door de heer Van Nispen — voor de diensten die gebruikt worden en om daarbij te kijken of uitgegaan kan worden van het principe van privacy first, dus privacyvriendelijke diensten. Ook daarvoor zie ik in de AVG aanleiding. Het is ook de opdracht die we wettelijk hebben meegekregen. Het is in ieder geval een uitgangspunt dat wij delen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg40">Voorzitter, dan de moties. De motie op stuk nr. 117 raakt eigenlijk direct het hart van de discussie die we hebben gehad over de transparantie. Tegelijkertijd zijn algoritmes er in vele soorten en maten, van heel eenvoudige beslisbomen tot heel complexe algoritmes, waarbij ook kunstmatige intelligentie wordt toegepast. Denk bijvoorbeeld aan de Belastingdienst. Als die op grond van massa's aangiften een soort risicoanalyse moet maken van waar het een en ander afwijkt, gaat dat met bepaalde formules en beslisbomen die relevant zijn, maar die we niet kunnen openbaren, omdat dan degenen die aangifte moeten doen en wellicht niet te goeder trouw zijn, daarop kunnen inspelen en er sprake is van calculerend gedrag. Los van het calculerende gedrag zou openbaarmaking van alle algoritmes en alle typen algoritmes, met het oog op de veelheid, van eenvoudig tot complex, waarschijnlijk een heel grote werklast voor de overheid met zich mee brengen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg41">Ik begrijp echter heel goed het punt waar de heer Verhoeven op aanstuurt. Misschien mag ik kijken of we eruit kunnen komen. Kan ik de heer Verhoeven ertoe verleiden om de motie aan te houden? Dan ben ik bereid om in het derde kwartaal van dit jaar een brief te schrijven over wat uiteindelijk het effect is als je dit zou doen. Ik denk dat dat namelijk enorm is, ook in zijn uitvoeringsconsequenties. Ook wil ik kijken of ik tegemoet kan komen aan het principe. Sommige algoritmes kunnen we niet openbaren, maar we willen natuurlijk niet dat er allerlei nadelige gevolgen aan zitten of dat er een zeer sterke ongewenste bias in zit. Ik wil kijken of we daar niet een soort kwaliteitstoets op los kunnen laten. Dat zal puzzelen zijn, maar ik ben bereid om dat te doen.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg42">Ik zal natuurlijk moeten overleggen met mijn mede-indieners, maar ik merk wel dat er bereidheid is om serieus naar dit onderwerp te kijken. Dat vond ik tijdens het AO vorige week ook al en het kabinet heeft hier ook al dingen over opgeschreven in kabinetsbrieven. Ik zie in dat er heel veel verschillende soorten algoritmes zijn en dat die niet allemaal op één hoop moeten, zodat je als overheid heel veel werk doet en misschien ook wel onbedoeld weer bepaalde dingen lostrekt. Daar wil ik allemaal naar luisteren, dus ik ben bereid om mijn motie aan te houden, mits mijn twee collega's het ermee eens zijn. Zij knikken naar mij. Dan zal ik de brief die de minister gaat schrijven, afwachten. Daarna zal ik kijken of mijn motie nog van meerwaarde is. Ik denk dat dat dan de beste weg is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg43">Op verzoek van de heer Verhoeven stel ik voor zijn motie (32761, nr. 117) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg44">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg45">Ik zou het bijzonder op prijs stellen als de minister, om bij te dragen aan de oplossing of de beantwoording van deze terechte vraag, in die brief ook aandacht wil besteden aan de kwestie van nationale veiligheid: wat zou vanuit die optiek het belang zijn om dingen wel of niet openbaar te maken? Dat zou mijn uitdrukkelijke verzoek zijn.</seg>
+            </u>
+            <u who="#SanderDekker" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg46">Dat zal ik doen. Dat lijkt me een goede suggestie. Het gaat altijd om het vinden van een balans tussen veiligheid en openbaarheid, tussen een goede check op kwaliteit en iets uitvoerbaars en werkbaars, zeker gezien de hoeveelheid algoritmes waarmee in allerlei programmatuur wordt gewerkt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg47">Dan de motie op stuk nr. 118. Daar kan ik kort over zijn. SyRI valt onder verantwoordelijkheid van mijn collega staatssecretaris Van Ark. Ik zal om die reden vragen of zij inhoudelijk wil reageren op deze motie. Ik vraag de heer Verhoeven om deze motie zolang aan te houden. Als de motie toch in stemming wordt gebracht, moet ik haar ontraden, want ik kan hiervan de consequenties niet overzien.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg48">Gaat u verder.</seg>
+            </u>
+            <u who="#SanderDekker" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg49">De motie op stuk nr. 119 kan ik overnemen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg50">De motie-Buitenweg (, nr. ) is overgenomen.</seg>
+            </u>
+            <u who="#SanderDekker" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg51">Ik maak bij de motie op stuk nr. 120 de side note in de richting van de heren Van Dam en Middendorp dat ik dat uiteraard graag doe als wij ons niet hoeven te beperken tot de twee rapporten die hierin genoemd worden, maar dat wat breder kunnen trekken. Dat doe ik overigens met mijn collega Ollongren die daar ook al wat dingen voor uit heeft gezet. Dan kan ik die motie ook overnemen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg52">Tot slot kan ik ook de motie op stuk nr. 121 van de heer Van Nispen overnemen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg53">De motie-Van Dam/Van der Molen (, nr. ) is overgenomen.</seg>
+            </u>
+            <note>De motie-Van Nispen (, nr. ) is overgenomen.</note>
+            <note>Ik zie dat de heer Verhoeven nog iets wil zeggen. Het gaat snel, hè!</note>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg54">Dat lijkt mij prima. Daar gaat mijn interruptie ook niet over. De minister heeft mij verzocht om de motie op stuk nr. 118 aan te houden. Dat vind ik lastig. Ik heb nog tot volgende week. Ik ga even kijken hoelang het allemaal duurt. Dat met SyRI speelt echt al langer. Daar wil ik dan op een gegeven moment ook wel een keer een concrete uitspraak van de Kamer over. Ik kom daar dus nog op terug, maar ik kan dat nu nog niet toezeggen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg55">U heeft tot dinsdag de tijd. Dan gaan we stemmen.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2018-06-06-tweedekamer-3.seg56">We gaan door met het volgende VAO.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

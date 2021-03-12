@@ -1,0 +1,406 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-11-22 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-11-22 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 27, Session 3 (2018-11-22)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 27, Session 3 (2018-11-22)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="27">Meeting 27</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="84">84 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="84">84 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3740">3740 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3740">3740 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-11-22">2018-11-22</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="93"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="84"/>
+               <tagUsage gi="note" occurs="62"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-11-22">2018-11-22</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Politie (ICT)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg1">Wij gaan beginnen met een VAO Politie. Een hartelijk welkom aan de minister van Veiligheid en Justitie, excuus, Justitie en Veiligheid. Ik geef het woord aan mevrouw Buitenweg van GroenLinks.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg2">Voorzitter. Ik heb twee minuten spreektijd toch? Op het klokje staat één.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg3">U krijgt er twee.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg4">Dank u.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg5">Mevrouw de voorzitter. Tijdens het algemeen overleg hebben we ook gesproken over C2000, het nieuwe communicatiesysteem van de hulpdiensten. Dit wordt mede ontwikkeld met Chinese software. Is dat verstandig? Volgens de AIVD vormen Chinese spionageactiviteiten een dreiging voor de nationale veiligheid. Dit geldt overigens niet alleen voor Nederland, maar ook voor sommige andere landen. Maar die hebben al maatregelen genomen, zoals Australië, dat geen Chinese software gebruikt voor kritische infrastructuur. GroenLinks vindt dat een verstandige lijn.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg6">Het C2000-netwerk is al ver in de ontwikkeling, maar er is altijd een ongemakkelijk moment als we een streep willen trekken. Ik denk dat we onze ogen open moeten houden voor de nieuwe geopolitieke situaties, ook als ons dat geld kost. De motie die ik wil indienen, beperkt zich op dit moment tot het inventariseren van de risico's van wat er kan gebeuren, ervan uitgaande dat de Chinezen slimmer zijn dan wij en toch via de software door onze bescherming breken. Met die inventarisatie in de hand kan de minister een en ander heroverwegen of niet, en dan de Kamer over dat besluit informeren. Dat is het voorstel. Ik lees de motie voor.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat China volgens de AlVD (Jaarverslag 2017) spionageactiviteiten onderneemt in Nederland;</note>
+               <note>overwegende dat de regering waarschuwt voor spionage door China via het nieuwe 5G-netwerk;</note>
+               <note>overwegende dat de regering mede vanwege China's offensieve spionagebeleid een nieuwe Chinastrategie heeft aangekondigd;</note>
+               <note>overwegende dat in de aanbesteding van C2000 de ongewenste Chinese activiteiten nog onvoldoende zijn meegewogen en de opdracht om kostentechnische redenen mede gegund is aan een dochteronderneming van het Chinese bedrijf Hytera Communications;</note>
+               <note>spreekt uit het zeer onwenselijk te vinden dat in deze context kritische infrastructuur ontwikkeld wordt door een Chinees bedrijf;</note>
+               <note>verzoekt de regering de risico's van het beoogde C2000-netwerk te inventariseren, te heroverwegen en daarover aan de Kamer te rapporteren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Buitenweg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29628-826</note>
+            </u>
+            <note>Dank u wel. mevrouw Buitenweg.</note>
+            <note>Het woord is aan mevrouw Helder. Nee, zij hoeft niet. Mevrouw Kuiken ook niet. Dan is het woord aan mevrouw Den Boer, D66.</note>
+            <u who="#MonicadenBoer" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg7">Voorzitter. Ik ga direct over tot het voorlezen van twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat alle medewerkers van het korps nationale politie dagelijks gebruikmaken van ICT in de uitoefening van hun werkzaamheden;</note>
+               <note>overwegende dat ICT voor de politie een hulpmiddel en geen obstakel moet zijn;</note>
+               <note>verzoekt de regering de medezeggenschap van de politie betrokken en geïnformeerd te houden bij de ontwikkeling en uitrol van ICT binnen de organisatie,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat een Chinees bedrijf betrokken is bij de bouw van de opvolger van het C2000-communicatiesysteem;</note>
+               <note>overwegende dat landen als Australië, de Verenigde Staten en het Verenigd Koninkrijk hebben besloten bepaalde Chinese bedrijven te weren van het leveren van producten of diensten voor hun vitale infrastructuur;</note>
+               <note>constaterende dat bij de aankondiging van het uitfaseren van de Kaspersky-antivirussoftware en in antwoord op Kamervragen over Huawei-apparaten in 5G-infrastructuur, het kabinet een kader ontwikkelt voor het omgaan met technologie in onze vitale infrastructuur van bedrijven uit derde landen;</note>
+               <note>overwegende dat dit kader niet is toegepast op de aanbesteding van de opvolger van C2000;</note>
+               <note>verzoekt de regering alsnog middels een risicoanalyse het kader voor de omgang met technologie voor onze vitale infrastructuur uit derde landen toe te passen op de casus van C2000, en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Den Boer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29628-827</note>
+               <note>Deze motie is voorgesteld door de leden Den Boer, Van Dam en Verhoeven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29628-828</note>
+            </u>
+            <note>Het woord is aan mevrouw Laan-Gezelschap van de VVD.</note>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg8">Dank u wel, voorzitter. Het belang van de nationale veiligheid staat voor de VVD altijd voorop. Zo ook als het draait om het communicatiesysteem van onze eigen veiligheidsdiensten. Ik ben er niet gerust op dat buitenlandse inmenging in dit systeem volledig is uitgesloten. Er moeten dus maatregelen worden genomen. Vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat China volgens het AIVD-jaarverslag 2017 spionageactiviteiten onderneemt in Nederland;</note>
+               <note>overwegende dat de regering mede om deze reden een actieplan China heeft aangekondigd;</note>
+               <note>overwegende dat tijdens de aanbesteding is meegewogen dat een van de ontwikkelaars van het nieuwe C2000 in Chinese handen is;</note>
+               <note>overwegende dat echter sindsdien de wereld niet heeft stilgestaan en toenemende geopolitieke spanningen vragen om alertheid;</note>
+               <note>overwegende dat het huidige C2000 end-of-life is;</note>
+               <note>spreekt haar zorg uit over dat in deze context vitale infrastructuur ontwikkeld wordt door een Chinees bedrijf;</note>
+               <note>verzoekt de regering de risico's voor het nieuwe C2000-netwerk in kaart te brengen en adequate maatregelen te treffen zodat er een veilig C2000-netwerk is, en de Kamer hierover te rapporteren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Laan-Geselschap. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29628-829</note>
+            </u>
+            <note>Mevrouw Helder heeft nog een vraag aan u.</note>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg9">Ik probeer de tien — ik rond maar meteen af naar beneden — de twee verschillen te vinden tussen de moties van mevrouw Buitenweg en mevrouw Laan-Geselschap. Mevrouw Buitenweg vraagt aan de regering de risico's te inventariseren en te heroverwegen. Zit daar dan de pijn? Want ik hoor mevrouw Laan-Geselschap vragen de risico's in kaart te brengen — ik zie niet heel veel verschil met inventariseren — en maatregelen te treffen.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg10">Allereerst vragen wij om ádequate maatregelen te treffen. Dat is een essentieel verschil. Wij willen ook graag een van de overwegingen in de motie van mevrouw Buitenweg nuanceren. Dat ziet u in onze overwegingen, maar om nogmaals alle overwegingen voor te lezen, gaat me wat te ver.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg11">Dan gaan we ook even scherp zijn in de ochtend. Ik zat niet over de overwegingen te bomen. Ik had het over het dictum. Daar staat inderdaad "adequate maatregelen". Als u zegt dat u vraagt om adequate maatregelen in plaats van om maatregelen, vraag ik me af of u de minister niet vertrouwt. We kunnen best grappig doen, maar ik vind het raar. Eerst staat uw naam onder de motie van mevrouw Buitenweg. Vervolgens is die weg en dan komt u met een eigen motie. Dan wil ik gewoon graag geïnformeerd worden. Maar het is me duidelijk. Dank u wel.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg12">Het verschil tussen de moties van mevrouw Buitenweg en mevrouw Laan-Geselschap is dat mevrouw Laan-Geselschap zegt dat er ádequaat moet worden heroverwogen. Mevrouw Buitenweg staat hier naast mij. We kunnen haar vragen of haar bedoeling is om ínadequaat te heroverwegen. Als dat zo is, is er een verschil tussen de moties. Anders zijn het gewoon precíés dezelfde moties. Als alle fracties dezelfde moties gaan indienen, dan wordt het een latertje.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg13">Latertjes zijn we gewend. Daar bent u ook niet bang voor, maar dat geheel terzijde. Moties bestaan uit overwegingen en een dictum dat wij de regering opdragen. De overwegingen zijn in de beide moties nadrukkelijk anders en maken ook deel uit van het verslag zoals dat de geschiedenis ingaat. Vandaar dat deze moties anders zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg14">De heer Van Raak, kort.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg15">Ik heb zitten meelezen. Ik vond ze bijna hetzelfde. Er waren wel woorden omgedraaid en in een andere volgorde gezet, maar waar zit dan echt het belangrijke verschil in dictum tussen de twee moties? Ik zag het nog niet.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg16">U hebt de twee moties voor u. Ik heb hier alleen mijn eigen motie, dus ik kan ze niet naast elkaar leggen. Maar zoals ik al gezegd heb, kunt u uit de overwegingen nadrukkelijk een andere lijn halen.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg17">Ik denk dat dat klopt en dat het gaat over de vraag of spionage door Chinese bedrijven nou wel of niet echt is meegewogen. In de motie die oorspronkelijk mee was ondertekend door de VVD staat inderdaad dat die ongewenste Chinese activiteiten nog onvoldoende zijn meegewogen. Maar ik ben van harte bereid die overweging te laten gaan. Dus ik stel voor dat ik die overweging eruit haal. Mijn motie zal dat deel dus niet kennen, er zal niet in staan: overwegende dat in de aanbesteding van C2000 ongewenste Chinese activiteiten onvoldoende zijn meegewogen. Dat hele stuk kan er dus uit. Dan vraag ik de VVD of het misschien handig is om de moties dan toch te integreren.</seg>
+            </u>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg18">Ik ga in ieder geval nu niet toezeggen dat wij samen een motie gaan indienen. Wij kijken altijd naar hoe moties uiteindelijk uitpakken. Ik hoor graag de reflectie van de minister op beide moties, waarna wij ons standpunt zullen bepalen, dat u dinsdag zult horen.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg19">Mevrouw de voorzitter, mag ik u dan toch vragen mijn motie zodanig te beschouwen dat dat deel eruit is? Want ik wil niet dat dat deel onderdeel wordt van de beantwoording van de minister.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg20">Dat neemt de minister mee ...</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg21">Dat deel is er dan uit.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg22">... bij zijn beoordeling.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg23">De motie-Buitenweg (, nr. ) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat China volgens de AIVD (Jaarverslag 2017) spionageactiviteiten onderneemt in Nederland;</note>
+               <note>overwegende dat de regering waarschuwt voor spionage door China via het nieuwe 5G-netwerk;</note>
+               <note>overwegende dat de regering mede vanwege China's offensieve spionagebeleid een nieuwe China-strategie heeft aangekondigd;</note>
+               <note>spreekt uit het zeer onwenselijk te vinden dat in deze context kritische infrastructuur ontwikkeld wordt door een Chinees bedrijf;</note>
+               <note>verzoekt de regering de risico's van het beoogde C2000-netwerk te inventariseren, te heroverwegen en daarover aan de Kamer te rapporteren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg24">Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg25">Zij krijgt nr., was nr. 826 ().</seg>
+            </u>
+            <note>Dank u wel. Dan schors ik nu voor drie minuten.</note>
+            <note>De vergadering wordt van 10.26 uur tot 10.30 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg26">Aan het woord is de minister.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg27">Voorzitter, dank. Ik begin met de moties inzake C2000, de motie op stuk nr. 826 van het lid Buitenweg, waarna ik, als u het goedvindt, meteen doorga met de motie op stuk nr. 828 van het lid Den Boer c.s. en die op stuk nr. 829 van mevrouw Laan-Geselschap, omdat ze over hetzelfde gaan. Aan het slot behandel ik de motie over medezeggenschap en de ICT. Maar ik denk dat dat niet een heel spannend debat zal gaan worden, wil ik alvast verklappen aan het lid Den Boer.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg28">Voorzitter. C2000 is een vitaal systeem voor hulpverleningsdiensten. Bij de vernieuwing daarvan ga ik, zoals het een goed huisvader betaamt, zorgvuldig te werk. Ook mijn voorgangers hebben dat steeds gedaan. Veiligheid van het netwerk verdient alle aandacht. Mijn voorgangers en ik hebben uw Kamer daarover dan ook meermaals geïnformeerd en ik blijf dat ook doen. De huidige leveranciers hebben eind 2012 aangegeven dat het eind van de technische levensduur van C2000 echt in zicht was. Al in 2013 is uw Kamer geïnformeerd over de voorbereiding van de aanbesteding om het systeem te vervangen. Daarna is er voortdurend voortgangsinformatie geweest. Ik wil hier benadrukken dat in de aanbesteding de kwaliteit van het netwerk de belangrijkste rol heeft gespeeld. Op 5 maart 2015 is de voorlopige opdracht gegund aan het Duitse bedrijf Hytera Mobilfunk GmbH (HMF), dat zelfstandig heeft ingeschreven op de aanbesteding. Het feit dat HMF een dochter is van de Chinese aandeelhouder is uit veiligheidsoverwegingen geen belemmering geweest voor de gunning. Dat is destijds aan uw Kamer gemeld.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg29">Maar de wereld heeft niet stilgestaan. De geopolitieke context van de wereldeconomie wordt complexer en risicovoller. Opkomende economieën met grote staatsinvloed, ingrijpende technologische ontwikkelingen en toenemende geopolitieke spanningen tussen landen vragen om alertheid ten aanzien van mogelijke dreigingen tegen de Nederlandse nationale veiligheid. Daar ben ik niet naïef over. Ook mijn voorgangers hebben de beveiliging van C2000 scherp gevolgd. Ze hebben uw Kamer daarover onder andere in 2016 geïnformeerd. Dit kabinet bekijkt op een zeer zorgvuldige manier op case-by-casebasis een aantal zaken ten aanzien van digitale producten.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg30">Er zijn in ieder geval de volgende drie criteria. Ik herhaal wat ik in mijn brief inzake de virussoftware van Kaspersky aan uw Kamer heb geschreven. Is er sprake van een statelijke actor die zich richt tegen Nederlandse belangen? Is er sprake van wetgeving die een bedrijf verplicht om op enigerlei wijze samen te werken met die betreffende actor? Vervolgens wordt er ook gekeken naar de digitale producten waar het om gaat. In hoeverre zouden die een wezenlijke positie kunnen innemen in onze systemen?</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg31">Ik wil benadrukken dat Nederland daarin overigens een eigenstandige afweging maakt. Er wordt dus ook niet vooruitgelopen op of gespeculeerd over al dan niet mogelijke toekomstige maatregelen. Ik heb na mijn aantreden, gezien de ontwikkelingen van dat moment, direct gevraagd om nadere onderzoeken naar de beveiliging. Die zijn afgelopen zomer ingezet. In een brief van september dit jaar over de voortgang rond de vernieuwing van C2000 heb ik de Kamer ook gemeld dat ik twee onderzoeken laat uitvoeren naar de beveiliging van C2000. In oktober heb ik dat nog eens mondeling toegelicht. Ik wacht de resultaten van die onderzoeken eerst af. Die ga ik goed bestuderen, zoals het een goed huisvader — excuus, dat is een begrip uit het burgerlijk recht, waar ik vroeger wat meer in deed — voor een vitaal systeem betaamt. Uiteraard rapporteer ik daarover aan uw Kamer. Ik heb tijdens dat overleg in oktober, ik meen, op een vraag van mevrouw Laan — het kan ook mevrouw Buitenweg zijn geweest, maar ik meen dat ze beiden die zorgen uitten — gezegd: ik ga ondertussen geen stappen zetten waarvan ik dan later tegen uw Kamer moet zeggen dat die niet meer terugkomen. In de richting van mevrouw Buitenweg en mevrouw Laan, die die moties indienen, en de heer Verhoeven — hij is er nu niet, maar wel mevrouw Den Boer — wil ik dan ook echt benadrukken dat we hier heel prudent mee omgaan.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg32">Ik probeer zicht te krijgen op waar die twee onderzoeken over gaan. Het gaat erom of de software beveiligd is tegen Chinese interrupties. Ik vraag in ieder geval in mijn motie om ook te inventariseren wat te doen als de Chinezen toch slimmer zijn dan wij denken en ze er wel doorheen komen. Dat is wat ik bedoel met het inventariseren van risico's. Ik vind namelijk dat we dan ook moeten kunnen heroverwegen of we überhaupt het risico willen nemen. Wij kunnen wel bedenken wat voor bescherming wij kunnen opwerpen, maar als daar doorheen gebroken wordt is het risico gewoon te groot voor de nationale veiligheid.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg33">Dit heb ik in oktober gezegd, maar ik zal het herhalen voor alle grondigheid: het bedrijf Xebia doet een securityaudit op de technische ICT-oplossing die Hytera realiseert. Ik heb hier een hele tekst voor me liggen waarin staat wat dat allemaal inhoudt. Dat wil ik wel voordragen, maar ik wil dat de hier aanwezige Kamerleden zeker besparen, want we hebben daar al uitvoerig met elkaar over gesproken. Het Nationaal Bureau voor Verbindingsbeveiliging van de AIVD, onze inlichtingen- en veiligheidsdienst, bereidt een grondig advies voor vanuit de optiek van de nationale veiligheid. Dat kijkt veel meer naar wat er achter het bedrijf en de actoren schuilgaat. Dat is een dubbel, afzonderlijk onderzoek. Als dat onderzoek er is — dat heb ik al toegezegd en dat blijf ik zeggen — zal ik uw Kamer rapporteren over de uitkomsten van dat onderzoek en hoe het kabinet daarmee om zal gaan.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg34">Ik probeer het te begrijpen. Dat eerste, dat technische onderzoek, is voor mij niet zo van belang, omdat ik vind dat we ervan uit moeten gaan dat de Chinezen slimmer zijn dan wij. Het tweede is dat de minister zegt dat de AIVD gaat kijken wat überhaupt de risico's zijn. Klopt het dat de aard van het onderzoek van de AIVD is dat we er maar van uit moeten gaan dat er wel interventies zijn van de Chinezen? En wat nu als daar uitkomt dat er dus een risico is? Is de minister dan bereid het C2000-voorstel te heroverwegen?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg35">Ik benadruk dat dat onderzoek door Xebia wel degelijk van belang is, want dat is nou juist het onderzoek waarin technisch wordt gekeken wat voor niet goed bewaakte achterdeurtjes er zijn waardoor men binnen zou kunnen komen. Ik leg het nu heel even analoog uit. Dat is één. Dat onderzoek hebben we dus wel degelijk nodig. Verder ga ik, zoals ik u heb gezegd, als de vragen in het onderzoek zijn beantwoord, op basis van dat onderzoek aan uw Kamer rapporteren. Ik denk dat we dan met elkaar vaststellen waar het zit. Ik heb uw Kamer, volgens mij anderhalve maand geleden, gezegd dat ik dan niet zal gaan zeggen dat ik inmiddels tijdens die onderzoeken dingen heb gedaan die ik niet meer kan terugdraaien. Ik ga dus heel duidelijk een open beslissing nemen en met uw Kamer bespreken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg36">Voordat ik de heer Van Raak en mevrouw Kuiken het woord geef, ga ik even terug naar de moties. Bij de motie op stuk nr. 826 is uw oordeel: ontraden.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg37">Ja.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg38">Nee, dat heeft hij helemaal niet gezegd!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg39">Dat weet ik niet. Dat vraag ik, mevrouw Buitenweg. Dat vraag ik en als ik de minister zo beluister, denk ik te horen dat hij u adviseert om de motie aan te houden. Dat wil ik eerst even weten, want we zitten hier wel om de moties van een oordeel te voorzien. Met het oog op de klok zou ik dat graag eerst willen weten.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg40">Ik kan ze meteen allemaal achter elkaar doen en ook uitleggen waarom ik de ene ontraad en de andere niet.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg41">Dat lijkt me goed.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg42">De motie op stuk nr. 826 van mevrouw Buitenweg ontraad ik. Daarin staat een waardeoordeel: "het zeer onwenselijk te vinden dat in deze context kritische infrastructuur ontwikkeld wordt door een Chinees bedrijf". Wij moeten ons het volgende realiseren. Als we grondig en kritisch onderzoek doen en als we ook de door mij genoemde drie criteria goed hanteren, zegt dit kabinet dat het dan goed huisvaderschap is dat we niet a priori een oordeel uitspreken. Want als ik dit overneem, moet ik nu eigenlijk meteen zeggen: we stoppen ermee. Alleen al daarom ontraad ik de motie. Ik zie in ieder geval dat de overweging over de kostentechnische redenen in de overwegingen is weggehaald. Dat vind ik een goede zaak. Verder gaat het vooralsnog om het inventariseren en het daarover rapporteren aan de Kamer. Ik ontraad dus die motie.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg43">De motie op stuk nr. 829 van mevrouw Laan en de motie op stuk nr. 828 van de heer Verhoeven kan ik allebei aan het oordeel van de Kamer laten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg44">Wacht eventjes. Even voor de helderheid over de motie op stuk nr. 826. Allereerst, de motie op stuk nr. 826 is gewijzigd. Het is belangrijk om dat nog een keer vast te stellen.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg45">Dit is de gewijzigde motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg46">Exact.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg47">Ik heb hier de tekst.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg48">Die gewijzigde motie krijgt het oordeel: ontraden.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg49">Of aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u41">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg50">Of aanhouden.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u42">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg51">Ik vind het prima als, wanneer die onderzoeken er zijn, door de Kamer wordt uitgesproken of zij het wel of niet wenselijk vindt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u43">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg52">Dat is helder. We geven de indiener het woord. Mevrouw Buitenweg.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u44">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg53">Als ik het goed heb begrepen, zegt de minister dat hij mijn motie ontraadt vanwege de zin dat het onwenselijk is dat in deze geopolitieke context kritische infrastructuur ontwikkeld wordt door een Chinees bedrijf. Dat is de reden waarom hij de motie uiteindelijk ontraadt. Klopt dat?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u45">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg54">En het feit ... Nu praat ik voor mijn beurt, voorzitter. Ik weet niet of dat mag.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u46">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg55">De minister.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u47">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg56">Laat ik het zo stellen: de andere moties ... Ik vind het overigens prima om deze motie aan te houden. Laat ik dat vooropstellen, maar nu, op voorhand, raad ik de motie af vanwege de zojuist door mevrouw Buitenweg geciteerde zin en het feit dat mevrouw Buitenweg zegt: te inventariseren, te heroverwegen en daarover aan de Kamer te rapporteren. Ook dat "heroverwegen" is weer een oordeel vooraf. Daar kan ik niet in meegaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u48">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg57">Helder. Over het aanhouden gaat alleen de indiener. Dat is slechts een suggestie. Dus mevrouw Buitenweg nogmaals over deze motie.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u49">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg58">Omdat er onderzoeken komen, vind ik het merkwaardig dat "heroverwegen" een punt is. Ik mag toch hopen dat we dat niet voor jandoedel aan het doen zijn. Het idee is namelijk dat er nog iets uit die rapporten komt. Ik zal het goed met de minister maken. Ik zal het woord "heroverwegen" weghalen, omdat het, als je rapporten maakt, logisch is dat je heroverweegt. Althans, ik ga ervan uit dat de minister slim is. Maar ik laat de zin staan dat het in deze geopolitieke situatie onwenselijk is om kritische infrastructuur te laten ontwikkelen door een Chinees bedrijf, juist omdat het een statelijke actor is die wel een dreiging is en juist omdat het logisch is dat bedrijven ook onder druk worden gezet door de Chinese overheid. Het voldoet aan alle drie die criteria. Die zin laat ik dus staan. Ik vind het echt merkwaardig dat de Nederlandse overheid zou zeggen dat het niet slecht is om dat te laten ontwikkelen door een Chinees bedrijf.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u50">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg59">Helder. Ik heb zo het vermoeden dat het oordeel niet verandert en "ontraden" blijft.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u51">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg60">"Heroverwegen" is eruit.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u52">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg61">U wijzigt de motie voor de tweede keer, waarbij u het woord "heroverwegen" schrapt, maar dan zult u de motie nog een keer gewijzigd moeten indienen.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u53">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg62">Dan zal ik dat doen, zodat duidelijk is dat het uitsluitend om dit punt gaat waarom de minister de motie afwijst.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u54">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg63">Dat klopt.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u55">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg64">Voorzitter, mag ik toch nog een laatste, korte poging doen? Er is weinig tijd, want ik moet straks ook nog twee andere VAO's met u doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u56">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg65">Precies, zo is het.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u57">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg66">Ik wil toch nog een laatste poging doen. Het is een goede zaak dat dat heroverwegen eruit is, maar we moeten ons realiseren dat je, als je een dergelijke zin uitspreekt, op voorhand een zeer algemeen oordeel uitspreekt terwijl de onderzoeken nog lopen. Ik heb juist gezegd: wij hanteren deze criteria grondig en streng om te zorgen dat wij echt op een veilige manier omgaan met dit soort belangrijke kritische infrastructurele zaken. Dat ga ik met collega Wiebes ook verder uitwerken. Die zorg deel ik dus met mevrouw Buitenweg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u58">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg67">Ja ...</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u59">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg68">Maar laten we niet van tevoren dit soort oordelen uitspreken. Dat zou een jurist moeten aanspreken: dat het van tevoren uitspreken van een oordeel niet ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u60">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg69">Ik ga nu even streng zijn. Ik denk dat er voldoende gewisseld is.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u61">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg70">Het is voor de minister goed om te weten dat ik geen jurist ben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u62">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg71">Tot slot mevrouw Kuiken over deze eerste motie.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u63">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg72">Ook dit onderwerp heeft een geschiedenis. Meerderen van ons hebben in deze Kamer aandacht gevraagd voor de vraag hoe we omgaan met kritische infrastructuur. Het lijkt een beetje of we een pad opgewandeld zijn waarop het paard van Troje al naar binnen is gereden, en dat we alleen nog even moeten kijken welke kleurtjes we het geven en hoe we het onderhouden. Snap je? Dus mijn zorg zit 'm erin ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u64">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg73">Uw vraag?</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u65">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg74">Ik snap echt niet waarom het zo'n principiële politieke discussie wordt over het woordje "heroverwegen". Het voelt namelijk een beetje als: we doen wel onderzoek, en met name naar hoe we het beter kunnen beveiligen, maar het onderzoek kan niet meer serieus tot een ander oordeel leiden. De minister moet ons er echt van overtuigen dat dit wel het geval is, en ik voel hem nu van geen kanten.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u66">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg75">Ik vond mijn inleiding al wat lang, omdat ik echt even verantwoording wilde afleggen. Ik verwijs naar die inleiding, waarin ik gewoon heel duidelijk heb verantwoord dat ik hier vanaf het moment van mijn aantreden kritisch tegen aan heb gekeken. Ik zeg daar overigens heel eerlijk bij dat mijn tijdelijke voorganger Blok degene was die dit echt heel erg op de agenda heeft gezet. Hij verdient de eer. We kijken er kritisch naar. Ik heb het hele verhaal uiteengezet, ook ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u67">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg76">Helder.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u68">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg77">... over de twee onderzoeken die ik heb geïnitieerd en waarover ik de Kamer heb bericht.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u69">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg78">Voorzitter, een laatste vraag.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u70">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg79">Mevrouw Kuiken, echt heel kort.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u71">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg80">Ik wil dan toch de keiharde toezegging dat er geen onomkeerbare stappen zijn gezet en dat we er nog van af kunnen op het moment dat het nodig mocht zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u72">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg81">Dat heeft de minister volgens mij gezegd.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u73">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg82">Nee, want de minister zegt: ik wil daar niet op voorhand uitspraken over doen. Dat vind ik raar.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u74">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg83">De minister, tot slot op dit punt.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u75">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg84">Ik heb zes weken geleden op vragen van mevrouw Buitenweg en mevrouw Laan — die eer komt hun toe — al gezegd: het zal niet zo zijn dat ik onomkeerbare stappen zet in de periode waarin het onderzoek loopt waardoor ik straks moet zeggen dat ik in oktober, november of december — ik neem aan dat het onderzoek niet lang meer op zich laat wachten — dingen heb gedaan waardoor ik nu niet meer terug kan. Dat heb ik in oktober gezegd naar aanleiding van vragen van mevrouw Laan en mevrouw Buitenweg en ik wil dat tegen mevrouw Kuiken zonder meer herhalen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u76">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg85">Goed. Dan gaan we naar de motie op stuk nr. 827.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u77">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg86">Ja, ik had u toegezegd om kort te zijn over de motie op stuk nr. 827. Ik vind het volstrekt terecht dat er wordt gevraagd om betrokkenheid van de medezeggenschap. Dit is dus oordeel Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u78">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg87">De motie op stuk nr. 827 krijgt oordeel Kamer.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u79">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg88">Over de moties op de stukken nrs. 828 en 829 had ik gezegd dat die wat mij betreft ook oordeel Kamer kunnen krijgen. Dan is er in ieder geval een motie op het punt van C2000. Het is eigenlijk vrijwel volledig bestaand beleid, maar ik geef haar graag oordeel Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u80">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg89">De moties op de stukken nrs. 828 en 829 krijgen beide oordeel Kamer.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u81">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg90">Als het staand beleid is, is het volgens mij gebruik dat de motie geen oordeel Kamer krijgt. Ik wil dus begrijpen waarin de motie afwijkt van het beleid dat er ligt.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u82">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg91">Ik zal dat uitleggen. Maar eerst zeg ik dat een belangrijk verschil nog is dat mevrouw Laan in haar motie haar zorg erover uitspreekt dat in deze context vitale infrastructuur ontwikkeld wordt. Dat is een punt waar het kabinet zich volledig in kan vinden, en dat is wat anders dan onwenselijk. Dus misschien kunnen ook hier woorden nog helpen. En ik moet zeggen dat deze motie in de overwegingen misschien iets scherper geformuleerd is, maar daar heb ik geen bezwaar tegen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u83">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg92">Goed. Dank u wel.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.u84">
+               <seg xml:id="ParlaMint-NL_2018-11-22-tweedekamer-3.seg93">Daarmee zijn we aan het einde gekomen van dit eerste VAO.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

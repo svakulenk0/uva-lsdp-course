@@ -1,0 +1,120 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-12-14 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-12-14 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 35, Session 11 (2016-12-14)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 35, Session 11 (2016-12-14)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="35">Meeting 35</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="11">Session 11</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="7">7 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="7">7 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="284">284 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="284">284 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-12-14">2016-12-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="8"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="7"/>
+               <tagUsage gi="note" occurs="15"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-12-14">2016-12-14</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Verduidelijking voorschriften woonboten</note>
+            <note>(Zie wetgevingsoverleg van 12 december 2016.)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.u1">
+               <seg xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.seg1">Ik heet de minister voor Wonen en Rijksdienst welkom voor deze korte plenaire afronding. Ik geef alleen het woord aan de heer Albert de Vries van de Partij van de Arbeid. Uiteraard zijn interrupties toegestaan.</seg>
+            </u>
+            <note>De algemene beraadslaging wordt geopend.</note>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.u2">
+               <seg xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.seg2">Voorzitter. Afgelopen maandag hadden we een wetgevingsoverleg. Ik heb daarbij een amendement ingediend. Later bleek dat dat amendement beter zou passen bij een wet die nog moet komen. Vandaar dat ik deze heropening van het debat heb gevraagd, zodat ik hierover een motie kan indienen. Deze motie luidt als volgt.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de regels voor ligplaatsen en ligplaatsvergunningen of -ontheffingen voor drijvende bouwwerken divers zijn;</note>
+               <note>overwegende dat eigenaren van drijvende woningen behoefte hebben aan rechtszekerheid en rechtsbescherming die vergelijkbaar is met eigenaren van grondgebonden woningen;</note>
+               <note>overwegende dat het te verstrekkend is om bij het wetsvoorstel Wet verduidelijking voorschriften woonboten, dat betrekking heeft op bouwvoorschriften, de regelgeving omtrent ligplaatsen en ligplaatsvergunningen of -ontheffingen aan te passen;</note>
+               <note>verzoekt de regering, voorstellen te doen waarmee de rechtszekerheid en rechtsbescherming voor eigenaren van drijvende woningen met betrekking tot ligplaatsen vergelijkbaar worden met de rechtszekerheid en rechtsbescherming voor eigenaren van grondgebonden woningen met betrekking tot bouwkavels,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Albert de Vries en Koolmees. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34434-7</note>
+            </u>
+            <note>Inderdaad is er geen ander lid dat iets wil zeggen. Ik constateer dat de minister aanstonds kan antwoorden.</note>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.u3">
+               <seg xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.seg3">Voorzitter. Afgelopen maandag hebben wij uitgebreid gesproken over de positie van woonbootbewoners en de juridische onzekerheid over ligplaatsen. Ik heb aangegeven dat ik grote uitvoerbaarheidsproblemen bij het amendement zag. Als ik het goed heb begrepen, wordt het amendement ingetrokken. Verder wordt mij via deze motie verzocht om bij de wet over de ligplaatsen, die ik nog in voorbereiding, helderheid te verschaffen over de juridische positie van die ligplaatsen. Ik waardeer het zeer dat onze gedachtewisseling heeft geleid tot het intrekken van het amendement.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.u4">
+               <seg xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.seg4">Mag ik u even onderbreken, minister? Het amendement was slechts in voorbereiding. Het is nooit formeel ingdiend.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.u5">
+               <seg xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.seg5">Dan waardeer ik het zeer dat het niet is ingediend. Ik laat het oordeel over de motie graag aan de Kamer. Zodoende kan ik een werkbare invulling geven aan een wet die ik toch nog aan de Kamer zal voorleggen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.u6">
+               <seg xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.seg6">Daarmee zijn we echt aan het eind gekomen van de beraadslagingen naar aanleiding van dit wetsvoorstel.</seg>
+            </u>
+            <note>De algemene beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.u7">
+               <seg xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.seg7">Ik stel de Kamer voor om aanstaande dinsdag over dit wetsvoorstel en de motie te stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-14-tweedekamer-11.seg8">Aangezien de spelers voor de volgende ronde nu al aanwezig zijn, stel ik de Kamer voor om maar meteen door te gaan. Ik constateer daartegen geen bezwaren.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

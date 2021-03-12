@@ -1,0 +1,165 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-12-01 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-12-01 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 31, Session 25 (2015-12-01)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 31, Session 25 (2015-12-01)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="31">Meeting 31</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="25">Session 25</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="14">14 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="14">14 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="788">788 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="788">788 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-12-01">2015-12-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="16"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="14"/>
+               <tagUsage gi="note" occurs="38"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-12-01">2015-12-01</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>UWV-onderwerpen</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u1">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg1">Wij hebben vier deelnemers van de zijde van de Kamer. Twee van hen gaan zelfs iets zeggen. De eerste is mevrouw Schut-Welkzijn van de fractie van de VVD. Zij heeft zoals iedereen twee minuten spreektijd.</seg>
+            </u>
+            <u who="#AnoushkaSchut-Welkzijn" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u2">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg2">Voorzitter. De VVD wil dat mensen weer aan het werk gaan zodra ze dat kunnen en dat het UWV dat beter faciliteert. Daarom roept de VVD de minister op hier regie te nemen en te zorgen dat het beleid resultaat oplevert. Wij hebben hiertoe twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het UWV grote achterstanden heeft in zowel de herbeoordelingen als de fraudemeldingen, maar dat over de omvang van deze achterstanden verschillende cijfers de ronde doen;</note>
+               <note>overwegende dat als het huidige beleid van het UWV met prioritering in herbeoordelingen van arbeidsongeschikten wordt voortgezet, mensen niet eens één keer in de tien jaar worden herbeoordeeld;</note>
+               <note>overwegende dat de crashes van werk.nl bij het UWV en de recente berichten hierover in de media het beeld geven dat de ICT-systemen van het UWV niet stabiel en toekomstbestendig zijn;</note>
+               <note>overwegende dat hierdoor het UWV niet de service levert aan zijn klanten, de uitkeringsgerechtigden en werkgevers, die we van deze organisatie mogen verwachten;</note>
+               <note>verzoekt de regering, regie te nemen over het beleid van het UWV door:</note>
+               <note>zorg te dragen dat door het aangekondigde integrale plan in de nabije toekomst alle arbeidsongeschikten in de WGA worden herbeoordeeld als de verzekeringsarts, hun werkgever of zijzelf aanleiding zien voor een herbeoordeling;</note>
+               <note>onderzoek te doen naar de gang van zaken rondom de prestaties die worden geleverd door de leveranciers van ICT aan het UWV, zorg te dragen voor stabiliteit van de ICT en zo nodig verbetervoorstellen te doen, zodat de systemen flexibel en toekomstbestendig zijn,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat mensen die vanuit de WGA 80-100 na herbeoordeling minder dan 35% arbeidsongeschikt blijken te zijn, nu recht hebben op twee maanden gewenningsbijdrage, maar niet onder de no-riskregeling vallen;</note>
+               <note>constaterende dat mensen die vanuit de WGA 80-100 na herbeoordeling tussen 35% en 80% arbeidsongeschikt blijken te zijn, nu recht hebben op twee jaar gewenningsbijdrage en wel onder de no-riskregeling vallen;</note>
+               <note>overwegende dat de mensen die de grootste sprong maken, het diepst vallen;</note>
+               <note>overwegende dat het verschil in de duur van de gewenningsbijdrage tussen beide gevallen erg groot is;</note>
+               <note>overwegende dat een gewenningsbijdrage van twee jaar een remmend effect heeft op de arbeidsparticipatie;</note>
+               <note>overwegende dat de no-riskregeling werkgevers stimuleert om mensen aan te nemen;</note>
+               <note>verzoekt de regering, een onderzoek te doen naar de mogelijkheid om de twee jaar gewenningsbijdrage in te perken en uit deze besparing een uitbreiding van de no-riskregeling te financieren, zodat mensen die vanuit de WGA herstellen ook onder de no-riskregeling vallen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Schut-Welkzijn. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-26448-547</note>
+               <note>Deze motie is voorgesteld door het lid Schut-Welkzijn. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-26448-548</note>
+            </u>
+            <u who="#PaulUlenbelt" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u3">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg3">Voorzitter. Problemen, problemen, problemen bij het UWV. Heel veel vertrouwen dat dit zomaar is opgelost, bestaat er niet. Daarom dien ik, samen met de heer Van Weyenberg van D66 en de heer Heerma van het CDA, de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat er onduidelijkheid bestaat over de oorzaken van de achterstanden bij het UWV;</note>
+               <note>constaterende dat ook over de organisatie van de ICT bij het UWV onduidelijkheid bestaat;</note>
+               <note>verzoekt de regering, een onafhankelijk onderzoek te laten uitvoeren naar de verhouding mensen, middelen, doelen, achterstanden en ICT bij het UWV en de concrete onderzoeksvragen in overleg met de Tweede Kamer op te stellen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Ulenbelt, Van Weyenberg en Pieter Heerma. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-26448-549</note>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u4">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg4">Ik zei dat er twee sprekers waren, maar er heeft zich toch een derde spreker toegevoegd aan de lijst, de heer Van Weyenberg. Hij spreekt slechts één minuut.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u5">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg5">Voorzitter. Sinds wij in het overleg spraken over de problemen bij het UWV, van achterstanden tot ICT, en over de vraag of de minister daar nu in controle is in plaats van daardoor steeds te worden verrast, hebben wij dit weekend weer kunnen lezen over problemen met ICT-leveranties. Daarom staat mijn fractie zeer welwillend tegenover de moties van mevrouw Schut, waarmee overigens ook een no-riskdeel wordt ingevoerd, iets waarvan ook mijn fractie al langer voorstander is. Ook hebben wij samen met de heer Heerma en de heer Ulenbelt een motie ingediend. Wat mij betreft is het nu wel helder: er moet gewoon een onafhankelijk onderzoek komen. Wat is daar aan de hand? Hoe is de regie van de minister? Als de minister dat niet doet, moeten we als Kamer zelf maar de regie nemen en de Rekenkamer gaan vragen. Ik hoop echter dat we die stap niet hoeven te zetten omdat de minister eerst zelf een onafhankelijk onderzoek gelast.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u6">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg6">Ik schors de vergadering even om de minister de gelegenheid te geven de moties te bekijken.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#LodewijkAsscher" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u7">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg7">Voorzitter. Het tweede deel van de motie op stuk nr. 547, over het onderzoek, is prima. Ik laat het oordeel erover aan de Kamer. Voor het eerste onderdeel hangt het ervan af of ik de indiener goed begrijp. Het moet natuurlijk niet leiden tot een soort carte blanche waarbij je honderdduizenden herbeoordelingen krijgt omdat er helemaal geen rem meer op zit en er geen beoordeling is van wat nuttig is. Ik denk niet dat het zo bedoeld is, maar dat het de bedoeling is dat in dat integrale plan al die elementen worden opgenomen. Als dat inderdaad zo is, beschouw ik de motie als ondersteuning van beleid en is het: oordeel Kamer.</seg>
+            </u>
+            <u who="#AnoushkaSchut-Welkzijn" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u8">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg8">Het is inderdaad de bedoeling dat alles wordt meegenomen in het integrale plan. Wel moet worden bekeken of er niet alleen vraaggestuurde herbeoordelingen en professionele herbeoordelingen aan bod komen, maar dat ook mensen met een sociaal-medische indicatie worden gevolgd door de verzekeringsarts.</seg>
+            </u>
+            <u who="#LodewijkAsscher" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u9">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg9">Dan past het inderdaad binnen een integraal plan waarin al die elementen thuis horen, dus: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg10">Datzelfde geldt voor de motie op stuk nr. 548 om onderzoek te doen naar de mogelijkheid om de twee jaar gewenningsbijdrage in te perken en uit deze besparing een uitbreiding van de no-riskregeling te financieren, zodat die ook geldt voor mensen die vanuit de WGA herstellen: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg11">De motie op stuk nr. 549 ontraad ik. We hebben er in het algemeen overleg over gesproken dat het mij goed lijkt om de energie nu juist te richten op dat integrale plan dat er in maart moet liggen. In januari krijgt de Kamer een tussenstand. Als de Kamer dan nog ongerust is, is dat uiteraard een prima moment om alsnog met elkaar over zo'n onderzoek te spreken.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u10">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg12">Als dit de toon voor de begrotingsbehandeling wordt, dat we weer alles vooruit gaan schuiven, dan begin ik bezorgd te worden. De Kamer wil gewoon weten hoe het zit. Mijn vraag aan de minister is waarom hij dit niet gewoon omarmt. Hij moet het toch ook willen weten?</seg>
+            </u>
+            <u who="#LodewijkAsscher" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u11">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg13">Mijn antwoord strookt met wat ik vorige week in het debat met de Kamer heb besproken. Ik denk dat de energie nu gericht moet zijn op een integraal plan om de achterstanden met de herbeoordeling weg te werken. Ik heb net positief gereageerd op twee moties van de VVD daarover. Daar wil ik nu dus de energie op richten.</seg>
+            </u>
+            <u who="#PaulUlenbelt" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u12">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg14">Ooit was UWV onderdeel van een groot project van de Kamer. De commissie ICT heeft onderzoek gedaan. Steeds zijn er verbeteringen toegezegd en we zien ze nog steeds niet. Dus minister, kom op nou, laten we het nou eens grondig onderzoeken in plaats van het vooruit te schuiven.</seg>
+            </u>
+            <u who="#LodewijkAsscher" ana="#regular" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u13">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg15">Ik heb mijn advies aan de Kamer gegeven. Ik wacht af wat de stemmingen brengen.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.u14">
+               <seg xml:id="ParlaMint-NL_2015-12-01-tweedekamer-25.seg16">Over de drie moties stemmen wij dinsdag.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

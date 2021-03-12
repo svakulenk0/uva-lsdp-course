@@ -1,0 +1,185 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2014-12-16 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2014-12-16 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 37, Session 8 (2014-12-16)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 37, Session 8 (2014-12-16)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="37">Meeting 37</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="17">17 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="17">17 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="991">991 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="991">991 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2014-12-16">2014-12-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="26"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="17"/>
+               <tagUsage gi="note" occurs="42"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2014-12-16">2014-12-16</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Milieuraad</note>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg1">Voorzitter. Er ligt een deadline van 15 januari, …</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg2">Eén moment. Ik moet toch even hameren. Mevrouw Van Veldhoven staat naast mij en heeft een microfoon, en ik versta haar nóg niet. Ik verzoek de leden dus om stil te zijn tijdens dit korte maar toch belangrijke debat.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg3">Ga uw gang, mevrouw Van Veldhoven.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg4">Er ligt een deadline van 15 januari, die maakt dat wij vandaag deze moties moeten indienen en daarover moeten stemmen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de Europese Commissie op grond van verordening 528/2012 regels zou moeten opstellen omtrent de toelating van hormoonverstorende stoffen, maar dat de Commissie daarmee al een jaar te laat is;</note>
+               <note>overwegende dat Zweden daarom een rechtszaak tegen de Commissie heeft aangespannen om de Commissie te dwingen de eigen regels na te leven;</note>
+               <note>verzoekt de regering, zich in de besluitvorming van 15 januari 2015 uit te spreken vóór aansluiting bij Zweden;</note>
+               <note>verzoekt de regering vervolgens, indien de Raad daar niet toe zou besluiten, zich als lidstaat Nederland bij de Zweedse procedure aan te sluiten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Veldhoven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-08-539</note>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg5">Het gaat om hormoonverstorende stoffen. Die zijn zeer ernstig. Daarom zijn afspraken op Europees niveau van groot belang.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg6">Ik heb voorts twee moties over het aanstaande werkprogramma van de Commissie, waarover naar verwachting de onderhandelingen tussen Raad en Commissie snel zullen starten. Daarom is het belangrijk de volgende signalen mee te geven.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat Nederland koploper is op het gebied van circulaire economie en dus baat heeft bij Europese afspraken die belemmeringen voor grondstofstromen wegnemen en een Europees level playing field verzekeren, omdat dit kansen biedt voor het Nederlandse bedrijfsleven;</note>
+               <note>verzoekt de regering, bij de Europese Commissie aan te dringen op behoud van het voorstel, waarbij enige aanpassingen zouden kunnen worden voorgesteld, om de kansen die dit biedt voor het Europese bedrijfsleven maximaal te benutten en administratieve lasten zo veel mogelijk te beperken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat Nederland voor schone lucht en gezondheid in belangrijke mate afhankelijk is van de uitstoot van buurlanden, en Nederland dus direct profiteert van Europese afspraken;</note>
+               <note>overwegende dat de Europese Commissie het voorstel voor Europese afspraken op het gebied van luchtkwaliteit wil heroverwegen;</note>
+               <note>verzoekt de regering, er bij de Commissie op aan te dringen het voorstel te behouden en, indien dit wordt aangepast, ervoor te zorgen dat dit voorstel effectiever, maar niet minder ambitieus zal zijn,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Veldhoven en Cegerek. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-08-540</note>
+               <note>Deze motie is voorgesteld door de leden Van Veldhoven en Cegerek. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-08-541</note>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg7">Voorzitter. Ik dien de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de Europese Commissie overweegt het voorstel luchtkwaliteit in te trekken;</note>
+               <note>overwegende dat in het voorstel een verlaging van het nationale uitstootplafond voor de zes voornaamste vervuilende stoffen is opgenomen die het grote steden beter mogelijk maakt om lokale overschrijdingen van de normen te voorkomen;</note>
+               <note>overwegende dat het implementeren van dit voorstel in de gehele EU 40 miljard tot 140 miljard euro aan gezondheidsschade, 58.000 voortijdige sterfgevallen en grootschalige vervuiling van natuurgebieden kan voorkomen;</note>
+               <note>overwegende dat Nederland zich achter het verzoek van elf andere Europese lidstaten aan de Europese Commissie heeft gesteld om het voorstel verder te behandelen;</note>
+               <note>verzoekt de regering om, in het geval de Europese Commissie dit voorstel toch intrekt, nationale wetgeving voor te bereiden om de regels voor luchtkwaliteit op het niveau te brengen van het oorspronkelijke voorstel luchtkwaliteit en van de WTO-richtlijnen voor luchtkwaliteit,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Tongeren. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-08-542</note>
+            </u>
+            <u who="#RemcoDijkstra" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg8">Voorzitter. Wij hebben een goed algemeen overleg gehad in de Milieuraad. Wij hebben daar ook gesproken over het werkprogramma van Eurocommissaris Timmermans. Het aardige doet zich voor dat hij vanmiddag om 16.30 uur een persconferentie heeft waarin hij zijn pakket bekend maakt. Ik zie dat er nu al moties worden ingediend. Ik vraag mevrouw Van Veldhoven en mevrouw Van Tongeren om hun moties aan te houden, in ieder geval tot donderdag, omdat het relevant is te weten wat Europa daarvan vindt voordat wij zelf allemaal dingen gaan doen.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg9">De staatssecretaris en ik hebben van gedachten gewisseld over Bisfenol A, een chemisch product dat wij voor 400 miljoen exporteren en waarover de Fransen nu wat dwars liggen. Ik vraag haar de Kamer te informeren wat de voortgang is en wat de kans is dat Frankrijk in gebreke wordt gesteld, omdat het de interne markt hiermee verstoort.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg10">Ik heb een toezegging gekregen dat de staatssecretaris ons schriftelijk gaat informeren over carbon leakage, het weglekken van bedrijvigheid naar buiten Europa. Daar heb ik nog een inhoudelijke, meer technische vraag over, die ik de staatssecretaris zal mailen, zodat ze er in de desbetreffende brief op kan ingaan.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg11">Dat moet u vooral doen; dat kan. Dan geef ik nu het woord aan mevrouw Ouwehand van de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u8">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg12">Voorzitter, ik had mij ingeschreven voor nul minuten spreektijd, zodat ik wel kon interrumperen. Dit scheelt dus weer twee minuten in ons vergaderschema.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u9">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg13">U stond voor twee minuten op mijn lijst. Dus dank u wel voor uw mededeling. Aangezien mevrouw Cegerek van de PvdA en mevrouw Mulder van het CDA voor nul minuten hebben ingeschreven, betekent dit dat we aan het eind gekomen zijn van de termijn van de zijde van de Kamer. Ik constateer dat de staatssecretaris behoefte heeft aan een heel korte schorsing om de moties te bekijken.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#WilmaMansveld" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u10">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg14">Voorzitter. In reactie op de eerste motie van mevrouw Van Veldhoven kan ik zeggen dat ik de intentie steun dat er criteria moeten komen voor hormoonverstorende stoffen. Ik heb globaal naar het voorstel gekeken. Ik kijk er nog even goed naar. In principe ben ik bereid om mij erbij aan te sluiten, tenzij er ernstige bezwaren zijn. Als dat laatste het geval is, laat ik dat de Kamer schriftelijk nog voor het einde van het reces weten. De motie is wat mij betreft dan ook oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg15">Dan kom ik op de tweede en derde motie van mevrouw Van Veldhoven. De heer Timmermans heeft zojuist een persconferentie gegeven over de pakketten. Naar ik heb begrepen, heeft hij aangegeven voor eind 2015 met een nieuw pakket te komen en dat hij voornemens is om pakketten in te trekken. Het nieuwe pakket zou meer ambitie en minder regels moeten bevatten. Dat is ook precies wat ik bepleit heb in het AO. Wat mij betreft moet er sprake zijn van meer ambitie en minder regels. Het programma heet "Make it work". Ik kan dan ook akkoord gaan met wat deze Europese Commissaris van plan is; het is immers zijn terrein. Voor mij is het belangrijk dat er meer ambitie komt en dat er minder regels komen. Behoud van het pakket lijkt me een achterhoedegevecht. Het gaat mij om het nieuwe pakket, dat ambitieuzer op tafel moet komen. Ik laat de twee moties met deze omschrijving aan het oordeel van de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg16">De motie op stuk nr. 242 gaat eigenlijk op hetzelfde in. Mevrouw Van Tongeren stelt echter dat ze, als het wordt ingetrokken, graag wil dat er wordt voorbereid op regels. Het is ingetrokken, maar er komt een nieuw pakket voor eind 2015. Ik wil dat afwachten. Daar wordt ambitie in aangegeven. Het maken van eigen regels en eigen wetgeving lijkt me een onverstandige aak. Het zou ook betekenen dat we afwijken van Europese regelgeving. In die zin ontraad ik de motie.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u11">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg17">Mevrouw Van Tongeren heeft een vraag op dit punt.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u12">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg18">Nee, mevrouw Van Tongeren houdt deze motie aan totdat duidelijk is of de Europese Commissie het voorstel inderdaad in onze richting aanpast. Als dat niet zo is, breng ik de motie alsnog in stemming.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u13">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg19">Op verzoek van mevrouw Van Tongeren stel ik voor, haar motie (21501-08, nr. 542) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg20">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u14">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg21">Dezelfde kwaliteitscheck zou ik graag doen op de inhoud van de andere twee voorstellen, dus ik houd mijn moties op stukken nrs. 540 en 541 aan. De motie op stuk nr. 539 komt wel in stemming vandaag, maar de moties op stukken nrs. 540 en 541 worden aangehouden.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u15">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg22">Op verzoek van mevrouw Van Veldhoven stel ik voor, haar moties (21501-08, nrs. 540 en 541) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg23">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#WilmaMansveld" ana="#regular" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u16">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg24">Voorzitter. Mij rest nog een vraag van de heer Dijkstra over Bisfenol A. Ja, ik wil hem informeren over de voortgang. Hij vroeg of en hoe Europa zal reageren op de actie van Frankrijk. Ik ben helaas geen helderziende, maar zo gauw daarover meer duidelijkheid is, zal ik de heer Dijkstra ook daarover berichten.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.u17">
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg25">Dank u wel voor uw reactie op de moties en dank voor uw antwoorden.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-16-tweedekamer-8.seg26">Ik schors de vergadering voor enkele ogenblikken, zodat wij kunnen bellen voor de stemmingen en over een paar minuten ook daadwerkelijk kunnen stemmen.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

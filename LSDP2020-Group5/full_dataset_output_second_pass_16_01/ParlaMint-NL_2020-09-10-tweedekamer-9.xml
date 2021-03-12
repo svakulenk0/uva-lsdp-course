@@ -1,0 +1,88 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-09-10-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-09-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-09-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 100, Session 9 (2020-09-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 100, Session 9 (2020-09-10)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="100">Meeting 100</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="9">Session 9</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="1">1 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="1">1 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="238">238 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="238">238 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-09-10">2020-09-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="2"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-09-10">2020-09-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Coronaverspreiding in relatie tot het internationaal personenverkeer</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-09-10-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-9.seg1">Zoals degenen die via de livestream het debat in de Kamer volgen, hebben kunnen zien, heb ik net even overleg gevoerd met de woordvoerders. We zouden beginnen met het debat over de coronaverspreiding in relatie tot het internationaal personenverkeer. Maar we hebben geconstateerd dat elders in de Kamer, in een commissievergadering, een debat plaatsvindt — een "algemeen overleg" heet dat in onze termen — naar aanleiding van de brand die in het vluchtelingenkamp op Lesbos heeft gewoed. Daarover heeft de Kamer gisteren besloten dat er vanavond een verslag algemeen overleg, een plenair debat, over moet plaatsvinden, inclusief de stemmingen. Dat maakt dat de avond wat chaotisch zou verlopen als we zouden starten met dit debat. Daar komt bij dat de stemmingen over dit onderwerp pas zouden kunnen plaatsvinden op 22 september. We hebben afgesproken dat we dit debat in die week plenair agenderen en dat we in die week ook erover stemmen. Qua urgentie wil ik niets afdoen aan het onderwerp, maar als het gaat om de besluiten en de stemmingen gaat er op die manier niet veel tijd verloren.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-10-tweedekamer-9.seg2">Voor degenen die hadden verwacht dat we nu dit onderwerp zouden kunnen behandelen, betreur ik het dat het niet kan, maar er zijn ook andere prioriteiten vanavond die we plenair aan de orde zullen stellen. Dat zal later op de avond gebeuren. Ik zal nu schorsen tot dat moment en ik dank de collega's voor hun constructieve opstelling.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

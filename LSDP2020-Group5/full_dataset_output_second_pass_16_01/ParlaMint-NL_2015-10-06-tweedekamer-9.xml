@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-10-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-10-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 10, Session 9 (2015-10-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 10, Session 9 (2015-10-06)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="10">Meeting 10</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="9">Session 9</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="9">9 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="9">9 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="209">209 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="209">209 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-10-06">2015-10-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="11"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="9"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-10-06">2015-10-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg1">Ik verzoek de leden hun plaatsen in te nemen zodat wij kunnen gaan stemmen. Voordat wij dat doen, geef ik het woord aan de heer Grashoff. Hij heeft een opmerking over de stemmingslijst.</seg>
+            </u>
+            <u who="#RikGrashoff" ana="#regular" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg2">Voorzitter. Mijn opmerking heeft betrekking op de stemmingen over de moties ingediend bij het VAO Autobrief II. Wij willen de moties op de stuk nrs. 33 en 35 (32800) aanhouden.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg3">Op verzoek van de heer Grashoff stel ik voor, zijn moties (32800, nrs. 33 en 35) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg4">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#ArnoldMerkies" ana="#regular" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg5">Voorzitter. Ik wil een hoofdelijke stemming aanvragen over de motie op stuk nr. 49 (34300) over het definitief afschaffen van de mantelzorgboete in de AOW.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg6">Dat gaan wij doen. Ik dank u voor de vooraankondiging.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg7">Het woord is aan de heer Van Vliet.</seg>
+            </u>
+            <u who="#RolandvanVliet" ana="#regular" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg8">Voorzitter. De motie op stuk nr. 61 (34300) over het bereiken van een begrotingsevenwicht of begrotingsoverschot is staande het debat uitgevoerd. Daarom trek ik haar in.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg9">Aangezien de motie-Van Vliet (, nr. ) is ingetrokken, maakt zij geen onderwerp van behandeling meer uit. </seg>
+            </u>
+            <note>Het woord is aan mevrouw Schouten.</note>
+            <u who="#CarolaSchouten" ana="#regular" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg10">Voorzitter. Ik vraag om een hoofdelijke stemming over mijn motie 34300, nr. 57 over het substantieel verlagen van het niveau van gaswinning uit het Groningerveld.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2015-10-06-tweedekamer-9.seg11">Wij hebben bij dat punt van de stemmingslijst dus straks twee hoofdelijke stemmingen.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

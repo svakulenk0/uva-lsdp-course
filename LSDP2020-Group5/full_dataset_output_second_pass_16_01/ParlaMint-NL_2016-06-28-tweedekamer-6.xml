@@ -1,0 +1,126 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-06-28 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-06-28 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 101, Session 6 (2016-06-28)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 101, Session 6 (2016-06-28)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="101">Meeting 101</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="12">12 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="12">12 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="294">294 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="294">294 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-06-28">2016-06-28</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="15"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="12"/>
+               <tagUsage gi="note" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-06-28">2016-06-28</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg1">Ik stel voor, zo dadelijk ook te stemmen over de aangehouden motie-Van Veldhoven (34300-XVII, nr. 41).</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg2">Het woord is aan de heer Smaling.</seg>
+            </u>
+            <u who="#EricSmaling" ana="#regular" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg3">Voorzitter. Ik doe nogmaals het verzoek om over de moties, ingediend in het debat over de waardedaling van woningen in Groningen, onder punt 9 nu niet te stemmen. Dat is hetzelfde verzoek als vorige week. Dit wordt mede-ondersteund door VVD, Partij van de Arbeid, CDA, D66, ChristenUnie, GroenLinks enzovoorts.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg4">Wie durft hiertegen te zijn? We halen punt 9 van de lijst af.</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg5">Het woord is aan mevrouw Kuiken.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg6">Voorzitter. Door een fout van mijn kant heb ik net te laat de gewijzigde motie ter vervanging van de motie op stuk nr. 2207 (19637) ingediend over informatie over de uitvoering van het buitenschuldcriterium. Ik wil aan de Kamer vragen of die toch in stemming mag worden gebracht.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg7">Ik neem aan dat die motie verspreid is. Heeft iemand daartegen bezwaar? Het gaat om agendapunt 10, om de motie op stuk nr. 2207. Ik zie dat er geen bezwaar tegen is.</seg>
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg8">Het woord is aan mevrouw Dik-Faber.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg9">Voorzitter. Ik wil graag bij de stemmingen onder punt 19 de motie op stuk nr. 928 (21501-32) van de leden Dik-Faber en Koşer Kaya aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg10">Op verzoek van mevrouw Dik-Faber stel ik voor, haar motie (21501-32, nr. 928) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg11">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg12">Het woord is aan de heer Van Meenen.</seg>
+            </u>
+            <u who="#PaulvanMeenen" ana="#regular" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg13">Voorzitter. Ik zou de motie op stuk nr. 67 onder punt 22 graag aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg14">De motie op stuk nr. 67 (30079) zal worden aangehouden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-06-28-tweedekamer-6.seg15">Ik stel voor, gezien de lange stemmingslijst en in verband met de Europese top die om 16.00 uur begint, eerst te stemmen over agendapunt 29, de moties ingediend bij het notaoverleg over de Europese Raad van 28 en 29 juni 2016.</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

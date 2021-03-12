@@ -1,0 +1,183 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-02-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-02-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 57, Session 51 (2017-02-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 57, Session 51 (2017-02-23)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="57">Meeting 57</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="51">Session 51</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="20">20 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="20">20 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1226">1226 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1226">1226 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-02-23">2017-02-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="22"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="20"/>
+               <tagUsage gi="note" occurs="38"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-02-23">2017-02-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Innovatie/Verspilling in de zorg</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u1">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg1">Ik geef het woord aan de eerste spreker, mevrouw Bouwmeester namens de fractie van de Partij van de Arbeid. Ik had bijna gezegd "die voor het laatst optreedt", maar dat is niet zo, want zij komt hierna nog een keer.</seg>
+            </u>
+            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u2">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg2">Ik ga tot het laatst door voor mensen in de zorg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u3">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg3">Wij hadden niet anders van u verwacht.</seg>
+            </u>
+            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u4">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg4">Dank u wel.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg5">Voorzitter. Ik heb twee moties. Ik ga ze maar meteen voorlezen, want ik heb niet zo veel tijd.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat steeds meer gebruik wordt gemaakt van digitale ondersteuning in de zorg;</note>
+               <note>overwegende dat ook voor zorgverleners en patiënten digitale vaardigheden noodzakelijk zijn;</note>
+               <note>van mening dat digitale vaardigheden voor velen en met name voor ouderen en laaggeletterden geen vanzelfsprekendheid zijn en zij hierbij specifieke ondersteuning nodig hebben;</note>
+               <note>van mening dat dit andere competenties vraagt van huidige en toekomstige zorgverleners;</note>
+               <note>constaterende dat er een "coalitie digitale vaardigheden" is, maar er nog geen concrete langetermijndoelen zijn die leiden tot concrete resultaten voor een digivaardig Nederland en dat onduidelijk is hoe bewustwording en ondersteuning van zorggebruikers meegenomen worden binnen deze coalitie;</note>
+               <note>verzoekt de regering om in samenwerking met verschillende ministeries — BZK, SZW, VWS, EZ en OCW — een langetermijndoel op te stellen dat leidt tot een digivaardig Nederland, waarin alle partijen in de zorg worden toegerust om nu en in de toekomst veilig en digivaardig om te kunnen gaan met e-health en digitale toepassingen in de zorg beter te kunnen benutten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat sociale zorginnovatie de kwaliteit van zorg kan vergroten en zorgkosten kan verlagen;</note>
+               <note>overwegende dat goede ideeën op het gebied van sociale innovatie nog vaak tegen belemmeringen binnen het systeem aanlopen;</note>
+               <note>overwegende dat een akkoord over sociale zorginnovatie met duurzame afspraken noodzakelijk is om de vrijblijvendheid rondom sociale zorginnovatie weg te nemen;</note>
+               <note>van mening dat een dergelijk akkoord een mogelijkheid biedt tot het bijeenbrengen van partijen vanuit het belang en oogpunt van de patiënt, dat het een mogelijkheid biedt om te komen tot meetbare doelen en dat het akkoord daarmee als katalysator kan dienen voor sociale zorginnovatie;</note>
+               <note>verzoekt de regering, de mogelijkheden te onderzoeken voor een breed gedragen akkoord over sociale zorginnovatie, waarbinnen het perspectief van de patiënt centraal staat en dit tevens te betrekken bij de nog te sluiten hoofdlijnenakkoorden zorg;</note>
+               <note>verzoekt de regering tevens, een uitwerking hiervan aan de Kamer te zenden vóór 1 juni 2017,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Bouwmeester, Pia Dijkstra en Voortman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-33654-23</note>
+               <note>Deze motie is voorgesteld door de leden Bouwmeester, Pia Dijkstra, Voortman en Leijten. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-33654-24</note>
+            </u>
+            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u5">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg6">Ik heb een kleine toelichting op de laatste motie. Wellicht denkt men: wat is sociale innovatie, wat is zorginnovatie en wat is technische innovatie? De kern van de motie is: we moeten ervoor zorgen dat de zorg anders en beter wordt georganiseerd. Je hebt techniek en je hebt vooral ook processen die anders moeten lopen, in het belang van de patiënt. De een noemt het procesinnovatie, wij noemen het sociale innovatie. Mocht het voor mensen niet duidelijk zijn, dan heb ik het nog een keer toegelicht.</seg>
+            </u>
+            <u who="#LeendertdeLange" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u6">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg7">Voorzitter. Gezien de tijd wil ik één motie voorlezen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat nieuwe technologie en e-health het mogelijk maken om goede zorg dichter bij mensen thuis te brengen;</note>
+               <note>constaterende dat nieuwe technologie en e-health een middel zijn om de menselijke maat in de zorg en het plezier in het vak van zorgprofessionals te ondersteunen;</note>
+               <note>constaterende dat de Nederlandse gezondheidszorg, wetenschap en het bedrijfsleven internationaal een vooraanstaande rol spelen in de ontwikkeling van innovaties en e-health;</note>
+               <note>constaterende dat veelbelovende praktische e-healthtoepassingen of procesinnovaties soms tegen belemmeringen aanlopen om dit breed binnen de zorg ingevoerd te krijgen;</note>
+               <note>verzoekt de regering, bij de voorbereiding van de hoofdlijnenakkoorden 2018 met de betrokken partijen te bespreken op welke wijze belemmeringen kunnen worden weggenomen om kansrijke e-healthtoepassingen en procesinnovaties breed in de zorg ingevoerd te krijgen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid De Lange. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-33654-25</note>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u7">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg8">Voorzitter. In de motie-Bouwmeester c.s. op stuk nr. 23 wordt de regering verzocht om in samenwerking met een aantal ministeries een langetermijndoel op te stellen dat leidt tot een digivaardig Nederland. Het is heel erg belangrijk om een digivaardig Nederland te hebben. De jonge zorgprofessionals schreven het advies "Bridge the (g)@pp" over e-health. Met hen kijk ik ook naar een vervolg rondom het thema opleidingen. Bij de nog te organiseren ontbijten in de regio's zal ik expliciet aandacht besteden aan het thema opleidingen en bijscholingen. Binnenkort hebben we het eerste ontbijt al in Maastricht. Ik besteed ook aandacht aan dit onderwerp in de coalitie Digivaardig van het ECP. Het ECP ontvangt hiervoor ook een bijdrage van VWS. Ik vind het belangrijk om deze weg te volgen, omdat we in de praktijk met de partijen zelf heel hard aan de slag zijn om dit te verbeteren. Ik denk dat het niet heel erg helpt om hier een heel zware coalitie van departementen boven te zetten, terwijl we in de praktijk gewoon al aan de slag zijn. We agenderen dat in alle regio's. We pakken dat daar al op. Ik ontraad deze motie daarom.</seg>
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg9">In de motie-Bouwmeester c.s. op stuk nr. 24 wordt de regering gevraagd om een breed gedragen akkoord over sociale zorginnovatie op te stellen. Daar hebben we tijdens het AO ook al over gehad. Dat is echt een heel lastige vraag. Ik neem deze motie even samen met de derde motie, de motie-De Lange op stuk nr. 25, waarin de regering wordt verzocht om bij de voorbereiding van de hoofdlijnenakkoorden aandacht te besteden aan de vraag op welke wijze belemmeringen kunnen worden weggenomen waartegen men aanloopt bij de invoering van e-healthtoepassingen en procesinnovaties in de zorg. Ik ben daar momenteel over aan het onderhandelen. Over drie weken zijn wij demissionair. Het lijkt mij echt heel onverstandig om in zo'n demissionaire periode een dergelijk akkoord te sluiten, terwijl wij aan de andere kant hoofdlijnenakkoorden aan het sluiten zijn. Bij de voorbereiding van die hoofdlijnenakkoorden staat e-health op de agenda. Ik wil dat punt daar ook in meenemen. Ik zie de derde motie daarom als ondersteuning van het beleid. Ik wil dat in die hoofdlijnenakkoorden meenemen, maar ik voel er weinig voor om daarbovenop nog een nationaal akkoord over sociale zorginnovatie te sluiten, zoals ik tijdens het AO al heb aangegeven.</seg>
+            </u>
+            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u8">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg10">De minister noemt termen die helemaal niet in de motie staan. Er staat niet in de motie dat ze "een nationaal akkoord over sociale zorginnovatie" moet sluiten. Dit is dus even een technische vraag: misschien moet de minister de motie nog eens goed lezen?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u9">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg11">Dat is niet helemaal een technische vraag, maar toch, ik geef het woord aan de minister.</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u10">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg12">De term "nationaal akkoord" is tijdens het AO aan de orde geweest. Dat is nu geworden "een breed gedragen akkoord over sociale innovatie". Ik zit met iedere sector apart aan de tafel om een hoofdlijnenakkoord voor 2018 te sluiten. Ik vind dat dat prioriteit heeft. Ik ben zeker bereid om bij de totstandkoming van die akkoorden onder andere het thema sociale innovatie te betrekken. Het is al een onderwerp van gesprek daarbij. In de motie wordt echter ook gevraagd om daarbovenop nog een breed gedragen akkoord over sociale innovatie te sluiten en dat wil ik niet. Als mevrouw Bouwmeester zegt dat het niet zo is, dan zou ik zeggen: probeert u die twee moties in elkaar te schuiven. Het gaat mij erom dat ik dat betrek bij de totstandkoming van de hoofdlijnenakkoorden, waarbij ik aan tafel zit. Ik heb echter weinig zin om in de komende maanden een apart akkoord daarnaast te sluiten. We hebben het hier ook uitgebreid over gehad tijdens het AO.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u11">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg13">Ik wijs erop dat het technisch wel erg lastig wordt om nu nog moties in elkaar te gaan schuiven waarover we straks moeten gaan stemmen. Maar dat terzijde.</seg>
+            </u>
+            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u12">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg14">Het is bijna aandoenlijk te noemen. Tijdens het algemeen overleg heb ik de minister gevraagd om ervoor te zorgen dat het thema sociale zorginnovatie onderdeel wordt van het hoofdlijnenakkoord. Ik heb daarbij aangegeven dat het mij niet uitmaakt op welke manier dat gebeurt. De minister zei toen dat dat allemaal helemaal niet nodig is. Vervolgens is er een VVD-Kamerlid dat mijn punt in een eigen motie zet en zegt de VVD-minister dat die VVD-motie goed is en die PvdA-motie niet. Ik vind dat een beetje raar. Wij vragen namelijk ook iets anders dan wat de minister zegt. Ons verzoek is: onderzoek nu eens hoe je kunt voorkomen dat zo'n hoofdlijnenakkoord niet alleen over geld gaat, maar ook over zorginnovatie. Als dat nu het verzoek is, kan de minister toch gewoon zeggen: ik laat het oordeel over beide moties aan de Kamer en zoek samen maar even uit of je ze in elkaar schuift, zoals de voorzitter terecht zegt? Dan kun je toch niet de ene motie, die van de PvdA, ontraden en zeggen dat de andere motie, die van de VVD, wel goed is?</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u13">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg15">We hebben het in het AO, daar was ik zelf bij, uitgebreid over een nationaal akkoord gehad. Ik lees het verzoek zo dat hier staat: een breed gedragen akkoord over sociale innovatie.</seg>
+            </u>
+            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u14">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg16">Onderzoeken.</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u15">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg17">Ja, maar onderzoek naar een breed gedragen akkoord voor sociale innovatie zie ik dus niet zitten. Daar hebben we het over gehad. Wat ik wel zie zitten, is om in de hoofdlijnenakkoorden e-health apart mee te nemen als belangrijk punt op de agenda. Als mevrouw Bouwmeester zegt dat zij dat bedoelt, dan zou ik zeggen: haal het eerste deel van dit verzoek weg, want het staat op de agenda van die hoofdlijnenakkoorden en dat is belangrijk, want we willen het daar niet alleen over geld hebben, want er is ook meer nodig.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u16">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg18">Even ter vermijding van onduidelijkheden, er staat wat er staat. Over wat er staat, zegt u: ontraden. U bent niet van mening veranderd naar aanleiding van de interventies van mevrouw Bouwmeester?</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u17">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg19">Nee, als ik het oplees, staat er: verzoekt de regering de mogelijkheden te onderzoeken voor een breed gedragen akkoord over sociale innovatie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u18">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg20">Dus u handhaaft dat judicium?</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u19">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg21">Dat is ontraden.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.u20">
+               <seg xml:id="ParlaMint-NL_2017-02-23-tweedekamer-51.seg22">Daarmee zijn wij aan het eind gekomen van dit VAO. Ik dank de minister. Ik stel voor vanavond nog over deze moties te stemmen, en met grote vreze zeg ik erbij: over een eventueel tussenbaksel dat er misschien nog komt.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

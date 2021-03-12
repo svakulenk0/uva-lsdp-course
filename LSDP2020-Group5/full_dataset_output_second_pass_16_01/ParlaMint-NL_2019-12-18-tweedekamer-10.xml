@@ -1,0 +1,159 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-12-18 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-12-18 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 38, Session 10 (2019-12-18)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 38, Session 10 (2019-12-18)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="38">Meeting 38</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="10">Session 10</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="20">20 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="20">20 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="763">763 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="763">763 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-12-18">2019-12-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="20"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="20"/>
+               <tagUsage gi="note" occurs="16"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-12-18">2019-12-18</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Nucleaire veiligheid</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg1">We gaan verder met het VAO Nucleaire veiligheid. Ik geef mevrouw Kröger namens de fractie van GroenLinks het woord.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg2">Voorzitter. Een van de onderwerpen waar we in het debat het nodige over gewisseld hebben, is de export van verarmd uranium naar Rusland. We maken ons daar grote zorgen over en we willen graag dat Nederland hierin optreedt. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er vanuit URENCO verarmd uranium (VF6) wordt geëxporteerd naar Rusland en dat de minister van Financiën via Ultra Centrifuge Nederland (UCN) een derde van de aandelen van URENCO houdt;</note>
+               <note>constaterende dat de productielocatie van de Duitse URENCO in Gronau ligt, slechts 250 kilometer van de tevens Nederlandse staatsdeelneming COVRA in Borsele waar Nederlands UF6 wordt opgeslagen, maar dat UF6 ruim 1.700 kilometer wordt vervoerd naar het Russische nucleaire bedrijf ROSATOM;</note>
+               <note>overwegende dat er grote vraagtekens zijn bij de juiste verwerking hiervan door ROSATOM;</note>
+               <note>overwegende dat in antwoord op schriftelijke vragen over het verlenen van een vergunning aan URENCO voor de export van 1.000 ton verarmd uranium aan Rusland staat dat er sprake was van een "fout" welke de regering "betreurde";</note>
+               <note>van mening dat het onwenselijk is dat een Nederlands staatsbedrijf aan Rusland grondstoffen levert die door herverrijking kunnen dienen voor de productie van brandstof voor kernreactoren of andere, zelfs militaire, doeleinden;</note>
+               <note>verzoekt de regering om zich op alle mogelijke manieren, waaronder door middel van het aandeelhouderschap van het ministerie van Financiën in URENCO, in te spannen om de export van verarmd uranium naar Rusland te stoppen en te zorgen voor een adequate verwerking van het verarmde uranium,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Kröger en Van Eijs. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25422-261</note>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg3">Voorzitter. Ik wil tot slot de opmerking maken dat dit echt gaat om kernafval dat via Nederlands spoor en via een Nederlandse haven, de Amsterdamse haven, verscheept wordt. Wat ons betreft is dit een praktijk die we echt moeten stoppen. Ik hoop dat deze minister en haar collega's zich willen inzetten om dit te doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg4">Dank u wel, mevrouw Kröger. Kan de minister meteen antwoorden? Nee, de motie moet nog worden gekopieerd en worden rondgedeeld. Een moment geduld.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg5">Ik geef het woord aan de minister.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg6">Voorzitter. In de motie op stuk nr. 261 vragen mevrouw Kröger en mevrouw Van Eijs de regering om zich op allerlei manieren, waaronder via het aandeelhouderschap van het ministerie van Financiën, in te spannen om de export te stoppen. Daarmee vraagt de motie eigenlijk om een aantal zaken die niet onder mijn verantwoordelijkheid vallen, want ik ben alleen verantwoordelijk voor het toezicht op de veiligheid via de onafhankelijke inspectie, de ANVS. Daar ziet deze motie niet op. Ik ben wel bereid om de motie onder de aandacht te brengen bij de collega's, maar ik geef zelf geen oordeel over deze motie.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u7">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg7">Betekent dat dan dat wij voor de stemmingen een schriftelijke appreciatie krijgen van de collega's?</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u8">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg8">Daar kan ik de collega's om vragen, maar omdat deze motie dus eigenlijk geen betrekking heeft op mijn verantwoordelijkheid, laat ik het aan de collega's over hoe snel zij die appreciatie kunnen geven.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u9">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg9">Als het niet over het terrein van de minister gaat, is het te ingewikkeld.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u10">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg10">Volgens mij spelen hier twee dingen. We hebben een debat gevoerd over nucleaire veiligheid. Dit is de minister die verantwoordelijk is voor nucleaire veiligheid. Een van de onderwerpen die daarbij speelt, zijn deze kernafvaltransporten. Ik begrijp dat dit een domein is dat bij verschillende bewindspersonen ligt. Het gaat over export, het gaat over het aandeelhouderschap van het ministerie van Financiën, maar het gaat uiteindelijk overkoepelend over nucleaire veiligheid. Ik hoop dus toch dat deze minister met haar collega's wil afstemmen en dat er een kabinetsappreciatie komt, zodat wij als Kamer hierover kunnen stemmen.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u11">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg11">Ik begrijp dat mevrouw Kröger dat graag wil, maar hetgeen waar de motie om vraagt, heeft geen betrekking op problemen met de veiligheid. De ANVS ziet toe op de veiligheid van de transporten in Nederland. Er is voor mij geen reden om te twijfelen aan het oordeel van de ANVS, en de ANVS heeft geen reden om te twijfelen aan de veiligheid van die transporten. Daarmee ligt het gewoon echt niet binnen mijn terrein.</seg>
+            </u>
+            <u who="#RoyvanAalst" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u12">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg12">Laat ik dan een bruggenbouwer zijn. Vanavond om 19.30 uur hebben we een VAO Staatsdeelnemingen. Volgens mij staat deze deelneming daar op de agenda. Misschien is het een idee voor mevrouw Kröger om het daar nog onder de aandacht te brengen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u13">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg13">Mevrouw Kröger, tot slot.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u14">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg14">Wij willen de kabinetsappreciatie heel erg graag schriftelijk krijgen. Dan kunnen we daarover stemmen.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u15">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg15">Voorzitter, ik kan me voorstellen dat de suggestie van de heer Van Aalst een hele goede is. Mevrouw Kröger doet hier namelijk een oproep aan de aandeelhouder, de minister van Financiën. Als ze de motie gewoon indient bij dat VAO met de minister van Financiën, krijgt ze waarschijnlijk het snelst een reactie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u16">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg16">Nee, mevrouw Kröger, ik ga u het woord niet geven, tenzij u de motie aanhoudt. Dan mag u daar iets over zeggen. Ik heb vorige week al een aanvaring gehad met mevrouw Van Eijs. We gaan daar nog over spreken en een kopje koffie drinken. Ik wil het eigenlijk daarbij houden. Anders moet ik ook met u een kopje koffie gaan drinken. Dat vind ik altijd leuk, maar niet hierover.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u17">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg17">Mijn vraag blijft of ik een schriftelijke kabinetsappreciatie krijg, maar dat was wat de minister aangaf, dus daar ga ik nu van uit.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u18">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg18">Ik zou dat dan graag willen herroepen, want mevrouw Kröger wil natuurlijk zo snel mogelijk een reactie. Ik denk dat ze daarom ook graag een appreciatie voor de stemmingen wilde. Als er inderdaad vanavond nog een AO Staatsdeelnemingen is, dan lijkt me dat de snelste weg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u19">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg19">Het is aan u om dit vanavond aan de orde te stellen, mevrouw Kröger. En anders kunt u de motie altijd in stemming brengen.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.u20">
+               <seg xml:id="ParlaMint-NL_2019-12-18-tweedekamer-10.seg20">Daarmee zijn we aan het einde gekomen van dit VAO.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

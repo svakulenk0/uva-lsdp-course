@@ -1,0 +1,94 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-06-08-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-06-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-06-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 93, Session 5 (2016-06-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 93, Session 5 (2016-06-08)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="93">Meeting 93</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="2">2 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="2">2 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="165">165 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="165">165 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-06-08">2016-06-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="5"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="2"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-06-08">2016-06-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-08-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2016-06-08-tweedekamer-5.seg1">Ik stel voor, dinsdag a.s. ook te stemmen over de moties ingediend bij het notaoverleg over de evaluatie van de uitwerking van de nieuwe staatkundige structuur inzake Bonaire, Sint-Eustatius en Saba en bij het wetgevingsoverleg over het jaarverslag van het ministerie van Economische Zaken en het Diergezondheidsfonds 2015.</seg>
+               <seg xml:id="ParlaMint-NL_2016-06-08-tweedekamer-5.seg2">Voorts stel ik voor, vast te stellen dat voor zover het deze Kamer betreft, instemming is verkregen met de ontwerp-EU-besluiten inzake huwelijksvermogensrecht en geregistreerde partnerschappen zoals toegezonden bij de brief van de minister van Veiligheid en Justitie van 30 mei 2016 (32317, nr. 417).</seg>
+               <seg xml:id="ParlaMint-NL_2016-06-08-tweedekamer-5.seg3">Ik stel voor, het volgende wetsvoorstel toe te voegen aan de agenda van de Kamer:</seg>
+               <seg xml:id="ParlaMint-NL_2016-06-08-tweedekamer-5.seg4">Goedkeuring van de op 19 februari 2013 te Brussel tot stand gekomen Overeenkomst betreffende een eengemaakt octrooigerecht (Trb. 2013, 92 en 2016, 1) (34411).</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-06-08-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2016-06-08-tweedekamer-5.seg5">Hiermee zijn we aan het eind gekomen van de regeling van werkzaamheden. Iedereen staat verbaasd te kijken. Het is dan ook een uitzondering dat er geen verzoeken zijn. Pieter Omtzigt is vrij, hoor ik.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

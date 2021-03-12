@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-12-02 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-12-02 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 32, Session 4 (2015-12-02)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 32, Session 4 (2015-12-02)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="32">Meeting 32</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="267">267 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="267">267 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-12-02">2015-12-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="9"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+               <tagUsage gi="note" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-12-02">2015-12-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Beëdiging de heer E.E.W. Bruins</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.seg1">Ik geef het woord aan mevrouw Neppérus tot het uitbrengen van verslag namens de Commissie voor het Onderzoek van de Geloofsbrieven.</seg>
+            </u>
+            <u who="#HelmaNeppérus" ana="#regular" xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.seg2">Voorzitter. De Commissie voor het Onderzoek van de Geloofsbrieven heeft de stukken onderzocht die betrekking hebben op de heer E.E.W. Bruins te Alphen aan den Rijn.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.seg3">De commissie is tot de conclusie gekomen dat de heer E.E.W. Bruins te Alphen aan den Rijn terecht benoemd is verklaard tot lid van de Tweede Kamer der Staten-Generaal.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.seg4">De commissie stelt u daarom voor om hem toe te laten als lid van de Kamer. Daartoe dient hij wel eerst de eden, zoals die zijn voorgeschreven bij de Wet beëdiging ministers en leden Staten-Generaal van 27 februari 1992, Staatsblad nr. 120, af te leggen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.seg5">De commissie verzoekt u tot slot, de Kamer voor te stellen, het volledige rapport in de Handelingen op te nemen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.seg6">Ik dank de commissie voor haar verslag en stel voor, dienovereenkomstig te besluiten.</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+            <note>(Het rapport is opgenomen aan het eind van deze editie.)</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.seg7">Ik verzoek de leden en overige aanwezigen in de zaal en op de publieke tribune, voor zover hun dat mogelijk is, te gaan staan.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.seg8">De heer Bruins is in het gebouw der Kamer aanwezig om de voorgeschreven eden af te leggen. Ik verzoek de Griffier, hem binnen te leiden.</seg>
+            </u>
+            <note>Nadat de heer Bruins door de Griffier is binnengeleid, legt hij in handen van de Voorzitter de bij de wet voorgeschreven eden af.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2015-12-02-tweedekamer-4.seg9">Ik wens u van harte geluk met het lidmaatschap van deze Kamer. Ik verzoek u om in ons midden plaats te nemen. Uw presentatie zal handmatig worden aangevuld op de lijst. Na de regeling van werkzaamheden zal ik de vergadering schorsen, zodat uw collega's u kunnen feliciteren met uw benoeming. Ik heb echter het genoegen om dat nu gelijk te mogen doen. Hartelijk gefeliciteerd!</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

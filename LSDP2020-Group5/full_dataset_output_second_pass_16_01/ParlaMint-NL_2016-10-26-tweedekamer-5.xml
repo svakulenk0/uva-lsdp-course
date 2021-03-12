@@ -1,0 +1,213 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-10-26 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-10-26 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 14, Session 5 (2016-10-26)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 14, Session 5 (2016-10-26)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="14">Meeting 14</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="40">40 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="40">40 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1613">1613 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1613">1613 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-10-26">2016-10-26</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="47"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="40"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-10-26">2016-10-26</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg1">Ik stel voor, dinsdag a.s. ook te stemmen over de brief van de vaste commissie voor Europese Zaken inzake de beëindiging van het parlementair behandelvoorbehoud bij de EU-voorstellen: Verordening bindende nationale reductiepercentages broeikasgassen 2021-2030 COM (2016) 482 en Verordening integratie LULUCF COM (2016) 479 (34535, nr. 7).</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg2">Op verzoek van het lid Omtzigt stel ik voor, de minister van Buitenlandse Zaken te verzoeken, de EU-restricted documenten met nummers 13 591-2016 en 13 232-2016 per ommegaande ter vertrouwelijke inzage aan de Kamer te doen toekomen.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg3">Op verzoek van de vaste commissie voor Economische Zaken stel ik voor, het debat met de minister van Economische Zaken over het rapport van de tijdelijke commissie Breed welvaartsbegrip aan de agenda toe te voegen.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg4">Ik stel voor, de volgende stukken van de stand van werkzaamheden af te voeren: 2016Z18267; 25087-130; 34550-IX-6; 21501-07-1395; 31066-299; 31066-293; 2016Z17334; 28165-252; 28165-257; 34550-IX-9; 33532-63; 32013-136; 34424-7; 22112-2209; 27926-269; 26643-422; 33340-9; 2016Z15518; 2016Z14304; 2016Z14344; 2016Z18182; 28676-249; 28676-255; 26488-414; 2016Z00346; 34300-X-123; 34300-X-102; 34300-X-117; 34300-X-96; 29270-113; 22112-2216; 33826-18; 2016Z17392; 28638-149; 29628-665; 34388-7; 32612-9; 2016Z17562; 34550-VI-4; 29628-664; 2016Z17356; 33199-16; 29754-397; 28684-473; 28684-472; 28684-464; 28684-467; 28684-459; 34475-VI-7; 2016Z18388; 23530-112; 34550-VII-7; 2016Z18244; 2016Z17442; 2016Z17384; 33328-35; 24827-19; 34376-3; 30950-103; 32563-55; 32849-36; 21501-33-538; 21501-33-535; 21501-30-347; 21501-30-344; 21501-30-343; 33450-42; 28286-782; 33979-71; 30991-19; 34000-XIII-147; 28286-781; 30196-293; 22112-1938.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg5">Ik stel voor, toe te voegen aan de agenda het VAO Wapenexportbeleid met als eerste spreker het lid Sjoerdsma namens D66.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg6">Het woord is aan de heer Van Helvert. Ik zie dat hij de heer Geurts vervangt.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg7">Voorzitter. Ik vervang inderdaad even collega Geurts. Ik wil een rappel doen met betrekking tot de onbeantwoorde schriftelijke vragen aan de staatssecretaris van Economische Zaken over het afbreken van vertrouwen en bereidwilligheid door de overheid bij vissers om deel te nemen aan innovatieve projecten. Die vragen zijn ingediend op 26 september 2016.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg8">Ik stel voor om stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg9">U hebt nog twee verzoeken. Het woord is dus nogmaals aan de heer Van Helvert van het CDA.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg10">Voorzitter. Wij zagen in de media en in rapporten ernstige zaken rondom bruggen in verval en de situatie daaromtrent. Nu, maar zeker ook in de toekomst, leidt dat tot gevaarlijke situaties. Wij willen een debat met de minister hierover voeren, omdat wij graag zouden zien dat er een aanvalsplan voor bruggen komt. Wij zouden dat willen bespreken in een debat met haar hierover.</seg>
+            </u>
+            <u who="#LutzJacobi" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg11">Het is een heel goed punt dat de heer Van Helvert naar voren brengt, maar een debataanvraag komt op de grote bult terecht. Wij willen heel graag een brief ontvangen waarin een duidelijke lijn wordt geschetst, zodat wij dan weten hoe het zit en hoe we dat zouden kunnen verbeteren. Het MIRT komt eraan. Het zou fijn zijn als die brief er voor het MIRT is en om die dan daarin te bespreken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg12">Dus voorlopig geen steun.</seg>
+            </u>
+            <u who="#FatmaKoşerKaya" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg13">Steun voor het verzoek om een brief daarover te ontvangen en steun voor het verzoek.</seg>
+            </u>
+            <u who="#EricSmaling" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg14">Ik zou de lijn van mevrouw Jacobi willen volgen dat we tijdens het MIRT erover kunnen praten, maar dat we daarvoor een goede brief over dit onderwerp ontvangen.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg15">Dat is een terechte vraag. De VVD heeft dit vorige week al in schriftelijke vragen aan de orde gesteld. Wij hebben die vragen op 19 oktober ingediend met het verzoek om voor volgende week bij de begrotingsbehandeling de antwoorden te krijgen. Wij hebben dus twee opties om dit te bespreken: bij de begrotingsbehandeling — dan wil ik ook graag de antwoorden op de vragen van de VVD ontvangen hebben — eventueel gevolgd door een brief die we bij dezen via u aanvragen, of bij het MIRT. We moeten even bekijken wat een handige manier is. Het is dus goed om het onderwerp te bespreken, maar het lijkt me zinvoller om dat bij de begrotingsbehandeling en/of het MIRT te doen, maar dan wel met volledige informatie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg16">Mijnheer Van Helvert, u hebt geen meerderheid voor het houden van een debat.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg17">Dat is spijtig. Ik begreep wel dat er een meerderheid is om een brief aan de minister te vragen die er dan voor de begrotingsbehandeling en het MIRT zal liggen. We zullen het dan daarin bespreken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg18">Ik stel voor om het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg19">Het woord is aan de heer Van Helvert voor zijn volgende verzoek.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg20">Voorzitter. Ik doe dit verzoek mede namens de heer Monasch van de Partij van de Arbeid. Wij willen graag een brief van de staatssecretaris van Infrastructuur en Milieu en van de minister van Financiën ontvangen over de stand van zaken met betrekking tot de situatie bij KLM en Air France. In verband met het debat over Air France/KLM van vanavond willen wij die brief graag voor vanavond 19.00 uur ontvangen. Tevens ontvangen wij graag een overzicht van de machts- en zeggenschapsverhoudingen van de holding bij de board meeting in Parijs de komende week. Wij willen dit alles ontvangen om gezamenlijk in de Kamer tot een goed advies aan het kabinet te kunnen komen, zodat het kabinet goed stelling kan nemen richting Parijs.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg21">Dan stel ik voor om het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg22">Ik geef het woord aan de heer Kuzu.</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg23">Voorzitter. Wij willen een brief en een debat met de minister van Onderwijs, Cultuur en Wetenschap over het bericht dat de verschillen in de maatschappelijke positie van vrouwen ten opzichte van die van mannen steeds groter worden. Dit blijkt uit het Global Gender Gap Rapport 2016. In de brief wil ik in ieder geval een reactie op vijf punten, te weten de politieke participatie, de economische participatie, de onderwijspositie, de gezondheid en de arbeidsmarkt.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg24">Morgenochtend om 10.15 uur hebben we een algemeen overleg over emancipatie. Ik stel voor dat de heer Kuzu deze vraag daarin stelt. Geen steun dus voor de verzoeken.</seg>
+            </u>
+            <u who="#PiaDijkstra" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg25">Dat lijkt mij ook de snelste route, want in dat overleg spreken we met de minister van Onderwijs over dit onderwerp en kan de heer Kuzu meteen antwoord krijgen.</seg>
+            </u>
+            <u who="#KeklikYücel" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg26">Ik wil ook altijd graag over emancipatieonderwerpen debatteren, maar we worden op onze wenken bediend: morgen is er een AO Emancipatie. Ik hoop dat de heer Kuzu daarbij aanwezig is. Bovendien hebben we binnenkort een debat met minister Asscher over arbeid en zorg. Dus volgens mij zit het allemaal in de planning.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg27">Omwille van de snelheid zou ik willen aansluiten bij de suggestie van het algemeen overleg van morgen, maar ik wil het verzoek tot het sturen van een brief wel graag steunen. Die brief kan gerust vandaag nog komen. Dan kan dit onderwerp er morgen nog beter bij betrokken worden. Daar ga ik dus niet voor liggen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg28">Nee. Voor het verzoek tot het sturen van een brief is geen meerderheid nodig. Dat is een individueel recht van Kamerleden.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg29">Op zichzelf denk ik dat het AO van morgen inderdaad de snelste gelegenheid is. Ik kan me wel voorstellen dat de heer Kuzu dan een ander debat heeft. Ik heb hetzelfde probleem. Als dat het probleem is, kan hij misschien kijken of dat AO verzet kan worden, zodat dit daar ook bij betrokken kan worden.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg30">Ik weet wel dat voor het verzoeken om informatie geen Kamermeerderheid nodig is, maar ik zag in de uitspraken van de voorgaande woordvoerders absoluut geen ruimte om daartoe gelegenheid te bieden. Daarom hecht ik er waarde aan om duidelijk te maken dat die ruimte er wel is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg31">Bij dezen is uw punt helder. Mevrouw Yücel, gaat u reageren op mevrouw Leijten?</seg>
+            </u>
+            <u who="#KeklikYücel" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg32">Wij zullen er inderdaad nooit voor gaan liggen als het om informatieverzoeken gaat. Een brief is prima en zo snel mogelijk. Als dat kan het liefst voor morgen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg33">Daar wil ik mij bij aansluiten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg34">Dank u wel.</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg35">Ik dank de collega's voor de steun voor de brief. Ik hoop dat de brief nog vanavond komt, zodat die morgenochtend meegenomen kan worden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg36">Ik stel voor het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+            </u>
+            <u who="#LutzJacobi" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg37">Voorzitter. Het is een beetje jammer dat ik hier moet staan, maar ik word daartoe gedwongen door procedures. Vanmorgen hebben we in de procedurevergadering Infrastructuur en Milieu gesproken over de gang van zaken op dit moment bij de uitvoering van het project inhaalslag Stroomlijn fase 3. Dit houdt in dat natuur wordt vernield om redenen van waterveiligheid. Er is een motie, de motie-Jacobi, die breed is gesteund in de Kamer over onder andere dat deel van Waal, waar het nu over gaat. Twitter loopt vol over de vreselijke natuurafbraak die daar op dit moment plaatsvindt. Wij vragen de minister om tot 14 november de uitvoering van het project bij de Waal stop te zetten zodat verdere natuurschade wordt voorkomen. Bij het wetgevingsoverleg Water kunnen wij daar met haar over spreken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg38">Voor de helderheid: u wilt een brief?</seg>
+            </u>
+            <u who="#LutzJacobi" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg39">Ik wil een brief van de Kamer aan de minister met het verzoek nu te stoppen en geen onomkeerbare maatregelen te nemen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg40">De heer Smaling.</seg>
+            </u>
+            <u who="#EricSmaling" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg41">Ik vind het helemaal niet jammer dat mevrouw Jacobi daar staat en onderschrijf haar punt van harte.</seg>
+            </u>
+            <u who="#FatmaKoşerKaya" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg42">Ook namens D66 volledige steun in dezen.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg43">Het CDA steunt dat met de groeten van collega Geurts.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg44">Ik wil namens de VVD iets uitspreken, want we doen dit niet voor niets. Het gaat om waterveiligheid. We kunnen vragen om dit te stoppen, maar wat mij betreft staat waterveiligheid voorop. Als we het signaal krijgen dat er gekapt moet worden om de waterveiligheid in Nederland te garanderen, dan moet dat ook gewoon. Ik spreek bij dezen dus uit dat het verzoek niet namens de volledige Kamer wordt gedaan.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg45">De ChristenUnie steunt het verzoek van mevrouw Jacobi.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg46">Ik zal het stenogram van dit deel van de vergadering doorgeleiden naar het kabinet.</seg>
+            </u>
+            <u who="#LutzJacobi" ana="#regular" xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2016-10-26-tweedekamer-5.seg47">Voorzitter, ik ben blij.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

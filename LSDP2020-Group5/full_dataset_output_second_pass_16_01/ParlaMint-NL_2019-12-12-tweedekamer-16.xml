@@ -1,0 +1,521 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-12-12 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-12-12 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 36, Session 16 (2019-12-12)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 36, Session 16 (2019-12-12)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="36">Meeting 36</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="16">Session 16</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="101">101 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="101">101 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="4553">4553 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="4553">4553 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-12-12">2019-12-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="121"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="101"/>
+               <tagUsage gi="note" occurs="115"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-12-12">2019-12-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Rapporten ILT en RIVM over GenX en Tijdelijk handelingskader voor hergebruik van pfas-houdende grond en baggerspecie</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u1">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg1">Aan de orde is het VSO Rapporten ILT en RIVM over GenX en het VSO Tijdelijk handelingskader voor hergebruik van pfas-houdende grond en baggerspecie (28089).</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg2">Als eerste spreker van de zijde van de Kamer geef ik graag het woord aan mevrouw Kröger van GroenLinks.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u2">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg3">Voorzitter. Ik heb een tweetal moties, die allebei bedoeld zijn om aan de voorkant van het probleem te komen, bij de bronaanpak. Dat is wat er moet gebeuren. Volgens mij is de minister dat met ons eens.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg4">De eerste motie gaat over het onderzoek naar de afvalstromen van ILT en RIVM.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat uit onderzoek van het RIVM en de ILT blijkt dat er op verschillende momenten pfas in afvalstromen terechtkomt;</note>
+               <note>overwegende dat hierdoor vrachtwagens, op- en overslagterreinen, gereedschappen en ander materieel besmet kunnen raken met pfas-stoffen, en hierdoor kruisbesmettingen kunnen ontstaan die ongemerkt en ongemonitord leiden tot verdere verspreiding van pfas-stoffen;</note>
+               <note>verzoekt de regering om een gesloten ketenaanpak uit te werken voor het transport en de verwerking van afval met pfas-stoffen met als doel het voorkomen van (kruis)besmetting met pfas-stoffen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-154</note>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u3">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg5">En de volgende motie:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat pfas-stoffen niet afbreken in de natuur, zich ophopen in het lichaam en schadelijk zijn voor de gezondheid van mensen, en er amper methodes zijn om pfas te zuiveren uit bodem of water;</note>
+               <note>overwegende dat pfas-stoffen inmiddels in grote delen van Nederland in grond worden aangetroffen en dat dit tot grote problemen leidt;</note>
+               <note>overwegende dat pfas-stoffen zich via afvalstromen, emissies naar de lucht en het water door heel Europa verspreiden en dat bronmaatregelen nodig zijn om verdere vervuiling en problemen te voorkomen;</note>
+               <note>verzoekt de regering om in kaart te brengen welke stappen er gezet kunnen worden om het gebruik, de productie en de verwerking van pfas terug te dringen, en voor de zomer met een overzicht van mogelijke maatregelen te komen die vervuiling door pfas in alle stappen van de keten kunnen terugdringen of voorkomen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-155</note>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u4">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg6">Dan zou ik tot slot nog een vraag willen stellen. Een van de gebieden waar pfas in voorkomen, is cosmetica. Aangezien dat direct gebruik op het lichaam is, lijkt mij dat een zeer, zeer zorgelijke situatie. Ik wil heel graag op korte termijn van de staatssecretaris horen of het klopt dat er pfas in cosmetica zitten in Nederland.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg7">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u5">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg8">Dank u wel. Ik geef als tweede spreker het woord aan mevrouw Van Eijs van D66.</seg>
+            </u>
+            <u who="#JessicavanEijs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u6">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg9">Dank u wel, voorzitter. Ik heb één motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er verontreinigde grond in diepe plassen gestort mag worden ter verbetering van de ecologische waarde van de plas;</note>
+               <note>overwegende dat diepe plassen in Nederland veelal recreatief worden gebruikt en de diepe plas ook een ecologische waarde ontwikkelt;</note>
+               <note>overwegende dat verondiepte plassen met verontreinigde grond in contact kunnen staan met het grondwater;</note>
+               <note>overwegende dat voor vrijwel alle plaatsen waar grond gestort mag worden, voldaan moet worden aan meer verplichtingen dan voor het storten in diepe plassen;</note>
+               <note>verzoekt de regering zo snel mogelijk een vergunning- en MER-beoordelingsplicht voor het verondiepen van diepe plassen te introduceren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Eijs. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-156</note>
+            </u>
+            <u who="#JessicavanEijs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u7">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg10">Dit is al het voornemen voor het bodembesluit, maar dat komt pas bij de invoering van de Omgevingswet. Wij denken dat dit al eerder aangepakt moet worden, dus daarom dien ik deze motie in. Wij hopen dat deze motie op steun kan rekenen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u8">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg11">Dank u wel. Dan geef ik het woord aan de heer Laçin van de SP-fractie.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u9">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg12">Dank, voorzitter. Ik heb drie moties, dus ik ga meteen beginnen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat uit een in 2018 uitgevoerd onderzoek in opdracht van het ministerie van lenW en de gemeente Dordrecht naar de verspreiding van pfas-stoffen is gebleken dat er een aanzienlijke overschrijding van de toegestane norm van veel stoffen heeft plaatsgevonden;</note>
+               <note>overwegende dat er nog duizenden pfas-stoffen zijn die in Nederland nog niet zijn geïdentificeerd;</note>
+               <note>overwegende dat met de meest geavanceerde meetmethoden nog vele honderden pfas-stoffen zijn te identificeren;</note>
+               <note>verzoekt de regering zo snel mogelijk de meest geavanceerde meetmethodes voor het identificeren en meten van pfas-stoffen te gebruiken en de resultaten hiervan met de Kamer te delen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat pfas-stoffen vele toepassingen kennen en via verschillende wegen in onze leefomgeving terechtkomen;</note>
+               <note>overwegende dat er goede alternatieven zijn voor een deel van de producten waar pfas-stoffen in zitten, bijvoorbeeld regenjassen en blusschuim;</note>
+               <note>verzoekt de minister te onderzoeken op welke termijn producten met pfas-stoffen vervangen kunnen worden door pfas-vrije alternatieven, en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-157</note>
+               <note>Deze motie is voorgesteld door het lid Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-158</note>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u10">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg13">Tot slot een motie over de actualiteit in Groot-Ammers, bij KoreNet.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat GenX op de lijst van zeer zorgwekkende stoffen staat;</note>
+               <note>overwegende dat voor deze stoffen een minimalisatieplicht geldt;</note>
+               <note>overwegende dat het legaliseren van illegale lozingen met een vergunning niet past in de ambitie om de uitstoot van zeer zorgwekkende stoffen zoals GenX te minimaliseren;</note>
+               <note>van mening dat illegale lozingen aangepakt, bestraft en beëindigd moeten worden en niet beloond moeten worden met een vergunning;</note>
+               <note>verzoekt de regering zich samen met lokale overheden in te spannen geen vergunningen te verlenen om illegale lozingen van bijvoorbeeld GenX te legaliseren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-159</note>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u11">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg14">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u12">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg15">Dank u wel. Dan geef ik het woord Von Martels van het CDA.</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u13">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg16">Dank u wel, voorzitter. Erg goed dat er eindelijk een norm is voor de toepassing van pfas-houdende stoffen. Daar zijn we allemaal erg blij mee, maar we hebben ook geconstateerd dat bouwers en baggeraars bij zo'n 15% tot 20% van de toepassingen nog steeds met de handen in het haar zitten. Eigenlijk willen we deze bouwers en baggeraars helpen om zo snel mogelijk weer in actie te komen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg17">De volgende twee moties moeten dat ondersteunen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat in het aangepaste tijdelijke handelingskader de minister alleen de norm voor baggerspecie in niet-vrij liggende diepe plassen heeft aangepast naar 0,8 microgram en dat voor grond in niet-vrij liggende diepe plassen, dus droge grond, nog steeds de detectiewaarde van 0,1 microgram geldt;</note>
+               <note>constaterende dat ook grond in diepe plassen wordt toegepast, waaronder in het kader van natuurontwikkeling;</note>
+               <note>overwegende dat veel verondiepingsprojecten stil komen te liggen en dat dit voor veel werkzaamheden, waaronder in de bouw, consequenties heeft;</note>
+               <note>verzoekt de regering om de norm van 0,8 microgram voor baggerspecie in niet-vrij liggende diepe plassen ook te laten gelden voor grond in niet-vrij liggende diepe plassen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Von Martels. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-160</note>
+            </u>
+            <note>De heer Laçin heeft een vraag voor u.</note>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u14">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg18">Zeker, want overkoepelend drinkwaterbedrijf Vewin hamert er juist op dat we de norm van 0,1 microgram per kilogram pfas-houdende grond moeten vasthouden, zodat onze drinkwatervoorziening niet in gevaar komt. Hoe waarborgt de heer Von Martels in deze motie die wens om ons drinkwater veilig te houden?</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u15">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg19">Blijkbaar was de heer Laçin bij hetzelfde rondetafelgesprek als ik gistermiddag. We hebben daar natuurlijk ook gehoord dat de normen die nu gelden, heel veilig zijn. Voordat de volksgezondheid echt in gevaar is en ook de drinkwaterkwaliteit in gevaar komt, hebben we die speling van 0,1-0,8. We komen nog lang niet in de gevarenzone als het gaat om de volksgezondheid.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u16">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg20">Die 0,8 is volgens het RIVM veilig als het gaat om de bodem. Over diepe plassen en plassen die in aanraking komen met het oppervlaktewater en het grondwater geldt dat niet. Ik zou de heer Von Martels dus echt willen uitnodigen om zijn motie te herzien en om goed naar het drinkwaterbedrijf te luisteren, want met zijn motie komt de drinkwatervoorziening volgens het drinkwaterbedrijf in gevaar. Dat willen we volgens mij allemaal niet hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u17">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg21">Tot slot, de heer Von Martels.</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u18">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg22">Toch opvallend: we zijn bij hetzelfde rondetafelgesprek geweest en ik heb geheel andere conclusies getrokken. De veiligheid is niet in gevaar. Die is niet in het geding. Dit zijn dus veilige normen. Ik zou zeggen: sla de wetenschappelijke onderbouwingen er nog maar eens op na.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u19">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg23">Volgens mij was Vewin echt ongelofelijk helder in zijn advies om echt ongelofelijk voorzichtig te zijn en dus die 0,1 te gebruiken als norm. Er werd zelfs gezegd: eigenlijk moet je bij gebieden die voor waterwinning gebruikt worden überhaupt helemaal geen grond toepassen waar mogelijk pfas in zit. Hoe kan de heer Von Martels die oproep van onze drinkwaterbedrijven naast zich neerleggen?</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u20">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg24">Laten we vooropstellen dat er veel om en over die detectiewaarde van 0,1 te doen is. We weten ook allemaal dat die zo laag is gesteld dat het soms nauwelijks te detecteren is. We zien ook veel verschillende uitslagen. Maar 0,8 is nog een hele, hele veilige norm. Ik ben heus wel te rade gegaan voordat ik met deze motie naar voren kwam.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u21">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg25">Maar is de heer Von Martels dan ook bij de drinkwaterbedrijven te rade gegaan?</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u22">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg26">Zeker.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u23">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg27">Want Vewin zegt: alstublieft, handhaaf die 0,1. Het CDA dient hier een motie in om die 0,1 van tafel te vegen. Is het CDA bij de drinkwaterbedrijven te rade gegaan?</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u24">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg28">Zeker. Ik ben bij verschillende partijen te rade gegaan, onder andere bij Vewin, maar ook bij andere deskundigen. We hadden gisteren een heel blok van deskundigen aan tafel. Ik ben niet alleen tijdens het gesprek gisteren te rade gegaan, maar uiteraard ook bij andere bronnen, waaronder wetenschappelijke bronnen. Die onderbouwing is er wel degelijk. 0,8 is een veilige norm. Die 0,1 is een niet-werkbaar kader, waar we vanaf moeten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u25">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg29">Dank u wel. De heer Ziengs van de VVD-fractie.</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u26">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg30">Nee, sorry. Ik heb nog een tweede motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u27">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg31">O sorry. Gaat uw gang.</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u28">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg32">Ik heb nog tijd over, dus ik dien nog een tweede motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat in het aangepaste tijdelijke handelingskader de vrijliggende diepe plassen zijn uitgesloten;</note>
+               <note>constaterende dat het bevoegd gezag door middel van gebiedsspecifiek beleid regionale mogelijkheden kan creëren voor de afzet van bagger in daarvoor geschikte diepe plassen;</note>
+               <note>constaterende dat de wetgeving vereist dat door het RIVM wetenschappelijke criteria opgesteld moeten worden waarbinnen gebiedsspecifiek beleid voor vrijliggende plassen kan worden gemaakt;</note>
+               <note>verzoekt de regering om de onderzoeken die nodig zijn om de criteria voor gebiedsspecifiek beleid vast te stellen, versneld te laten uitvoeren, en de resultaten hiervan voor de zomer van 2020 te publiceren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Von Martels en Ziengs. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-161</note>
+            </u>
+            <note>En dan nu toch de heer Ziengs van de VVD.</note>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u29">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg33">Voorzitter, dank u wel. Afgelopen dinsdag heb ik iets bijzonders gedaan tijdens de stemmingen. Ik heb namelijk gevraagd om een appreciatie van een motie die nota bene verworpen werd. Dat gaf enigszins ophef, maar het was niet van niks. In 2018 hebben wij ooit een motie verworpen die tot doel had dat de toenmalige staatssecretaris, nu zijnde de minister, een oproep kreeg om in Brussel in ieder geval GenX onder de zeer zorgwekkende stoffen te krijgen. De reden dat wij destijds daartegen gestemd hebben, was simpelweg vanwege het feit dat we niet wisten wat de complicaties zouden zijn. Dat heeft zich het afgelopen jaar uiteindelijk wel vertaald in een gevolg, zoals we hebben gezien. Wij hadden daar natuurlijk niet direct de conclusie aan verbonden dat het niet gevaarlijk zou kunnen zijn, maar op dat moment was er in ieder geval niet voldoende nagedacht over wat de gevolgen zouden kunnen zijn. Om die reden hebben we afgelopen dinsdag om die appreciatie gevraagd.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg34">Overigens ben ik bereid om het VSO van volgende week, dat ik aangevraagd heb, te laten vervallen, mits de minister aangeeft dat haar inzet een andere is dan die waartoe in de motie werd opgeroepen. Die inzet was dat we zonder een goed plan allerlei stoffen onder de zeer zorgwekkende stoffen laten komen, zonder dat we in de gaten hebben wat daar verder mee zou kunnen gebeuren.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg35">Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat pfas-stoffen in grond en milieu en de regelgeving daaromtrent tot grote problemen hebben geleid voor verschillende sectoren in Nederland;</note>
+               <note>constaterende dat veel van deze stoffen Nederland vanuit het buitenland bereiken via de rivieren;</note>
+               <note>verzoekt de regering zich in te zetten voor een Europese aanpak van de pfas-problematiek en daarbij met name in te zetten op bronmaatregelen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Ziengs en Von Martels. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-162</note>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u30">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg36">Het was inderdaad een wonderlijk moment dat de heer Ziengs eerst tegen een motie stemde die opriep tot bronmaatregelen, maar daarna om een appreciatie van het kabinet vroeg. Mijn vraag stel ik naar aanleiding van de hoorzitting die we gisteren gehad hebben, waarin alle experts zeiden: je moet niet stof voor stof voor stof gaan werken, want het gaat om een groep stoffen met heel veel van dezelfde eigenschappen en je wilt eenduidigheid in beleid.</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u31">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg37">Ja, dat is correct. Dat heb ik overigens ...</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u32">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg38">Ik was nog niet toe aan mijn vraag!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u33">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg39">O, u keek zo vragend dat ik me kan voorstellen ...</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u34">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg40">U viel in één keer stil.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u35">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg41">Meneer Ziengs, we wachten even op een vraag.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u36">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg42">Ik wilde even kijken of bij de heer Ziengs het kwartje viel. En het kwartje ging vallen. Het ging erover dat iedereen zei dat je het niet stof voor stof moet doen, maar dat je die groep stoffen als groep moet aanpakken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u37">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg43">En uw vraag is?</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u38">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg44">Waarom gaat de heer Ziengs niet in op die opmerking van de experts en waarom pleit hij niet voor zo'n groepsaanpak?</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u39">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg45">De specifieke reden dat onze fractie afgelopen dinsdag tegen de motie heeft gestemd, was niet zozeer het bronbeleid. U ziet op dit moment dat wij daar een motie over indienen. Het ging met name om het feit dat het dictum van die motie veel breder was. We hebben een meerderheid gekregen die de motie afgestemd heeft. Het gaat ons erom dat we niet weten wat de impact is als je dat zomaar zonder goed onderzoek doet. Wat betekent het voor de markt? Wat betekent het uiteindelijk als we in Nederland dat soort dingen doen? Wat betekent dat voor je economie? Dan staat alles stil. Mensen hebben geen baan meer en fabrieken moeten dicht of verhuizen misschien naar landen om ons heen, waarmee het probleem niet opgelost is. Dat was de reden dat we ertegen gestemd hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u40">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg46">Mevrouw Kröger, tot slot.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u41">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg47">Ik raad de heer Ziengs echt aan om zich even te verdiepen in REACH. Dat is wetgeving, regelgeving. Dat is Europese regelgeving. Dat gaat niet om Nederlandse regelgeving, maar het is Europees. Dan gaat het erom — dat is precies wat de experts tijdens de hoorzitting zeiden — dat je stoffen met dezelfde eigenschappen als groep moet aanpakken omdat het anders dweilen met de kraan open is. Dan hebben de baggeraars en de bouwsector over een paar jaar weer precies hetzelfde gedonder met net een ander stofje. Als je het echt bij de bron wil aanpakken, behandel je die stoffen als groep, binnen Europa onder REACH.</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u42">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg48">Volgens mij shopt mevrouw Kröger selectief uit hetgeen wij afgelopen week hebben gehoord tijdens de rondetafel. Daar waren ook de bedrijven aanwezig, die gewoon aangegeven hebben hoe moeilijk ze het hebben gekregen, simpelweg doordat zo plotsklaps een detectiewaarde — bij de minister heette dat geen "norm" — werd aangegeven. Daardoor gingen al die bedrijven op slot. Dat soort situaties willen we zien te voorkomen. Wij willen zorgen dat je van tevoren een duidelijke norm hebt en dat je die goed met elkaar afspreekt, waarbij je ook weet wat de consequenties zijn. We moeten dus niet plotsklaps naar Brussel afreizen en niet dat soort dingen doen, want dan zitten we straks met de gebakken peren.</seg>
+            </u>
+            <u who="#EvavanEsch" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u43">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg49">Toch leuk dat we hier allemaal die hoorzitting herhalen, die we allemaal deze week hebben bijgewoond.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u44">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg50">Ik wou dat ik erbij was geweest.</seg>
+            </u>
+            <u who="#EvavanEsch" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u45">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg51">Ook ik ga dat doen. Ik heb een heel korte vraag. Tijdens die hoorzitting werd aangegeven dat het juist goed is om niet per se Europees beleid te maken, maar juist veel meer mondiaal te kijken, omdat de pfas-stoffen zich niet bij de Europese grenzen laten tegenhouden. Ik ben wel benieuwd waarom u in uw motie specifiek Europa noemt, terwijl het juist een mondiaal probleem is. Ik ben benieuwd waarom u niet denkt dat we dit juist beter mondiaal zouden moeten aanpakken.</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u46">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg52">Dat hadden we kunnen doen, maar het lijkt ons op dit moment handiger om het Europees te doen, omdat we aangesloten zijn bij de Europese Unie. Daar kun je de snelste resultaten krijgen ten aanzien van dit soort maatregelen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u47">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg53">Dank u wel.</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u48">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg54">Dank u.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u49">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg55">Dan geef ik tot slot het woord aan mevrouw Van Esch.</seg>
+            </u>
+            <u who="#EvavanEsch" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u50">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg56">Dank u, voorzitter. Uit de ILT-rapportage bleek dat de GenX-stoffen van Chemours via tankwagens de hele keten vervuilen. Na het transport van GenX-stoffen worden er nieuwe stoffen in de vrachtwagens vervoerd en via zogeheten kruisbesmetting raken op die manier veel locaties vervuild, die nooit te maken hebben gehad met Chemours. In het rapport lezen we dat er zelfs restvervuiling achterblijft als de opleggers gereinigd worden. De scheepvaart heeft al een werkbare oplossing voor dit probleem. Wij stellen voor om die ook voor vrachtwagens te gaan gebruiken. GroenLinks heeft al een motie ingediend die lijkt op onze motie, maar omdat ze net iets anders is, ga ik deze motie toch indienen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de ILT in haar rapportage Vervolgonderzoek afvalstromen Chemours aangeeft dat GenX-stoffen onbedoeld verspreid worden en in de leefomgeving terecht kunnen komen door kruisbesmetting bij transport en bij het reinigen van de tankwagens;</note>
+               <note>constaterende dat de ILT rapporteert dat tankwagens ook na reiniging niet schoon zijn;</note>
+               <note>constaterende dat de scheepvaart om kruisbesmetting en vervuiling bij reiniging te voorkomen dedicatievaart toepast waarbij een schip telkens eenzelfde of vergelijkbare stof vervoert;</note>
+               <note>verzoekt de regering te onderzoeken of voor het transport van GenX en soortgelijke stoffen dedicatietransport verplicht gesteld kan worden om zodoende de kans op verspreiding van deze stoffen in de leefomgeving te beperken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Esch. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-163</note>
+            </u>
+            <u who="#EvavanEsch" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u51">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg57">En dan kort de tweede motie. Zij is een reactie op het antwoord van de minister dat de norm voor GenX in vissen alleen bepaald wordt op basis van de hoeveelheid GenX die mensen die vis eten, binnenkrijgen. De Partij voor de Dieren vindt dat we niet alleen de gezondheid van mensen, maar ook die van dieren moeten beschermen. Daarom hebben wij de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de risicogrens voor GenX in vissen is bepaald ten behoeve van bescherming van de mens via visconsumptie;</note>
+               <note>constaterende dat de Wet dieren stelt dat het verboden is de gezondheid of het welzijn van een dier te benadelen;</note>
+               <note>verzoekt de regering de risicogrenzen zoals voor GenX in vissen te bepalen op basis van de bescherming van mens én dier,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Esch. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28089-164</note>
+            </u>
+            <note>Dank u wel. Dan wachten we een ogenblik tot de minister alle moties heeft.</note>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u52">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg58">Ik geef graag de minister het woord voor de moties en de vragen.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u53">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg59">Dank u wel, voorzitter. De motie op stuk nr. 154 vraagt om een gesloten ketenaanpak. Ik heb de Kamer al gemeld dat ik de verplichting tot informatieverstrekking in de wetgeving ga aanscherpen. Ik zou mevrouw Kröger willen vragen om de motie aan te houden. Dan kan ze zien wat het voorstel behelst en of er nog dingen ontbreken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg60">De motie op stuk nr. 155 is ook van mevrouw Kröger en vraagt om te kijken waar we in Nederland bronnen van pfas-vervuiling kunnen aanpakken. Daarover kan ik het oordeel aan de Kamer laten. We kijken naar heel veel stromen. Een deel moeten we echt Europees doen, maar we kijken natuurlijk ook wat we op nationaal niveau kunnen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg61">De motie op stuk nr. 156 van mevrouw Van Eijs moet ik helaas ontraden, maar wel om een positieve reden. Hetgeen mevrouw Van Eijs vraagt, is al voorzien in de Omgevingswet. Het aanpassen van de wet kost zo veel tijd dat het niet zo zinvol meer is. Het loopt eigenlijk uit de tijd. Daarom ontraad ik de motie op stuk nr. 156.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg62">Mevrouw Kröger had ook nog een vraag gesteld over pfas in cosmetica. Dat is het dossier van minister Bruins. Ik zal hem vragen om u hierover te berichten.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg63">Dan kom ik bij de motie op stuk nr. 157 van de heer Laçin. Hij vraagt om geavanceerde meetmethoden te gebruiken. Ik ontraad deze motie omdat we het gevraagde al doen. Ik laat me steeds adviseren door het RIVM over de laatste stand van zaken. Ik ontraad daarom de motie op stuk nr. 157.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg64">De motie op stuk nr. 158 van de heer Laçin geef ik oordeel Kamer. Ze gaat over Europees bronbeleid. Daar zijn meer vragen over gesteld en moties over ingediend.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg65">In de motie op stuk nr. 159 zet de heer Laçin een aantal dingen bij elkaar alsof we dat niet al zouden doen. Wat we doen, doen we al. Ik ontraad de motie.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u54">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg66">Is dat alles?</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u55">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg67">Dat antwoord was een beetje erg kort door de bocht. Ik kan me dat voorstellen. Ik wil het nog wel even uitleggen. Uitgangspunt van de Nederlandse regelgeving is om emissies zoveel als redelijkerwijs mogelijk te beperken. Het is voor ons allemaal laat, we zijn moe. Maar soms neem je een iets te korte bocht.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg68">Dat geldt voor alle stoffen, in het bijzonder voor de zeer zorgwekkende stoffen. Indien er toch emissies vrijkomen, moeten we die goed reguleren. Dat betekent alleen niet dat er een totaal verbod is of dat we alle emissies al kunnen voorkomen. Omdat we sommige emissies niet kunnen voorkomen, worden ze onder strikte voorwaarden nog steeds toegestaan. We volgen dus een bepaalde lijn. De heer Laçin wil daar iets aan aanscherpen of hij wil beschrijven wat we al doen. In beide gevallen ontraad ik de motie.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u56">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg69">Dat was iets uitgebreider, voorzitter. Dank daarvoor. Het gaat mij om het volgende. Ik heb een concreet voorbeeld gegeven in deze motie. Dat is KoreNet in Groot-Ammers. Die krijgt van Chemours afval met GenX en KoreNet loost dat. Wij hebben GenX op de lijst van zeer zorgwekkende stoffen gezet. Dit betekent dat wij een minimalisatieplicht hebben. Ik vind het heel raar dat wij dit nationaal afspreken, maar lokaal toch een afvalverwerker die illegaal GenX loost, gaan vergunnen. Of je loost het niet, of je doet dat wel, maar als je het loost, krijg je gewoon een boete. Ik denk dat dit de weg is om de minimalisatieplicht voor elkaar te krijgen. Wij moeten dan geen illegale lozingen gaan legaliseren.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u57">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg70">Minimalisatie betekent niet dat het meteen naar nul gaat, maar dat je met vijfjaarlijkse aanpassingen steeds dichter bij die nul moet komen. Dit betekent dat je in de tussentijd nog wel uitstoot hebt die legaal onder een vergunning kan vallen, zolang je laat zien dat je aan het minimalisatietraject voldoet. Dus ik blijf bij mijn oordeel over deze motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u58">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg71">Tot slot, meneer Laçin.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u59">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg72">Tot slot, voorzitter. Een minimalisatie betekent dat je gaat minderen, niet dat je meteen naar nul gaat.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u60">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg73">Zeker. Dat zei ik ook niet.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u61">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg74">Nee, dat zeg ik ook niet. Maar wat hier gebeurt, is dat met het legaliseren van een illegale lozing het aantal kilo's GenX dat geloosd wordt in totaal omhoog gaat. Dat lijkt mij niet passen bij een minimalisatieplicht.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u62">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg75">Tot slot de minister.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u63">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg76">De specifieke details van deze casus ken ik niet uit mijn hoofd, dus ik kan dat zo niet beoordelen. Voor de algemene systematiek blijf ik bij mijn oordeel over de motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u64">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg77">Wij doen het in tweeën bij dit VAO, meneer Laçin.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u65">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg78">Ja, maar ik heb nog een vraag over een andere motie, de motie op stuk nr. 157. Heel kort. De minister zei dat de meest geavanceerde meetmethodes gebruikt worden. Deze motie komt voort uit de hoorzitting die wij gisteren hebben gehad. Daarin werd door de UvA gesteld dat er nu nieuwe meetmethodes zijn, die nog niet gebruikt worden. Dat werd ook door het RIVM bevestigd. Vandaar deze motie om die methodes te gaan gebruiken.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u66">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg79">Ik vind niet dat wij politiek moeten sturen op de methode die het RIVM gebruikt. Ik laat mij gewoon adviseren door het RIVM. Dat bepaalt zelf welke methode het wil gebruiken. Daar zitten tenslotte de experts.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u67">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg80">Dank u wel. Dan geef ik mevrouw Kröger het woord. Ik denk dat zij nog een appreciatie wil van haar motie indien zij die niet aanhoudt.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u68">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg81">Het ging in een rap tempo. Wij kregen niet eens de ruimte om nog even te melden of wij de motie aanhouden of niet. Ik heb een vraag over de eerste motie, op stuk nr. 154. De minister zegt dat zij aan de slag is met transparantie rond afvalregels en afval. Transparantie is natuurlijk één ding, maar het doel van die transparantie moet zijn het voorkomen van kruisbesmetting. Mijn vraag aan de minister is of het inperken van de risico's van kruisbesmetting meegenomen wordt. Dan gaat het om vragen als: wat vervoer je, hoe vervoer je het en wat moet je er nader mee doen? Dus een handelingsperspectief voor de vervoerders. Zit dat in de aanpak waar de minister mee bezig is?</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u69">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg82">De wetgeving bevat op dit moment al een verplichting om afval zodanig te verwerken dat het geen gevaar oplevert voor mens en milieu, dus dan zou kruisbesmetting eigenlijk niet mogen plaatsvinden. Het komt neer op het tegengaan van emissies van schadelijke stoffen uit het afval. Dat impliceert dus al een gesloten keten. Maar de gevallen waarin het niet goed ging en waar de Kamer zorgen over heeft geuit, kwamen voort uit onvoldoende verstrekte informatie over aanwezige risicostoffen in het afval, waardoor dat soort kruisbesmetting kon plaatsvinden. Ik heb de Kamer al gemeld dat ik de verplichting tot informatieverstrekking ga aanscherpen. Daardoor kun je dat voorkomen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u70">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg83">Tot slot, mevrouw Kröger, houdt u de motie aan of niet?</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u71">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg84">Ik vind dat de minister er met grote stappen van uitgaat dat als er transparantie is over de aanwezigheid van stoffen, de risico's van kruisbesmetting verdwenen zijn en al die vervoerders dan ook weten wat zij moeten doen, zodat je daar als overheid geen handelingskader bij zou moeten bieden. Daar heb ik een beetje moeite mee. Ik ga er even over nadenken of wij de motie aanhouden.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u72">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg85">De verplichting tot informatieverstrekking komt naast het bestaande wettelijke kader, waarin al een heel aantal verplichtingen zit. Alleen als je niet weet dat het erin zit, weet je ook niet welke bestaande wettelijke verplichtingen je moet naleven. Om die reden is die informatieverstrekking een belangrijke aanvulling. Als de motie op stuk nr. 154 niet wordt aangehouden, ontraad ik haar.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg86">Dan de motie op stuk nr. 160 van de heer Von Martels. In het interruptiedebat dat u onderling had, kwamen volgens mij beide kanten van het debat heel goed aan de orde. Wij weten dat wij met de verruiming van de norm tot 0,8 microgram een grote stap hebben gezet, maar daarmee nog niet alle problemen hebben opgelost. Het vraagstuk van de grond en de diepe plassen is duidelijk één van die problemen. Wij zijn heel hard aan de slag met het aanpakken van die problemen. De heer Von Martels zegt: doe maar naar 0,8. Anderen echter hebben daar vragen bij. Ook hier geldt dat ik het belangrijk vind dat wij steeds op basis van wat het RIVM zegt, bepalen waar wij de balans kunnen leggen tussen wat verantwoord is en waar wij uit oogpunt van de bescherming van mens en milieu nog niet toe moeten overgaan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg87">Wat ik de heer Von Martels zou willen voorstellen, is dat hij zijn motie aanhoudt. Ik zal het RIVM expliciet vragen of die norm van 0,8 voor grond in diepe plassen gehanteerd kan worden, maar nog beter kan ik de vraag stellen wat de ruimte is die we wel alvast kunnen benutten waar het gaat om de toepassing van de grond in diepe plassen, binnen de grenzen die we ook met elkaar willen respecteren als het gaat om de bescherming van mens en milieu, waaronder dus drinkwaterbelangen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u73">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg88">De heer Von Martels staat op om aan te geven of hij zijn motie wel of niet aanhoudt.</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u74">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg89">Ik denk dat ik de motie iets ga wijzigen en dat die dan in gewijzigde vorm terugkomt.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u75">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg90">Ik ben dan benieuwd naar de wijziging.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg91">Dan de motie op stuk nr. 161 van de heer Von Martels over de vrijliggende plassen, waarin wordt gevraagd om te kijken of de ervaringen kunnen worden gedeeld. Deze motie krijgt het oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg92">Ook de motie op stuk nr. 162 van de heer Von Martels over de bronaanpak krijgt het oordeel Kamer. We willen emissies echt fors terugdringen vanuit puntbronnen, vanuit afvalstromen en ook vanuit producten. Het Europese spoor is daarbij ontzettend belangrijk. Daarom zet ik in op die Europese restrictie — daar heb ik u eerder over geïnformeerd — samen met de heer Ziengs overigens, omdat het ook over uit de EU-geïmporteerde producten gaat. Daarmee zorgen we echt effectief voor een bescherming.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg93">Dan de motie op stuk nr. 163 van mevrouw Van Esch, waarin wordt verzocht de mogelijkheid te onderzoeken om vervoer alleen via dedicated transport toe te staan. In het interruptiedebatje met mevrouw Kröger heb ik net geschetst dat mijn lijn is om zichtbaar te maken waar zeer zorgwekkende stoffen als GenX in zitten. Dat doen we via het aanscherpen van het Besluit melden bedrijfsafvalstoffen. Het bevoegd gezag is dan aan zet om te bepalen of een afvalstroom verantwoord vervoerd en verwerkt wordt. Dedicated transport kan een optie zijn, maar welke maatregel voor welke stroom noodzakelijk is, is aan het bevoegd gezag, net zoals dat het geval is met allerlei andere vergunningsvoorwaarden. Deze motie moet ik dus ontraden.</seg>
+            </u>
+            <u who="#EvavanEsch" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u76">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg94">Ik wil daar nog wel op reageren, want in het rapport dat hier voorligt, komt heel duidelijk naar voren dat bij dedicated transport GenX, ook na reiniging, gewoon in die transportwagens blijft zitten. We kunnen de informatievoorziening verbeteren en we kunnen de keten verbeteren, maar daardoor lossen we het probleem niet op.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u77">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg95">Dan is het aan het bevoegd gezag om dat op te leggen. Als dat in dit geval echt zo is, dan zal het bevoegd gezag dat ook opleggen in de vergunning.</seg>
+            </u>
+            <u who="#EvavanEsch" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u78">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg96">Mijn laatste vraag is: waarom gaan we dan niet vanuit landelijke regelgeving richting dat bevoegd gezag onderzoeken of dat inderdaad kan en dan vanuit de landelijke overheid de verplichting opleggen? Volgens mij is dat iets wat we landelijk moeten regelen. Het is wat ons betreft wel heel makkelijk om dan alleen maar het bevoegd gezag dat op die manier lokaal te laten aanpakken, ondanks dat dit een landelijk en zelfs mondiaal probleem is. Dit zou echt een gemiste kans zijn.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u79">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg97">Omdat volgens de VTH, zoals we die hebben ingericht, dit een taak is die bij het bevoegd gezag ligt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg98">Dan de motie op stuk nr. 164 van mevrouw Van Esch over de risicogrenswaarden voor mens en vis. Dat is nu al het geval. De meest kritische route is altijd bepalend voor de hoogte van de norm. De norm voor GenX is dus ook beschermend voor ecologie. Ik ontraad deze motie.</seg>
+            </u>
+            <u who="#EvavanEsch" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u80">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg99">Dat is interessant, want in de antwoorden staat juist iets heel anders. Daarin staat dat de GenX-norm wordt bepaald op het moment dat wij als mens die vis eten. Het gaat dus niet om de bescherming van de vis; het gaat alleen maar om de gezondheid van de mens. Het antwoord dat hierin staat, klopt dan niet. Dat vind ik wel interessant. Ik wil wel even letterlijk oplezen wat hier staat.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u81">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg100">We kunnen misschien nog even zorgen voor verduidelijking van dit punt. We zullen daar nog wat nadere informatie over sturen.</seg>
+            </u>
+            <u who="#EvavanEsch" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u82">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg101">Ja, graag.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u83">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg102">Als het onduidelijk is, ben ik graag bereid om dat te verduidelijken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u84">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg103">Mevrouw Van Esch, welke vraag wilt u dan concreet stellen?</seg>
+            </u>
+            <u who="#EvavanEsch" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u85">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg104">Graag een verduidelijking van het antwoord op vraag 48, want daar staat echt letterlijk: het gaat hier over de bescherming van de mens, dus de visconsumptie.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u86">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg105">Daarmee is niet uitgesloten dat ook andere elementen zijn meegenomen. Het antwoord is wellicht niet volledig geweest op dit punt. We zullen zorgen voor een verduidelijking.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u87">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg106">Wilt u dat dan voor de stemmingen van aanstaande dinsdag doen?</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u88">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg107">Zeker. Geen probleem.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u89">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg108">Dan krijgt u daar een reactie op. Tot slot, kort de heer Laçin.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u90">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg109">Ik ga me op glad ijs begeven. Ik wil uw rol niet overnemen, maar ik heb volgens mij de appreciatie van de minister van de motie op stuk nr. 160, waarover ik ook een interruptiedebat had met de heer Von Martels, gemist. Hij zegt dat de motie gewijzigd wordt. Maar als de motie niet gewijzigd wordt, wil ik wel graag weten wat de minister adviseert.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u91">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg110">Ik denk dat de minister dat dan nog niet weet. Dat zal zij waarschijnlijk meenemen in de brief die de Kamer toch krijgt naar aanleiding van de laatste motie, als de heer Von Martels op tijd zijn motie heeft gewijzigd.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u92">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg111">Maar als hij dat nou niet doet?</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u93">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg112">Het is als volgt. Ik heb de heer Von Martels gevraagd om de motie in de huidige vorm aan te houden. Als hij deze ongewijzigd in stemming zou brengen, zou deze ontraden worden, maar de heer Von Martels heeft al aangegeven dat hij deze gaat aanpassen. Ik ben graag bereid om een appreciatie van de aangepaste motie in de brief aan de Kamer te doen toekomen, zoals de voorzitter net aangaf.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u94">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg113">Prima. Dan gaan we het zo doen.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u95">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg114">De heer Ziengs had ook nog een vraag gesteld in verband met het VSO. Uiteraard zullen we ervoor zorgen dat de plannen ook goed onderbouwd zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u96">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg115">De heer Ziengs heeft daar toch een vraag over.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u97">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg116">Misschien had ik de vraag niet helemaal goed genoteerd.</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u98">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg117">Mijn vraag ging iets verder. De minister zegt dat zij zal zorgen dat de plannen goed onderbouwd zijn, maar het ging erom dat wij pleiten voor dat bronbeleid, zoals ook in mijn motie staat, als er een inbreng wordt gedaan in de Milieuraad. We moeten even voorzichtig zijn om er nu al direct voor te pleiten om al die pfas-stoffen onder de ZZS te krijgen, omdat we niet weten wat daarvan de gevolgen zijn. Dat willen we graag beter onderbouwen.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u99">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg118">De inbreng in de Milieuraad gaat daar ook niet over, deze keer. Die gaat over de restrictie om ervoor te zorgen dat we echt het bronbeleid uitvoeren zoals de heer Ziengs dat ook in zijn motie verwoord heeft.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg119">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u100">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg120">Daarmee zijn we aan het einde gekomen van dit VSO.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.u101">
+               <seg xml:id="ParlaMint-NL_2019-12-12-tweedekamer-16.seg121">De stemmingen over de moties zullen aanstaande dinsdag plaatsvinden. Ik schors de vergadering voor enkele ogenblikken.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

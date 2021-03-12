@@ -1,0 +1,495 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-09-27 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-09-27 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 6, Session 7 (2018-09-27)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 6, Session 7 (2018-09-27)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="6">Meeting 6</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="70">70 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="70">70 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3806">3806 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3806">3806 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-09-27">2018-09-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="94"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="70"/>
+               <tagUsage gi="note" occurs="178"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-09-27">2018-09-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Klimaat en energie</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg1">Aan de orde is het VAO Klimaat en energie. Een hartelijk woord van welkom aan de minister van Economische Zaken en Klimaat. Wij hebben elf deelnemers van de zijde van de Kamer. De eerste spreker is de heer Wassenberg van de Partij voor de Dieren, maar die is er niet. Nou, dat scheelt weer. Daar zouden meer mensen een voorbeeld aan moeten nemen. De tweede deelnemer is de heer Kops van de fractie van de Partij voor de Vrijheid. Ja, u moet nu al, want GroenLinks heeft nul minuten.</seg>
+            </u>
+            <u who="#AlexanderKops" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg2">Dank u wel, voorzitter.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de minister van Economische Zaken en Klimaat heeft gezegd dat "thorium een technologie is die tot 2050 geen belangrijke rol zal spelen";</note>
+               <note>constaterende dat de energietransitie ondertussen wordt uitgerold;</note>
+               <note>verzoekt de regering ervoor te zorgen dat thorium operatief mogelijk kan worden gemaakt voordat het hele land vol staat met windmolens,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat zonnepanelen meegerekend mogen worden bij het vaststellen van de WOZ-waarde;</note>
+               <note>constaterende dat een hogere WOZ-waarde leidt tot hogere belastingen en heffingen;</note>
+               <note>verzoekt de regering ervoor te zorgen dat energiebesparende maatregelen niet worden meegerekend bij het vaststellen van de WOZ-waarde,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de komende jaren de energielasten verder zullen stijgen;</note>
+               <note>constaterende dat steeds meer huishoudens door de stijgende lastendruk moeite hebben met het betalen van de energierekening;</note>
+               <note>verzoekt de regering ervoor te zorgen dat de energierekening daalt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de minister van Economische Zaken en Klimaat heeft gezegd dat het eerste windmolenpark op zee zonder subsidie op komst zou zijn;</note>
+               <note>constaterende dat de minister dit "een wereldprimeur" heeft genoemd;</note>
+               <note>constaterende dat de Algemene Rekenkamer heeft aangegeven dat deze windmolenparken op zee wel degelijk subsidie nodig hebben (voor de aansluiting op het elektriciteitsnet);</note>
+               <note>constaterende dat het aansluiten van windmolenparken vele miljarden kost, waar huishoudens via de energierekening direct voor opdraaien;</note>
+               <note>overwegende dat windmolens horizonvervuilende, subsidieslurpende ondingen zijn;</note>
+               <note>verzoekt de regering alle windmolenplannen en -projecten te schrappen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kops. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-199</note>
+               <note>Deze motie is voorgesteld door de leden Kops en Beckerman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-200</note>
+               <note>Deze motie is voorgesteld door het lid Kops. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-201</note>
+               <note>Deze motie is voorgesteld door het lid Kops. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-202</note>
+            </u>
+            <u who="#AlexanderKops" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg3">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg4">Dan mevrouw Beckerman van de SP.</seg>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg5">Dank u wel, voorzitter. Heel veel huishoudens willen weten: "Waar zijn wij nou aan toe? We willen duidelijkheid, we willen zekerheid. Wat gaat er gebeuren?" Telkens weer wordt het moment waarop ze duidelijkheid krijgen voor ons uit geschoven. Er zou een klimaatakkoord komen. Dat zouden we voor de zomer krijgen. Dat werd in de zomer. Toen bleek het geen compleet akkoord, maar dan zouden we in ieder geval een doorrekening krijgen. Die zouden we dan na de zomer krijgen. Die komt morgen, maar het is geen doorrekening, maar een analyse. Steeds vaker gaan er stemmen op dat de politiek echt moet ingrijpen en het niet over moet laten aan die tafels die er niet uitkomen, die meestribbelen, die tegenstribbelen en waar de industrie veel meer macht heeft. Ik ga één motie indienen, de motie afbouw ondersteuning fossiel.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>van mening dat het enige klimaatbeleid dat succesvol kan zijn een rechtvaardig klimaatbeleid is;</note>
+               <note>constaterende dat er nog steeds voor miljarden aan overheidsondersteuning richting de fossiele industrie verdwijnt;</note>
+               <note>overwegende dat het voor klimaatbeleid effectiever is in te zetten op ondersteuning van verduurzamingsmaatregelen bij huishoudens;</note>
+               <note>verzoekt de regering te stoppen met het ondersteunen van de fossiele industrie en deze middelen te steken in het ondersteunen van verduurzamingsmaatregelen gericht op huishoudens,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Beckerman en Moorlag. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-203</note>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg6">Dat was het, voorzitter. Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg7">Dank u wel. Dan mevrouw Dik-Faber van de ChristenUnie.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg8">Dank u wel.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er vele bouwplannen klaarliggen voor grootschalige zonneparken op natuur- en landbouwgrond, ook van grote buitenlandse investeerders;</note>
+               <note>constaterende dat een brede coalitie van de Rijksadviseur voor de fysieke leefomgeving, RIVM, Sovon, boeren- en natuurorganisaties en netbeheerders pleit voor een ruimtelijk afwegingskader;</note>
+               <note>overwegende dat het opofferen van landbouwgrond lokaal effect kan hebben op grondprijzen, dat natuurbeschermers en ecologen waarschuwen voor de negatieve gevolgen van grote zonneparken op kwetsbare natuur en bodemleven en dat netbeheerders te laat in het proces worden betrokken voor het realiseren van de aansluiting;</note>
+               <note>overwegende dat zonne-energie onmisbaar is voor het halen van de klimaatdoelen, maar dat er nog veel onbenutte ruimte is voor zonnepanelen op daken van huizen, scholen, kantoren, parkeergarages, op bedrijventerreinen, braakliggende terreinen, vuilstorten en langs infrastructurele werken zoals geluidsschermen;</note>
+               <note>overwegende dat de ladder voor duurzame verstedelijking bedoeld is voor locaties voor woningen, winkels en kantoren, en niet voor de inpassing van zonnepanelen;</note>
+               <note>overwegende dat de verkenning naar een afwegingskader van de Rijksdienst voor Ondernemend Nederland laat zien dat provincies en gemeenten allemaal hun eigen ruimtelijk kader hanteren;</note>
+               <note>overwegende dat ook zaken zoals de participatie van omwonenden onvoldoende geregeld zijn;</note>
+               <note>overwegende dat het klimaatakkoord wordt vertaald in regionale energiestrategieën;</note>
+               <note>verzoekt de regering:</note>
+               <note>in samenspraak met decentrale overheden een zonneladder op te stellen voor de inpassing van zonne-energie, die als nationaal afwegingskader kan worden benut bij het opstellen van regionale energiestrategieën, zodat primair onbenutte daken en terreinen worden benut en landbouw en natuur zo veel mogelijk worden ontzien;</note>
+               <note>hierbij de landbouwsector, de zonne-energiesector en netbeheerders te betrekken;</note>
+               <note>deze sturingsinstrumenten voor ruimtelijke inpassing en participatie conform de systematiek van de Omgevingswet te verankeren in rijksbeleid (bijvoorbeeld de NOVI) en waar nodig ook regelingen aan te passen die belemmerend werken, zodat daken beter kunnen worden benut voor het opwekken van zonne-energie en zo nodig hier ook met decentrale overheden afspraken over te maken;</note>
+               <note>verzoekt de regering tevens de Kamer in januari 2019 te informeren hoe de gesprekken met decentrale overheden zijn verlopen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Dik-Faber, Agnes Mulder, Jetten en Yeşilgöz-Zegerius. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-204</note>
+            </u>
+            <note>Dank u wel. Korte en puntige moties, daar houden we van!</note>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg9">Mijn langste motie ever! Maar wel binnen twee minuten. Ik had zelfs een seconde over.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg10">Er was een half regenwoud voor nodig om 'm te printen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg11">Mevrouw Sazias van de fractie van 50PLUS.</seg>
+            </u>
+            <u who="#LéonieSazias" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg12">Dank, voorzitter. Eerst even dit. Wij waren afgelopen maandag in Groningen. Daar hebben wij ook gesproken met de kinderen, die ons vertelden over hun ervaringen rond aardbevingen en het wonen in dat gebied. Ik moet u zeggen: dat was bijzonder indringend. Het was vooral indringend om het eens van een heel ander perspectief te horen. De kinderen gaven ook aan dat ze graag een keer met de minister zouden willen praten. Bij dezen geef ik die boodschap door. Ik hoop dat de minister daar gevolg aan wil geven.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg13">50PLUS vindt het prima dat gemeenten een belangrijke rol hebben in de energietransitie, maar er worden landelijke doelen gesteld, en die landelijke doelen gelden voor iedereen. Dan moeten ook de voorwaarden gelijk zijn. Dat is nu niet het geval en dat is gewoon gek. Dus dienen wij de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat gemeenten en provincies duurzaamheidsleningen kunnen verstrekken aan inwoners;</note>
+               <note>overwegende dat de voorwaarden van deze leningen, zoals een leeftijdsgrens, kunnen verschillen per gemeente of provincie;</note>
+               <note>overwegende dat deze verschillen niet uit te leggen zijn, aangezien verduurzaming geen lokale of regionale, maar landelijke opgave én beleid is;</note>
+               <note>verzoekt de regering te bevorderen dat elke gemeente en provincie duurzaamheidsleningen aanbiedt onder uniforme voorwaarden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Sazias. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-205</note>
+            </u>
+            <note>Dank u wel. Dan mevrouw Agnes Mulder van de fractie van het CDA.</note>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg14">Voorzitter, dank. Dank ook aan de minister voor de beantwoording die we al in de commissievergadering hebben gehad. Ik heb nog een vraag aan de minister. We hadden vanmorgen een presentatie van de Rekenkamer. Zij zeggen: subsidieloos windpark is nog geen feit, ondanks forse prijsdaling. In mijn beleving weten we dat de parken op zichzelf inmiddels zonder subsidie kunnen, maar we weten natuurlijk al heel lang in deze Kamer — dat is ook echt niks nieuws — dat we het netwerk daarnaartoe met mekaar gesubsidieerd hebben, eigenlijk net zoals we dat op land ook wel doen. Misschien kan de minister daar een toelichting op geven, want nu lijkt het net alsof we dat allemaal niet wisten. Ik vind dat een beetje een vreemde gang van zaken. Ik krijg dus graag een toelichting op dit punt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg15">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg16">Dank u wel. Dan de heer Moorlag van de Partij van de Arbeid.</seg>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg17">Dank u wel, voorzitter. Ik wil in dit korte debat drie accenten leggen. Het eerste betreft de vakmensen, die nodig zijn om de energietransitie te realiseren.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het tekort aan technisch personeel een bedreiging is voor de noodzakelijke energietransitie;</note>
+               <note>verzoekt de regering de aanbevelingen uit het SER-advies "Energietransitie en werkgelegenheid" volledig over te nemen en met het onderwijs, het bedrijfsleven en de vakbeweging uit te werken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Moorlag, Beckerman en Bromet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-206</note>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg18">Voorzitter. De tweede motie gaat over de cruciale rol van de gemeenten. Daarmee zal met name de aanpak van de gebouwde omgeving staan of vallen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat gemeenten in de energietransitie een cruciale taak krijgen om de gebouwde omgeving te verduurzamen;</note>
+               <note>van mening dat gemeenten hier voldoende op moeten worden toegerust;</note>
+               <note>verzoekt de regering gedegen te laten onderzoeken welke instrumenten, bevoegdheden en middelen gemeenten nodig hebben om deze taak te vervullen en burgers en bedrijven te helpen in het verduurzamen van woningen en bedrijfspanden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Moorlag en Beckerman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-207</note>
+            </u>
+            <note>Een vraag van de heer Jetten, kort en puntig.</note>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg19">Ik ben even benieuwd wat zo'n onderzoek dan zou moeten opleveren. Want volgens mij hebben we juist nu ook in de gesprekken met de VNG en anderen bijvoorbeeld zo'n wijkaanpak met elkaar bedacht. Dat moeten we goed gaan opbouwen, maar wat wil de heer Moorlag nog meer weten om de energietransitie tot een succes te maken?</seg>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg20">Wat ik heb begrepen uit de hoofdlijnen van het klimaatakkoord is dat wethouders in 2021 de buurt en wijkgebouwen ingaan om tegen mensen te zeggen: u wordt aangesloten op het warmtenet. Of: u gaat van het aardgas af. Gelet op de bevoegdheden en middelen en instrumenten die gemeenten hebben om dat te realiseren: een beetje een kleine gemeente heeft misschien 1 of 2 fte'tjes. Dus wat zowel de ambtelijke ondersteuning als bevoegdheden en ander instrumentarium betreft: ik kan daar allerlei opvattingen over hebben, maar in het algemeen overleg heb ik gesuggereerd: schakel nou eens de Raad voor het Openbaar Bestuur in; laat die nou eens in kaart brengen wat gemeenten precies nodig hebben. Dan kunnen wij hier in de Kamer vervolgens bepalen of gemeenten wel of niet beter toegerust moeten worden. Het is gewoon schadelijk als wij werkende weg moeten vaststellen dat gemeenten onvoldoende zijn toegerust.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg21">Voorzitter, ten slotte het punt waterstof. Ik vind dat VNO-NCW een terecht punt heeft als het zegt: het is niet alleen de tonnenjacht op korte termijn, maar je moet ook naar de langere termijn kijken. De waterstofeconomie is daarin naar de smaak van de Partij van de Arbeid een cruciaal element. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat waterstof een vorm van schone, duurzame energie is, die grote voordelen heeft in zowel gebruik, transport als opslag;</note>
+               <note>overwegende dat Nederland bij uitstek geschikt is voor de ontwikkeling van een waterstofeconomie, door de nabijheid van een groot areaal aan offshorewind op de Noordzee en de aanwezigheid van een zeer goed transportnetwerk;</note>
+               <note>verzoekt de regering waterstof als essentiële bouwsteen voor de energietransitie aan te merken en de ontwikkeling van de waterstofeconomie krachtig te stimuleren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Moorlag. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-208</note>
+            </u>
+            <note>Dan de heer Jetten van de fractie van D66.</note>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg22">Voorzitter. We staan in Nederland aan de vooravond van een grote energietransitie, maar dat willen D66 en de Partij voor de Dieren ook doen met het oog op wat er in de rest van de wereld gebeurt. Dat is ook ons commitment aan de Sustainable Development Goals. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de delving en productie van grondstoffen (zoals nikkel en kobalt) die nodig zijn voor het maken van de energietransitie, schadelijk kan zijn voor derde landen;</note>
+               <note>constaterende dat de energietransitie leidt tot een stijging van de vraag naar deze schaarse grondstoffen en binnen de productieketens de druk op arbeidsomstandigheden, milieuschade en mensenrechten kan vergroten;</note>
+               <note>overwegende dat transparantie in de grondstoffenketen tot een duurzame keuze van inkopers kan leiden;</note>
+               <note>verzoekt de regering om in internationale gremia te pleiten voor transparantie in de grondstoffenketens van grondstoffen welke noodzakelijk zijn voor de energietransitie;</note>
+               <note>verzoekt de regering tevens om in landelijk en Europees verband in te zetten op richtlijnen voor hergebruik van deze grondstoffen;</note>
+               <note>verzoekt de regering voorts om in landelijk en Europees verband in te zetten op producentenverantwoordelijkheid voor deze grondstoffen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Jetten en Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-209</note>
+            </u>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg23">Voorzitter, tot slot. Ik ben erg blij met een aantal toezeggingen die de minister in het AO heeft gedaan, zoals een nieuwe kijk op de visie op biomassa, zodat we echt goede regie kunnen voeren op de inzet van duurzame biomassa in Nederland. Ik ben ook blij dat de minister nogmaals goed gaat kijken naar de motie-Dik-Faber/Van Veldhoven, die ingaat op de transparantie van de financiële sector en de rol die de financiële sector kan vervullen bij de omslag naar een nieuwe wereld die beter voor het klimaat zorgt. Wij steunen de motie van mevrouw Dik-Faber over de zonneweides. Ik roep het kabinet op om echt regie te pakken richting het klimaatakkoord, met concrete keuzes, zodat de Nederlander ook op korte termijn weet waar we aan toe zijn als het gaat om ondersteuning bij de energietransitie.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg24">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg25">Dank u wel. Dan de heer Stoffer van de fractie van de SGP.</seg>
+            </u>
+            <u who="#ChrisStoffer" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg26">Voorzitter. De PVV heeft daarstraks een motie ingediend over thorium. U weet dat de minister fan is van thorium. Dat ben ik ook. Ik ben ook fan van geothermie. Daarom dien ik een motie in over dat thema. Die gaat als volgt.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat in weerwil van de adviezen van het Planbureau voor de Leefomgeving en ECN in de SDE+-regeling geen aparte categorie voor geothermie bij stadsverwarming is opgenomen;</note>
+               <note>overwegende dat de sectortafel gebouwde omgeving veel verwacht van de benutting van aardwarmte;</note>
+               <note>overwegende dat de huidige SDE+-regeling onvoldoende toegesneden is op geothermieprojecten in de gebouwde omgeving in verband met lagere capaciteiten, minder draaiuren en duurdere aansluitingen in vergelijking met projecten in de glastuinbouw;</note>
+               <note>overwegende dat bij geothermieprojecten, zeker in de gebouwde omgeving, in het begin hogere kosten worden gemaakt dan aan het eind in verband met optimalisatie van het warmteafnameprofiel;</note>
+               <note>verzoekt de regering in overleg met de sector te bezien hoe zo spoedig mogelijk een aparte categorie voor geothermie in de gebouwde omgeving opgenomen kan worden in de SDE+-regeling, op de langere termijn gecombineerd met een dalend basisbedrag gedurende de looptijd,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Stoffer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-210</note>
+            </u>
+            <note>Dan is het woord aan de heer Wassenberg, die gearriveerd is.</note>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg27">Dank u wel, voorzitter. Ik heb vier korte moties, en dan heeft de heer Van Raan er nog eentje.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de winning van grondstoffen voor de energietransitie gepaard gaat met ernstige milieuschade;</note>
+               <note>constaterende dat Nederland zich heeft gecommitteerd aan de OESO-richtlijnen en de UN Guiding Principles on Business and Human Rights;</note>
+               <note>verzoekt de regering te onderzoeken hoe richtlijnen over de herkomst van de gebruikte grondstoffen in de aanbestedingen van windmolen- en zonneparken kunnen worden opgenomen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat onderzoeksbureau Tauw in opdracht van de overheid een knelpuntenanalyse van houtrecycling heeft gedaan en concludeert dat het de voorkeur verdient om schoon afvalhout (A-hout) te recyclen in plaats van te verbranden;</note>
+               <note>constaterende dat Tauw adviseert de SDE+-subsidie voor de stook van schoon afvalhout te beëindigen omdat dit een verkeerde prikkel geeft;</note>
+               <note>verzoekt de regering om de SDE+-subsidie voor het stoken van schoon afvalhout te schrappen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering de mogelijkheden te onderzoeken van een verbreding van de ODE-systematiek, zodat deze ook benut kan worden voor energiebesparing,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Wassenberg en Jetten. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-211</note>
+               <note>Deze motie is voorgesteld door het lid Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-212</note>
+               <note>Deze motie is voorgesteld door het lid Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-213</note>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg28">En mijn laatste, voorzitter.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering om natuurontwikkeling in elk kavelbesluit voor windparken op zee te verplichten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-214</note>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg29">De klok loopt door, voorzitter, maar de laatste 44 seconden gaan naar de heer Van Raan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg30">Werkte het maar zo. Kijk, hij loopt heel langzaam, dus daar blijft weinig van over.</seg>
+            </u>
+            <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg31">De tijd vertraagt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg32">Voorzitter, dank u wel. Ik heb één motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de keuze voor kosteneffectiviteit er mede toe heeft geleid dat bepaalde sectoren zijn ontzien van ambitieuze CO-reductiedoelen;</note>
+               <note>constaterende dat mede daardoor de lucht- en scheepvaartsector niet zijn gekomen tot genoeg ambitieuze CO-reductiemaatregelen die nodig zijn om de algehele ambities van het Parijsakkoord binnen bereik te houden;</note>
+               <note>verzoekt de regering de lucht- en scheepvaart van en naar Nederland te onderwerpen aan concrete en ambitieuze CO-reductiedoelen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Raan en Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32813-215</note>
+            </u>
+            <note>Tot zover de termijn van de Kamer. Over zes minuten gaan we verder.</note>
+            <note>De vergadering wordt van 14.52 uur tot 14.59 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg33">Het woord is aan de minister.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg34">Voorzitter, dank. Ik denk dat ik maar begin met de moties. Ik moet kalm spreken, want ik ben nogal hoesterig. We gaan kijken hoe het allemaal gaat.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg35">Ik begin bij de motie op stuk nr. 199, waarin wordt verzocht ervoor te zorgen dat thorium operatief mogelijk kan worden gemaakt voordat het hele land volstaat met windmolens. Los van het feit dat we natuurlijk niet het hele land vol zetten met windmolens, heeft de Nederlandse regering iets te weinig invloed op de wereldwijde ontwikkelingen met thorium om dit te kunnen garanderen. Ik moet de motie ontraden, maar mijn sympathie is bij deze motie geheel aan de zijde van de heer Kops.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg36">De motie op stuk nr. 200 verzoekt de regering ervoor te zorgen dat energiebesparende maatregelen niet worden meegerekend. Ik ga mijn collega, de staatssecretaris van Financiën, niet opzadelen met de moeilijke taak om te bepalen wat energiebesparend is en wat comfortverhogend is. Dit is eenvoudigweg onuitvoerbaar en ik moet deze motie ontraden, hoe sympathiek zij ook is.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg37">De motie op stuk nr. 201 verzoekt de regering ervoor te zorgen dat de energierekening daalt. Het kostenbewustzijn en de laagst denkbare kosten zijn in ons aller aandacht, maar het is veel gevraagd dat ieders energierekening omlaaggaat, zeker als dat tot het eind der tijden is. De motie op stuk nr. 201 moet ik dus ontraden. Er blijft staan dat wij vinden dat het voor iedere Nederlander haalbaar moet blijven.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg38">De motie op stuk nr. 202 verzoekt de regering alle windmolenplannen en projecten te schrappen. Die motie moet ik ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg39">De motie op stuk nr. 203 gaat over het stoppen met het ondersteunen van de fossiele industrie. Los van het feit dat een heel debat mogelijk is over welke ondersteuning hier eigenlijk mee bedoeld zou zijn, gaan wij niet in één keer een handel overhalen. Wij zetten in op een transitie om weg te geraken van fossiel en voor duurzaam te gaan, maar de motie in deze vorm moet ik beslist ontraden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg40">Mevrouw Beckerman, kort en puntig.</seg>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg41">Kort en puntig: zou u de motie wel aan het oordeel van de Kamer overlaten als we daar bijvoorbeeld een afbouwplan in zouden zetten, waarbij u dat plan presenteert aan de Kamer?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg42">Het afbouwplan heet volgens mij "het klimaatakkoord". Dan zou ik verzoeken om de motie aan te houden tot bij de behandeling van het klimaatakkoord. Anders zou ik de motie ontraden.</seg>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg43">Dan heeft het weinig zin om de motie aan te passen, maar dank u wel.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u33">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg44">Dat is jammer.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg45">De vermoedelijk langste motie van deze dag, de motie op stuk nr. 204, is zo doordacht en genuanceerd dat de regering spijt heeft dat zij niet zelf eerder op dit idee is gekomen. Die motie laat ik beslist over aan het oordeel van de Kamer, ook omdat dit natuurlijk ook iets is wat echt heel erg draagvlakbepalend is. Het landschap en de portemonnee zijn allebei bepalend voor het draagvlak.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg46">Dan is er de motie op stuk nr. 205, waarin wordt verzocht te bevorderen dat elke gemeente en provincie duurzaamheidsleningen aanbiedt onder uniforme voorwaarden. Het klinkt misschien onsympathiek, maar gemeenten en provincies zijn ook eigen democratieën en eigen bestuurslagen. Ik ga nevengeschikte overheden hier niet de les lezen door hier moties te laten aannemen waarin wij hun vertellen wat voor hun democratie het beste is. Wij zullen zo veel mogelijk uitdragen dat er een goed financieringsinstrumentarium komt, maar hier wordt de regering overvraagd, omdat het gaat over het overvleugelen van andere democratieën. Ik moet de motie op stuk nr. 205 dus ontraden.</seg>
+            </u>
+            <u who="#LéonieSazias" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u34">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg47">Er staat niet "verplichten"; er staat "bevorderen". Het is landelijk beleid. Dan zou je toch ook zeggen dat het voor iedere Nederlander ongeveer hetzelfde zou moeten zijn. Ik zou het dus toch appreciëren als u dat zou bevorderen.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u35">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg48">Ik begrijp de sympathie van mevrouw Sazias voor uniform beleid, maar gemeenten zijn er natuurlijk precies voor niet-uniform beleid, want anders konden we dat landelijk vaststellen. Dat moeten we echt niet doen. Ik begrijp dat het woord "bevorderen" verleidelijk is voor mij om te zeggen dat we het wel gaan proberen te bevorderen, maar ik vind toch dat wij dan tegenover die andere democratieën een te grote broek aantrekken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u36">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg49">Ik wil eigenlijk de vragen beperken tot de eerste indieners van de moties, meneer Jetten.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u37">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg50">De motie op stuk nr. 206 met het verzoek om de aanbeveling uit het SER-advies volledig over te nemen. Deze motie en ook andere moties lopen wat mij betreft vooruit op een nog te sluiten klimaatakkoord. Dan heb ik het niet over de appreciatiebrief van het kabinet maar over het klimaatakkoord zoals het er uiteindelijk uitziet. Ik suggereer de indieners deze motie aan te houden totdat wij in deze Kamer spreken over een uiteindelijk voorliggend klimaatakkoord. Ik zou dus willen suggereren om de motie aan te houden totdat hier in deze Kamer over een concept klimaatakkoord wordt gesproken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u38">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg51">De eerste indiener komt naar voren, de heer Moorlag.</seg>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u39">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg52">Wil de minister dan wel toezeggen dat hij dit een nadrukkelijk punt van overleg maakt met de partijen die bezig zijn met het klimaatakkoord?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u40">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg53">Dat is het al.</seg>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u41">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg54">Deelt hij ook de opvatting dat wij echt het tekort aan vakmensen weg moeten nemen?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u42">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg55">Zeker. Ik heb zelfs gisteren nog contact gehad met een van de belangrijke schragende partijen van het SER-advies. Ik heb het zelf in ontvangst genomen en het ligt op mijn bureau. Jazeker. De arbeidsmarkt stelt ons nu voor een luxeprobleem, maar een luxeprobleem is ook een probleem. Ik ben er vol van doordrongen dat wij hier iets mee moeten, maar ik wil de heer Moorlag wel in overweging geven om de motie aan te houden tot het moment dat wij in deze Kamer spreken over het klimaatakkoord in concept.</seg>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u43">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg56">Ik ga in overleg met de mede-indieners.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u44">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg57">Maar dan wil ik wel een oordeel hebben van de minister.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u45">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg58">In het geval van aanhouden hoef ik nog geen oordeel te geven. Als de motie niet wordt aangehouden, moet ik hem in dit stadium ontraden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u46">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg59">Meneer Moorlag, laat ons niet langer in spanning.</seg>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u47">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg60">Nee, wij kunnen de motie aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u48">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg61">Op verzoek van de heer Moorlag stel ik voor zijn motie (32813, nr. 206) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg62">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u49">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg63">Dan de motie op stuk nr. 207. Die is buitengewoon nuttig, want er moet onderzocht worden welke instrumenten, bevoegdheden en middelen we nodig hebben, maar dat zijn de gemeenten op dit moment in het kader van hun rol zelf aan het onderzoeken. Het is een ietwat formalistische reden om deze motie te ontraden, maar mijn sympathie ligt geheel aan de kant van de heer Moorlag, want dit is buitengewoon nuttig. Het is niet de regering die dit gedegen gaat onderzoeken, maar de gemeenten zelf die dit aan het onderzoeken zijn.</seg>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u50">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg64">Ik heb in het algemeen overleg gewezen op de mogelijkheid om de Raad voor het Openbaar Bestuur te consulteren. Dat hoeft niet over de hoofden van de gemeenten heen. De minister kan dat natuurlijk in overleg met de gemeenten doen. Maar wij moeten hier straks beoordelen of gemeenten voldoende zijn toegerust. Daarom spreek ik de minister aan op zijn verantwoordelijkheid om voor de Kamer inzichtelijk te maken of gemeenten toegerust zijn op die taken. Deelt hij die opvatting?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u51">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg65">Ik vind het heel nuttig dat wij hier moeten kunnen beoordelen of gemeenten toegerust zijn op hun taken, maar de gemeenten hebben dit zelf in onderzoek gegeven bij een professionele partij. Dat onderzoek schijnt over niet al te lange tijd gereed te zijn, dus wij gaan daar eerst kennis van nemen voordat ik vanuit de regering onderzoek inzet over wat gemeenten denken nodig te hebben. Dit hoort eigenlijk bij de gemeenten. Zij zijn dit keurig aan het doen, heel verstandig. Elk woord in deze motie vind ik verstandig, behalve het woord "regering".</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u52">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg66">De motie is ontraden, meneer Moorlag.</seg>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u53">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg67">Ik ben bereid om de motie in te trekken als de minister dan wel wil toezeggen dat hij ons deelgenoot maakt van de uitkomst ervan en dat hij ook een appreciatie geeft van het onderzoek dat de gemeenten hebben ingesteld, zodat wij als Kamer in onze controlerende rol kunnen beoordelen of de medeoverheden voldoende zijn toegerust om deze nationale taakstelling waar te maken.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u54">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg68">Dat doe ik, maar dan zal ik die appreciatie geven bij een uiteindelijk concept klimaatakkoord, zodra dat na de tweede helft gereed komt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg69">De motie op stuk nr. 208 verzoekt de regering waterstof et cetera. Ook hier moet ik de indiener verzoeken om dit aan te houden tot er een concept ligt et cetera. Anders moet ik de motie ontraden, want dan krijgen wij ingewikkelde discussies over wat de term "essentiële bouwsteen" betekent. Ik denk dat wij daar overigens ja op gaan zeggen, dat het een essentiële bouwsteen is. Maar ik wil gewoon even voor de orde de mensen die hiermee bezig zijn en die hier hart en ziel in steken niet de pas afsnijden, maar hen eerst het werk laten doen en hen tot een concept klimaatakkoord laten komen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg70">De motie op stuk nr. 209 verzoekt de regering onder andere om zich in landelijk en Europees verband in te zetten voor richtlijnen voor hergebruik van grondstoffen en in internationale gremia te pleiten. Ja, als een en ander kan worden aangehaakt bij dat convenant dat nu in het kader van die internationale mvo start en dat tot resultaat moet leiden. Als het in dat verband mag, is deze motie ondersteunend. Ik laat het oordeel aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg71">Dat geldt ook voor de door de heer Stoffer geformuleerde motie over aardwarmte op stuk nr. 210, waarin wij kunnen bezien of er een aparte categorie opgenomen zou kunnen worden. Als ik het zo mag lezen dat "hoe" ook "of en hoe" kan betekenen, laat ik deze motie oordeel Kamer.</seg>
+            </u>
+            <u who="#ChrisStoffer" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u55">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg72">Dat mag wat mij betreft. Dank.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u56">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg73">Dan lezen wij die als "of en hoe" en gaat hier serieus naar gekeken worden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg74">De motie op stuk nr. 211 van de heren Wassenberg en Jetten gaat over richtlijnen over de herkomst. Als die ook mogen worden meegenomen in het traject van het internationaal maatschappelijk verantwoord ondernemen en in dat convenant, laat ik ook deze oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg75">Ik wil de heer Wassenberg in overweging geven om de motie op stuk nr. 212 over de subsidie voor de stook van schoon afvalhout aan te houden totdat wij een conceptklimaatakkoord hebben, anders moet ik die ontraden. Dan vind ik haar namelijk beslist voortijdig. Ik kijk even of hij bereid is om deze motie tot dat moment aan te houden. Misschien kan hij dan bij de microfoon blijven staan om tot datzelfde te besluiten aangaande de motie op stuk nr. 213.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u57">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg76">Ik weet niet wanneer dat concept er is, dus voorlopig houd ik haar even niet aan. Ik heb nog een week om erover na te denken, een halve week, dus wellicht doe ik het nog over een paar dagen.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u58">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg77">De moties op de stukken nrs. 212 en 213 ontraad ik als zij niet worden aangehouden. Als zij wel worden aangehouden komen wij er op een later moment over te spreken.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg78">De motie van de heer Wassenberg overnatuurontwikkeling in elk kavelbesluit moet ik ontraden, want dat gaat ver, denk ik. Er is een inspanningsverplichting, maar uiteindelijk gaat windenergie op zee over elektriciteit. Natuurontwikkeling moeten wij daar ook bij inpassen, maar dat is niet exclusief een taak van de exploitant. Ik wil de motie op stuk nr. 214 in deze wat extremere vorm ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg79">Daarna komt de motie op stuk nr. 215 van de heren Van Raan en Wassenberg waarin de regering verzocht wordt om de lucht- en scheepvaart vanuit Nederland te onderwerpen aan concrete en ambitieuze CO-doelen. Zoals de beide indieners weten, maakt dit natuurlijk deel uit van het akkoord van Parijs, maar is er niet unilateraal een verantwoordelijkheid of een bevoegdheid van Nederland. Daarom moet ik de motie in deze vorm ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg80">Over de vraag van mevrouw Mulder merk ik op dat ik al even las dat het Centraal Planbureau zou hebben ontdekt dat wel de parken subsidieloos zijn, maar niet de aansluiting van het net. Daarvoor was een CPB-onderzoek misschien overbodig, want dat staat ook in de brieven en in de Routekaart windenergie op zee 2030. Er zijn bij de eerste en tweede tranche van de aanbesteding brieven gestuurd waarin te lezen is dat dit inderdaad zo is. Dit is de situatie. Dat betekent overigens niet dat die aansluitingen gesubsidieerd zijn, zoals mevrouw Mulder zei. Daar zijn nettarieven voor om gewoon de netkosten te dekken. Die zitten onder andere in het vastrecht.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u59">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg81">Ik kan mij herinneren dat minister Kamp in het verleden heeft gezegd dat de kostendaling die voor die windparken mogelijk zou zijn, misschien ook wel voor de aansluiting van het net op zee mogelijk zou zijn. Is de minister bereid om nog eens te kijken of die tweeëneenhalve eurocent inderdaad verder terug kan lopen in de toekomst?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u60">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg82">Ik denk dat het gemiddeld anderhalve eurocent is. Maar we doen dat op een andere manier, anders moet je het net gaan meeveilen en heb je niet de schaalvoordelen die TenneT kan halen door verschillende windparken op één net aan te sluiten. Ik denk dus dat het slimmer is om rekening te houden met een tijd waarin het veilen van windparken een positieve opbrengst kan hebben, want daarmee zijn dan uiteindelijk indirect ook die netkosten gedekt. Het is dus handig om het net centraal en publiek te houden, want dan kunnen we een slimmer net verzinnen. Ik heb net nog met TenneT over die netten gesproken en hen daarbij intelligent eigenwijs genoemd. Zij gaan namelijk allerlei concepten verzinnen waardoor juist die netten en die aansluiting op zee goedkoper worden. Het is dus belangrijk om dat bij hen te houden en niet in de vergunningverlening te verwerken, zodat er bij het veilen van de windparken op een zeker moment geld op kan worden verdiend in plaats van nu een nulsom of in het verleden een subsidie. Zo zit het in elkaar. Indirect krijgt mevrouw Mulder dus mogelijkerwijs haar zin.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u61">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg83">Voorzitter, mijn afweging heeft geen dagen hoeven duren. Ik houd de moties op stuk nr. 212 en 213 aan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u62">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg84">Op verzoek van de heer Wassenberg stel ik voor zijn motie (32813, nr. 212) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg85">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u63">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg86">Op verzoek van de heer Wassenberg stel ik voor zijn motie (32813, nr. 213) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg87">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#LéonieSazias" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u64">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg88">Ik zou nog graag een antwoord willen hebben op de vraag of de minister bereid is om met de kinderen in Groningen in gesprek te gaan.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u65">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg89">Ik ben al een paar keer met kinderen in gesprek geweest. Voordat ik blind de ene aanvraag van kinderen boven de andere stel, omdat een zeer gewaardeerd Kamerlid er vragen over stelt, geef ik mee dat alle verzoeken tegen elkaar afgewogen moeten worden. Zoals inmiddels bijna publiek bekend is, doe ik momenteel van alle publieke verzoeken op dit terrein vooral dingen in Groningen. Het zou dus kunnen dat het verzoek daarvoor in aanmerking komt. We moeten de afweging breder maken, want anders is degene die het hardst lobbyt het eerst aan de beurt en dat vind ik ook niet helemaal fair. Wij kijken steeds weer naar de aanbieding die het beste past.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u66">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg90">We gaan er geen Groningendebat van maken, mevrouw Sazias.</seg>
+            </u>
+            <u who="#LéonieSazias" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u67">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg91">Nee, maar ik wilde nog even zeggen dat het om kinderen gaat die bijeengebracht waren door de Kinderombudsman, mevrouw Kalverboer. Het verzoek was specifiek gericht aan de minister. Ik heb het in elk geval overgebracht.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u68">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg92">Zeker, en ik heb er welwillend op gereageerd. We moeten wel kijken naar de andere verzoeken die er liggen. Het blijft helaas altijd kiezen in deze baan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u69">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg93">Het is me wat!</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.u70">
+               <seg xml:id="ParlaMint-NL_2018-09-27-tweedekamer-7.seg94">Ik dank de minister voor zijn aanwezigheid heden ten dage. Wij stemmen dinsdag over de moties.</seg>
+            </u>
+            <note>De vergadering wordt van 15.17 uur tot 15.21 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

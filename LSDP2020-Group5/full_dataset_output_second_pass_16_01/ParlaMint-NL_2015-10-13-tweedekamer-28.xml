@@ -1,0 +1,356 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-10-13 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-10-13 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 13, Session 28 (2015-10-13)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 13, Session 28 (2015-10-13)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="13">Meeting 13</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="28">Session 28</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="56">56 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="56">56 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3645">3645 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3645">3645 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-10-13">2015-10-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="69"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="56"/>
+               <tagUsage gi="note" occurs="92"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-10-13">2015-10-13</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Voortgang trekkingsrechten pgb</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u1">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg1">Ik geef als eerste het woord aan de heer Van Gerven van de SP-fractie, maar niet zonder dat ik heb opgemerkt dat voor allen de spreektijd twee minuten is inclusief het indienen van eventuele moties.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u2">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg2">Voorzitter. We beginnen maar eens met de moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Sociale Verzekeringsbank (SVB) alle zorgovereenkomsten en gewijzigde zorgovereenkomsten nog steeds handmatig moet verwerken, waardoor dit een zeer tijdrovend en foutgevoelig proces blijft dat niet op korte termijn opgelost zal zijn;</note>
+               <note>constaterende dat inhoudelijke toetsing van verschillende zaken die samenhangen met de rechtmatigheid van de uitbetaling van pgb-middelen van de SVB naar de gemeenten en zorgkantoren verschuift;</note>
+               <note>van mening dat de uitbetalingsfunctie van de SVB niet heilig is om het trekkingsrecht vorm te geven;</note>
+               <note>verzoekt de regering, te onderzoeken wat er nodig is om het trekkingsrecht te beleggen bij de gemeenten en de zorgkantoren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het onderzoek dat door KPMG is uitgevoerd een verbeterplan is en geen uitvoeringstoets;</note>
+               <note>constaterende dat er dus nog steeds geen serieuze uitvoeringstoets is uitgevoerd met betrekking tot de uitvoering van het trekkingsrecht van het pgb;</note>
+               <note>verzoekt de regering, op korte termijn opdracht te geven tot het uitvoeren van een serieuze uitvoeringstoets,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-207</note>
+               <note>Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-208</note>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u3">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg3">We zijn vele debatten verder. Het pgb-trekkingsrecht is een regelrecht tranendal. De vraag is hoe het nu verder gaat, bijvoorbeeld na 1 januari 2016. Wij hebben een brief ontvangen van Per Saldo en het lijkt alsof er afspraken geschonden worden. Ik heb een vraag aan de staatssecretaris. Kan hij schetsen hoe het gaat lopen in de situatie na 1 januari 2016? Behouden alle mensen die na 1 oktober 2015 niet geïndiceerd zijn, tot 1 mei 2016 hun trekkingsrecht, zoals dat conform de oude stijl was afgesproken?</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u4">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg4">Voorzitter. Uit de compensatieregeling die de staatssecretaris naar de Kamer heeft gestuurd blijkt dat het de bedoeling is dat budgethouders die te goeder trouw te veel geld hebben ontvangen op een bepaald moment niet meer geconfronteerd worden met terugvorderingen. Om deze mensen zekerheid te bieden, heb ik gevraagd welke datum dat is, maar ik heb geen duidelijk antwoord gekregen. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat te veel betaald pgb terugbetaald moet worden;</note>
+               <note>constaterende dat er veel budgethouders te goeder trouw geconfronteerd kunnen worden met terugvorderingen;</note>
+               <note>vaststellende dat de overheid zich bestuurlijk behoorlijk dient te gedragen;</note>
+               <note>verzoekt de regering, geen terugvorderingen of verrekeningen meer te doen na de datum waarop de jaarstukken zijn goedgekeurd, en de Kamer over deze datum per ommegaande te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Keijzer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-209</note>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u5">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg5">In het rapport van de Ombudsman zat een zogeheten stroomschema. Daaruit blijkt hoe alle verschillende stukken langs allerlei organisaties moeten met verschillende momenten waarop besluiten moeten worden genomen. Een complete spaghettibrij. Daarover zijn nu juist op 4 september 2015 afspraken gemaakt tussen de VNG, VWS en de SVB om een aantal taken bij de Sociale Verzekeringsbank weg te halen. Dat is voor het CDA aanleiding om de volgende motie in te dienen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat in het bestuurlijk overleg tussen VNG, VWS en SVB besloten is onder andere de goedkeuringstaak van de SVB met betrekking tot de zorgovereenkomsten te beleggen bij gemeenten;</note>
+               <note>overwegende dat het financieel pakket bij de SVB niet toegerust is op zijn taak;</note>
+               <note>verzoekt de regering, op zich te nemen dat het bij de vormgeving van een nieuw financieel ICT-pakket gelijk mogelijk wordt gemaakt dat er een ICT-systeem komt dat gemeenten in staat kan stellen om zelf de betalingstaak op enig moment op zich te nemen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Keijzer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-210</note>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u6">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg6">Voorzitter. Ik dien drie moties in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het systeem van het trekkingsrecht eenvoudiger gemaakt moet worden;</note>
+               <note>van mening dat een belangrijke vereenvoudigingsslag van het trekkingsrecht één budget per wet zou zijn;</note>
+               <note>overwegende dat één budget per wet met ingang van 1 januari 2016 niet haalbaar wordt geacht;</note>
+               <note>verzoekt de regering, voor 1 januari met een stappenplan te komen waarin wordt verduidelijkt op welke wijze en met welke tijdsplanning toegewerkt wordt naar één pgb-budget per wet, en daarbij een doorkijk te geven naar een integraal pgb,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het pgb binnenkort in alle zorgwetten is verankerd;</note>
+               <note>overwegende dat in de praktijk blijkt dat cliënten moeilijk toegang krijgen tot een pgb;</note>
+               <note>van mening dat, hoewel er in elke wet voorwaarden zijn opgenomen waaraan voldaan moet worden wil men recht hebben op een pgb, dit niet mag betekenen dat een pgb geen volwaardig alternatief meer is voor zorg in natura;</note>
+               <note>verzoekt de regering, in kaart te brengen waarom de toegang tot een pgb wordt geweigerd en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat met gemeenten nieuwe afspraken zijn gemaakt over de termijnen van herindicaties;</note>
+               <note>van mening dat eventuele financiële consequenties niet voor rekening van gemeenten mogen komen indien gemeenten in verband met een zorgvuldig proces gekozen hebben voor uitstel van herindicaties;</note>
+               <note>verzoekt de regering, budgettaire afspraken te maken met gemeenten en daarbij rekening te houden met de belangen van budgethouders en de situatie van gemeenten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Dik-Faber. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-211</note>
+               <note>Deze motie is voorgesteld door het lid Dik-Faber. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-212</note>
+               <note>Deze motie is voorgesteld door het lid Dik-Faber. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-213</note>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u7">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg7">Voorzitter. Ik begin met het indienen van mijn motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat op dit moment al veel gebeurt in de ondersteuning van bijvoorbeeld de Sociale Verzekeringsbank, gemeenten en instanties die de systemen voor uitvoering van het persoonsgebonden budget beheren;</note>
+               <note>van mening dat budgethouders ondersteuning verdienen, zeker na invoering van het ingewikkelde trekkingsrecht;</note>
+               <note>verzoekt de regering, in overleg met Per Saldo te treden over ondersteuningstrajecten voor (nieuwe) budgethouders en de Kamer daar voor 1 januari 2016 over te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Voortman en Otwin van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-214</note>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u8">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg8">Wat de compensatieregeling betreft hebben wij onze zorgen uitgesproken over de drempelbedragen en over de vraag of er wel voldoende gecompenseerd zou worden. De staatssecretaris heeft aangegeven dat hij in november met een uitwerking komt. Wij zijn bereid om dat af te wachten. Wij zullen de voorstellen met belangstelling afwachten, maar het is voor ons wel heel belangrijk dat er naar de drempelbedragen gekeken wordt.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg9">Over het integraal persoonsgebonden budget heeft de staatssecretaris toegezegd dat hij met een AMvB met terugwerkende kracht per 1 januari 2016 zal komen. Gezien die concrete toezegging dien ik daarover geen motie in.</seg>
+            </u>
+            <u who="#VeraBergkamp" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u9">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg10">Voorzitter. Ik sluit me aan bij de vragen die de heer Van Gerven gesteld heeft over de trekkingsrechten. Ikzelf heb in het AO een aantal vragen gesteld over de problemen met de ICT, waarop we voor het einde van het jaar antwoord zouden krijgen. Vandaar dat ik daar geen motie over heb ingediend.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg11">Ik dien mede namens de heer Potters en de heer Van Gerven wel een andere motie in over pgb, fraude en de manier waarop het geld teruggevorderd zou moeten worden.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het op dit moment lastig is om geld terug te vorderen van zorgorganisaties, intermediairs of professionals die met pgb gefraudeerd hebben;</note>
+               <note>constaterende dat in de praktijk de budgethouder verantwoordelijk wordt gehouden voor de met pgb frauderende zorginstelling, intermediair of professional;</note>
+               <note>van mening dat degene die feitelijk verantwoordelijk is voor de fraude met pgb hiervoor verantwoordelijk gehouden zou moeten worden en dat daar de gelden teruggevorderd zouden moeten worden in plaats van bij de benadeelde budgethouder;</note>
+               <note>verzoekt de regering, te onderzoeken welke aanpassingen van bestaande wet- en regelgeving en/of invoering van nieuwe wet- en regelgeving nodig zijn om het mogelijk te maken dat gelden teruggevorderd kunnen worden van de met pgb frauderende zorginstellingen, intermediairs of professionals, kijkend naar alle wetgeving waarin een pgb van toepassing is, en de Kamer hierover eind 2015 te informeren;</note>
+               <note>verzoekt de regering tevens, te bevorderen dat zolang er geen passende wet- of regelgeving is, gelden niet van de benadeelde budgethouders worden teruggevorderd door zorgkantoren, gemeenten en zorgverzekeraars,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Bergkamp, Potters en Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-215</note>
+            </u>
+            <note>De heer Otwin van Dijk ziet af van het voeren van het woord, zie ik, maar hij is wel aanwezig, wellicht om te kunnen interrumperen en in ieder geval mee te luisteren. Dan stel ik voor om de vergadering even te schorsen zodat de staatssecretaris zijn papieren kan ordenen.</note>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u10">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg12">De heer Van Gerven vroeg hoe het nu verdergaat na 1 januari. Ik parafraseer de vraag maar even. We hebben inderdaad afspraken gemaakt om te zorgen dat de toekenningsberichten van de gemeenten in de periode van 1 oktober tot 1 november zullen verschijnen. Dit hebben we gedaan met het oog op de budgethouder, die van tevoren duidelijk moet hebben hoe het ermee staat, zodat hij of zij tijd heeft om de zorgovereenkomsten aan te passen. Als dat niet in die periode gebeurt, dan gaan gemeenten ertoe over om een en ander te verlengen tot en met 1 mei. Ik heb geen signalen dat het niet gebeurt. Ik kan dit uiteraard slechts beoordelen als die afgesproken termijn voorbij is. Dat zal in november het geval zijn, maar ik heb nu geen signalen dat die afspraken niet worden nagekomen.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u11">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg13">Kan de staatssecretaris even heel precies zijn? Wij hebben signalen ontvangen dat er nog geherindiceerd wordt tot 1 november en dat dat dan al per 1 januari in zou moeten gaan. Dat tekort is volgens mij ook niet conform de afspraken. Als 1 oktober niet gehaald is — die datum is nu al voorbij — zouden dan de afspraken voor deze mensen die u zelf gemaakt hebt niet moeten doorlopen tot ten minste 1 mei om allerlei problemen in de uitvoering te voorkomen?</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u12">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg14">Zoals de heer Van Gerven in de afspraken heeft kunnen lezen, wordt de periode van 1 oktober tot 1 november gebruikt om al die toekenningsbeschikkingen te slaan. Daarvan hebben we zelf afgesproken dat dit in een verwacht tempo van een derde, een derde en een derde gaat. Als er daarna besluiten moeten worden genomen, krijgt op dat moment de budgethouder de gelegenheid om een verlenging te hebben tot minstens 1 mei. Als wij ons aan de bestuurlijke afspraken houden zoals die gemaakt zijn, dan gebruiken we de periode van 1 oktober tot 1 november om die toekenningsberichten te krijgen. Dat verschilt een beetje van groep tot groep. Daarna krijgen de budgethouders de gelegenheid om hun werk te doen, waarmee ik doel op die zorgovereenkomsten. Is de gemeente echter niet in staat om in die periode die toekenningsbesluiten te slaan, dan wordt er dus verlengd tot 1 mei.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u13">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg15">Mag ik dan constateren dat de datum is opgeschoven van 1 oktober naar 1 november?</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u14">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg16">Nee, want in het bestuurlijk overleg hebben wij nadere afspraken gemaakt naar aanleiding van mijn brief. Daarbij is gezegd dat we de periode van 1 oktober tot 1 november gebruiken om die toekenningsbeschikkingen van de gemeenten te verkrijgen. Dat heeft ook geleid tot die bestuurlijke afspraken.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg17">Dan kom ik op de moties. In de motie op stuk nr. 207 wordt gevraagd om te onderzoeken wat er nodig is om het trekkingsrecht te beleggen bij gemeenten en zorgkantoren.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg18">Wij zijn nu net bezig om wat stabiliteit te krijgen in de aanpak van de betalingen en de toekenningsberichten. Wij gaan op dat gebied een verbeterplan opstellen. Wij concentreren ons nu op het stabiliseren van die betalingen. Ik vind het dan niet passend om een soort voorschot te nemen op een situatie die daarna gaat plaatsvinden. We zullen ongetwijfeld nog veel met elkaar komen te spreken over de toekomst van dat trekkingsrecht en de uitvoering en de governance ervan. In dit stadium echter wil ik deze motie ontraden.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u15">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg19">Zou het dan niet handig zijn om toch over een plan B na te denken? Want dat het stabiel is, geloven heel weinig mensen.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u16">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg20">Er wordt altijd nagedacht. Alle energie richten we nu op het goed en stabiel maken van de betalingen en op de verbeterslagen die moeten worden gemaakt. We zullen ongetwijfeld nog te spreken komen over hoe de governance er uit moet zien. Ik wil ook dat de gemeenten meer in een opdrachtgeversrol terechtkomen. Dat hebben we overigens ook met elkaar afgesproken. Als we weer komen te spreken over de toekomst van de pgb-trekkingsrechten, zullen we ongetwijfeld ook hierover weer komen te spreken. Ik blijf bij mijn oordeel over de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg21">De motie op stuk nr. 208 vraagt de regering op korte termijn opdracht te geven tot het uitvoeren van een serieuze uitvoeringstoets. Er is een KPMG-onderzoek uitgevoerd naar het verbeterplan. Dat heeft een aantal stappen opgeleverd. Afgesproken is dat een verbeterplan wordt uitgewerkt en wordt voorzien van een ambitieus, maar realistisch tijdpad. Dat verbeterplan zal ook worden voorzien van een uitvoeringstoets op de desbetreffende onderdelen. Dat betekent dus dat we nu van KPMG een verbeterplan hebben waarvan we afgesproken hebben dat de verschillende onderdelen zullen worden uitgewerkt waarbij we tevens een uitvoeringstoets zullen doen. Dat kan een integrale toets zijn of een toets per onderdeel — dat maakt mij niet zo veel uit — en daarover zal ik de Kamer nader informeren. De motie vraagt om het doen van een uitvoeringstoets op het trekkingsrecht. We zijn inmiddels drie stappen verder. We hebben nu een verbeterplan dat voorzien zal worden van uitvoeringstoetsen. Om die reden ontraad ik de motie.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u17">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg22">Ik begrijp het niet helemaal.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u18">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg23">De staatssecretaris heeft de motie ontraden.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u19">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg24">Ja, dat had ik wel begrepen maar ik raakte het spoor bijster bij de motivering ervan. De staatssecretaris zegt dat KPMG een gedeeltelijke of een integrale uitvoeringstoets gaan doen. Wat is het verschil tussen die opmerking en deze motie?</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u20">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg25">Nee, we moeten even precies zijn. We hebben KPMG gevraagd om naar alle stukken en voorstellen te kijken en na te gaan welke koers het best gevaren kan worden en welke verbeteractiviteiten moeten worden ondernomen. Dat is het KPMG-onderzoek; dat lijkt een goede richting te zijn, met een verbeterplan. Het verbeterplan bestaat uit verschillende onderdelen. Ik heb de Kamer toegezegd dat de verschillende onderdelen van dat verbeterplan van een uitvoeringstoets zullen worden voorzien. Dat zal ik doen. Ik zal de Kamer hierover nader informeren.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg26">In de motie op stuk nr. 209 wordt de regering verzocht, geen terugvorderingen of verrekeningen meer te doen na de datum waarop de jaarstukken zijn goedgekeurd. Ik ben een beetje in verwarring over de jaarstukken waar mevrouw Keijzer precies op doelt. Ik denk dat wij het wel met elkaar eens zijn over de benadering waarover wij in het debat hebben gesproken. Als de budgethouder er te goeder trouw op rekende dat er zorguitgaven moesten worden gedaan en als hij niet had kunnen voorzien dat die fout waren en teruggevorderd zouden worden, moet er niet tot terugvordering worden overgegaan. Wij zullen er dus in alle redelijkheid naar kijken of budgethouders die dit niet wisten en ook niet konden weten, geconfronteerd worden met een terugvordering waar zij last van hebben. In deze motie wordt een nieuw element ingevoerd, namelijk "na de datum waarop de jaarstukken zijn goedgekeurd". We kunnen dit pas goed beoordelen als het herstel is afgerond. Dan pas zul je eventueel moeten overgaan tot terugvordering. Dat loopt in 2016. Ik zeg mevrouw Keijzer toe dat ik haar suggestie betrek bij het algemene beleid voor de vraag wanneer je wel of niet terugvordert. Daar hebben we nog wel even tijd voor. Het uitgangspunt dat wij volgens mij delen, is dat budgethouders er geen last van moeten hebben als zij zorguitgaven hebben gedaan waarvan zij in redelijkheid niet konden vermoeden of voorzien dat die te hoog waren of dat sprake was van een verschil in uitbetaling.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u21">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg27">In mijn inleiding refereerde ik aan de compensatieregeling die de staatssecretaris naar de Kamer gestuurd heeft. Daarin staat dat niet meer teruggevorderd wordt als het boekhoudkundig jaar is afgesloten. Dat bedoel ik in de motie met het goedkeuren van de jaarstukken. In het debat heb ik dat aan de staatssecretaris gevraagd. Dat vind ik netjes, want dan geef je duidelijkheid aan budgethouders. Met deze motie stel ik nog eens vast wat in de stukken van de regering zelf staat; daarbovenop vraag ik de regering om daarvoor dan een datum te noemen. Zo wil ik voorkomen dat budgethouders straks nog halverwege of eind 2016 geconfronteerd worden met een terugvordering. Op een gegeven moment moet het voor deze mensen, die te goeder trouw zijn — dat is de groep die ik bedoel — wel klaar zijn.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u22">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg28">Ergens in november stuur ik een brief over de compensatieregeling naar de Kamer. Dat hebben we afgesproken. In die brief zal ik expliciet ingaan op dit punt. Dan kan ik even kijken naar de datum die mevrouw Keijzer precies bedoelt en kan ik nagaan wat redelijk is. Ik verzoek mevrouw Keijzer, haar motie tot dat tijdstip aan te houden.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u23">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg29">Ik neem aan dat de staatssecretaris november van dit jaar bedoelt. Het lijkt mij verstandig om die brief af te wachten, want wellicht beogen wij hetzelfde.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u24">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg30">Daar hoop ik ook op. Hoewel de verleiding groot is om te zeggen van niet, bedoel ik inderdaad november van dit jaar.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u25">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg31">Op verzoek van mevrouw Keijzer stel ik voor, haar motie (25657, nr. 209) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg32">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u26">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg33">In de motie op stuk nr. 211 wordt de regering verzocht, voor 1 januari met een stappenplan te komen waarin wordt verduidelijkt op welke wijze en met welke tijdsplanning toegewerkt wordt naar één pgb per wet, en daarbij een doorkijk te geven naar een integraal pgb.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u27">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg34">Kan het zijn dat u de motie op stuk nr. 210 hebt overgeslagen?</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u28">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg35">U hebt gelijk, ik moet de motie op stuk nr. 210 nog behandelen. Dan zal ik tot een heel ander oordeel komen. In deze motie wordt de regering verzocht, de taak op zich te nemen om bij de vormgeving van een nieuw financieel ICT-pakket mogelijk te maken dat er een ICT-systeem komt dat gemeenten in staat kan stellen om zelf de betalingstaak op enig moment op zich te nemen. Ik begrijp de achtergrond van deze motie wel. Mevrouw Keijzer denkt: we gaan straks een nieuw ICT- of betaalsysteem maken voor de Sociale Verzekeringsbank; als je een andere keus zou willen maken, moet je er wel voor zorgen dat anderen daar gebruik van kunnen maken. Misschien zeg ik het iets te simpel. Wij moeten de functionele eisen nog dit jaar vaststellen. Wij treden met de Sociale Verzekeringsbank in overleg over de vraag aan welke condities dat betaalsysteem moet voldoen. Ik wil de suggestie van mevrouw Keijzer meenemen, zonder dat ik kan zeggen dat een betaalsysteem dat je voor club A maakt, ook meteen geschikt is voor club B. Dat zou ik niet op voorhand willen zeggen, maar ik wil haar vraag wel meenemen. Misschien zou mevrouw Keijzer om die reden de motie willen aanhouden totdat wij tot een beoordeling van de noodzaak van een dergelijk financieel betaalsysteem zijn gekomen.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u29">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg36">Tijdens het debat zei de staatssecretaris dat de Sociale Verzekeringsbank gezegd had dat er een nieuw betalingssysteem moest komen, maar dat zij daar dan wel budget voor zou moeten hebben. Toen dacht ik: potverdikkie — neemt u mij niet kwalijk, voorzitter — dat had je anderhalf jaar geleden moeten zeggen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u30">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg37">"Potverdikkie" sta ik toe.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u31">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg38">Mag dat? Ik moet af en toe een beetje zoeken naar de juiste woorden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg39">Ik hoor nu de staatssecretaris zeggen dat hij wel iets met onze vraag kan. Ik dank hem daarvoor. Ik zal de motie op stuk nr. 210 aanhouden, als de staatssecretaris mij vertelt wanneer hij de Kamer zal informeren over de functionaliteiten.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u32">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg40">Het loven en bieden is begonnen.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u33">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg41">Ik heb de precieze datum niet voor ogen, maar de functionele eisen worden nog dit jaar opgesteld. Dat gebeurt dus voor het eind van het jaar.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u34">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg42">Het is nu begin oktober. Ik houd de motie aan. Laten wij met elkaar bekijken of wij dit een beetje beter kunnen maken.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u35">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg43">Op verzoek van mevrouw Keijzer stel ik voor, haar motie (25657, nr. 210) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg44">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u36">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg45">Dank daarvoor. Dan de motie op stuk nr. 211. In deze motie wordt de regering gevraagd om met een stappenplan te komen waarin wordt verduidelijkt op welke wijze en met welke tijdsplanning toegewerkt wordt naar één pgb-budget per wet, en daarbij een doorkijk te geven naar een integraal pgb. Ook wij vinden dit heel belangrijk. Al eerder hebben wij gevraagd om één budget per wet te maken en te bekijken wat de mogelijkheden van een integraal pgb zijn. Niet voor niets hebben wij op dit punt twee pilots gestart. Wij vinden dat heel belangrijk. Ook hier geldt dat er een uitvoeringstoets nodig is om te bezien wat er allemaal bij komt kijken. Met die kanttekening wil ik het oordeel van de motie op stuk nr. 211 aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg46">Ik stap over op de motie op stuk nr. 212, waarin de regering wordt gevraagd in kaart te brengen waarom de toegang tot een pgb wordt geweigerd en de Kamer hierover te informeren. Twee opmerkingen hierover. Volgens mij hebben wij in alle wetten — mevrouw Dik-Faber verwees daar ook naar — de pgb's verankerd, inclusief de condities waaronder naar een pgb gekeken zou moeten worden. Vervolgens vindt nu de uitvoeringspraktijk plaats. Wij zullen periodiek met elkaar bespreken hoe het zit met de uitvoering. Dan kan men verzoeken om het in de motie gevraagde na te gaan. Om nu bij motie uit te spreken in kaart te brengen waarom de toegang tot een pgb wordt geweigerd, gaat mij wat ver. In elke wet staan de voorwaarden voor de beoordeling van de aanvragen. Wij moeten ervan uitgaan dat dit gebeurt. Op grond van signalen kunnen wij bekijken of er actie nodig is. Ik heb dat overigens al tijdens het debat toegezegd aan mevrouw Dik-Faber. Met de verzekeraars zal ik bekijken of er bij hen een te grote terughoudendheid ten aanzien van de pgb's bestaat.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u37">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg47">Miste ik nu een expliciet oordeel over de motie op stuk nr. 212?</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u38">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg48">Om de genoemde redenen ontraad ik de motie.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u39">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg49">Inderdaad, de Kamer heeft een motie van de ChristenUnie aangenomen waarin het kabinet wordt gevraagd om in kaart te brengen waarom de zorgverzekeraars zo terughoudend zijn met het toekennen van pgb's. Ik heb daar nog geen terugkoppeling van gezien, terwijl de motie toch al een tijd geleden is aangenomen. Ik hoor de problemen ook vanuit de gemeenten. Natuurlijk heb ik in mijn motie geschreven dat wij alles in wetten verankerd hebben en dat er in alle wetten voorwaarden zijn opgenomen, dus niet iedereen krijgt zomaar een pgb.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u40">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg50">Wat is uw vraag?</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u41">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg51">Ik krijg te vaak signalen van mensen dat het pgb geen volwaardig alternatief is voor zorg in natura en dat gemeenten sturen richting zorg in natura. Ik vraag de staatssecretaris om niet alleen met zorgverzekeraars het gesprek aan te gaan, maar dat ook met de gemeenten te doen. Wij kunnen dan wellicht een vervolgstap zetten. Ik heb met de staatssecretaris een afspraak gemaakt over naming-and-shaming. De gemeenten mogen gevallen aanleveren waarin een pgb wellicht geen goed alternatief is voor zorg in natura.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u42">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg52">Wij gaan niet het hele debat overdoen.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u43">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg53">Dat is niet mijn bedoeling, maar ik ben gewoon wat teleurgesteld. Ik zie de knelpunten, dus ik hoop dat de staatssecretaris nog eens nadrukkelijk het gesprek niet alleen met de zorgverzekeraars, maar ook met de gemeenten wil voeren en het resultaat van dat gesprek wil terugkoppelen naar de Kamer.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u44">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg54">Dat wil ik mevrouw Dik wel toezeggen. Wij hebben in de wetten de voorwaarden geregeld waaronder een pgb wordt toegekend en waarnaar gekeken zal moeten worden. De uitvoeringspraktijk loopt nu. Dat is nu net verankerd. Wij kunnen straks aan de hand van de cijfers beoordelen hoe het gelopen is met de pgb's, wat er gehonoreerd is en wat niet. Ik wil best niet alleen met de zorgverzekeraars, maar ook met de gemeenten bekijken of de uitvoeringspraktijk conform onze bedoeling verloopt. Ik vind het echter veel te vroeg om uit te spreken dat er onvoldoende toegang is. Om die reden ontraad ik de motie op stuk nr. 212, met de toezegging dat ik niet alleen met de zorgverzekeraars, maar ook met de gemeenten zal spreken. In de motie op stuk nr. 213 wordt de regering verzocht om budgettaire afspraken te maken met gemeenten, rekening houdende met de belangen van de budgethouders en de situatie van gemeenten. In het dictum van de motie staat dat eventuele financiële consequenties niet voor rekening van de gemeenten mogen komen. Dat vind ik toch een iets te algemene uitspraak. Conform de financiële verhoudingen die we met elkaar hebben afgesproken, zullen wij het netjes bekijken als er voor de gemeenten financiële consequenties zijn van de afspraken die met het Rijk zijn gemaakt. Die afspraken hebben wij al gemaakt. Je moet echter niet uitsluiten dat het ook aan de gemeenten kan liggen dat niet op tijd wordt geherindiceerd. Dan gaat het mij te ver om uit te spreken dat financiële consequenties nooit voor de gemeenten zullen zijn. Wij gaan dit in redelijkheid bekijken. Er zijn afspraken over financiële verhoudingen gemaakt. Daar wil ik mij graag aan houden. Ik wil geen algemene uitspraak doen dat het nooit voor rekening van de gemeenten komt. Om die reden ontraad ik de motie.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u45">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg55">Mevrouw Dik, kort graag.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u46">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg56">Dat ga ik u beloven, voorzitter.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u47">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg57">Ho, ho, pas op, want dat noteer ik.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u48">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg58">Heel goed. Er staat dat eventuele financiële consequenties niet voor rekening van de gemeenten mogen komen. Er staat nog wat achter: "indien gemeenten in verband met een zorgvuldig proces gekozen hebben voor uitstel van herindicaties". Het gaat dus niet om een gemeente die achteroverleunt, maar om een gemeente die in het belang van budgethouders zegt dat zij het niet voor elkaar krijgt en uitstel van herindicaties wil. Ik heb de staatssecretaris echter goed gehoord. De gesprekken met gemeenten lopen. Ik houd de motie aan.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u49">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg59">Op verzoek van mevrouw Dik-Faber stel ik voor, haar motie (25657, nr. 213) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg60">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u50">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg61">Dan kom ik bij de motie op stuk nr. 214, waarin de regering wordt verzocht om in overleg te treden met Per Saldo over ondersteuningstrajecten voor nieuwe budgethouders en de Kamer daarover te informeren voor 1 januari 2016. Dat is een belangrijk punt. Er is al een aantal ondersteuningstrajecten, ook voor budgethouders. Er zijn ook diverse loketten. Ik acht het een ondersteuning van beleid als wij met Per Saldo bekijken hoe wij dit proces nog verder kunnen ondersteunen. Ik laat het oordeel over de motie aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg62">In de motie op stuk nr. 215 wordt de regering verzocht om te bevorderen dat er passende regelgeving komt en om zolang die er niet is, niet terug te vorderen van "benadeelde budgethouders". Als ik daarbij mag aanvullen dat het benadeelde budgethouders zijn die te goeder trouw zijn — het komt soms helaas ook voor dat de budgethouder niet helemaal een goede beslissing heeft genomen, om het maar heel neutraal te zeggen — zou ik het oordeel aan de Kamer kunnen laten. Ik ben juist bezig om met de zorgverzekeraars uit te werken wat het begrip "te goeder trouw" zou kunnen inhouden. Dat lijkt mij erg belangrijk.</seg>
+            </u>
+            <u who="#VeraBergkamp" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u51">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg63">Ik kan mij vinden in de interpretatie van de staatssecretaris.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u52">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg64">Dan laat ik het oordeel aan de Kamer.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u53">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg65">Dan blijft het oordeel Kamer. Daarmee zijn wij aan het einde gekomen van dit VAO, maar de heer Van Gerven wil nog iets zeggen. De bezemwagen.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u54">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg66">Ik houd de motie op stuk nr. 208, over de integrale toets, aan.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u55">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg67">Op verzoek van de heer Van Gerven stel ik voor, zijn motie (25657, nr. 208) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg68">Daartoe wordt besloten.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.u56">
+               <seg xml:id="ParlaMint-NL_2015-10-13-tweedekamer-28.seg69">Daarmee zijn wij aan het eind van dit verslag algemeen overleg gekomen.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,176 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-11-19 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-11-19 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 25, Session 3 (2019-11-19)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 25, Session 3 (2019-11-19)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="25">Meeting 25</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="30">30 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="30">30 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2259">2259 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2259">2259 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-11-19">2019-11-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="32"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="30"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-11-19">2019-11-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Kerstens</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg1">Dan ga ik nu naar de heer Kerstens van de PvdA voor zijn vraag aan de minister voor Medische Zorg, die hier niet voor niets is. Zijn vraag gaat over de landelijke ziekenhuisstaking.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg2">Voorzitter. Morgen komen tienduizenden medewerkers van ziekenhuizen in actie in wat hun grootste actie ooit gaat worden, op honderden plekken in het land, in ziekenhuizen, in poliklinieken, in revalidatiecentra en op het Jaarbeursplein in Utrecht. En daar moet je je best voor doen, hoor, om de mensen in de zorg in actie te krijgen, om ze tegen je in het harnas te jagen, om ze boos te maken. Want de mensen in de zorg zetten altijd hun cliënten en patiënten voorop, ook als dat ten koste van henzelf gaat.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg3">Maar nu is het dan zover, omdat ze nog steeds geen fatsoenlijke cao hebben, omdat ze al anderhalf jaar wachten op een loonsverhoging. In die anderhalf jaar hebben ze er 0% bij gekregen, terwijl hun boodschappen bijna 4% duurder zijn geworden. De mensen in de zorg, de kurk waarop de goede zorg in Nederland drijft, dreigen kopje-onder te gaan door te veel werkdruk en te weinig collega's, door te veel regeltjes en te weinig salaris. Natuurlijk, de minister en ik zitten niet zelf aan de cao-tafel, maar hij bepaalt wel in grote mate hoeveel geld er op die tafel beschikbaar is om een goede cao af te sluiten. Dat moet meer zijn dan nu en dat kan ook meer zijn. De laatste jaren is 1,5 miljard euro minder uitgegeven aan salarissen in de zorg dan het ministerie zelf had gedacht. Elk jaar gaan er miljoenen aan zorggeld terug naar de schatkist. Het enige wat nodig is, is een minister die wil opkomen voor de mensen in de zorg, die wil opkomen voor zíjn mensen in de zorg, die ze de waardering geeft die ze verdienen, ook in hun portemonnee. Ik zeg tegen de minister: doe het!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg4">Het woord is aan de minister.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg5">Voorzitter, dank u wel. Morgen is een grote ziekenhuisstaking aan de orde. De heer Kerstens sprak daarover. Wij verschillen niet van mening over het feit dat het belangrijk is dat iedereen die in de zorg werkt, een fatsoenlijke beloning krijgt. Ik kijk eerlijk gezegd met zorg naar het feit dat de cao-onderhandelingen voor ziekenhuizen niet vlot lopen. Ik heb in de afgelopen weken, ook bij de begrotingsbehandeling, hier nog aangegeven dat er dit jaar vanuit het Rijk via de zogeheten ova-middelen een budget van 1,7 miljard voor arbeidsvoorwaarden in de zorg beschikbaar is. Gelukkig komen er in de zorg op veel plaatsen meerjarige cao's tot stand, of het nou de huisartsenzorg, de ggz, de vvt of de universitair medische centra betreft. Dat is allemaal gelukt. Ik heb dus hier, in het geval van de ziekenhuiszorg, tegen de partijen gezegd: wat is er nou nodig om bij elkaar te komen? Is het niet mogelijk om die gesprekken onder u weer op gang te brengen? Op dit moment, vandaag en morgen, spreek ik met alle betrokken partijen, alle cao-partijen, om te kijken wat er nodig is om die gesprekken weer vlot te trekken. Ik merk tegelijkertijd op dat het Rijk geen cao-partij is. Daar heeft de heer Kerstens terecht op gewezen. We zijn dat niet, en ik wil het ook niet worden. Ik wil de cao-partijen hun werk laten doen om een cao af te sluiten. Maar ik ben van zeer nabij betrokken, om te kijken wat nodig is om de partijen weer aan tafel te krijgen.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg6">Er vertrekken meer mensen uit de zorg dan ooit tevoren, er zijn meer vacatures dan ooit tevoren en die vacatures zijn moeilijker te vervullen dan ooit tevoren. De minister heeft een gouden kans in handen om die onderhandelingen vlot te trekken. Hij heeft daar blijkbaar geen zin in. Dat vind ik jammer. Ik vind het ook erg. Hij gaf net aan dat hij de cao-partijen heeft uitgenodigd. Dat hebben we ook in de krant kunnen lezen. Hij spreekt vandaag en morgen met vakbonden en werkgevers. Ik vind dat de minister financieel over de brug moet komen om de onderhandelingen vlot te trekken. Er ligt een amendement met betrekking tot 600 miljoen euro waarover we in december gaan stemmen. De dekking is er ook. Het moet en het kan. Als de minister dat niet wil, wil hij dan bijvoorbeeld wel nadenken over het vlot trekken van de onderhandelingen? Ik voorspel dat het de grootste actie ooit van ziekenhuismedewerkers wordt. Ik voorspel ook dat er wellicht meer gaan volgen, omdat het de mensen in de zorg niet tot hier zit, maar omdat ze kopje-onder gaan. Wil hij dan bijvoorbeeld die onderhandelingen vlot trekken door een bemiddelaar aan te stellen, door zelf een actievere rol te spelen of wat dan ook? Ik vind dat hij dat moet doen door een zak geld op tafel te leggen. Dat geld is er. Maar er zijn misschien ook andere mogelijkheden om in ieder geval weer met elkaar in gesprek te komen. Is de minister daartoe bereid?</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg7">Staken, actievoeren, dat is een recht. Dus dat gaat morgen gebeuren. En dat zal op een grote schaal gebeuren; dat hebben de verschillende partijen mij ook laten weten. Ik ken het amendement dat bij de begroting is ingediend én is ontraden. Want wat ga ik dan zeggen tegen al die andere gezondheidszorgsectoren waar wel recent cao's zijn afgesloten, waar partijen daar wel in zijn geslaagd? Maar door een nauwe betrokkenheid en door te kijken wat nodig is om de gesprekken weer op gang te brengen tussen de cao-partijen, wil ik laten zien dat ik van dichtbij betrokken ben en dat ik grote waardering heb voor de inzet van al die zorgprofessionals die elke dag weer klaarstaan. Uit de gesprekken die ik tot dusverre heb gevoerd, blijkt dat men het ook best moeilijk vindt om morgen actie te gaan voeren. Want het is steeds de afweging tussen actievoeren en de zorg voor patiënten. En de zorg voor patiënten, dat heeft iedereen in de zorg ook heel hoog zitten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg8">Tot slot, de heer Kerstens.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg9">Daar heb ik op gewezen. Het is nogal wat als de mensen in de zorg gaan actievoeren. Dan heb je het er echt naar gemaakt, want ze stellen altijd de belangen van cliënt en patiënt voorop. Ik gaf net aan dat er meer mensen uit de zorg vertrekken dan ooit tevoren, dat er meer vacatures zijn dan ooit tevoren en dat die vacatures lastiger te vervullen zijn dan ooit tevoren. Waar de minister mee komt, is het zoveelste actieplan Werken in de Zorg om mensen in de zorg vast te houden en mensen naar de zorg toe te krijgen. Dat eerste lukt van geen kanten. Ik doe nogmaals een beroep op de minister. U zit bij die zak geld. Die zak geld is er. Maak er alsjeblieft gebruik van; word de held van de mensen in de zorg. Want die positie heb je als minister.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg10">De heer Kerstens en ik verschillen van mening als het gaat om de uitspraak dat het actieplan Werken in de Zorg van geen kanten werkt. Dat zijn niet mijn woorden. We zien dat er gelukkig ook veel interesse is om te gaan werken in de zorg. Daar ben ik ongelooflijk blij mee. Daarnaast zijn er nog vele andere maatregelen die wij moeten nemen. Denk bijvoorbeeld aan het verlichten van de administratieve lasten in de zorg. Minder papierwerk zorgt voor meer patiëntenzorg. Dat is de route om te gaan, naast vele andere maatregelen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg11">Dank u wel, meneer Kerstens. Mevrouw Agema namens de PVV.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg12">Allereerst wil ik mijn steun uitspreken aan al die ziekenhuismedewerkers die morgen gaan staken. Ik vind de vragen van de Partij van de Arbeid zo verschrikkelijk hypocriet. Tijdens de vorige kabinetsperiode hebben 77.000 mensen dankzij hen, dankzij de PvdA, hun baan verloren. En de salarisontwikkelingen liepen echt zo ver achter bij wat je had mogen verwachten in een periode dat ze eigenlijk ontzettend hard nodig waren. Mijn vraag aan de minister is de volgende. Hij zei al iets over administratieve lasten, maar daarover hebben wij eigenlijk nog wel een appeltje te schillen. Er staan nu 1,2 miljoen mensen op de loonlijsten in de zorg. Het is inderdaad zo dat wij hun handen moeten vrijspelen. Ik heb namens mijn partij concrete voorstellen gedaan om de overhead en de administratieve lasten te verminderen. Waarom blijft de minister die concrete plannen afwijzen? Wanneer ziet hij in dat hij niet alleen het laaghangende fruit kan plukken, maar ook het hoog hangende fruit moet plukken, omdat juist deze mensen allemaal op de loonlijst staan?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg13">Duidelijk, mevrouw Agema.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg14">Ik heb het over de voltijdbonus, overhead, administratieve lasten, de hele reutemeteut.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg15">Helder. De minister.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg16">Administratieve lasten hebben te maken met regels. Regels worden niet zelden door de beroepsgroep of de sector zelf gemaakt. Het is moeilijk om andermans regels af te schaffen. Ik vind dat wij als overheid kritisch moeten kijken naar onze eigen regels en daaraan ook een bijdrage moeten leveren door de regeldruk te verminderen. Dat is een onderwerp dat niet in 24 uur is geregeld. Mevrouw Agema weet dat. Het is taai, maar we zijn echt bezig om het merkbaar beter te maken voor mensen die werken in de zorg, vandaag en morgen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg17">Tweede vraag, mevrouw Agema.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg18">We moeten echt ophouden met plannen niet te omarmen als ze van de oppositie komen. Ik vind dat de minister open moet staan voor plannen die van de oppositie komen. We zien bijvoorbeeld dat de overhead ook in de ziekenhuizen alleen maar toeneemt. Het aantal mensen dat geen patiëntencontacten meer heeft, neemt alleen maar toe. Die lijn moet de andere kant op. Als ik dan een voorstel doe voor een overheadnorm, om mensen met behoud van salaris een uitvoerende taak te laten vervullen, om die handen vrij te spelen, dan krijg ik van deze minister nul op het rekest.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg19">En de vraag is?</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg20">Maar juist die mensen zijn nodig. Ziet de minister ook in dat hij dit moet doen, dat hij ervoor moet zorgen dat mensen vanuit overheadfuncties weer een uitvoerende taak gaan vervullen, omdat ze al op de loonlijst staan? Deze mensen zijn zo hard nodig om de werkdruk te verlagen.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg21">Het is ook mijn wens om patiëntenzorg in Nederland heel goed en sterk te houden, en daarvoor de regels af te schaffen en te kijken of het met minder bureaucratie kan. Jazeker.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg22">Mevrouw Marijnissen namens de SP.</seg>
+            </u>
+            <u who="#LilianMarijnissen" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg23">Mensen in de zorg werken met hun hart. Op het moment dat zij besluiten om te gaan staken en het werk neer te leggen, is het echt goed mis. Recent werd hier in de Tweede Kamer een SP-voorstel omarmd dat zei dat de lonen van mensen die bij een bedrijf werken met 5% zouden kunnen stijgen en zouden moeten stijgen. De minister-president zei zelf: de lonen moeten omhoog. Nu vragen de medewerkers van de ziekenhuizen een loonstijging van 5%.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg24">Voorzitter. Mijn vraag aan deze minister is: hoe kan hij het zo ver laten komen dat zo veel mensen met zo veel hart voor de zaak morgen gaan staken? Waarom zorgt hij er niet voor dat de ruimte die de overheid ter beschikking stelt om de arbeidsvoorwaarden te verbeteren, in ieder geval 5% is? Dat vragen we immers ook van bedrijven.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg25">Ik vind het belangrijk dat ook van rijkszijde duidelijk is dat er geld beschikbaar is voor loon- en prijsontwikkeling. Dat zijn de ova-middelen. Dit jaar is dat een bedrag in de ordegrootte van 1,7 miljard. Dat is een stevig bedrag. U weet dat wij daarnaast akkoorden hebben afgesloten met de sector. Ik pols heel regelmatig bij de zorgpartijen of zij nog goed zijn voor hun handtekening onder die akkoorden. Het antwoord is: ja. Ten derde: op het moment dat de partijen niet makkelijk met elkaar aan tafel komen — het baart mij zorgen dat er nog geen cao voor de ziekenhuizen ligt — zie ik het als mijn rol om te kijken of ik het soepel kan maken, om te zorgen dat partijen wel weer met elkaar het gesprek voeren. Daarvoor voer ik vandaag en morgen gesprekken met alle partijen die bij dit cao-overleg zijn betrokken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg26">Mevrouw Sazias namens 50PLUS.</seg>
+            </u>
+            <u who="#LéonieSazias" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg27">50PLUS vindt de looneis van 5% voor het ziekenhuispersoneel volstrekt redelijk. De minister wil dat per ziekenhuis laten, maar er zijn al ziekenhuizen die aangeven dat ze dat gewoon niet kunnen betalen. Er staan er al een aantal op omvallen. Wat gaat de minister doen als de zorg daardoor straks niet meer breed toegankelijk is?</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg28">Wij willen allemaal breed toegankelijke zorg in Nederland. Wij willen niet dat ziekenhuizen plompverloren omvallen. Wij willen goede cao's. De recente praktijk laat zien dat er vele goede cao's zijn gesloten in de zorgsector met partijen die hun handtekening hebben gezet onder die akkoorden. Dat moet in dit geval ook lukken. Dat zou ik heel graag willen. Daarom voer ik die gesprekken met alle betrokken partijen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg29">Tweede vraag, mevrouw Sazias.</seg>
+            </u>
+            <u who="#LéonieSazias" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg30">Het klinkt natuurlijk heel aardig wat de minister zegt, en het is in het verleden allemaal wel gelukt. Maar het lukt nu gewoon helemaal niet. Anders staan al die mensen daar morgen niet. Er zijn enorme knelpunten binnen de zorg, met de financiering van de ziekenhuizen. We hebben net een petitie gekregen. In Woerden is nauwelijks nog zorg voorhanden. Dit gaat niet goed, voorzitter, en dit gaat knellen. 50PLUS vindt in elk geval dat de minister hier veel steviger op moet inzetten.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg31">Met veel stevigheid voer ik die gesprekken met alle betrokken cao-partijen, aan werkevers- en werknemerskant. Ik hoop ook dat ik die heel snel kan afronden. Daar heb ik in ieder geval nog wel de dag van morgen voor nodig.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-3.seg32">Dank u wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

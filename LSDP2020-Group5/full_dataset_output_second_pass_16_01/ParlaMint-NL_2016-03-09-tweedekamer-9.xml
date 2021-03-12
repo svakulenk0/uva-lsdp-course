@@ -1,0 +1,176 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-03-09 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-03-09 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 62, Session 9 (2016-03-09)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 62, Session 9 (2016-03-09)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="62">Meeting 62</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="9">Session 9</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="23">23 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="23">23 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2047">2047 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2047">2047 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-03-09">2016-03-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="30"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="23"/>
+               <tagUsage gi="note" occurs="17"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-03-09">2016-03-09</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>JBZ-Raad van 10 en 11 maart</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg1">Ik heet de minister van Veiligheid en Justitie van harte welkom. Zoals altijd het geval is bij een VAO bedraagt de spreektijd twee minuten per fractie, inclusief indiening van eventuele moties.</seg>
+            </u>
+            <u who="#FoortvanOosten" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg2">Voorzitter. We hebben vanochtend een algemeen overleg gehad ter voorbereiding op de JBZ-Raad, die morgen en naar ik begrijp ook overmorgen zal plaatsvinden. Onderwerp van gesprek was onder meer het Europees Openbaar Ministerie. Ik realiseer mij heel goed dat de komende dagen geen besluitvorming gaat plaatsvinden, maar ik vind het wel heel belangrijk dat er ook, en misschien wel vooral, tijdens het Nederlandse voorzitterschap van Europa melding wordt gemaakt van de kritische houding die in ieder geval een deel van dit parlement heeft ten opzichte van de ontwikkelingen rondom het Europees Openbaar Ministerie. Daartoe dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>vaststellende dat brede, voorlopige overeenstemming lijkt te zijn bereikt binnen de JBZ-Raad aangaande de artikelen 1 tot en met 35 van de ontwerpverordening inzake het Europees Openbaar Ministerie (EOM);</note>
+               <note>vaststellende dat de resterende artikelen naar hun aard minder omstreden en ten dele technisch van aard zouden zijn en daarover nog verder wordt onderhandeld;</note>
+               <note>constaterende dat overeenkomstig de huidige conceptredactie voor het EOM de bevoegdheid ontstaat om vervolging in te zetten;</note>
+               <note>overwegende dat bovendien niet uitgesloten kan worden dat op termijn het aantal strafbare feiten waarvoor het EOM bevoegd wordt kan worden uitgebreid, waardoor het EOM kan uitgroeien tot een groter instituut dan bij aanvang is beoogd;</note>
+               <note>overwegende dat voorts alternatieven voorhanden zijn in het voorkomen en aanpakken van misbruik van EU-subsidiegelden, zoals onder andere het intrekken van EU-subsidies, het inzetten van de middelen van nationale opsporingsinstanties en de inspanningen van het Europees Bureau voor Fraudebestrijding;</note>
+               <note>roept de regering op, bij de komende JBZ-raad mededeling te doen van de nog steeds bestaande kritische houding van de Tweede Kamer, in het bijzonder op de beschreven overdracht van bevoegdheid en de mogelijke gevolgen daarvan;</note>
+               <note>roept de regering tevens op, indachtig de motie-Van Oosten/Segers (32317, nr. 302) niet met (onderdelen van) het voorstel in te stemmen dan nadat de Tweede Kamer over het integrale eindresultaat een uitspraak heeft gedaan,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Oosten, Segers, Van Toorenburg en Van der Staaij. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32317-398</note>
+            </u>
+            <note>De volgende keer dat u zo'n lange motie indient, adviseer ik u om tussendoor gewoon adem te halen. U maakt mij ongerust.</note>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg3">Voorzitter. Ik heb het algemeen overleg wegens omstandigheden op afstand gevolgd. Ik heb de minister horen zeggen dat aan het einde duidelijk wordt of Nederland mee zal doen met het Europees Openbaar Ministerie en dat het geheel afwijzen daarvan nog mogelijk is als de Tweede Kamer en natuurlijk ook de Eerste Kamer daartoe besluiten. Ik heb de minister ook horen zeggen dat naast Nederland nog vier lidstaten deze strategie hanteren. Mijn vraag aan de minister is welke vier lidstaten dat zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg4">Terugkomend op en mede aan de hand van de motie die collega Van Oosten zojuist namens de VVD heeft ingediend: mijn fractie is altijd tegen een Europees Openbaar Ministerie geweest, in welke vorm dan ook. Daar is een motie over ingediend. De collega die ik net noemde, tikte die motie geheel over. Op het laatst plakte hij er echter een paar woorden aan vast, namelijk om niet in te stemmen met een Europees Openbaar Ministerie in de huidige vorm. Vervolgens gaat de VVD door op een weg die je helemaal niet moet afleggen. Het is daarmee altijd mogelijk dat er een Europees Openbaar Ministerie komt. Mijn fractie is daar pertinent tegen en gaat dus ook niet mee met het slaan van piketpaaltjes op een doodlopende weg en een weg die je helemaal niet had moeten inslaan.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg5">Hopelijk heeft de VVD de kennis van nu en van de toekomst, namelijk: het Europees Openbaar Ministerie zal zijn bevoegdheden enorm uitbreiden. Dat kost capaciteit bij ons eigen Openbaar Ministerie en de politie. Dat moeten we helemaal niet hebben. Misschien beter ten hele of ten halve gedwaald, of gekeerd, of weet ik veel. Wat is het ook weer?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg6">Beter ten halve gekeerd dan ten hele gedwaald.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg7">Ja, dank u wel. Dan kan ik ook even ademhalen. Op die weg moet je niet doorgaan. Misschien keert de VVD op haar schreden terug en komt er uiteindelijk toch geen Europees Openbaar Ministerie. Die hoop spreek ik uit. Daarmee laat ik nog een aantal seconden over. Wat mijn fractie betreft komt er geen Europees Openbaar Ministerie, nu niet en nooit.</seg>
+            </u>
+            <u who="#MadeleinevanToorenburg" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg8">Voorzitter. Laat mij dan in ieder geval beginnen met te stellen dat het verstandig zou zijn als de PVV die motie uiteindelijk wel steunt. Dan hebben we tenminste nog enig tegenwicht. Als we dat niet doen, zul je uiteindelijk zien dat het gewoon doorrolt. Vanwege een principekwestie zal de PVV er uiteindelijk de veroorzaker van zijn dat het Openbaar Ministerie wel wordt gevormd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg9">Deze vorm van uitlokking laat mevrouw Helder niet over haar kant gaan. Gaat uw gang.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg10">Nee, dat laat ik namens mijn fractie zeker niet over mijn kant gaan. Ik weet nog dat ik inmiddels drie jaar geleden aan voormalig minister Opstelten vroeg of hij zijn baan niet leuk vond, omdat hij niet meer politiek verantwoordelijk was voor een Europese officier van justitie of een Europees Openbaar Ministerie. Iedereen lachte mij uit, ook de collega van de CDA-fractie. Aan uitlokking doe ik verder maar niet, maar ik wil dit piketpaaltje wel even slaan: mijn fractie was de eerste en de enige die meteen zei dat het Europees Openbaar Minister er nooit moet komen. Enig verwijt richting ons raakt dus kant noch wal.</seg>
+            </u>
+            <u who="#MadeleinevanToorenburg" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg11">Het zal nooit uitlachen geweest zijn, maar louter toelachen. Dat is precies het punt waar de CDA-fractie zo kritisch over is: wat betekent dit voor de aanwijzingsbevoegdheid en het opportuniteitsbeginsel? Dat is nou precies de reden waarom wij onze handtekening onder deze motie hebben gezet. Je kunt wel vanaf de zijlijn "we zijn tegen, we zijn tegen, we zijn tegen" blijven roepen, maar als je du moment de kans krijgt om een motie te steunen die ervoor zorgt dat we echt pas op de plaats maken, pak die kans dan. Anders rolt dit gewoon door, met de PVV.</seg>
+            </u>
+            <u who="#JeroenRecourt" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u10">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg12">Ik hoor de woordvoerder van de CDA-fractie zeggen dat ze voortdurend vanaf de zijlijn "we zijn tegen, we zijn tegen, we zijn tegen" roept. Nou riep de vorige woordvoerder dat helemaal niet. Ik had nog altijd een vraagteken bij het CDA staan. Ik wist dat de CDA-fractie het voorstel dat voorlag niet goed vond, maar ze heeft nooit gezegd dat het EOM er wat haar betreft niet zou komen. Wat is het standpunt?</seg>
+            </u>
+            <u who="#MadeleinevanToorenburg" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u11">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg13">Nee, ik zei dat de PVV alleen maar "we zijn tegen, we zijn tegen, we zijn tegen" zegt. Als er dan een motie komt om dit even wat tot rust te brengen, steunt de PVV die niet en gebeurt het gewoon. Wij zeggen heel duidelijk dat we het integrale plaatje willen hebben. We willen nu alvast een duiding van de minister over die aanwijzing en over opportuniteit. Ik denk dat dat belangrijk is.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg14">Terecht geeft de heer Recourt aan dat wij uiteindelijk onze mind zullen moeten opmaken, als alles daar ligt. We willen echter heel kritisch blijven en een signaal afgeven, ook in Europa, ook vandaag weer en ook morgen bij de Raad. We zijn wel heel erg kritisch. We moeten kijken hoe het uiteindelijk vorm krijgt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u12">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg15">Mevrouw Helder, ik aarzel een beetje, want een deel van de discussie is natuurlijk al in het algemeen overleg aan de orde geweest, maar daar was u niet bij. Nou, kort dan.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u13">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg16">Mijn collega van het CDA was daar ook niet bij.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u14">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg17">O, dat wist ik niet.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u15">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg18">Ik moet hier de minister bijna helpen, want het is niet zoals mijn collega van het CDA het voorstelt. Als wij deze motie niet steunen — eerdere moties die wij op dit punt ook niet hebben gesteund, zijn piketpaaltjes op een doodlopende weg — wil dat niet zeggen dat wij aan het eind van de rit niet nog steeds ons standpunt kunnen handhaven dat er geen Europees Openbaar Ministerie moet komen. Dat wil ik dus even gezegd hebben, want dat is feitelijk onjuist.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u16">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg19">Waarvan akte.</seg>
+            </u>
+            <u who="#MadeleinevanToorenburg" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u17">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg20">Als iemand daar zo hard tegen ingaat, zal er wel een kern van waarheid zitten in wat ik zei.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u18">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg21">Ik zie dat de heer Recourt zich had ingeschreven om te kunnen interrumperen, maar niet om het woord te voeren. De minister kan onmiddellijk antwoorden.</seg>
+            </u>
+            <u who="#AdvanderSteur" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u19">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg22">Voorzitter. Voordat ik inga op de motie van de heer Van Oosten en andere leden van de Kamer, is het misschien goed om even op een rij te zetten wat we in het algemeen overleg met elkaar hebben gedeeld. Niet alle leden van de Kamer konden daarbij aanwezig zijn. Daarom is het misschien goed als ik dat hier plenair herhaal.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg23">De stand van zaken is dat er een Europees Openbaar Ministerie zal komen, omdat een overgrote meerderheid van de lidstaten een groot voorstander is van een Europees Openbaar Ministerie. De vraag onder welke voorwaarden dat Europees Openbaar Ministerie er komt, hangt af van de onderhandelingen die op dit moment plaatsvinden in Europa. Daar geeft het Nederlands voorzitterschap leiding aan. Ik heb vandaag aangegeven dat wij onze uiterste best doen om dit zo goed mogelijk naar voren te brengen, maar dat wij ons intussen houden aan de motie die door de heer Van Oosten samen met de heer Segers van de ChristenUnie is ingediend. Daarin staat dat wij op geen enkele wijze moeten instemmen met tussentijdse beslismomenten. Die tussentijdse beslismomenten zijn er onder het Luxemburgs voorzitterschap drie keer geweest. Drie keer zijn pakketten van artikelen waarover onderhandeld werd, voorgelegd aan de Raad van Ministers. Als gevolg van die motie heeft Nederland expliciet aangegeven niet met die artikelen te kunnen instemmen en pas in te kunnen stemmen dan wel een oordeel te zullen geven over het totaalpakket wanneer dat totaalpakket er is. Ik heb vandaag andermaal bevestigd dat dat oordeel over het totaalpakket pas wordt gegeven na overleg met de Kamer. Dat geldt zowel voor de Tweede Kamer als voor de Eerste Kamer, want beide Kamers hebben duidelijke standpunten ingenomen over het Europees Openbaar Ministerie en hebben aangegeven dat zij aan het einde van het onderhandelingsproces het totaalpakket op zijn merites willen beoordelen, zoals ook mevrouw Van Toorenburg heeft aangegeven.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg24">De Nederlandse regering heeft dus op drie concrete momenten aangegeven niet met die artikelen te kunnen instemmen en pas aan het eind een oordeel te zullen geven. Dat betekent dat er een Europees Openbaar Ministerie komt, maar dat het de vraag is of Nederland daaraan meedoet. Dat is de wezenlijke vraag. Die vraag kan volgens mij pas beantwoord worden wanneer het totaalpakket voorligt voor beoordeling door de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg25">Ik ga nu in op de motie. Ik laat de overwegingen daarin natuurlijk voor rekening van de indieners. Het zal duidelijk zijn dat ik misschien best het een en ander van die punten vind, maar dat is niet heel erg relevant. De motie bevestigt nog eens dat de Nederlandse regering zich moet houden aan de motie-Van Oosten/Segers. Ik bevestig dat we dat zullen doen. Het tweede punt is dat er wordt verzocht om nog eens "mededeling te doen van de (…) kritische houding van de Tweede Kamer". Ik kan zeggen dat er binnen de JBZ-Raad geen twijfel is over de kritische houding van het Nederlandse parlement, omdat alle leden van de Raad kennis hebben genomen van de position paper, die door de Kamer ook rechtstreeks aan de lidstaten is verstrekt. Iedereen heeft meermaals, tot drie keer toe, kunnen zien dat de Nederlandse regering niet instemde met het pakket van artikelen. Namens de Nederlandse regering heb ik ook een aantal malen aangegeven dat dit onderwerp buitengewoon moeilijk ligt in het Nederlandse parlement. Volgens mij is dat dus op alle mogelijke manieren duidelijk. Als de gedachte achter de motie is dat er mogelijkerwijs onduidelijkheid zou kunnen bestaan over de zorgen van het Nederlandse parlement ten aanzien van een Europees Openbaar Ministerie, is het antwoord dus dat die zorg er naar mijn beleving niet is. Dat laat onverlet dat, als de Kamer mij de opdracht zou geven om die zorg nog een keer te uiten, ik dat zal doen. Om die reden laat ik het oordeel over de motie aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg26">Dan vergeet ik nog de vraag van mevrouw Helder. Ik bevestig dat het Nederlands parlement de mogelijkheid heeft om het Europees Openbaar Ministerie en deelname daaraan af te wijzen. Dat doet niks af aan het feit dat het er dan toch komt, maar dan zonder Nederland. Ik kan geen mededelingen doen over welke lidstaten een standpunt hebben ingenomen. Mevrouw Helder weet dat dat nooit gebeurt. Ik heb wel aangegeven dat er meerdere lidstaten zijn die hetzelfde standpunt huldigen. We willen aan het einde van de rit beoordelen hoe het totaalpakket eruit ziet om te kunnen beslissen of we daarmee instemmen of niet.</seg>
+            </u>
+            <u who="#FoortvanOosten" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u20">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg27">Ik dank de minister voor zijn oordeel over deze motie. De gedachte achter de motie is niet zozeer dat er wellicht op het ogenblik bij een aantal collega's van de minister onduidelijkheid zou bestaan, als wel dat ik niet graag zou zien dat wij als Nederlands parlement het momentum laten passeren en ons een halfjaar lang ten aanzien van dit thema niet zouden uiten binnen de JBZ-Raad. Daarom is specifiek in het dictum opgenomen dat wij een oproep aan de regering doen om het gevoelen van het parlement kenbaar te maken.</seg>
+            </u>
+            <u who="#AdvanderSteur" ana="#regular" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u21">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg28">Ik dank de heer Van Oosten voor die nadere toelichting. Mijn oordeel blijft hetzelfde. Ik laat het oordeel aan de Kamer. Als aan mij de opdracht wordt verstrekt om die zorgen nog eens te ventileren, zal ik dat doen. Dat kan gevolgd worden via internet, want het wordt de komende dagen live uitgezonden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u22">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg29">Ik dank de minister zeer.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.u23">
+               <seg xml:id="ParlaMint-NL_2016-03-09-tweedekamer-9.seg30">Ik stel voor om vanmiddag nog over de motie te stemmen. Daar ging het allemaal om. De JBZ-Raad vindt immers morgen plaats. Ik constateer dat daarmee wordt ingestemd.</seg>
+            </u>
+            <note>De vergadering wordt van 15.19 uur tot 15.31 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

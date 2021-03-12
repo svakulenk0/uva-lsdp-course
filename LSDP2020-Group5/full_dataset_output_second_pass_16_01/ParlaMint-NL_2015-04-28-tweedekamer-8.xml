@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-04-28 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-04-28 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 81, Session 8 (2015-04-28)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 81, Session 8 (2015-04-28)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="81">Meeting 81</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="134">134 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="134">134 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-04-28">2015-04-28</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="7"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-04-28">2015-04-28</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden eerste deel</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.seg1">Ik stel voor vandaag ook te stemmen over de aangehouden moties-Ouwehand (33979, nr. 46 en 33450, nr. 39).</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.seg2">Ik wil bij de stemmingen onder punt 11, moties ingediend bij Wijziging van de Mijnbouwwet, de Wet milieubeheer en de Wet op de economische delicten, graag mijn motie op stuk nr. 34 nog even aanhouden.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.seg3">Op verzoek van mevrouw Ouwehand stel ik voor, haar motie (34041, nr. 34) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.seg4">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.seg5">Ik dacht dat ik tijdens het debat over de Wijziging van de Wet medisch-wetenschappelijk onderzoek (33646) het amendement op stuk nr. 7 had ingetrokken. Dat staat op de stemmingslijst onder punt 7. Dat is niet goed overgekomen in de Handelingen. Bij dezen wil ik dat graag alsnog doen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.seg6">Het amendement-Leijten (stuk nr. 7) is ingetrokken.</seg>
+               <seg xml:id="ParlaMint-NL_2015-04-28-tweedekamer-8.seg7">Ik stel vast dat daarmee wordt ingestemd.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

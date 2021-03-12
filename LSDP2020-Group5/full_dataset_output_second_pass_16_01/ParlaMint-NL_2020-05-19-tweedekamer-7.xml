@@ -1,0 +1,104 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-05-19 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-05-19 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 72, Session 7 (2020-05-19)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 72, Session 7 (2020-05-19)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="72">Meeting 72</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="6">6 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="6">6 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="152">152 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="152">152 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-05-19">2020-05-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="8"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="6"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-05-19">2020-05-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.seg1">Aan de orde zijn de stemmingen. Voordat we gaan stemmen, geef ik het woord aan de heer Van Nispen namens de SP.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.seg2">Voorzitter. Ik zou graag uitstel willen vragen van de stemming over het wetsvoorstel onder punt 1 van de stemmingslijst, de stemmingen over de Wet homologatie onderhands akkoord. Wat ons betreft kan er wel gewoon gestemd worden over de amendementen bij agendapunt 1 en zeker ook over de moties bij agendapunt 2.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.seg3">Ik neem aan dat daarmee wordt ingestemd. Dat is het geval. Dan gaan we dat doen. Morgen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.seg4">Dan de heer Van Raan namens de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.seg5">Voorzitter. Ik zou graag de stemming over mijn motie op stuk nr. 19 (35430) willen aanhouden. Dat betreft de enige motie bij agendapunt 4.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.seg6">Op verzoek van de heer Van Raan stel ik voor zijn motie (35430, nr. 19) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.seg7">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2020-05-19-tweedekamer-7.seg8">Dan gaan we naar de stemmingen.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-10-03 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-10-03 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 7, Session 4 (2017-10-03)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 7, Session 4 (2017-10-03)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="7">Meeting 7</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="8">8 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="8">8 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1227">1227 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1227">1227 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-10-03">2017-10-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="19"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="8"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-10-03">2017-10-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Van Oosten</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg1">We gaan naar de heer Van Oosten namens de VVD voor zijn vraag aan de minister van Veiligheid en Justitie over het bericht "Verraden door een familielid".</seg>
+            </u>
+            <u who="#FoortvanOosten" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg2">Dank u wel, voorzitter. Ik wil de minister graag twee concrete vragen stellen over het gebruik van DNA in strafzaken. Dat wil ik doen naar aanleiding van een artikel in Trouw dat ik afgelopen weekend las.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg3">In het Verenigd Koninkrijk is het klaarblijkelijk mogelijk om na elke aanhouding DNA bij verdachten af te nemen. Ik heb altijd begrepen dat iets vergelijkbaars in het Nederlandse systeem niet zou kunnen. Dat zou strijdig zijn met onder meer het Europees Verdrag voor de Rechten van de Mens. Kan de minister mij uitleggen hoe het kan dat dit in het Verenigd Koninkrijk wel mogelijk is? Per slot van rekening is dat land aan datzelfde verdrag gebonden. En kan de minister mij uitleggen, dan wel nader onderzoeken, of DNA-afname zoals deze in het Verenigd Koninkrijk is vormgegeven, ook leidt tot een hogere pakkans van misdadigers?</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg4">In het artikel in Trouw wordt ook een deskundige aangehaald die tegen allerlei beperkingen zou aanlopen als het gaat om de mogelijkheid om van oude bloedafnames van bijvoorbeeld zedendelinquenten een DNA-profiel te herleiden. Inmiddels is dat technisch mogelijk en op die manier zouden wellicht ook zogenaamde cold cases opgelost kunnen worden. Ik snap eigenlijk niet zo goed waarom dit niet kan. Klopt dat bericht überhaupt? Hoe kijkt de minister hiertegen aan?</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg5">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg6">Het woord is aan de minister.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg7">Dank u wel, voorzitter. De heer Van Oosten gaat in op het artikel in Trouw van afgelopen zaterdag waarin een vergelijking wordt getrokken tussen de Engelse praktijk wat DNA-afname bij verdachten van misdrijven betreft en de Nederlandse praktijk.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg8">In Engeland wordt bij alle verdachten van een misdrijf DNA afgenomen, terwijl in Nederland DNA wordt afgenomen in het geval van verdenking van een ernstig misdrijf, een type misdrijf waarvoor ook een voorwaardelijke veroordeling mogelijk is. En DNA kan worden afgenomen bij mensen die veroordeeld zijn voor zo'n ernstig misdrijf. De Engelse praktijk is in het verleden door het Europees Hof voor de Rechten van de Mens in Straatsburg als te zwaar gekwalificeerd. Om die reden heeft de Engelse wetgever de praktijk aangepast, in die zin dat nog steeds bij alle verdachten DNA wordt afgenomen maar dat het DNA van verdachten gescheiden wordt opgeslagen van het DNA van veroordeelden en dat er een kortere bewaartermijn geldt.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg9">Deze nieuwe praktijk in Engeland is nooit voorgelegd aan het Hof in Straatsburg, dus er is nooit getoetst of deze is toegestaan. Mijn voorganger heeft wel aan de Raad van State en een aantal deskundigen die verbonden zijn aan de Erasmus Universiteit, de vraag voorgelegd of een dergelijk systeem in Nederland toegestaan zou zijn. Het oordeel van de Raad van State en die deskundigen van de Erasmus Universiteit was dat dit waarschijnlijk in strijd is met het Europees Verdrag voor de Rechten van de Mens. "Waarschijnlijk", want er is geen harde uitspraak.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg10">In feite verkeren we dus in een wat onzekere situatie: er is geen harde uitspraak en het verdrag is van voor de tijd dat iemand zich ook maar kon voorstellen dat DNA-afname mogelijk zou zijn. Alle oordelen hierover zijn dus gebaseerd op rechterlijke uitspraken.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg11">De heer Van Oosten vraagt of we kunnen kijken of de Engelse praktijk in Nederland toepasbaar is. Naar aanleiding van het onderzoek vanwege de moord op mevrouw Borst — dat was het onderzoek naar de heer Bart van U. — is de praktijk met betrekking tot DNA-afname in Nederland aangescherpt. Er zal in de loop van 2018 een evaluatie plaatsvinden. Ik denk dat het logisch is om in die evaluatie nog eens in te gaan op de vergelijking tussen de Engelse situatie en de Nederlandse situatie en om te kijken welke voordelen dat oplevert, bijvoorbeeld aan de hand van de vraag van de heer Van Oosten of dit in Engeland leidt tot een hoger oplossingspercentage. Ik stel dus voor om er dan op terug te komen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg12">De tweede vraag heeft betrekking op de opmerking in het artikel dat bij het NFI een voorraad bloedmonsters voorhanden is die mogelijk gebruikt zouden kunnen worden voor DNA-afname. Het gaat hier om bloedmonsters die afgenomen zijn voordat DNA-afname mogelijk en gebruikelijk was, dus voor 1994. Dat bloed is dus afgenomen met een ander doel, namelijk om te kijken of de bloedgroep dezelfde was als de bloedgroep die bij het sporenonderzoek is aangetroffen. Het ligt zeker niet voor de hand om bloedmonsters die met een bepaald doel zijn afgenomen, waarvoor toen ook echt toestemming is gevraagd, voor een ander doel te gebruiken. Dat zal dus niet automatisch kunnen gebeuren.</seg>
+            </u>
+            <u who="#FoortvanOosten" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg13">Ten aanzien van dat tweede punt zou ik nog wel een opmerking willen maken. Als wij als Nederland het zo organiseren dat je ook binnen de politie een coldcaseteam vormgeeft dat dag in, dag uit bezig is met het oplossen van niet opgeloste zaken, terwijl de oplossing mogelijk op de plank ligt, namelijk een bloedafname waar je met de moderne techniek een DNA-profiel uit zou kunnen distilleren, zou ik het jammer vinden als we niet alles op alles zetten om te bezien of dat juridisch toch tot de mogelijkheden zou kunnen behoren. Misschien kunnen we die mensen op z'n minst vragen om na te gaan of het DNA-profiel dat daaruit valt te herleiden, matcht met andere strafzaken die dan mogelijk opgelost kunnen worden. Wie weet wat zij dan zeggen? Ik vind dat wij het aan onze stand verplicht zijn om daarachteraan te gaan. Ik zou de minister willen vragen om daar nog op te reflecteren.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg14">Het tweede punt, dat ik net als eerste punt in mijn inleiding heb genoemd, ziet op het systeem zoals dat in Engeland bestaat. Dank aan de minister voor de toezegging om dat mee te nemen in de evaluatie. Ik weet natuurlijk dat die evaluatie eraan komt, maar ik heb dit wel zo genoteerd en begrepen dat er nu specifiek aandacht zal zijn voor de vraag of dat wat in Engeland blijkbaar kan en wat blijkbaar door al die deskundigen als geoorloofd wordt beschouwd, ook in Nederland mogelijk is. Ik vind het heel lastig om deskundigenrapporten van universiteiten en van de Raad van State goed te kunnen begrijpen als ik tamelijk stevig lees dat het strijdig is met het Verdrag voor de Rechten van de Mens, terwijl een ander land, dat net zo goed gebonden is aan dat verdrag en dat ongetwijfeld ook allerlei deskundige instituten enzovoort tot zijn beschikking heeft, zegt dat het dit desondanks wel doet en wel verantwoord acht. Ik ben dus blij dat de minister dat specifieke punt meeneemt en ik wacht dat punt met belangstelling af.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg15">De minister, een korte reactie.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg16">Ja. Wat het eerste punt betreft: er zou inderdaad echt toestemming gevraagd moeten worden om de oude bloedmonsters nu toe te passen voor DNA-afname. Dat is in de praktijk natuurlijk een heel grote, ingewikkelde operatie. Ik ben wel bereid om in het kader van diezelfde evaluatie in beeld te brengen of dat haalbaar zou zijn en wat dat op zou kunnen leveren, maar zonder zo'n toestemming kan je die bloedmonsters echt niet gebruiken.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg17">Het andere punt was: echt zorgvuldig nagaan wat er in Engeland gebeurt en wat dat oplevert voor de mogelijkheden om misdrijven op te lossen en of dat ook in Nederland toepasbaar zou zijn. Dat zeg ik graag toe.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg18">Dank, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-4.seg19">Dank u wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

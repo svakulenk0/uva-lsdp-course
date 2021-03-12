@@ -1,0 +1,397 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-09-24 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-09-24 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 4, Session 21 (2019-09-24)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 4, Session 21 (2019-09-24)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="4">Meeting 4</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="21">Session 21</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="71">71 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="71">71 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="6025">6025 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="6025">6025 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-09-24">2019-09-24</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="80"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="71"/>
+               <tagUsage gi="note" occurs="92"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-09-24">2019-09-24</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Participatiewet/Breed offensief</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u1">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg1">Dit debat, over de Participatiewet, wordt wederom gevoerd met de staatssecretaris van Sociale Zaken en Werkgelegenheid, en voor een belangrijk deel met dezelfde woordvoerders. De heer Van Dijk, die ik net zag weglopen, is de eerste spreker. Hij loopt in de wandelgangen en hoort geloof ik niet ... O nee, niet de heer Gijs van Dijk is de eerste spreker, maar de heer Jasper van Dijk, die er nog niet is. We schorsen dus heel even omdat de eerste woordvoerder nog niet in de zaal is.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u2">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg2">Aan de orde is het verslag algemeen overleg Participatiewet en het woord is aan de heer Jasper van Dijk namens de Socialistische Partij.</seg>
+            </u>
+            <u who="#JaspervanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u3">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg3">Dank u, voorzitter. Ik heb drie moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de regering zich conform de motie-Buma (35000, nr. 14) sterk maakt om de bestaande infrastructuur en kennis van de sw te behouden;</note>
+               <note>constaterende dat sociale werkvoorziening SOWECO met sluiting wordt bedreigd;</note>
+               <note>verzoekt de regering met betrokken gemeentes in gesprek te gaan met de inzet om de bestaande infrastructuur van 50 jaar SOWECO te behouden ten behoeve van de brede doelgroep van de Participatiewet,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat gemeenten die weinig doen voor beschut werk daar toch geld voor krijgen en dat gemeenten die veel inzet tonen niets extra's krijgen;</note>
+               <note>overwegende dat in 2021 de beschutwerkbonus van €3.000 per plek wegvalt en de begeleidingsvergoeding met €1.300 verlaagd dreigt te worden;</note>
+               <note>verzoekt de regering te onderzoeken hoe deze negatieve prikkels omgebogen kunnen worden in een beleid dat gemeenten die veel mensen naar beschut werk begeleiden financieel stimuleert in plaats van afstraft;</note>
+               <note>verzoekt de regering tevens snel duidelijkheid te geven over de voortzetting van de beschutwerkbonus en de begeleidingsvergoeding,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat mensen met een medische urenbeperking die naar vermogen werken en onder de banenafspraak vallen, niet in staat zijn meer uren te gaan werken vanwege deze beperking;</note>
+               <note>constaterende dat ze daardoor onvoldoende inkomen kunnen genereren uit loon en daarom een aanvullend inkomen nodig hebben;</note>
+               <note>overwegende dat een aanvulling vanuit de bijstand arbeidsbeperkten financieel afhankelijk maakt van partner of huisgenoot;</note>
+               <note>verzoekt de regering te onderzoeken of het mogelijk is een inkomensaanvulling te verstrekken via een toeslag aan mensen die met een medische urenbeperking naar vermogen werken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34352-170</note>
+               <note>Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34352-171</note>
+               <note>Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34352-172</note>
+            </u>
+            <note>Hartelijk dank voor uw inbreng. Dan is nu het woord aan de heer Raemakers namens D66.</note>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u4">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg4">Voorzitter, dank voor het woord.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat veel mensen die langdurig in de bijstand verkeren vaak langere tijd niet worden gezien en gesproken door gemeenten;</note>
+               <note>constaterende dat maar liefst 60% van de mensen in de bijstand in de veronderstelling verkeert dat ze ontheven zijn van een sollicitatieplicht, terwijl dit in de realiteit slechts geldt voor 10% van de mensen;</note>
+               <note>overwegende dat dit maatschappelijk gezien onaanvaardbaar is;</note>
+               <note>overwegende dat iedereen in de bijstand een passende vorm van ondersteuning moet krijgen bij re-integratie vanuit het principe van sociale activering en geholpen wordt om weer actief mee te doen in de maatschappij;</note>
+               <note>overwegende dat mensen in de bijstand vanuit het principe van wederkerigheid er alles aan moeten doen om actief op zoek te zijn naar werk of, als dit niet mogelijk is, anderszins een bijdrage te leveren aan hun ontwikkeling en de samenleving;</note>
+               <note>verzoekt het kabinet binnen de bij gemeenten voor participatie beschikbare middelen te verkennen niet langer óf maar hóé gemeenten mensen in de bijstand een niet-vrijblijvend aanbod kunnen doen dat bij hen past, waarbij de sociale activering ten behoeve van de eigen ontwikkeling en de wederkerigheid zoals omschreven in de huidige tegenprestatie goed ingebed zijn;</note>
+               <note>verzoekt het kabinet tevens daartoe aan de voorkant met gemeenten afspraken te maken over de gemeenschappelijke opgave om meer mensen uit de bijstand naar een passend aanbod te begeleiden, waarbij breder wordt gekeken naar best practices en alle maatschappelijke kosten en baten voor mensen in de bijstand;</note>
+               <note>verzoekt het kabinet voorts als aanbod te beschouwen een baan, een leer-werk- en re-integratietraject, een stage, vrijwilligerswerk, een studie/taalcursus tot ten minste niveau 1F, schuldhulp, mantelzorg onder bepaalde voorwaarden of een traject in de huidige tegenprestatie, waaruit de gemeente de keuze kan maken wat in het individuele geval als best passend aanbod wordt gezien;</note>
+               <note>verzoekt het kabinet verder daarbij bijzondere aandacht te hebben voor de positie van alleenstaande ouders met kinderen onder de 4 jaar;</note>
+               <note>verzoekt het kabinet ten slotte de Kamer hierover gelijktijdig met de kabinetsreactie op de evaluatie van de taaleis en de tegenprestatie te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Raemakers, Nijkerken-de Haan, Peters en Bruins. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34352-173</note>
+            </u>
+            <note>Het is wel vrij creatief om uw hele inbreng in één motie te gieten, maar ik ga uiteraard niet over de inhoud. Meneer Van Dijk, aan u de gelegenheid om een interruptie te plaatsen.</note>
+            <u who="#JaspervanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u5">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg5">Het was inderdaad een heel epistel. Dit terwijl ik in Trouw van 16 september een bevlogen opinieartikel van de heer Raemakers las, waarin hij nogal afgeeft op die vermaledijde tegenprestatie die nu gewoon weer in die motie staat en waarin hij pleit voor een wettelijk recht op hulp. Deze motie vraagt heel iets anders. Hoe verhoudt zich dat tot elkaar?</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u6">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg6">Misschien is het goed om de motie eerst even toe te lichten, want daar had ik in mijn twee minuten geen tijd meer voor. Het is dus goed dat de heer Jasper van Dijk er een vraag over stelt. Als coalitie hebben we de koppen bij elkaar gestoken en hebben we ons de vraag gesteld hoe we bij dit onderwerp, waar we verschillend over denken, met elkaar een oplossing kunnen presenteren die iets doet voor deze groep mensen. Dat sluit ook heel goed aan bij de vergadering die er vorige week is geweest, namelijk dat je als politieke partijen de verschillen overbrugt en dat je kijkt hoe we op dit maatschappelijk thema verder kunnen komen. Ik heb daarvoor een aanzet geleverd. Fijn dat de heer Van Dijk dat heeft gelezen in dagblad Trouw.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg7">Ja, we hebben die tegenprestate en die staat nu eenmaal in de wet, maar volgens ons als partij gaat het er juist om dat je mensen ook helpt, dat je mensen die geen baan hebben en die soms niet weten wat ze moeten doen en die in de problemen zitten, helpt om uit die problemen te komen en helpt om weer een zinvolle bijdrage te kunnen leveren aan de maatschappij. Als er nu gemeenten zijn die bepaalde mensen in de bijstand niet meer helpen omdat ze denken dat het de moeite niet meer waard is omdat ze al vijf of tien jaar in de bijstand zitten, is dat maatschappelijk gezien onaanvaardbaar. Daar zeggen wij van dat je veel meer zou moeten inzetten op het recht op hulp. Nou, CDA, VVD en ChristenUnie hebben hun accent. We hebben dat gewoon bij elkaar gelegd en hebben als vier coalitiepartijen een grote motie gemaakt over hoe wij deze mensen verder kunnen helpen.</seg>
+            </u>
+            <u who="#JaspervanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u7">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg8">Ik had gedacht en gehoopt dat de heer Raemakers de vlucht vooruit koos in zijn krachtige, scherpe opinie in Trouw op 16 september. Dat is een stevig artikel en ik krijg nu een pleidooi of een verklaring dat men in de achterkamertjes met de vier partijen tot een verwatering is gekomen van dit prachtige artikel. Nu blijft de tegenprestatie gewoon recht overeind staan en het wettelijke recht op hulp is ook vervallen, moet ik maar veronderstellen. Wat een domper!</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u8">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg9">Ik hoor geen vraag, maar ik wil wel even tegenspreken wat de heer Van Dijk zegt. Ik heb namelijk vorige week ervoor gepleit om het recht op sociale activering ook heel duidelijk in de wet te zetten. En dat vraagt deze motie ook. Deze motie zegt dat het niet alleen gaat over de tegenprestatie maar ook over dat recht op sociale activering. Deze motie zegt dat gemeenten volledige vrijheid hebben om te kijken hoe zij mensen in de bijstand gaan helpen. De motie zegt ook dat het er niet langer over gaat óf we die mensen wel of niet gaan helpen, maar dát we ze gaan helpen. Hoe gemeenten dat vervolgens doen — dat hebben we ook in deze motie beschreven — is aan de gemeenten. Dus wel degelijk wordt wat ik in dat opiniestuk heb betoogd, namelijk dat gemeenten iedereen in de bijstand moeten gaan helpen — hoe ze dat doen, maakt niet uit maar ga alsjeblieft mensen helpen — met deze motie ingevuld. We vragen de staatssecretaris om dat gelijktijdig met de evaluatie van de taaleis en de tegenprestatie aan ons te presenteren. We hopen dat dit lukt.</seg>
+            </u>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u9">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg10">Het is fijn dat u even wat ruimte geeft, voorzitter. Ik kon zelf vanwege ziekte niet bij het AO aanwezig zijn, maar er is in de tussentijd een hoop gebeurd bij de coalitie. Om precies te begrijpen wat hier nu voorligt, nog even het volgende. De motie zegt dat er een niet-vrijwillig aanbod aan degenen in de bijstand wordt geboden. Dus dat is eigenlijk VVD-beleid met een D66-sausje waar het gaat om de tegenprestatie, waar we hier vanuit de Tweede Kamer tegen gemeenten gaan zeggen: zo gaat het en op die manier gaan we het invullen. Maar als we het hebben over kinderen in armoede, waar heel veel gemeenten er helaas voor kiezen om die gelden niet in te zetten, dan is hier steevast het antwoord van D66 en de staatssecretaris: nee, nee, dat is aan gemeenten. Als we het hier hebben over integratie, dan hebben we hetzelfde idee vanuit de VVD: harder ingrijpen, die gemeenten overtoepen. Als het gaat over de SW waar we ons zorgen over maken vanuit de Tweede Kamer, dan is het antwoord vanuit D66 en de staatssecretaris: nou ja, dat is aan gemeenten hoe ze dat invullen en als een sociale werkvoorziening verdwijnt, is dat nu eenmaal decentralisatie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u10">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg11">En uw vraag.</seg>
+            </u>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u11">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg12">De vraag is welke kant D66 nu kiest. Is het de VVD-kant, die zegt: we gaan vooral de mensen die hier nieuw zijn of mensen in de bijstand pakken en dan zijn we bereid wel in te grijpen? Of gaan we op meerdere onderdelen ingrijpen, bijvoorbeeld bij de SW waar het misgaat, bijvoorbeeld bij al die kinderen in armoede die het geld niet krijgen? Want dan zie ik namelijk een coherent verhaal en anders zie ik gewoon VVD-beleid in een D66-sausje.</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u12">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg13">Kijk, ik zal niet ontkennen dat VVD en D66 — dat heeft de heer Van Dijk van de PvdA de afgelopen jaren in debatten in de commissie ook gezien — hier weleens van mening over hebben verschild. Dat zal ik niet ontkennen, maar wij hebben gezegd dat we de strijdbijl gaan begraven en dat we samen één voorstel maken waarmee we deze mensen echt gaan helpen. Ik hoop eigenlijk dat u daar als oppositiepartij aan mee zou willen doen. Je kunt heel lang blijven discussiëren over de vraag of de ene of de andere partij het bij het rechte eind heeft, maar wat je ook kunt doen, is je samenpakken en zeggen: zullen we samen een voorstel maken waarin we dit echt verbeteren?</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg14">Dan even inhoudelijk. De heer Van Dijk zegt dat wij hier de beleidsvrijheid van gemeenten inperken. Dat is juist niet het geval, want in de motie staat: "waaruit de gemeente de keuze kan maken wat in het individuele geval als best passend aanbod wordt gezien". Wij willen juist dat alle opties die in deze motie zijn beschreven, mogelijk zijn, dus ook schuldhulp, ook mantelzorg, ook een studie of een taalcursus, en ook vrijwilligerswerk, waar nog heel vaak knelpunten zijn. Wij zeggen: het maakt niet uit wát je als gemeente aanbiedt, áls je maar iets aanbiedt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg15">Ik zou een wedervraag willen stellen. Vindt de vertegenwoordiger van de Partij van de Arbeid het dan sociaal om tegen sommige mensen in de bijstand te zeggen: ja, je zit nu al tien jaar in de bijstand; voor jou doen we niks meer? Vindt u dat dan sociaal?</seg>
+            </u>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u13">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg16">Ik krijg nu een wedervraag. Wat ik sociaal vind, is dat we met mensen in de bijstand in gesprek gaan over hoe ze ervoor staan en wat wij voor ze kunnen doen. Daarin kiezen gemeenten zelf. We hebben niet voor niets allerlei experimenten, over strengere bijstand, over regelvrije bijstand, waar nu mee geëxperimenteerd wordt, omdat we denken: wat is nou de beste aanpak? Daar zijn we allemaal naar op zoek. Ik zie, en zo lees ik de motie ook, dat de gemeente een aanbod doet, terwijl het andersom ook zou kunnen zijn dat ik als bijstandsgerechtigde zelf allang een invulling van het leven heb gevonden waarmee ik prima uit de voeten kan, en waarvan de gemeente nu misschien zal zeggen: prima, goed dat u het zo invult.</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u14">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg17">Daar ben ik het eigenlijk wel mee eens. Als mensen zelf een idee hebben bij welke vereniging ze vrijwilligerswerk willen doen of bij welke oude mevrouw in de straat ze graag mantelzorg willen doen, en dan bij de gemeente komen om te zeggen hoe ze dat voor zich zien en wat ze allemaal willen gaan doen, dan zou ik als gemeente zeggen: wat fijn dat je het zelf al bedacht hebt. Gelukkig hebben we nu een motie en nieuw beleid waardoor mantelzorg en vrijwilligerswerk ook kan. Laten we dat doen; eens.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u15">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg18">Een motie wordt plotseling nieuw beleid. Eerlijk gezegd vind ik het een wonderlijke motie. Het lijkt eerder een soort paragraaf uit een nieuw te schrijven regeerakkoord. Ik vraag me één ding af. Het woord "wederkerigheid" valt maar liefst twee of drie keer in deze motie, terwijl ik de afgelopen tijd heel duidelijk heb begrepen dat D66 kritisch is op de tegenprestatie. Waarom kiest D66 ervoor om de gemeente de opdracht te geven om alles uit de kast te halen en aan te bieden, terwijl uit heel veel onderzoek blijkt dat als mensen zelf kiezen, als mensen vanuit vrijwilligheid en eigen keuzes tot activiteit komen, dat veel effectiever is dan wanneer hun dingen worden opgelegd? Ook D66 heeft de afgelopen tijd veel moties ingediend over het gebruiken van onderzoek dat uitgaat van vertrouwen in mensen die een bijstandsuitkering hebben. Dit gaat weer heel erg uit van aanbod en iets opleggen. Waarom maakt D66 deze bijzondere draai?</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u16">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg19">Nou, ja, ik zie dat eigenlijk niet zo zoals de heer Renkema beschrijft. De dingen die ik net al noemde, vrijwilligerswerk en mantelzorg, zijn geen dingen die je als gemeente aan mensen kunt opleggen. Dat is juist geen tegenprestatie. Het klopt dat mijn partij — dat hebben we in de debatten ook gewisseld — vrij kritisch staat tegenover die tegenprestatie. Als we zeggen "laat mensen die in de bijstand zitten maar ergens een plantsoentje schoffelen", draagt dat niet bij aan de arbeidsparticipatie, want dan ga je mensen gewoon inzetten om maar even een rotklusje te doen. Dat werkt niet. Je moet mensen vragen waar hun hart ligt, wat ze graag zouden betekenen voor de maatschappij.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg20">Maar ik zeg er ook het volgende bij. Als je mensen vraagt wat ze graag willen doen, kan het zijn dat ze zeggen: ik wil eigenlijk niks meer doen, ik zit thuis op de bank en ik vind het wel goed zo. Daar wordt die persoon zelf niet beter van, maar dat vind ik ook niet eerlijk richting de maatschappij. Dan zeg ik: je mag alles doen, we willen je helpen met vrijwilligerswerk, met schuldhulp, met een taalcursus, maar je gaat wel íéts doen. Dat vind ik best wel goed uit te leggen, zolang het maar niet dat onnozele werk in het kader van een tegenprestatie is; het moet iets zinvols zijn. Maar als mensen echt niet willen, kan het ook een tegenprestatie zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u17">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg21">De heer Renkema, tot slot.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u18">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg22">Ja, heel kort. Als er moet worden gekozen of de gemeente bepaalt wat iemand doet of dat iemand zelf de regie neemt, dan zegt D66 dus dat de gemeente bepaalt wat diegene moet doen.</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u19">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg23">Nee, dat zeggen we eigenlijk niet. We zeggen juist dat iedereen iets moet doen. Nu zegt de gemeente — dat is ook de strekking van mijn betoog in Trouw — tegen sommige mensen: u zit al zo lang in de bijstand dat wij u niet meer gaan helpen. Dat vinden wij met z'n vieren onacceptabel. Wij vinden dat de gemeente iedereen moet helpen, maar als iemand zelf een goed idee heeft hoe hij wil bijdragen aan de maatschappij, zou ik zeggen: be my guest.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u20">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg24">Goed. Dank voor uw bijdrage. Het woord is aan de heer Renkema namens de GroenLinksfractie.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u21">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg25">Dank u wel, voorzitter. Ik heb een wat kortere motie. Wij hebben ons in de fractie afgevraagd wanneer je nou een motie indient en waar die dan over moet gaan, niet hoelang die moet zijn. Bij de overweging of je een motie wilt indienen, is voor mij persoonlijk een belangrijk criterium dat het aannemen van die motie rechtstreeks effect heeft op het leven van mensen. Dat geldt zeker voor de volgende motie. Die gaat over de Participatiewet, met name over de vertrouwensexperimenten daarbinnen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de vertrouwensexperimenten in de Participatiewet stoppen per 1 oktober 2019;</note>
+               <note>constaterende dat mensen die deelnamen aan deze experimenten, dan weer onder het reguliere bijstandsregime vallen;</note>
+               <note>overwegende dat dit negatieve effecten kan hebben op de betrokken deelnemers;</note>
+               <note>verzoekt de regering expliciet richting de betrokken gemeenten uit te spreken dat deelnemers aan het vertrouwensexperiment niet op een andere manier behandeld hoeven te worden, in ieder geval totdat de conclusies en het vervolg van de experimenten bekend zijn,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Renkema en Gijs van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34352-174</note>
+            </u>
+            <note>Dan is nu het woord aan mevrouw Nijkerken-de Haan namens de VVD.</note>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u22">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg26">Dank u wel, voorzitter. Ik heb één motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de banenafspraak uit het sociaal akkoord tot en met 2018 al bijna 52.000 mensen uit de doelgroep aan een baan heeft kunnen helpen en dat we op koers zitten om begin 2026 125.000 banen te realiseren;</note>
+               <note>constaterende dat veel van deze banen worden gecreëerd via detacheringen door sociale ontwikkelbedrijven, maar dat deze onder druk kunnen komen te staan als gevolg van de Wet arbeidsmarkt in balans (WAB);</note>
+               <note>constaterende dat de uitzondering op de payrollbepaling uit de WAB alleen gaat gelden voor de WSW-groep;</note>
+               <note>overwegende dat deze payrollbepalingen niet ten koste mogen gaan van de mensen die via de banenafspraak en beschut werk een baan zouden kunnen krijgen of hebben gekregen;</note>
+               <note>verzoekt de regering om uiterlijk voor de zomer van 2020 het effect van de payrollbepalingen op de doelgroep "banenafspraak en beschut werk" in beeld te brengen door middel van een quickscan, en hierover aan de Kamer te rapporteren;</note>
+               <note>verzoekt de regering tevens om de afspraak uit het sociaal akkoord om de laagste loonschalen open te stellen, te activeren indien uit de quickscan blijkt dat de niet-uitzondering van deze doelgroep op de WAB de baankans van deze groepen beperkt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Nijkerken-de Haan, Peters en Van Brenk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34352-175</note>
+            </u>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u23">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg27">Om even precies te zijn: dit gaat over sociaal detacheren, toch? De kans bestaat dat de bepalingen van de WAB dat in de war schoppen en dat dat dan niet meer mogelijk zou zijn. Ik wil daarin dus even precies zijn.</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u24">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg28">Ja. Dat gaat over de zorg die wij daarover hebben. Die moeten we adresseren. Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u25">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg29">Dank voor uw bijdrage. Dan tot slot is van de zijde van de Kamer het woord aan mevrouw Van Brenk namens 50PLUS.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u26">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg30">Voorzitter. Wij hebben onze zorgen en er zijn ook mensen geweest bij het debat over de sociale ontwikkelbedrijven. Daarom deze motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat mensen met een indicatie beschut werk en mensen met een indicatie banenafspraak die niet tot de gemakkelijk te bemiddelen groep werknemers behoren, niet tussen wal en schip mogen vallen;</note>
+               <note>overwegende dat de staatssecretaris de kennis en expertise van de sw-bedrijven bijzonder waardeert;</note>
+               <note>roept de regering op instandhouding van sociale werkvoorziening bij gemeenten, behoud van kennis en expertise, alsmede begeleiding naar en tijdens werk via sociale ontwikkelbedrijven binnen haar mogelijkheden te bevorderen, zodat meer mensen met een arbeidsbeperking die nu nog aan de kant staan, aan een passende en duurzame baan geholpen kunnen worden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Brenk en Gijs van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34352-176</note>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u27">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg31">Voorzitter. Ik heb de staatssecretaris een brief overhandigd van een familie uit Papendrecht die zich zorgen maakte over de duurzame inzetbaarheid van een dochter. Ik zou graag willen weten of de staatssecretaris zich nog heeft kunnen buigen over deze brief. Daar zou ik graag een reactie op willen. Omdat dit zo'n schrijnend geval was de navolgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat mensen met een arbeidsbeperking die gaan werken aangemoedigd in plaats van ontmoedigd moeten worden;</note>
+               <note>overwegende dat het nog te vaak voorkomt dat mensen met een arbeidsbeperking die gaan werken er financieel op achteruitgaan;</note>
+               <note>roept de regering op zich tot het uiterste in te spannen om werken te allen tijde te laten lonen en hindernissen hiervoor weg te nemen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Brenk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34352-177</note>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u28">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg32">Ik kijk uit naar de reactie van de staatssecretaris.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u29">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg33">Hartelijk dank. Daarmee zijn we aan het einde gekomen van de eerste termijn. Ik schors de vergadering voor vijf minuten.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u30">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg34">Aan de orde is de voortzetting van de behandeling van het verslag van een algemeen overleg Participatiewet. Wij zijn toe aan de termijn van de staatssecretaris van Sociale Zaken en Werkgelegenheid, waarin zij ook een oordeel zal geven over de acht ingediende moties. Gaat uw gang.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u31">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg35">Voorzitter, dank u wel. Ik kijk terug op een debat waarin we eigenlijk op een heel bijzonder moment met elkaar van gedachten hebben gewisseld. Ik kijk terug naar het proces dat doorlopen is om tot een breed offensief te komen en naar het brede programma om mensen met een arbeidsbeperking op weg naar werk te helpen. Eigenlijk staan we aan de vooravond van heel veel besluitvorming en wetgeving die naar de Kamer komt. Het was dus voor mij een heel mooi moment om bij de Kamer te proeven hoe de Kamer daartegenover staat en om verschillende suggesties mee te krijgen. We hoorden ook alvast dat sommige zaken misschien op wat enthousiasme kunnen rekenen en we hoorden van zaken waar we nog een tandje bij kunnen zetten. Ik kijk dus in ieder geval uit naar de verschillende momenten van wetgeving die gaan komen. Voor nu is er een aantal moties. Over het onderwerp van de allereerste motie, op stuk nr. 170, van de heer Jasper van Dijk, hebben we ook in het algemeen overleg van gedachten gewisseld. Deze motie ontraad ik, omdat het uiteindelijk de gemeente is die bekijkt hoe zij de uitvoering van de Participatiewet vormgeeft, en daarbij de infrastructuur van de sociale ontwikkelbedrijven kan benutten. Daar ben ik een groot voorstander van, dat is bekend. Maar het is uiteindelijk aan de gemeenten om dat te bepalen.</seg>
+            </u>
+            <u who="#JaspervanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u32">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg36">Dan is mijn vraag wat die breed ondersteunde motie-Buma dan voor nut heeft gehad. In die breed ondersteunde motie staat: de regering moet zich inspannen om die kennis en infrastructuur van die SW-bedrijven overeind te houden. Nu hebben we hier een SW-bedrijf in Almelo, SOWECO, dat op omvallen staat. Meer dan 2.000 mensen werken daar met veel hartstocht. Laat u ze keihard vallen, of zegt u: nee, ik ga met die gemeentes in gesprek? Dat is alles. Dat is alles waar in de motie om wordt gevraagd. Wil de staatssecretaris de boodschap van de Kamerbreed gesteunde motie-Buma overbrengen? Die boodschap is: hou die infrastructuur in stand?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u33">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg37">Hierover hebben we tijdens het algemeen overleg ook van gedachten gewisseld en ik hecht eraan om dit ook hier even af te pellen. Dit vraagstuk kent vele lagen. Een ervan is de organisatievorm. Los daarvan staan kennis en kunde, en dat er ook regionaal faciliteiten zijn. De heer Renkema heeft daar ook moties over ingediend en ik kom daar op een later moment ook op terug. De SER heeft daarover ook gezegd: daar willen wij bij helpen. Maar dat laat onverlet dat de mensen die werken voor een sociaal ontwikkelbedrijf met behoud van hun rechtspositie soms door de gemeente op een andere plek aan het werk worden geholpen. Hun rechtspositie blijft dan hetzelfde. Er zijn gemeenten die samengaan met sociale ontwikkelbedrijven. De brancheorganisatie, Cedris, laat zien dat sociale ontwikkelbedrijven zich in vele varianten aan het vormen zijn. Het is niet aan mij om me over de vorm uit te spreken, maar ik moet me wel uitspreken over het behoud van de kennis, kunde en ervaring, de toegevoegde waarde. En uiteraard moet ik me uitspreken over de rechtspositie van de mensen die daar werken. Ik heb geprobeerd om die zaken in het AO te fileren. En uiteindelijk is het ook aan de gemeenteraad om te bepalen welke vorm men daar het beste vindt passen bij al die functies die men daar moet organiseren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u34">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg38">Tot slot, meneer Van Dijk.</seg>
+            </u>
+            <u who="#JaspervanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u35">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg39">Er zit iets tussen het volledig overlaten aan de gemeente, wat de staatssecretaris nu doet, en alles bij het oude willen laten. Daar zit iets tussen. Daar wordt in deze motie om gevraagd. Het zou van moed getuigen als de staatssecretaris zou zeggen: oké, misschien gaat het hier verkeerd, bij deze zes gemeentes. Ik zou er ook enorm veel respect voor hebben als zij dat deed. Het zou van moed getuigen als de staatssecretaris zou zeggen: ik zal de gemeentes uitleggen wat de gedachte is over de voormalige SW-bedrijven die hier in de Tweede Kamer is uitgesproken door Buma en die is overgenomen door de regering. Dan kan de staatssecretaris in gesprek gaan. That's all. Meer niet: in gesprek gaan. Wilt u dat doen?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u36">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg40">Hoezeer ik ook graag respect krijg van de heer Jasper van Dijk, op dit specifieke punt moet ik toch aangeven dat het echt aan de gemeente is om te kiezen voor de organisatievorm. Ik praat uiteraard met Cedris, de brancheorganisatie van sociale ontwikkelbedrijven, ook in bredere zin over alle ontwikkelingen. Ik werk uiteraard aan de motie-Buma en andere moties die in deze Kamer zijn aangenomen. Daarbij bekijken we hoe we die kennis, kunde en infrastructuur kunnen behouden. Dat is iets anders dan in gesprek gaan over elke specifieke lokale organisatie, hoe belangrijk een organisatie op lokaal niveau ook kan zijn. De gemeenteraad is wettelijk gezien de instantie die de organisatievorm kiest. Ik vind het niet mijn taak om over zo'n specifieke lokale organisatie in gesprek te gaan. Wat ik wel belangrijk vind, is om op nationaal niveau deze vraagstukken met elkaar in balans te brengen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u37">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg41">De staatssecretaris vervolgt haar betoog.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u38">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg42">Ik kom bij de motie op stuk nr. 171. Misschien kan ik weer wat respect van de heer Jasper van Dijk krijgen door die motie oordeel Kamer te geven. Dat doe ik ook graag. Dit zijn thema's die terugkomen bij de evaluatie van het beschut werk, die in het najaar komt. Ik hecht er wel aan om even het volgende aan te geven over wat er in de tweede overweging staat, namelijk dat de begeleidingsvergoeding met €1.300 verlaagd dreigt te worden. Ik kan de motie oordeel Kamer geven als ik daarbij wel aanteken dat het hier gaat om een budgetneutrale verschuiving van middelen van gemeenten naar het UWV, in het kader van de uitvoering van de no-riskpolis. Dus dat geld is niet weg, maar het wordt op een andere manier besteed. Daarmee kan ik de motie oordeel Kamer geven.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg43">De motie van de heer Jasper van Dijk op stuk nr. 172 gaat over een onderzoek naar de inclusietoeslag. Deze motie moet ik ontraden. Ik vind dit echt een majeure stelselwijziging, die ook verstrekkende gevolgen heeft voor de uitvoering. Ik werk nu binnen de kaders van het breed offensief. Dit is iets voor de langeretermijnagenda. Dat laat onverlet dat op dit moment wordt gewerkt aan een gedeeltelijke vrijlating van arbeidsinkomsten voor mensen die in deeltijd gaan werken, met loonkostensubsidie en een recht op aanvullende bijstand. Zo kan werken ook voor hen lonend zijn, conform de regeling die er nu is voor mensen met een medische urenbeperking.</seg>
+            </u>
+            <u who="#JaspervanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u39">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg44">Voor de duidelijkheid: het gaat om een onderzoek, niet om een beleidswijziging of een stelselwijziging. In het algemeen overleg begreep ik dat de staatssecretaris best oren had naar die richting.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u40">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg45">Ik ben aan het werk geweest met alle ideeën die uit de gesprekken zijn gekomen die we met maatschappelijke partners hebben gehouden. Ik vind het dan transparant om in de brief te zetten wat ik wel heb gehoord, maar niet ga doen. Een van die dingen is de inclusietoeslag. Die heb ik wel in de brief gezet, zodat daar een maatschappelijk debat over kan zijn. Maar een onderzoek is niet iets wat kosteloos of zonder inzet kan. Op dit moment heb ik gewoon alle mensen en middelen nodig om het hele pakket uit het breed offensief uit te werken. Daarom ontraad ik de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg46">Voorzitter. Ik kom bij de motie op stuk nr. 173, van de heer Raemakers, mevrouw Nijkerken-de Haan, de heer Peters en de heer Bruins. Als het een totaalplaatje is, zal ik mijn woorden beperkt houden. Mooi aan deze motie is dat zij uitdraagt hoe belangrijk het is dat mensen niet anoniem aan de kant blijven staan. Qua momentum past zij ook uitstekend bij de evaluatie van de tegenprestatie en de taaleis die daarbij komt. Daarom geef ik deze motie graag oordeel Kamer.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u41">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg47">Er is een interruptie van de heer Gijs van Dijk.</seg>
+            </u>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u42">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg48">Ja, over de evaluatie van de tegenprestatie. Op dit moment lopen er toch nog experimenten?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u43">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg49">Dat zijn twee verschillende trajecten. Er lopen experimenten met een bepaald tijdspad; daar kom ik straks bij de motie van de heer Renkema op terug. Daarnaast heb ik een opdracht uit het regeerakkoord om in het kader van de taaleis en de tegenprestatie gesprekken te voeren en te kijken waar verbeteringen kunnen plaatsvinden. Dat zijn twee verschillende trajecten.</seg>
+            </u>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u44">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg50">Oké. Deze motie geeft de staatssecretaris eigenlijk een richting mee. Misschien kan de staatssecretaris zich ook voorstellen dat wij enigszins verrast zijn, want in het AO is hier kort over gesproken — ik heb het even nagelezen — en nu wordt er in één keer een enorm aantal richtingen neergelegd vanuit de coalitiepartijen. Voor ons is het moeilijk om dit te beoordelen of om er volgende week over te stemmen, omdat we dit hele debat helemaal niet met elkaar hebben gehad. Snapt u dat? Ik bedoel: snapt de voorzitter dat? Ik geef aan de staatssecretaris mee dat ik graag iets meer toelichting van haar zou willen. Hoe duidt zij dit nou precies?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u45">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg51">Ik heb aan het algemeen overleg de indruk overgehouden ... Ik meen ook dat er een interruptiedebat was tussen de heer Raemakers en mevrouw Nijkerken over de tegenprestatie dan wel over persoonlijke ontwikkeling. Toen ontspon zich de discussie, die ik mooi vond om te horen, dat ze er verschillend over dachten, maar eigenlijk hetzelfde wilden, namelijk dat mensen niet anoniem aan de kant blijven staan. Ik lees deze motie ook als een weergave van de wijze waarop mensen elkaar daarin hebben gevonden. Ik vind de motie ook recht doen aan de agenda die ik vanuit het regeerakkoord probeer uit te voeren. In deze Kamer is daarover, breder dan alleen vanuit de coalitie, vaker gezegd dat we het niet acceptabel vinden dat mensen op de bank zitten. Als 60% van de mensen in de bijstand denkt een ontheffing te hebben, terwijl 10% van de mensen een ontheffing heeft, dan maken wij ons daar met z'n allen zorgen over. Ik had misschien een paar minuten langer de tijd om deze motie te lezen. Zoals ik de motie inschat, denk ik dat ik hier een antwoord op kan geven bij de evaluatie van de tegenprestatie en de taaleis, die ik op niet al te lange termijn naar de Kamer hoop te sturen. Daar zou ik de motie dus graag bij willen betrekken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u46">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg52">Even een opmerking over de orde. Het is dat wij de rest van de agenda hebben schoongeveegd, want anders had ik niet toegestaan dat iedereen nog weer een vraag stelt over deze motie. U mag er nog één vraag over stellen, mijnheer Gijs van Dijk.</seg>
+            </u>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u47">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg53">Dank voor die ruimte. Het gaat puur over hoe dit nu precies gaat. Vanuit de coalitiepartijen, ik bedoel vanuit de Kamer, liggen er vijf verzoeken aan het kabinet, aan de staatssecretaris. De staatssecretaris zegt: prima, oordeel Kamer, ik zal er op een later moment op reageren, want dat past beter. Ik vind dat een beetje een gekke volgorde. Ik zie hier geen beoordeling, maar het gaat verder dan één verzoek. Dit is een heel breed verzoek op een aantal misschien fundamentele, misschien minder fundamentele punten aangaande de tegenprestatie. De staatssecretaris zegt daarvan nu echter: prima, laten we dat zo doen. Ik vind dat gek, want ik kan mijn fractie op die manier in ieder geval niet goed adviseren.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u48">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg54">Ik probeer altijd te zoeken naar samenwerking in de commissie — die proef ik ook — als er een motie ligt. Dat geldt ook voor de motie van de heer Jasper van Dijk van zojuist over beschut werk. Ik betrek die heel graag bij de evaluatie. Ik zoek dan echt naar mogelijkheden om dat te doen. In dit geval vind ik de motie best wel logisch omdat ik die ook herken uit het debat. Toen zag ik een verbinding ontstaan tussen de wederkerigheid en anderzijds de persoonlijke ontwikkeling van mensen. Dat hoeft elkaar niet te bijten. Het kan elkaar juist versterken. Zo heb althans ik het debat ervaren. Ik zie hier een aantal randvoorwaarden staan, maar ook een richting. Ik kom in november met de evaluatie over de tegenprestatie. Ik wil de motie daar graag bij betrekken. Ik doe in dat kader dus een voorstel aan de Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u49">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg55">De heer Gijs van Dijk nog heel kort.</seg>
+            </u>
+            <u who="#GijsvanDijk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u50">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg56">Dit gaat ook over gemeenten. Wat vindt de VNG ervan? Als er sprake is van fundamentele punten, dan zijn veel gemeenten betrokken. Dat is ook normaal. Dan moet je iedereen erop bevragen en vervolgens geeft de staatssecretaris een richting, zodat de fracties een goed oordeel kunnen vellen, maar nu weet ik het niet. Ik ga het binnen een paar dagen ook niet uitvinden.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u51">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg57">Ik kan mij voorstellen dat een proces meerdere fasen kent. Omdat ik dit belangrijk vind, overleg ik hierover heel veel met gemeenten, in verschillende fasen. Ik ben nu bezig met de evaluatie van de tegenprestatie en de taaleis. Uiteraard stuur ik die naar het parlement en bespreek ik die met gemeenten. Daar kan uit voortvloeien dat wij een aantal dingen anders willen gaan doen, of dat we een aantal dingen hetzelfde blijven doen. Dat gebeurt altijd, ook aan tafel met de VNG. U zult mij niet horen beweren dat ik aanstaande november een uitgewerkt wetsvoorstel op de plank heb liggen dat zonder overleg aan de Kamer wordt gestuurd. In de motie wordt mij echter gevraagd om een richting mee te geven in het kader van de evaluatie. Ik vind dat ik daarover kan zeggen: oordeel Kamer.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u52">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg58">Ook ik heb moeite met hoe wij dit moeten uitleggen. Wij willen heel graag dat mensen niet langs de kant komen te staan. Daar was deze Kamer het over eens. Maar er staat ook in de motie: "... hoe gemeenten mensen in de bijstand een niet-vrijblijvend aanbod kunnen doen ..." Dat is een heel breed begrip. Kunnen wij ervan uitgaan dat daar ook zaken onder vallen als scholing, in die zin dat mensen aan zichzelf werken, of dat, als er sprake is van een verslavingsproblematiek, die eerst wordt opgelost? Hoe moet ik dit niet-vrijblijvende aanbod lezen?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u53">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg59">Ik heb inderdaad nog wat uitwerking te doen. Kijkend naar deze verzoeken — ik pleeg dat ook heel zakelijk te doen — doet dit recht aan de discussie over het doen van een aanbod. Volgens mij was daar ook brede consensus over. Het gaat om het doen van een passend aanbod. Dat doet ook recht aan de persoonlijke ontwikkeling van mensen. Dat zien wij graag, want dan zit er een stukje wederkerigheid in. Eén van de fracties liet ook een herkenbaar geluid horen als het gaat om de positie van jonge alleenstaande ouders met kinderen onder de 4 jaar. Als ik daar de kaders van zie, gelet op de diverse constateringen, dan is mijn inschatting dat ik dit bij de evaluatie kan doen. Dan ben ik uiteraard ook heel benieuwd naar het debat daarover.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u54">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg60">De heer Raemakers wil het woord, maar hij wil volgens mij vooral reageren op de heer Van Dijk.</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u55">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg61">Als u mij toestaat, wil ik een kort punt van orde maken. Collega Van Dijk zegt dat er geen debat over is geweest. Ik begrijp dat er omstandigheden kunnen zijn waardoor men soms niet aanwezig is bij een AO, maar we hebben het juist in het algemeen overleg hier heel veel over gehad. Dat kunt u ook teruglezen in de notulen die daarvan zijn gemaakt. Sterker nog, we hebben al tijdens het AO een toezegging gekregen van de staatssecretaris dat voor de begroting nog een aantal onderzoeken naar de Kamer komt over de groep die langdurig in de bijstand zit. Ik wilde dit even aangeven. De claim is dat er geen debat over is geweest, maar daarvoor houden we die algemeen overleggen in dit huis. Daar hebben we het echt lang over gehad.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u56">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg62">Goed, daar gaan we niet verder over discussiëren. Meneer Renkema, wilde u een interruptie plaatsen? Nee? Dan gaat de staatssecretaris door met de motie op stuk nr. 174.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u57">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg63">Voorzitter, dank u wel. De motie van de heer Renkema over de experimenten moet ik ontraden, omdat een experiment een begintijd en een eindtijd heeft. We hebben daar afspraken over gemaakt en die liggen vast in de wet. De experimenteerperiode loopt tot 1 januari 2020. Dat is het moment waarop de resultaten in kaart worden gebracht en waarop we kunnen kijken of er aanleiding is om bijvoorbeeld de Participatiewet aan te passen. Dat is waarom ik deze motie ontraad.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u58">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg64">Ik ben daar wel teleurgesteld over; dat zal de staatssecretaris begrijpen. We hebben het vanavond steeds over mensen die aan de kant staan, die anoniem aan de kant staan, maar dat geldt niet in deze situatie. Dit zijn mensen die in die experimenten zitten, net wat meer mogen bijverdienen, voor wie een aantal tegenprestaties bijvoorbeeld niet gelden en die een andere begeleiding krijgen van de gemeente. Dat geldt voor Wageningen, Nijmegen en Groningen. Betekent dit nu dat volgende week dinsdag — dan is het 1 oktober — die mensen gewoon aan hun lot worden overgelaten in die experimenten?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u59">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg65">Ik heb zelf geen terugkoppeling gehad, maar ik kan me best voorstellen dat er wat enthousiaste ervaringen zijn. Daar kan ik me alles bij voorstellen. Echter, omdat het een wetenschappelijk experiment is, is het ook van belang om dit vast te stellen. Daarom is er een eindtijd aan. Tegelijkertijd is er binnen de Participatiewet al behoorlijk wat beleidsvrijheid, zeker als het gaat om dienstverlening aan mensen, om het kunnen aanbieden van voorzieningen. Ik vind het echt van belang om hier een goed beeld van te krijgen. Daarbij hebben we echt met elkaar vastgelegd dat dit de eindtijd is. Ik vind dat we tot een wetenschappelijke conclusie moeten kunnen komen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u60">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg66">Tot slot, meneer Renkema.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u61">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg67">Kort nog. Als die beleidsvrijheid er zou zijn bij gemeenten, dan hadden we die experimenten niet nodig gehad. Het punt is nu dat er onderzoek wordt gedaan. Straks zal blijken dat een aantal aanpakken werken. Dan wordt, zeg maar, evidencebased gezegd: hé, deze aanpak werkt. We krijgen nu de situatie dat mensen voor wie het nu werkt vanaf 1 oktober aanstaande daarmee moeten stoppen, dat wellicht over anderhalf jaar alsnog wordt geconstateerd dat het werkt en dat we er dan weer mee verdergaan. Dat vind ik geen consistent beleid.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u62">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg68">Ik ben niet in deze rol geweest bij de aanvang van de experimenten. Maar op het moment dat je weet dat je aan een experiment begint dat eindig is, dan moet het volgens mij ook onderdeel zijn geweest van de afweging dat je dit toch gaat doen omdat je wil weten wat eruit komt, en dat dat zwaarder weegt dan dit nadeel. Zo heb ik het althans gezien. Ik ben ook hartstikke nieuwsgierig naar de uitkomsten van die experimenten en of er aanknopingspunten in zitten om de wet te kunnen veranderen. Maar ik vind het wel van belang dat we de afspraken die we hebben gemaakt, waar ook wetenschappers bij betrokken zijn, gewoon kunnen aflopen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u63">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg69">De staatssecretaris vervolgt haar betoog.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u64">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg70">Dan de motie van mevrouw Nijkerken-de Haan over de Wet arbeidsmarkt in balans. Ik heb tijdens het algemeen overleg al aangegeven dat de invoering van de Wet arbeidsmarkt in balans echt een dilemma met zich meebrengt. Aan de ene kant zijn we allemaal tot op het bot gemotiveerd en willen we mensen met een beperking zo snel mogelijk en zo makkelijk mogelijk aan werk helpen, maar we willen ook dat ze goed en volwaardig werk hebben. Daar zit wel een spanningsveld tussen. Daar gaat deze motie ook over. Makkelijker aan het werk komen is gebaat bij goedkopere arbeidsvoorwaarden. Maar goed en volwaardig werk is juist gebaat bij betere arbeidsvoorwaarden regelen, zodat mensen met een arbeidsbeperking gelijke arbeidsvoorwaarden hebben als hun collega's. In de AMvB die de uitzondering voor de WSW-doelgroep regelt, heeft het kabinet al aangegeven de gevolgen van de Wet arbeidsmarkt in balans te willen monitoren. Dat heeft er simpelweg mee te maken dat dat nu nog niet inzichtelijk is. Dan de in de motie genoemde quickscan, die past in de door de kabinet voorgestelde monitor om goed zicht te krijgen op de mogelijke negatieve effecten. We verwachten dat de financiële gevolgen van de WAB in 2020 beperkt zullen zijn, dat de effecten vooralsnog klein zullen zijn. Daarom zal de monitoring na het eerste halfjaar 2020 plaatsvinden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg71">Dat ik de motie toch moet ontraden, heeft te maken met de laatste passage. Het activeren van de wettelijke bepaling dat werkgevers mensen die werken met loonkostensubsidies mogen aannemen op het niveau van wettelijk minimumloon als niet alle cao's een laagste loonschaal hebben, is echt een reële optie. Dat is zo afgesproken met de sociale partners, maar ik heb ook afgesproken dat ik daar eerst overleg over pleeg met diezelfde sociale partners. Dat is waarom ik deze motie toch ontraad, terwijl ik me best voor kan stellen dat zij een stevig signaal kan zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u65">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg72">Dank u wel.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u66">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg73">Dan kom ik bij de motie van mevrouw Van Brenk op stuk nr. 176 over de sociale ontwikkelbedrijven. Die moet ik om dezelfde reden als die van de heer Jasper van Dijk, namelijk dat de gemeenten uiteindelijk zelf beslissen over de vormgeving van de uitvoering, ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg74">De motie op stuk nr. 177 formuleert wat mij betreft ontzettend mooi wat de drijfveer is achter het breed offensief: ons tot uiterste in te spannen om werken te allen tijde te laten lonen en hindernissen hiervoor weg te nemen. Die motie geef ik graag oordeel Kamer, want zij ondersteunt de inzet bij het breed offensief.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg75">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u67">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg76">Hartelijk dank. Tot slot is er nog een vraag van mevrouw Van Brenk, zie ik.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u68">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg77">Ik heb geen antwoord gekregen op mijn vraag naar aanleiding van het probleem en de brief.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u69">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg78">Ja, klopt. We werken op dit moment aan de beantwoording. Het is best een complexe situatie dus we doen wat uitzoekwerk, maar er wordt zeker aan gewerkt. Iedereen die ons schrijft, krijgt antwoord.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u70">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg79">Dank u wel. Daarmee zijn we aan het einde gekomen van de behandeling van het VAO Participatiewet.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.u71">
+               <seg xml:id="ParlaMint-NL_2019-09-24-tweedekamer-21.seg80">We zullen aanstaande dinsdag 1 oktober stemmen over de acht ingediende moties. Mij rest alleen de vergadering te sluiten.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

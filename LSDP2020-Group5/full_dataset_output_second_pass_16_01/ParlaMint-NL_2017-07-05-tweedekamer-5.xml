@@ -1,0 +1,971 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-07-05 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-07-05 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 96, Session 5 (2017-07-05)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 96, Session 5 (2017-07-05)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="96">Meeting 96</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="240">240 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="240">240 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="21434">21434 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="21434">21434 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-07-05">2017-07-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="323"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="240"/>
+               <tagUsage gi="note" occurs="85"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-07-05">2017-07-05</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Voorjaarsnota 2017</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg1">Ik geef de minister van Financiën het woord.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg2">Voorzitter. Dank aan de geachte afgevaardigden voor hun inbreng en de vele vragen. Ook dank voor de complimenten voor de stand van zaken in de begroting. Ik moet oppassen wat ik daarover zeg, want alles wat ik erover zeg, is borstklopperij. Daarom ben ik extra dankbaar als de leden van uw Kamer er positieve dingen over zeggen. Voor het overige was het tot nu toe een wat morbide debat. Het schoot heen en weer van het verwijt "over het graf heen regeren" tot het verwijt "lijken in de kast verstoppen". Nu kan het niet allebei waar zijn. Tenminste … Je voelt je inderdaad wel een uitvaartondernemer, zoals ik de heer Nijboer hoor zeggen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg3">Het is een ingewikkelde periode, laten we daar niet omheen draaien. We worden geacht een begroting te beheren en we worden zelfs geacht het land te regeren. Ik heb geen aanwijzingen in ons staatsrecht aangetroffen dat ik op dit punt eigenlijk terughoudend moet zijn. Er is wel een soort gebruik, maar naarmate de formatie langer duurt — ik kan er ook niks aan doen — komen er dingen voor die gewoon moeten worden aangepakt en opgelost. Je kunt politiek twisten over de vraag wat urgent is en wat moet blijven liggen. Sommigen zullen zeggen: u mag geen taakstellingen open laten staan; die moeten onmiddellijk worden belegd met generale dekking. Anderen zullen zeggen: dat lijkt ons niet nodig, laat dat maar voor de formatie liggen. Het is echt een kwestie van politieke smaak in hoeverre het kabinet zaken moet opruimen en in hoeverre het juist zaken moet laten liggen zodat een volgend kabinet er invulling aan kan geven.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg4">De minister is net anderhalve minuut bezig, mijnheer Van Weyenberg.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg5">Zeker, voorzitter, we luisteren vanaf de eerste seconde zorgvuldig. Ik was blij met wat de minister net zei. Hij bevestigde dat er nog een taakstelling in de begroting voor 2018 zit. Die vraag had ik gesteld. Ik heb de minister dus goed begrepen dat er voor 2018 nog een taakstelling van 467 miljoen openstaat op de OCW-begroting. Dat heeft de minister net bevestigd. Toch?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg6">De heer Van Weyenberg doet nu net alsof hij iets heeft ontdekt, maar dat had zijn fractievoorzitter al ontdekt in het debat over de Miljoenennota. Hij heeft toen een motie ingediend die ook met steun van de coalitiepartijen is aangenomen. Dit thema is dus niet nieuw, de heer Van Weyenberg heeft niets nieuws ontdekt. Daarin moet ik hem teleurstellen.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg7">Nee, ik geloof ook niet dat ik iets nieuws heb ontdekt. Overigens is daar nog een extra tegenvaller in de leerlingenraming bijgekomen, dus het bedrag is groter geworden. In de motie werd gevraagd: los het op zonder dat het onderwijs er last van heeft. Dat is voor 2017 gebeurd, maar helaas, tot grote teleurstelling van mijn fractie, niet voor de jaren erna. De heer Nijboer ontkende dat deze taakstelling in de begroting zat. Ik denk dat de heer Dijsselbloem, de minister van Financiën, zijn eigen partijgenoot heeft overtuigd.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg8">Nee, de heer Van Weyenberg haalt een taakstelling en een bezuiniging door elkaar. Voor hem is dat hetzelfde. De kracht van de motie-Pechtold was nu juist: laat die taakstelling geen bezuiniging zijn. De heer Van Weyenberg zit nu een beetje zijn eigen fractievoorzitter in de wielen te rijden. Die heeft tegen ons gezegd: deze taakstelling mag geen bezuiniging zijn. De heer Van Weyenberg zegt nu tegen de heer Nijboer, via u, voorzitter, en via mij, dat een taakstelling een bezuiniging is. Het kan niet allebei waar zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg9">Tot slot.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg10">Dit is de afdeling creatief boekhouden. Maar goed, ik snap … Nee, laat ik het neutraler formuleren. De conclusie is dat in de motie staat: laat het geen taakstelling of bezuiniging zijn op het onderwijs. Dat heeft het kabinet voor 2017 gedaan, waarvoor dank …</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg11">Graag gedaan.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg12">… maar voor de jaren daarna niet, waardoor dit nog steeds boven de markt hangt, terwijl allerlei andere taakstellingen voor die jaren — de mantelzorgboete AOW, de monumentenaftrek — in de Voorjaarsnota van tafel zijn gehaald. Ik betreur het dat deze taakstelling nog steeds in de boeken staat voor het jaar 2018. En ja, de minister heeft gelijk, woorden over meer geld voor volgend jaar klinken van sommige partijen wat hol in de oren.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg13">De heer Van Weyenberg heeft gelijk. Sommige nog openstaande maatregelen zijn afgevoerd omdat ze simpelweg niet meer kunnen steunen op voldoende steun in de Tweede en de Eerste Kamer. De mantelzorgboete is er daar een van. Het CPB heeft die ook al afgevoerd. Het CPB heeft inmiddels ook de taakstelling op onderwijs afgevoerd, in die zin dat men heeft gezegd dat die niet met maatregelen zal worden belegd. In het saldo van het CPB is die dus al verwerkt. Dat heeft het kabinet nog niet gedaan, omdat het van oordeel was — u kunt daar anders over denken; daar is dit debat ook voor — dat de taakstelling op OCW zou moeten blijven staan, zodat een volgend kabinet kan overwegen om dat met generaal geld gewoon op te lossen, alsnog maatregelen van OCW te vragen dan wel maatregelen te nemen elders in de rijksbegroting om dat geld te vinden. Dat is precies het verschil tussen een taakstelling en een bezuiniging. Bij een taakstelling kun je nog allerlei typen oplossingen vinden. Je kunt het inderdaad in het saldo laten lopen, je kunt het met generale middelen beleggen, je kunt op een andere begroting maatregelen nemen, je kunt afwachten of er nog onderuitputting is op OCW. Dat zijn allemaal manieren om een taakstelling gaandeweg in te vullen. Dat is echt iets anders dan een bezuiniging. Ik dacht dat D66 dat ook begrepen had in haar motie. Maar de boodschap van D66 is duidelijk. Zij zegt: je moet ook meerjarig deze reeks uit de OCW-begroting halen, zo nodig ten laste van het saldo. Zo begrijp ik de heer Van Weyenberg dan maar. Hij zegt immers ook niet hoe we het anders zouden moeten dekken. Maar goed, ik kan niet beoordelen of dit verstandig is en of de nu formerende partijen het met hem eens zijn. Dat zal hij zelf moeten oplossen met zijn gesprekspartners. Dat zou mij dan weer helpen. Voorzitter, ik zei al: het is een ingewikkelde periode.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg14">Laat ik beginnen bij de economie. Het gaat goed met de economie. Ik kreeg zelfs de vraag of ik verwacht dat het overschot nog verder zal oplopen. Ik meen dat de heer Van Rooijen die vraag stelde. Daar mag ik natuurlijk niet over speculeren, maar het is wel zo dat bij de laatste opeenvolgende ramingen de groei naar boven is bijgeraamd. Nu houdt dat een keer op — dat is het enige wat ik daar met zekerheid over kan zeggen — maar het gaat zeer goed met de economie. Ook de laatste vertrouwenscijfers waren zeer hoog.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg15">Er zijn vragen gesteld over de inflatie. Wij maken bij het ministerie van Financiën geen eigen raming voor de inflatie. Wij vertrouwen op het Centraal Planbureau. Dat voorziet een inflatie van 1,4% in zowel 2017 als 2018 voor Nederland en van 1,4% en 1,5% in 2017 en 2018 voor het eurogebied. Dat is inderdaad een stuk hoger dan de raming waar wij nog mee werkten voor de Miljoenennota. Dat heeft te maken met de energie- en grondstofprijzen. Misschien heeft het ook te maken met economisch herstel en een dalende werkloosheid. Ook die kunnen geleidelijk tot een opwaartse druk op lonen en prijzen gaan leiden. En ja, dat heeft effect op de koopkracht. Dat is voor ons een gegeven; dat is niet iets waar we als politiek rechtstreeks onze invloed op doen gelden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg16">Hebben de rekenmeesters zitten slapen? Die vraag van de heer Azarkan ging zowel over de inflatieraming als over de renteraming. Dit zijn gewoon de meest geactualiseerde cijfers. Bij de cijfers over het lopende jaar worden inmiddels ook al realisatiecijfers betrokken. Gaandeweg het lopende jaar worden de ramingen natuurlijk bijgesteld op basis van de nieuwe en dus ook meer betrouwbare gegevens, maar die kunnen natuurlijk weer veranderen in de loop van de tijd. Er is dus geen sprake van zitten slapen. Het is gewoon een bijstelling in de tijd op basis van nieuwe feiten.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg17">Daaraan gekoppeld vroeg de heer Azarkan: hoe kan het dan toch tot een rentetegenvaller — dan gaat het om rente-inkomsten — bij de studiefinanciering kan leiden? De raming van de uitgaven van de studiefinanciering is ook geactualiseerd. Die is naar beneden bijgesteld. Dat gebeurt jaarlijks op basis van de meest recente gegevens. Daar vallen verschillende posten onder. Denk aan omzettingen van de basisbeurs, de aanvullende beurs, de ov-studentenkaart. Soms worden ze omgezet in een gift. Al dit soort aanpassingen zit daarin. De rente op studieleningen hebben een eigen systematiek met vaste momenten waarop de rente op een lening wordt vastgesteld en wordt vastgezet voor enige tijd. Dat verklaart het verschil. Het is gewoon een andere systematiek. De heer Harbers heeft verwezen naar een debat dat wordt gevoerd over de inflatiedoelstelling van de ECB: "close to but below two"; dichtbij maar onder de twee. Is dat nog steeds een goede doelstelling? Ik stel voorop dat de ECB een onafhankelijke monetaire autoriteit is die dus ook onafhankelijk haar inflatiedoelstellingen vaststelt. Naar mijn waarneming is er nog steeds brede consensus onder economen dat een gematigd positieve inflatie wenselijk is voor stabiele economische ontwikkeling. Dat zou zomaar onder of dichtbij 2% kunnen zijn, maar nogmaals dat is aan de ECB. In het debat zijn twee smaken. Sommigen zeggen: als je echt weg wilt van het inflatiespook, dan moet je sturen op 4%. Anderen zeggen dat door de technologische ontwikkeling, die zich steeds slechter laat zien in inflatiecijfers, die 2% eigenlijk niet meer de goede graadmeter is. Dat debat zullen wij met interesse volgen, maar de twee richtingen in het debat wijzen twee verschillende kanten op. Vooralsnog heeft de ECB gezegd dat 2% een adequate doelstelling is.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg18">Dan is gesproken over de relatie met de koopkracht van huishoudens. Mevrouw Leijten heeft een vraag gesteld over de bestedingen van huishoudens in Nederland die lager zijn dan in andere EU-landen. Dat is moeilijk te vergelijken. Zij zegt dat dit komt door de koopkrachtontwikkeling, maar het is een structureel gegeven in Nederland. Dat heeft te maken met het feit dat wij voor een belangrijk deel bijvoorbeeld onze zorguitgaven hebben gecollectiviseerd. In veel Europese landen lopen de uitgaven voor de zorg, zeker voor de langdurige zorg, niet via de overheid. Die betalen mensen zelf als zij het hebben. Dat doen wij niet. Wij financieren dat gezamenlijk met daarin een sterk element van solidariteit. Dit betekent dat mensen daarvoor zelf geen directe bestedingen doen en dus zijn de bestedingen lager.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg19">Een vergelijkbaar punt is dat in Nederland traditioneel veel wordt gespaard; wij sparen veel voor ons pensioen. Ook dat leidt tot lagere bestedingen op korte termijn.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg20">De minister maakte een opvallende opmerking, die ik overigens wel deel. Hij zei dat de zorg in Nederland deel is van de collectieve sector. Ik heb een vraag die teruggaat naar het verleden. Toen wij de Ziekenfondswet nog hadden, had je particuliere verzekeringen en het ziekenfonds. Die werden niet tot de collectieve sector gerekend. Dat heeft natuurlijk een enorm effect op de collectieve sector. Het is goed om ons dat, terugkijkend, goed te realiseren. Hoe denkt de minister daarover?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg21">Dit soort verschuivingen in definities van wat tot privaatpubliek en wat tot de collectieve sector behoort, zijn er zeker geweest in die tijd. Wij hebben in Nederland een stelsel, de AWBZ en tegenwoordig de Wet langdurige zorg, waardoor de kosten voor de langdurige zorg in belangrijke mate via het collectieve stelsel verlopen. Dat was mijn punt, want in andere landen is dat veel minder. Het is in Duitsland veel minder en het is in Engeland veel minder. Onze buurlanden doen het op een andere manier en dat zie je terug in de hoeveelheid geld die wij besteden aan de zorg; die is in vergelijking met onze buurlanden relatief zeer hoog.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg22">Als wij kijken naar het bruto binnenlands product en wat wij daarvan uitgeven aan de gezondheidszorg, dan zit Nederland zo'n beetje op hetzelfde niveau als de omringende landen. Daar geven mensen blijkbaar nog meer privaat uit dan via de collectieve sector. Begrijp ik dat goed?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg23">Ja, als je de private en publieke uitgaven bij elkaar optelt, zitten wij dichter bij elkaar. Als je daarbinnen kijkt, dan zie je dat wij met name de financiering van de langdurige zorg voor een groot deel via de collectieve sector laten verlopen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg24">Mevrouw Leijten, u weet het?</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg25">Ik ken de percentages vrij goed. De bestedingen van de gezinnen zijn in Nederland 10% lager en bij het bruto binnenlands product en het percentage dat wij uitgeven aan de zorg, zitten wij op het gemiddelde. Daarom vroeg ik hiernaar. De minister heeft dit verklaard door te wijzen op de financiering van de zorg en het spaargedrag. Heeft dit echt niets te maken met de achterblijvende koopkracht?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg26">Ik denk dat het probleem van de achterblijvende koopkracht ook in onze buurlanden een grote rol speelt. Dat betreft de discussie over de arbeidsinkomensquote: welk deel van onze gezamenlijke welvaart wordt weer uitgekeerd in de vorm van lonen, salarissen: inkomens? Dat aspect — hoe gaat het nu eigenlijk met de koopkracht? — speelt in alle landen om ons heen een rol. Dat is niet iets van jaar op jaar, want we hebben een paar heel goede jaren gehad. Dit jaar is het wat rustiger op het gebied van de koopkracht, maar het structurelere achterblijven van de lonen en het dalen van de arbeidsinkomensquote is niet typisch Nederlands.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg27">Tot slot op dit punt.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg28">Ik heb toch nog steeds het idee dat mijn vraag niet helemaal begrepen is of dat dit antwoord misschien niet het antwoord is op de vraag die ik stel. We zien dat de bestedingen van gezinnen in een Europese vergelijking 10% achterblijven. Dat vind ik opvallend omdat het hier economisch gezien vrij goed gaat. We hebben het inderdaad ook over het loongedeelte en het winstgedeelte, maar daar heeft de minister nooit naar verwezen in zijn verklaring voor het achterblijven van de bestedingen met 10%. Hij zei altijd dat dit kwam door de zorgkosten. Die zijn over het algemeen, gemiddeld genomen, een beetje gelijk in de met ons vergelijkbare welvarende landen. Verder zei hij dat dit komt doordat wij meer sparen, in dit geval voor ons pensioen. In mijn termijn vroeg ik de minister of dat nou echt niets te maken heeft met de achterblijvende koopkracht of met het feit dat men bij voorzieningen meer moet bijbetalen. Daar is de afgelopen jaren bijvoorbeeld op bezuinigd.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg29">Ik zit te denken hoe we dit uit elkaar kunnen trekken. Als je de koopkracht zeer zou stimuleren, bijvoorbeeld via een belastingverlaging, kunnen mensen natuurlijk meer besteden. Als dat de relatie is waarnaar mevrouw Leijten zoekt, dan kunnen we daar heel simpel over zijn. Natuurlijk is dat zo. Haar aanvliegroute was dat de besteding van huishoudens in Nederland gemiddeld gezien zoveel lager is dan in Europa en zij vroeg zich af of dat niet komt door de koopkracht. De eerste stap die ik dan wil maken, is de stap naar de definitie en naar de manier waarop bepaalde dingen in de verschillende landen worden gefinancierd. Die moet je dan wel even gelijktrekken, want daarin zitten grote verschillen. Als je in een bepaald land allerlei kosten voor onderwijs en zorg zelf moet betalen, dan tellen die uitgaven mee als een besteding van huishoudens. In Nederland halen wij dat geld eerst bij allen op, waarna wij het uitgeven via de Wet langdurige zorg. Dan is het geen besteding van huishoudens meer; dan is het een uitgave van de collectieve sector.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg30">Ik stel voor dat u verdergaat.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg31">Er zijn dus echt vraagtekens te plaatsen bij de vergelijkbaarheid van landen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg32">Dan de grote discussie. Vandaag is heel veel over koopkracht gezegd. Ik ga daar kort over zijn. De Voorjaarsnota is voor het kabinet geen moment voor een koopkrachtdebat. De leden kunnen het daarover met mij oneens zijn, maar dat is mijn stelling. Wij gaan niet halverwege het jaar belastingen, belastingtarieven, belastingschijven, toeslagen et cetera aanpassen. Dat is niet eens uitvoerbaar. Dat doen wij één keer per jaar. De koopkracht die wij op Prinsjesdag presenteren is ook geen belofte, zoals wel door veel leden is gezegd. Wij kunnen die namelijk helemaal niet beloven. In augustus bekijken wij op basis van de laatste raming van het CPB of een bijstelling, een aanpassing van het beleid, nodig is opdat wij op Prinsjesdag een koopkrachtbeeld hebben dat ons politiek bevalt. Dat is geen belofte, want de dag erna veranderen er weer dingen in de wereld. We hebben hier discussies gehad over de ziektekostenpremies. Als die hoger uitvallen, gaat dat ten koste van de koopkracht. We hebben ook jaren gehad waarin die meevielen; toen was er extra koopkracht. We hebben jaren gehad waarin de inflatie erg laag was; dat hielp de koopkracht. Nu is de inflatie weer iets hoger; dat helpt de koopkracht niet. Het zijn geen beloftes. We gaan niet de hele tijd gaandeweg het jaar de belastingtarieven of de toeslagen aanpassen. Op alle opmerkingen en vragen over wat er op dat vlak zou moeten gebeuren, moet ik op deze manier antwoorden.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg33">Voor vandaag ben ik het daarover zeer met de minister eens. Dat heb ik ook in het interruptiedebat met de heer Van Dijck gezegd. Wij zitten nu wel met een demissionair kabinet dat de besluitvorming over de koopkracht voorbereidt voor de begroting van volgend jaar. Ik zou wel graag zien dat de minister aangeeft dat wat het demissionaire kabinet betreft, niet de hoogste inkomens het meest kunnen profiteren nu het economisch gezien beter gaat terwijl de laagste inkomens en middeninkomens, gepensioneerden en uitkeringsgerechtigden achterblijven.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg34">Dat is een terechte opmerking. Vooruitkijkend: zolang dit kabinet, deze coalitie er zit geldt natuurlijk de afspraak van deze coalitie dat wij een evenwichtig koopkrachtbeeld en een evenwichtige inkomensontwikkeling zullen presenteren. Op basis van de laatste raming die we hebben gehad, vergt dat gewoon correctie. Zo simpel is het. De heer Snel heeft mij gevraagd of het dan om 1 of 2 miljard gaat. Ik heb inderdaad eens tegen een journalist gezegd dat we er de afgelopen jaren, per jaar zo'n 1 à 2 miljard aan hebben besteed. Ik denk niet dat dat dit jaar nodig is. Eigenlijk zit iedereen zo'n beetje tussen de 0 en de 1. Daarbinnen zijn wel verschillen maar we hebben weleens grotere verschillen gehad in de afgelopen jaren en toen moesten we echt 1 à 2 miljard verspijkeren om dat te corrigeren. Dus ik denk niet dat het om zulke grote bedragen zal behoeven te gaan in augustus. We kijken dan op basis van de laatste ramingen en het beeld dat we dan krijgen van het CPB wat er nodig is, maar de afspraken hierover in het regeerakkoord blijven natuurlijk gelden.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg35">Kortom, als, wanneer er niets verandert, zou blijken dat ouderen, uitkeringsgerechtigden en de lage en middeninkomens op achterstand staan ten opzichte van de hoogste inkomens, doet het kabinet voorstellen om dat te corrigeren?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg36">Dat is volgens mij in lijn met de afspraken in het regeerakkoord. Dat is wat we ook echt elk jaar hebben gedaan.</seg>
+            </u>
+            <u who="#TonyvanDijck" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg37">Nu we het toch over afspraken in het regeerakkoord hebben, wil ik de minister even wijzen op de begrotingsregels …</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg38">Zal ik dat meteen beantwoorden? Ik heb de vraag helemaal scherp, zodat u die niet behoeft te herhalen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg39">Dat helpt.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg40">Vaak hebben kabinetten een afspraak over wat er gedaan moet worden als de begroting weer op orde is en er veel geld over is. Dat is dan een bepaalde sleutel. Een deel gaat dan naar lastenverlichting, een deel naar aflossing staatsschuld en soms zou je ook nog kunnen zeggen dat een deel gaat naar uitgaven. Ik meen dat u begrotingsregel 6 aanhaalde, die gaat over de situatie dat wanneer er een overschot zou zijn, een kwart daarvan zou gaan naar lastenverlichting. Het was op dat moment overigens volstrekt ondenkbaar dat wij nog zouden meemaken dat er een overschot zou zijn; we hebben er ook smakelijk om gelachen toen we het regeerakkoord schreven. Toen we de begroting opstelden en presenteerden op Prinsjesdag was daar ook nog geen sprake van omdat we een tekort verwachtten van een half procent. Gaandeweg dit jaar, lopende dit begrotingsjaar is het omgeslagen naar een overschot. De laatste raming is een overschot van 0,2. Hiervoor geldt als mijn antwoord: wij gaan niet lopende het jaar belastingtarieven of -schijven veranderen, toeslagen aanpassen et cetera. Dat doen we niet. Dat doen we nooit. Dat kan ook niet.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg41">Dit was het antwoord op de vragen die door een aantal leden zijn gesteld? Dat hebt u hiermee afgerond?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg42">Wat betreft iedereen die pleit voor koopkrachtreparatie, aanpassingen van belastingen en geld teruggeven aan mensen, geldt dit antwoord.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg43">Mijnheer Van Dijck.</seg>
+            </u>
+            <u who="#TonyvanDijck" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg44">Ik ben blij dat begrotingsregel 6 wordt gerespecteerd en dat die niet, omdat toen die werd opgesteld het onwaarschijnlijk leek, nu in de prullenbak verdwijnt. Als we nu niet aanpassen, neem ik aan dat u nadenkt over 2018 en dan geldt nog steeds begrotingsregel 6. Na augustus vorig jaar blijkt dus die meevaller plaats te vinden en wordt dus een kwart gereserveerd voor lastenverlichting, Ik kan er dus van uitgaan dat op Prinsjesdag bij het Belastingplan in ieder geval 1 miljard lastenverlichting in de boeken staat conform begrotingsregel 6?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg45">De heer Van Dijck kan nog nergens van uitgaan. Ik spreek eenmaal de hoop uit dat ik de begroting niet behoef te presenteren op Prinsjesdag en dan zullen we zien wat er wel in staat.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg46">De PvdA-minister zegt tegen het PvdA-Kamerlid: de begrotingsregels worden gehandhaafd. Betekent dit dat, indien dit kabinet er nog zit bij de besluitvorming in augustus, het zich dan houdt aan de spelregels zoals ze zijn vastgelegd en dan niet alleen nr. 6 maar ook alle andere spelregels die in het regeerakkoord zijn vastgelegd?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg47">Strikt genomen — u vraagt het zo op de man af — kan een coalitie, als de coalitiepartijen het ermee eens zijn, het regeerakkoord ter plekke herschrijven. Mocht het noodzakelijk zijn en mochten beide coalitiepartners het ermee eens zijn, dan kan dat. Het antwoord hierop kan dus niet "ja" zijn.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg48">Maar nu wordt het echt heel bar. De PvdA vroeg over de regel die haar bevalt: houdt u zich eraan, minister? Toen zei de minister: ja, natuurlijk houd ik mij daaraan. Als ik vervolgens vraag of dat voor alle regels geldt, zegt hij: nou, we zouden ze kunnen gaan herschrijven. Ik stel de vraag nog een keer: houdt de minister zich aan de regels die zijn afgesproken in het regeerakkoord, of houdt hij zich alleen aan de regels die zijn afgesproken in het regeerakkoord die hem bevallen?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg49">Nee, het gaat er niet om waar ik mij aan houd, maar om waar de regering en de coalitie zich aan wensen te houden. De afspraken staan totdat de coalitie eenstemmig zou besluiten de afspraken te veranderen. Gegeven de afspraken zoals ze zijn, zullen we ons daaraan houden, maar de coalitie kan besluiten om het anders te doen. Dat kan altijd. Dat gebeurt ook tijdens een kabinetsperiode. Nogmaals, ik hoop dat de onderhandelende partijen tempo maken, zodat ik dit allemaal niet meer meemaak.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg50">Tot slot, op dit punt.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg51">De regering houdt zich dus aan de afspraken, tenzij beide partijen samen bepalen dat ze andere afspraken maken. Het is dus niet zo dat een van de twee partijen daarvan afwijkt.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u44">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg52">Zo is het.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u45">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg53">En dat geldt voor alle afspraken uit de bijlage met de spelregels. Daar kom ik dan zo nog op terug, naar aanleiding van wat dit voor de onderwijsbegroting betekent, want ik geloof dat de minister dat niet helemaal doorheeft.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u46">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg54">Dit is een typisch Omtzigtiaanse opmerking. Ik heb geen idee wat hij bedoelt, maar de afspraken van de coalitie gelden totdat de coalitie iets anders afspreekt. Ik kan het hem adviseren, voor de komende jaren. Het is een praktische werkwijze.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u47">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg55">U mag reageren, mijnheer Omtzigt.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u48">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg56">Dank voor het advies, maar zoals mijn collega van D66 net al zei, staat er op de onderwijsbegroting een tegenvaller. Er is een scheiding van mee- en tegenvallers. Als er door nieuw beleid extra uitgaven gedaan moeten worden, kan dat niet volgens de begrotingsregels. Dan moeten eerst de tegenvallers weggewerkt worden. De minister kan dus pas beginnen met het verhogen van lerarensalarissen als hij de tegenvaller van een half miljard heeft weggewerkt. Dat staat in zijn begrotingsregels. Dat klopt, toch?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u49">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg57">Ook hiervoor geldt: als ik in de coalitie overeenstemming heb over de wijze waarop we het doen, dan doen we het zo.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u50">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg58">Vorige week was er een interruptiedebatje tussen de heer Krol en de premier, toen gesproken werd over de 5 miljard die naar de werkenden — helaas, alleen naar de werkenden — was gegaan. De premier zei toen dat hij wel luistert naar mogelijkheden om het eventueel anders te doen volgend jaar. De minister zei net dat het kabinet in 2018 ook andere afspraken kan gaan maken dan het tot nu toe misschien van plan was. Is het kabinet bereid om te kijken naar een aanzienlijke, exclusieve lastenverlichting voor ouderen, buiten de generieke lastenverlichting, om hun koopkrachtdaling in te halen? Ik heb al gewezen op de Wet uniformering loonbegrip en het feit dat in die 5 miljard niet gedeeld is door de ouderen. Er is een grote verlaging van 5 miljard geweest. De minister …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u51">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg59">Helder.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u52">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg60">De minister zegt dat hij elk jaar, als het nodig was, 1 tot 2 miljard heeft gedaan, maar bij die 5 miljard hebben we niet meegedaan. Kunnen wij nu zaken met u doen? Wilt u dat inbrengen in het eventueel bijstellen van de plannen voor de begroting van volgend jaar?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u53">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg61">Wij zullen doen wat wij elk jaar doen. In augustus kijken wij naar het koopkrachtbeeld. Als daar onevenwichtigheden in zitten en er, op basis van de laatste getallen die ik heb gezien, voor de ouderen een onevenwichtig beeld dreigt, zullen we daarop corrigeren.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u54">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg62">Ik doelde eigenlijk op het feit dat in 2016 die 5 miljard bijna in z'n geheel alleen naar de werkenden ging. De heer Krol heeft de premier vorige week gevraagd of hij daar iets aan wil gaan doen voor de volgende begroting. Hij zei toen dat hij daarnaar luisterde. Mijn vraag aan deze minister is of hij daar niet alleen naar luistert, maar die vraag ook meeneemt naar het begrotingsoverleg, want het kan niet zo zijn dat bij belastingverzwaringen de ouderen gewoon mee moeten doen, terwijl lastenverlichtingen exclusief naar de werkenden gaan, zoals met die 5 miljard gebeurd is.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u55">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg63">Die 5 miljard is een zeer gericht pakket geweest, met als doel de arbeidsmarkt beter te laten functioneren en mensen vanuit een uitkering aan het werk te helpen. Dat pakket was zeer gericht. Daar heeft 50PLUS geen sympathie voor. Dat betreur ik. Dat was, komende uit de crisis, een zeer gerichte en bewuste keuze om de arbeidsmarkt te ondersteunen en ervoor te zorgen dat mensen aan de onderkant aan het werk komen. Dat gebeurde deels door werkgevers tegemoet te komen, deels door ervoor te zorgen dat mensen gewoon netto meer overhouden in hun loonzakje.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg64">50PLUS heeft daar schande van gesproken. Ik ben het daar gewoon niet mee eens. Wat mij betreft, vraagt 50PLUS wel terecht om ervoor te zorgen dat de inkomensontwikkeling, ook die van de ouderen, een evenwichtig en rechtvaardig beeld oplevert. Dat is iets anders.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u56">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg65">De minister suggereert dat wij geen begrip hebben voor de maatregelen die zijn genomen voor werkenden, ook aan de onderkant van de arbeidsmarkt. Integendeel. Ons punt is alleen: als men de lasten verlaagt op arbeid en ook aan de onderkant, dan moet men ook de belastingen verlagen voor degenen die gewerkt hebben, op vroegere arbeid. Zo staat het ook in de wet. Je kunt geen leeftijdsdiscriminatie toepassen door te zeggen: we gaan wel de arbeidskorting verhogen, maar wij verhogen de ouderenkorting niet. Die werd twee jaar geleden aanvankelijk zelfs met €93 verlaagd. Dat is waar wij tegen ten strijde trekken.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u57">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg66">Dat is het goed recht van 50PLUS. Elk kabinet kan natuurlijk heel gerichte maatregelen nemen. Ik noem bijvoorbeeld het verhogen van de arbeidskorting. Als een kabinet de meerderheid van de Kamer achter zich heeft, kan een kabinet dat te allen tijde doen. Dat betekent niet dat je vervolgens weer voor iedereen daarbuiten en daaromheen ook maatregelen moet nemen om de koopkracht te versterken. Zo werkt het gewoon niet in de democratie. We hebben verschillende knoppen in het belastingstelsel. Die hoef je niet allemaal tegelijk te raken. Je kunt ook gewoon één knop een zwiep geven.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u58">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg67">Heel kort!</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u59">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg68">Het gaat mij er ten principale om dat het fiscale leeftijdsdiscriminatie is. Daar gaat de minister omheen. Als de minister de belastingen op arbeid verlaagt, moet hij ook de belastingen op niet-arbeid verlagen. Je kunt niet de nevendoeleinden van de belasting verheffen tot hoofddoel door alleen de belasting op arbeid te verlagen. Dat is in het verleden ook nooit gebeurd. Dat is in de laatste vier jaar extreem gebeurd met die arbeidskorting van €1.000 erbij.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u60">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg69">De heer Van Rooijen kan wel dit soort termen gebruiken, maar dat wil nog niet zeggen dat het waar is. Het is in het verleden natuurlijk ook zo vaak gebeurd dat er nieuwe instrumenten in de fiscaliteit werden geïntroduceerd om de arbeidsmarkt te stimuleren, om werkenden te helpen, om de ondernemers bij te staan en hun belastingdruk te verlagen. Je kunt daar niet voor zijn, je kunt zeggen dat het allemaal instrumentalisme is en dat je dat niet moet hebben in het belastingstelsel, maar ons belastingstelsel is ervan vergeven. De eenvoudige stelling dat als je aan een knop draait die werkt voor ondernemers of voor werkenden, je hetzelfde geld ook beschikbaar moet stellen voor niet-werkenden, is een politieke opvatting. Maar dat is niet hoe het stelsel in elkaar zit. Dat is ook niet een opvatting die breed wordt gedeeld. Je mag gewoon gerichte maatregelen nemen als dat politiek gewenst is.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg70">Dan de discussie over de lonen en de arbeidsinkomensquote. De nieuwe cijfers waar onze adviseurs gezamenlijk aan hebben gewerkt, laten inderdaad zien dat de arbeidsinkomensquote de afgelopen jaren is gedaald. Die ligt ook onder het langjarige gemiddelde. Dat duidt op ruimte voor hogere lonen. En ik zeg er altijd bij: het beeld verschilt per sector. Ja, het is zo. Die worden primair door de sociale partners bepaald. Vandaar ook mijn oproep, die inmiddels zeer breed wordt gedeeld. Het kabinet geeft daar zelf ook gevolg aan. We hebben in deze Voorjaarsnota bijvoorbeeld 300 miljoen vrijgemaakt om de hogere pensioenpremie te compenseren, zodat er nog steeds ruimte is voor loonsverhoging in de sectoren die onder het ABP vallen.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u61">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg71">Hoeveel ruimte is er precies beschikbaar voor loonsverhoging in de sectoren die onder het ABP vallen?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u62">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg72">Met deze 300 miljoen wordt het weer gemiddeld mogelijk om 1% loonsverhoging te krijgen.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u63">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg73">Dan gaat het over 1% loonsverhoging voor onderwijzers, defensiepersoneel, medeoverheden?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u64">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg74">Nu moeten we veel preciezer zijn, omdat het heel veel uitmaakt wat er nu al voor lopende afspraken zijn, wanneer cao's aflopen en wanneer er een nieuwe cao zou moeten worden afgesloten. Daarom formuleer ik het zorgvuldig. Met deze 300 miljoen is het mogelijk om 1% loonsverhoging over dit jaar voor deze sectoren te realiseren. In sommige sectoren was er al enige ruimte voor loonsverhoging. Daar wordt het aangevuld. In andere sectoren was er minder ruimte. Bij elkaar kom je dan op 1%.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u65">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg75">Die dik 300 miljoen voor de ABP-premie hoeft dus niet te worden afgedragen aan het ABP, maar kan voor de loonruimte worden gebruikt. Begrijp ik dat goed uit dit antwoord?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u66">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg76">Onze benadering is altijd: de loonruimte is 1. Voor een deel gaat dat naar de afdracht van pensioenpremie en voor een deel naar inkomen. Wanneer de premies voor het ABP fors omhooggaan, gaat dat dus ten koste van de totale loonruimte. Daarom hebben wij besloten om er 300 miljoen extra bij te doen, zodat er nog steeds ruimte is voor loonsverhoging. Anders zou het van de ruimte voor loonsverhoging zijn afgegaan, om het maar simpel te zeggen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u67">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg77">De heer Omtzigt, tot slot.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u68">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg78">Er blijft hierdoor dus wel 1% extra over voor loonsverhoging, gemiddeld voor het hele loongebouw, voor iedereen die onder het ABP valt?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u69">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg79">De formulering luistert nauw. Met deze 300 miljoen is er ruimte om voor deze sectoren gemiddeld 1% loonsverhoging te realiseren. Ik zeg het nogmaals zo, omdat het heel erg afhangt van de cao. Hoe lang loopt die nog en welke afspraken daarin lopen dit jaar nog door? Daarom is mijn formulering: met deze 300 miljoen is het mogelijk voor deze sectoren om dit jaar gemiddeld 1% loonsverhoging te krijgen.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u70">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg80">Voorzitter ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u71">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg81">Ik wil toch voorstellen dat de minister verdergaat met zijn antwoorden. Hij is nu iets van negen minuten bezig, maar we zitten al op een halfuur aan interrupties. Na elke zin interrumperen maakt het niet overzichtelijker. Er zijn heel veel vragen gesteld in de eerste termijn.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u72">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg82">Dan ga ik ...</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u73">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg83">Het gaat erom dat er dik 300 miljoen is toegevoegd. Daar staat ABP-premie bij. Die kan dus nu algemeen worden ingezet? Ik heb gewoon een heel specifieke vraag: tot hoeveel extra loonruimte leidt deze 300 miljoen, die voor een groot deel aan de onderwijsbegroting wordt toegevoegd, voor lerarensalarissen in het primair en secundair onderwijs? Hoeveel extra kunnen die worden verhoogd door deze extra toevoeging?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u74">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg84">Als u het per sector wilt weten, moet ik er in tweede termijn op terugkomen. De systematiek is zodanig dat, op het moment dat de ABP-pensioenpremie fors omhooggaat, de werkgevers dat voor een groot deel moeten betalen. Het gaat dus af van de loonruimte die er is aan de onderhandelingstafel voor de cao's. Er zijn helaas altijd twee onderhandelingstafels. Hier worden de pensioenpremies besproken door de sociale partners en daar de lonen. Als de premies fors worden verhoogd, is er daar geen geld meer over. Dus hebben wij gezegd: we leggen er 300 miljoen bij, over het geheel van de sectoren, zodat er nieuwe cao's kunnen worden afgesloten, waarbij in totaal voor deze sectoren gemiddeld 1% loonsverbetering mogelijk blijft. Die was er anders niet geweest; dan zouden wij weer hebben stilgestaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u75">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg85">Het spijt mij, mijnheer Omtzigt, maar ik stel voor dat de minister verdergaat met zijn antwoorden. U krijgt nog de gelegenheid om vragen te stellen.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u76">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg86">Ik zal in de tweede termijn terugkomen op het punt van de onderwijssectoren en op de vraag hoe het voor hen werkt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u77">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg87">Gaat u verder.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u78">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg88">Ik kom nu bij Europa. Er zijn veel vragen gesteld door de heer Van Dijck over de visies die de Europese Commissie heeft uitgebracht. Veelal zijn dat notities met scenario's. Er zitten nog geen keuzes in. Het is ook niet de verwachting dat op korte termijn in Europa beslissingen worden genomen over zaken als een begroting voor de eurozone, eurobonds, een Europese minister van financiën et cetera. U ontvangt van ons binnenkort een wat uitgebreidere reactie op het EU-reflectiepaper. U kunt dat natuurlijk terzijde leggen, wetende dat er een nieuw kabinet komt, waar misschien wel nieuwe opvattingen op dit punt uit zullen komen. Dat kan ik niet voorspellen. Ik verwacht in ieder geval niet meer dat dit demissionaire kabinet in Europa een standpunt moet bepalen over deze visionaire ideeën.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg89">Is brexit een lijk in de kast? Is het een tegenvaller en moeten wij in de buidel tasten? Het VK is in Europa een forse nettobetaler. Als zij weggaan, blijft er dus een netto gat achter. Daarom zet Nederland in op een zowel gemoderniseerd als financieel houdbaar MFK. Dit betekent dat de begroting terug moet in omvang, zodat de Nederlandse afdracht niet zal stijgen door de brexit. Dat is onze opvatting daarover. Ook hier luistert de formulering nauw. De Nederlandse afdracht zal waarschijnlijk wel stijgen, zij het om andere redenen. Dat is ook al voorzien in onze meerjarenraming, maar ons streven is om de afdracht niet verder te laten stijgen door brexit. Dat is het, kort gezegd. Wij hebben onlangs een AO gehad over het MFK met de commissie voor Buitenlandse Zaken, dacht ik.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg90">Voorzitter, de volgorde van beantwoording is misschien niet volstrekt logisch, maar ik ga maar gewoon even door de stapel vragen heen. Er zijn vragen gesteld over de scheiding van inkomsten en uitgaven. De heer Omtzigt heeft daarnaar gevraagd. Is daar nog sprake van? Ja, daar is sprake van. We blijven onder het uitgavenkader, dus daar zit ook geen spanning op. Zoals de heer Omtzigt weet, verwachten we op dit moment om daar 1 miljard onder te blijven. Een aantal knellende zaken die extra uitgaven vergen, hebben we onder het uitgavenplafond kunnen oplossen. Dan nog is er ruimte binnen het uitgavenkader. Er is dus geen sprake van dat we dat plafond geregeld hoeven te overtreden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg91">Begrotingsregel zes hebben we gehad.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg92">De heer Azarkan van DENK heeft gevraagd naar kasschuiven. Wordt hiermee niet kunstmatig de korte termijn verbeterd, terwijl de lange termijn verslechtert? Nee, dat is niet zo, maar ik denk dat het probleem ontstaat doordat we in de meerjarige bijlage van de Voorjaarsnota de jaarschuiven hebben laten zien, 2017 tot en met 2021. Als je die alleen bekijkt, dan lijkt het alsof het beeld met 1,3 miljard wordt belast. Ook moeten kasschuiven bij elkaar opgeteld neutraal in hun effect zijn. Het volledige beeld krijg je als je 2016 tot en met 2022 neemt. Dan zie je dat de optelling van deze schuiven weer neutraal is. Ik denk dat daar het misverstand vandaan komt.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg93">Dan de begroting van Onderwijs. In de afgelopen jaren hebben we inderdaad veel tijd besteed aan begrotingen zoals die van V en J en Defensie. Ik kom daar zo nog op. Op dit moment is er veel aandacht voor de begroting van Onderwijs. De heer Omtzigt heeft een interessante politieke vraag gesteld. Hij begon te zeggen dat het zonde is dat de minister van Financiën niet meer op de centen zit. Mij wordt zelden verweten dat ik niet op de centen zou zitten. Het overschot verdwijnt als sneeuw voor de zon, zei hij. Het tegenovergestelde is waar. We moeten wel een beetje bij de feiten blijven.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg94">We verwachtten dit jaar aanvankelijk een tekort, maar dat is omgeslagen in een overschot en dat overschot neemt op dit moment nog bij elk nieuw begrotingsstuk verder toe. Ik kom zo nog te spreken over het effect van het kwaliteitskader voor de zorg, maar het is bepaald niet zo dat het overschot verdwijnt als sneeuw voor de zon. Misschien bedoelde de heer Omtzigt het houdbaarheidssaldo. Dat zal het CPB opnieuw berekenen, mogelijk op Prinsjesdag en anders bij het aantreden van het nieuwe kabinet. Dan wordt het overheidssaldo opnieuw bepaald. Ook daarvoor geldt dat de uitgaven aan de verpleeghuizen een effect zullen hebben op het houdbarheidsoverschot, maar ik ga er toch vanuit dat we nog steeds houdbare overheidsfinanciën zullen hebben. We zullen het wel horen en zien van het CPB.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg95">Dan kom ik op de onderwijsbegroting. Bij onderwijs staat nog een taakstelling open. Die taakstelling is verder verhoogd door de tegenvaller, die eigenlijk een meevaller is, op de leerlingenramingen. We hebben daarvan afgesproken dat we die voor het lopende jaar dekken. Wij zijn immers nog verantwoordelijk voor de begroting. Als wij op Prinsjesdag een nieuwe begroting moeten presenteren, zullen we natuurlijk ook de begroting van 2018 netjes sluitend maken, ook voor OCW. Het dilemma is hoe we omgaan met de langeretermijntaakstellingen. Moeten er nog maatregelen komen, moeten die op Onderwijs gebeuren of elders? Tot nu toe is onze afweging dat we dat over moeten laten aan de onderhandelingstafel, omdat daar mogelijk verschillend over gedacht wordt tussen de onderhandelende partijen. Als het anders is, staan wij open voor political guidance richting Prinsjesdag. Maar dat zullen we dan bezien.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg96">Dat geldt ook voor wensen die op onderwijsgebied leven. Er zijn vragen gesteld over 10 miljoen extra voor het cultuurbudget die de Kamer beschikbaar heeft gesteld. Ik kan er op dit moment echt niets over zeggen. We zullen dat in augustus mogelijk betrekken bij de besprekingen. Anders zal het opnieuw vanuit de Kamer moeten komen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg97">Er zijn vragen gesteld over het onderwijsachterstandenbeleid. Op basis van de oude verdeelsystematiek en oude criteria neemt het aantal laagopgeleide ouders gelukkig gestaag af. Dat was het criterium voor geld voor onderwijsachterstandenbestrijding. Dat budget kon dus naar beneden worden bijgesteld. Dat is de bezuiniging die je nu ziet. Dat is mogelijk, omdat er minder laagopgeleide ouders zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg98">Daardoorheen loopt de discussie of er dan niet een nieuwe verdeelsystematiek moet komen en of dit criterium nog wel goed is. De staatssecretaris van Onderwijs heeft gezegd dat hij dat volgend jaar nog niet gaat doen. Hij is nog in overleg met de VNG over de verdeelsystematiek. Ook hiervoor gaan wij op dit moment geen maatregelen nemen. Nogmaals, in augustus kunnen we zaken overwegen, maar in principe is de staatssecretaris van Onderwijs hiermee bezig.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg99">Al deze onderwijswensen zullen we in augustus bekijken, mede in het licht van wat we doen met de openstaande taakstelling. Ik kan er op dit moment niet zo heel veel meer over zeggen.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u79">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg100">Als er geen extra geld voor het onderwijs komt, voor de salarissen boven op het ABP, betekent dat dan dat de minister van Financiën wel aftreedt, dat hij niet aftreedt of dat het nog niet bekend is?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u80">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg101">Ik speculeer nooit over aftreden. Ik doe het of ik doe het niet, maar ik ga er niet over speculeren.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u81">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg102">Toch heeft de vicepremier gezegd dat de PvdA-bewindspersonen, van wie deze minister van Financiën er eentje is, zullen aftreden als er geen extra geld voor de lerarensalarissen in het primair onderwijs komt. Mijn vraag is niet om hoeveel geld het precies gaat — dat zal een kwestie van onderhandelen zijn — maar of deze minister op dit moment dreigt met aftreden of niet dreigt met aftreden?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u82">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg103">Ik praat nooit over aftreden tot het moment dat ik aftreed.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u83">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg104">Dan concludeer ik dat deze minister van Financiën een eigen afweging maakt en zich niet voegt bij de minister van Sociale Zaken.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u84">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg105">Dat kunt u doen, maar dat zegt mij ook niets. Ik ben ook lid van een fractie. Mijn politiek leider zal zijn politieke afweging met de fractie maken, mocht die situatie zich voordoen. Ik speculeer niet over mijn aftreden tot het moment dat ik weg ben.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u85">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg106">Dit ging niet over de fractie. De fractie kan altijd een motie van wantrouwen indienen en het Kamerlid Dijsselbloem kan gerust een motie van wantrouwen indienen tegen minister Dijsselbloem. Dat kan in de Nederlandse situatie allemaal.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u86">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg107">Zo is dat!</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u87">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg108">Ik had niet bedacht dat zulke absurditeiten zouden gebeuren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u88">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg109">Waar wilt u naartoe?</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u89">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg110">Naar de simpele vraag ... Er zitten overal PvdA'ers, waar ik kijk. Wat bedoelt minister Asscher als hij zegt: ik trek de PvdA-bewindspersonen terug uit het kabinet als er niks gebeurt met de salarissen in het primair onderwijs? Is dat een PvdA- of kabinetsbesluit of kijken we wel wat er gebeurt?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u90">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg111">Dat lijkt mij geen kabinetsbesluit, als het zich al zal voordoen. Het is vrij simpel. Zolang de Partij van de Arbeid verantwoordelijkheid moet dragen voor de begroting, zal zij die verantwoordelijkheid moeten willen en kunnen dragen. Dat gaat natuurlijk gepaard met politieke wensen, zaken die in de begroting moeten terugkomen. Ik heb er twee genoteerd, waarin ik mij ook zeer herken: een evenwichtig koopkrachtbeeld en de prioriteit voor de salarissen in het primair onderwijs. Dat is helder. Ik roep de heer Omtzigt en zijn collega's op: maakt u haast, maakt u voort, het land wacht op u. Dan kunt u zelf de begroting maken. Dat zou mij ook enorm opluchten.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u91">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg112">Ik snap het antwoord van de minister van Financiën erg goed. Ik heb hem ook afgelopen vrijdag op de radio gehoord. Daar heeft hij uitgelegd dat het eigenlijk heel erg logisch is dat de handtekening van de Partij van de Arbeid niet onder een nieuwe begroting zal komen als dit niet geregeld wordt; het gaat namelijk ieder jaar zo. Daar zei hij het dus wel heel stellig. Dus op het moment dat het niet lukt om iets aan de lerarensalarissen in het basisonderwijs te doen, gaat de handtekening er niet onder.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u92">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg113">Ik zou de SP echt aanraden en haar ook toewensen om eens in een coalitie te zitten. De SP zal als coalitiepartij nooit akkoord gaan met een begroting waar zij zich politiek niet thuis bij voelt, waarvoor zij de verantwoordelijkheid niet wil dragen. Dat is toch elk jaar zo? U denkt toch niet dat we de afgelopen jaren begrotingen hebben gepresenteerd waar we als PvdA niet achter stonden? Als dat het geval was geweest, waren we er al jaren geleden uitgestapt. Dat was niet het geval. We lossen de zaak op.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u93">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg114">Dat kan enigszins verklaren waarom de verkiezingsuitslag zo is geweest zoals die is geweest. Zeker op het gebied van zorg zijn er nogal pijnlijke zaken gebeurd.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u94">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg115">Maar de SP heeft dacht ik ook geen briljante verkiezingsuitslag neergezet. Ze heeft inderdaad wel alles beloofd wat maar te beloven viel, bijvoorbeeld op het terrein op de zorg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u95">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg116">Ik dacht dat de campagne achter de rug was.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u96">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg117">Dat dacht ik ook.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u97">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg118">Ik vind het juist zo ontzettend vriendelijk dat de minister van Financiën ons toewenst dat we ook een keer in de regering zitten. Dat hopen we ook zeer.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u98">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg119">Absoluut, samen ook.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u99">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg120">Wellicht ontstaat er eens een keer een vruchtbare samenwerking tussen onze partijen in de oppositie. Wellicht komt er wel helemaal geen regering met de VVD. Het kan allemaal nog! Maar ik had het even over de uitspraak van de vicepremier van de Partij van de Arbeid, die had gezegd: onze handtekening gaat er niet onder. Daar ging ook de vraag van de heer Omtzigt over. U ontwijkt de vraag hier een beetje — ook een beetje handig; gun ik u allemaal — maar op de radio was u heel duidelijk. U zei gewoon: dat is onze inzet en als het er niet in komt, stemmen we niet in. Dus de handtekening van de PvdA komt er niet onder als het niet geregeld is.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u100">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg121">Ik ben zo verbaasd dat mevrouw Leijten verbaasd is dat het zo werkt. Ik heb op de radio gezegd dat de wensen die de vicepremier en de leider van de Partij van de Arbeid op tafel heeft gelegd, volstrekt legitiem zijn. Als je in de coalitie zit, ben je verantwoordelijk. Ik hoop, nogmaals, dat het niet gebeurt, maar als wij de begroting op Prinsjesdag moeten presenteren, wil ik er ook achter kunnen staan. Dan kun je zeggen: u mag niets meer. Ja ammehoela, we zijn er wel verantwoordelijk voor. Dus gaan we zorgen dat er een net koopkrachtbeeld in zit. Dus gaan we zorgen dat een aantal politieke prioriteiten die urgent zijn naar het oordeel van het kabinet, in die begroting komen. Ja, zo is het.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u101">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg122">Tot slot, mevrouw Leijten.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u102">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg123">Ik vond het op de radio ook zo helder.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u103">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg124">Dank u wel.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u104">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg125">Ik vond het ook zo ontzettend duidelijk om uit te leggen: natuurlijk hebben we nog een missie, als wij hier verantwoordelijkheid voor nemen. Die missie is: de salarissen van de basisschooldocenten, van de meesters en de juffen die aan het staken zijn. Maar toen was de vraag hier "zet u nu wel of niet uw handtekening?" en dan ontwijkt u een beetje het antwoord. Daarop kan gewoon heel simpel een ja of een nee volgen.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u105">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg126">Ik ga het mevrouw Leijten nog een keer uitleggen. De positieve benadering is als volgt. Als je een begroting presenteert, zorg je dat je erachter kunt staan. Als wij er niet achter kunnen staan, bijvoorbeeld omdat er niets wordt geregeld voor de salarissen in het P.O., zullen we de begroting dus niet mede kunnen presenteren. Zo is het elk jaar. Daarom heb ik gezegd dat ik het op tafel leggen van je eisen — dit wil ik regelen in de begroting voor volgend jaar — volstrekt legitiem vind. Natuurlijk, als al die eisen, die wensen van tafel worden geveegd, omdat ze niet zouden kunnen, kun je niet verwachten dat de Partij van de Arbeid haar verantwoordelijkheid draagt. Zo simpel is het.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u106">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg127">Gaat u verder.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u107">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg128">Mevrouw Leijten vindt het nog steeds onhelder, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u108">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg129">U mag niet reageren op mevrouw Leijten.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u109">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg130">O, ik mag niet reageren. Goed, zo gaat het elk jaar. We zullen zien. In augustus maken we de begroting af.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg131">Ik heb het gehad over de cultuur en de 10 miljoen en over de vraag of het een taakstelling is of een bezuiniging. Daarmee is Onderwijs klaar en ga ik naar V en J. Daar zijn kritische vragen over gesteld. Dat is ook logisch gegeven de problemen die we de afgelopen jaren hebben gehad. De heer Omtzigt heeft gevraagd of we de doelmatigheid bij de nationale politie wel kunnen monitoren of dat de wet op dat punt dan moet worden gewijzigd. Ik begrijp zijn vraag zo dat de begroting, het beheerplan en het jaarverslag van de nationale politie weliswaar tegelijk met de begroting en het jaarverslag van V en J naar de Kamer worden gestuurd, maar dat de Kamer er niet rechtstreeks op kan amenderen. Ik zie dat dat niet zijn punt is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u110">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg132">Bent u klaar met dit onderdeel?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u111">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg133">Ik heb wat toelichting nodig van de heer Omtzigt op zijn punt over de politie.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u112">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg134">Het punt is niet dat we niet kunnen amenderen of het jaarplan kunnen aanpassen, het punt betreft de controle achteraf. De president van de Algemene Rekenkamer heeft aangegeven dat hij bij bijvoorbeeld het leger en het Openbaar Ministerie wel alle posten kan controleren op doelmatigheid en rechtmatigheid, maar bij de politie niet dezelfde controle kan doorvoeren. Mijn vraag is of het niet gepast zou zijn om ervoor te zorgen dat de Algemene Rekenkamer op dezelfde manier kan kijken of de bedrijfsvoering bij de politie gelopen is conform plan, net als hij dat bij het leger kan.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u113">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg135">Mijn korte antwoord daarop is ja. Ik ben het met de heer Omtzigt eens, maar mijn beeld is een andere dan dat van de president van de Rekenkamer. Ik zal daar in tweede termijn nog even op terugkomen. Mijn beeld is dat de Rekenkamer volledig kan toezien op de doelmatigheid en rechtmatigheid van de besteding bij de nationale politie. Als dat niet zo is, moeten we daar goed naar kijken. Daar ben ik vrij eenvoudig over. Ik kom daar graag in tweede termijn op terug.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg136">De heer Nijboer vraagt zich ook af of het wel helemaal goed gaat bij de begroting van V en J. Er wordt eenmalig vermogen afgeroomd bij de agentschappen. Er is de afgelopen jaren bij herhaling geld toegevoegd aan de begroting van V en J: 250 miljoen en in 2017 nog eens 450 miljoen. Die extra middelen zijn voor een groot deel naar de politie gegaan. We doen ook veel aan de systematiek, het begrotingsbeheer en de controle op de begroting van V en J. Op al die punten wordt gewerkt aan verbeteringen. Financiën en V en J hebben samen gekeken naar de uitvoeringsorganisaties en de daar bestaande vermogens. Het is naar ons oordeel gewoon mogelijk om een deel van die eigen vermogens eenmalig af te romen, zonder dat hiermee onverantwoorde risico's worden genomen. Ik vind het terecht dat, als er geld wordt opgepot en er tegelijkertijd financiële problemen zijn, we daar zeer kritisch naar kijken.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg137">De heer Omtzigt heeft nog een vraag gesteld over ICT-projecten bij de politie en gezegd dat de Algemene Rekenkamer hierover aan de bel trekt. De Algemene Rekenkamer constateert dat de nationale politie vooruitgang heeft geboekt op ICT-gebied, met name op het gebied van sturing en beheersing. Er is weloverwogen voor gekozen om eerst te investeren in het verbeteren van de ICT-infrastructuur om te komen tot stabiliteit en betrouwbaarheid van de systemen, maar de Rekenkamer vraagt expliciet aandacht voor de vernieuwing van de informatievoorziening bij de nationale politie. Die aanwijzing, dat advies van de Rekenkamer wordt door de minister van V en J opgepakt. Hij zal die vernieuwing met volle kracht voortzetten.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg138">Mevrouw Leijten heeft aandacht gevraagd voor de werkdruk en de capaciteit bij de politie. Zij heeft daarover ook een amendement ingediend. Daar zal ik bij de bespreking van de amendementen op ingaan. Dat geldt ook voor de onderwijssalarissen. Dat punt staat ook in een amendement van mevrouw Leijten.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg139">Dan een aantal onderwerpen die zijn gerelateerd aan Sociale Zaken, zoals de kostendelersnorm. Wij hebben in het kader van "geen dingen achterlaten" of — die term is vaak gevallen — "lijken in de kast opruimen" inderdaad een aantal zaken opgeruimd die niet meer levensvatbaar bleken, laat ik het maar zo formuleren. Een ervan was de kostendelersnorm. Die hebben we opgeruimd. Nu vraagt de heer Snels of dat ook niet moet gelden voor het korten van de Wajong per 2018. De Wajongers met een arbeidsvermogen gaan terug van 75% wettelijk minimumloon naar 70% en tegelijkertijd moeten deze mensen maximaal, optimaal aan het werk worden geholpen, zodat ze weer 100% minimumloon kunnen verdienen. Dat heeft te maken met de inzet rond de Participatiewet. Het bedrijfsleven doet het op dat vlak goed en de overheid moet het beter doen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg140">De heer Snels stelde ook een vraag over de decentralisatie van het sociaal domein: komen gemeenten nu niet als gevolg van de decentralisatie in financiële problemen? Ik heb dat beeld niet. Er zijn problemen, maar er zijn ook forse overschotten. De gemeenten hebben voor het eerst sinds jaren macro een overschot op hun begroting. Er zijn ook aantoonbare overschotten bij veel gemeenten op bijvoorbeeld de Wmo. Het idee is nu juist dat gemeenten veel meer eigen verantwoordelijkheid hebben en ook de mogelijkheid hebben om binnen die grote budgetten te schuiven en hun problemen zelf op te lossen. Het is niet zo — dat kun je zo echt niet zeggen — dat dé decentralisatie heeft geleid tot financiële problemen bij dé gemeenten. Dat is pertinent niet waar.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg141">Dan komen we bij het grote onderwerp van de langdurige zorg. De heer Omtzigt heeft iets breder gevraagd naar de verschillende mee- en tegenvallers binnen het BKZ. Hij heeft gevraagd: kan de minister bij de Miljoenennota inzicht geven in alle mee- en tegenvallers in de zorg sedert de vorige Miljoenennota? Alle ontwikkelingen die op dat moment spelen, zullen we meenemen in de Miljoenennota. Dat geldt ook voor de budgettaire gevolgen van het kwaliteitskader. Die worden ook meegenomen in de begroting die op Prinsjesdag verschijnt. In de verticale toelichting zullen we dan alle mee- en tegenvallers opnemen. Dat kan ik toezeggen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg142">Om tijdig duidelijkheid te verschaffen aan de sector voor het komende jaar, heeft staatssecretaris Van Rijn gisteren aan de sector laten weten, en ik dacht ook aan de Kamer geschreven in antwoord op vragen, om boven op de 100 miljoen nog eens structureel 335 miljoen beschikbaar te stellen aan de verpleeghuissector. Dit volgt uit het nieuwe kwaliteitskader.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg143">Daarover zijn veel vragen gesteld. Hoe is het nu tot stand gekomen? Had de minister van Financiën dat moeten weten? Dit volgt gewoon rechtstreeks uit een aantal wetten die voor de sector gelden. Die wetten zijn in deze Kamer — mevrouw Leijten refereerde er ook aan — jarenlang besproken en vervolgens vastgesteld. Ik neem aan dat de Kamer bij haar volle verstand was toen zij dat deed. De Wkkgz is daarin heel belangrijk; mevrouw Leijten weet dat beter dan ik. De sector kan onder het gezag van het Zorginstituut kwaliteitskaders opstellen. Als de sector dat niet doet, kan het Zorginstituut het ook zelf doen. Het Zorginstituut kan het kader ook aanpassen of verwerpen, maar men kan het ook overnemen en inschrijven. Dat laatste is gebeurd, het is ingeschreven. Op dat moment was al bekend dat het een fors bedrag zou kosten. Vervolgens heeft het CPB er nog naar gekeken. Men heeft gekeken naar de vraag wat het betekent als je het efficiënt invoert. Wat kost het als je aan alle instellingen, ongeacht hoe ze worden gerund, deze middelen toekent? Over wat voor bedrag heb je het dan? De laatste stand op dit punt is dat we 2,1 miljard extra nodig hebben, structureel, om dit kwaliteitskader voor de verpleeghuizen mogelijk te maken.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg144">Daar zit de NZa nog tussen, want die stelt op basis van het nieuwe kader dat door het Zorginstituut is ingeschreven, de tarieven vast. Vervolgens kijkt het CPB mee naar het type bedragen dat daar macro uitkomt. Dat is inderdaad juridisch bindend. Een van u stelde de vraag waarom dit niet meteen is verwerkt in de Voorjaarsnota. Toen wij de Voorjaarsnota opstelden, waren we bezig om zaken uit te werken. We zijn dat nog steeds. We willen bijvoorbeeld precies weten om welk bedrag het straks in totaal gaat. De laatste en de beste raming tot nu toe is 2,1 miljard. In welk tempo kan dat worden geïmplementeerd? Het geld moet immers ook worden geabsorbeerd. Er moeten mensen worden geworven en opgeleid. Dat kost gewoon tijd. Het gaat om een grote impuls. We hadden op dat moment nog niet voldoende informatie om dat in de Voorjaarsnota te verwerken anders dan dat we nu weer een extra stapje zetten. Dat is die 100 miljoen structureel.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg145">We weten dus nu al dat we in de begroting op Prinsjesdag daarbovenop nog eens 335 miljoen intensiveren. Zoals het er nu uitziet, kunnen we dat dekken binnen het BKZ, binnen het kader voor de zorg. Dat geldt natuurlijk niet voor de hele reeks langjarig. Een nieuw kabinet zal echt moeten besluiten hoe het dat wil dekken. Het zal moeten besluiten of het BKZ, het zorgkader, gewoon wordt verruimd zodat het daar met nieuw geld kan worden gefinancierd, of er maatregelen moeten worden genomen, of er misschien elders een besparing moet plaatsvinden enzovoort. Dat zijn allerlei mogelijke manieren om dat oplopende bedrag te dekken. Ik denk dat dit niet meer aan ons is, maar als we de begroting 2018 presenteren, zullen we ook voor 2018 laten zien hoe het gedekt is.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u114">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg146">In de stukken bij de Voorjaarsnota staat nog een overschot van 1,3% op de begroting in 2021. Uitgaand van de nieuwe ook juridische realiteit rond de zorg, heb ik twee vragen. Ik denk dat die ook voor het onderwijs gelden, zij het dat dit een andere casus is. Als je nu opnieuw die tabel zou maken, zou het overschot in 2021 dus niet iets van 1,3%, maar eerder iets van 1% bbp zijn, rekening houdend met de juridisch verplichte 2,1 miljard? Ik begrijp de minister dus zo dat het Centraal Planbureau dit zowel rond de zorguitgaven als bij het onderwijs al heeft ingeboekt en dat het in die zin gewoon rekent met een overschot dat drie tiende lager is dan waar de minister in de Voorjaarsnota van uitging. Klopt dat?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u115">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg147">U moet dat iets amenderen. Ten opzichte van de Voorjaarsnota raken we daarmee voor 2021 0,2 procentpunt kwijt en niet 0,3. We gaan van 1,3% naar 1,1% overschot. Voordat dit getal zich weer in uw hoofd nestelt en u op Prinsjesdag vraagt "waar is mijn 1,1 gebleven?", zeg ik er echter bij dat we op Prinsjesdag weer een nieuwe MEV, nieuwe ramingen van de groei en nieuwe ramingen van begrotingscijfers hebben. Dan kan het ook weer anders zijn. Het scheelt 0,2 om het …</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u116">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg148">Het scheelt 0,2 op de zorg, maar ik heb de minister eerder horen zeggen dat ook dat half miljard op onderwijs anders wordt ingeboekt door het CPB. Met die drie samen kwam ik tot 0,3 procentpunt en op 1. Maar ik begrijp het nu: in de berekeningswijze van het CPB wordt in totaal een 2,1 plus 467 miljoen — dat is samen iets van 2,5 miljard — lager overschot ingeboekt dan de minister in de Voorjaarsnota doet.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u117">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg149">Nee, dat kun je ook weer niet zeggen omdat het CPB dat zelf bepaalt en nog niet definitief heeft bepaald hoe het bepaalde reeksen zoals de kosten van het kwaliteitskader gaat inboeken. Om meteen antwoord te geven op de vraag van de heer Harbers: dat hangt af van de wijze waarop je dit straks gaat invoeren. Dit kwaliteitskader ligt er nu. Je moet er dus voor zorgen dat alle verpleeghuizen daaraan gaan voldoen. Je kunt dat op een efficiënte manier doen, namelijk door je te richten op de instellingen die een achterstand hebben. Die moeten dat dan alsnog opkrikken. Ik ga niet op de techniek in hoe dat moet. We noemen dat harde benchmarking. Er wordt dan dus gezegd: u moet daaraan voldoen en op basis daarvan gaan we financieren. Dan kom je op 2,1 uit. Als je het geld op deze efficiënte, gerichte manier inzet, kom je op 2,1 uit. Als je gewoon zegt "onafhankelijk van hoe u ervoor staat en hoe u het doet", kost het veel meer. Het kabinet — VWS heeft het voortouw daarbij — werkt nu aan een manier om dit kwaliteitskader te gaan invoeren en te vertalen naar tarieven en een tariefstructuur zodat het geld op de goede plekken terechtkomt. Dan hopen we dat het CPB straks in de MEV die op Prinsjesdag verschijnt, 2,1 opschrijft. Dat is nog niet zeker.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u118">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg150">In mijn woorden is die 1,2 miljard dus het minimale, plus die 467 miljoen. En dat kan nog meer worden, afhankelijk van hoe het CPB de maatregelen van het kabinet scoort. Ik zie dan dus in ieder geval dat een zeer substantieel bedrag, namelijk 2 miljard en mogelijk zelfs meer, plus de bijna 500 miljoen van het onderwijs, in ieder geval niet in het meerjarig beeld van de MEV zullen zitten, terwijl ze nog wel in de Voorjaarsnota zaten.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u119">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg151">Ik aarzel om mee te gaan met de redenering van de heer Van Weyenberg. Hij identificeert nu namelijk twee onderwerpen en trekt dan de conclusie dat er bepaalde cijfers in de MEV komen te staan. Zo gaat het gewoon niet werken. In de MEV komt ook weer een nieuwe groeiraming, die beter of slechter kan zijn. De belastinginkomsten kunnen hoger of lager zijn. Het saldo kan dus nog aanmerkelijk verbeteren, maar het kan ook zomaar tegenvallen.</seg>
+            </u>
+            <u who="#BartSnels" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u120">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg152">Mijn vraag gaat specifiek over dit jaar, de Voorjaarsnota en de 100 miljoen. Ik weet niet of de minister daar nog op ingaat, maar heel specifiek was de vraag wat 100 miljoen oplevert aan kwaliteitsimpuls in de verpleeghuiszorg.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u121">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg153">Het is voor ons heel simpel. Wij hebben een andere benadering gekozen. Wij hebben gezegd: wij zitten nu halverwege het jaar; hoeveel geld kunnen we zinvol ter beschikking stellen dat ook dit jaar nog tot besteding kan komen, bijvoorbeeld — om het populair te zeggen — in de zin van meer handen aan het bed, dus in de zin van meer verzorgenden, of in de zin van ondersteuners die zich bezighouden met dagelijkse begeleiding en dagactiviteiten voor de bewoners van verpleeghuizen? Wat kun je in een halfjaar op dit moment, op zo'n korte termijn, zinvol extra besteden? Bovenop de 100 miljoen die er voor dit jaar al eenmalig was, heb ik toen gezegd: nog een keer 100 miljoen daarbovenop. Dat geld moet het komende halfjaar dus alsnog naar alle verpleeghuizen toe. Zij moeten dan mensen gaan werven; dat moet worden besteed. U zegt dat het allemaal veel meer en veel sneller had gemoeten, maar dat kan praktisch gewoon niet. Dat is dus een sympathieke maar theoretische gedachte.</seg>
+            </u>
+            <u who="#BartSnels" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u122">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg154">Mijn analyse begon bij het uitgavenkader. De zorg is verhoogd, maar de uitgaven voor de zorg staan al vastgeprikt bij de Miljoenennota. We weten dat de lonen en prijzen gestegen zijn. Ik heb daar zelf op de achterkant van een bierviltje een berekening van gemaakt. Die 100 miljoen is ongeveer genoeg om de loon- en prijsstijgingen in de verpleeghuiszorg te compenseren. Dat betekent volgens mij dat dit kabinet in deze periode met die extra 100 miljoen in 2017 geen extra impuls kan geven aan verbetering van de kwaliteit van de verpleeghuiszorg: geen extra handen aan het bed, wel een iets betere betaling van de verpleegsters.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u123">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg155">Ik stel voor dat ik daar in de tweede termijn op terugkom, want nu begrijp ik de vraag pas goed. De heer Snels zegt dat dit geld al weg is aan lonen. We zullen daar in de tweede termijn op terugkomen. Dit heeft heel veel te maken met het moment waarop de loon- en prijsbijstelling wordt vastgesteld en uitgekeerd. We komen daar in de tweede termijn nog even op terug.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg156">Over het saldo hebben we het gehad. De heer Snels heeft het ook gehad over de ruilvoetproblematiek. Ook dat punt pakken we in de tweede termijn op. Wij streven ernaar om het zo vorm te geven dat we het kwaliteitskader kunnen invoeren met 2,1 miljard. Dat gaan wij dan opnemen in de begroting. Wij gaan als demissionair kabinet dan in ieder geval het jaar 2018 van dekking voorzien, zoals we 2017 op alle onderdelen van dekking hebben voorzien. Voor de jaren daarna is het aan een nieuw kabinet hoe het de middelen hiervoor vrij wil maken. In de aanloop naar de zomer zullen we dus veel energie steken in de verdere vormgeving van hoe dit kader kan worden bereikt.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg157">Er zijn ook vragen gesteld over de Belastingdienst. De heer Omtzigt heeft gezegd dat de begroting van de Belastingdienst de komende jaren nog met 600 miljoen naar beneden gaat. Ik meen dat wij deze discussie ook hebben gevoerd in het kader van het Verantwoordingsdebat. Ik heb toen gezegd dat die verdere daling van het budget is belegd met maatregelen die natuurlijk samenhangen met de Investeringsagenda. De Investeringsagenda wordt op dit moment herijkt. De Kamer wordt daarover geïnformeerd en dat is het goede moment om deze vraag in alle scherpte nog eens te stellen. Met de nieuwe herijkte Investeringsagenda is het mogelijk om deze taakstellingen te realiseren in de komende jaren.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u124">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg158">Ik hoor hier een soort aankondiging: u krijgt een herijking. Die komt inderdaad in de zomer. De minister voegt hieraan toe dat wij bij de herijking zullen zien dat er meer moet worden uitgegeven aan de Belastingdienst. Nu de bezuiniging op de Belastingdienst de komende vier jaar 600 miljoen bedraagt, hoe waarschijnlijk is het dan dat er rond Prinsjesdag of daarna een megategenvaller op de nu voorspelde uitgaven voor de Belastingdienst zal zijn?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u125">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg159">Ik neem de heer Omtzigt altijd serieus, maar nu legt hij mij dingen in de mond. Ik heb gezegd dat dat bedrag van 600 miljoen is belegd met maatregelen, maar dat die maatregelen ook samenhangen met de Investeringsagenda. Die Investeringsagenda wordt nu herijkt. Hebben wij de goede dingen nu op de rails staan, zijn het realistische aannamen, is het haalbaar, is het goed onderbouwd? Wij moeten op basis van die herijkte Investeringsagenda opnieuw de vraag stellen: zijn alle verwachtingen, inclusief de financiële verwachtingen, nog steeds haalbaar. De heer Omtzigt trekt hieruit meteen de conclusie dat er dus een grote tegenvaller aankomt. Dat heb ik in alle ernst niet gezegd.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u126">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg160">Wat verwacht de minister dan dat er aankomt? Die herijking is al meer dan een half jaar aan de gang. De Kamer heeft erom gevraagd, omdat na de afvloeiingsregeling niet alles volgens plan verliep. Moeten wij rekening houden met een forse tegenvaller of moeten wij maar gewoon rustig wachten tot er iets komt?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u127">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg161">De staatssecretaris heeft gezegd, en dat was ik met hem eens, dat nu, ook gegeven de voorgeschiedenis, kwaliteit voor tijd gaat. Wij willen nu echt een goed onderbouwde, op solide grond gebouwde Investeringsagenda, inclusief de financiële effecten, inclusief het in acht nemen van de openstaande taakstelling van 600 miljoen. Mijn uitgangspunt als minister van Financiën is natuurlijk niet: o, het kan ook wel tegenvallen, het kan ook wel minder zijn. Deze financiële kaders gelden ook voor de Belastingdienst. De volgorde moet echter zijn: een goede kwalitatieve onderbouwing van de Investeringsagenda. Wij kunnen ons geen brokken veroorloven.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u128">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg162">De eerste paar honderd miljoen gaan er al in 2018 af. Ik mag toch een verwachting hebben of het beeld dat nu wordt gepresenteerd wordt in de Voorjaarsnota, realistisch is? Is het realistisch te denken dat wij teruggaan van 3,1 miljard naar ongeveer 2,9 miljard of is dat niet realistisch? Of moeten wij ook daarvoor wachten op de herijking.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u129">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg163">Ik geef hetzelfde antwoord nu voor de derde keer. Die taakstelling en dat beeld voor de Belastingdienst zijn realistisch want er staan maatregelen achter. Die maatregelen hangen samen met de Investeringsagenda. Die wordt op dit moment herijkt. Hoe dit op elkaar zal ingrijpen, zal de Kamer aan de hand van die herijkte Investeringsagenda zien. Daarom zeg ik dat dat het moment is om de vraag in alle scherpte opnieuw te stellen: kun je met deze nieuwe Investeringsagenda — stel dat wij daar allemaal vertrouwen in hebben —nog steeds die openstaande taakstelling voor de Belastingdienst invullen. Als minister van Financiën is mijn startpunt in dit soort discussies natuurlijk: ja, dat moet. Of die twee, de Investeringsagenda en de taakstelling, bij elkaar blijven en realistisch bij elkaar te houden zijn, zullen wij zien zodra die plannen er liggen. Het heeft niet zo veel zin om nu te gaan speculeren en te vragen of ik een tegenvaller verwacht. Zo krijgen wij de financiële discipline er in ieder geval niet in.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg164">De heer Omtzigt heeft een vraag gesteld over de motorrijtuigenbelasting. Het hof in Arnhem/Leeuwarden heeft een uitspraak gedaan in hoger beroep over de opgelegde verzuimboeten, het niet tijdig betalen van verschuldigde motorrijtuigenbelasting. Het hof heeft gesteld dat er een wanverhouding is tussen de verzuimboete en de aanvankelijk opgelegde niet-tijdig betaalde belasting. Dat betekent dat we het beleid moeten aanpassen. Dat leidt tot een tegenvaller van 60 miljoen. We hebben elders een meevaller bij boetes en beschikkingen van 15 miljoen. Per saldo is er dus een tegenvaller van 45 miljoen. Gelet op de vele overige problemen bij de Belastingdienst hebben wij dit als een urgent dossier gezien en ons verlies genomen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg165">Voorzitter, ik ben erdoorheen. Dan kom ik toe aan de amendementen, maar misschien moet ik daarop pas in tweede termijn ingaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u130">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg166">Er is nog een vraag blijven liggen.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u131">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg167">Er zijn twee vragen gesteld over de belastingboetes. De eerste vraag, over de boetes inzake de mrb, is duidelijk beantwoord. De tweede vraag ging over het beleid bij notoire wanbetalers. Hierover is ook een uitspraak gedaan, namelijk door het hof in Den Bosch. Dat heeft feitelijk gezegd dat het beleid niet in overeenstemming is met de uitleg van dat beleid in de Kamer. Als je een of twee keer een termijn mist, krijg je immers bij elke termijn die je mist een forse boete. Die loopt enorm op en dat geeft enorme problemen. Daar had ik nog graag een reactie op gehad, maar ik neem aan dat die ook in tweede termijn gegeven kan worden.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u132">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg168">Als dat in tweede termijn mag, heel graag.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u133">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg169">Ik had de minister gevraagd wat hij vindt van het feit dat je precies €1.220 kwijtraakt als je €1 boven de inkomensgrens voor de ouderenkorting zit. Worden hiervoor bij de begrotingsvoorbereidingen nu echt maatregelen genomen? Stel je eens voor dat iemand toch een kleine indexatie krijgt, al gaat het maar om €2. Dan gaat die persoon er €1.220 op achteruit. Alle heffingskortingen kennen een glijdende schaal. Dit is de enige, bij de ouderen, waarvoor die niet geldt. Kan de minister daarop antwoorden?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u134">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg170">De heer Van Rooijen heeft gelijk. Verschillende kortingen, toeslagen et cetera hebben verschillende afbouwtrajecten. Soms gaat het heel steil en ben je in een keer alles kwijt. Soms gaat het heel langzaam. Ik denk echt dat dit voor een nieuw kabinet is. Hij moet het mij niet kwalijk nemen. Het zou zomaar kunnen dat bij de formatie wordt gesproken over een nieuw of —laat ik niet te ambitieus zijn — het belastingstelsel, over aanpassingen daarin of over aanpassingen in het toeslagenstelsel of in fiscale kortingen. Ik denk dat het daar thuishoort. Ik denk niet dat het demissionaire kabinet dit thema nog gaat adresseren.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u135">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg171">Ik denk dat dit punt zo acuut is dat de minister dat niet kan wegschuiven naar een volgend kabinet of stelsel. Dat kan nog jaren duren. Wij krijgen hier vreselijk veel brieven over. Mensen begrijpen dat niet: als zij een inkomen hebben dat €2 boven die grens ligt, raken zij €1.220 kwijt. Je kunt dat oplossen door een aftrekbare gift te doen van €3. Dan heb je er geen last van. Als je erboven zit, kun je zelfs door een grotere aftrekbare gift €1.200 extra krijgen. Dat is te gek voor woorden.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u136">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg172">Ik denk dat we moeten afspreken dat wij dit op de stapel leggen van urgente kwesties. Die zijn er veel en die schreeuwen allemaal om een nieuw kabinet.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u137">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg173">Ik had een vraag gesteld over de stand van het eventuele overleg met de Algemene Rekenkamer. Misschien heb ik het antwoord gemist, maar ik had het nog niet gehoord. Het mag ook in tweede termijn, maar ik dacht: ik noem het nog een keer.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u138">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg174">Daarover is geen nieuws te melden en dat is goed nieuws. Wij hebben met de Rekenkamer en overigens ook met de Nationale ombudsman afgesproken dat wij zullen kijken naar de verhouding tussen taken en middelen en dat wij die zullen objectiveren. Ik zal dadelijk even checken of er nog nieuwe ontwikkelingen zijn. We hebben daar in de beste verhoudingen en sfeer over afgesproken dat we dat gewoon eens onder de loep nemen. De heer Van Weyenberg heeft gevraagd of dat nog op tijd voor Prinsjesdag kan gebeuren opdat de Kamer daar bij de begroting eventueel iets mee kan doen. Ik heb toegezegd dat wij daar ons uiterste best voor zullen doen. Dat is nog steeds de stand van zaken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u139">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg175">Nu de amendementen.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u140">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg176">Ik ga in op de amendementen en begin bij het amendement op stuk nr. 3 van het lid Van Rooijen. Dit amendement gaat over een forse verhoging van de AOW. In algemene zin vind ik dat voor een demissionair kabinet niet opportuun. Ik heb wel gezegd dat wij tijdens de augustusbesluitvorming natuurlijk ook nadrukkelijk zullen kijken naar de koopkracht van ouderen met het oog op onze afspraak in het regeerakkoord. Ik moet dit amendement dan ook ontraden. Dan is er een hele stapel amendementen van de SP, die optellen tot meer dan 800 miljoen euro. Dat zijn allemaal extra ad-hocuitgaven ten laste van het saldo. Ik kan het daar niet mee eens zijn. Ik wil ze dan ook allemaal ontraden. Dat is de korte versie, die ik van de minister-president heb geleerd. We kunnen het met de dekking niet eens zijn en daarom moet ik ze ontraden.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u141">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg177">Zo doet de minister procedureel de leerkrachten, de meesters en juffen in het basisonderwijs af, evenals de Q-koortspatiënten, mensen die werken in onveilige omstandigheden en die de Inspectie SZW niet langs kunnen krijgen, de investeringen in het vinden van werk voor mensen die dat nodig hebben door wethouders, cultuur en het sluiten van de politiebureaus. Op die manier doet hij dat allemaal in een keer af. Waarom wordt dat zo procedureel afgedaan?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u142">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg178">Er zijn een aantal zaken die op echt korte termijn geregeld moesten worden. Ik geef als voorbeeld de marechaussee op Schiphol, waar zich echt acute problemen voordoen. Daar hebben we extra middelen voor vrijgemaakt. Voor het overige zullen we alle wensen die er zijn op het gebied van uitgaven en lasten nog een keer onder ogen zien in augustus als we de begroting moeten maken in augustus, maar ik ga niet op dit moment ten laste van het saldo overal extra geld voor beschikbaar stellen. Het is een mêlee aan onderwerpen. Je zou er nog tien aan kunnen toevoegen. Er zijn veel maatschappelijke noden, zoals altijd. U hebt er zes uitgepakt …</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u143">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg179">Ik vraag de minister om ze alle zes langs te lopen om aan te geven waarom het niet kan. Als het kabinet ergens urgentie signaleert, dan kan het wel extra middelen inzetten, maar als de Kamer ergens urgentie signaleert, dan kan het blijkbaar niet. Dat is natuurlijk een beetje gek, want we hebben gewoon begrotingsrecht.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u144">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg180">Zeker. Dat kan ook.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u145">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg181">Dan vind ik dat de minister er inhoudelijk op moet ingaan waarom hij vindt dat het niet nodig is om bijvoorbeeld Q-support voor de Q-koortspatiënten nu al de zekerheid te geven dat men ook in 2018 verder kan.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u146">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg182">Mevrouw Leijten heeft groot gelijk dat de Kamer begrotingsrecht heeft. Dus de Kamer kan amenderen. Echter, als het gaat om zaken die bijvoorbeeld aflopen aan het eind van dit jaar en om geld voor volgend jaar, dan hoeven we dat niet nu te regelen. Dan hoort dat gewoon thuis bij de begrotingsbehandelingen vanaf Prinsjesdag en de Algemene Beschouwingen. Op dit moment een aantal extra uitgaven doen ten laste van het saldo, is niet de keuze van het kabinet. Het is uw beslissing. De Kamer beslist. Het zijn amendementen die in stemming komen, maar u vraagt altijd stemadvies van het kabinet. Het stemadvies is om er niet voor te stemmen.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u147">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg183">Dus het stemadvies over deze voorstellen — het hadden inderdaad ook andere kunnen zijn, want er zijn meer noden in de samenleving — is gewoon een categoriaal nee, omdat het kabinet de urgentie niet ziet. Als het gaat over de cultuur en de Q-koorts heb ik in mijn toelichting gezegd dat als er nu geen zekerheid over komt, er deze zomer gewoon afscheid genomen gaat worden van mensen. Als er een ding is wat mij zo ontzettend irriteert aan de rijksbegrotingssystematiek is het dat wanneer je dit soort beslissingen niet voor de zomer neemt, je iedere keer zit met de opbouw en afbouw van organisaties. Dat zal de minister ook wel herkennen, want dat is in het verleden vaker gebeurd. Is er dan een andere manier waarop wij voor zowel Q-support als de culturele instellingen nu al duidelijkheid kunnen geven zodat ze niet deze zomer afscheid behoeven te nemen van goede mensen, zoals juristen en toneelspelers, waardoor hun continuïteit in gevaar wordt gebracht?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u148">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg184">Een andere vorm zou zijn dat je het kabinet oproept om in de augustusbesluitvorming er aandacht aan te besteden. Dat is overigens geen stemadvies om er dan wel voor te zijn, maar u vroeg op welke andere manier het zou kunnen. Het op dit moment amenderen van een begroting 2018 die nog niet eens gepresenteerd is, vind ik eigenlijk niet gewenst. Dit is de Voorjaarsnota. Die gaat over het uitvoeren van de lopende begroting, van 2017. De dekking, simpelweg ten laste van het saldo, is wel buitengewoon kwetsbaar. Ik wil niet zeggen dat daarmee het einde zoek is, maar het is wel heel gemakkelijk als de Kamer voortaan als dekking gewoon naar het overschot wijst. De totale afweging van verschillende prioriteiten — koopkracht zou er een kunnen zijn; onderwijs zou er ook een kunnen zijn — komt dan niet tot stand. Die laten we namelijk zien op Prinsjesdag. Dan presenteren we het totaal van de begroting en wegen we alles af. Dan kunt u uw oordeel geven.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u149">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg185">Echt tot slot, mevrouw Leijten, want u hebt ook nog een tweede termijn.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u150">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg186">Ik vind het gewoon heel treurig dat het kabinet zegt: wij bepalen de prioriteiten wel en de Kamer zoekt het maar uit, die vraagt er maar naar bij Prinsjesdag. Ik vroeg naar bepaalde instellingen. Het gaat op de rijksbegroting om niks, maar we worden steeds doorverwezen: nee, dit moet per amendement; nee, dat moet bij een ander debat; nee, dat moet per motie. Daarmee luistert het kabinet dus gewoon niet naar wat er nodig is. Dan heb ik liever dat de minister hier zegt "Q-support vinden we gewoon niet belangrijk" of "die culturele instellingen vinden we niet belangrijk" dan dat het iedere keer op de systematiek wordt gegooid. Het is toch een beetje politiek verstoppertje spelen zo.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u151">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg187">Dit is een klassiek Leijtenbetoog, in de zin dat er verwijten naar het kabinet worden geslingerd die niet op hun plaats zijn. Ik heb niet gezegd: u zoekt het maar uit. Ik heb ook niet gezegd dat wij wel bepalen wat de prioriteiten zijn. Dat bepaalt uiteindelijk de Kamer. De Kamer beslist over de begrotingen. Het is het goed recht van de Kamer om daar wijzigingsvoorstellen op in te dienen en die worden gewoon in stemming gebracht. Als u mij een advies vraagt, zeg ik: ik denk dat heel veel hiervan ofwel moet worden afgewogen bij Prinsjesdag ofwel bij amendement binnen een begroting moet worden gedekt. De VWS-begroting is bijvoorbeeld een heel grote begroting. U zou ook een amendement kunnen maken om daarbinnen 2 miljoen euro te vinden. Daar kiest u niet voor; u kiest ervoor om het allemaal ten laste van het saldo te laten gaan. Ik zou het u willen ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg188">Ik kom op het amendement-Van Rooijen (34730-XV, nr. 5). Dat is een amendement op de begroting van SZW. Ik weet niet of ik geacht word daar ook op te reageren, maar ik denk het haast wel. Met dit amendement wordt beoogd 18 miljoen euro toe te voegen aan het subsidiebudget voor scholingsvouchers. Die regeling wordt eerst geëvalueerd, waarmee de effecten op de arbeidsmarktpositie van de aanvragers beter in beeld worden gebracht. Het amendement ontbeert dekking. Daarom ontraad ik het.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u152">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg189">De heer Van Rooijen staat al klaar bij de interruptiemicrofoon.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u153">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg190">De minister heeft ook begrepen dat de pot nu al leeg is. De regeling is zo succesvol, belangrijk en essentieel voor jong en oud, dat ik een klemmend beroep doe op de minister om te bekijken of hij hier wel een positieve mening over kan geven. Ik verwijs even naar de discussie die hij net met mevrouw Leijten voerde. Dit is misschien wel de uitzondering op de gulden regel: die pot is leeg omdat dit eindelijk iets is wat wel werkt, anders dan bijvoorbeeld de grote banenplannen om de ouderenwerkloosheid aan te pakken. Die hebben honderden miljoenen gekost en niets opgeleverd.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u154">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg191">Ik weet niet of de heer Van Rooijen dit debat ook heeft gevoerd met de bewindslieden van SZW. Als hij daar niet de gelegenheid voor heeft gehad, kan ik hun vragen om schriftelijk op dit amendement te reageren. Als hij een inhoudelijk debat wil voeren met mij over de vraag hoe goed dit instrument is, ben ik daar niet echt de aangewezen persoon voor. Dan is het misschien beter dat de betrokken bewindspersoon — ik weet niet of dat de minister of de staatssecretaris is; ik denk de minister — hier schriftelijk op reageert, nog voor de stemmingen van morgen.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u155">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg192">Wilt u dit dan meegeven uw collega van dezelfde club?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u156">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg193">Dat "van dezelfde club" hoeft u er niet bij te zeggen, want ook als het iemand van een andere club was geweest, had ik het wel …</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u157">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg194">Nee, ik bedoel van het kabinet.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u158">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg195">Ah, van die club!</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg196">De andere amendementen zijn allemaal van de SP en gaan allemaal ten laste van het saldo. Die ontraad ik om die reden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u159">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg197">Ik zie dat er nog een amendement is van mevrouw Kuiken en de heer Van Nispen. Dat is het amendement 34730-VI, nr. 4.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u160">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg198">Ook dit amendement is niet voorzien van een adequate dekking. Ook dat amendement ontraad ik om die reden. Consequent!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u161">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg199">Dank u wel. Dan gaan we nu naar de tweede termijn van de Kamer. Daar kunnen we meteen mee beginnen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg200">Het woord is aan de heer Tony van Dijck.</seg>
+            </u>
+            <u who="#TonyvanDijck" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u162">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg201">Voorzitter. Ik zei het al in eerste termijn toen ik de heer Swank van De Nederlandsche Bank citeerde: het gaat griezelig goed in Nederland.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg202">Ondanks al deze positieve geluiden gaat niemand in Nederland er een dubbeltje op vooruit, terwijl de minister-president nog heeft gezegd: het wordt tijd dat iedereen het gaat voelen. Maar niemand voelt het. Alleen deze minister van Financiën. Hij haalt een record op aan belastingen, namelijk 8 miljard meer dan verwacht. En toch gaat niemand er een dubbeltje op vooruit. Sterker nog, gepensioneerden, de werkende armen en de kostwinners gaan er zelfs op achteruit. Terwijl de zon overal schijnt, blijft het bij hen in de huiskamers regenen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg203">Ik zie Mark Rutte nog staan toen hij zei: als de economie blijft groeien, gaan de lasten omlaag. Er is zelfs een begrotingsregel opgesteld om dit voor elkaar te krijgen. En toch gaat niemand er een dubbeltje op vooruit. Na de zomer gelden wellicht nieuwe regels met een nieuwe coalitie. Maar hoelang laten hardwerkend Nederland en de gepensioneerden zich nog voor de gek houden?</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg204">Ik heb nog een vraag over de inflatie. Daar heb ik in eerste termijn niet zo veel aandacht aan besteed. De koopkracht is onderuitgehaald, omdat de inflatie in negen maanden tijd van 0,5% naar 1,6% is gegaan. Er klinken nu geluiden dat de inflatie weer daalt. Ik vraag me af hoe het komt dat in negen maanden tijd de inflatie van 0,5% naar 1,6% is gegaan. Alsof de olieprijs zo hard is gestegen of de dollar zo hard onderuit is gegaan! Ik heb het niet gezien. Daarom vraag ik me af of deze voorspelling van het CPB nog wel een actualiteitswaarde heeft.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u163">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg205">Wij moeten het even tot ons laten doordrongen: de heer Swank van De Nederlandsche Bank. Die onthouden we.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg206">Het woord is aan de heer Harbers.</seg>
+            </u>
+            <u who="#MarkHarbers" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u164">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg207">Voorzitter. Als ik zo de vorige spreker hoor, denk ik dat het de kunst wordt om in tweede termijn een korte samenvatting te geven van je betoog in eerste termijn. Die komt er in mijn geval op neer dat er inderdaad nog ontzettend veel moet gebeuren. Maar de plek waar we dat gaan doen, is wat mij betreft aan de formatietafel. Zoals ik in eerste termijn al duidelijk heb gemaakt, voel ik er dus ook niet voor om nu allerlei amendementen te ondersteunen die als enige dekking een greep in het saldo hebben. Dat komt op mij toch ook een beetje over als: nu even snel uitdelen en de houdbaarheid komt later wel. Dat hebben we wel vaker gezien. Dat lijkt me nou net niet de goede aanpak.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u165">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg208">Ja, ik zie mevrouw Leijten.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u166">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg209">Ik hoorde mijnheer Harbers mij uitnodigen om iets te zeggen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u167">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg210">Gaat u gang</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u168">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg211">Snel uitdelen wanneer het goede doelen betreft, is populistisch en plat. Dat mag. Je mag het ook zelf doen. Dan doe je het namelijk via het kabinet en dan noem je het: belangrijke beslissingen. Als er geen geld is, moet er bezuinigd worden, en nog in het hetzelfde jaar. Ik zie hier nog oppositieleider, althans oppositieleider van links, Rutte staan, die een motie van wantrouwen indiende tegen de toenmalige minister-president Balkenende, omdat hij niet stante pede, per direct, ging bezuinigen.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u169">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg212">Herinnert u zich dat nog?</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u170">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg213">Ja, dat herinner ik mij nog. Mijnheer Omtzigt zat er toen ook al en mijnheer Tony van Dijck trouwens ook. Mevrouw Arib was er ook al.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u171">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg214">Ik zit er al heel lang. En de heer Dijsselbloem was er ook.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u172">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg215">Dus op het moment dat er geld tekort is, moet er stante pede bezuinigd worden: de zweep over de burgers! Maar als er geld is: nee, nee, nee, dan moeten wij voorzichtig aan doen. Dat is precies wat de VVD doet. De VVD kijkt altijd alleen maar naar "hoe kunnen wij zo veel mogelijk bezuinigen?", in plaats van naar "waar liggen problemen in de samenleving en hoe zorgen wij ervoor dat wij voldoende met elkaar opbrengen om in de noden te voorzien?" Dat is precies het politieke debat en dat is precies waarom wij niet met elkaar aan de formatietafel zitten.</seg>
+            </u>
+            <u who="#MarkHarbers" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u173">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg216">En ik maar denken dat het om de grondbeginselen ging. Terwijl mevrouw Leijten hier dat debat voerde, zat ik naar de tv te kijken. Mevrouw Leijten verdraait de geschiedenis een klein beetje. Wij hebben nooit gedurende het jaar bij voorjaarsnota opeens allerlei bezuinigingen doorgevoerd. Die beroemde motie van wantrouwen is ingediend bij de algemene beschouwingen over de miljoenennota. Het ging erom dat het kabinet ook voor het jaar daarop niet de noodzakelijke bezuinigingen wilde doorvoeren. Dat is de ordentelijke gang van zaken. Ik heb dat hier ook in de hele eerste termijn betoogd, namelijk dat je dit niet even bij voorjaarsnota doet en dat je het al helemaal niet halverwege het jaar doet, omdat je dan enorme uitvoeringsproblemen krijgt om het nog bij de goede mensen terecht te laten komen. Er zijn wel meer noden dan alleen de 800 miljoen die mevrouw Leijten heeft genoemd. Er is maar één plek om dat allemaal tegen elkaar af te wegen. Mevrouw Leijten had het over de agenten, maar we hebben ook de leraren en allerlei andere groepen in de samenleving, zoals het personeel van defensie. Ik kan er zo tientallen opnoemen. Dan zouden wij nu hier in een vluggertje even snel een paar groepen helpen? Dan geef ik u op een briefje dat morgen weer heel veel andere mensen ontevreden zijn, omdat die vandaag nog niet geholpen zijn. Laten wij het daarom in één keer goed doen. Dankzij die grondbeginselen wil mevrouw Leijten daar niet aan meedoen, maar wij gaan ondertussen wel dat gesprek aan.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u174">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg217">Het laat maar zien dat je, op het moment dat je in de oppositie zit, best opportunistisch een motie van wantrouwen kunt indienen als je het niet eens bent met het beleid. Het gaat dan niet meer over vertrouwensrelaties en noem maar op. Datgene waar de VVD nu iedere keer schamper over doet, deed zij vroeger zelf ook, toen zij in de oppositie zat. Het gaat dus ook niet om het moment waarop je iets doet, maar om de politieke prioriteit die je eraan geeft. U betoogt, net als de minister van Financiën, dat het zo ontzettend goed is dat er wel iets is gedaan voor de marechaussee op Schiphol. Het zou natuurlijk ook moeilijk uit te leggen zijn geweest aan al die mensen die op vakantie gingen en dan te lang in de rij hadden moeten staan. Daar is wel geld voor, maar al jarenlang weten wij dat je op het platteland de politie niet hoeft te bellen als er wordt ingebroken. Daar wordt geen politieke prioriteit aan gegeven. Wat ik vandaag heb geprobeerd te doen, is aangeven dat je zowel de meesters en juffen op de basisschool als de agenten kunt helpen en een begrotingsoverschot kunt houden en iets aan de staatsschuld kunt doen, als je dat maar wilt. Dat is wat hier scherp op tafel ligt. U mag iedere procedurele reden geven om het niet te doen, maar u wilt het op dit moment gewoon niet.</seg>
+            </u>
+            <u who="#MarkHarbers" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u175">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg218">Ik wil het niet, omdat er een betere plek is om het te doen. Het gaat erom, af te wegen hoe je met de belangen van alle Nederlanders omgaat. Ik had gehoopt dat mevrouw Leijten zich een heel klein beetje aangesproken had gevoeld door de slotwoorden van mijn collega Van Weyenberg. Als je zelf in 2012 een verkiezingsprogramma hebt dat in de verste verte niet in de buurt van een begrotingsoverschot komt, is het wel heel gemakkelijk, zodra er een begrotingsoverschot is, om je dan hier aan de microfoon te komen melden om het te gaan uitgeven. Ik denk dat je dan even de terughoudendheid moet betrachten om te wachten tot er een kabinet is dat op een ordentelijke manier gaat kijken hoe we in de komende vier jaar met de overheidsfinanciën omgaan en wat we daarin wel en niet kunnen regelen voor zoveel mogelijk Nederlanders.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u176">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg219">Een korte laatste opmerking, mevrouw Leijten.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u177">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg220">Ik begrijp goed dat de VVD 2012 noemt, toen wij een andere strategie kozen om de economie op orde te krijgen dan bezuinigen en lasten verhogen, wat uw strategie is. Maar het is ook typisch dat u niet ons programma van 2017 als voorbeeld nam, want daarin was duidelijk dat ons begrotingsbeleid leidde tot meer koopkracht, een lagere staatsschuld en minder werkloosheid dan bij de VVD. maar goed, je kunt wel zeggen "je neemt geen verantwoordelijkheid", maar wij nemen wel degelijk verantwoordelijkheid. Je neemt niet alleen maar verantwoordelijkheid in dit parlement als je in de regeringsbankjes zit. Je neemt verantwoordelijkheid door met 150 mensen ja of nee tegen iets te zeggen. U gaat morgen nee zeggen tegen zes voorstellen. Dat is uw verantwoordelijkheid.</seg>
+            </u>
+            <u who="#MarkHarbers" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u178">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg221">De strategie van de SP was in 2012 en 2017 exact dezelfde: korte termijn goede cijfers op kosten van de langetermijnhoudbaarheid. De houdbaarheid ging zwaar onderuit bij de SP. Dan kan mevrouw Leijten in eerste termijn wel schamperen dat dat over 60 jaar is, maar zij weet ook dat het Centraal Planbureau zei dat al die effecten zich vrijwel allemaal voordoen binnen tien jaar. Het is dus vier jaar scoren en in de zes jaar daarna op de pof leven ten koste van volgende generaties. Daar kiest de VVD níet voor.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u179">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg222">Voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u180">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg223">Mevrouw Leijten, u krijgt zo het woord. Mijnheer Harbers, wilt u mevrouw Leijten hierna niet meer uitlokken?</seg>
+            </u>
+            <u who="#MarkHarbers" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u181">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg224">Nou, voorzitter, zo veel heb ik niet ...</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u182">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg225">Voorzitter, ik zal hierna niets meer zeggen over wat de heer Harbers betoogt over mijn partij, maar ik wil toch voor de record iets zeggen. Als iedereen naar het begrotingshoofdstuk gaat en de doorrekening van onze partij, dan staat daar nu juist de uitzondering in van wat het Centraal Planbureau generiek zei over het ingaan van die houdbaarheid, namelijk dat dat niet gold voor de AOW-maatregelen die de SP had en dat dat ermee te maken had dat die pas 60 jaar later zouden vallen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u183">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg226">Niet meer op reageren, mijnheer Harbers. Dat was een punt dat mevrouw Leijten wilde maken.</seg>
+            </u>
+            <u who="#MarkHarbers" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u184">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg227">Ik roep iedereen op om dat hoofdstuk over de houdbaarheid toch nog maar heel goed te lezen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg228">Voor de rest heeft de minister conform mijn verwachting verstandige dingen gezegd. Hij heeft namelijk vastgesteld dat het een ingewikkelde periode is. Dat deed ik ook in eerste termijn en dat was ook de conclusie van de eerste termijn. Hij zei ook dat de inflatie en het effect op de koopkracht nu eenmaal een gegeven zijn gedurende het jaar en dat de Voorjaarsnota geen koopkrachtreparatiedebat is. Ik hoop dat we dát debat na de zomer bij de Miljoenennota wel kunnen gaan voeren.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg229">Tot slot dank ik de minister voor zijn uitleg — ik weet niet of het een toezegging was — over de gelden voor de langdurige zorg. Hij zei dat we er als politiek ook later nog over kunnen spreken hoe we dat kwaliteitskader gaan invoeren. Nogmaals, ik heb in eerste termijn al gezegd dat dit iets is wat ook de VVD wilde en waar wij ook mee de boer op zijn geweest. Opeens lag het er en was het ook juridisch verbindend. Ik denk dat het heel goed is om daarin ook in de vorm van benchmarking te gaan kijken, zodat we straks zeker weten dat, en kunnen controleren of, dat geld inderdaad op de goede plekken terechtkomt, waar het ook absoluut bij gaat dragen aan de verhoogde kwaliteit die we met zijn allen willen. Dank u wel.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u185">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg230">Voorzitter. Dank aan de regering voor de antwoorden. Ik ben zeer benieuwd of dit inderdaad het laatste plenaire debat met deze minister van Financiën is. Dat is een groot vraagteken dat boven dit debat hangt. Morgen kan hij helaas niet bij de behandeling van de slotwet aanwezig zijn, omdat hij bij de G20 zal zijn. Gezien het feit dat de Nederlandse regering daarbij kan aanschuiven, kan ik mij goed voorstellen dat hij Nederland daarbij vertegenwoordigt.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg231">Ik heb zijn aansporing gehoord. Toch nog een paar opmerkingen over de antwoorden. Ik heb geen antwoord gekregen op mijn vraag over het voornemen van de minister van Sociale Zaken en Werkgelegenheid om nog ergens iets te doen aan de handhaving rondom de zzp-wet. Dat was één van de grote projecten van deze regering. Zij zou iets doen tegen al diegenen die allerlei constructies bedenken waar zzp'ers niet in horen. Daar hadden we een nieuwe wet voor nodig, waardoor duizenden zzp'ers opdrachten hebben verloren, maar uiteindelijk zijn er in de handhaving nul boetes uitgedeeld. Nu ben ik niet van zo veel mogelijk boetes uitdelen, maar als je een wet hebt om te handhaven en je slaagt er niet in om die te handhaven tegenover al die malafide opdrachtgevers, dan doe je iets verkeerd. Ik zou tegen minister Asscher zeggen: als u toch nog iets wilt doen deze zomer, dan zou u daar maar eens naar moeten kijken.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg232">Ik ben benieuwd wat die move met de ABP-premies nu precies was, een paar 100 miljoen voor ABP-premies die ook loonruimte creëerden, ook in het primair onderwijs. Ik ben zeer benieuwd waarom dat niet in de toelichting stond, maar die toelichting krijgen we zo meteen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg233">Ik ben blij met de toezegging dat we op Prinsjesdag horen hoe de zorgbegroting in elkaar zit. Dat is de grootste post in de begrotingen. Sociale Zaken en zorg zijn de twee grootste brokken van de begroting en ik moet u zeggen: het is soms best lastig om inzicht te krijgen in hoe dat geld uitgegeven wordt.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg234">Ik wacht ook het antwoord op de vraag over de boetes af. Boetes moeten uitgedeeld worden, maar het begrip "notoir" werd nogal slordig uitgelegd waardoor mensen ontzettend veel boetes op boetes op boetes kregen. Ook hier is de Belastingdienst teruggefloten door de rechter.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg235">Ik heb een motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Algemene Rekenkamer momenteel geen uitgebreid verantwoordingsonderzoek kan doen naar de uitgaven voor de politie;</note>
+               <note>verzoekt de regering, in samenspraak met de Algemene Rekenkamer te onderzoeken hoe de uitgaven voor de politie onder de uitgebreide onderzoeksmogelijkheden van de Algemene Rekenkamer terecht kunnen komen en daar bij Prinsjesdag 2017 een voorstel voor te doen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Omtzigt. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34730-4</note>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u186">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg236">Dan rest mij, hopelijk voor de laatste keer, de minister van Financiën te bedanken, ook voor de keren dat hij goed op de schatkist gepast heeft. Hij laat een overschot over, mede dankzij het beleid dat hier gevoerd is. Ik wens hem toe dat hij daar in de zomer niet een klein smetje op veroorzaakt.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u187">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg237">Voorzitter. Je denkt dat er een royale wens komt, maar er zit toch altijd nog een randje aan. Maar dat mag.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg238">Ik wil drie zaken nog even bespreken, te beginnen met het amendement-Kuiken/Van Nispen. Dat werd even in die hele grote set van ongedekte amendementen gegooid, maar ik wil daar toch even van af zijn. De 1,5 miljoen voor mediation is gewoon gedekt binnen de begroting van V en J. Het amendement is netjes gedekt, zoals u dat van ons gewend bent.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u188">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg239">Een amendement met dekking verdient, gegeven alles wat er ligt, inderdaad een wat bijzondere beschouwing. Dat is de uitzondering vandaag.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u189">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg240">Bij ons niet!</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u190">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg241">Het is positief bedoeld. Ik probeerde een ruimhartig compliment te geven …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u191">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg242">Het was een opmerking zonder randje.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u192">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg243">De heer Van Weyenberg was vandaag zo op weg om in het kamp-Omtzigt te komen dat ik helemaal verrast ben.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u193">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg244">Nee, ik blijf graag in het kamp-Van Weyenberg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u194">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg245">Het staat in de Handelingen!</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u195">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg246">Ik heb een vraag over de dekking. Wij vonden een amendement van uw voormalige collega Recourt dat ooit op exact dezelfde wijze gedekt was. Wij vragen ons af in hoeverre geld dat in het verleden al eens is ingezet nu opnieuw wordt ingezet. Ik merk aan de lichaamstaal van de heer Nijboer dat dat niet aan de orde is, maar wij komen opeens exact dezelfde dekking tegen als bij het aangenomen amendement-Recourt. Dat wilde ik toch even meegeven.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u196">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg247">Dat kan heel goed, maar dan moet u mij het bedrag geven; dat heb ik niet allemaal meer paraat. Ik meen dat het een keer 1,5 miljoen was. Dit is weer 1,5 miljoen. Als er op een begroting een post staat van 20 à 30 miljoen, kun je die prima inzetten voor de dekking van die twee keer 1,5 miljoen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg248">Ik heb twee moties. De eerste is gericht aan de Kamer. Ik was tevreden met de beantwoording van het kabinet over het koopkrachtbeeld. Maar zoals u weet, is dit kabinet demissionair. Ik vind het samen met de heer Snels van belang dat de Kamer zich uitspreekt over een evenwichtig koopkrachtbeeld. Welk kabinet er ook zit, bij Prinsjesdag zal er wat de PvdA betreft een evenwichtig koopkrachtbeeld moeten komen waarbij ook lage inkomens, middeninkomens, uitkeringsgerechtigden en gepensioneerden profiteren.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat volgens het koopkrachtbeeld in het Centraal Economisch Plan de hoogste inkomens er fors meer op vooruitgaan dan modale en lagere inkomens;</note>
+               <note>constaterende dat mensen met een pensioen of een uitkering er zelfs op achteruit dreigen te gaan;</note>
+               <note>overwegende dat iedereen in Nederland moet profiteren van economisch herstel;</note>
+               <note>verzoekt de regering, bij het opstellen van de Miljoenennota 2018 maatregelen te nemen die zorgen voor een evenwichtige inkomensontwikkeling, waarbij de hoogste inkomens er niet meer op vooruit gaan dan de rest van Nederland,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Nijboer en Snels. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34730-5</note>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u197">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg249">Ik vraag mij af waarom de motie nodig is, omdat de minister van Financiën zo uitgebreid en gepassioneerd — het is zowaar een compliment — heeft verteld dat een evenwichtig koopkrachtbeleid en de salarissen in het primair onderwijs erin moeten zitten wat de Partij van de Arbeid betreft, omdat ze anders niet meedoet.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u198">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg250">Zo is het. Maar het kan maar zo zijn dat we in deze zomer een nieuw kabinet krijgen, dat toch nog op het laatste moment de koopkrachtbesluitvorming wil doen. Dus ik heb ook graag dat deze missionaire Kamer voor de komende maanden, waarin de koopkrachtbesluitvorming plaatsvindt — dat is namelijk midden augustus — deze uitspraak doet, zodat ook een nieuwe, formerende coalitie daaraan gebonden is. Want inderdaad, deze minister heeft dat toegezegd. Dat heb ik ook ruimhartig gezegd. De motie is niet gericht aan het demissionaire kabinet. Ze is een uitspraak van de missionaire Kamer waar wij wel aan hechten. Anders komen we hier straks terug van reces of is het de tweede week van september en moeten we het maar zien. Dat is de waarde van deze motie. Ze is niet gericht aan deze demissionaire minister. Er wordt een uitspraak van de missionaire Kamer gevraagd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u199">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg251">Mevrouw Leijten, tot slot.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u200">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg252">Dan kun je de demissionaire minister zomaar in de positie brengen dat hij geen missie meekrijgt en eigenlijk niet meer mag.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u201">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg253">Nee hoor, want deze minister staat voor zijn handtekening. Dat is inmiddels genoegzaam bekend en zojuist ook goed gewisseld. Ik heb dus helemaal geen zorgen over het demissionaire kabinet, op dit punt.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg254">Ik kom tot mijn volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de Kamer in december 2016 via het amendement-Vermue c.s. 10 miljoen euro heeft vrijgemaakt voor culturele instellingen en gezelschappen (o.a. podiumkunsten) die een positieve beoordeling hadden maar geen toekenning van een toereikende subsidie;</note>
+               <note>overwegende dat deze toekenning van extra middelen voor het jaar 2017 was en dat er nog geen financiële toekenning voor 2018 heeft plaatsgevonden;</note>
+               <note>verzoekt de regering om op Prinsjesdag met een toereikende financiële oplossing te komen voor deze instellingen en gezelschappen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Nijboer en Snels. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34730-6</note>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u202">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg255">U begrijpt, voorzitter, dat ik hoop op de warme steun van D66, daar wij in het verleden altijd samen op deze culturele instellingen hebben opgetrokken.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u203">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg256">Voorzitter. De Prinsjesdagafspraken doe je op Prinsjesdag. Ik had gehoopt dat ik de heer Nijboer en zijn partij met hetzelfde enthousiasme in de Stadhouderskamer had kunnen verwelkomen, de plek om alle ambities voor de komende periode waar te maken. Dit voelt toch allemaal wat gratuit aan.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg257">Ik wil de minister danken voor de beantwoording. Ook voor het heldere antwoord dat er dus inderdaad nog een taakstelling van 467 miljoen voor volgend jaar op de OCW-begroting staat. Ook heeft hij helder aangegeven dat dat bedrag inmiddels al niet meer in de CPB-sommen terugkeert. Het is goed om dat te weten.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg258">Door de maatregelen rondom de ouderenzorg is er dus geen overschot van 1,3% maar eerder van 1,1%. Dat is minder dan het leek, maar ik wil graag wel eindigen met een positieve noot. Ik zal proberen om het randje van de heer Omtzigt er niet aan te plakken. We hadden aan de start van dit kabinet niet kunnen vermoeden dat het zou lukken om door de crisis te komen, met helaas vaak heel pijnlijke maatregelen in moeilijke tijden. De goede stuurmanskunst van deze minister van Financiën heeft ervoor gezorgd dat de overheidsfinanciën er op een manier voor staan die ook ik op dat moment niet voor mogelijk had gehouden. Daarvoor is het compliment niet anders dan oprecht.</seg>
+            </u>
+            <u who="#BartSnels" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u204">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg259">Voorzitter. Dank voor de antwoorden. Ik wacht nog op antwoord in tweede termijn op de vraag hoe het nou precies zit met de extra kwaliteit in de verpleeghuiszorg 2017 en of de 100 miljoen toch niet opgaan aan prijzen en lonen. Daar ben ik benieuwd naar.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg260">In aanvulling op de eerdere moties die mijn collega Nijboer heeft ingediend, heb ik nog een motie die weer door de heer Nijboer is medeondertekend en die gaat over het onderwijsachterstandenbeleid. Allemaal met het oog op — welk kabinet er ook zit, welke coalitie er ook zit — de besluitvorming rondom de Miljoenennota.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er een nieuwe bekostigingssystematiek is ontwikkeld voor de verdeling van middelen voor het (gemeentelijk) achterstandenbeleid, maar dat vanwege de demissionaire status de staatssecretaris ervoor kiest om de huidige systematiek voor 2018 te behouden;</note>
+               <note>overwegende dat hierdoor een daling van het onderwijsachterstandenbudget zal plaatsvinden in 2018 voor zowel gemeenten als het primair onderwijs van zo'n 65 miljoen euro, en dat daarmee gemeenten en basisscholen volgend jaar zullen moeten bezuinigen op hun onderwijsachterstandenbeleid;</note>
+               <note>overwegende dat onderwijsachterstandenbeleid bijdraagt aan gelijke kansen voor ieder kind;</note>
+               <note>verzoekt de regering, in de begroting voor 2018 af te zien van de voorgenomen daling van het onderwijsachterstandenbudget,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Snels en Nijboer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34730-7</note>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u205">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg261">Voorzitter. Er wordt ieder jaar lopende de begroting van alles vertimmerd. Als er besloten wordt minder gas te winnen in Groningen, wordt er met posten geschoven. Dat wordt binnen de kaders gedaan waar geld over of tekort kan zijn, maar dat kan ook tussen posten zijn. Maar als dan een oppositiepartij zegt: er is geld over in de algemene middelen en wij willen dat graag inzetten om het sluiten van politiebureaus te voorkomen en om te zorgen dat de aanrijtijden in de landelijke gebieden niet te groot worden, maar ook dat de aangiftes in stedelijke gebieden gewoon opgenomen kunnen worden, dan is dat allemaal ongedekt. Ik vind dat vreemd. Het geld is er en de regering kan het hele jaar door schuiven en mag dat ook doen, want daarvoor is zij het bestuur van het land, maar als de Kamer als medewetgever en zeker ook met begrotingsrecht dat doet, dan mag dat niet. Het zal allemaal wel zo zijn dat het gebruikelijk is dat je dat wegwimpelt, maar ik vind het heel jammer dat alles altijd afgewogen moet worden en dat op het moment dat je met een wens komt, je te vroeg bent, te vroeg bent, te vroeg bent totdat je te laat bent. Dan kun je een jij-bak geven aan een partij die dan iets probeert te doen, maar dat hoort er gewoon niet bij. Dit hoort een serieus debat te zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg262">Je zal maar meester of juf zijn en staken voor meer salaris, horen dat iedereen dat wil, in een debat zien dat er geld over is en dan toch horen dat het ontijdig is om het voor te stellen.</seg>
+            </u>
+            <u who="#TonyvanDijck" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u206">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg263">Volgens mij is dit een misverstand. Het mag wel. Al die amendementen zijn rechtsgeldig en rechtmatig en ze hebben allemaal een dekking. Het is dus niet dat het niet mag. Deze minister van Financiën zegt om hem moverende redenen dat hij het niet zou doen en daarom ontraadt hij het amendement. Maar u mag dat indienen en de dekking is duidelijk. Sommige steunen wij en sommige, als het gaat om meer geld voor cultuur, steunen wij niet. Het is dan de bestemming die bepalend is en niet de dekking. Het mag dus wel en er is niets aan de hand.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u207">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg264">En toch spreken hier de fracties van het CDA, D66, de VVD en de Partij van de Arbeid consequent over ongedekte amendementen, wat dus feitelijk niet juist is. Ik vind dat je dat toch moet zeggen. Natuurlijk ken ik de regels over de kaders. Ik heb jarenlang gezocht naar extra middelen voor zorg als we iets wilden schuiven. Dat had ook regelmatig succes bij begrotingen en ook weleens op andere momenten. Ik weet heus wel hoe het werkt, maar er wordt hier door eigenlijk alle fracties gezegd dat het ongedekte amendementen zijn en dat is dus onjuist.</seg>
+            </u>
+            <u who="#TonyvanDijck" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u208">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg265">Dat is onjuist en dat heet framing.</seg>
+            </u>
+            <note>Motie</note>
+            <note>De Kamer,</note>
+            <note>gehoord de beraadslaging,</note>
+            <note>overwegende dat wethouders aangeven dat de begeleiding van leerlingen uit het voortgezet speciaal onderwijs en het praktijkonderwijs richting werk onvoldoende van de grond komt;</note>
+            <note>van mening dat het voor deze kwetsbare groep leerlingen essentieel is om gelijk na de opleiding een goede begeleiding naar werk te krijgen en dat een belangrijk deel van deze groep uit beeld dreigt te verdwijnen omdat ze geen recht op een uitkering hebben;</note>
+            <note>overwegende dat experts aangeven dat het geen €1.800 maar eerder €3.500 per persoon kost om ze te begeleiden;</note>
+            <note>verzoekt de regering, aanvullend budget te reserveren in de begroting 2018 voor het begeleiden van deze groepen naar werk,</note>
+            <note>en gaat over tot de orde van de dag.</note>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u209">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg266">Ja, inderdaad, dat heet framing en daarom gebruik ik al veel te veel van mijn spreektijd om uit te leggen dat dat dus dikke flauwekul is. Dank voor uw steun. Ik hoop dat er nog een moment komt dat u de cultuur wel kunt omarmen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg267">Ik wil nog een motie indienen. Er zijn wethouders die zeggen dat ze dolgraag jongeren naar werk willen begeleiden, maar dat ze dat niet lukt met het budget. Ik heb het niet in een amendement vervat, want het gaat over 2018. Ik begrijp de systematiek. Ik ga daarom vragen of er bij het maken van de begroting met de wethouders rekening gehouden kan worden en dat doe ik in de volgende motie.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u210">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg268">Mevrouw de voorzitter. De minister heeft van zijn baas, de premier, geleerd dat je amendementen soms kort, met één woord, moet beantwoorden. "Ontraden", in dit geval. Daar zullen 3 miljoen AOW'ers niet blij mee zijn. Die moeten constateren dat de AOW al decennia niet welvaartsvast is, ook de laatste jaren niet. De AOW is de laatste drie jaar met in totaal 5% gestegen, terwijl het nationaal product met bijna 9% is gestegen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg269">Ik sprak eerder over meevallers. Naar aanleiding van problemen die de gemeenten ondervinden, ook naar aanleiding van brieven van de VNG, wil ik de volgende motie indienen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het verstrekken van bijstandsuitkeringen, de basis voor het bestaansminimum, een wettelijke taak is voor gemeenten;</note>
+               <note>overwegende dat het macrobudget voor uitvoering van de bijstand in 2016 een tekort vertoont van 270 miljoen, dat 90% van de gemeenten tekortkomt op hun budget voor de bijstand, en dat borging van het bestaansminimum hierdoor onder druk komt te staan;</note>
+               <note>overwegende dat ook op andere onderdelen binnen het terrein sprake is van een knellend budget;</note>
+               <note>roept de huidige en komende regering op, in goed overleg met de gemeenten te zorgen voor structurele, adequate financiering van bedoelde gemeentelijke taken, zoals Wsw, beschermingsbewind en bijzondere bijstand,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Rooijen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34730-9</note>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u211">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg270">Tot slot wil ik — de heer Omtzigt heeft het ook al gedaan — namens mijn fractie mijn bijzondere waardering uitspreken voor deze minister voor het door hem gevoerde financiële beleid in de afgelopen jaren. Ik weet uit een eerder verleden, uit de zeventiger jaren, dat dat deksels moeilijk is. Minister Andriessen is destijds uit zichzelf afgetreden. Dat was nog nooit gebeurd in Nederland. Hij kreeg onvoldoende vertrouwen van zijn collega's; ik zal verder geen namen noemen van dat kabinet. Ik constateer wel dat het kabinet-Van Agt/Wiegel in 1981 terugtrad met een financieringstekort van bijna 11%. Dat is toch wel een verschil met de erfenis van deze minister!</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg271">Over die fiscale toestanden ga ik misschien nog een keer met de minister spreken, maar dat zal ik op dit moment niet doen vanwege de tijd.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u212">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg272">Voorzitter. Ik zie dat een aantal van mijn voorgangers al uitgebreid de minister heeft bedankt en ook afscheid van hem heeft genomen. Kan het zijn dat ik gemist heb dat we al een nieuw kabinet hebben? Ik dank de minister voor zijn beantwoording, maar ik vermoed dat we hem toch nog een keer terug zullen zien. Ik zie ook dat hij met zichtbaar genoegen antwoorden geeft, alhoewel hij zelf aangaf graag zo snel mogelijk het stokje over te willen dragen aan zijn opvolger.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg273">In mijn eerste termijn sprak ik over het belang van loonsverhoging, vandaar mijn volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat De Nederlandsche Bank, het Centraal Planbureau, de Europese Commissie en het Internationaal Monetair Fonds onlangs hebben gewezen op het belang van loonsverhoging in Nederland;</note>
+               <note>constaterende dat de minister van Financiën zich na de afgelopen ministerraad heeft geschaard achter deze oproep;</note>
+               <note>verzoekt de regering, deze woorden zo veel mogelijk om te zetten in daden en de Kamer te melden hoe zij dit gaat doen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Azarkan. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34730-10</note>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u213">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg274">Mijn volgende motie gaat over de koopkrachtontwikkeling.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>van mening dat na het zuur, kwetsbaren in onze samenleving nu ook dienen mee te delen in het zoet;</note>
+               <note>overwegende dat er sprake is van een begrotingsoverschot;</note>
+               <note>verzoekt de regering om zich ervoor in te zetten dat bij het opstellen van het koopkrachtbeleid in aanloop naar Prinsjesdag concrete voorstellen worden gedaan om het geraamde verlies aan koopkracht onder uitkeringsgerechtigden in 2018 om te zetten in koopkrachtgroei én te bewerkstelligen dat de geraamde stilstand in koopkrachtontwikkeling voor werkenden met een laag inkomen in 2018 wordt omgezet in koopkrachtgroei,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Azarkan. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34730-11</note>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u214">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg275">Deze motie lijkt nogal op de motie van de collega's Nijboer en Snels. Zij mogen natuurlijk met mij meetekenen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg276">Ik lees mijn laatste motie voor.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering in de Voorjaarsnotastukken wel een analyse geeft van macro-economische effecten, maar geen analyse biedt van de koopkrachtramingen;</note>
+               <note>verzoekt de regering om voortaan in de Voorjaarsnotastukken een analyse te geven van de koopkrachtramingen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Azarkan. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34730-12</note>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u215">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg277">Even los van het politieke doel, maar volgens mij hebben we gewoon een CPB-stuk liggen met een koopkrachtraming. Dat heeft de heer Azarkan volgens mij gezien. We behandelen een keer per jaar de koopkracht of wil de heer Arzarkan de hele systematiek van de begroting en de koopkracht twee keer per jaar gaan toepassen? We doen dat nu met Prinsjesdag. Ik deel een aantal van zijn zorgen, maar ik ben er een beetje beducht voor om Prinsjesdag twee keer per jaar te laten plaatsvinden.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u216">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg278">Ik kan mij niet herinneren dat ik heb gezegd dat we dat twee keer moeten gaan doen. Ik zeg dat we wel een tussentijdse nota en analyse hebben, maar dat de koopkrachtramingen daarin ontbreken. Mijn voorstel is heel simpel, namelijk dat we die gaan toevoegen aan het CEP.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u217">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg279">Volgens mij zitten die al in het Centraal Economisch Plan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u218">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg280">Ze zitten er al in, begrijp ik.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u219">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg281">Niet van het kabinet.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u220">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg282">Maar ik wil ze graag van het kabinet.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u221">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg283">De minister mag niet fluisteren. Dat heet souffleren.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg284">Ik kijk even naar de minister. Is een schorsing van vijf minuten voldoende? Dat is het geval.</seg>
+            </u>
+            <note>De vergadering wordt van 16.11 uur tot 16.21 uur geschorst.</note>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u222">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg285">Voorzitter. Er waren een aantal losse vragen. Ik moet ook iets zeggen over enkele amendementen. Daarna ga ik in op de moties. Dat lijkt mij de goede volgorde.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg286">De heer Omtzigt ging in op de politie. Daar is ook een motie over ingediend. Ik kom daar dus straks op terug bij mijn reactie op die motie.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg287">De verwarring van de heer Omtzigt over de 300 miljoen ... Nee, dat moet ik zo niet zeggen, want hij is natuurlijk niet verward. Wij hebben het verwarrend gepresenteerd. Wij maken 300 miljoen extra vrij, omdat de hogere ABP-premie, die voor werkgevers gewoon een gegeven is en die moet worden gefinancierd, natuurlijk ten koste gaat van de loonruimte. Daarom hebben wij 300 miljoen extra vrijgemaakt voor de loonruimte. Meer specifiek was zijn vraag welk deel daarvan nu ten goede komt aan de onderwijssectoren. Dat is circa 200 miljoen van de 342 miljoen. Dat is het precieze bedrag dat wij extra vrijmaken. Daarvan is 200 miljoen voor het onderwijs. Dat is een additionele toevoeging van 0,83% van de loonsom voor het onderwijs. Dat wil niet zeggen dat alle sectoren binnen het onderwijs nu een loonsverhoging krijgen van 0,83%. Zo is het niet. De loonruimte per sector kan ik op dit moment niet precies aangeven. Dat heeft namelijk ook te maken met het feit dat het effect van de verhoging van de ABP-premie ook weer per onderwijssector verschilt. Dat is afhankelijk van de salarissamenstelling van de betreffende werknemer in het onderwijs. Over het geheel van de sectoren waar het over gaat, hebben we het gemiddeld over 1%. Van de 342 miljoen is 200 miljoen bestemd voor het onderwijs. Dat is 0,83% extra toevoeging aan de loonsom voor het onderwijs. Daarbinnen pakt het ook weer gedifferentieerder uit.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg288">Die extra loonruimte in het onderwijs komt bovenop de loonruimte in 2015 en 2016, die in het onderwijs — opnieuw gemiddeld, dus over de sectoren heen — opgeteld 5% was. In 2015 en 2016 is er in het onderwijs dus al 5% extra loonruimte gekomen. Voor dit jaar creëren we met deze 200 miljoen voor het onderwijs nog een keer 0,83% extra.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg289">Dan heeft de heer Van Dijck nog een keer gevraagd naar de inflatie. Hij heeft gezegd: als het in een keer zo veel hoger is, wat zijn de begrotings- en koopkrachtcijfers dan nog waard. De inflatie wordt buiten onze invloed om geraamd en vastgesteld. Gaandeweg het jaar wordt die raming natuurlijk betrouwbaarder. Dit jaar is de inflatie hoger dan bij Prinsjesdag verwacht. Dat is voor ons een gegeven.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg290">De heer Omtzigt heeft nog gevraagd naar de handhaving door de minister van Sociale Zaken en Werkgelegenheid van de zzp-wet. Ik neem aan dat hij de DBA bedoelt. Ik begrijp zijn vraag niet helemaal. Als ik slecht denk, begrijp ik dat de heer Omtzigt van mening is dat de DBA-boetes nu moeten uitgeschreven terwijl het kabinet heeft gezegd dat het daar nog tijd voor neemt, dat de invoering van de DBA meer tijd krijgt en dat de werkgevers en betrokkenen meer tijd krijgen om aan de nieuwe systematiek te wennen. Ik dacht dat het CDA dat ook steunt, maar de heer Omtzigt wil blijkbaar boetes.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u223">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg291">Ik heb in 2016 samen met D66 een motie ingediend om te beginnen met boetes voor mensen die de zaak apert flessen. Het gaat dus niet om zzp'ers die een klus hebben en misschien een uur te veel werken ten opzichte van het modelcontract, maar om die mensen die tientallen mensen als zzp'er gedwongen aan het werk zetten wat eigenlijk werknemersrelaties zijn. Daarvoor was de wet bedoeld. De staatssecretaris van Financiën heeft opgemerkt dat het ooit het doel was om die categorie te kunnen aanpakken, want die kon in het kader van de VAR niet worden aangepakt. Dit zou betekenen dat de opdrachtgever niet aansprakelijk kon worden gesteld en daarom werden er nog steeds geen boeten uitgedeeld.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u224">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg292">Ik stel voor dat de staatssecretaris van Financiën hierop terugkomt. Hij stuurt met enige regelmaat rapportages en brieven over de Wet DBA aan de Kamer en dan zal hij hierop ook ingaan.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg293">Ik maak een opmerking in algemene zin over de amendementen van mevrouw Leijten. Zij heeft gezegd: het is me wat, het mag allemaal niet. Ik denk dat de heer Van Dijck gelijk heeft: het mag allemaal wel. Als ik het woord "ongedekt" heb gebruikt, dan maak ik daarvoor excuses, want ze zijn niet ongedekt. De dekking wordt gevonden in het saldo, want het gaat ten koste van het saldo. Wij moeten daarin zorgvuldig zijn. Het is alleen niet onze keuze. Wij hebben bij de opstelling van de Voorjaarsnota natuurlijk een aantal keuzen gemaakt waar een politieke weging in zit. Wat vind je op dit moment een politieke prioriteit? Er zit ook een restrictie in. Wij zijn demissionair en wat doe je dan wel en wat doe je niet? Dit maakt dat wij deze amendementen op dit moment niet ten laste van het saldo willen laten gaan. Het mag dus wel, het is aan de Kamer, maar mijn oordeel verandert hier niet door.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg294">De heer Van Rooijen heeft gesproken over mijn baas, de premier. Ik moest daar even over nadenken. Ik heb hem nooit zo ervaren; dat is staatsrechtelijk ook niet de juiste aanduiding, maar het is ook niet de leiderschapsstijl van de heer Rutte. Ik heb hem nooit als mijn baas gezien. Hij heeft inderdaad wel een handigheid om moties en amendementen met een groot gebaar te ontraden. Ik dacht dat ik dat ook een keer zou kunnen gebruiken.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg295">Dan kom ik bij de vraag van de heer Snels, die vreest dat het extra geld voor verpleeghuizen opgaat aan loon- en prijsstijgingen. Dat is niet zo. Zijn redenering is waarschijnlijk: omdat de inflatie zo veel hoger is, zijn wij het geld al weer kwijt. De loon- en prijsbijstellingen specifiek voor de zorg vinden eerder plaats en zijn daarmee veel beperkter. De prijzen in de zorg zijn vastgesteld. Dat gebeurt ook al eerder dan voor de andere begrotingen. De sterk stijgende inflatie zie je niet een-op-een terug in de kosten van lonen en prijzen in de zorg. Dat is dus echt niet zo. Die 100 miljoen kan echt worden aangewend voor kwaliteitsverbetering in de zorg.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg296">Ik heb nog niet gereageerd op het amendement op stuk nr. 7 van de heer Azarkan. Dit amendement gaat over het beveiligen van gebedshuizen. Het is een thema dat DENK na aan het hart ligt. Er gaat deze weken geen stemming voorbij of we moeten stemmen, meestal hoofdelijk, over de beveiliging van gebedshuizen. Het is een onderwerp dat ook ons zorgen baart, althans wij hebben volop aandacht voor de beveiliging van gebedshuizen. Wij zijn ervan overtuigd dat dat gewoon kan gebeuren binnen de middelen die beschikbaar zijn en in de mate waarin dat nodig is. De dekking van het amendement wordt gevonden in het saldo en die steun ik niet. Het onderwerp is een punt van zorg, maar kan gewoon worden gefinancierd binnen reguliere middelen. Ik ontraad het amendement op stuk nr. 7.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg297">Dan is er nog eentje waarop de heer Nijboer scherp is teruggekomen. Hij heeft gezegd: Stop! Wacht! Dit kan niet. Hiervoor is wel dekking aanwezig. Het is het amendement op stuk nr. 4 van mevrouw Kuiken en de heer Van Nispen. Daarvoor geldt — ik kan hem niet meer vinden — dat de middelen inderdaad vrij waren gevallen, maar inmiddels al anders zijn aangewend, ten dele inderdaad voor amendementen die de Kamer zelf op de begroting V en J heeft ingediend. Die middelen zijn toen voor een deel al daarvoor gebruikt — niet helemaal, zeg ik tegen de heer Van Weyenberg — en de resterende middelen zijn inmiddels door minister Blok anders aangewend. U bent precies, dus u gaat mij vragen waaraan het geld dan precies is besteed. Ik zeg u daarom graag een korte brief toe, voor de stemming van morgen, van de minister van V en J waarin hij precies kan aangeven hoeveel middelen er waren vrijgevallen en wanneer en waar deze anders zijn aangewend. Daarmee is de dekking aan dat amendement ontvallen. U kunt dit in uw oordeel over het amendement betrekken. U krijgt dus een korte brief daarover.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg298">Er is nog een openstaande vraag van de heer Omtzigt over een tweede hofuitspraak aangaande …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u225">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg299">De heer Nijboer.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u226">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg300">Wij zitten allebei een beetje aan de grens van de Justitiebegroting met anderhalf miljoen, proef ik aan de minister, en dat geldt zeker ook voor mijzelf. Het behoort wel tot de mogelijkheden dat de Kamer kan vinden dat de aanwending van het kabinet voor deze onvoorziene middelen beter deze aanwending kan zijn. Zelfs als minister Blok dat voorstelt en zegt dat hij die post onvoorzien voor deze zaken wil aanwenden, kan het zijn dat de Kamer beslist dat mediation belangrijker is. Het komt mij zo voor dat de PvdA-fractie die mening toekomt.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u227">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg301">Ik kan u in overweging geven om, wanneer die korte brief van de minister van V en J binnen is, zodat u precies kunt zien waar de middelen nu alternatief voor zijn aangewend, te besluiten het amendement niet meer met deze dekking in te dienen of in de toelichting van het amendement specifiek aan te geven waar u voor een alternatieve aanwending kiest. Stel dat een stukje van het geld door de minister van V en J aan de politie is besteed, maar u vindt mediation belangrijker, dan geeft u aan dat dat politiedeel anders moet worden aangewend. Ik zie de heer Nijboer enthousiast nee schudden. Het was maar een suggestie. U krijgt nadere informatie over waar deze middelen voor zijn besteed.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg302">Ik kom bij de vraag van de heer Omtzigt over een hofuitspraak die ook gaat over boetes. Ik kan daar op dit moment geen adequaat antwoord op geven. Ik doe dat niet graag en dan doe ik het liever schriftelijk, want dan weet ik zeker dat we een goed antwoord geven aan de heer Omtzigt. Ik zeg een brief toe van de staatssecretaris van Financiën.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg303">Dan kom ik bij de moties. De eerste motie van de heer Omtzigt, op stuk nr. 4, gaat over de bevoegdheden van de Algemene Rekenkamer ten aanzien van de uitgaven voor de politie. Ik laat het oordeel over deze motie aan de Kamer. In alle gevallen ben ik bereid om met de Algemene Rekenkamer in overleg te treden over het dictum van deze motie, omdat ik vind dat de Algemene Rekenkamer deze bevoegdheid zou moeten hebben. Als daar een beperking in zit, moeten we daar echt naar kijken. Dat is mijn opvatting. Oordeel Kamer dus.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg304">De motie van de heren Nijboer en Snels op stuk nr. 5 gaat over een evenwichtige inkomensontwikkeling. Een evenwichtige inkomensontwikkeling is het uitgangspunt van het kabinet. Daar zullen wij ons voor inspannen. De toevoeging is heel specifiek. Dat zou een inspanningsverplichting zijn. Ik hoop dat wij erin slagen. Evenwichtige inkomensverdeling is start- en eindpunt van onze koopkrachtbesprekingen. Ik laat het oordeel over de motie aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg305">Dan de motie op stuk nr. 6 van de heren Nijboer en Snels over die 10 miljoen. Het gaat om een oproep richting Prinsjesdag. Ik moet streng zijn; dat is mijn rol. Ook moties moeten gedekt zijn. Deze motie roept op om geld vrij te maken voor iets, maar moties zijn niet gratis. Ik ontraad de motie omdat ik geen handreiking zie hoe wij dekking zouden kunnen vinden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg306">Dat geldt ook voor de motie op stuk nr. 7 over het onderwijsachterstandenbeleid. Het zijn onderwerpen die mij sympathiek zijn. Overigens klopt de motie niet helemaal. Het probleem zou zijn dat de nieuwe systematiek wordt uitgesteld. Dat is niet het acute probleem. De nieuwe systematiek zou in ieder geval voor een aantal gemeentes juist een oplossing betekenen. Het probleem is dat het budget in lijn is gebracht met het aantal laagopgeleide ouders. En dat is een stuk lager dan een aantal jaren geleden. En dus is het budget naar beneden bijgesteld. Daar zit de grote bezuiniging, zo u wilt, op het onderwijsachterstandenbudget. Ook hiervoor geldt dat ik geen dekking heb en juist op de begroting voor Onderwijs is dat op dit moment problematisch.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u228">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg307">Op zichzelf ben ik het ermee eens dat moties altijd gedekt moeten zijn. Dit zijn twee thema's, het achterstandenbeleid en de cultuur, waarvoor de afgelopen tijd door de Kamer steeds bij amendement dekking is aangegeven. Het is wel zo dat het budgettair kader voor deze kabinetsperiode is verlopen. Voor 2018 wordt het opnieuw vastgesteld. Wat wij hopelijk met brede steun van de Kamer doen, is tegen het kabinet zeggen: dit zijn de prioriteiten die moeten worden meegewogen in het nieuwe budgettair kader. Dan is er echt meer ruimte. Het gaat economisch beter. Hoe je het ook wendt of keert, er is meer ruimte op de begroting, dan wel voor lastenverlichting, dan wel voor uitgaven. Daar past het denk ik wel in. Mocht het niet lukken, dan zijn wij het aan onszelf verplicht om bij de begroting gedekte amendementen te maken. Dat zullen wij zeker doen.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u229">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg308">Dat is zeker bij die 10 miljoen voor cultuur eerder gebeurd. Dat is dus denkbaar. Natuurlijk begrijpen wij deze signalen van de Kamer, maar nogmaals, moties die niet van een dekking zijn voorzien, zal ik moeten ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg309">Dat geldt ook voor de motie op stuk nr. 8 van de leden Leijten en Jasper van Dijk. Ook dit, de begeleiding van leerlingen die uit het voortgezet speciaal onderwijs, het praktijkonderwijs, komen, lijkt mij een punt dat absoluut aandacht verdient. Het gaat om extra geld zonder dat wordt aangegeven waar het uit betaald moet worden. Ik ontraad de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg310">Ik kom op de motie van de heer Van Rooijen op stuk nr. 9 over de problematiek van de uitvoering van de bijstand door de gemeenten. Daar zou een tegenvaller zijn ten opzichte van de eerder beschikbaar gestelde budgetten. Wij werken daarbij met een macroraming die lopende het jaar wordt bijgesteld, maar uiteindelijk is zij for better and for worse. In sommige jaren komen de gemeenten erop tekort, in andere jaren hebben ze geld over. Dat komen wij dan ook niet ophalen. Ik heb er met wethouders over gesproken en zij zijn er verdeeld over. Nu er een tekort is, zeggen sommigen: dit is een heel slechte systematiek. Anderen weten nog dat er de afgelopen jaren regelmatig geld over was en dat ze dat toen mochten houden. Het is for better and for worse. Die systematiek moet je niet te snel overboord gooien. Soms heb je er last van, soms een voordeel. Ik zou de motie willen ontraden.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u230">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg311">Er is op 14 juni van dit jaar een motie aangenomen door de ledenvergadering van de Vereniging van Nederlandse Gemeenten, waarin men, ondanks de verschillende invalshoeken, met z'n allen gevraagd heeft om iets te doen aan dat tekort van 270 miljoen. Er is maar 90% van het macrobudget gedekt. Wil de minister dit signaal wel meenemen naar de volgende kabinetsbespreking? Dit is namelijk een groot probleem, omdat de gemeenten die geld tekortkomen, dat gaan verhalen op allerlei belangrijke zaken die ik zojuist heb genoemd. Dat moeten we met elkaar niet willen. Er zijn plusgemeenten, maar er zijn ook zware-mingemeenten, en de wethouders hebben ons veel brieven geschreven. Dat is de minister dus gelukkig ook bekend.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u231">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg312">Dat is mij ook bekend, evenals dat er ook wel verschillend over wordt gedacht. Ik ga de systematiek nu niet aanpassen. We moeten er echt voor oppassen dat wij, nu het een keer tegenzit, ineens die systematiek niet meer willen. In goede jaren heeft niemand daarover geklaagd. Ik ben er dus voor dat wij dit vasthouden. Ik kan me wel voorstellen dat een nieuw kabinet over een aantal van dit soort dossiers met de gemeenten gaat praten: willen wij deze systematiek volhouden? Maar daarna moet je die systematiek ook wel weer volhouden, en niet ad hoc, als het even tegenzit, zeggen: nu wil ik een andere systematiek. Dat is mijn bezwaar. Ik heb met de gemeenten aan de start van mijn periode als minister van Financiën over een aantal onderwerpen in één keer een akkoord gesloten. Dat was dan ook voor vier jaar. Dat ging over de Wet Hof, het btw-compensatiefonds en zo nog wat dingen. Er was één pakket en daarover is een akkoord gesloten. Dan gaan we niet voortdurend met elkaar afrekenen, maar dan doen we het zo. Dat geldt hierbij ook. Een nieuw kabinet kan zeggen dat het dit anders gaat doen als de gemeenten dat willen, maar dan is dat wel consequent anders.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u232">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg313">Maar ik begrijp dat u de boodschap meeneemt en eventueel, als u daarbij betrokken wordt, een nieuwe afspraak voor de komende jaren zou kunnen overwegen.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u233">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg314">Deze vraag heeft meerdere hypothetische onderleggers, namelijk dat ik erbij betrokken ben, dat ik het dan zou willen overwegen et cetera. Dit kabinet gaat die afspraak niet herzien. Ik kan me voorstellen dat het volgende kabinet dat opnieuw wil wegen, maar u vraagt het nu aan het huidige kabinet. Over komende kabinetten ga ik niet. Het huidige kabinet zal de systematiek niet veranderen. Ik ontraad deze motie dus.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u234">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg315">Gaat u verder.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u235">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg316">In de motie op stuk nr. 10 van de heer Azarkan gaat het om loonsverhoging. Zeker, daartoe heb ik opgeroepen, maar ik ga dat niet afdwingen. Ik vind dat dit aan de sociale partners is, in oog nemend de verschillen tussen sectoren. De motie is dus uitgevoerd, namelijk met mijn oproep, en ik blijf die oproep doen omdat ik het een belangrijk punt vind. Ik kan de motie verder niet uitvoeren en moet haar dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg317">De motie op stuk nr. 11 van de heer Azarkan gaat over de koopkrachtontwikkeling. Gevraagd wordt om geraamd verlies en geraamde stilstand om te zetten in groei. Ik moet consequent zijn, denk ik. Over de motie van de Partij van de Arbeid en GroenLinks heb ik gezegd dat wij streven naar een evenwichtige koopkrachtontwikkeling; verder heb ik het oordeel aan de Kamer gelaten. Dat zou voor deze motie dan ook moeten gelden. De kabinetsinsteek is een evenwichtige koopkrachtontwikkeling. Dat gaan we in augustus bezien. Ik laat dus ook het oordeel over deze motie aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg318">In de motie op stuk nr. 12 wordt gevraagd om in de voorjaarsnotastukken een analyse te geven van de koopkrachtramingen. Dat ga ik echt niet doen. Dat zou ik ook mijn opvolger afraden. Het CPB presenteert inderdaad wel een koopkrachtbeeld, zodat mensen weten hoe het in de werkelijkheid gaat. Maar zodra het kabinet daar hele analyses aan gaat wijden, zal de heer Azarkan vervolgens ook zeggen: en wat gaat u er nu aan doen? Wij willen niet op allerlei begrotingsmomenten door het jaar heen moeten bijsturen op belastingen, premies, toeslagen et cetera. Ik ontraad de motie op stuk nr. 12 dus.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u236">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg319">Het antwoord van de minister ging toch niet over uw motie, mevrouw Leijten?</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u237">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg320">Nee, het was niet die van mij. Maar ik wil wel even het volgende opmerken. Wanneer je een amendement met dekking indient voor culturele instellingen, kan het niet, want de dekking wordt niet gedeeld. Wanneer er dan een motie komt met dezelfde strekking en de oproep "regel het dan maar op het moment dat het volgens de regering tijdig zou zijn", kan het niet, want er is geen dekking. Op die manier draaien we rondjes en is het dus gewoon heel erg duidelijk dat als de Kamer iets wil maar de regering het nog niet wil, er altijd wel argumenten te vinden zijn in of de dekking of de ontbrekende dekking om het te ontraden.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u238">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg321">Ik ben het echt oneens met mevrouw Leijten. Uiteindelijk beslist de Kamer. Het behoort tot het ambachtelijke handwerk van het Kamerlidmaatschap om te zorgen dat een voorstel, een amendement, door een meerderheid wordt gesteund. Dat gaat mevrouw Leijten vast lukken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u239">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg322">Dank u wel. Daarmee zijn we aan het einde van dit debat gekomen.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.u240">
+               <seg xml:id="ParlaMint-NL_2017-07-05-tweedekamer-5.seg323">Over de ingediende moties en amendementen zullen we morgen stemmen. Ik dank de minister en de Kamerleden.</seg>
+            </u>
+            <note>De vergadering wordt van 16.44 uur tot 17.51 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

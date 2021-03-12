@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-11-02 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-11-02 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 17, Session 9 (2017-11-02)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 17, Session 9 (2017-11-02)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="17">Meeting 17</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="9">Session 9</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="9">9 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="9">9 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="187">187 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="187">187 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-11-02">2017-11-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="12"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="9"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-11-02">2017-11-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (Stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg1">Aan de orde zijn de stemmingen. Voordat we gaan stemmen geef ik eerst de heer Baudet namens Forum voor Democratie het woord.</seg>
+            </u>
+            <u who="#ThierryBaudet" ana="#regular" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg2">Mevrouw de voorzitter. Ik wil graag een hoofdelijke stemming aanvragen voor mijn motie over een concurrentiebeding voor bewindslieden, een afkoelingsperiode van twee jaar, omdat ik per persoon hier aanwezig, per politicus, wil weten of men bereid is om transparantie over zijn gedragingen toe te laten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg3">Dat is dan de motie op stuk nr. 48 (34775). De heer Krol heb ik ook op mijn lijst. Mevrouw Thieme?</seg>
+            </u>
+            <u who="#MarianneThieme" ana="#regular" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg4">Heel kort. Ik wil twee moties aanhouden: de moties op stukken nrs. 36 en 37.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg5">Op verzoek van mevrouw Thieme stel ik voor haar moties (34775, nrs. 36 en 37) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg6">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg7">Ik wil de motie over de wet-Hillen op stuk nr. 41 ook aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg8">Op verzoek van de heer Krol stel ik voor zijn motie (34775, nr. 41) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg9">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#JesseKlaver" ana="#regular" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg10">De motie op stuk nr. 19 wil ik graag aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg11">Op verzoek van de heer Klaver stel ik voor zijn motie (34775, nr. 19) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-02-tweedekamer-9.seg12">Daartoe wordt besloten.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

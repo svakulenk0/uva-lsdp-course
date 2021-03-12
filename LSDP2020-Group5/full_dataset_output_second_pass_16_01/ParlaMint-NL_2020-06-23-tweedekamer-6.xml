@@ -1,0 +1,130 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-06-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-06-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 86, Session 6 (2020-06-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 86, Session 6 (2020-06-23)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="86">Meeting 86</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="14">14 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="14">14 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="545">545 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="545">545 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-06-23">2020-06-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="17"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="14"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-06-23">2020-06-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg1">Ik stel voor zo dadelijk ook te stemmen over de moties ingediend bij de notaoverleggen over Sociaal minimum en kinderrechten en Luchtvaart en corona.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg2">Ik stel ook voor te stemmen over de aangehouden motie-Paternotte/Stoffer (35300-XII, nr. 55), de motie-Van Raan (31936, nr. 602) en de gewijzigde motie-Van der Staaij (25295, nr. 416).</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg3">Dan geef ik nu het woord aan de heer Van Gent namens de VVD.</seg>
+            </u>
+            <u who="#TobiasvanGent" ana="#regular" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg4">Dank u wel, mevrouw de voorzitter. We zouden eigenlijk vandaag stemmen over de gedragscode en het toezicht op de gedragscode, maar daar leven binnen mijn fractie toch nog wel vragen over. Er zijn ook nog vraagtekens bij, naar ik heb gemerkt ook bij een aantal andere fracties. Dit verzoek dien ik mede in namens de SGP. Die gedragscode is voor ons allemaal, voor de hele Kamer. Dan is het belangrijk om daar breed draagvlak voor te hebben. Wij willen dus verzoeken om uitstel van de stemmingen en om daar toch nog een debat over te voeren, en dat willen we dan zo snel mogelijk na de zomer doen.</seg>
+            </u>
+            <u who="#MadeleinevanToorenburg" ana="#regular" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg5">Voorzitter. Ik hecht eraan om op te merken dat ik dat zou betreuren. Ik zou graag willen dat we daarover konden stemmen, omdat het, als we regels maken, wel fijn is als we elkaar daar ook aan kunnen houden. We maken vaak regels voor anderen. Nu maken we ze een keer voor onszelf, maar blijven we ze maar uitstellen. Ik vind dat eigenlijk een gemiste kans.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg6">Dus geen steun voor uitstel. De heer Markuszower.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg7">Ja voorzitter, van harte steun. Ook omdat wij dat debat al hadden aangevraagd. Dus als het goed is, kan de heer Van Gent met zijn verzoek aansluiten bij het eerdere verzoek dat toen wel Kamerbreed werd gesteund om dat debat in te plannen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg8">Het klopt wat u zegt, maar de commissie voor Binnenlandse Zaken had toen besloten om het bij het debat over de Raming te betrekken. Maar goed, u had toen wel steun. Wie had ik nou? Iedereen bemoeit zich ermee. Mevrouw Kuiken.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg9">Voorzitter. Wat ons betreft hadden we nu kunnen stemmen. Ik vind uitstel oké, maar dan moet het wel echt heel snel na de zomer want anders is het echt niet uit te leggen. Onder die voorwaarde steun voor dit verzoek.</seg>
+            </u>
+            <u who="#VeraBergkamp" ana="#regular" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg10">Ik vind dat mevrouw Kuiken het eigenlijk heel mooi geformuleerd heeft. Als een collega vraagt om iets meer tijd te hebben, vind ik dat prima, maar niet al te veel. Het hoeft trouwens ook niet per se een plenair debat te zijn. Het kan ook in een ander overleg, maar wel steun voor uitstel.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg11">Voorzitter. Wij zijn voorstander van een plenair debat. Het gaat over ons, maar dat mag de burger ook zien. Laten we daar ook een plenair debat over voeren. Dus steun, maar het liefst zo snel mogelijk na het reces.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg12">Ik sluit mij aan bij mevrouw Bergkamp. Het kan na de zomer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg13">Ja, allemaal? Dan voeren we na het zomerreces een debat hierover en daarna komen er stemmingen. Is dat de conclusie? Dan doen we dat.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg14">De heer Paternotte namens D66.</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg15">Voorzitter. Ik zou graag bij agendapunt 13, Luchtvaart en corona, de motie op stuk nr. 753 (31936) een week willen aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.u14">
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg16">De motie-Paternotte c.s. (31936, nr. 753) bij agendapunt 13 wordt aangehouden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-23-tweedekamer-6.seg17">Dan gaan we nu naar de stemmingslijst.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

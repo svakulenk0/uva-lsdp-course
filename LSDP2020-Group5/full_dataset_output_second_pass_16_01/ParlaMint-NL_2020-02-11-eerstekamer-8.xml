@@ -1,0 +1,122 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2020-02-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2020-02-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 20, Session 8 (2020-02-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 20, Session 8 (2020-02-11)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="20">Meeting 20</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #EK.36" corresp="#EK" n="36-upper">Meeting of the 36th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="7">7 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="7">7 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="151">151 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="151">151 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2020-02-11">2020-02-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="7"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="7"/>
+               <tagUsage gi="note" occurs="18"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-02-11">2020-02-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Eindrapport staatscommissie parlementair stelsel</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.seg1">Dan geef ik het woord aan de heer Cliteur.</seg>
+            </u>
+            <note>De beraadslaging wordt heropend.</note>
+            <u who="#PaulCliteur" ana="#regular" xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.seg2">Voorzitter. Ik zou willen voorstellen om een kleine wijziging aan te brengen in de laatste zin van onze motie over het bindend correctief referendum. Daarin stond ook een verwijzing naar het Tweede Kamerinitiatief. Die willen wij eruit halen, maar verder blijft de motie eigenlijk helemaal hetzelfde. Ik zou die graag nu aan u willen overhandigen.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.seg3">De motie-Cliteur c.s. (, letter ) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat een compromis van een meerderheid van in het parlement vertegenwoordigde partijen kan leiden tot (onderdelen van) wetgeving die evident niet overeenkomt met de opvattingen van een meerderheid van de kiezers;</note>
+               <note>overwegende dat de kiezer momenteel geen mogelijkheden c.q. instrumenten heeft om (onderdelen van) die wetgeving terug te draaien;</note>
+               <note>overwegende dat het instrument "bindend correctief referendum" voorziet in een oplossing van dit probleem;</note>
+               <note>constaterende dat de Raad van State geen staatsrechtelijke belemmeringen ziet voor de invoering van een bindend correctief referendum;</note>
+               <note>constaterende dat er een positief advies ligt van de staatscommissie parlementair stelsel, "Lage drempels, hoge dijken", op dit onderdeel, waarbij de staatscommissie bovendien constateert dat een bindend correctief referendum het primaat van de vertegenwoordigende democratie niet aantast;</note>
+               <note>spreekt uit een positieve grondhouding aan te nemen ten aanzien van het instrument bindend correctief referendum,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note/>
+               <note>Zij krijgt nr. kst-34430-S</note>
+            </u>
+            <note>De motie onder de letter O maakt daarmee geen deel meer uit van de beraadslaging.</note>
+            <note>Dank u wel, meneer Cliteur.</note>
+            <note>Wenst een van de andere leden nog het woord in de derde termijn? De heer Nicolaï.</note>
+            <u who="#AtzoNicolaï" ana="#regular" xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.seg4">Voorzitter. Het volgende is mij even niet duidelijk. Ik heb twee moties ingediend die betrekking hebben op de Invoeringswet Omgevingswet. Die worden dan toch na de stemming vanavond behandeld? Want zo was het oorspronkelijk natuurlijk ook.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.seg5">Alle stemmingen, inclusief die over de moties, zijn verplaatst naar later vandaag.</seg>
+            </u>
+            <u who="#AtzoNicolaï" ana="#regular" xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.seg6">Alle? Oké. Dank u wel.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2020-02-11-eerstekamer-8.seg7">Alle moties inzake de Omgevingswet. Ja. Dat was het voorstel van mevrouw Klip. De andere gaan we nu doen.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-03-31 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-03-31 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 72, Session 8 (2016-03-31)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 72, Session 8 (2016-03-31)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="72">Meeting 72</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="510">510 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="510">510 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-03-31">2016-03-31</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="7"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+               <tagUsage gi="note" occurs="18"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-03-31">2016-03-31</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Post</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.seg1">Ik heet de minister van Economische Zaken van harte welkom. De spreektijd bedraagt twee minuten, inclusief het indienen van eventuele moties.</seg>
+            </u>
+            <u who="#MeiLiVos" ana="#regular" xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.seg2">Voorzitter. Wij hebben in het algemeen overleg gesproken over de situatie op de postmarkt. Die situatie baart de hele Kamer zorgen. Er zijn slechts twee grote spelers en er wordt gesproken over het omvallen van bedrijven. Het probleem is alleen dat wij te weinig informatie hebben en beschikken over te weinig cijfers om dat te kunnen staven. Vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de beperkte concurrentie op de huidige postmarkt aanleiding geeft tot zorgen over mededingingsverhoudingen;</note>
+               <note>constaterende dat het borgen van een gelijk speelveld een belangrijk doel is in de Postwet 2009;</note>
+               <note>constaterende dat de Autoriteit Consument &amp; Markt daartoe zowel in de Postwet 2009 als in de Mededingingswet beschikt over bevoegdheden en instrumenten om eventueel verplichtingen op te leggen aan marktpartijen;</note>
+               <note>overwegende dat in de zakelijke postmarkt met krimpende volumes het gelijke speelveld onder druk lijkt te staan en daardoor risico's ontstaan met betrekking tot een bestendige en gezonde concurrerende markt;</note>
+               <note>roept de regering op, te onderzoeken aan welke essentiële voorwaarden moet zijn voldaan om een bestendige concurrerende markt op de langere termijn te borgen;</note>
+               <note>overwegende dat daarbij inzicht in de kostprijsopbouw van postdiensten nodig is, bijvoorbeeld door het opstellen van referentieprijzen, zodat marktverstoring of kruisfinanciering mogelijk zichtbaar wordt;</note>
+               <note>roept de regering op om marktonderzoek te laten verrichten naar de situatie op de niet-tijdkritische zakelijke postmarkt, waarbij in ieder geval de 72 uurspostmarkt wordt betrokken;</note>
+               <note>roept de regering op, waar mogelijk met de ACM afstemming te zoeken over lopende marktonderzoeken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Mei Li Vos en Remco Bosma. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34024-35</note>
+            </u>
+            <note>Ik zie een hoop intekenaars die eventueel interrupties willen plaatsen, maar geen bijdrage leveren. Dat mag. De minister kan meteen antwoorden. Ik geef hem daartoe graag het woord.</note>
+            <u who="#HenkKamp" ana="#regular" xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.seg3">Voorzitter. Mevrouw Vos heeft opnieuw haar zorgen over de situatie op de postmarkt onder woorden gebracht, zoals zij dat ook deed tijdens het algemeen overleg dat wij over de postmarkt hebben gehad. Ook andere woordvoerders deelden toen hun zorgen over de situatie op de postmarkt. In Nederland hebben wij een postmarkt met krimpende volumes. Vorig jaar bedroeg de krimp 8%, dit jaar verwachten wij opnieuw een krimp van 8%. Gelijktijdig hebben wij stevige concurrentie op die markt. Dit betekent dat de winstmarges zeer onder druk staan en dat de kosten oplopen. Die situatie is op dit moment, op de korte termijn, goed voor de klanten, maar het is de vraag of dat op de lange termijn zo zal blijven. Er zijn signalen die aanleiding geven om ons nader te verdiepen in de situatie op de postmarkt en te bezien of de voorwaarden voor een goede, gezonde ontwikkeling in de toekomst vervuld zijn, dan wel dat er maatregelen nodig zijn. Mevrouw Vos heeft dat samen met de heer Bosma onder woorden gebracht in een motie waarin gevraagd wordt om een tweetal onderzoeken en om het zoeken van afstemming met de ACM.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.seg4">Om te beginnen met het laatste: de ACM heeft eigen bevoegdheden, is onafhankelijk en neemt eigen beslissingen. Desondanks is het verstandig om afstemming te zoeken als het ACM onderzoek doet of als wij als ministerie van Economische Zaken onderzoeken laten doen. De in de motie gevraagde onderzoeken vind ik een goede zaak. Ik ben zelf al bezig om voorbereidingen daarvoor te treffen, omdat ik tot dezelfde conclusie ben gekomen als de indieners van de motie. Om die reden neem ik de motie over. Op zo kort mogelijke termijn zal ik gaan werken aan de uitvoering van de motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.seg5">Nog even de volgende toelichting. Sinds het initiatief van collega Van der Staaij door de Kamer is aangenomen, is artikel 66 van het Reglement van Orde zodanig aangepast dat leden van het kabinet ook moties kunnen overnemen. Als dat het geval is, meld ik dat. De desbetreffende motie maakt dan geen onderdeel meer uit van de beraadslaging, tenzij een van de leden daartegen bezwaar maakt.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.seg6">Ik stel vast dat geen van de leden er bezwaar tegen maakt dat de motie op stuk nr. 35 (34024) niet langer onderdeel van de beraadslaging uitmaakt. Ik dank de minister voor zijn aanwezigheid.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2016-03-31-tweedekamer-8.seg7">Ik stel voor aanstaande dinsdag te stemmen over de motie. Excuus, ik vergis mij. We moeten allemaal even wennen aan de nieuwe situatie. We stemmen immers niet meer over deze motie, nu zij is overgenomen. Het was de macht der gewoonte.</seg>
+            </u>
+            <note>De vergadering wordt van 12.11 uur tot 13.15 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

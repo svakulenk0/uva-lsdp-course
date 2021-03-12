@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-11-28 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-11-28 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 29, Session 4 (2018-11-28)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 29, Session 4 (2018-11-28)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="29">Meeting 29</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="8">8 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="8">8 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="766">766 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="766">766 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-11-28">2018-11-28</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="13"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="8"/>
+               <tagUsage gi="note" occurs="16"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-11-28">2018-11-28</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Telecomraad van 4 december 2018</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg1">Ik ga door naar het volgende agendapunt. Daartoe is ook de staatssecretaris van Economische Zaken en Klimaat in ons midden. De Kamer heeft een schriftelijk overleg gevoerd over de Telecomraad van 4 december 2018 en heeft behoefte aan een plenaire voortzetting van dat overleg. Daartoe hebben zich twee leden van de zijde van de Kamer ingeschreven. De eerste spreker is de heer Weverling, lid van de fractie van de VVD.</seg>
+            </u>
+            <u who="#ArneWeverling" ana="#regular" xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg2">Dank u wel, voorzitter. Ik heb één motie en een vraag. In het schriftelijk overleg heeft onze fractie vragen gesteld over buitenlandse invloeden op digitale infrastructuur en de mogelijke gevaren die dat met zich meebrengt. Daarom wil ik de volgende motie indienen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat binnenkort de veiling van 5G-frequenties gaat plaatsvinden en de kaders en uitgangspunten hiervan nog moeten worden vastgesteld;</note>
+               <note>overwegende dat China volgens het AIVD-jaarverslag spionageactiviteiten onderneemt in Nederland en dat Australië heeft besloten geen gebruik meer te maken van Chinese technologie;</note>
+               <note>overwegende dat buitenlandse hard- en software niet alleen voor sabotage- en spionagedoeleinden zou kunnen worden gebruikt maar tevens kan zorgen voor ontwrichting van de Nederlandse economie en de samenleving;</note>
+               <note>constaterende dat een risicoanalyse naar de kwetsbaarheid van het Nederlandse telecomnetwerk essentieel is;</note>
+               <note>verzoekt de regering daarom onderzoek te doen naar de afhankelijkheid van buitenlandse technologie (de hard- en software) met betrekking tot huidige telecomnetwerken en in kaart te brengen in welke landen Nederlandse telecomnetwerken beheerd worden en de uitkomsten van dit onderzoek uiterlijk mei 2019 met de Kamer te delen;</note>
+               <note>verzoekt de regering daarnaast om dit onderwerp te bespreken met andere lidstaten — de Telecomraad kan daarvoor dienen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Weverling, Van den Berg, Sjoerdsma, Bromet en Alkaya.</note>
+               <note>Zij krijgt nr. kst-21501-33-734</note>
+            </u>
+            <u who="#ArneWeverling" ana="#regular" xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg3">Dan nog een korte vraag. Gisteren werd bekend dat de fusie tussen T-Mobile en Tele2 Nederland door kan gaan. Ik zou de staatssecretaris willen vragen hier nog een reactie op te geven. Dat hoeft nu niet direct mondeling, maar dat mag ook in een brief. Ik kan mij voorstellen dat de staatssecretaris daarin ingaat op de volgende punten. Wat betekent het goedkeuren van de fusie voor de uitrol van 5G? Op welke termijn gaat die fusie daadwerkelijk plaatsvinden? Kan de staatssecretaris de Kamer hierover een tijdlijn sturen? Wat zijn de te verwachten gevolgen voor investeringen in innovatie volgens de staatssecretaris? Wat zijn de te verwachten gevolgen voor consumenten, aangezien we dan drie partijen over hebben in Nederland? Welke gevolgen heeft de telecomregulering door de ACM hierop? Gaat daar nog iets in wijzigen vanuit het ministerie?</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg4">Tot zover, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg5">Dank u wel, meneer Weverling. De tweede spreker heeft zich teruggetrokken. Dat betekent dat ik voor enkele ogenblikken schors, zodat de staatssecretaris haar beantwoording kan voorbereiden.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg6">Ik geef het woord aan de staatssecretaris.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg7">Voorzitter. Het is toch mooi om elke keer weer te zien welke inspanningen gepleegd worden op de publieke tribune om bezoekers van de Kamer te informeren over de gang van zaken hier. Grote klasse.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg8">Voorzitter. Er is gevraagd of ik schriftelijk wil reageren op de berichtgeving van de Europese Commissie ten aanzien van de fusie van Tele2 en T-Mobile. Uiteraard. Dat zal ik zeker doen. Ik denk dat zo voor het kerstreces de brief bij de Kamer kan zijn. Wat voor mij altijd van belang is geweest en blijft, is dat er voldoende concurrentie en voldoende keuzemogelijkheden blijven op basis van prijs en kwaliteit. Zo kijk ik ook naar het bericht dat tot ons gekomen is vanuit de Europese Commissie ten aanzien van de voorgenomen fusie.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg9">Dan de breed ondersteunde motie-Weverling c.s., waarin de regering wordt verzocht onderzoek te doen naar de afhankelijkheid van buitenlandse technologie en hard- en software met betrekking tot de huidige telecommunicatienetwerken, in kaart te brengen in welke landen de Nederlandse netwerken beheerd worden en het onderzoek uiterlijk in mei 2019 met de Kamer te delen. Het is goed om aandacht te hebben voor de risico's die het gebruik van buitenlandse technologie met zich mee kan brengen, ook ten aanzien van de kwetsbaarheid van deze telecomnetwerken en in het verlengde daarvan natuurlijk voor onze samenleving. Het is goed om hier aandacht aan te besteden. Dat gebeurt ook. Telecomoperators hebben een zorgplicht om te komen tot veilige en integere netwerken. Met het oog op de nationale veiligheid houdt het kabinet ook de veiligheid van systemen die gebruikt worden in telecomnetwerken in de gaten. In die zin is deze motie dus ondersteuning van beleid.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg10">Ten aanzien van het informeren van de Kamer wil ik u er uiteraard wel op wijzen dat in zo'n onderzoek bedrijfsvertrouwelijke informatie kan zitten of informatie die de openbare orde of nationale veiligheid in het gedrang zou kunnen brengen. Die kunnen we dan dus niet in openbaarheid delen, maar dat wat kan, wil ik uiteraard met de Kamer delen. Ook hiervoor geldt wat ik al eerder zei: uiteraard wil ik dit onderwerp graag bespreken met lidstaten van de Europese Unie. De vraag is alleen of je dat nou "baf" neer moet leggen in een Telecomraad, maar misschien is dat dan maar mijn tak van sport en zal ik in ieder geval zorgen dat dit op de juiste momenten besproken wordt met andere lidstaten. In die zin krijgt deze motie dus oordeel Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg11">Daar waren we nog even naar op zoek, naar uw oordeel.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg12">Dank u wel, staatssecretaris, voor uw komst naar de Kamer voor deze plenaire voortzetting van het schriftelijk overleg over de Telecomraad van 4 december. Hiermee zijn we aan het einde gekomen van dit VSO.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2018-11-28-tweedekamer-4.seg13">De stemming over de ingediende motie vindt vandaag plaats, aan het einde van de middagvergadering. Na de schorsing gaat de Kamer verder met de begrotingsbehandeling van Sociale Zaken en Werkgelegenheid.</seg>
+            </u>
+            <note>De vergadering wordt van 10.39 uur tot 10.52 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

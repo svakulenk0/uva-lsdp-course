@@ -1,0 +1,234 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-10-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-10-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 12, Session 4 (2019-10-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 12, Session 4 (2019-10-10)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="12">Meeting 12</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="26">26 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="26">26 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1417">1417 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1417">1417 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-10-10">2019-10-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="37"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="26"/>
+               <tagUsage gi="note" occurs="62"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-10-10">2019-10-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Raad Algemene Zaken</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg1">Dan is nu aan de orde het VAO Raad Algemene Zaken. Ik heet de minister voor Buitenlandse Handel en Ontwikkelingssamenwerking van harte welkom.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg2">Ik geef de heer Futselaar namens de SP het woord. Ik wist niet dat u woordvoerder was voor Buitenlandse Handel en Ontwikkelingssamenwerking, meneer Futselaar.</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg3">Voorzitter. Mevrouw Leijten, die hier normaal zou staan, is op werkbezoek bij de Commissie van Venetië van de Raad van Europa. Als vervolgens bij ons de vervanger van de vervanger ook niet kan, komt men onherroepelijk bij mij terecht.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg4">Dan is de heer Futselaar aan de beurt.</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg5">Ik heb één motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Europese Commissie de toetredingsonderhandelingen met Noord-Macedonië en Albanië wil openen;</note>
+               <note>constaterende dat uit de laatste voortgangsrapportage van de Europese Commissie over Noord-Macedonië en Albanië blijkt dat er nog verdere stappen moeten worden gezet met betrekking tot de rechtsstaat en corruptiebestrijding;</note>
+               <note>van mening dat de politieke situatie in Noord-Macedonië en Albanië de afgelopen jaren vooruit is gegaan, maar dat dit op essentiële vlakken nog onvoldoende is;</note>
+               <note>van mening dat, te midden van de brexit en hoogoplopende twijfels over de rechtsstatelijkheid van onder andere Polen, Hongarije en Malta, het verder uitbreiden van de Europese Unie volstrekt ongepast is;</note>
+               <note>verzoekt de regering de opening van de toetredingsonderhandelingen met Noord-Macedonië en Albanië niet te steunen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Futselaar en Leijten. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-2052</note>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg6">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg7">Dank u wel, meneer Futselaar. Dan geef ik nu het woord aan mevrouw Ploumen. Nee? Dan ga ik naar de heer Van Ojik. Ook niet? Wie doet mee? Mevrouw Maeijer namens de PVV.</seg>
+            </u>
+            <u who="#VickyMaeijer" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg8">Dank, voorzitter. Dan kan ik de spreektijd van de rest ook wel erbij nemen, toch? Ik heb vier moties, dus ik maak het wel een beetje goed voor de anderen. Volgens mij spreken ze voor zich. Gelet op de tijd zal ik ze ook maar gelijk voorlezen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt het kabinet nooit in te stemmen, ook niet onder voorwaarden, met het openen van de toetredingsonderhandelingen met Albanië,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt het kabinet nooit in te stemmen, ook niet onder voorwaarden, met het openen van de toetredingsonderhandelingen met Noord-Macedonië,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering het veto op het gebied van buitenlandbeleid niet op te geven en vast te houden aan besluitvorming bij unanimiteit,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Maeijer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-2053</note>
+               <note>Deze motie is voorgesteld door het lid Maeijer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-2054</note>
+               <note>Deze motie is voorgesteld door de leden Maeijer en Wilders. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-2055</note>
+            </u>
+            <u who="#VickyMaeijer" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg9">En dan de laatste.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering om er binnen de NAVO op aan te dringen Turkije uit het bondgenootschap verwijderen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Maeijer en Wilders. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-2056</note>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg10">Dank u wel, mevrouw Maeijer. Dan geef ik nu het woord aan de heer Van Helvert namens het CDA.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg11">Dank u wel, mevrouw de voorzitter. Ik heb begrepen dat we u mogen feliciteren met uw verjaardag vandaag.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg12">Dank u wel.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg13">Van harte gefeliciteerd met uw verjaardag. Ik denk dat het ten overstaan van het hele land mooi is om de Voorzitter van onze Tweede Kamer van harte te feliciteren met haar verjaardag. Wij wensen haar een heel mooie dag toe. Zij moet wel werken, maar goed, zij doet haar werk graag, heb ik begrepen. Wij wensen haar nog heel veel jaren toe in goede gezondheid namens de hele Tweede Kamer ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg14">Dank u wel. U ook.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg15">... en ik mag ook wel zeggen "het Nederlandse volk" en ik zou haast ook zeggen "de koning en de koningin".</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg16">Nou, dank u wel. Gaat u verder.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg17">Ik heb mijn spreektekst daar liggen, maar dat maakt niet uit. Mijn collega Omtzigt, die ik vervang vandaag, heeft gediscussieerd over Albanië. Aangezien er nog helemaal geen voortgangsrapportage is, is het vrij helder dat daar geen veranderingen plaatsvinden. Ik wil wel even checken bij de minister dat we ook geen onderhandelingen starten met Albanië, omdat er ook nog niets in veranderd is. Maar daar hoeft verder geen motie over te worden ingediend, omdat dat motie-Omtzigt nog gewoon staat en er nog geen veranderingen hebben plaatsgevonden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg18">Dan de buitengewoon belangrijke vergaderingen RBZ en RAZ, die op de lijst staan. Het is van groot belang dat ons kabinet daar aanwezig is. Wij hebben natuurlijk weleens RBZ's en RAZ's gemist in die zin dat er geen ministeriële vertegenwoordiging was maar een ambtelijke. Gezien de ontwikkelingen in de wereld, in Turkije en Syrië, vind ik dat wij op de komende tops ministerieel aanwezig moeten zijn. Vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat tijdens de aanstaande Raad Buitenlandse Zaken een reactie van de EU op de huidige ontwikkelingen in Syrië wordt geformuleerd;</note>
+               <note>overwegende dat Nederland in de aanstaande Raad Algemene Zaken een afwijkende positie inneemt aangaande het openen van de toetredingsonderhandelingen met Albanië;</note>
+               <note>constaterende dat de minister van Buitenlandse Zaken verhinderd is om naar beide belangrijke vergaderingen te gaan vanwege een handelsmissie naar India;</note>
+               <note>verzoekt de regering er zorg voor te dragen dat ondanks de afwezigheid van de minister van Buitenlandse Zaken Nederland op ministerieel niveau vertegenwoordigd wordt tijdens deze aanstaande RBZ en RAZ,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Helvert en Van der Graaf. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-2057</note>
+            </u>
+            <note>Dank u wel, en dank u wel voor de felicitatie, meneer Van Helvert. Ik kijk of mevrouw Van der Graaf behoefte heeft om te spreken. Dat is het geval. Het woord is aan mevrouw Van der Graaf namens de ChristenUnie.</note>
+            <u who="#StienekevanderGraaf" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg19">Dank u wel, mevrouw de voorzitter. Meneer Van Helvert heeft al mede namens mij de felicitaties overgebracht. Ik wens u ook een hele prachtige en feestelijke dag toe in ons midden, althans de start van de dag.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg20">Prima.</seg>
+            </u>
+            <u who="#StienekevanderGraaf" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg21">Mevrouw de voorzitter. We hebben gedebatteerd over onder andere het starten van de toetredingsonderhandelingen met Albanië en Noord-Macedonië. Wat de ChristenUnie betreft is op basis van de rapportage zoals we die nu hebben ontvangen onvoldoende voortgang om de onderhandelingen nu te starten. De minister van Buitenlandse Zaken heeft tijdens het AO aangegeven dat ook de motie die voor de zomer is ingediend door het CDA en de ChristenUnie nog steeds leidend is om de toetredingsonderhandelingen niet te starten.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg22">Voorzitter. Ik wil graag een ander punt inbrengen. Gelet op de recente ontwikkelingen van de Turkse inval in Syrië en de aanval daarop baart wat daar gebeurt ons grote zorgen. Turkije is op dit moment nog steeds een van de landen die brede toetredingssteun ontvangen van de Europese Unie. Ik dien hierbij een breed gesteunde motie in om die steun te stoppen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat Turkije met de aanvallen in Syrië de veiligheid en stabiliteit van de regio in gevaar brengt;</note>
+               <note>constaterende dat Turkije nog steeds financiële pretoetredingssteun van de Europese Unie ontvangt;</note>
+               <note>verzoekt de regering om in de Raad Algemene Zaken en bij de onderhandelingen voor het nieuwe Meerjarig Financieel Kader van de Europese Unie zich met spoed in te spannen voor het volledig stopzetten van financiële pretoetredingssteun aan Turkije,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van der Graaf, Van Helvert, Leijten, Anne Mulder, Maeijer en Van Ojik.</note>
+               <note>Zij krijgt nr. kst-21501-02-2058</note>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg23">Dan kijk ik naar de minister. Vijf minuten? Er is behoefte aan een korte schorsing van vijf minuten.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg24">Ik heropen de vergadering en geef de minister het woord.</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg25">Goedemorgen, mevrouw de voorzitter. Ook namens mij van harte gefeliciteerd met uw verjaardag en nog vele jaren in goede gezondheid.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg26">Goedemorgen, dank u wel.</seg>
+            </u>
+            <u who="#SigridKaag" ana="#regular" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg27">De motie van de leden Futselaar en Leijten op stuk nr. 2052 ontraden wij. In het AO en het debat met de minister is natuurlijk al uitgebreid besproken waarom. Wij zijn van mening en delen de constatering van de Commissie dat de regering van Noord-Macedonië het afgelopen jaar heel veel positieve stappen heeft gezet. Het Prespa-akkoord is daar een voorbeeld van. Vele andere voorbeelden, zoals de hervorming van de justitiële sector en de rechterlijke macht en overdrachten aan het Openbaar Ministerie zijn al de revue gepasseerd in het AO. Wij zien dus dat de vooruitgang die Noord-Macedonië heeft geboekt, helder en meetbaar is. Zoals ook aangegeven tijdens het AO, wordt de discussie over Albanië als prematuur gezien, mede in het licht van de motie-Omtzigt, die leidend blijft bij alle besluiten die mogelijkerwijs genomen worden over Albanië. Dit gezegd hebbend, ontraadt het kabinet dus deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg28">De motie op stuk nr. 2053 verzoekt om nooit in te stemmen, ook niet onder voorwaarden, met de opening van onderhandelingen met Albanië. Ik heb net al gezegd dat de motie-Omtzigt leidend is. Dit wordt ook gezien als prematuur. Alles blijft afhankelijk van de vooruitgang die wordt geboekt. Ik ontraad op basis daarvan deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg29">De motie op stuk nr. 2054 is van dezelfde strekking, maar gaat over Noord-Macedonië. Ik herhaal dus eigenlijk wat ik heb gezegd over de eerste motie en ontraad daarom ook deze motie. Alles blijft afhankelijk van vooruitgang. Dit gesteld hebbende, acht het kabinet dat Noord-Macedonië daadwerkelijk vooruitgang heeft geboekt. Veel stappen zijn gezet.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg30">De motie op stuk nr. 2055 verzoekt de regering het veto op het gebied van buitenlands beleid niet op te geven en vast te houden aan besluitvorming bij unanimiteit. Er zijn heel veel modaliteiten voor qualified majority voting, zoals dat heet. Ook is er een duidelijk BNC-fiche opgesteld over het gemeenschappelijk buitenlands en veiligheidsbeleid. Daarin is alles vastgelegd. Op basis daarvan ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg31">De motie op stuk nr. 2056 verzoekt om er binnen de NAVO op aan te dringen Turkije uit het bondgenootschap te verwijderen. U vraagt door deze motie eigenlijk om een nieuwe NAVO, want op grond van het NAVO-statuut is verwijdering van een bondgenoot niet mogelijk. Er zou dus een nieuw bondgenootschap moeten worden opgericht. Het kabinet ontraadt deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg32">Naar aanleiding van de motie op stuk nr. 2057 betreffende de aanwezigheid bij de RBZ en de RAZ van de minister van Buitenlandse Zaken of Nederland op een ander ministerieel niveau wil ik even verhelderen wat er in de motie staat. Minister Blok is op staatsbezoek; hij begeleidt het koninklijk paar. Zelf ben ik aanwezig voor de handelsmissie, die onderdeel vormt van dit bezoek. Op eerdere momenten is altijd gezegd en met de minister van Buitenlandse Zaken besproken dat er altijd zorg voor wordt gedragen dat Nederland op gepast niveau aanwezig is bij de Raden. We hebben bovendien ook een uitstekende permanent vertegenwoordiger in Brussel, die volledig op de hoogte en aangesloten is bij de kabinetsinzet en de positie van de Kamer. Als u kijkt naar het tabelletje, ziet u dat de minister van Buitenlandse Zaken altijd een uiterste inspanning levert om zelf aanwezig te zijn bij de RBZ en de RAZ. Dit gezegd hebbend en op basis van deze elementen ontraadt het kabinet deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg33">De motie op stuk nr. 2058 constateert dat Turkije met de aanvallen in Syrië de veiligheidsstabiliteit van de regio in gevaar brengt en verzoekt om de financiële pretoetredingssteun aan Turkije stop te zetten. Deze motie geef ik oordeel Kamer. Conform de geest van de motie-Roemers/Segers pleit Nederland voortdurend voor opschorting van preaccessiesteun, het IPA, aan Turkije. Dat zullen wij nu ook weer doen. Laat wel gezegd zijn dat er tot op heden onvoldoende draagvlak voor is, maar deze motie is oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg34">Ik hoop dat ik alle moties heb behandeld, mevrouw de voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg35">Dat is inderdaad het geval. Dank u wel.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg36">Over de ingediende moties zullen we vanmiddag stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-10-tweedekamer-4.seg37">Wij zijn nu eigenlijk toegekomen aan het nieuwe onderwerp, dus ik kijk of de woordvoerders aanwezig zijn. Ik zie in elk geval mevrouw Karabulut, die dit VAO heeft aangevraagd. Ook zie ik mevrouw Ploumen, de heer Bouali en de heer Koopmans. We gaan gelijk door, want we hebben een volle agenda.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

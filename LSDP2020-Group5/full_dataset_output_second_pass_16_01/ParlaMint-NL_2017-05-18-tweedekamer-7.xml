@@ -1,0 +1,377 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-05-18 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-05-18 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 77, Session 7 (2017-05-18)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 77, Session 7 (2017-05-18)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="77">Meeting 77</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="94">94 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="94">94 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2910">2910 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2910">2910 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-05-18">2017-05-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="102"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="94"/>
+               <tagUsage gi="note" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-05-18">2017-05-18</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg1">Ik stel voor, dinsdag aanstaande ook te stemmen over de brief van de vaste commissie voor Europese Zaken over een parlementair behandelvoorbehoud (34719, nr. 2) en over de brief van de vaste commissie voor Financiën over het focusonderwerp voor de verantwoording over het jaar 2017 (31865, nr. 98).</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg2">Op verzoek van de VVD-fractie benoem ik in de Bouwbegeleidingscommissie het lid Harbers tot lid in de bestaande vacature.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg3">Ik deel mee dat de volgende aangehouden moties zijn vervallen: 34511-12; 21501-20-1188.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg4">Aangezien voor de volgende stukken de termijnen zijn verstreken, stel ik voor, deze stukken voor kennisgeving aan te nemen: 25422-186; 32637-278.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg5">Tot slot stel ik voor, de volgende stukken van de stand van werkzaamheden af te voeren: 29446-96; 2017Z04712; 22112-2333; 22112-2320; 32317-464; 2017Z06254; 31239-259; 28286-908; 33037-199; 34559-11; 2017Z05648; 26643-462; 21501-30-398; 21501-32-1012; 28807-210; 28807-209; 21501-32-991; 21501-32-971; 2017Z05891; 33037-192; 21501-32-1015; 34313-17; 28625-245; 21501-32-992; 31293-220; 2015Z01217; 27923-206; 31434-7; 34000-VIII-111; 34000-VIII-92; 31293-267; 28089-33; 28089-36; 29517-114; 29517-111; 28089-32; 28089-34; 29517-116; 29653-31; 21501-04-196; 21501-04-195; 21501-04-197; 32317-465; 31753-138; 33987-30.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg6">Het woord is aan de heer De Graaf.</seg>
+            </u>
+            <u who="#MachieldeGraaf" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg7">Voorzitter. Gisteren werd Nederland opgeschrikt door het bericht dat een veroordeelde sympathisant van en uitreiziger naar Islamitische Staat werkzaam is geweest op vliegbasis Volkel en daar ook aan het filmen en fotograferen is geweest. Ik wil hierover heel graag een debat met de ministers van Veiligheid en Justitie en van Defensie, omdat we heel goed moeten bekijken hoe we dit soort dingen in de toekomst moeten voorkomen. We moeten natuurlijk ook uitzoeken hoe dit heeft kunnen gebeuren, omdat de veiligheid van Nederland hiermee in gevaar geweest zou kunnen zijn. Dat kunnen we wel aannemen.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg8">Op zich is dit een begrijpelijk verzoek. We hebben de afgelopen maanden wel vaker van dit soort berichten gehad die we vertaalden naar een debat. Een debat werd ook een keer door de heer Wilders zelf aangevraagd, waarbij hij vervolgens zelf niet verscheen. Dat is niet om flauw te doen, maar het geeft aan dat de aanvraag van het debat soms urgenter lijkt dan het debat zelf.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg9">En nu?</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg10">Het is wel een zorgelijk voorbeeld. Absoluut. Daarom vraag ik om eerst een brief te krijgen van het kabinet, zodat we niet op de media hoeven af te gaan. We hebben nog niets van het kabinet gehoord. Ik zou een aantal vragen beantwoord willen hebben. Wat is er nu precies gebeurd? De heer De Graaf vroeg dit zelf ook. Was er iemand onterecht op dat kazerneterrein? Zijn de procedures niet gevolgd? Als we daar antwoord op kunnen krijgen, kunnen we erop terugkomen en dan zal ik op een open wijze naar een eventueel debat kijken. Ik wil alleen een debat voeren als dat echt nodig is en niet omdat er een nieuwsbericht is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg11">Dus niet?</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg12">Nu geen steun.</seg>
+            </u>
+            <u who="#AlbertvandenBosch" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg13">De VVD-fractie heeft gisteren heel veel vragen gesteld over dit onderwerp. Het lijkt mij ook correct dat de ministers deze vragen beantwoorden. Wat ons betreft komt hierover zo snel mogelijk een brief. Ik ben het eens met D66. Eerst een goede brief, want er is veel aan de hand. Er zijn veel organisaties die hiermee te maken hebben. In die brief kunnen die vragen beantwoord worden. Als die binnen is, zouden wij er geen bezwaar tegen hebben om dan een debat te houden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg14">Steunt u nu het verzoek of niet?</seg>
+            </u>
+            <u who="#AlbertvandenBosch" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg15">Ja, maar na de brief.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg16">Dus u steunt het verzoek.</seg>
+            </u>
+            <u who="#AlbertvandenBosch" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg17">Ja, op zich zijn wij niet tegen een debat, want daar is het te ernstig voor.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg18">Ik zeg het expliciet, want er ontstaan de laatste tijd heel veel misverstanden over die steun. De VVD steunt het verzoek om een debat.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg19">Ook ik zou eerst de brief willen zien. Er is namelijk zo veel ongerustheid over — de postbussen stromen helemaal vol — dat ik in dit geval het verzoek om een debat graag ondersteun.</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg20">Steun van de SP voor een debat.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg21">GroenLinks zou net als D66 eerst heel graag goed inzicht willen hebben in de feiten. Dus een brief, en dan bekijken of een AO of een plenair debat eerder aan de orde is. Geen steun op dit moment.</seg>
+            </u>
+            <u who="#RaymondKnops" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg22">Dit is niet de eerste keer dat er problemen zijn met toegangscontrole bij ongewenste personen. Het lijkt een trend te worden. Dat is buitengewoon ernstig; dus steun voor het verzoek om een brief en daarna een debat.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg23">Eerst maar eens even de brief afwachten en op basis daarvan kijken of het in een AO of in een debat kan.</seg>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg24">Het is zeer serieus. Er is het ene geval na het andere; dus het lijkt mij goed om dat debat te voeren, na de brief.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg25">Steun voor een brief en daarna een debat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg26">Er is wel een meerderheid voor het houden van een debat, mijnheer De Graaf.</seg>
+            </u>
+            <u who="#MachieldeGraaf" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg27">Ja, dat is mooi. Ik heb zo'n 89 zetels geteld. Dank aan de collega's voor de steun. Het zou mooi zijn als we dat snel kunnen inplannen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg28">Ik stel voor het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg29">Het woord is aan de heer Von Martels namens het CDA.</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg30">Voorzitter. De reden dat ik hier sta, is dat ik graag een debat zou willen hebben naar aanleiding van het bericht dat er een gevaarlijke stof lekt in het havengebied van Rotterdam. Het gaat om het gebied van Shell Pernis. Ik refereer ook aan het rapport van de Onderzoeksraad Voor Veiligheid van 2014, waarin staat dat Shell bewuster moet omgaan met de risico's die er in dat gebied zijn. Nu gaat het in dit geval weliswaar niet om Shell zelf, maar de lekkage vindt wel plaats op het terrein van Shell Pernis. Dat is de reden waarom ik hierover graag in debat zou willen gaan met de staatssecretaris.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg31">Dit vindt GroenLinks een heel belangrijk onderwerp. We hebben ook met grote regelmaat dit soort problemen bij de grotere bedrijven aan de orde gesteld. We zijn heel blij met de debataanvraag van het CDA over dit onderwerp en we steunen die dan ook van harte.</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg32">Wat de SP betreft graag een brief hierover en dan kunnen we daarna bezien of een debat nodig is of dat het kan worden geagendeerd voor het AO Externe veiligheid.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg33">Dus voorlopig geen steun.</seg>
+            </u>
+            <u who="#JessicavanEijs" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg34">Het is ook mijn vraag of het wellicht niet beter bij het AO Externe veiligheid kan worden betrokken. Dat vindt in juni plaats. Dus dat is op zich niet zo heel ver weg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg35">Dus voorlopig geen steun.</seg>
+            </u>
+            <u who="#JessicavanEijs" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg36">Ik zou graag eerst de reactie horen waarom het beter een apart debat zou kunnen zijn.</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg37">Ik ben niet op de hoogte van het feit dat het AO begin juni zal plaatsvinden. U zegt juni, maar ik weet zelf niet welke datum het dan is. Als het gecombineerd zou kunnen worden, ben ik daar eventueel ook nog wel voor in. Ik geef nog steeds de voorkeur aan het houden van een debat, maar misschien zijn er mogelijkheden om het te integreren.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u33">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg38">Vooralsnog geen steun voor het debat, wel voor een brief, te betrekken bij het AO Externe veiligheid. Er staan meerdere van dit soort onderwerpen op de agenda van dat AO. Wat ons betreft behandelen we het dan in één keer, dus niet één incident maar het totale pakket van hoe we hiermee omgaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u34">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg39">En u zei dat het eind juni is?</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u35">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg40">Eind juni, ja.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u36">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg41">Het is 28 juni; ik heb het even nagevraagd. Ik zeg: doe een brief, die wat mij betreft dan bij het algemeen overleg betrokken kan worden. We kunnen eventueel kijken of het iets naar voren kan worden getrokken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u37">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg42">Oké, maar dat moet dan via de procedurevergadering van de vaste commissie.</seg>
+            </u>
+            <u who="#MauritsvonMartels" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u38">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg43">Ik concludeer in ieder geval dat het alle aandacht zal krijgen. Of het nou volgende week zal plaatsvinden of eind juni, we hebben in ieder geval het onderwerp bij de kop en kunnen daarover doorpraten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u39">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg44">Dank u wel. Dan stel ik voor het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg45">Ik geef het woord aan mevrouw Helder namens de PVV.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u40">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg46">Voorzitter. Ik wil graag een debat aanvragen met de minister van Veiligheid en Justitie over het bericht "Politie pakt te weinig misdaad op". We hebben het rapport waarnaar in dat bericht wordt verwezen, te weten het rapport "Lokale betekenis basisteams". De reactie van de minister hebben we ook al. Om twee redenen wil ik er graag een debat over aanvragen. Er wordt verwezen naar maatregelen die worden genomen, maar dat horen we iedere keer. De tweede reden is dat de wijkagenten zelf ook steen en been klagen. Dus we moeten het er nu eindelijk eens over hebben.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u41">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg47">Ik steun het debat.</seg>
+            </u>
+            <u who="#OckjeTellegen" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u42">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg48">Geen steun voor een debat.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u43">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg49">Geen steun voor een debat. Er is een evaluatie van de Politiewet aanstaande. Er is al eerder een rapport over de basisteams verschenen. Daar moeten we het in samen laten komen.</seg>
+            </u>
+            <u who="#MaartenGroothuizen" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u44">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg50">Ik sluit mij aan bij de woorden van het CDA.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u45">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg51">Mevrouw Helder, er is geen meerderheid.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u46">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg52">Nee, voorzitter, als ik de berichten in de media had moeten geloven van de collega's was dat wel het geval, maar goed, ik noteer het maar eventjes. Maar dank aan de PvdA voor de steun. Zo zie je maar weer. Dan ga ik naar mijn tweede verzoek.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u47">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg53">Ja. Mevrouw Helder heeft het woord.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u48">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg54">Dank u wel, voorzitter. Ik heb een tweede verzoek, dat ook is gericht aan de minister van Veiligheid en Justitie. Dat betreft het bericht "Amsterdamse politie wil hoofddoekjes toestaan bij het uniform". Ik hoop op steun van de collega's, zoals die vanochtend ook al uit de media zou blijken.</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u49">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg55">Volgens mij hebben we hier te maken met een proefballonnetje van een lokale politiechef, die er volgens mij ook niet over gaat. Dit is beleid van de nationale politie. Ik heb de heer Akerboom laatst verstandige dingen horen zeggen over het diversiteitsbeleid bij de politie. Het lijkt mij verstandig dat we nu eerst van de minister een brief krijgen over dat diversiteitsbeleid. Aan de hand daarvan kunnen we een debat over dat diversiteitsbeleid voeren. Doen we het niet zo, dan staan we hier keer op keer een debat te voeren over onderdelen daarvan en proefballonnetjes daarover. Dus geen steun voor het debat.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u50">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg56">Twee dingen zijn altijd standaard in Nederland: we zullen belasting betalen en zodra het in de krant gaat over een hoofddoekje, vraagt de PVV een debat aan. In dit geval is het buitengewoon verstandig om dat debat wel te voeren — dus steun — want het wordt tijd dat de vertrouwensbreuk met een deel van de samenleving door de politie hersteld wordt. Bovendien doet men het in andere landen ook. Dus prima!</seg>
+            </u>
+            <u who="#OckjeTellegen" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u51">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg57">Steun voor een debat. Ik heb gisteren in de procedurevergadering Veiligheid en Justitie niet voor niets al gevraagd om een brief van de minister over het diversiteitsbeleid bij de nationale politie. Er komen via de media wel een heleboel verschillende ideeën naar voren over hoe dat beleid wordt ingevuld. Ik vind het de hoogste tijd voor een debat, maar niet dan nadat we een duidelijke brief hebben gekregen van de minister over hoe dat beleid op dit moment wordt vormgegeven.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u52">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg58">Geen steun voor een debat. Er is geen plan. Er is hooguit een gedachte. Gisteren is in de procedurevergadering nogmaals benadrukt dat er over het diversiteitsbeleid bij de politie een brief moet komen. Het lijkt mij heel wenselijk dat dit onderwerp daarin wordt meegenomen. Dus geen steun voor een debat en geen steun voor een aparte brief, maar graag opnemen in die andere brief.</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u53">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg59">Steun voor een brief. Een debat moet dan nog maar eens bezien worden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u54">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg60">Wel of niet?</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u55">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg61">Geen steun.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u56">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg62">Ook dit houdt mensen erg bezig: dus zeker een brief. Daarna kunnen we bekijken of een debat nodig is.</seg>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u57">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg63">Steun voor een brief, zoals andere collega's ook al zeiden. Ik zou het graag iets breder trekken naar de vraag hoe er met diversiteitsbeleid wordt omgegaan. Ik zie mevrouw Helder knikken. Daarover een debat voeren lijkt mij uitstekend.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u58">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg64">Steun voor een brief, of het nu een bestaande brief is die wordt uitgebreid of een specifieke brief; wij hebben geen voorkeur daarin. Op dit moment geen steun voor een debat.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u59">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg65">Ik ga ook voor de brief over diversiteit, waaraan dit onderwerp is toegevoegd. Wat mij betreft komt er daarna een algemeen overleg over diversiteit.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u60">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg66">Mevrouw Helder, geen meerderheid.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u61">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg67">Nee, voorzitter, maar wel 30 leden. Ik zou daarom graag een dertigledendebat aanvragen over dat heel dure proefballonnetje van €12.000 per maand.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u62">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg68">Dank u wel. Verder stel ik voor het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg69">Het woord is aan de heer Van Helvert namens het CDA.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u63">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg70">Voorzitter. Wij lazen in een artikel in De Telegraaf dat de Europese Commissie heeft besloten om het verzet tegen de Duitse tol te staken. Het CDA is zeer teleurgesteld over dat besluit van de Europese Commissie. Niet alleen is de tol buitengewoon oneerlijk en discriminerend, maar daarnaast heeft de grensstreek er ook echt nadeel van. Echt nadeel! Daarom willen wij een debat met de minister, eigenlijk om haar op weg naar de rechter te sturen. Zij moet dit voorleggen aan de rechter en zich daarvoor aansluiten bij bijvoorbeeld Oostenrijk. Nu hoor ik mijn collega's al zeggen: mijnheer Van Helvert, doe dat in het AO Transportraad van komende week. Ik zal u zeggen, voorzitter: de Transportraad is een gepasseerd station. Daar had de minister het moeten regelen, maar dat is niet gebeurd. Conform artikel 259 van het Verdrag betreffende de werking van de Europese Unie mag een lidstaat gewoon naar het Hof. Daar zou ik graag een debat over willen hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u64">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg71">Maar u hebt alles al gezegd!</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u65">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg72">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u66">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg73">Dan ga ik naar mevrouw Van Tongeren.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u67">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg74">Dank u wel. Wij staan heel anders in dit belangrijke onderwerp. Ik zou daar graag over debatteren, maar wel met een precies andere insteek: moet Nederland zich niet aansluiten bij de ons omringende landen?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u68">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg75">Maar steunt u het debat?</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u69">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg76">Dan krijg je een gelijk speelveld. Steun voor het debat maar ik wens dan wel een andere uitkomst.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u70">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg77">Dat kan ook.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u71">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg78">Dan ga ik naar mevrouw Kuiken.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u72">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg79">Ik zou graag een brief ontvangen voorafgaande aan het AO Transportraad. De minister kan daarin uitleggen wat zij precies heeft bedoeld met haar uitspraak in de media over juridische stappen. We kunnen dan kiezen voor de kortste klap en erover spreken in het AO Transportraad, een AO dat normaal gesproken vaak wordt gevolgd door een VAO.</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u73">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg80">Steun van de SP voor een debat.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u74">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg81">Geen steun voor het debat. In eerste instantie wel een brief voor het AO, en daarna kijken we verder.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u75">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg82">Die brief hebben we allemaal gehad, voorzitter.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u76">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg83">Nog een aanvullende brief, maar zeker ook steun voor het debat.</seg>
+            </u>
+            <u who="#RoyvanAalst" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u77">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg84">Namens de PVV steun voor een debat.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u78">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg85">We hebben het er heel vaak over gehad. Vele moties op dit dossier dragen ook de namen Van Helvert en Visser. De kortste klap is het volgens mij als we het aanstaande woensdag in het AO Transportraad meenemen, voorafgegaan door een brief. Dan kunnen we het woensdagavond, direct na het AO, in een VAO behandelen. Mocht dat onvoldoende zijn, dan kunnen we daarna alsnog een debat voeren, maar ik wil de heer Van Helvert dit in elk geval in overweging geven. Wat ons betreft zo snel mogelijk; daarom in het AO Transportraad.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u79">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg86">Vanuit een heel andere invalshoek — mevrouw Van Tongeren had het er ook al over — vinden wij het geen probleem om hier een debat over te voeren. Dus steun voor het verzoek.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u80">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg87">Mijnheer Van Helvert, u hebt precies net een meerderheid.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u81">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg88">Voorzitter, dat komt door die extra woorden die u mij toestond. Dank u wel daarvoor!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u82">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg89">Ik stel voor het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg90">Het woord is aan de heer Geurts namens het CDA.</seg>
+            </u>
+            <u who="#JacoGeurts" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u83">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg91">Voorzitter. We lazen in De Telegraaf dat boeren bevreesd zijn dat er op hun land wietplantages komen. Ze zien zich genoodzaakt daarvoor drones in te zetten. Boeren worden in het nauw gedreven en moeten nu zelf de hennepmaffia ontmaskeren. Dat is reden genoeg om een debat aan te vragen met de minister van Veiligheid en Justitie en de staatssecretaris van Economische Zaken om een gezamenlijke aanpak te bespreken. We kunnen de boeren toch niet alleen laten staan?</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u84">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg92">Helemaal mee eens, dus mede namens collega Graus steun voor het debat. Ik hoop wel dat dan de schriftelijke vragen van mijn fractie zijn beantwoord.</seg>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u85">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg93">Steun voor de aanvraag van dit debat. Wiet is geen oplossing voor de landbouwproblematiek. Het huidige beleid van het kabinet overigens ook niet, maar daar gaan we het zo meteen over hebben, na de regeling van werkzaamheden. Steun voor dit debat.</seg>
+            </u>
+            <u who="#FoortvanOosten" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u86">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg94">Geen steun. Ik wil wel eerst een brief van het kabinet ten aanzien van dit vraagstuk.</seg>
+            </u>
+            <u who="#MaartenGroothuizen" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u87">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg95">Geen steun voor het debat. Graag eerst een brief.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u88">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg96">Legalisering is natuurlijk een veel betere oplossing, maar daar gaat dit debat niet over. Een brief vind ik uitstekend, maar geen debat op dit moment.</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u89">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg97">Wel een brief, geen steun voor een debat.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u90">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg98">Wel een brief, geen debat.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u91">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg99">Ook mij lijkt legaliseren een stuk makkelijker, maar zolang dat niet het geval is, nu nog even geen debat.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u92">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg100">Wij willen de boeren zeer helpen. Dat doe je het best met legalisering, maar een brief van het kabinet waarin het dat omarmt en uitlegt hoe we hier een einde aan kunnen maken, steunen wij zeer.</seg>
+            </u>
+            <u who="#JacoGeurts" ana="#regular" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u93">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg101">Wel steun voor een dertigledendebat. Laten we dat dan vast op de lijst zetten, want ik zie genoeg aanknopingspunten om er een heel mooi debat van te maken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.u94">
+               <seg xml:id="ParlaMint-NL_2017-05-18-tweedekamer-7.seg102">Dank u wel. Ik stel voor het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

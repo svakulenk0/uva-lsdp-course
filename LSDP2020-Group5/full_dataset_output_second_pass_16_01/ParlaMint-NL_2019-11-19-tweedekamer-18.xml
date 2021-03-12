@@ -1,0 +1,367 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-11-19 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-11-19 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 25, Session 18 (2019-11-19)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 25, Session 18 (2019-11-19)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="25">Meeting 25</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="18">Session 18</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="80">80 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="80">80 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="8195">8195 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="8195">8195 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-11-19">2019-11-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="120"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="80"/>
+               <tagUsage gi="note" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-11-19">2019-11-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Verzamelwet SZW 2020</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u1">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg1">Aan de orde is de Verzamelwet Sociale Zaken en Werkgelegenheid 2020, Kamerstuk 35275. Ik heet de staatssecretaris van Sociale Zaken hartelijk welkom, evenals de Kamerleden, de ondersteuning, de mensen op de publieke tribune en uiteraard de mensen die dit debat thuis of op een andere plek volgen.</seg>
+            </u>
+            <note>De algemene beraadslaging wordt geopend.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u2">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg2">Ik stel voor om snel van start te gaan. Als eerste geef ik graag het woord aan mevrouw Nijkerken-de Haan en mevrouw Nijkerken-de Haan spreekt namens de fractie van de VVD. Gaat uw gang.</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u3">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg3">Voorzitter. De Verzamelwet van Sociale Zaken en Werkgelegenheid ziet ieder jaar op kleine aanpassingen in verschillende wetten. Dit jaar is dat net even anders, want met het indienen van een amendement hebben we een mooie stap gezet die het leven van 36.000 gezinnen een stuk rooskleuriger maakt. Samen met de ChristenUnie, het CDA en D66 heeft de VVD een oplossing gevonden voor een probleem dat veel partijen in deze Kamer een doorn in het oog was, namelijk dat ouders van wie de kinderen voor hun 18de gaan studeren, gaan stage lopen en/of een bijbaantje hebben waarmee ze net te veel verdienen, geen recht meer hebben op kinderbijslag en, in sommige gevallen, het kindgebonden budget. We hebben hier in de Kamer al vaak over gesproken. Ik weet dat woordvoerders van zo ongeveer alle partijen de berichten van bezorgde mensen herkennen. De vele bezorgde mails van ouders en de uitkomsten van de beleidsdoorlichting kindregelingen hebben mij gemotiveerd om door te gaan met het zoeken naar financiële ruimte om de regels aan te passen. En ik ben blij dat dit gelukt is.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg4">Het is niet uit te leggen dat de ene ouder van een kind van 16 of 17 jaar wel kinderbijslag ontvangt en de andere ouder niet, alleen omdat zijn of haar kind op jongere leeftijd naar het hbo of naar de universiteit gaat, of omdat zijn of haar kind een bijbaantje heeft of stage loopt vanuit een mbo-opleiding en daardoor net even te veel verdient.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg5">Maar met het erkennen van het probleem is er nog niet direct geld beschikbaar om ook een wet te wijzigen. Want het gaat om veel geld: 54 miljoen structureel. Zo'n bedrag haal je niet zomaar ergens vandaan. Daarom is de VVD blij dat we toch een manier hebben gevonden om deze langgekoesterde wens in vervulling te kunnen laten gaan. We doen dat namelijk door de kinderbijslag één jaar niet te indexeren. Hierdoor blijft volgend jaar het bedrag per kwartaal gelijk aan het bedrag dat ouders dit jaar krijgen. Daarmee is een grote groep van ongeveer 36.000 ouders enorm geholpen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg6">Wij grijpen deze verzamelwet dus aan om via een amendement dit probleem op te lossen, zodat ouders die met deze situatie te maken krijgen, met ingang van komende 1 januari wel recht krijgen op kinderbijslag en afhankelijk van hun inkomen dan ook aanspraak kunnen maken op het kindgebonden budget.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u4">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg7">Het gaat inderdaad om een groot bedrag, om 54 miljoen. De VVD is de partij die altijd goed op de uitgaven van de overheid let. Voor 2020 wordt er een tijdelijke oplossing gevonden. Daar gaan we vanavond ook nog wel iets van vinden, denk ik. Maar mijn vraag is eigenlijk: hoe gaat het daarna, in 2021, 2022, 2023? Hoe zal dat worden betaald? Want het is een structurele uitgave.</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u5">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg8">Door eenmalig niet te indexeren, heb je structureel een bedrag vrijgespeeld.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u6">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg9">Ja, een bedrag vrijgespeeld. Tot in lengte van dagen of ...?</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u7">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg10">Ja.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u8">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg11">Ik wil dat de heer Renkema eerst zijn vraag afrondt. Daarna geef ik mevrouw Nijkerken het woord.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u9">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg12">Ik weet niet hoever in de toekomst de VVD gaat kijken als het gaat om de uitgaven van de overheid, maar betekent dit dat de manier waarop wij nu de kinderbijslag hebben geregeld, tot in lengte van dagen voor 16- en 17-jarigen geldt?</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u10">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg13">Dat is juist.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u11">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg14">Goed, dank u wel. Ik zag ook een vraag van de heer Kwint.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u12">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg15">Ik ben het met mevrouw Nijkerken eens dat dit tot het einde der dagen haar voorstel dekt. Dat is juist precies mijn probleem. Waarom heeft de coalitie ervoor gekozen om dit geld nou gewoon met een grote kaasschaaf over alle ouders die nu kinderbijslag ontvangen, heen te halen? Ik ben er heel erg voor dat deze oplossing gevonden wordt, maar waarom gaat het geld nu juist af van bijvoorbeeld een alleenstaande moeder in de bijstand, die al helemaal niet zo veel geld heeft en voor wie dat geld gewoon heel erg belangrijk is?</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u13">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg16">Laat ik beginnen met te zeggen dat ik blij ben dat de SP en de VVD — en overigens ook de rest van de coalitie — het met elkaar eens zijn over het doel waarom we dit willen regelen. U maakt misschien een andere keuze als het gaat om de financiering, want u heeft het ook al eerder opgebracht. Ik vind de keuze gerechtvaardigd. Het gaat om €4 per kwartaal. Het is een hele grote groep; ongeveer 1.883.000 gezinnen leggen een beetje bij om voor een groep van zo'n 36.000 ouders kinderbijslag te krijgen. Het gaat om minimaal €1.200 per jaar. En in sommige gevallen krijgen die ouders dan ook recht op het kindgebonden budget. Daarbij gaat het om een bedrag tot maximaal €5.000 per jaar. Nogmaals, 54 miljoen haal je niet zomaar ergens vandaan. Wij vonden dit een gerechtvaardigde manier om het geld toch vrij te spelen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u14">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg17">Afrondend, de heer Kwint.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u15">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg18">Nu is mevrouw Nijkerken haar voorstel aan mij aan het uitleggen. Dat is niet nodig. Ik snap het voorstel prima. Sterker nog, ik heb het voor driekwart zelf geschreven en een paar maanden geleden ingediend. Toen heeft mevrouw Nijkerken ertegen gestemd. Het enige punt dat ik niet opgeschreven had, was die dekking. En dat is nu juist waar de kern zit. Natuurlijk is €16 voor u en voor mij een heel klein bedrag. Wij verdienen goed genoeg. Het gaat er juist om dat de mensen die elke maand moeten kijken of ze nog wel een paar euro op hun rekening hebben staan omdat ze boodschappen moeten doen, nu geconfronteerd worden met korting om iets te regelen wat op heel veel andere manieren te regelen valt. Hoe rechtvaardigt de VVD dat?</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u16">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg19">Dat rechtvaardig ik. Als je het uitspreidt over een hele grote groep, is het effect het kleinst voor iedereen. Ik erken dat voor de een €4 meer is dan voor de ander. U kiest een andere dekking. Ik heb uw amendement ook gelezen. Dat raakt de middeninkomens, het zorgt ervoor dat werken minder gaat lonen en het verhoogt de marginale druk. Dat is uw keuze; dat mag. Wij maken een andere keuze.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u17">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg20">Ik kom nog even terug op mijn vraag. Als ik het goed begrijp, zegt de VVD: we vinden het niet erg dat er voor iedereen €4 af gaat tot in lengte van dagen. Dus ook als je op het sociaal minimum zit en je dus €4 per kind per kwartaal minder krijgt, dan is dat tot in lengte van dagen eigenlijk gewoon een goede keuze. Begrijp ik dat goed?</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u18">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg21">Ze krijgen eenmalig €4 minder meer, want ze gaan niet minder krijgen. Het bedrag wordt niet geïndexeerd, dus volgend jaar komt die €4 er niet bovenop. Het jaar erna wordt er wel weer gewoon geïndexeerd. Ik wil ook niet onvermeld laten dat het kindgebonden budget wel gewoon geïndexeerd wordt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u19">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg22">Afrondend, de heer Renkema.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u20">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg23">Als je het jaar erna indexeert, is dat vanaf dat lagere bedrag. Dus dat verlies dat iemand heeft van €4 per kwartaal, duurt tot in lengte van dagen totdat het kind 18 is en geen kinderbijslag meer krijgt.</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u21">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg24">Ja.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u22">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg25">U vervolgt uw betoog.</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u23">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg26">Ja, voorzitter. Ik kom ook bijna tot een afronding.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg27">Hoe blij ik hier ook mee ben, toch grijp ik dit moment aan om eerlijk te zijn. Want de afgelopen dagen heb ik veel mails ontvangen van ouders die op dit moment in de situatie zitten dat zij mede op basis van de geldende regels geen aanspraak kunnen maken op kinderbijslag. Voor hen wil ik gewoon ook eerlijk zijn en heb ik minder goed nieuws. Ik heb in mijn zoektocht naar 54 miljoen, samen met de coalitie, geen extra geld gevonden om iets met terugwerkende kracht te regelen. Ik ben in ieder geval blij dat we het vanaf 1 januari voor de toekomst wel hebben kunnen regelen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg28">Voorzitter, tot zover.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u24">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg29">Dank u wel. Dan geef ik nu graag het woord aan de heer Kwint. De heer Kwint spreekt namens de fractie van de SP. Gaat uw gang.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u25">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg30">Dank u wel, voorzitter. Collega Gijs van Dijk van de Partij van de Arbeid moest helaas op het laatste moment elders zijn, dus hij vroeg mij om ook namens hem het woord te voeren. Ik zal dus proberen het aantal onaardige opmerkingen over de PvdA tot een functioneel minimum te beperken!</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg31">Laat ik positief beginnen. Het merendeel van mijn tijd ben ik woordvoerder onderwijs, alwaar ik regelmatig amendementen indien waarmee dan doorgaans niets gebeurt. Mijn score bij Sociale Zaken is, ondanks dat het allemaal op een wat ongebruikelijke manier gaat, toch een stuk beter. Zo diende ik in februari namens de SP drie wetswijzigingen in op het kindgebonden budget, waarvan er ondertussen twee zijn overgenomen. Wel wil ik de coalitie meegeven dat er nog een paar verbeterpunten zijn, namelijk dat ze in de toekomst worden overgenomen wanneer ik ze indien, en niet een paar maanden later, met bronvermelding en inclusief dekking. Maar goed, een leven lang leren; die kans wil ik ook het kabinet en de coalitie gunnen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg32">Het eerste voorstel wordt enigszins verlaat overgenomen door het kabinet, met een spoedwet zelfs. Het kindgebonden budget wordt nu alsnog voor iedereen gecompenseerd; precies zoals wij in februari al voorstelden. En nu we elkaar toch op dit mooie tijdstip treffen, wil ik wel van het kabinet weten wat het ineens tot dit inzicht bracht. Want de argumenten die het kabinet gaf — dat juich ik op zich in algemene zin toe — waren letterlijk die van de SP, maar dan een paar maanden eerder.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg33">Het tweede bespreken we vanavond: het amendement van de coalitie. Alle ouders met kinderen onder de 18 krijgen vanaf nu kinderbijslag en/of kindgebonden budget, ook wanneer de kinderen gaan studeren. Dat was namelijk ooit afgeschaft omdat die kinderen toch studiefinanciering kregen, maar vervolgens niet opnieuw ingevoerd toen de studiefinanciering door een monstercoalitie in deze Kamer werd afgeschaft. Oeps, vergeten. Niet dat de Kamer en het kabinet er niet op gewezen zijn, want de SP, maar ook de SGP hebben zich hier al langere tijd voor ingezet. Zo deden wij tijdens datzelfde ondertussen fameuze debat in februari dit voorstel. Toen zou het volgens het kabinet niet aan de orde zijn en was het beter om dit debat op een later moment te voeren. Nou, dat latere moment duurde bijna negen maanden, waarna het debat op het laatste moment door de coalitie werd afgeblazen. Diezelfde coalitie die ons voorstel wegstemde en vervolgens twee dagen na het afblazen van het debat ineens in de krant een voorstel presenteerde dat qua strekking toch wel verrekte veel leek op het voorstel van de SP en de SGP.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg34">Nu geloven wij als socialisten in gemeenschapsbezit. Omdat ik niet zeker was dat de heer Stoffer zou deelnemen aan het debat, heb ik ook voor hem een toepasselijke onderbouwing gevonden, namelijk in de brief aan de Efeziërs, waarin een oproep staat om goed voor elkaar te zijn en vol medeleven. Dus ja, dan hebben wij ons daarnaar te gedragen, maar enigszins frappant is het wel. Ik ben in mijn vrije uren ook nog woordvoerder auteursrecht. Wanneer wij ons amendement op muziek hadden gezet, hadden wij de coalitie vermoedelijk kunnen aanklagen wegens het schenden van ons auteursrecht. Dit laatste voorstel is ook nog eens keer slordig gekopieerd, want wat de dekking betreft heeft men ons voorstel minder goed gelezen; ik had het daar net al over met mevrouw Nijkerken. Om in de auteursrechtmetaforen te blijven: de coalitiepartijen blijken een slechte coverband te zijn van het succesvolle muzikale duo Kwint en Stoffer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg35">Het voorstel om dit onrecht te repareren, wordt straks betaald door de niet-indexatie van de kinderbijslag. Een ezel stoot zich in het gemeen geen tweemaal aan dezelfde steen, maar de coalitie van Rutte III is blijkbaar zo slim nog niet, want die dient dit nogmaals in als dekking. Toen het kabinet dit in februari voorstelde bij het kindgebonden budget, hebben wij de regeringspartijen gewaarschuwd, want de inkomenseffecten zouden nogal fors zijn. Een halfjaar later kwam het kabinet tot het wonderbaarlijke inzicht dat de inkomenseffecten nogal fors waren en moest het via een spoedwet gerepareerd worden. Nu proberen ze het weer, dit keer via de kinderbijslag. Dat is dus hetzelfde probleem. Ja, het is maar €4 per kwartaal. Ik had hem al opgeschreven voordat ik wist dat mevrouw Nijkerken het ook via een interruptie tegen mij zou zeggen. Dat is leuk en aardig, maar als je in de bijstand zit, is €16 mooi meegenomen. Met het inkomen van ons allemaal hier in de zaal merk je dat verschil niet eens. Ik kan, zelfs met de afdrachtregeling van de SP, uit eigen ervaring putten. Maar het geld wordt nu niet gehaald bij mensen die net zo veel verdienen als wij.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg36">Ik reken dan ook op een negatief preadvies van het kabinet op het amendement, anders moeten we het straks over een halfjaar weer gaan repareren. Er zijn heel veel manieren om dit, in principe nobele, doel op een andere manier te bereiken. Laat ik er een paar noemen. Je kunt de kinderbijslag aftoppen tot een inkomen van €250.000. Dat heeft hetzelfde resultaat. Dan houden ook Kamerleden nog hun kinderbijslag, zelfs wanneer ze getrouwd zijn met een ander Kamerlid. Ouders met kinderen zullen dan vanaf dit inkomen geen kinderbijslag meer ontvangen vanaf 2020. Ja, dat lijkt me op zich enigszins haalbaar. Wie heeft het geld harder nodig? Dat is de centrale vraag. De bijstandsmoeder of de mensen met een kwart miljoen?</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg37">Een andere mogelijkheid — ik noem er maar een paar — is om huishoudens met een verzamelinkomen boven de circa €100.000, €101.193 om precies te zijn, minder kinderopvangtoeslag te geven. Dan krijg je dus bijvoorbeeld vanaf €125.000 niet een derde van je kinderopvangkosten terug, maar een kwart. Dat lijkt me enigszins te doen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg38">We hebben dus ondertussen nogal wat alternatieve dekkingen. Als vierde dekking zouden we de algemene middelen aan kunnen dragen, dus een vergelijkbare dekking als het kabinet gaf voor een spoedwet deze zomer. Dat vind ik ook prima. Ik ben heel benieuwd wat volgens het kabinet de beste van al deze dekkingen is. Ik heb een amendement ingediend, maar mocht het kabinet zeggen "deze dekking vinden wij niet zo, maar een van de andere dekkingen die zijn aangedragen in de spreektekst van de heer Kwint bevalt ons zeer goed", dan zijn wij graag bereid om daarover na te denken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg39">Dan ten slotte nog iets anders: enige tijd geleden stelde mijn collega Leijten hier in de Kamer het onrecht aan de orde dat je, wanneer je chronisch ziek bent, geen beroep kunt doen op de kinderopvangtoeslag. Misschien is het enigszins projectie, maar ik dacht aan het ongemak van de staatssecretaris te zien dat ze zelf ook niet echt begreep hoe dit onrecht heeft kunnen ontstaan. Als je zelf werkt en je partner vanwege een chronische aandoening in de dagbesteding zit, dan word je eigenlijk door de overheid actief gestimuleerd om te stoppen met werken. Het kabinet gaf aan dit te willen regelen — daar ben ik blij om — maar wel pas vanaf 2021. Waarom dan pas? We hebben het nu over een verzamelwet. Bij uitstek de gelegenheid om kleine onvolkomenheden in de wetgeving te repareren. Zullen we dat dan gewoon doen? We wachten nog op het preadvies van de staatssecretaris naar aanleiding van een motie van mijn collega's Leijten en Alkaya. Die was ingediend bij de heer Snel, maar die zei: dan moet u toch echt bij mevrouw Van Ark zijn, want die heeft er een stuk meer verstand van dan ik. Dus bij dezen. Zou de staatssecretaris dat preadvies kunnen meenemen in haar beantwoording? Dan kunnen wij op basis van de beantwoording beslissen of we uiteindelijk een amendement indienen of niet.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg40">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u26">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg41">Dank u wel. Dan geef ik nu graag het woord aan de heer Bruins. De heer Bruins spreekt namens de fractie van de ChristenUnie.</seg>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u27">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg42">Voorzitter. We behandelen vandaag de Verzamelwet SZW. Dat klinkt saai, maar dat is het niet. Dat komt inderdaad door het amendement dat mijn collega van de VVD al aankondigde. Een amendement dat goed nieuws betekent voor een heleboel ouders. Inderdaad, er zat een rare kronkel in de regels over kinderbijslag. Als je 16 of 17 bent en je gaat studeren of wat geld verdienen, hebben je ouders ineens geen recht meer op kinderbijslag. Die vervalt, terwijl van deze groep de studiefinanciering ook al was afgepakt. Die onrechtvaardigheid is de ChristenUnie al enige jaren een doorn in het oog en dus ben ik blij dat wij deze fout nu kunnen rechtzetten. Tienduizenden gezinnen met jonge studerende kinderen kunnen straks wel op financiële steun rekenen en dat is goed nieuws. Het gaat om een bedrag van minstens €1.200 als je alleen recht op kinderbijslag hebt tot wel €5.000 als je ook recht hebt op kindgebonden budget. Dat is substantieel geld voor de gezinnen die het aangaat.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg43">Over de dekking van deze maatregel is al wat gewisseld. Die wordt gevonden door de kinderbijslag in 2020 niet te indexeren. Daarmee wordt de dekking uitgespreid over een zo groot mogelijke groep ouders. De kinderbijslag gaat deze regeerperiode omhoog. Het kindgebonden budget gaat omhoog. De kinderbijslag gaat volgend jaar €20 tot €30 per kwartaal omhoog, afhankelijk van de leeftijd van het kind. Bij indexatie zou de kinderbijslag in 2020 met €4 extra stijgen. Door het amendement is dat laatste niet het geval. Mijn fractie vindt dat een uitlegbare maatregel. Bovendien wordt het kindgebonden budget wel gewoon geïndexeerd. Dus ook daar komt extra geld bij. Uit de tabellen die we van het ministerie kregen, bleek dat op deze manier, met de niet-indexatie, het inkomenseffect zeer gering is. Hiermee kunnen we de onrechtvaardige situatie die al jaren speelt voor een specifieke groep ouders nu eindelijk oplossen. Daar zet mijn fractie graag haar handtekening onder.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg44">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u28">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg45">Hartelijk dank. Er is nog een vraag van de heer Kwint.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u29">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg46">Dat wij van mening verschillen over de gevonden dekking mag duidelijk zijn. Wat vond de heer Bruins van de dekkingen die wij zonet presenteerden tijdens mijn inbreng? Bijvoorbeeld het aftoppen van de kinderbijslag boven 2,5 ton?</seg>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u30">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg47">O, dat is ook een heel aanvaardbare dekking. Het voordeel van de dekking die in dit amendement zit, is dat het over een zo groot mogelijke groep ouders wordt verdeeld, waardoor het effect eigenlijk een afrondingseffect is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u31">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg48">Afrondend, de heer Kwint.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u32">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg49">Ik waag dus te betwijfelen dat €16 voor iemand in de bijstand een afrondingsverschil is. We zouden er ook voor kunnen kiezen om het geld niet te geven aan mensen die het niet nodig hebben en daarmee in ieder geval, hoe klein het ook is, de negatieve inkomenseffecten voor de allerlaagste inkomens te voorkomen. Dat moet toch iets zijn wat de heer Bruins aanspreekt.</seg>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u33">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg50">Ik heb net gezegd dat de kinderbijslag volgend jaar €20 per kwartaal stijgt voor jonge kinderen en €30 per kwartaal voor oudere kinderen en dat ook het kindgebonden budget in 2020 voor 1,1 miljoen meer mensen bereikbaar is. De kindregelingen gaan er dus sterk op vooruit in deze regeerperiode en specifiek ook volgend jaar. Dus dit is echt het moment om het te doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u34">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg51">Dank u wel. Dan geef ik graag het woord aan de heer Van Weyenberg en de heer Van Weyenberg spreekt namens de fractie van D66. Gaat uw gang.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u35">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg52">Dank u wel, voorzitter. Beide amendementen die nu voorliggen, lossen iets op voor ouders van wie de kinderen 16 of 17 jaar oud zijn en studeren of volgens de regels te veel bijverdienste hebben. Dat gaat toch om ongeveer 36.000 ouders. Al die ouders krijgen door beide amendementen gewoon weer recht op kinderbijslag en, als dat geldt, ook op het kindgebonden budget. Dat lijkt mij goed nieuws.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg53">De heer Kwint legt de nadruk nogal op de verschillen, maar ik wil er graag de nadruk op leggen dat het wel mooi is dat de hele Kamer hier eigenlijk eensgezind zegt dat dat gewoon verstandig is. Dat is ook weleens anders, zeg ik tegen de heer Kwint en zijn collega's. Het is waar dat het om veel geld gaat, namelijk 54 miljoen. En over hoe je dat gaat betalen, kun je van mening verschillen. Als dekking is ervoor gekozen om het eenmalig niet te indexeren. Dat heeft, en dat zei de heer Renkema terecht, inderdaad een langjarige doorwerking met €4 per kwartaal.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg54">Het lijkt me toch goed om het zo te doen, zeker als je je bedenkt dat we daarmee de kosten over een zo groot mogelijke groep spreiden. We doen het verder op een moment dat de kinderbijslag volgend jaar toch al fors omhoog gaat, iets wat trouwens ook geldt voor het kindgebonden budget. Het was voor mijn fractie ook wel belangrijk om deze maatregel binnen de kindregelingen te dekken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg55">Ja, je had voor alternatieven kunnen kiezen. Ik vind die in dit geval minder aantrekkelijk. Mijn fractie is verder in het verkiezingsprogramma wel voor het inkomensafhankelijk maken van de kinderbijslag — geen misverstand! — maar dat heb ik niet met de collega's afgesproken. Daarmee vind ik dit heel aanvaardbaar.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg56">De heer Kwint zei dat hij eigenlijk plagiaat vond om daarna tien minuten los te gaan op wat er allemaal niet deugde. Blijkbaar verschilde het toch wel wat meer van zijn eigen voorstel. Het is toch een klein beetje alsof je zegt dat de heavy metal van de heer Kwint en mijn liefde voor Bruce Springsteen eigenlijk hetzelfde is, omdat ze allebei op een cd'tje staan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg57">Voorzitter, dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u36">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg58">De heer Kwint heeft een vraag. Gaat uw gang.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u37">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg59">Nee, nee, nee. Twee kleine feitelijke correcties! Ik had het over plagiaat in de zin dat een slechte coverband plagiaat is. Ik bedoel dus: de strekking is ongeveer hetzelfde, maar toch net niet helemaal zo goed als het origineel. Ik houd verder niet van heavy metal, maar van hardcorepunk. Dat waren de enige twee feitelijke correcties en die wilde ik even doorgeven.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u38">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg60">Op dat laatste punt, voorzitter. I stand corrected!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u39">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg61">Dank u wel. Dan geef ik nu graag het woord aan de heer Renkema en de heer Renkema spreekt namens de fractie van GroenLinks. Gaat uw gang.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u40">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg62">Voorzitter, dank u wel. In het Engels kennen we de uitdrukking "the devil is in the details". Dat gebruiken we in het Nederlands ook weleens als kleine fouten kunnen leiden tot grote problemen. Maar er bestaat in het Engels ook nog een iets oudere uitspraak, namelijk: God is in the detail. Dat betekent dat aandacht geven aan iets ogenschijnlijk kleins, vaak iets moois oplevert. Die uitspraak wordt toegeschreven aan heel veel mensen, onder wie een meubelontwerper en architect, de Amerikaan Mies van der Rohe. Hij zei: je moet niet willen bezuinigen op kleine details als je iets moois wilt maken. Doe het goed en doe het grondig.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg63">Formeel spreken we vandaag over de Verzamelwet SZW, maar de aandacht gaat natuurlijk naar het amendement van de coalitie dat regelt dat ook ouders van kinderen die zelf al studiefinanciering, salaris of een stagevergoeding krijgen, recht krijgen op kinderbijslag en kindgebonden budget. Dat is op zich een heel goed voornemen. Immers, kinderbijslag is een tegemoetkoming voor alle ouders om die ouders te ondersteunen in het opvoeden en verzorgen van hun kinderen. En alle ouders hebben die verantwoordelijkheid, tenminste tot die kinderen 18 zijn. Dan is het dus ook logisch dat de tegemoetkoming ook voor iedereen geldt, ongeacht het eventuele inkomen van de kinderen. GroenLinks kan zich inhoudelijk dan ook helemaal vinden in het amendement.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg64">De manier waarop dit gaat, verbaast me wel enigszins. Het doet me wat denken aan een eerder ingediende motie van de coalitiepartijen, nu alweer een paar maanden geleden, over het opheffen van het onderscheid tussen markt en overheid bij de banenafspraken. Er wordt iets geregeld vanuit de coalitie, vanuit de Kamer. De staatssecretaris kan vervolgens zeggen dat het de wens van de Kamer is die zij uitvoert, maar ik vraag me toch af waarom dit in een amendement bij een verzamelwet moet. Waarom kan dit niet in een begroting worden geregeld? Waarom heeft de staatssecretaris dit niet zien aankomen en het geregeld in de begroting voor 2020, maar ook voor alle jaren daarna? Daar wil ik graag een reactie op van de staatssecretaris.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u41">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg65">Een vraag van mevrouw Nijkerken.</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u42">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg66">Als u het mij toestaat, wil ik graag een klein antwoord geven op de vraag die gesteld wordt door de heer Renkema.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u43">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg67">De heer Renkema stelt in principe geen vragen aan de Kamerleden, maar ik sta u een interruptie toe.</seg>
+            </u>
+            <u who="#ChantalNijkerken-deHaan" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u44">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg68">Heel kort, misschien even ter verduidelijking. Via de verzamelwet is het mogelijk om deze kromme situatie recht te zetten met ingang van 1 januari aanstaande. Als we dat via de begroting hadden gedaan, hadden we daar weer een jaar op moeten wachten.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u45">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg69">Ik wil daar nog even op reageren. Natuurlijk hebben we die verzamelwet als er technische onvolkomenheden zijn, maar dit gaat gewoon om een beleidskeuze die je maakt tot in lengte van dagen. Vandaar dat ik het belangrijk vind om dat in de meerjarenbegroting een plek te geven.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u46">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg70">Er zit steeds een connotatie in de inbreng van de heer Renkema dat we het niet meerjarig regelen. Ik zou toch echt willen zeggen dat we dat wel doen. Wat we hier doen, betekent — tot we ooit de wet veranderen — dat we de kinderbijslag voor deze groep ouders met kinderen van 16 en 17 gewoon in de wet hebben geregeld, langjarig. De heer Renkema kan dat via de begroting willen doen, maar het beeld dat het nu eenmalig of tijdelijk zou zijn is volgens mij feitelijk niet correct. Misschien is het goed dat de staatssecretaris daar wat over zegt.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u47">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg71">Laten we dit even heel helder hebben. Ik begrijp dat dit meerjarig is. Tot in lengte van dagen zal dit worden gecorrigeerd en heeft het inkomenseffecten. Het gaat mij om de route. Doe je dit in een begroting en kijk je vooruit, of doe je het in een wat mij betreft toch vrij technische wet die de verzamelwet is?</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u48">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg72">Dat is waar, maar dan is het wel opmerkelijk dat de naam van de heer Renkema zelf ook onder een amendement staat dat dit ook doet.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u49">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg73">Op het moment dat er een amendement ligt waarvan wij vinden dat de dekking niet deugt, gaan we uiteraard een ander amendement indienen. Dat lijkt mij geen enkel probleem. Dat is politiek.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg74">Ik wil even naar het tweede punt dat ik wil maken. Dat gaat over de inkomenseffecten van de maatregelen. Ik ben blij dat de heer Kwint daar een brief over heeft gevraagd. Als je die bestudeert, zie je in de bijlage percentages waarvan iedereen kan denken: dat is bijna niks. Voor de hogere inkomens is het afgerond 0,0%. Dat is een veilige keuze. Maar toch zijn wij niet tevreden over de dekking die nu wordt voorgesteld. We hebben de discussie eerder gehad bij het kindgebonden budget. Toen ging het ook over eenmalig niet indexeren. Daar waren we toen ook tegen, want het is raar dat je de kosten voor zo'n maatregel laat ophoesten door de doelgroep zelf. Daar is ze toen op teruggekomen. Maar in de brief zien we nu dat deze maatregel echt alleen maar effect heeft op de laagste inkomens in Nederland. Dat hadden we kunnen voorspellen. Dit is sowieso het geval bij een gelijk bedrag voor iedereen als het gaat over de kinderbijslag. Voor gezinnen met kinderen met een hoog inkomen is de kinderbijslag feitelijk vaak overbodig, maar voor de laagste inkomens en de sociale minima is zo'n kinderbijslag essentieel, soms essentieel om rond te komen. €4 per kwartaal lijkt niet zo veel, maar voor mensen met kinderen die op het sociaal minimum leven is elke euro van belang. Dit maakt het verschil tussen wel of niet een keer een wat groter cadeau kunnen kopen voor je zoon of dochter als die jarig is. Ja, het is echt waar, God is in the details. Anders gezegd, dit is een heel slechte dekking. GroenLinks steunt om die reden het amendement van de SP.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg75">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u50">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg76">Dank u wel. Dan geef ik nu graag het woord aan de heer Stoffer, die spreekt namens de fractie van de SGP. Gaat uw gang.</seg>
+            </u>
+            <u who="#ChrisStoffer" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u51">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg77">Voorzitter. De heer Kwint verloochent zijn afkomst niet, want volgens mij heb ik ooit gelezen dat hij op de School met de Bijbel in Bleskensgraaf heeft gezeten. Maar laat ik nou net toen hij aan het citeren was, aan het appen geweest zijn met mijn vrouw! Dat ging niet over de verlaging van de kinderbijslag, over datgene wat niet naar ons toe komt, maar over de opvoeding van een van onze dochters. Ik heb nog gezocht in Efeze, maar ik kon niet precies vinden waar hij het over had. Dat komt vast nog wel apart. Het mooiste wat ik daar tegenkwam, was overigens dat de genade is met al diegenen die Jezus Christus liefhebben. Dat geef ik dan maar terug. Dat zal vast niet zijn geweest wat hij neerzette, maar het is wel het hart van het evangelie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg78">Goed, voorzitter, dan naar het onderwerp. Want met verzamelwetten moet je opletten. Het lijkt alleen maar techniek, maar het is al een paar keer gebleken dat er toch meer aan de hand is. Bij de Verzamelwet 2018 was er gesteggel over de bedoeling van de Verzamelwet 2013, vooral over de positie van eigenrisicodragers in de sociale zekerheid. En nu, bij deze Verzamelwet 2020, hebben we zelfs twee inhoudelijke thema's: de eigenrisicodragers in de Ziektewet, opnieuw, en de kinderbijslag voor minderjarige studenten. Dat zijn gelijk de punten waar ik even kort op in wil gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg79">Op 9 november kopte de NOS: Ouders met studerende kinderen onder de 18 krijgen toch kinderbijslag. Dat was goed nieuws. Mijn voorganger, Elbert Dijkgraaf, vroeg hier in 2014 al aandacht voor. Ook mijn collega Roelof Bisschop zei tegen de minister van Onderwijs dat hij niet zou rusten voordat hij die oneerlijke regeling de wereld uit zou hebben. Samen met de SP hebben we hier herhaaldelijk aandacht voor gevraagd. Ik geloof zelfs dat in de krant stond dat we het vuur uit onze sloffen liepen, maar het hielp niet zo veel. Ik vind het wel heel mooi dat er een oplossing gekomen is.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg80">Net als de heer Kwint werd ik echter minder blij toen ik wat verder las in het NOS-bericht, omdat het uiteindelijk gedekt wordt door de kinderbijslag volgend jaar niet te laten stijgen. Volgens mij wordt het allereerst gewoon heel rommelig met de indexering als je alle kindregelingen pakt, maar ik vraag me ook af of het echt nodig is om minderjarige studenten te helpen door alle ouders te benadelen, vooral degenen waar zojuist op gedoeld werd: de ouders aan de onderkant van het financiële gebouw. Op die manier zit er voor mij toch een beetje een bijsmaak aan. Ik kijk dus ook heel positief naar alternatieven die die pijn beter verdelen. Maar ik heb er wat moeite mee om direct mee te gaan met het amendement van de heer Kwint. Ik wil graag de duiding van de staatssecretaris daarvan. Eigenlijk zou mijn ideaal zijn om dat te laten betalen door de kinderopvangtoeslag terug te brengen voor mensen die meer dan een ton verdienen. Ik hoor al positieve geluiden vanuit de coalitie. Dat doet mij goed. Maar goed, daar kijken wij naar.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg81">Dan toch kort nog even de eigenrisicodragers. De regering heeft de voorstellen over de positie van eigenrisicodragers uit dit wetsvoorstel gehaald. Dat begrijp ik, maar ik krijg de indruk dat daarmee de inzet om te werken aan een evenwichtiger speelveld tussen het UWV en de eigenrisicodragers op de lange baan gaat. Ik noem de dreiging van loonsancties, die werkgevers niet stimuleert om eigenrisicodrager te worden. Hoe kunnen we die werkgevers tenminste meer duidelijkheid geven over waar ze aan moeten voldoen bij re-integratie? Ook de dubbelrol van het UWV als publieke uitvoerder aan de ene kant en toezichthouder aan de andere kant blijft voor mijn gevoel wringen. Daarom vraag ik de regering om in ieder geval meer zicht te bieden op het aantal loonsancties die het UWV per privaat en publiek verzekerde werkgevers oplegt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg82">Verder is het ook belangrijk om te kijken hoe kleine en middelgrote bedrijven een serieuze keuze krijgen voor die private verzekering. Eigenlijk is mijn vraag aan de minister de volgende, maar het is nu de staatssecretaris die dit behartigt. Vandaar dat ik bij haar de vraag neerleg of ze dit serieus gaat oppakken samen met de private uitvoerders. Dat is voor mij de echte vraag die onder dit item ligt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg83">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u52">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg84">Hartelijk dank voor uw inbreng. Daarmee zijn wij aan het einde gekomen van de eerste termijn van de zijde van de Kamer. De staatssecretaris heeft aangegeven tien minuten schorsing te willen.</seg>
+            </u>
+            <note>De vergadering wordt van 22.27 uur tot 22.40 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u53">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg85">Aan de orde is de eerste termijn van de zijde van het kabinet. Ik geef graag de staatssecretaris de gelegenheid voor het beantwoorden van de vragen. Ook ligt er een tweetal amendementen waar we graag een oordeel over zouden willen hebben. Wellicht kan dat ook in deze eerste termijn. Het woord is aan de staatssecretaris.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u54">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg86">Voorzitter, dank u wel. Gezien het tijdstip zal ik dat inderdaad zo kort en bondig mogelijk proberen te doen, maar uiteraard wel volledig, want het is een wetsbehandeling. We hebben het hier over de Verzamelwet SZW. Normaal gesproken zijn dat technische wijzigingen, maar in dit geval zijn er ook een aantal wijzigingen in wetten op het terrein van het ministerie van SZW, voornamelijk wat betreft socialezekerheidswetgeving.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg87">Het zijn veel technische zaken, maar in dit geval is er door een aantal van uw leden ook een amendement ingediend, specifiek op de kinderbijslag. Daar hebben we al een aantal keer over gesproken, niet alleen in deze periode, maar ook in de jaren hiervoor. Wat breed in de Kamer als een onrechtvaardigheid wordt ervaren — ik deel dat; het is ook bij de doorlichting van de kindregelingen naar voren gekomen — is dat 16- en 17-jarigen in bepaalde situaties geen recht hebben op kinderbijslag. Het amendement dat door de coalitie is ingediend, ziet daarop toe. Ook de heer Kwint heeft daar een amendement op ingediend. Laat ik de Kamer danken voor de bijdrage in deze discussie. Voor de volledigheid van de discussie zal ik gelijk mijn reactie geven op deze amendementen. Er zijn ook nog een aantal vragen over gesteld die daarbij horen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg88">Eerst het amendement dat is ingediend door mevrouw Nijkerken-de Haan en haar collega's. Dit laat de eisen voor 16- en 17-jarigen vervallen. De dekking daarvan wordt voorzien door de kinderbijslag in 2020 niet te indexeren. Dit amendement volgt inhoudelijk uit de beleidsdoorlichting, waar ik zojuist aan refereerde. Ik constateer dat dit amendement uitvoerbaar is. Ik zie een dekking waarvan de dekking voldoet. Wat deze dekking doet via de kinderbijslag, is een minimaal effect over een zo groot mogelijke groep ouders verspreiden. Ik heb een brief geschreven aan de Kamer over de inkomenseffecten. Ik wijs erop dat in 2019 de kinderbijslag met een flink bedrag is verhoogd, dus ik zeg het de heer Van Weyenberg na dat als je dit wil doen op deze manier, dit wel de periode is om dat te doen. Daarom laat ik over dit amendement het oordeel aan de Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u55">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg89">We hebben het over het amendement op stuk nr. 10. Oordeel Kamer.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u56">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg90">De heer Kwint heeft een amendement ingediend en heeft een aantal suggesties gedaan in zijn spreektekst. Ik constateer dat het onderwerp van het amendement hetzelfde is. Dat is heel erg mooi. Het onderstreept dat deze wens breed gedeeld is. In het amendement wordt de dekking voorzien door het afbouwpercentage van het kindgebonden budget te verhogen van 6,75% naar 7,3%. Ook in de richting van de heer Kwint kan ik zeggen dat het afschaffen van de eisen voor 16- en 17-jarigen volgt uit de beleidsdoorlichting. Op dat punt volg ik het amendement, maar dat geldt niet voor de dekking. Het hogere afbouwpercentage verhoogt de marginale druk, wat beleidsmatig ongewenst is. Dat was ook de reden om in het voorjaar een soortgelijk amendement bij het wetsvoorstel Verhoging van de afbouwgrens WKB te ontraden. Dat is het standpunt waarop ik mij nu ook stel. De heer Kwint heeft aangegeven: ik heb nog meer mogelijkheden om dat te doen, bijvoorbeeld door de kinderopvangtoeslag te verlagen voor inkomens boven de €100.000. Los van het feit dat de dekking dan niet meer per 1 januari 2020 geregeld kan worden omdat dit via een besluit loopt dat een voorhangprocedure kent, namelijk het Besluit kinderopvangtoeslag, heb ik daarnaast een inhoudelijk bezwaar. Dat is dat de verlaging een, hetzij beperkt, negatief effect heeft op de arbeidsparticipatie. We hebben gezien in de afgelopen jaren dat als er een schommeling is in de hoogte van de kinderopvangtoeslag, die veel onzekerheid teweegbrengt bij ouders en bij aanbieders over de hoogte van de toeslag. Dat heeft een langdurige impact op de beeldvorming van ouders over de kosten van de kinderopvang. Dat kan dus ook invloed hebben op de arbeidsparticipatiebesluiten die ouders nemen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg91">De heer Kwint heeft ook aangegeven — en ik waardeer de suggesties die hij doet — dat de dekking voorzien kan worden door de kinderbijslag te beperken tot ouders die minder verdienen dan €250.000. Ook voor deze suggestie geldt dat het effect volgt uit de beleidsdoorlichting. Maar als het gaat om de dekking is de kinderbijslag nu inkomensonafhankelijk. Een inkomensgrens toevoegen in de kinderbijslag maakt de uitvoering voor de SVB veel complexer. We hebben in het kabinet met elkaar geconstateerd dat meerdere uitvoerders het lastig hebben als de regelgeving in complexiteit toeneemt. Het kabinet heeft daarover een brief aan de Kamer gestuurd. Verder kan het verzamelinkomen vaak pas achteraf vastgesteld worden. Ouders rond de inkomensgrens weten dan dus pas achteraf of ze de kinderbijslag mogen houden. Dat acht ik ongewenst.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg92">Voorzitter. Er is ook nog een aantal vragen gesteld.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u57">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg93">Voordat u daartoe overgaat, is er een interruptie van de heer Kwint.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u58">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg94">De staatssecretaris ontraadt mijn amendement met de toelichting dat het een beperkt maar negatief effect heeft voor bepaalde inkomensgroepen. Dat klopt. Dat geldt alleen op precies dezelfde manier ook voor het amendement van de coalitie, alleen komt het negatieve effect daarvan niet bij de hoge middeninkomens terecht, maar bij mensen die toch al geen euro te makken hebben. Waarom is dat dan wel een acceptabele dekking, terwijl het wanneer het inkomenseffect bij de hogere middeninkomens terechtkomt in een keer een negatief effect is en het amendement daarom een negatief advies krijgt?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u59">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg95">Ik heb een diversiteit aan factoren mee laten wegen bij de weging van de amendementen. De financiële component is daar een van. Ik constateer met een aantal fracties dat er deze regeerperiode door de investeringen in de kinderbijslag een verhoging is gerealiseerd. Als je op zoek bent naar een dekking binnen de kindregelingen — verschillende partijen hebben dat aangegeven en het kabinet neemt dat ook over — dan is de verhoging van de kinderbijslag met zo'n €88 per 1 januari 2019 dus de legitimatie om te zeggen: dit is het kleinst mogelijke effect, te verdelen over een zo groot mogelijke groep ouders. Ik acht het in die weging gelegitimeerd om te zeggen: dan geef ik dit amendement oordeel Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u60">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg96">De heer Kwint, afrondend.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u61">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg97">Maar de verhoging van de kinderbijslag komt bij alle inkomens terecht, zoals de staatssecretaris iets later zei. Dat maakt dus niet uit. We gaan iets extra's doen voor alle inkomens, maar we gaan er wat af halen bij de laagste inkomens. Dat is toch een rare keuze? Is het nou echt zo slecht gesteld met de uitvoering bij bijvoorbeeld de SVB dat zij één simpele streep in het systeem, namelijk "het houdt op bij een verzamelinkomen van €250.000", niet aan zouden kunnen als de politiek dat zou willen — nog los van de vraag of ik daar een meerderheid voor ga krijgen? Is het daar zo slecht mee gesteld?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u62">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg98">Ik vind het wel van belang om hier aan te geven dat het gaat om eenmalig niet indexeren. Dat betekent niet dat er geld wordt weggehaald. Als ik dat afzet tegen het extra bedrag aan kinderbijslag dat vanuit het regeerakkoord per 1 januari 2019 naar ouders is gegaan, acht ik dit een redelijk voorstel. Als het gaat om de uitvoering, zie ik dat juist de kinderbijslag en juist het kindgebonden budget geroemd worden, bijvoorbeeld door een instantie als de Ombudsman, omdat het eenvoudige regelingen zijn. In zijn algemeenheid zou ik ervoor willen waken om regelingen waarvan we nu zien dat ze qua accuratesse op de juiste manier bij de juiste mensen komen en dat ze een hele lage foutmarge hebben, complexer te maken. Daarom vind ik de uitvoerbaarheid van belang. Dat is bij de Algemene Politieke Beschouwingen door vele fracties in deze Kamer aangegeven, en dat vind ik dus ook een zwaarwegend argument.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u63">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg99">De staatssecretaris gaat over tot het beantwoorden van de vragen. Dan vermeld ik dus nog een keer dat het amendement op stuk nr. 11, ingediend door het lid Kwint c.s., is ontraden.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u64">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg100">Voorzitter. De heer Kwint vroeg waarom het kindgebonden budget achteraf wel is geïndexeerd. Ik zou als antwoord aan willen geven dat ik op dit punt de motie-Peters heb uitgevoerd, die door de Kamer is aangenomen toen we deze wet behandelden. Die vroeg het kabinet om bij de zomerbesprekingen de koopkrachteffecten expliciet te bezien. Dat heb ik gedaan. Dat heeft het kabinet gedaan en dat heeft geleid tot de wijziging zoals die vervolgens ook naar de Eerste en Tweede Kamer is gegaan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg101">Voorzitter. De heer Stoffer vroeg naar de eigenrisicodragers. Ik kan hem namens de minister, die dit inderdaad in de portefeuille heeft, het antwoord geven dat we oog houden voor de aantrekkelijkheid van het stelsel, ook voor kleine risicodragers. Daarbij is ook de re-integratie tweede spoor een onderwerp van gesprek, ook in het licht van de motie-Stoffer/Wiersma. De minister houdt de Kamer op de hoogte, want er is eerder al een schriftelijke ronde geweest van de vaste commissie voor Sociale Zaken en Werkgelegenheid. Die heeft in ieder geval geleid tot wat hier in de verzamelwet staat, maar wat dat betreft houdt de minister ook de vinger aan de pols.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg102">Voorzitter. Dan ligt er nog een vraag van de heer Kwint over de dagopvang en de kinderopvangtoeslag. Ik heb hierover inderdaad ook in het mondelinge vragenuur van gedachten gewisseld, maar ik heb eerder ook vragen behandeld van de fractie van het CDA, die dit signaal had opgebracht en had aangegeven dat mensen die gebruikmaken van de Wet langdurige zorg, geen gebruik kunnen maken van kinderopvangtoeslag en dat dat tot onrechtvaardige situaties leidt. Ik deel die mening. Dat betekent ook dat ik bij de voorjaarsbesluitvorming geld heb kunnen vinden om deze regeling mogelijk te maken. Ik streef ernaar om dit per 2021 te doen. We hebben nu uitvoeringstoetsen liggen bij de Belastingdienst. Mocht dat nog tot andere inzichten leiden, dan zal ik dat de Kamer laten weten, maar ik vind het, kijkend naar de motie waar de heer Kwint op duidt, ook wel van belang om aan te geven dat mensen die gebruikmaken van de Wet langdurige zorg, een relatief homogene groep zijn die geïndiceerd wordt, waardoor we dit ook mogelijk kunnen maken. Bij andere vormen van dagopvang, die zeer waardevol zijn voor mensen die in situaties kunnen zitten waardoor ze werk, vrijwilligerswerk of andere taken moeten combineren met opvang, is de groep veel heterogener. Het is niet zo dat er niks is voor deze groep, want mensen die hiermee te maken hebben, kunnen zich wenden tot de gemeente, kunnen een sociaal-medische indicatie vragen en kunnen daarbij dus ook gebruikmaken van kinderopvang. Ik ben wel voornemens om zo snel mogelijk met de Wlz aan de slag te gaan, maar kijkend naar de heterogeniteit van de groep die gebruikmaakt van dagopvang onder de Wmo, kan ik daar helaas niet op ingaan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg103">Voorzitter, als ik goed heb geteld, waren dit de vragen. Anders hoor ik het graag.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u65">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg104">Dank u wel. Er is nog een vraag van de heer Kwint. Gaat uw gang.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u66">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg105">Ja, een verhelderende vraag. Ik snap dat het een vrij heterogene groep is, maar wanneer wij allemaal besluiten dat wij langdurig, chronisch zieken niet willen uitsluiten van die kinderopvangtoeslag, dan kunnen we dat toch voor de hele groep besluiten, ongeacht hoe heterogeen die is? Dan kun je dat toch gewoon voor de groep als geheel besluiten?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u67">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg106">Ik hoor mijn eigen woorden nagalmen in mijn hoofd en ik realiseer me dat ik "dagopvang" zei waar ik uiteraard "dagbesteding" bedoelde. Dat komt ook een beetje door het onderwerp. Ik vond en vind het verzoek om vanuit de Wlz toegang tot de kinderopvangtoeslag mogelijk te maken, haalbaar en wenselijk. Dat heeft ook te maken met de beheersbaarheid van een maatregel, want het is een groep mensen die vanuit het Rijk wordt geïndiceerd en die dus ook overzichtelijk is qua uitvoering. Dat betekent niet — dat beeld zou ik echt weg willen nemen — dat er niks is voor mensen die te maken hebben met dagbesteding vanuit de Wmo. Dat is er wel degelijk, namelijk de sociaal-medische indicatie, waardoor mensen gebruik kunnen maken van kinderopvang als zij zelf dagbesteding hebben. Ik heb geen signalen dat dit spaak loopt. Ik heb daar wel contact over met de gemeenten om te kijken hoe dit loopt, maar ik vind het vooreerst ook een hele waardevolle en goede stap dat we dit kunnen gaan regelen voor mensen die onder de Wlz vallen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u68">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg107">Afrondend, de heer Kwint.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u69">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg108">Daar is niemand het mee oneens. Dat is zeker de moeite waard. Het probleem is alleen — dat merk je bij een heel groot deel van de decentralisatie van sociale regelingen — dat wanneer je de verantwoordelijkheid daarvoor afhankelijk maakt van de uitvoering van de gemeenten, verschillen tussen mensen gaan ontstaan. Ik vind verschillen tussen mensen niet zo erg, maar verschillen in ondersteuning tussen verschillende kwetsbare mensen met dezelfde vergelijkbare problematiek puur en alleen omdat ze ergens anders wonen, vind ik wél een probleem, zeker als dat de arbeidsparticipatie van hun partners ongewild kan beperken. Is de minister in ieder geval bereid om te kijken of zij iets kan doen, hoe heterogeen deze groep ook is?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u70">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg109">De staatssecretaris, bedoelt u.</seg>
+            </u>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u71">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg110">Dat was een compliment, voorzitter.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u72">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg111">Dank daarvoor. De reden waarom ik dat niet wil, is dat juist mensen die via de gemeente, via de Wmo, met dagbesteding te maken hebben, vaak ook met andere regelingen van de gemeente te maken hebben. Dat geldt dus ook voor de sociaal-medische indicatie als het gaat om kinderopvang. Dan is de hele situatie waarvoor ze ondersteuning vragen ook bij de gemeente in één hand. Ik denk dat dit de integraliteit van een oplossing van de problemen waarmee mensen te maken hebben, ten goede komt. Daarom ben ik niet voornemens om dit te wijzigen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u73">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg112">Een vraag van de heer Renkema. Gaat uw gang.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u74">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg113">Ik had nog een vraag gesteld over de route van de besluitvorming. We hebben het vanavond over een verzamelwet, dus eigenlijk over heel wat technische, beleidsarme thema's. Maar nou blijkt de discussie over kinderbijslag een geschiedenis te hebben. Mijn vraag was waarom het niet gewoon geregeld is in het opstellen van de begroting.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u75">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg114">Ik heb zelf ook in de beleidsdoorlichting van de kindregelingen aangegeven dat dit een onrechtvaardigheid is die ik erken en zie in de Kamer, maar waarvoor ik geen dekking kon vinden binnen de middelen. Ik ben daar eerlijk over geweest. Ik vond dat niet leuk, maar binnen de afspraken die ik heb uit te voeren in het kader van het regeerakkoord, was deze ruimte er niet. Als een aantal fracties, die samen een meerderheid hebben in de Kamer, een afspraak wijzigen of bijstellen omdat zij een gezamenlijk doel hebben dat breed leeft in de Kamer, dan is dat voor mij iets waardoor ik kan zeggen dat het aan het oordeel van de Kamer is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u76">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg115">Afrondend, meneer Renkema.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u77">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg116">Hoor ik de staatssecretaris nu eigenlijk zeggen dat zij de dekking die door de coalitie wordt gekozen acceptabel vindt, maar dat zij als ze zelf had kunnen kiezen een andere dekking had gekozen?</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u78">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg117">Een dekking had ik zelf niet. Wat ik nu wel weeg, is de dekking die de fracties voorstellen, namelijk om dit over de groep ouders die kinderbijslag ontvangen te verrekenen. Dan constateer ik vanuit mijn verantwoordelijkheid, die ook inhoudt dat de kinderbijslag verhoogd zou worden, dat ik dit een acceptabele dekking vind. Daarom geef ik het oordeel Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u79">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg118">Dank u wel. Dan zijn we daarmee aan het einde gekomen van de eerste termijn van de zijde van het kabinet. Ik kijk of er behoefte is aan een tweede termijn. Dat is niet het geval. Dan zijn we daarmee aan het einde van de beraadslaging gekomen.</seg>
+            </u>
+            <note>De algemene beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.u80">
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg119">Ik geef u mee dat we over de ingediende amendementen en het wetsvoorstel aanstaande dinsdag zullen stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-19-tweedekamer-18.seg120">Dan rest mij de staatssecretaris en haar ondersteuning hartelijk te danken voor hun aanwezigheid en inbreng. Dat geldt uiteraard ook voor de Kamerleden en hun ondersteuning. Dank voor de belangstelling hier in de zaal en bij de mensen die dit debat op een andere manier gevolgd hebben. Dank uiteraard ook aan de ondersteuning hier in de Kamer op dit late tijdstip. Daarmee sluit ik de vergadering.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

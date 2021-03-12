@@ -1,0 +1,182 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2014-12-17 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2014-12-17 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 38, Session 5 (2014-12-17)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 38, Session 5 (2014-12-17)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="38">Meeting 38</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="32">32 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="32">32 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2297">2297 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2297">2297 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2014-12-17">2014-12-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="32"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="32"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2014-12-17">2014-12-17</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg1">Ik geef het woord aan mevrouw Leijten van de SP-fractie.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg2">Voorzitter. Ondanks het verzoek van heel veel partijen om gisteravond voor 22.00 uur geïnformeerd te worden, zijn wij vanochtend om 10.07 uur geïnformeerd door het kabinet. Het kabinet zegt eigenlijk dat het niet zo veel doet aan het wegstemmen van het wetsvoorstel waarin artikel 13, het pgb en een verbod op verticale integratie opgenomen zijn. Ik ben daar nogal verbaasd over. Volgens mij is noodwetgeving voor het persoonsgebonden budget namelijk echt noodzakelijk. De zorgverzekeraars zeggen dat de zorgakkoorden onderuit gaan. Aangezien wij zo minimaal geïnformeerd worden over de gevolgen van het afstemmen van het wetsvoorstel in de Eerste Kamer, lijkt het mij verstandig om hierover nu een debat te voeren met de minister.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg3">Verzoek om steun voor het houden van een debat met de minister van VWS.</seg>
+            </u>
+            <u who="#HankeBruinsSlot" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg4">De CDA-fractie steunt dit verzoek. Dit magere briefje laat 50.000 mensen met een pgb eigenlijk in onzekerheid zitten.</seg>
+            </u>
+            <u who="#ReinetteKlever" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg5">De PVV-fractie steunt het houden van een debat, vandaag nog, want er staat heel veel op het spel. Zorgverzekeraars hebben al gedreigd dat de zorgakkoorden niet meer staan. Het lijkt mij dat we hierover heel snel een debat moeten voeren.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg6">Wij steunen dit verzoek voor het houden van een debat. Er is grote onrust onder pgb-houders over de vraag wat dit betekent voor hun zorg vanaf 1 januari 2015.</seg>
+            </u>
+            <u who="#MarianneThieme" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg7">We steunen dit verzoek van harte. We kunnen de pgb-houders absoluut niet in de kou laten staan, maar het lijkt erop dat de minister dit nu wel doet.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg8">Het pgb is ons heel wat waard. Ik heb heel veel vragen over de brief van de minister. Mijn fractie heeft er behoefte aan om die vragen in een schriftelijke procedure te verwoorden, zodat we die aan de minister kunnen stellen. We willen dat er opnieuw een brief komt. Ik kan me heel goed voorstellen dat er op enig moment een debat over wordt gevoerd, maar ik vind het nu te vroeg om een debat te houden. Ik heb nog te veel vragen. Ik weet dat er ook nog gesproken wordt. Vanmiddag gaan de zorgverzekeraars bijvoorbeeld nog met elkaar in gesprek. Ik wil dat proces nog even een kans geven en wachten op wat daaruit komt, voordat we besluiten of we wel of geen debat willen voeren.</seg>
+            </u>
+            <u who="#VeraBergkamp" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg9">We geven nu geen steun aan het houden van een debat. We willen graag morgen voor 10.00 uur een brief van het kabinet. We hebben drie belangrijke vragen. Hoe is het proces van het persoonsgebonden budget nu geregeld in de Zorgverzekeringswet? Daar is onduidelijkheid over, dus we krijgen graag duidelijkheid over dat proces. We willen niet dat mensen er de dupe van zijn. We hebben het over 50.000 mensen. De wijkverpleging gaat op 1 januari 2015 over. Daar willen we duidelijkheid over hebben van de minister. Er is ook onduidelijkheid over de wijze waarop de zorgverzekeraars hierin staan. We horen dus graag of zij het voorstel van de minister accepteren.</seg>
+            </u>
+            <u who="#KeesvanderStaaij" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg10">Ook de SGP-fractie heeft op dit moment geen behoefte aan een debat. We worden nog nader bericht over de gevolgen van de discussie over de artsenkeuze. Het belangrijkste voor de mensen in de komende tijd, datgene wat hen direct bezighoudt, is de vraag hoe het gaat met het persoonsgebonden budget in de Zorgverzekeringswet, nu het wetsvoorstel het niet heeft gehaald. De regering heeft duidelijk gezegd dat het de bedoeling is dat dit gewoon doorgaat. We hebben hier nog wel enkele vragen over. Staan de zorgverzekeraars er ook zo in? Conformeren zij zich hieraan? Worden de mensen tijdig geïnformeerd over de gevolgen die dit voor hen zal hebben? Ik sluit me aan bij hetgeen mevrouw Bergkamp van de fractie van D66 heeft gezegd, namelijk dat we graag voor morgenochtend 10.00 uur hierover een brief ontvangen.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg11">De klok tikt verder. Mensen hebben recht op duidelijkheid en daarom steunen we het verzoek voor het houden van een debat.</seg>
+            </u>
+            <u who="#ArnoRutte" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg12">Geen steun voor een debat. In de brief die we hebben gekregen, is gelukkig te lezen dat het pgb er volgend jaar in de Zorgverzekeringswet wel zal zijn. Er staat ook dat vervangende wetgeving nodig is en dat die spoedig naar de Kamer zal komen. Ook dat is goed. Wat de VVD betreft, hoeft er niet per se een brief te komen, maar ik hoor die wens bij andere partijen. Als die brief op hoofdlijnen kan zijn, zoals door de SGP en D66 is gevraagd, kan die brief er morgenochtend liggen. Dat zullen we dan steunen.</seg>
+            </u>
+            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg13">Geen steun voor het debat. Wij kunnen ons wel voorstellen dat er behoefte is aan een nadere brief naar aanleiding van het gesprek dat de zorgverzekeraars vanmiddag zullen hebben. Wij willen wel graag een brief waarin wordt ingegaan op de drie hoofdvragen die mevrouw Bergkamp zojuist heeft verwoord.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg14">Mevrouw Leijten, u hebt niet de steun van de meerderheid van de Kamer voor het houden van een debat. De meerderheid heeft wel gevraagd …</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg15">Voorzitter, mag ik …</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg16">Nou ja, ga uw gang.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg17">Ik vind het nogal opvallend dat drie of eigenlijk vijf partijen wel met elkaar in debat zijn, maar niet een debat in de Kamer willen voeren. Op televisie zien we iedereen het Torentje in en uit gaan, maar hier in de Kamer mag geen hom of kuit worden gegeven. Ik zal u zeggen waarom ik het debat nu wil. Die noodwetgeving voor het pgb is nodig, omdat we nu niets kunnen doen om in te grijpen in de tarieven voor het persoonsgebonden budget. Ik dacht dat het een Kamerbrede wens was om het pgb te verankeren in de Zorgverzekeringswet. We weten nu al dat de zorgverzekeraars onder de tarieven duiken. We weten ook dat niemand hogere tarieven zal bieden, want dan krijg je alle pgb-houders en dan loop je risico als zorgverzekeraar. Ik vind het echt onbestaanbaar dat de deur van het Torentje wel wordt platgelopen, maar dat hier in de Kamer geen debat kan plaatsvinden.</seg>
+            </u>
+            <u who="#SybrandVanHaersmaBuma" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg18">Laten we elkaar niets wijs maken. Er zijn hier duidelijk vijf partijen die een afspraak hebben gemaakt: we trekken de gordijnen dicht en nadat er een brief is gekomen, zeggen we dat we een brief willen. Dat is nou juist het punt. Er is gisteren een brief gevraagd. Als die leden daar een aantal vragen in hadden willen hebben, hadden zij die vragen neer moeten leggen. Ik doe dus een beroep op die vijf partijen — D66, de ChristenUnie, de SGP en de andere twee coalitiepartijen — om wel akkoord te gaan met een debat. Laat één ding duidelijk zijn: uiterlijk morgen moet de Kamer gedebatteerd hebben over de vraag of er per 1 januari een oplossing is voor al die mensen. Als dat niet gebeurt, is de verantwoordelijkheid voor deze vijf partijen en de coalitie te groot.</seg>
+            </u>
+            <u who="#GeertWilders" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg19">Ik steun de heer Buma daarin, maar ik wil vooral zeggen dat er op dit moment binnen het kabinet een grote chaos heerst over het verwerpen van dat wetsvoorstel. Ik vind dat het niet kan dat drie partijen — sommige van de desbetreffende fractievoorzitters hebben zojuist zelfs het woord gevoerd aan deze microfoon — gisteren in het Torentje zijn geweest. De fractievoorzitters van de SGP, de ChristenUnie en D66 zijn bij de heer Rutte in het Torentje geweest. Dat betekent dat de rest van de Kamer op achterstand staat. Via u zou ik de minister-president dus willen vragen om de Kamer voor 14.00 uur vanmiddag een brief te sturen waarin wordt aangegeven wat daar is besproken met de collega-fractievoorzitters van die drie partijen. Die brief wil ik hebben. Voor het overige steun ik ieder verzoek om daar snel over te debatteren.</seg>
+            </u>
+            <u who="#EmileRoemer" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg20">Ik steun het verzoek van harte. Er zijn twee dingen. Wat mijn fractie bij monde van mevrouw Leijten heeft voorgesteld, moet natuurlijk zo snel mogelijk gebeuren. De vragen die de ChristenUnie heeft, had zij natuurlijk gisteren of nu kunnen stellen. Dan kan die brief er ook om 17.00 uur zijn. Wat het tweede punt betreft: de heer Wilders heeft natuurlijk volkomen gelijk. Ik wil dan ook een vooraankondiging doen van de mogelijkheid van een extra regeling om 17.00 uur. Als die brief niets of heel veel bevat, wil ik een debat met de minister-president. Hier is immers veel meer aan de hand dan dat een wetje even wordt weggestemd. Er is echt een crisissfeer. Ik wil daar met de minister-president hier over kunnen spreken, mogelijk, en ik wil dat niet alleen die vijf partijen in het Torentje hierover spreken.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg21">Hoe groot moet de chaos en de onzekerheid zijn voordat wij in deze Kamer een debat voeren over mensen die geraakt worden in de kern van hun bestaan en daar onzeker over zijn en over een gat dat in de begroting wordt geslagen, waarbij minister Schippers het bedrag van 1 miljard in de mond neemt? Wanneer hebben we recht op een debat hier met deze minister over dit onderwerp?</seg>
+            </u>
+            <u who="#KeesvanderStaaij" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg22">Eén ding is helder: het verwerpen van het wetsvoorstel betekent dat het persoonsgebonden budget per 1 januari niet verankerd is in de Zorgverzekeringswet. Dat betreurt in feite de hele Kamer. Dat merken we. Dat bleek ook uit de motie van de Eerste Kamer en dat blijkt ook in de Tweede Kamer. Het lijkt mij ook voor de mensen die dit raakt, van belang dat daarover geen mist bestaat en dat die brief daarom morgenochtend komt. Laten we alle andere politieke spelletjes even opzouten tot er meer duidelijkheid is over hoe dit verder moet gaan. In feite zegt een groot deel van deze Kamer: prima, dat het verworpen is, daar behoeven we niets meer over te horen.</seg>
+            </u>
+            <u who="#EmileRoemer" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg23">Ik vind dit een persoonlijk feit. Het feit dat ik hier met de minister-president een debat wil over de chaos die het kabinet zelf heeft veroorzaakt, is allesbehalve een politiek spelletje maar de harde realiteit waar Nederland in gestort is. Ik ben zoiets niet van de heer Van der Staaij gewend.</seg>
+            </u>
+            <u who="#VeraBergkamp" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg24">Ik steun het betoog van de SGP. Op dit moment is het belangrijk dat de mensen die een persoonsgebonden budget hebben, dat die 50.000 mensen zekerheid en duidelijkheid hebben. Dat is de reden dat we aanvullende vragen hebben gesteld. We willen ook dat die goed worden beantwoord en we willen ook weten hoe het proces verdergaat. We willen het kabinet ook de tijd geven om met een goede inhoudelijke brief te komen. Dat is de achtergrond van de aanvullende vragen die we gesteld hebben.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg25">Mevrouw Bergkamp heeft een aantal vragen op hoofdlijnen geformuleerd. Ik vond dat prima vragen. Juist ook vanwege het belang van de mensen over wie dit gaat, de mensen die afhankelijk zijn van zorg met een pgb, vind ik het belangrijk dat we hier zorgvuldig mee omgaan en dat we het kabinet ook de tijd geven om die vragen inhoudelijk te beantwoorden. Het overleg met de zorgverzekeraars wordt vanmiddag nog gevoerd. Dus laten we nou even de tijd ervoor nemen. Wellicht dat we met elkaar morgen dan dat debat kunnen voeren, maar ik vind het nu gewoon echt te vroeg, juist vanwege het belang van de mensen over wie we hier Kamerbreed debatteren.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg26">Het is niet alleen belangrijk dat de minister een zorgvuldig antwoord kan formuleren op de vragen die we hebben, het is ook belangrijk dat wij als Kamer het debat kunnen voeren voor het reces en er ook voldoende tijd voor hebben. Mijn voorstel is dan ook, waarvan ik hoop dat alle collega's ermee kunnen instemmen, om voor 17.00 uur vanmiddag een brief te hebben, zodat wij nog de mogelijkheid hebben om indien die brief vragen oproept, alsnog morgen een debat te voeren.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg27">Ik zou nog de volgende opmerking willen maken. De regering heeft er zelf voor gekozen om de verankering van het persoonsgebonden budget in deze wet onder te brengen, met het risico dat we nu hebben gelopen. Dan kunnen we als Kamer wegkijken en op Twitter bijvoorbeeld wel zeggen dat pgb'ers de dupe zijn en tegelijkertijd hier het debat schuwen, maar volgens mij moeten we dat debat hier gewoon voeren. De noodwet moet er komen. We weten dat dit kan. Als we dat weten af te dwingen, kunnen we ook laten zien dat we heel veel verschillen hebben over de vrije artsenkeuze maar dat we hierover geen verschillen hebben. Dan spelen we juist geen politiek spelletje, zou ik tegen de heer Van der Staaij willen zeggen. Voor de rest zijn er volgens mij twee verzoeken: een brief van de minister-president en een brief van de minister én een regeling van werkzaamheden vanmiddag. Laten we die dan vooral afwachten.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg28">Ik concludeer ook nog maar even zelf dat er twee brieven zijn gevraagd, eentje aan de minister-president en eentje aan de minister, en dat de meerderheid van de Kamer die brief aan de minister pas morgenochtend om 10.00 uur hier verwacht, terwijl de Kamer de brief van de minister-president voor 14.00 uur vanmiddag wil hebben. Ik zal het stenogram van dit gedeelte van de vergadering doorsturen naar het kabinet. Ik heb inderdaad ook gehoord dat er een verzoek is gedaan voor een extra regeling van werkzaamheden vanmiddag om 17.00 uur; daar houden we in ieder geval rekening mee.</seg>
+            </u>
+            <u who="#SybrandVanHaersmaBuma" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg29">Ik heb niets af te dingen op uw conclusie, voorzitter.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg30">Dank u wel.</seg>
+            </u>
+            <u who="#SybrandVanHaersmaBuma" ana="#regular" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg31">Dat mag in de Handelingen; ik zal het niet schrappen als het er inkomt. Waar mijn grote angst in zit, is dat we morgen een brief krijgen en dat dan weer vijf partijen zeggen: bedankt voor de brief, een debat hoeft niet. Er zijn over minder crises een debat gevoerd. Ik wil dan ook aankondigen dat wanneer om 17.00 uur die brief komt, ik niet kan uitsluiten dat we bij die regeling van werkzaamheden vragen om stemming over het houden van debat voor het reces indien de coalitie dan nog steeds weigert daarover duidelijkheid te geven.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2014-12-17-tweedekamer-5.seg32">Die mogelijkheid hebt u natuurlijk altijd. Dank u wel voor deze vooraankondiging. Hiermee is er een eind gekomen aan deze regeling van werkzaamheden.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

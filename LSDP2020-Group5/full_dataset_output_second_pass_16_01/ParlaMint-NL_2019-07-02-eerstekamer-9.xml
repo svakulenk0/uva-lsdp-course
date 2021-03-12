@@ -1,0 +1,90 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-07-02-eerstekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2019-07-02 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2019-07-02 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 37, Session 9 (2019-07-02)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 37, Session 9 (2019-07-02)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="37">Meeting 37</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="9">Session 9</meeting>
+            <meeting ana="#parla.term #EK.36" corresp="#EK" n="36-upper">Meeting of the 36th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="1">1 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="1">1 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="165">165 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="165">165 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2019-07-02">2019-07-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="4"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-07-02">2019-07-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Procedure verkiezing ondervoorzitters</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2019-07-02-eerstekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2019-07-02-eerstekamer-9.seg1">Aan de orde is de procedure voor de verkiezing van de beide ondervoorzitters. Ik stel, gehoord het College van Senioren, voor dat de kandidaatstelling voor deze functies na deze openbare vergadering schriftelijk kan plaatsvinden tot uiterlijk vrijdag 5 juli 2019 te 12.00 uur.</seg>
+               <seg xml:id="ParlaMint-NL_2019-07-02-eerstekamer-9.seg2">Kandidaten moeten duidelijk aangeven of zij zich kandidaat stellen voor het eerste dan wel het tweede ondervoorzitterschap, dan wel beide. Het laatste mogelijk voor het geval geen verkiezing tot eerste ondervoorzitter volgt. De Griffier zal de kandidaatstellingsbrieven dezelfde dag digitaal aan de leden doorzenden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-07-02-eerstekamer-9.seg3">In de plenaire vergadering van 9 juli 2019 krijgen de kandidaten voor het eerste ondervoorzitterschap, in alfabetische volgorde, maximaal vijf minuten de gelegenheid een toelichting te geven op hun kandidatuur. Aansluitend daarop kan de Kamer vragen stellen aan de kandidaten. Tot slot volgt de stemming overeenkomstig artikel 113 en verder van ons Reglement van Orde. Daarna volgt dan dezelfde procedure voor het tweede ondervoorzitterschap.</seg>
+               <seg xml:id="ParlaMint-NL_2019-07-02-eerstekamer-9.seg4">Wenst een van de leden hierover nog het woord? Dat is niet het geval.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

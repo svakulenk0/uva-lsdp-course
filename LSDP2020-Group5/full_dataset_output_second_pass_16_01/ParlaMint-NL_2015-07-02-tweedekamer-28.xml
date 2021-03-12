@@ -1,0 +1,112 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-07-02 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-07-02 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 104, Session 28 (2015-07-02)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 104, Session 28 (2015-07-02)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="104">Meeting 104</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="28">Session 28</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="498">498 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="498">498 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-07-02">2015-07-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="6"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+               <tagUsage gi="note" occurs="13"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-07-02">2015-07-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Cao-onderhandelingen rijksoverheid</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u1">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg1">Ik heet de minister hartelijk welkom. Er zijn drie deelnemers van de zijde van de Kamer, van wie er twee iets gaan zeggen. De eerste spreker is de heer Slob van de fractie van de ChristenUnie. Hij heeft zoals iedereen twee minuten spreektijd.</seg>
+            </u>
+            <u who="#ArieSlob" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u2">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg2">Voorzitter. De ontstane impasse om te komen tot een cao voor overheidspersoneel zit mijn fractie, en zoals gisteren bleek, veel andere fracties hoog. Na jaren van nullijn verdienen leraren, politieagenten, militairen en ander overheidspersoneel een fatsoenlijke cao. Het kabinet heeft dat ook op Prinsjesdag en daarna beloofd. Vandaar mijn oproep aan het kabinet om daadwerkelijk in beweging te komen. Hoewel dit niet gebruikelijk is, vraagt deze situatie erom; vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat in de troonrede is aangegeven dat in 2015 na jaren van nullijn de inkomens van leraren, politieagenten, militairen en ander overheidspersoneel weer kunnen meestijgen met de loonontwikkeling in de markt;</note>
+               <note>overwegende dat we inmiddels bijna tien maanden verder zijn en de onderhandelingen over een cao zonder nullijn nog steeds in een grote impasse verkeren;</note>
+               <note>verzoekt het kabinet, zo spoedig mogelijk de onderhandelingen met de bonden te hervatten met als doel te komen tot cao's die van respect getuigen voor de betrokken ambtenaren én aansluiten bij de in de troonrede gedane belofte dat de nullijn gaat verdwijnen en de inkomens van leraren, politieagenten, militairen en anders overheidspersoneel weer gaan meestijgen met de loonontwikkeling in de markt;</note>
+               <note>verzoekt het kabinet tevens, uiterlijk voor 1 september 2015 de Kamer over de actuele stand van zaken te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Slob, Fokke, Van Raak, Schouw, Bisschop, Voortman en Thieme.</note>
+               <note>Zij krijgt nr. kst-34000-XVIII-23</note>
+            </u>
+            <u who="#RoaldvanderLinde" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u3">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg3">Voorzitter. De onderhandelingen voor een nieuwe cao liggen sinds april stil. Dat is buitengewoon spijtig. Een nieuwe cao is een kans om arbeidsvoorwaarden af te stemmen op de arbeidsmarkt van 2015 en hardwerkende ambtenaren zekerheid te bieden. Iedereen ziet graag dat de partijen weer snel aan tafel gaan, maar het past de Kamer niet om zich te bemoeien met cao-onderhandelingen. Onze grondwettelijke taak is wetgeving en controle. Je kunt geen controle uitoefenen als je jezelf eerst verantwoordelijk hebt gemaakt voor het onderhandelingsresultaat. Dat geldt voor de inhoud, dat geldt voor de timing, dat geldt voor alle aspecten van een onderhandelingsproces. Ook in praktische zin wil de VVD de minister niet voor de voeten lopen. Dat geldt voor al die aspecten.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg4">Hoezeer de VVD ook hecht aan een spoedig resultaat, zij zal moties op dit punt dus niet steunen. De VVD wenst de partijen wijsheid en succes en ziet de resultaten graag te gepaster tijd langskomen.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u4">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg5">Voorzitter. Met de heer Slob en de andere indieners van de motie deel ik de ambitie om zo snel mogelijk tot een goede cao voor de rijksambtenaren te komen, inderdaad — en dat realiseer ik mij heel goed — omdat zij daar na zo lange tijd naar snakken en omdat ik het als werkgever ook van belang vind dat wij weer een nieuwe cao afsluiten. Het zal duidelijk zijn dat wij van beide kanten wensen hebben en dat wij het daarover uiteindelijk met elkaar eens zullen moeten worden om tot een cao te kunnen komen, maar ik wil graag zo snel mogelijk weer om de tafel gaan zitten. De heer Slob gaf in zijn betoog van vandaag en ook gisteren al aan dat hij een beetje worstelt. Aan de ene kant heeft hij zorgen over het cao-proces. Aan de andere kant is er de rol van de Kamer: niet aan tafel, niet meeonderhandelend, maar wel bezorgd. Ik vind dat hij die balanceeract ook wel in de tekst van zijn motie laat neerslaan. Zonder dat ik kan beloven dat ik opeens heel veel geld zal hebben, heb ik wel de ambitie om snel aan de tafel te gaan zitten. Ik ben ook graag bereid om de Kamer daarover te informeren. Per saldo laat ik het oordeel over deze motie aan de Kamer.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u5">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg6">Wij stemmen vandaag nog over deze motie.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

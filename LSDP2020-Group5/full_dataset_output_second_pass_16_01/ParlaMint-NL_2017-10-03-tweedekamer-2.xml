@@ -1,0 +1,172 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-10-03 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-10-03 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 7, Session 2 (2017-10-03)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 7, Session 2 (2017-10-03)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="7">Meeting 7</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="2">Session 2</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="26">26 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="26">26 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3183">3183 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3183">3183 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-10-03">2017-10-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="36"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="26"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-10-03">2017-10-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Verhoeven</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u1">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg1">Aan de orde is het mondelinge vragenuur. We beginnen met de vraag van de heer Verhoeven namens D66. Waar is de heer Verhoeven? Ik zie niemand van D66. Nee, meneer Bosma, u kunt niet namens de heer Verhoeven zijn vragen aan de minister stellen. Normaal zou ik overgaan naar de volgende vraag, maar ik zie de minister van Buitenlandse Zaken in vak-K zitten.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg2">Daar komt de heer Verhoeven aan; u kunt gelijk doorlopen naar het spreekgestoelte.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg3">De heer Verhoeven stelt vragen aan de minister van Buitenlandse Zaken over het Catalaans referendum. Het woord is aan de heer Verhoeven namens D66.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u2">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg4">Voorzitter, excuus dat ik te laat binnenkwam. Afgelopen zondag stemden de Catalanen per referendum over hun onafhankelijkheid. Je kunt vraagtekens plaatsen bij de manier waarop dit referendum tot stand is gekomen, met een nachtelijke stemming in het Catalaanse parlement, waar een deel van de parlementariërs niet bij was. Je kunt ook vraagtekens plaatsen bij de legitimiteit van het referendum; het hooggerechtshof heeft het referendum in strijd verklaard met de Spaanse grondwet. En je kunt vraagtekens plaatsen bij de geldigheid van de uitslag; zo was er bijvoorbeeld geen neecampagne en minder dan de helft van de Catalanen ging naar de stembus. Op al die punten verschillen de meningen en is er veel discussie, maar daar gaat het nu niet om, want één ding is wat mij betreft buiten twijfel: het is voor iedereen glashelder dat de agressieve reactie van de Spaanse autoriteiten buiten alle proportie was. Dit soort politiegeweld tegen burgers is onacceptabel en dat tolereren we van geen enkel land en ook van geen enkele leider, binnen en buiten de Europese Unie.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg5">Mijn eerste vraag aan de minister is daarom: waarom heeft de minister dit geweld niet in de sterkste bewoordingen veroordeeld, zoals bijvoorbeeld de Belgische premier wel heeft gedaan? Is de minister van Buitenlandse Zaken alsnog bereid om dit te doen? Een andere vraag die ik heb, in lijn hiermee, is waarom de Europese Commissie ook zo vlak en mat was. We zijn een waardengemeenschap. Dat wordt voortdurend naar voren gebracht, juist door degenen die nu zo voorzichtig en terughoudend hebben gereageerd. Graag een reactie van de minister van Buitenlandse Zaken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u3">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg6">Het woord is aan de minister.</seg>
+            </u>
+            <u who="#BertKoenders" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u4">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg7">Dank u wel, mevrouw de voorzitter. Spanje is al 40 jaar een democratie. Daar is voor gevochten in Spanje. Juist daarom zijn de beelden die we zondag hebben gezien, niet alleen heftig, maar ook verontrustend en intimiderend. Ik zou willen zeggen: rubberkogels en stemhokjes gaan niet samen. Dat zijn geen beelden die wij in de Europese Unie willen zien, daar ben ik het zeer mee eens. Het referendum werd door het constitutioneel hof als strijdig met de grondwet verklaard. De Spaanse regering stond in haar recht om ertegen op te treden. Uiteraard mag geweld daarbij alleen proportioneel worden ingezet. Vandaar ook de reactie die ik daarop zojuist gaf.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg8">Definitieve conclusies over proportionaliteit zijn nu voorbarig. Die trekken ook de Verenigde Naties nog niet. De VN-Mensenrechtencommissaris Said Raad al-Hussein drong gisteren aan op een grondig, onafhankelijk en onpartijdig onderzoek door de Spaanse autoriteiten en dat lijkt mij inderdaad de juiste gang van zaken. Ik sluit mij daarbij aan. Geweld is nooit de oplossing. In Spanje is sprake van een volwaardige rechtsstaat. In dit kader zou moeten worden onderzocht wat er zondag is gebeurd en zal er een oplossing moeten worden gezocht voor de situatie die na het referendum is ontstaan.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg9">Er gaan nu geluiden op dat de Europese Unie zou moeten bemiddelen. De Catalaanse premier roept hiertoe op. Dat is begrijpelijk. Vanuit zijn perspectief zie ik het voordeel van een bemiddelende rol van de EU. Ik denk echter dat dat pas in overweging kan worden genomen als beide partijen aangeven dat zij hier behoefte aan hebben. Dat is nu niet het geval. Over wanneer dat wel het geval is, kan ik niet speculeren.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg10">Ik zei al dat Spanje een stevige democratie is. De rechtsstaat is er om verdedigd te worden. Het is nu aan de Spaanse en Catalaanse regering om een oplossing te vinden. Ik heb vanmorgen ook contact opgenomen met de Spaanse minister van Buitenlandse Zaken. We hebben gisteren overigens ook commentaar gegeven op de verschrikkelijke situatie, op de beelden die we zondag allemaal hebben gezien. Niemand heeft er belang bij dat de zaak nu verder escaleert. Je ziet ook dat de premier in overleg is getreden met de oppositie en dat er in Barcelona in ieder geval over gesproken wordt om het niet te laten aankomen op een definitieve of een dramatische breuk. Ik zie dat als een mogelijkheid voor beide partijen om met elkaar in overleg te treden. In hun reacties leggen de Europese regeringen allemaal de nadruk op dialoog. Daar sluit ik mij bij aan.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u5">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg11">Dank aan de minister. Hij gebruikt de woorden "heftig" en "intimiderend". Dat zijn in ieder geval duidelijke woorden. Hij zegt ook dat het voorbarig is om een oordeel te vellen over de proportionaliteit van het geweld. Wel is het zo dat het geweld van de Spaanse overheid een tegenreactie heeft opgeroepen in Catalonië. Dat was ook te verwachten, want vanochtend is een algemene staking afgekondigd. Hotels hebben agenten die daar verbleven, gewoon op straat gezet. Dat is allemaal nog wel vreedzaam. Ik ben het natuurlijk volledig met de minister eens dat geweld nooit een oplossing is, maar dit conflict tussen Catalonië en de Spaanse regering heeft wel de potentie om te escaleren tot een echt serieus gewelddadig conflict. Dat moeten we wat mij betreft, en ik denk wat iedereen hier betreft, wel echt voorkomen. Daar is hulp voor buitenaf voor nodig. Dat is wel duidelijk inmiddels.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg12">Daarom is mijn vraag aan de minister — hij beantwoordde hem net al wel, maar dat was wat mij betreft iets te vroeg — of hij zich actief gaat inzetten voor de-escalatie. Is hij bijvoorbeeld bereid om volgende week bij de Raad Buitenlandse Zaken, waar alle ministers van Buitenlandse Zaken bij elkaar komen, te eisen dat de EU een bemiddelende rol speelt, of wil hij dat in ieder geval dringend vragen? Kan de minister-president volgende week hetzelfde doen bij de Europese top?</seg>
+            </u>
+            <u who="#BertKoenders" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u6">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg13">Ten eerste over het punt van escalatie en de-escalatie. Ik ben het er uiteraard zeer mee eens. Je ziet ook de enorme steun die er vandaag is voor die staking in Catalonië. Ik denk dat mensen enorm geschrokken zijn van het geweld en dat ook als intimiderend hebben ervaren. Ik denk dus ook dat het onverstandig is geweest. Ik heb er zojuist ook duidelijke uitspraken over gedaan.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg14">Het tweede punt betreft het punt van de-escalatie. We moeten daar wel verstandig in zijn. Bij de Raad Buitenlandse Zaken zit natuurlijk ook de Spaanse minister. Dat is in het algemeen in de Europese Unie het geval. Dat betekent niet dat we niets moeten doen. Men is zich nu aan beide kanten aan het ingraven. Er bestaat overigens wel een rechtsstaat en een recht van de Spaanse staat om erop te wijzen dat het referendum strijdig is met de grondwet. In dat kader worden nu aan beide kanten heel kleine beweginkjes gemaakt. Mijn ervaring met conflictbemiddeling is dat je je ook te vroeg van buiten ermee kan bemoeien. Je moet nu ook de ruimte geven aan de partijen. Wij voeren nu voor de eerste keer het debat in Nederland. In Spanje is dat nog niet aan de hand. Daar wordt nu gesproken met de partijen die de regering ondersteunen. Dat zijn de PSOE en de Ciudadanos. Men is aan het kijken wat nu de verstandigste manier is om hiermee verder te gaan. Spanje zal toch op een of andere manier hier met zichzelf in het reine moeten komen. Het is ook een rechtsstaat. Het is een land dat 40 jaar de democratie heeft bevochten. Het is geen land zoals Polen en Hongarije, waar de Commissie moet kijken naar een systematische inbreuk op de rechtsstaat. Er is wel iets gebeurd. Daar moet je niet passief naar kijken, maar je moet je wel realiseren dat inmenging van buitenaf ook niet door alle partijen direct wordt gewaardeerd. Daar moet je altijd beide partijen voor aan tafel hebben. Daarbij zijn geen taboes, wat mij betreft, ook niet voor Nederland en de Europese Unie. Ik heb vanmorgen ook de minister van Buitenlandse Zaken van Spanje erop gewezen hoe belangrijk het is om hier via de weg van de dialoog uit te komen. Ik denk dat dat overigens ook binnen de kracht van de Spaanse rechtsstaat mogelijk moet zijn. Maar het is zeker een spannende situatie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u7">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg15">De heer Verhoeven, afrondend.</seg>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u8">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg16">Wij hebben helaas gezien dat solide ogende rechtsstaten door een aantal incidenten ineens wel onder druk kunnen komen te staan en dat er dingen in beweging kunnen komen. Ik ben blij dat de minister heel duidelijke woorden heeft geuit in de zin van het veroordelen van het geweld. Dat is heel goed. Ik vind dat de Europese Commissie erg voorzichtig is geweest. Ik hoop ook dat de Europese Commissie duidelijker kan zijn over de veroordeling van dit geweld.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg17">Met betrekking tot Polen en Hongarije zie ik inderdaad dat de Europese Commissie er heel erg dicht bovenop zit. Dat zou je nog een verschillende situatie kunnen noemen omdat dat een systematische schending is van de rechtsstaat en dit een incident. Maar als dit incident veel verdergaat dan een incident, dan vind ik dat wij wel degelijk moeten kijken naar mogelijke bemiddeling door de Europese Unie en niet te lang moeten wachten op het oordeel van Madrid. Dan moeten beide partijen zich bereid tonen om bemiddeling toe te laten. Daar zou de Europese Unie zeker een signaal over af kunnen geven. Dat verwacht ik wel van een Europese Unie die zich een waardegemeenschap noemt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u9">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg18">Een korte reactie van de minister.</seg>
+            </u>
+            <u who="#BertKoenders" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u10">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg19">Heel kort. Ik heb over het geweld gezegd wat ik daarover gezegd heb. Ik denk dat dat overigens in lijn is met wat de andere ministers van Buitenlandse Zaken en regeringsleiders in Europa hebben gezegd. Nogmaals, het referendum werd door het constitutioneel hof als strijdig met de grondwet verklaard. In die zin mag je daar ook tegen optreden. De hele vraag van proportionaliteit is er eentje van onderzoek, maar rubberen kogels en stemhokjes, waarvan wij de beelden hebben gezien, gaan in Europa niet samen. Daar ben ik het zeer mee eens. Nogmaals, bij bemiddeling heb je beide partijen nodig. Ik zie dat de Spaanse rechtsstaat daar nu mee bezig is. Wij moeten hopen dat wij die marges kunnen vergroten, ook door de druk die Nederland en Europa wel degelijk uitoefenen, door te zeggen: de enige oplossing hiervoor is een niet-gewelddadige. Er zijn allerlei mogelijkheden binnen de Spaanse grondwet om te spreken over autonomie, maar er is ook het belang van de rest van Spanje en van grote minderheden in Catalonië. Laat daar geen misverstand over bestaan. De waarheid zit hier niet aan één kant. Het gaat vooral om de-escalatie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u11">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg20">Dank u wel, meneer Verhoeven. Mevrouw Thieme namens de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#MarianneThieme" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u12">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg21">Afgelopen zondag was een zwarte dag voor de democratie. Wij zagen dat de politie jonge en oude mensen aan hun benen wegtrok bij de stemhokjes. Wij zagen dat de politie met rubberen kogels op haar eigen burgers schoot. Dan valt het mij behoorlijk tegen dat ook de minister-president vandaag maar ook de afgelopen dagen zei dat Spanje in zijn recht staat en dat er een onderzoek moet worden gedaan naar de buitenproportionaliteit of proportionaliteit van dit geweld. Ik mis, in tegenstelling tot de heer Verhoeven van D66, een duidelijke veroordeling van dit geweld. Wij schromen niet om het te veroordelen als in Myanmar of Washington democratische beginselen worden geschonden. Is deze minister gewoon te laf om dat te doen of is hij onwillig om een duidelijke veroordeling uit te spreken over dit buitenproportionele geweld richting de burgers?</seg>
+            </u>
+            <u who="#BertKoenders" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u13">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg22">Wij meten helemaal niet met twee maten. Het gaat mij altijd om de bescherming van de rechtsstaat. Dat is ook in Spanje aan de orde. Ook daar is een rechtsstaat. Daar is ook een visie van het constitutioneel hof. Het is dus juist om te zeggen dat men op zich in zijn recht staat om dit referendum illegaal te verklaren. Dat betekent ook dat er eventueel tegen opgetreden kan worden. Of dat verstandig is, is heel wat anders. Daar heb ik duidelijk over gesproken in die zin dat rubberen kogels en stemhokjes niet samengaan. U mag dat best veroordelen. De VN-mensenrechtencommissaris heeft dat nog niet gedaan. Die vraagt juist om een onderzoek door Spanje zelf. Spanje is een rechtsstaat. De Spaanse en de Catalaanse regering hebben instrumenten om dat aan de orde te stellen. Dat lijkt mij de juiste weg. Wij moeten Spanje als land ook serieus nemen. Het is een democratisch land en een partner van Nederland in Europa.</seg>
+            </u>
+            <u who="#BramvanOjik" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u14">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg23">Ik had gisteren de stellige indruk dat de reacties uit de hoofdsteden en uit Brussel op wat er zondag in Catalonië is gebeurd, iets ongemakkelijks uitstralen: aan de ene kant zijn wij gewend om de soevereiniteit en de autonomie van landen en zeker van bondgenoten te respecteren, maar aan de andere kant keuren wij af wat er gebeurt. Ziet de minister die ongemakkelijkheid ook? En voelt hij zich volgende week volledig vrij om, als hij met zijn Spaanse collega aan tafel zit, van zijn hart geen moordkuil te maken?</seg>
+            </u>
+            <u who="#BertKoenders" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u15">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg24">Ja, ik zie wel iets van het ongemak. Ik denk dat dat er ook gewoon is. Iedereen is zich natuurlijk kapotgeschrokken van wat daar zondag gebeurd is, ik ook. Ik denk iedereen die gekeken heeft. Nogmaals, rubberen kogels en stemhokjes gaan niet samen. Iedereen die naar het probleem kijkt, ziet hoe ingewikkeld het is. Het is een referendum dat illegaal is. Het is een referendum waarbij heel veel mensen niet gekozen hebben. Het is een referendum waarbij men de rest van Spanje niet gehoord heeft. Tegelijkertijd is het ook volstrekt duidelijk dat geweld geen oplossing biedt.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg25">Dat geeft ongemak en het geeft ook ongemak om iets anders, namelijk iets wat we hier ook wel bespreken: wanneer ga je als de rest van de Europese Unie je mengen in zo'n probleem? We hebben hier regelmatig problemen. Moet meneer Juncker dit en dat van Nederland zeggen als er dit of dat gebeurt, of over het referendum hier? Daar hebben we terecht onze vragen bij. Hier gaat het over een lid van de Europese Unie dat op zich in zijn recht staat. Daar zit inderdaad ongemak bij, dat geef ik u toe. Maar het antwoord op uw vraag is: ik voel me daar volledig vrij in; wij willen dat de rechtsstaat en de grondwet van Spanje worden beschermd. Omdat daar nu problemen zijn kunnen we nu alleen maar stimuleren — dat geldt ook voor de Spaanse politieke partijen, uw partijgenoten in Spanje en anderen — om te kijken of er een verstandig compromis uit kan komen. Dat is, denk ik, essentieel nu.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u16">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg26">De minister sprak, net als collega's, over bemiddelen. Mag ik het woord "dialoog" gebruiken in plaats van "bemiddelen"? Is het niet mogelijk dat vanuit de EU primair een poging wordt gedaan om de twee partijen die tegenover elkaar staan, met de twee aanvoerders voorop, tot een dialoog, een gesprek, te brengen? Dat betekent nog helemaal niet dat de EU vindt dat er bemiddeld moet worden. Is dat een oplossing? Een tweede vraag die ik heb, is …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u17">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg27">Nee, mijnheer Van Rooijen, u mag maar één vraag stellen, binnen 30 seconden. Dat heeft u gedaan.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u18">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg28">Oké.</seg>
+            </u>
+            <u who="#BertKoenders" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u19">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg29">Het antwoord is dat de hele Europese Unie tegen Spanje, tegen de Spaanse regering, zegt: los dit op via een dialoog, doet u uw best om dat voor elkaar te krijgen. Dat is best wel stevige druk op een lidstaat van de Europese Unie. Bemiddelen wordt gevraagd door één kant en niet door de andere. Dus kan bemiddelen alleen succesvol zijn als beide dat zouden willen. Ik wil daar nu niet over speculeren. Belangrijk is dat we, vanwege deze boodschap die de rest van de Europese Unie brengt en de kracht van de Spaanse democratie, vandaag even moeten afwachten. Ik kan het niet per dag zeggen. Uiteraard blijven we daar zeer alert op, omdat het wel een spannende situatie is.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u20">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg30">De minister noemt het geweld, het disproportionele geweld tegen burgers door de politie, waarbij 800 slachtoffers vielen: "heftig", "intimiderend", "niet passend op Europese bodem". In de volgende zin zegt hij dan dat Spanje in zijn recht staat. Dat gaat niet samen. Hoe begrijpelijk het ook is dat de Spaanse overheid dit referendum niet wilde en dat het onwettig was, het rechtvaardigt niet het geweld tegen eigen burgers.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u21">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg31">En de vraag is?</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u22">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg32">En dat heeft ook te maken met de waarden die we met elkaar hebben afgesproken. Daarom vraag ik deze minister niet alleen te spreken over heftig en intimiderend, maar het ook gewoon te veroordelen. Want daarmee kunnen we laten zien dat we goede vrienden zijn met Spanje, maar tegelijkertijd tegen een goede vriend kunnen zeggen: hier ga je te ver, hier schend je burgerrechten.</seg>
+            </u>
+            <u who="#BertKoenders" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u23">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg33">Ik dacht dat ik overduidelijk was geweest in de kwalificering van wat daar gebeurd is afgelopen zondag. Ik wijs er wel op, hoe verschrikkelijk en intimiderend ik het ook vond — ik heb woorden gebruikt over rubberen kogels en stemhokjes — dat ik niet heb gezegd dat men in het recht staat om geweld te gebruiken. Ik heb gezegd: men staat in het recht vanwege het feit dat dit een illegaal referendum is. Dat is de kern van de zaak. Ten aanzien van de proportionaliteit van geweld en de veroordeling daarvan wijs ik erop dat ik me aansluit bij de Verenigde Naties, die op het ogenblik ook alleen op beelden hebben moeten afgaan. Het gaat natuurlijk om een veel bredere situatie. Dat doen we in alle landen nu zo, of het nu Myanmar is, Jemen of een rechtsstaat als Spanje.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u24">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg34">De minister is duidelijk. Het referendum is illegaal. Spanje wil geen afscheiding. Maar een echt slimme actie is het niet van Spanje: 800 mensen in het ziekenhuis laten belanden als je een afscheiding wilt voorkomen. Daarom vraagt de minister, net zoals de VN-Mensenrechtencommissaris, om een onafhankelijk onderzoek. De VN-Mensenrechtencommissaris vraagt ook om toegang voor experts. Hoe zal de EU daarom vragen? Stel dat Spanje dit onderzoek niet gaat doen, wordt er dan vanuit de EU gevraagd om er toch voor te zorgen dat onderzocht wordt wat er nu precies gebeurd is?</seg>
+            </u>
+            <u who="#BertKoenders" ana="#regular" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u25">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg35">Ik denk dat de VN-Mensenrechtencommissaris terecht aangedrongen heeft op een grondig, onafhankelijk en onpartijdig onderzoek — geïnitieerd door de Spaanse autoriteiten. Dat heeft hij er wel bij gezegd. Dat is wat ik nu ook verwacht en wat ik nu ook van belang vind vanuit Spanje. U kent waarschijnlijk in ieder geval de regeringspartij goed, maar ook een heleboel andere partijen in Spanje, denk ik. Ik weet zeker dat zij ook rechtsmiddelen binnen Spanje en ook Europees zullen gebruiken als zij dat nodig vinden. Ik heb dus nog niet de neiging om te zeggen: wij moeten nu eisen dat dit zo en zo gebeurt. Ik vind wat de VN hebben voorgesteld goed. Ik heb vertrouwen in de Spaanse rechtsstaat, de politieke partijen en de verschillende actoren daar. Het is een rijke democratie en die zal ook voor haar rechten opkomen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.u26">
+               <seg xml:id="ParlaMint-NL_2017-10-03-tweedekamer-2.seg36">Dank u wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

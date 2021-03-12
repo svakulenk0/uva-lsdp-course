@@ -1,0 +1,278 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-09-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-09-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 107, Session 5 (2019-09-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 107, Session 5 (2019-09-11)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="107">Meeting 107</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="41">41 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="41">41 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3339">3339 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3339">3339 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-09-11">2019-09-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="65"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="41"/>
+               <tagUsage gi="note" occurs="48"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-09-11">2019-09-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Reactie op het advies van de Gezondheidsraad inzake ME/CVS</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg1">Aan de orde is het VSO Reactie op het advies van de Gezondheidsraad inzake ME/CVS.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg2">Ik heet de minister voor Medische Zorg van harte welkom. Ik heet verder welkom de Kamerleden en de mensen op de publieke tribune, die dit debat hier volgen, en dat geldt natuurlijk ook voor de mensen die het debat thuis volgen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg3">Ik geef graag als eerste het woord aan de heer Raemakers. De heer Raemakers spreekt namens de fractie van D66. Gaat uw gang.</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg4">Voorzitter, dank voor het woord.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat ME/CVS een ernstige chronische multisysteemziekte is die het functioneren en de kwaliteit van leven van mensen die eraan lijden ingrijpend beperkt;</note>
+               <note>constaterende dat tegelijkertijd nog altijd niet duidelijk is hoe ME/CVS ontstaat en hoe de ziekte goed kan worden behandeld;</note>
+               <note>overwegende dat in de huidige richtlijn cognitieve gedragstherapie (CGT) en graded exercise therapy (GET) als eerste en tweede keuze voor behandeling worden genoemd terwijl het veld verdeeld is over de gevolgen van deze therapieën en veel patiënten aangeven dat ze juist schade lijden door deze gedragsinterventies, maar de beroepsgroep niet van plan lijkt om de richtlijn op korte termijn aan te passen;</note>
+               <note>overwegende dat ME/CVS-patiënten bij de sociaal-medische beoordeling door het UWV ook zelfs nadeel zouden hebben ondervonden van het feit dat zij vanwege de potentiële schade weigerden deel te nemen aan deze gedragsinterventies;</note>
+               <note>verzoekt de regering formeel aan de Nederlandse Federatie van Universitair Medische Centra te vragen of zij een onderzoek wil starten naar de toegevoegde waarde van een centrum voor gebundelde expertise en voorlichting over ME/CVS voor de patiëntengroep;</note>
+               <note>verzoekt de regering tevens om met zorgprofessionals te bespreken dat bij ME/CVS de laatste stand van de wetenschap goed dient te worden toegepast en dat de beroepsgroep actief nieuwe wetenschappelijke informatie vergaart, en bij gebrek aan resultaat binnen redelijke termijn een herziening van de richtlijn wat betreft CGT en GET voor plaatsing op de meerjarenagenda van het Zorginstituut aan te dragen waarbij het eindoordeel bij het Zorginstituut blijft;</note>
+               <note>verzoekt de regering voorts, onder het voorbehoud dat de herbeoordeling geen garantie biedt op een andere uitkomst, de ME/CVS-patiënten bij wie de aanvraag van een arbeidsongeschiktheidsuitkering is afgewezen, actief te informeren over hun mogelijkheden om zich opnieuw bij het UWV te laten beoordelen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Raemakers, Van den Berg, Van Gerven, Veldman, Dik-Faber, Ellemeet, Ploumen en Agema.</note>
+               <note>Zij krijgt nr. kst-34170-7</note>
+            </u>
+            <note>Dank u wel.</note>
+            <note>Dan geef ik nu graag het woord aan mevrouw Ploumen. Mevrouw Ploumen spreekt namens de fractie van de Partij van de Arbeid. Gaat uw gang.</note>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg5">Voorzitter. Gisteren ontvingen wij als commissie met u als voorzitter een delegatie van ME/CVS-patiënten. Zij overhandigden ons een enquête. Die enquête schetst eigenlijk wel een onthutsend beeld van hoe zij zich gekend en gezien voelen in de zorg. Vandaar dat velen van ons de motie van de heer Raemakers medeondertekend hebben. Wij willen graag dat mensen zich gezien voelen in de zorg en dat ook de randvoorwaarden daartoe aanwezig zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg6">Voorzitter. Wij hebben net antwoorden gekregen op de vragen die de heer Van Gerven heeft gesteld. Die gaan onder andere over de erkenning van de ziekte en de praktijk van het UWV. Ik heb daar twee moties over. Ik wou die moties toch snel even voorlezen. Misschien kan ik straks even met de minister in gesprek over de vraag wat we samen kunnen doen om patiënten het gevoel te geven dat wij pal achter hen staan.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de WHO ME/CVS in 1969 als neurologische ziekte heeft erkend, en dat ook landen als Noorwegen en Denemarken de ziekte officieel erkennen;</note>
+               <note>constaterende dat de minister het recente advies van de Gezondheidsraad heeft overgenomen, maar ME/CVS niet als ziekte heeft erkend;</note>
+               <note>overwegende dat de Gezondheidsraad al in 2005 adviseerde om ME/CVS officieel te erkennen als chronische aandoening;</note>
+               <note>overwegende dat ME/CVS-patiënten zich zowel door lagere overheden en semioverheden als door artsen niet serieus genomen voelen en dit tot veel frustraties leidt;</note>
+               <note>van mening dat officiële erkenning van ME/CVS als chronische ziekte zal bijdragen aan het wegnemen van veel frustraties en obstakels bij ME/CVS-patiënten;</note>
+               <note>verzoekt de regering uit te spreken dat zij ME/CVS officieel als chronische ziekte erkent,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Ploumen, Raemakers en Ellemeet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34170-8</note>
+            </u>
+            <note>Ik hoop dat u nog een heel korte motie heeft, gezien uw spreektijd.</note>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg7">Ja, ik zie het, voorzitter. Die motie is niet heel erg kort, maar ik ga het heel snel doen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg8">De Kamer,</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg9">gehoord de beraadslaging,</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg10">constaterende dat een beoordeling van de behandeling voor ME/CVS-patiënten van groot belang is voor de duurzaamheid van hun arbeidsbeperking;</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg11">overwegende dat er aanwijzingen zijn dat verzekeringsartsen van UWV regelmatig niet handelen volgens de UWV-beleidsuitgangspunten en patiënten zich niet serieus genomen voelen;</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg12">constaterende dat in het rapport van de Gezondheidsraad nadrukkelijk wordt aangegeven dat het niet volgen van CGT- of CGT/GET-behandelingen niet kan worden aangemerkt als niet-adequaat herstelgedrag;</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg13">verzoekt de regering om het UWV opdracht te geven om te toetsen of de beoordeling van cliënten met ME/CVS plaatsvindt conform het gestelde beleid en deze te herzien wanneer dit niet het geval is,</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg14">en gaat over tot de orde van de dag.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg15">De:</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg16">Deze motie is voorgesteld door het lid Ploumen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg17">Zij krijgt nr. 9 ().</seg>
+            </u>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg18">Dank voor uw coulance.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg19">Ik dank u hartelijk. Mevrouw Ellemeet, ik geef u graag het woord. Nee? U ziet af van uw spreektijd. Mevrouw Van den Berg, gaat uw gang. U spreekt namens de fractie van het CDA.</seg>
+            </u>
+            <u who="#JobavandenBerg" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg20">Voorzitter. Op de eerste plaats dank aan de minister voor de beantwoording van onze vragen bij het schriftelijk overleg. Zoals mevrouw Ploumen al aan de orde heeft gesteld, hebben we gisteren een petitie ontvangen van patiënten en daaruit blijkt toch een enorme noodzaak om in ieder geval te kijken naar de behandelingen en of er niet meer onderzoek moet komen. Vandaar dat we als CDA van harte de motie van meneer Raemakers hebben ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg21">Daarnaast is het zo dat ook Q-koortspatiënten dezelfde soort klachten van chronische vermoeidheid kunnen krijgen. In andere debatten hebben we volgens mij afgesproken dat de minister nog een gesprek zou hebben met Q-koortspatiënten en dat dit ook wel gebeurt. Alleen, ik krijg terug dat de afspraken die zijn gemaakt of het verslag dat is gemaakt niet gedeeld zouden worden. Dus ik wil graag van de minister nog horen hoe zijn gesprekken verlopen met Q-koortspatiënten die ook deze klachten kunnen hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg22">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg23">Dank u wel. Dan geef ik tot slot het woord aan de heer Van Gerven die spreekt namens de fractie van de SP.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg24">Voorzitter. Circa 30.000 tot 40.000 mensen in Nederland lijden aan ME/CVS. Dat is een heel groot aantal. Deze mensen hebben vaak een niet prettig leven. Dat heeft alles te maken met het feit dat die ziekte heel moeilijk te diagnosticeren is en ook heel moeilijk te behandelen is. Het is te prijzen dat de groep er in is geslaagd dat toch op de agenda te krijgen van de Tweede Kamer. Ik hoop dat ook dit debat hier ertoe zal bijdragen dat zowel het onderzoek verbetert als de behandeling van die patiënten, want dat is echt dringend nodig. Ik zal eerst een motie voorlezen om het onderzoek naar de ziekte en de behandeling van de ziekte verder te stimuleren.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat in Nederland circa 30.000 tot 40.000 mensen lijden aan deze ernstige ziekte;</note>
+               <note>van mening dat de zorg voor patiënten met ME/CVS in Nederland hier en nu beter kan én moet;</note>
+               <note>overwegende dat wetenschappelijk onderzoek naar ME/CVS noodzakelijk is om patiënten beter te kunnen helpen en de Gezondheidsraad dit ook adviseert;</note>
+               <note>overwegende dat het ontwikkelen van een expertise- of kenniscentrum kan bijdragen aan de verbetering van het onderzoek naar de oorzaken van ME/CVS en een adequate behandeling van ME/CVS-patiënten;</note>
+               <note>verzoekt de regering een subsidieregeling te ontwikkelen om een dergelijk centrum mogelijk te maken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34170-10</note>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg25">Ik hecht aan deze motie omdat we echt boter bij de vis moeten leveren. We zien dat de bereidheid in de medische wereld om daar een centrum voor te ontwikkelen niet groot is en dat moet wat betreft de SP en hopelijk ook een meerderheid van de Kamer gestimuleerd worden. Ik roep even het Lyme-expertisecentrum in herinnering. Daarbij is er wel een netwerk gekomen, ook met steun van de Kamer. Ik roep de minister ertoe op om deze motie over te nemen.</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg26">Dit is een heel belangrijk onderwerp. Ik deel dat ook met de heer Van Gerven. Daarom hadden we in onze gemeenschappelijke motie ook gezegd: laten we hier een onderzoek naar starten of dat aanjagen. Want de artsen moeten het uiteindelijk doen, zoals de heer Van Gerven ook zegt. En als er een expertisecentrum komt, dan hebben we daar niks aan als daar geen artsen aan willen deelnemen. Dus ik vraag me af hoe de heer Van Gerven dat voor zich ziet. Is het niet van belang om eerst te kijken wat artsen en medici hier zelf over zeggen, en dat we dat dan in eerste instantie proberen aan te jagen?</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg27">De SP heeft de motie mede gesteund, omdat ik vind dat we ervoor moeten zorgen dat we een stapje verder komen. En deze motie, opgesteld door de heer Raemakers en gesteund door vele anderen in de Kamer, zet een stap in de goede richting. Maar ik kijk ook naar het advies van de Gezondheidsraad. Die stelt: "De Nederlandse Federatie van Universitair Medische Centra en zorgverzekeraars wijzen enkele medische centra aan enzovoorts". Dat komt niet echt van de grond. Dat moeten we constateren. Vandaar ook dat ik denk dat het goed zou zijn om wat extra te doen, om ervoor te zorgen dat die 30.000, 40.000 mensen die nu heel vaak thuis zitten te verpieteren, die zich niet gehoord voelen en die niet geholpen worden, een perspectief te bieden, een beetje naar analogie van Lyme en Q-koorts. Daarbij zijn er vergelijkbare elementen. Steun vanuit de Kamer voor een faciliteit is dringend geboden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg28">Ik zie de heer Raemakers nog bij de interruptiemicrofoon staan, maar ik kijk ook even naar de klok. Heel kort, afrondend, meneer Raemakers.</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg29">Kan het dan een optie zijn om eerst dat onderzoek te doen, conform onze gezamenlijke motie? Dan houdt u uw motie even aan. En als dat onderzoek dan zegt dat we dat op deze manier kunnen doen, dan stemmen we over uw motie. Want anders vind ik het heel lastig, zeg ik maar eerlijk, om hier over twee weken over te stemmen. Dat is dan gewoon voor mijn fractie een ontzettend dilemma.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg30">Helder. De heer Van Gerven, kort.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg31">Ik denk dat beide kan, maar we zullen het daar nog over hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg32">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg33">Dank u wel. Dan kijk ik in de richting van de minister. We zijn aan het einde gekomen van de beraadslaging van de Kamer. Ik begrijp dat de minister een enkel ogenblik nodig heeft.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg34">Ik geef graag de minister het woord voor de beantwoording van de gestelde vragen en een oordeel over de ingediende moties. Het woord is aan de minister. Gaat uw gang.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg35">De motie op stuk nr. 7 is een breed gesteunde motie die een gevoel weergeeft dat wij, denk ik, allen delen. Dat gevoel zou ik als volgt onder woorden willen brengen. Er zijn veel ongenadige ziekten en ME/CVS is er daar een van. Moeilijk is dan altijd om te bepalen wat ME/CVS precies is, maar dat is, in de woorden van de heer Van Gerven, als je de hele dag op de bank zit en niet anders kan. Dat lijkt ons allemaal vreselijk. Ik begrijp dus heel goed dat uw Kamer deze motie, die zo manifest klinkt en ook is, heeft ingediend. Ik ben ook van plan om die motie oordeel Kamer te geven. Maar ik wil daar graag nog een enkel woord aan toevoegen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg36">Er zitten eigenlijk drie verzoeken aan de regering in de motie. Het eerste is om via de NFU te kijken of er een toegevoegde waarde is van een centrum voor gebundelde expertise en voorlichting over ME/CVS. Dat lijkt mij een goed idee. Dat wil ik graag doen. Ik geloof ook dat er bij de beroepsgroep niet zozeer sprake is van niet willen, maar dat de vraag meer is wat de expertise dan moet zijn en welke kennis nodig is om in zo'n centrum te bundelen. In de motie wordt de regering opgeroepen dat aan de NFU te vragen. Ik had een iets andere route bedacht, maar ik vind dit prima. Ik had al met ZonMw afgesproken om in het eerste kwartaal van 2020 met een kennisagenda voor ME/CVS te komen, waarin de vragen worden meegenomen hoe je de kennis verspreidt en dus ook hoe je de kennis bundelt, en welke communicatie we extra moeten plegen. Die kennisagenda moet leiden tot een aantal antwoorden. Dat leidt dan tot nieuw onderzoek. Ik had gedacht die route te volgen, maar deze is ook mogelijk; ze vallen in elkaar.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg37">Ik ben het wel met de heer Raemakers, de eerste indiener van de motie, eens dat ik dat eerst zou willen doen, om pas later toe te komen aan de motie die stelt dat voor het expertisecentrum dan ook budget beschikbaar moet komen. Als de oplossing een expertisecentrum is, dan vind ik dat daar budget voor moet komen. Is er iets anders nodig, zoals communicatie, meer onderzoek of een combinatie van die dingen, dan denk ik dat steeds ook de vraag over het budget aan de orde is. Dat wordt niet gevraagd in deze motie. De motie gaat op dit punt alleen over onderzoek. Maar ik zeg u toe dat ik dat serieus wil oppakken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg38">In het tweede stukje van het dictum wordt de regering verzocht om met de zorgprofessionals te gaan praten en te zorgen dat de nieuwe wetenschappelijke informatie goed wordt gebruikt. Ook wordt zij opgeroepen om te werken aan de herziening van de richtlijn. Hier zit iets goeds in, namelijk dat wij, zo de beroepsgroep niet zelf aan die herziening werkt, vanuit de regering nog eens een zetje in de goede richting geven en zeggen: zit u alstublieft bovenop de nieuwe informatie en de nieuwe inzichten uit binnenland en buitenland, want er is een grote groep mensen die op zoek zijn naar een diagnose, een oorzaak van ME/CVS. Dat is het goede ervan. De herziening van de richtlijn hoort natuurlijk bij de professionals en niet bij de regering. Maar er staat nog iets anders in de tekst van de motie over de richtlijn: "binnen redelijke termijn". Het gaat er dus om te proberen er een beetje tempo in te houden; ik zeg het heel onaardig ten opzichte van de beroepsgroep. Dat wil ik natuurlijk graag, dus ook op dat punt heb ik geen terughoudendheid. Ik ben akkoord met dit deel van het dictum.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg39">Eigenlijk zat mijn vraag, zoals wel vaker, meer in het laatste punt. Daarin wordt de regering verzocht om ME/CVS-patiënten wier aanvraag van een arbeidsongeschiktheidsuitkering is afgewezen, actief te informeren. Ik meen mij van een aantal jaren geleden te herinneren dat je uit de bestanden van het UWV niet zomaar die gegevens van patiënten kunt halen; sterker nog: die kun je daar niet uit halen. Mag ik de motie zo lezen dat ik het niet via de individuele patiënt, maar via de patiëntvereniging laat lopen? Daarvan zijn er vijf, dus die kunnen wij goed benaderen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg40">Dan ben ik alle stukjes van de motie langsgegaan. Als ik de motie op die manier mag lezen, laat ik haar, zo zeg ik nogmaals, aan het oordeel van de Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg41">Dank u wel. De motie op stuk nr. 7 krijgt, met de toelichting van de minister, oordeel Kamer. Ik zie bij de eerste indiener in ieder geval instemmend geknik en ik zie een vraag van de heer Van Gerven. Wilt u uw vraag wel kort houden? We lopen uit de tijd.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg42">Het gaat over de herkeuring of het werken van het UWV. Ik heb eens even de cijfers op me laten inwerken. 30 patiënten hebben een volledige arbeidsongeschiktheidsuitkering ten gevolge van ME/CVS, 30 patiënten van de 30- à 40.000. Ik vraag de minister of hij toch ook nog eens een keer met het UWV wil overleggen over de claimbeoordeling. Want we kunnen wel oproepen tot een herbeoordeling, maar als de uitkomst zwart is en weinig perspectief biedt, dan heeft dat ook weinig zin. Wil de minister dat doen?</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg43">Deze opmerking hoort eigenlijk bij de motie op stuk nr. 9, namelijk om opdracht te geven aan, of informatie in te winnen bij — of allebei — het UWV. Er zijn meerdere redenen dat ik de motie op stuk nr. 9 wil aanhouden, zodat ik kan overleggen met mijn collega van Sociale Zaken, onder wie het UWV valt. Dat geeft mij de gelegenheid ook nog even de vraag van de heer Van Gerven daarbij te betrekken. Dat doet niets af aan het oordeel Kamer op de motie op stuk nr. 7, maar dan weet u vast dat ik van de motie op stuk nr. 9 ga zeggen dat ik die graag wil aanhouden met het oog op overleg met de collega van Sociale Zaken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg44">Dan gaan we eerst naar de motie op stuk nr. 8.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg45">In de motie op stuk nr. 8 wordt de regering verzocht uit te spreken dat zij ME/CVS officieel als een chronische ziekte erkent. Dat vind ik een lastige, in die zin dat een regering geen ziekten erkent. Dat is iets wat professionals doen. Dat heeft bijvoorbeeld de WHO gedaan op de classificatielijst; sorry voor de beleidstaal, maar die hebben ME/CVS op die lijst geplaatst. Dus het pad ga ik niet op om als Nederland te zeggen: "wij erkennen ME/CVS", waardoor er een soort — ik zeg het huiselijk — etiket wordt geplakt dat mogelijk het beeld zou geven dat er dan aanspraken verbeteren in de richting van sociale zekerheid. Maar in de motie op stuk nr. 8 zit zoveel actie belegd over alle aandacht waarvan ik vind dat die wél nodig is dat ik eigenlijk al die aandacht de mijne wil maken en daar de actieve energie van de regering op wil inzetten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg46">Een vraag van mevrouw Ploumen op dit verzoek, kort.</seg>
+            </u>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg47">Mijn indruk is dat we vrij dicht bij elkaar zitten en dat de minister net als wij begrijpt waar die behoefte aan erkenning vandaan komt. Het gaat niet zozeer om formele claims — ik begrijp dat hij dat wel zegt — maar om het gevoel gezien te worden. Dus als ik nu in het dictum "uit te spreken" zou veranderen in "uit te dragen" dat het een chronische ziekte is, zou dat mogelijk zijn? Ik zeg er meteen bij dat ik ook nog wel bereid ben om de motie even aan te houden, om te kijken of we in nader overleg tegemoet kunnen komen aan de wens tot erkenning van patiënten. Want nu is het ook nog zo dat een bepaalde beroepsgroep bijvoorbeeld het rapport van Gezondheidsraad gewoon naast zich neerlegt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg48">Uw punt is duidelijk. De minister.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg49">Nou, het punt is mij nog niet helemaal duidelijk, want ik wou die erkenning niet doen. Het is een zekere vreselijke ziekte. Ook bij mij aan tafel vertellen patiënten hun verhalen, net zoals bij u allemaal. Dit kan echt een flinke hap uit een mensenleven nemen. Dus die aandacht moet er zijn. Daarom vind ik dat goed belegd in de motie op stuk nr. 7. Als mevrouw Ploumen zegt "ik heb een motie ingediend en ik wil die aanhouden", natuurlijk, altijd. Tot overleg ben ik ook altijd bereid, maar ik wil niet de suggestie wekken dat wij met erkenning van regeringswege dan iets doen om bijvoorbeeld sociale zekerheidsaanspraken te verleggen. Als er zou staan "houdt ME/CVS de actieve aandacht van deze regering", absoluut. Dat heb ik ook de patiënten laten weten. Dat vind ik ook goed besloten liggen in de motie op stuk nr. 7.</seg>
+            </u>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg50">Ik ga de motie op stuk nr. 8 aanhouden. Ik zou de minister willen vragen of hij nog eens wil nadenken over de formulering "verzoekt de regering uit te dragen dat zij ME/CVS officieel als chronische ziekte ziet." Dan kunnen wij daarover in overleg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg51">U geeft nu aan dat u de motie op stuk nr. 8 aanhoudt.</seg>
+            </u>
+            <note>Op verzoek van mevrouw Ploumen stel ik voor haar motie (34170, nr. 8) aan te houden.</note>
+            <note>Daartoe wordt besloten.</note>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg52">Dan de motie op stuk nr. 9. Daarvan heb ik al gezegd dat ik die ook graag wil aanhouden met het oog op mijn overleg met de collega.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg53">Ik zie mevrouw Ploumen instemmend knikken, dus die motie wordt ook aangehouden.</seg>
+            </u>
+            <note>Op verzoek van mevrouw Ploumen stel ik voor haar motie (34170, nr. 9) aan te houden.</note>
+            <note>Daartoe wordt besloten.</note>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg54">Voorzitter. Ik ben nu nog niet toe aan een subsidieregeling voor een centrum. Ik steun de suggestie die de heer Raemakers deed om eerst de motie op stuk nr. 8 uit te voeren en dan terug te komen op deze kwestie. Ik heb in dat kader aangegeven dat een subsidieregeling voor een centrum mogelijk is, maar dat ik, als er iets anders nodig is, ook in financiële zin, daar niet voor wegloop. Ik vind dat namelijk en belangrijk punt. Misschien klinkt dat ook wel als een vorm van erkenning voor de mensen die lijden aan deze ziekte.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg55">Dank u wel. De motie op stuk nr. 10 wordt in deze vorm ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg56">De heer Van Gerven.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg57">Voorzitter. Niet helemaal als ik de minister goed beluister. Hij is bereid om toch te kijken naar een vorm van subsidie als de uitkomst zou zijn dat een expertisecentrum kan bijdragen aan de oplossing van de problematiek waarover wij het vandaag hebben. Kan de minister iets van een tijdpad aangeven? Het zou goed zijn als er toch een zekere versnelling komt. Als we moeten wachten op het onderzoek, dan zitten wij mogelijk ver in 2020. Kan de minister daar nog iets over zeggen?</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg58">Ik verwacht de kennisagenda ME/CVS in het eerste kwartaal van 2020. Die wordt opgesteld door ZonMw, samen met de vijf patiëntenverenigingen. Laat mij bij dat moment kijken hoe de planning er verder uitziet, ook op het punt van onderzoek, ook op het punt van communicatie, ook op het punt van verspreiding van kennis, disseminatie van kennis. Daar wil ik de vraag bij betrekken of er een vorm van expertisecentrum moet komen, of dat er op een andere manier iets moet komen. Dit wordt geen huis met een voordeur waarop staat: Expertisecentrum. We hebben andere voorbeelden waarbij soms sprake is van een coördinatiefunctie tussen verschillende wetenschappers uit het land. Misschien wordt dat wel de uitkomst, maar vindt u het goed dat ik dit betrek bij die Kennisagenda die ZonMw van plan is om op te stellen?</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg59">Met deze toezegging houden wij de motie op stuk nr. 10 aan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg60">Op verzoek van de heer Van Gerven stel ik voor zijn motie (34170, nr. 10) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg61">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg62">Ik ben aan het eind van de moties, maar er ligt nog een vraag.</seg>
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg63">Mevrouw Van den Berg zei in mijn richting dat er gesprekken zijn gevoerd met Q-koortspatiënten en dat daar blijkbaar de verwachting leeft dat daar een gespreksverslag van is gemaakt. Ik heb meerdere gesprekken met meerdere patiënten gehad. Ik ga met mevrouw Van den Berg na over welke groep het gaat. Ik beloof over het algemeen overigens geen gespreksverslagen omdat dit soort gesprekken heel vaak over patiëntervaringen gaat. Dan vind ik het gesprek belangrijker dan wat er op papier is gezet. Ik ga na waar die behoefte zit en dan ga ik kijken, als het er niets is, of we uit aantekeningen of recollectie alsnog iets van een verslagje kunnen maken. Als die behoefte er is, dan wil ik graag proberen om daarin te voorzien.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg64">Ik dank de minister voor Medische Zorg voor zijn inbreng, evenals de Kamerleden.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2019-09-11-tweedekamer-5.seg65">Over de ingediende motie gaan wij niet volgende week dinsdag, maar op 24 september stemmen, in verband met Prinsjesdag.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

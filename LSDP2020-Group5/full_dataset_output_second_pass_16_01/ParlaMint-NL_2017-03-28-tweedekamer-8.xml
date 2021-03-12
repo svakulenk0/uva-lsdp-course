@@ -1,0 +1,510 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-03-28 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-03-28 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 60, Session 8 (2017-03-28)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 60, Session 8 (2017-03-28)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="60">Meeting 60</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="82">82 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="82">82 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2883">2883 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2883">2883 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-03-28">2017-03-28</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="83"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="82"/>
+               <tagUsage gi="note" occurs="180"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-03-28">2017-03-28</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <note>De:</note>
+            <note>Op verzoek van de VVD-fractie benoem ik:</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq4">in de algemene commissie voor Wonen en Rijksdienst de leden Middendorp, Harbers en Koerhuis tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Wörsdörfer en Remco Dijkstra in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq5">in de vaste commissie voor Binnenlandse Zaken de leden Wörsdörfer en Koerhuis tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Koopmans en Middendorp in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq6">in de vaste commissie voor Koninkrijksrelaties de leden Arno Rutte, El Yassini en Koopmans tot plaatsvervangend lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq7">in de vaste commissie voor Onderwijs, Cultuur en Wetenschap de leden Wiersma en Becker tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Van 't Wout, Ten Broeke en Yeşilgöz-Zegerius in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq8">in de vaste commissie voor Veiligheid en Justitie het lid Koopmans tot lid in de bestaande vacature en tot plaatsvervangend lid de leden El Yassini, Van den Bosch en Arno Rutte in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq9">in de algemene commissie voor Buitenlandse Handel en Ontwikkelingssamenwerking het lid Yeşilgöz-Zegerius tot lid in plaats van het lid Remco Dijkstra en het lid Becker tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Koopmans en Duisenberg in plaats van de leden Aukje de Vries en Tellegen;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq10">in de vaste commissie voor Buitenlandse Zaken het lid Becker tot lid in plaats van het lid Remco Dijkstra en het lid Yeşilgöz-Zegerius tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Azmani, Remco Dijkstra, Duisenberg en Van den Bosch in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq11">in de vaste commissie voor Defensie de leden Becker en Van den Bosch tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Yeşilgöz-Zegerius, Azmani en Koopmans in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq12">in de vaste commissie voor Europese Zaken het lid Aukje de Vries tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Hermans tot lid in plaats van het lid Aukje de Vries en het lid Van den Bosch in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq13">in de vaste commissie voor Infrastructuur en Milieu de leden Aukje de Vries, Middendorp en Wörsdörfer tot lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq14">in de vaste commissie voor Economische Zaken de leden Weverling en Aukje de Vries tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Hermans en Koerhuis in plaats van de leden Remco Dijkstra en Aukje de Vries en de leden El Yassini en Middendorp in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq15">in de vaste commissie voor Financiën de leden Wiersma en Wörsdörfer tot plaatsvervangend lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq16">in de vaste commissie voor Sociale Zaken en Werkgelegenheid het lid Wiersma tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Van den Bosch in plaats van het lid Harbers en het lid El Yassini in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq17">in de vaste commissie voor Volksgezondheid, Welzijn en Sport de leden El Yassini en Hermans tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Wiersma en Bosman in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq18">in de commissie voor het onderzoek van de Geloofsbrieven het lid Visser tot lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq19">in het Presidium het lid Harbers tot lid in de bestaande vacature.</note>
+            <note>Op verzoek van de PVV-fractie benoem ik:</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq21">in de vaste commissie voor Binnenlandse Zaken het lid Van Weerdenburg tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Popken en Van Aalst in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq22">in de vaste commissie voor Buitenlandse Zaken de leden Van Weerdenburg en Wilders tot lid in de bestaande vacatures en tot plaatsvervangend lid het lid Markuszower in plaats van het lid Wilders en het lid De Graaf in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq23">in de vaste commissie voor Defensie het lid Popken tot lid in plaats van het lid Martin Bosma en het lid Beertema tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Martin Bosma en Helder in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq24">in de vaste commissie voor Economische Zaken de leden Madlener en Edgar Mulder tot lid in de bestaande vacatures en tot plaatsvervangend lid het lid Gerbrands in plaats van het lid De Graaf en de leden De Jong en Popken in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq25">in de vaste commissie voor Europese Zaken het lid Maeijer tot lid in plaats van het lid Beertema en het lid De Jong tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Kops in plaats van het lid Fritsma en de leden Popken en De Graaf in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq26">in de vaste commissie voor Financiën de leden Edgar Mulder en Graus tot lid in de bestaande vacatures en tot plaatsvervangend lid het lid Agema in plaats van het lid Graus en de leden Maeijer en Van Aalst in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq27">in de vaste commissie voor Infrastructuur en Milieu het lid Van Aalst tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Agema in plaats van het lid De Graaf en het lid Edgar Mulder in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq28">in de vaste commissie voor Koninkrijksrelaties het lid De Graaf tot lid in plaats van het lid Madlener en het lid Beertema tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Madlener in plaats van het lid Martin Bosma en het lid Tony van Dijck in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq29">in de vaste commissie voor Onderwijs, Cultuur en Wetenschap het lid Kops tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Gerbrands, De Jong en Maeijer in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq30">in de vaste commissie voor Sociale Zaken en Werkgelegenheid de leden De Graaf en Kops tot lid in de bestaande vacatures en tot plaatsvervangend lid het lid Van Weerdenburg in plaats van het lid Madlener en de leden Gerbrands en Edgar Mulder in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq31">in de vaste commissie voor Veiligheid en Justitie de leden Markuszower en Fritsma tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Popken en Tony van Dijck in plaats van de leden Martin Bosma en Fritsma en het lid Maeijer in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq32">in de vaste commissie voor Volksgezondheid, Welzijn en Sport de leden Gerbrands en Markuszower tot lid in de bestaande vacatures en tot plaatsvervangend lid het lid Kops in plaats van het lid Martin Bosma en het lid Van Aalst in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq33">in de algemene commissie voor Buitenlandse Handel en Ontwikkelingssamenwerking het lid Van Weerdenburg tot lid in plaats van het lid Martin Bosma en het lid Wilders tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Martin Bosma in plaats van het lid Fritsma en het lid Markuszower in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq34">in de algemene commissie voor Wonen en Rijksdienst het lid Kops tot lid in plaats van het lid Fritsma en de leden Edgar Mulder en Madlener tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Agema en Graus in plaats van de leden Madlener en Martin Bosma en het lid Tony van Dijck in de bestaande vacature.</note>
+            <note>Op verzoek van de CDA-fractie benoem ik:</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq36">in de algemene commissie voor Wonen en Rijksdienst het lid Van den Berg-Jansen tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Von Martels en Bruins Slot in plaats van de leden Omtzigt en Knops en het lid Van Dam in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq37">in de vaste commissie voor Binnenlandse Zaken de leden Bruins Slot en Van Helvert tot lid in plaats van de leden Van Toorenburg en Amhaouch en het lid Van den Berg-Jansen tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Amhaouch en Van Dam in plaats van de leden Bruins Slot en Keijzer en het lid Van Toorenburg in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq38">in de vaste commissie voor Infrastructuur en Milieu het lid Von Martels tot lid en het lid Amhaouch tot plaatsvervangend lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq39">in de vaste commissie voor Onderwijs, Cultuur en Wetenschap het lid Van der Molen tot lid in plaats van het lid Pieter Heerma en het lid Kuik tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Amhaouch en Pieter Heerma in plaats van de leden Keijzer en Van Toorenburg en het lid Peters in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq40">in de vaste commissie voor Volksgezondheid, Welzijn en Sport de leden Keijzer en Kuik tot lid in plaats van de leden Van Toorenburg en Bruins Slot en het lid Peters tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Bruins Slot en Van Toorenburg in plaats van de leden Keijzer en Pieter Heerma en het lid Von Martels in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq41">in de vaste commissie voor Financiën het lid Ronnes tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Agnes Mulder in plaats van het lid Ronnes en het lid Van den Berg-Jansen in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq42">in de vaste commissie voor Sociale Zaken en Werkgelegenheid het lid Peters tot lid in plaats van het lid Omtzigt en het lid Keijzer tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Van den Berg-Jansen en Omtzigt in plaats van de leden Rog en Amhaouch en het lid Van der Molen in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq43">in de vaste commissie voor Economische Zaken het lid Amhaouch tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Von Martels en Van den Berg-Jansen in plaats van de leden Amhaouch en Knops en het lid Pieter Heerma in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq44">in de vaste commissie voor Buitenlandse Zaken het lid Van Helvert tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Amhaouch in plaats van het lid Bruins Slot en het lid Keijzer in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq45">in de vaste commissie voor Europese Zaken het lid Knops tot lid in plaats van het lid Rog en het lid Keijzer tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Van Helvert in plaats van het lid Knops en het lid Amhaouch in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq46">in de vaste commissie voor Defensie het lid Amhaouch tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Agnes Mulder in plaats van het lid Ronnes en het lid Van Helvert in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq47">in de vaste commissie voor Veiligheid en Justitie het lid Van Dam tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Peters en Van Helvert in plaats van de leden Van Haersma Buma en Omtzigt en het lid Kuik in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq48">in de algemene commissie voor Buitenlandse Handel en Ontwikkelingssamenwerking het lid Keijzer tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Van Helvert in plaats van het lid Geurts en het lid Omtzigt in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq49">in de vaste commissie voor Koninkrijksrelaties de leden Bruins Slot en Van Helvert tot lid in plaats van de leden Van Toorenburg en Amhaouch en het lid Van den Berg-Jansen tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Amhaouch en Van Dam in plaats van de leden Omtzigt en Knops en het lid Van Toorenburg in de bestaande vacature.</note>
+            <note>Op verzoek van de GroenLinks-fractie benoem ik:</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq51">in de algemene commissie voor Wonen en Rijksdienst het lid Özütok tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Özdil in plaats van het lid Van Tongeren en het lid Ellemeet tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq52">in de vaste commissie voor Binnenlandse Zaken het lid Özütok tot lid in plaats van het lid Voortman en het lid Buitenweg tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Voortman in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq53">in de vaste commissie voor Koninkrijksrelaties het lid Van Tongeren tot lid in plaats van het lid Voortman en het lid Özütok tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Buitenweg in plaats van het lid Van Tongeren en het lid Van Ojik in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq54">in de vaste commissie voor Onderwijs, Cultuur en Wetenschap het lid Özdil tot lid in plaats van het lid Grashoff en het lid Westerveld tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Ellemeet in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq55">in de vaste commissie voor Veiligheid en Justitie het lid Buitenweg tot lid in plaats van het lid Van Toorenburg en het lid Özütok tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Van Tongeren in plaats van het lid Van Haersma Buma en het lid Diks in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq56">in de algemene commissie voor Buitenlandse Handel en Ontwikkelingssamenwerking het lid Diks tot lid in plaats van het lid Grashoff en het lid Van Ojik tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Van der Lee in plaats van het lid Klaver en het lid Snels in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq57">in de vaste commissie voor Buitenlandse Zaken het lid Van Ojik tot lid in plaats van het lid Grashoff en het lid Diks tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Van der Lee in plaats van het lid Klaver en het lid Grashoff in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq58">in de vaste commissie voor Defensie het lid Diks tot lid in plaats van het lid Grashoff en het lid Van Ojik tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Grashoff in plaats van het lid Klaver en het lid Van der Lee in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq59">in de vaste commissie voor Europese Zaken het lid Van Ojik tot lid in plaats van het lid Grashoff en het lid Van der Lee tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Grashoff in plaats van het lid Klaver en het lid Snels in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq60">in de vaste commissie voor Infrastructuur en Milieu het lid Kröger tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Van der Lee in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq61">in de vaste commissie voor Economische Zaken het lid Van der Lee tot lid in plaats van het lid Van Tongeren en het lid Grashoff tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Van Tongeren in plaats van het lid Grashoff en het lid Kröger in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq62">in de vaste commissie voor Financiën het lid Snels tot lid in plaats van het lid Grashoff en het lid Van der Lee tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Voortman in plaats van het lid Grashoff en het lid Özdil in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq63">in de vaste commissie voor Sociale Zaken en Werkgelegenheid het lid Özdil tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Westerveld in plaats van het lid Grashoff en het lid Ellemeet in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq64">in de vaste commissie voor Volksgezondheid, Welzijn en Sport het lid Ellemeet tot lid in plaats van het lid Voortman en het lid Westerveld tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Voortman in plaats van het lid Van Tongeren en het lid Özdil in de bestaande vacature.</note>
+            <note>Op verzoek van de SP-fractie benoem ik:</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq66">in de algemene commissie voor Wonen en Rijksdienst het lid Beckerman tot lid in plaats van het lid Van Raak en het lid Jasper van Dijk tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Kooman in plaats van het lid Karabulut en het lid Van Nispen in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq67">in de vaste commissie voor Binnenlandse Zaken het lid Beckerman tot plaatsvervangend lid in de bestaande vacature en het lid Kooiman in plaats van het lid Jasper van Dijk;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq68">in de vaste commissie voor Koninkrijksrelaties het lid Van Nispen tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Van Kent en Leijten in plaats van de leden Kooiman en Van Nispen;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq69">in de vaste commissie voor Onderwijs, Cultuur en Wetenschap het lid Kwint tot lid in plaats van het lid Jasper van Dijk en het lid Futselaar tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Beckerman in de bestaande vacature en het lid Hijink in plaats van het lid Van Nispen;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq70">in de vaste commissie voor Veiligheid en Justitie het lid Van Raak tot lid in plaats van het lid Kooiman en tot plaatsvervangend lid het lid Jasper van Dijk in de bestaande vacature en het lid Kooiman in plaats van het lid Van Raak;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq71">in de algemene commissie voor Buitenlandse Handel en Ontwikkelingssamenwerking de leden Karabulut en Hijink tot lid in de bestaande vacatures en tot plaatsvervangend lid het lid Kwint in de bestaande vacature en het lid Futselaar in plaats van het lid Jasper van Dijk;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq72">in de vaste commissie voor Buitenlandse Zaken het lid Karabulut tot lid in plaats van het lid Jasper van Dijk en het lid Leijten tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Hijink en Jasper van Dijk in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq73">in de vaste commissie voor Defensie het lid Karabulut tot lid in plaats van het lid Jasper van Dijk en het lid Leijten tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Jasper van Dijk in de bestaande vacature en het lid Kooiman in plaats van het lid Van Raak;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq74">in de vaste commissie voor Europese Zaken het lid Leijten tot lid in plaats van het lid Jasper van Dijk en het lid Karabulut tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Hijink in plaats van het lid Van Raak en het lid Jasper van Dijk in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq75">in de vaste commissie voor Infrastructuur en Milieu de leden Laçin en Futselaar tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Beckerman en Hijink in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq76">in de vaste commissie voor Economische Zaken de leden Hijink en Beckerman tot lid in de bestaande vacatures en tot plaatsvervangend lid de leden Leijten en Futselaar in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq77">in de vaste commissie voor Financiën de leden Leijten en Hijink tot lid in de bestaande vacatures en tot plaatsvervangend lid het lid Van Kent in de bestaande vacature en het lid Kooiman in plaats van het lid Karabulut;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq78">in de vaste commissie voor Sociale Zaken en Werkgelegenheid het lid Van Kent tot lid in plaats van het lid Karabulut en het lid Jasper van Dijk tot lid in de bestaande vacature en tot plaatsvervangend lid de leden Marijnissen en Kooiman in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq79">in de vaste commissie voor Volksgezondheid, Welzijn en Sport het lid Marijnissen tot lid in plaats van het lid Leijten en het lid Kooiman tot lid in de bestaande vacature en tot plaatsvervangend lid het lid Leijten in plaats van het lid Van Raak;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq80">in de parlementaire ondervragingscommissie Fiscale constructies het lid Leijten tot lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq81">in de commissie voor het onderzoek van de Geloofsbrieven het lid Leijten tot lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq82">in de commissie voor de Verzoekschriften en de Burgerinitiatieven het lid Kooiman tot lid in plaats van het lid Van Raak;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq83">in de Bouwbegeleidingscommissie het lid Beckerman tot lid in de bestaande vacature.</note>
+            <note>Op verzoek van de PvdA-fractie benoem ik:</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq85">in de algemene commissie voor Wonen en Rijksdienst het lid Gijs van Dijk tot lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq86">in de vaste commissie voor Binnenlandse Zaken het lid Gijs van Dijk tot lid en het lid Kuiken tot plaatsvervangend lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq87">in de vaste commissie voor Koninkrijksrelaties het lid Gijs van Dijk tot lid en het lid Kuiken tot plaatsvervangend lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq88">in de vaste commissie voor Buitenlandse Zaken het lid Van den Hul tot lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq89">in de vaste commissie voor Defensie het lid Van den Hul tot lid en het lid Gijs van Dijk tot plaatsvervangend lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq90">in de vaste commissie voor Economische Zaken het lid Kuiken tot lid en het lid Nijboer tot plaatsvervangend lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq91">in de vaste commissie voor Europese Zaken het lid Van den Hul tot lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq92">in de vaste commissie voor Financiën het lid Gijs van Dijk tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq93">in de vaste commissie voor Infrastructuur en Milieu het lid Kuiken tot lid in de bestaande vacature en het lid Gijs van Dijk tot plaatsvervangend lid in plaats van het lid Nijboer;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq94">in de vaste commissie voor Onderwijs, Cultuur en Wetenschap het lid Van den Hul tot lid en het lid Kuiken tot plaatsvervangend lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq95">in de vaste commissie voor Sociale Zaken en Werkgelegenheid het lid Gijs van Dijk tot lid in de bestaande vacature en het lid Kuiken tot plaatsvervangend lid in plaats van het lid Nijboer;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq96">in de vaste commissie voor Veiligheid en Justitie het lid Asscher tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq97">in de vaste commissie voor Volksgezondheid, Welzijn en Sport het lid Nijboer tot lid in de bestaande vacature en het lid Van den Hul tot plaatsvervangend lid in plaats van het lid Nijboer;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq98">in de algemene commissie voor Buitenlandse Handel en Ontwikkelingssamenwerking het lid Van den Hul tot lid en het lid Gijs van Dijk tot plaatsvervangend lid in de bestaande vacatures;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq99">in de parlementaire ondervragingscommissie Fiscale constructies het lid Nijboer tot lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq100">in de Bouwbegeleidingscommissie het lid Nijboer tot lid in de bestaande vacature.</note>
+            <note>Op verzoek van de 50PLUS-fractie benoem ik:</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq102">in de vaste commissie voor Sociale Zaken en Werkgelegenheid het lid Van Brenk tot lid in de bestaande vacature en het lid Van Rooijen tot plaatsvervangend lid in plaats van het lid Krol;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq103">in de vaste commissie voor Financiën het lid Van Rooijen tot lid in de bestaande vacature en het lid Van Brenk tot plaatsvervangend lid in plaats van het lid Krol;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq104">in de vaste commissie voor Binnenlandse Zaken het lid Krol tot lid in de bestaande vacature en het lid Van Brenk tot plaatsvervangend lid in plaats van het lid Krol;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq105">in de algemene commissie voor Wonen en Rijksdienst het lid Van Rooijen tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq106">in de vaste commissie voor Veiligheid en Justitie het lid Van Rooijen tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq107">in de vaste commissie voor Buitenlandse Zaken het lid Van Rooijen tot lid in plaats van het lid Krol en het lid Sazias tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq108">in de vaste commissie voor Onderwijs, Cultuur en Wetenschap het lid Van Brenk tot lid in de bestaande vacature en het lid Sazias tot plaatsvervangend lid in plaats van het lid Krol;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq109">in de vaste commissie voor Volksgezondheid, Welzijn en Sport het lid Sazias tot lid in plaats van het lid Krol en het lid Van Brenk tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq110">in de vaste commissie voor Economische Zaken het lid Sazias tot lid in de bestaande vacature en het lid Van Rooijen tot plaatsvervangend lid in plaats van het lid Krol;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq111">in de vaste commissie voor Defensie het lid Van Rooijen tot lid in plaats van het lid Krol en het lid Sazias tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq112">in de vaste commissie voor Europese Zaken het lid Van Rooijen tot lid in de bestaande vacature en het lid Sazias tot plaatsvervangend lid in plaats van het lid Krol;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq113">in de vaste commissie voor Infrastructuur en Milieu het lid Van Brenk tot lid in plaats van het lid Krol en het lid Krol tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq114">in de vaste commissie voor Koninkrijksrelaties het lid Sazias tot plaatsvervangend lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seq115">in de algemene commissie voor Buitenlandse Handel en Ontwikkelingssamenwerking het lid Sazias tot lid in plaats van het lid Krol en het lid Van Rooijen tot plaatsvervangend lid in de bestaande vacature.</note>
+            <note>Ik benoem in de commissie voor de Werkwijze het lid Duisenberg tot lid in de bestaande vacature, het lid Leijten tot lid in plaats van het lid Van Raak, het lid Voortman tot lid in plaats van het lid Klaver en tot plaatsvervangend lid het lid Van der Lee in de bestaande vacature.</note>
+            <note>Op verzoek van een aantal leden stel ik voor, de volgende door hen ingediende moties opnieuw aan te houden: 28286-876; 31066-238 en 34002-67.</note>
+            <note>Daartoe wordt besloten.</note>
+            <note>De:</note>
+            <note>Dan geef ik nu het woord aan de heer Verhoeven namens D66.</note>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg1">Voorzitter. Zoals waarschijnlijk wel bekend is, wordt morgen door de Britse premier May de zogenaamde artikel 50-procedure in gang gezet, wat betekent dat er een formeel signaal van de Britten komt om de Europese Unie te verlaten. Er zal dus de komende twee jaar onderhandeld worden over het vertrek van de Britten uit de Europese Unie. Er is ook al een top gepland om daar met de 27 andere lidstaten van de Europese Unie over te spreken, eind april. Normaal gesproken vergadert de Tweede Kamer automatisch wanneer de premier namens Nederland naar een top gaat, maar dit is een top met 27 landen in plaats van 28 landen en daarom is overleg vooraf niet automatisch geregeld. Het lijkt de fractie van D66 een goed idee om toch een debat te voeren met de minister-president, voorafgaand aan de bijeenkomst over het vertrek van de Britten.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg2">Steun voor dit verzoek. Ik heb een aanvullend verzoek aan de regering, namelijk om te kijken of men op dezelfde wijze documenten aan de Kamer kan doen toekomen als wanneer het een EU-28-top is. Dit is geen formele EU-top, dus formeel zou men ook geen documenten beschikbaar hoeven stellen, maar waarschijnlijk kan men daar wel iets aan doen.</seg>
+            </u>
+            <u who="#MartinvanRooijen" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg3">Steun. Ook steun voor de vraag van de heer Omtzigt om het als een top van 28 lidstaten te behandelen.</seg>
+            </u>
+            <u who="#Gert-JanSegers" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg4">Hetzelfde geldt voor de fractie van de ChristenUnie: steun voor beide verzoeken.</seg>
+            </u>
+            <u who="#RoelofBisschop" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg5">Dat geldt ook voor de SGP-fractie.</seg>
+            </u>
+            <u who="#BramvanOjik" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg6">Ook GroenLinks steunt dit verzoek van harte.</seg>
+            </u>
+            <u who="#VickyMaeijer" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg7">Volgens mij kan de tegenstelling niet groter zijn. Afgelopen weekend zagen wij aan de ene kant de minister-president en de andere regeringsleiders die nogmaals het Verdrag van Rome vierden en weer hun steun uitspraken voor het Europese project, terwijl wij aan de andere kant de Britten zagen die morgen formeel zullen aankondigen de Unie te verlaten. Ik hoor dan ook graag wat de inzet van het kabinet zal zijn om in de onderhandelingen het Nederlandse belang zo goed mogelijk te dienen.</seg>
+            </u>
+            <note>De:</note>
+            <note>Steunt u het debat?</note>
+            <u who="#VickyMaeijer" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u8">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg8">Wij steunen het debat.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u9">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg9">Ook steun van DENK.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u10">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg10">Steun voor het verzoek.</seg>
+            </u>
+            <u who="#KirstenvandenHul" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u11">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg11">Ook de PvdA steunt dit verzoek.</seg>
+            </u>
+            <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u12">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg12">Steun van de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#AnneMulder" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u13">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg13">Steun.</seg>
+            </u>
+            <note>De:</note>
+            <note>Mijnheer Verhoeven, u hebt een meerderheid.</note>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u14">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg14">Dank u wel. Dan wordt het waarschijnlijk een week voor de top ingepland.</seg>
+            </u>
+            <note>De:</note>
+            <note>Ik stel voor, het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</note>
+            <note>Het woord is aan de heer Graus namens de PVV.</note>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u15">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg15">Mevrouw de voorzitter. Net heeft mevrouw Ouwehand van de Partij voor de Dieren tijdens het mondelinge vragenuurtje vragen gesteld aan de staatssecretaris van Economische Zaken over het horrorslachthuis in Tielt in België. Los van het dierenleed, waar wij hier voor staan, is er een relatie met Nederland, want er is vlees uit dat slachthuis op de Nederlandse markt terechtgekomen. Mensen, onwetend, hebben zeer dieronvriendelijke producten gegeten. Dat kan niet.</seg>
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg16">Bovendien — en dat vind ik het belangrijkste en daarom wil ik een debat aanvragen met de staatssecretaris van Economische Zaken die dierenwelzijn in zijn portefeuille heeft — werd zojuist echt informatie gegeven die niet klopt. Ik kon helaas maar één keer een vraag stellen, ik kon niet nog een vraag stellen. Het is pertinent niet waar wat net werd gezegd. In het kader van het dierenleed en onze voedselzekerheid moet spoedig een debat hierover plaatsvinden met de staatssecretaris van Economische Zaken.</seg>
+            </u>
+            <u who="#JacoGeurts" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u16">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg17">Ik stel voor om een brief aan het kabinet te vragen over de punten die de heer Graus noemt. Ik wil daar graag aan toevoegen dat het kabinet ook ingaat op de verschillen tussen het toezicht in België en in Nederland, dus hoe de Nederlandse Voedsel- en Warenautoriteit dit doet en hoe haar tegenhanger het in België doet. Geen steun voor een debat. Het gaat het snelste om dit in een algemeen overleg over de NVWA te behandelen.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u17">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg18">Dezelfde snelheid waarmee dieren door het slachthuis worden gejaagd, blijkbaar. Ik steun het debat wel van harte. Tijdens het vragenuur heeft de staatssecretaris heel wat vragen niet beantwoord. Ik stel voor om de minister van Volksgezondheid bij het debat te vragen. De bewindslieden zijn samen verantwoordelijk voor het toezicht op de vleesindustrie. Dus steun voor het debat en graag de minister van VWS erbij.</seg>
+            </u>
+            <u who="#HelmaLodders" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u18">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg19">Geen steun voor het debat, maar wel steun voor een brief en voor de vragen die door de heer Geurts zijn geformuleerd. Ik wil graag aanvullende vragen stellen over de toezegging die de staatssecretaris heeft gedaan. Het lijkt mij het snelst om dit via de procedurevergadering af te tikken.</seg>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u19">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg20">Het is een belangrijke kwestie. Steun voor de brief. Ik zou het ook het liefst via het AO NVWA doen. Ik wil graag vragen kunnen stellen.</seg>
+            </u>
+            <note>De:</note>
+            <note>Dus geen steun voor het debat.</note>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u20">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg21">Klopt.</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u21">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg22">Wat de SP betreft: steun voor het debat.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u22">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg23">Ik steun de brief en ook de schriftelijke inventarisatie van de vragen. Ik wil het debat wel steunen, maar ik geef toch in overweging om het bij het AO NVWA te betrekken. Dat hadden wij de laatste dag voor het reces gepland, maar dat is toen van de agenda gehaald. Volgens mij kunnen wij dat heel snel inplannen en dan hebben wij snel een debat hierover.</seg>
+            </u>
+            <u who="#RikGrashoff" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u23">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg24">Daar sluit ik mij bij aan; zeker bij het verzoek om een brief. Het debat moet er ook komen, maar ik denk dat dat het snelst en effectiefst kan in een AO. Dat kunnen we snel regelen via de procedurevergadering, denk ik.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u24">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg25">D66 sluit zich aan bij de voorstellen gedaan door de ChristenUnie.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u25">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg26">Ik sluit mij aan bij de voorstellen als laatste gedaan door de heer Grashoff.</seg>
+            </u>
+            <note>De:</note>
+            <note>Mijnheer Graus, u hebt geen meerderheid voor het houden van een debat.</note>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u26">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg27">Dat klopt, mevrouw de voorzitter, ik kan ook heel goed tellen. Wat ik niet begrijp, vooral van mijn collega's die net als ik hier al langere tijd meedraaien, is het volgende. Er zijn al heel veel jaren problemen bij de NVWA. Het probleem is dat er een heel ernstig geval van dierenmishandeling heeft plaatsgevonden, een van de ernstigste die ik de afgelopen 30 jaar heb meegemaakt. Om dat nu te stoppen bij een algemeen overleg over de NVWA, een AO dat al overvol zit … Ik hoop echt dat de Kamerleden zich bedenken en mijn verzoek om een debat wél steunen of dat we inderdaad zorgen voor verruimde spreektijden en een uitbreiding van het AO NVWA.</seg>
+            </u>
+            <note>De:</note>
+            <note>Dat kan, maar dan moet het …</note>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u27">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg28">Het kan niet tussen de soep en de aardappelen door, mevrouw de voorzitter.</seg>
+            </u>
+            <note>De:</note>
+            <note>Helder. Maar spreektijden voor het algemeen overleg moeten in de commissie worden afgesproken.</note>
+            <note>Mevrouw Ouwehand.</note>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u28">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg29">De heer Graus heeft een punt; het AO staat al heel erg lang gepland en er staat ongelofelijk veel op de agenda. Ik zou hem willen adviseren om dit debat als een dertigledendebat op de lijst te laten staan. Dan kunnen we er altijd nog op terugkomen als het onderwerp in het AO onvoldoende besproken is.</seg>
+            </u>
+            <note>De:</note>
+            <note>Kijk, u krijgt hulp van mevrouw Ouwehand. Een dertigledendebat kan.</note>
+            <u who="#HelmaLodders" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u29">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg30">Ik wachtte eigenlijk op uw conclusie, voorzitter, zodat we even de vragen kunnen inventariseren in commissieverband. Ik heb namelijk begrepen dat u dat af zou moeten concluderen.</seg>
+            </u>
+            <note>De:</note>
+            <note>Nee, dat kan gewoon in commissieverband, volgens mij. Ik heb ook niemand hiertegen bezwaar zien maken. Dat zal dus wel lukken.</note>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u30">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg31">Ik doe dat wel. U bent dat ook van mij gewend. Met een dertigledendebat hebben we in ieder geval een stok achter de deur.</seg>
+            </u>
+            <note>De:</note>
+            <note>Ja, het komt zeker op de lijst te staan. Daar houden we rekening mee.</note>
+            <note>Ik geef het woord aan mevrouw Beckerman namens de SP.</note>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u31">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg32">Voorzitter. Naar aanleiding van de uitzending "Bos als brandhout" van ZEMBLA zou ik graag een debat willen aanvragen met de minister van Economische Zaken. In deze documentaire werd pijnlijk duidelijk dat de huidige regeling veel ruimte biedt voor gesjoemel met kap en resthout. Ik weet dat we in afwachting zijn van beloofde duurzaamheidscriteria, via een aangekondigde Algemene Maatregel van Bestuur. Ook zijn er vrijdag door mij schriftelijke vragen gesteld. Het lijkt mij goed om in de aanloop naar die regeling inhoudelijk met elkaar om tafel te gaan.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u32">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg33">Steun namens de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u33">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg34">De ChristenUnie is altijd kritisch over biomassa en steunt ieder debat om dit punt weer aan de orde te stellen.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u34">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg35">We moeten inderdaad heel voorzichtig zijn met biomassa. Daarom hebben we binnenkort een rondetafelgesprek. Dat richt zich nu specifiek op biobrandstoffen. D66 zou dat graag willen uitbreiden naar biomassa in het algemeen, omdat het vooral om heel veel technische vragen gaat. Hoe zit het precies, wat is waar, hoe komt het terug in de duurzaamheidscriteria? Dat zouden we graag als eerste stap willen doen.</seg>
+            </u>
+            <note>De:</note>
+            <note>Dus voorlopig geen steun?</note>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u35">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg36">Dan kunnen we dan bekijken wat de volgende stap is die we zouden moeten zetten. Misschien is dat de behandeling van die regeling, misschien moet dat een apart debat zijn, maar eerst graag een uitbreiding van het rondetafelgesprek.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u36">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg37">Ik wil alleen maar zeggen dat de uitzending van ZEMBLA misschien wat eenzijdig was. Ik steun dus het voorstel van collega Van Veldhoven om eerst de technische briefing dan wel het rondetafelgesprek af te wachten om alle feitelijke informatie boven tafel te krijgen. Dan kunnen we verder kijken.</seg>
+            </u>
+            <u who="#TomvanderLee" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u37">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg38">Het kappen van bomen om bij te stoken in kolencentrales is het paard achter de wagen spannen. Ik heb zelf al op donderdag schriftelijke vragen gesteld en zie met veel belangstelling uit naar de beantwoording daarvan. Verder sluit ik mij aan bij de suggestie van mevrouw Van Veldhoven.</seg>
+            </u>
+            <u who="#BarryMadlener" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u38">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg39">Er dreigen via deze weg miljarden aan Nederlands belastinggeld te worden opgestookt. Daar is de PVV tegen, dus steun voor het debat.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u39">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg40">Ik steun de intentie van de D66-fractie. Ik zou graag ook een brief zien van het kabinet over het punt dat hier vandaag wordt ingebracht. Dan kunnen we na dat rondetafelgesprek besluiten of we inderdaad graag een debat hierover willen voeren.</seg>
+            </u>
+            <note>De:</note>
+            <note>Mevrouw Beckerman, u hebt geen meerderheid voor het houden van een debat.</note>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u40">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg41">Helaas.</seg>
+            </u>
+            <note>De:</note>
+            <note>Dank u wel. O, u hebt nog een verzoek. Gaat u verder.</note>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u41">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg42">Voorzitter. Ik zou graag om een uitbreiding willen vragen van het vorige week door mevrouw Van Tongeren, met steun van de SP, aangevraagde debat met de minister van Economische Zaken over Groningen, met een minuut spreektijd. Vandaag heeft de Onafhankelijke Raadsman gaswinning een schokkend jaarverslag en aanbevelingen gepresenteerd. Ook verschijnen er weer schokkende berichten op RTV Noord over het heftige verhaal van Jan en Dineke Alberts, wier huis is geruïneerd. Daarom denken wij dat het slim is om het al aangevraagde debat uit te breiden met schadeafhandeling, versterking en de psychische gevolgen van de gaswinning.</seg>
+            </u>
+            <note>De:</note>
+            <note>U vraagt uitbreiding van de spreektijd met een minuut. Ik zie jullie allemaal staan. Ik ga over mijn hart strijken en denk dat dat gaat lukken. Dank jullie wel. Dat hadden jullie niet verwacht!</note>
+            <note>Ik geef het woord aan mevrouw Ouwehand.</note>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u42">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg43">Voorzitter. Er zijn grote problemen met de veehouderij. De omvang van de veestapel heeft met name in Noord-Brabant bijvoorbeeld enorme gevolgen voor de volksgezondheid. Lokale bestuurders zeggen: ik kan dat niet meer voor mijn rekening nemen, het is tijd voor landelijk beleid. Dat signaal is niet nieuw, maar er is wel een politieke crisis ontstaan.</seg>
+            </u>
+            <note>De:</note>
+            <note>En u wilt een debat?</note>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u43">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg44">Daarom denk ik dat het goed is dat wij een debat voeren met de staatssecretaris van Economische Zaken en de minister van VWS over beperking van de veestapel in Nederland.</seg>
+            </u>
+            <u who="#RikGrashoff" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u44">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg45">Van harte steun. Het moet niet gaan over de politieke crisis in Bladel, maar die staat wel model voor een heel fundamenteel probleem in Nederland. We moeten het daar absoluut met elkaar over hebben.</seg>
+            </u>
+            <u who="#JacoGeurts" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u45">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg46">Geen steun. Het is echt een lokale aangelegenheid.</seg>
+            </u>
+            <u who="#HelmaLodders" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u46">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg47">Geen steun voor het verzoek. Het is een lokale kwestie. Anders kunnen Provinciale Staten het debat daarover voeren.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u47">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg48">Ik steun het verzoek wel. Dit gaat over een landelijk probleem dat zich met name in Brabant enorm manifesteert. Dat weten wij, want het is mijn achtertuin.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u48">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg49">Wat mij betreft, wordt dit lokaal op de agenda gezet en anders bij Provinciale Staten. Het hoort niet hier in de Tweede Kamer.</seg>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u49">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg50">Geen steun. Dat moeten ze vooral in Brabant doen.</seg>
+            </u>
+            <u who="#FrankFutselaar" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u50">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg51">Wel steun. Dit staat symbool voor een veel breder probleem.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u51">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg52">Steun.</seg>
+            </u>
+            <note>De:</note>
+            <note>U hebt geen meerderheid, mevrouw Ouwehand.</note>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u52">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg53">De lokale politiek vraagt Den Haag om ten minste een debat te voeren en problemen op te lossen. De reacties uit de zaal zijn tekenend. Ik laat dit staan voor een dertigledendebat.</seg>
+            </u>
+            <note>De:</note>
+            <note>Ik zal het debat toevoegen aan de lijst van dertigledendebatten.</note>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u53">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg54">Dank u wel.</seg>
+            </u>
+            <note>De:</note>
+            <note>Ik geef het woord aan mevrouw Keijzer namens het CDA.</note>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u54">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg55">Voorzitter. We hebben het hier in de Kamer en ook tijdens de campagne heel veel gehad over het eigen risico. We hebben het bijna niet gehad over de eigen betalingen die mensen moeten doen in combinatie met de afschaffing van de tegemoetkomingen en met de hoge eigen bijdrage voor gemeentezorg. Dit leidt tot een stapeling van betalingen voor mensen die afhankelijk zijn van zorg. Ik wil heel graag het debat daarover voeren met de Kamer.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u55">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg56">Zowel het CDA als de PVV heeft tegen de nieuwe Wmo gestemd, waarmee eigen betalingen tot 100% worden geregeld. Ik wil daarom heel graag het verzoek om het debat steunen, maar ik heb een vogeltje horen kwetteren dat het CDA deelneemt aan de formatie. Ik denk dat het CDA dit punt daar moet inbrengen en het daar moet regelen.</seg>
+            </u>
+            <note>De:</note>
+            <note>Steunt u het verzoek of niet? Daar gaat het nu om.</note>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u56">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg57">Zeker, ik steun het verzoek om een debat, maar in een debat kun je zo weinig regelen en in een formatie alles.</seg>
+            </u>
+            <u who="#VeraBergkamp" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u57">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg58">Dat zijn wijze woorden van mevrouw Agema. De fractie van D66 zou eerst een brief willen hebben en dan willen kijken of we die kunnen betrekken bij een van de AO's. Binnenkort stellen we vast welke AO's zullen plaatsvinden. Volgens mij kan het dan sneller.</seg>
+            </u>
+            <note>De:</note>
+            <note>Mevrouw Sazias. Zeg ik uw naam goed?</note>
+            <u who="#LéonieSazias" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u58">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg59">Ja, voorzitter. Saziás mag u ook zeggen. 50PLUS maakt zich ook grote zorgen over die stapeling van eigen bijdragen en steunt daarom dit debat.</seg>
+            </u>
+            <u who="#LilianMarijnissen" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u59">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg60">De fractie van de SP maakt zich ook grote zorgen over de stapeling. Met name de eigen bijdrage is daar een belangrijke factor in, dus in elk geval steun voor dit debat. Mochten mevrouw Keijzer en het CDA er in de formatie nog iets goeds uit kunnen slepen, zijn wij daar van harte voor.</seg>
+            </u>
+            <u who="#SophieHermans" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u60">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg61">Ik sluit mij aan bij de woorden van mevrouw Bergkamp, dus geen steun voor een debat en eerst een brief.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u61">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg62">Steun voor het debat.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u62">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg63">Steun voor de brief en het debat.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u63">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg64">Steun voor een brief en een debat. Ik hoop dat het CDA dit na dat debat meeneemt in het overleg.</seg>
+            </u>
+            <u who="#KeesvanderStaaij" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u64">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg65">We moeten niet alles verwachten van formatietafels, want wat gaat er boven een goed debat? Dus steun daarvoor.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u65">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg66">Daar sluit ik me bij aan.</seg>
+            </u>
+            <note>De:</note>
+            <note>Mevrouw Keijzer, u hebt een meerderheid voor het houden van een debat.</note>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u66">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg67">Dan is het maar goed dat het CDA zich nog niet heeft neergelegd bij de gang van zaken, zoals de PVV kennelijk doet. Ik heb steun. Ik denk dat het goed is dat wij hierover gaan debatteren, want het is een onderwerp waar heel veel mensen zich zorgen over maken. Dat is waar het hier over zou moeten gaan.</seg>
+            </u>
+            <note>De:</note>
+            <note>Tot slot is het woord aan de heer Kwint namens de SP.</note>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u67">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg68">Voorzitter. Wat een schitterend artikel vandaag op de voorpagina van de Volkskrant. Leraren organiseren zichzelf. Ze komen in verzet tegen het rare feit dat ze al jarenlang minder verdienen dan hun collega's op de middelbare school, tegen veel te grote klassen en tegen de idiote werkdruk waaronder ze gebukt gaan. Dat vind ik mooi, dat die mensen zich organiseren. Het tekort aan leraren op de basisschool dreigt alleen maar toe te nemen en dat hangt rechtstreeks samen met de werkdruk en het salaris. Daar is de toekomst van onze kinderen volgens mij net iets te belangrijk voor.</seg>
+            </u>
+            <note>De:</note>
+            <note>En u wilt een debat?</note>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u68">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg69">Daarom, voorzitter, graag een debat, inclusief een brief van het kabinet waarin het reageert op de eisen van onder meer PO in Actie en ingaat op hoe het de afgelopen tijd gegaan is met de uitwerking van het convenant LeerKracht. Daarin zouden immers hogere salarissen voor basisschoolleraren moeten worden meegenomen. Hetzelfde vogeltje als mevrouw Agema noemde, vertelde mij echter dat dat nog niet echt opschiet.</seg>
+            </u>
+            <u who="#BenteBecker" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u69">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg70">Een belangrijk onderwerp dat door de SP wordt aangesneden, de roep vanuit het onderwijs om hogere salarissen. Verbazingwekkend dat de SP dit aanvraagt, want zij bezuinigt een miljard op onderwijs. De VVD wil er graag 200 miljoen bij voor het onderwijs. We kunnen er met elkaar over gaan debatteren, maar volgens mij heeft de kiezer gesproken. De VVD geeft dus geen steun voor dit debat. Ik vind dat dit onderwerp eerst aan de formatietafel moet worden besproken.</seg>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u70">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg71">Mijn eerste neiging was om te zeggen: dit kan ook in een algemeen overleg Leraren. De ChristenUnie vindt dit onderwerp echter zodanig belangrijk dat het wel een plenair debat verdient. Dus steun voor dit debat.</seg>
+            </u>
+            <note>De:</note>
+            <note>Ik dacht dat de campagne voorbij was, maar …</note>
+            <u who="#KirstenvandenHul" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u71">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg72">Ook de PvdA steunt dit debat en vindt het salaris van leraren in het primair onderwijs heel belangrijk.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u72">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg73">Het is een heel sympathiek onderwerp. Er is 30% verschil met de onderbouw van het mbo. 50PLUS steunt dus deze aanvraag.</seg>
+            </u>
+            <u who="#RoelofBisschop" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u73">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg74">Om met een bekend Nederlands politicus te spreken: wat gaat er nu boven een mooi debat? In dit geval zou ik het echter toch in eerste instantie naar de formatietafel willen verwijzen.</seg>
+            </u>
+            <u who="#MichelRog" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u74">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg75">Het is terecht dat de heer Kwint van de SP dit punt aan de orde stelt, maar het is ook aan de orde geweest in een algemeen overleg Leraren net voor de verkiezingen. In dat overleg heb ik zelf een aantal vragen gesteld. Ik heb de staatssecretaris gevraagd te onderzoeken hoe het nu zit met die salarissen, waarbij ik ook de functiemix heb betrokken. De staatssecretaris heeft toegezegd dat hij daarmee terugkomt. Ik stel voor dat we dat onderzoek afwachten. Wellicht dat er tijdens de formatie ook nog aandacht voor kan komen.</seg>
+            </u>
+            <u who="#LisaWesterveld" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u75">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg76">Steun voor dit debat namens de fractie van GroenLinks. Er moet echter nog veel meer gebeuren om het op handen zijnde forse lerarentekort tegen te gaan. Wat ons betreft verbreden we het debat en hebben we het ook over de aantrekkelijkheid van het beroep leraar.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u76">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg77">Vanuit DENK steun voor het debat, omdat onderwijs te belangrijk is om het alleen aan de vier partijen over te laten die met elkaar aan het formeren zijn.</seg>
+            </u>
+            <u who="#HarmBeertema" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u77">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg78">Met deze voorstellen is een kleine 2 miljard gemoeid. Dit demissionaire kabinet gaat er niets meer aan doen, dus ik stel voor om het door te schuiven naar het volgende kabinet.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u78">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg79">Hoewel de Partij voor de Dieren een nieuwe onderwijswoordvoerder heeft, wilde ik persoonlijk de eerste debataanvraag van de heer Kwint van harte steunen, met de groeten van de heer Van Raan.</seg>
+            </u>
+            <u who="#PaulvanMeenen" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u79">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg80">De D66-fractie heeft nog helemaal geen onderwijswoordvoerder want wij hebben onze portefeuilles nog niet verdeeld, maar ik waag het erop: geen steun.</seg>
+            </u>
+            <note>De:</note>
+            <note>Mijnheer Kwint, u hebt geen meerderheid.</note>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u80">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg81">Ik wacht vol enthousiasme op de nieuwe onderwijswoordvoerder van D66 in dat geval.</seg>
+            </u>
+            <note>(Hilariteit)</note>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u81">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg82">Ik telde wel een hele hoop mensen. Telt dat ook mee?</seg>
+            </u>
+            <note>De:</note>
+            <note>Ja, ik zag het ook.</note>
+            <u who="#PeterKwint" ana="#regular" xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.u82">
+               <seg xml:id="ParlaMint-NL_2017-03-28-tweedekamer-8.seg83">Ik word doorverwezen naar de formatietafel, maar ik vrees dat ik daarvoor even terug moet naar mijn fractie.</seg>
+            </u>
+            <note>De:</note>
+            <note>Daar gaan we het straks over hebben! U hebt geen meerderheid. Ik stel voor, het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</note>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

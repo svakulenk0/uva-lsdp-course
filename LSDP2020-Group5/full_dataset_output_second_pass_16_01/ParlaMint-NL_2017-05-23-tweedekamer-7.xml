@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-05-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-05-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 78, Session 7 (2017-05-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 78, Session 7 (2017-05-23)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="78">Meeting 78</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="137">137 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="137">137 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-05-23">2017-05-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="6"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-05-23">2017-05-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.seg1">Voordat we gaan stemmen geef ik de heer Van Helvert het woord.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.seg2">Voorzitter, excuus dat ik hier weer sta met eigenlijk hetzelfde verzoek als vorige week. Ik had het vorige week gedaan zodat ik in de procedurevergadering een nieuw voorstel kon doen, met collega's. Die procedurevergadering is morgen. Daarom vraag ik even nog één keer uitstel. Dan komt er een nieuw voorstel vanuit de commissie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.seg3">Het gaat om punt 3 van de stemmingslijst, de stemmingen over de lijst van controversiële onderwerpen, onderdeel I. Helder. Dat is prima. Ik zie niemand daartegen bezwaar maken. Dit is dus akkoord.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.seg4">Mevrouw Dik-Faber.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.seg5">Voorzitter. Ik wil onder punt 8 van de stemmingslijst, de stemmingen over moties ingediend bij het debat over het fosfaatreductieplan, mijn motie op stuk nr. 206 over het versterken van de positie van jonge boeren graag aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2017-05-23-tweedekamer-7.seg6">Oké.</seg>
+            </u>
+            <note>Op verzoek van mevrouw Dik-Faber stel ik voor, haar motie (33037, nr. 206) aan te houden.</note>
+            <note>Daartoe wordt besloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

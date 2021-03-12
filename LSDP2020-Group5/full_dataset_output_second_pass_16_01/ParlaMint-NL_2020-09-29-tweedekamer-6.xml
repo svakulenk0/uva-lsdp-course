@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-09-29 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-09-29 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 7, Session 6 (2020-09-29)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 7, Session 6 (2020-09-29)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="7">Meeting 7</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="161">161 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="161">161 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-09-29">2020-09-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="7"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-09-29">2020-09-29</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.seg1">Ik geef het woord aan de heer Omtzigt namens het CDA en daarna aan de heer Van Meenen namens D66.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.seg2">Voorzitter. Ik ben al een tijd bezig om een amendement te maken. Dat vergt wat langer de tijd met heen-en-weer en heen-en-weer en heen-en-weer. Daarom zou ik willen vragen om de stemmingen over de Fiscale verzamelwet nog een week aan te houden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.seg3">Dat zijn de agendapunten 5 en 6. Heeft iemand daar bezwaar tegen? Nee. Dan gaan we niet stemmen over de agendapunten 5 en 6.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.seg4">De heer Van Meenen.</seg>
+            </u>
+            <u who="#PaulvanMeenen" ana="#regular" xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.seg5">Voorzitter. Ik zou willen vragen om de stemmingen over de initiatiefwet zerodays van collega Verhoeven met een week uit te stellen in verband met het ontbreken van een van de fracties vandaag.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.seg6">Heeft iemand daar bezwaar tegen? Het gaat om de agendapunten 16 en 17, het initiatiefwetsvoorstel van de heer Verhoeven. Iedereen is akkoord. Dan gaan we daar op een ander moment over stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-29-tweedekamer-6.seg7">Dan gaan we nu naar de stemmingslijst.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

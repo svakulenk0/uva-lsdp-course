@@ -1,0 +1,392 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-10-03 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-10-03 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 9, Session 10 (2019-10-03)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 9, Session 10 (2019-10-03)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="9">Meeting 9</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="10">Session 10</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="49">49 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="49">49 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3893">3893 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3893">3893 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-10-03">2019-10-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="74"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="49"/>
+               <tagUsage gi="note" occurs="137"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-10-03">2019-10-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Justitiële jeugd</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg1">Hartelijk welkom aan de minister voor Rechtsbescherming. Wij beginnen met de eerste termijn van de zijde van de Kamer. Het woord is aan de heer Renkema namens de GroenLinks-fractie.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg2">Voorzitter, dank u wel. Ik vervang mijn collega Van den Berge, die deelnam aan het algemeen overleg. Ik dien twee moties in, allereerst een motie voor het behoud van de jeugdgevangenissen in het noorden van Drenthe en in Zuid-Limburg. Wij vinden het belangrijk dat jeugddelinquenten in de eigen regio in detentie worden gehouden, zodat hun sociale netwerk, hun familie en vrienden, nabij blijft. Ook lijntjes met reclassering en hulpverlening blijven op deze manier kort. Dit alles helpt, zo denken wij, bij de terugkeer in de samenleving. Vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering voornemens is de jeugdgevangenissen Het Poortje Juvaid in Veenhuizen en Via Het Keerpunt in Cadier en Keer te sluiten;</note>
+               <note>overwegende dat detentie in de eigen regio cruciaal is voor succesvolle resocialisatie en re-integratie van jeugddelinquenten;</note>
+               <note>overwegende dat de specialistische jeugdzorgkennis die beschikbaar is in deze justitiële jeugdinrichtingen behouden moet blijven voor Groningen Friesland, Drenthe, Overijssel, Limburg en Oost-Brabant;</note>
+               <note>verzoekt de regering af te zien van de sluiting van jeugdgevangenissen Het Poortje Juvaid in Veenhuizen en Via Het Keerpunt in Cadier en Keer,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Renkema, Van den Berge, Van Nispen en Kuiken. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-56</note>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg3">Het noorden van het land, Overijssel en ook de regio Limburg en Oost-Brabant verliezen bij het sluiten van deze twee voorzieningen volgens ons belangrijke deskundigheid. Wij willen heel graag dat deze medewerkers behouden blijven voor de regio. Vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering voornemens is de jeugdgevangenissen Het Poortje Juvaid in Veenhuizen en Via Het Keerpunt in Cadier en Keer te sluiten;</note>
+               <note>overwegende dat de specialistische jeugdzorgkennis die beschikbaar is in deze justitiële jeugdinrichtingen behouden moet blijven voor Groningen, Friesland, Drenthe, Overijssel, Limburg en Oost-Brabant;</note>
+               <note>verzoekt de regering in gesprek te gaan met medewerkers van Het Poortje Juvaid en Via Het Keerpunt, gemeenten, civiele jeugdhulporganisaties en andere relevante instanties om te bezien wat de mogelijkheden zijn om de medewerkers voor de regio te behouden en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Renkema, Van den Berge, Van Nispen en Kuiken. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-57</note>
+            </u>
+            <note>Ik dank u voor uw inbreng. Dan is nu het woord aan mevrouw Agnes Mulder, namens het CDA.</note>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg4">Voorzitter. Ook ik vervang een collega, namelijk mevrouw Van Toorenburg. Wij kijken terug op een bewogen commissiedebat, dat over heftige kwesties ging. De ouders van door jeugdigen vermoorde kinderen hadden net een petitie aangeboden en wij bespraken de op handen zijnde sluiting van twee justitiële jeugdinrichtingen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg5">Allereerst kom ik namens het CDA terug op de petitie. Ik benadruk hier nog eens dat wij nog altijd voorstander zijn van een verhoging van de strafmaat. Dat is ook in het belang van de jeugdigen zelf. Vooralsnog nemen wij echter genoegen met het toegezegde onderzoek. Wij vragen dan wel graag extra aandacht voor de groep adolescenten voor wie de aanpak wat betreft onderwijs en arbeidstoeleiding nog altijd niet specifiek en effectief genoeg is. Daarom de volgende motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg6">Een ogenblik. U krijgt eerst een interruptie van de heer Markuszower.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg7">Ik begrijp het niet helemaal. In het debat, maar zeker ook in de media heeft het CDA, volgens mij bij monde van mevrouw Van Toorenburg, de collega van mevrouw Mulder, geroepen dat ze de strekking van de petitie steunt en voorstander is van het verhogen van de straffen. Maar begrijp ik nu dat het CDA genoegen neemt met alleen maar een onderzoekje daarnaar? De CDA gaat dus niet pleiten voor hogere straffen?</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u7">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg8">Hier wreekt zich natuurlijk dat mevrouw Van Toorenburg hier niet zelf staat. Zij staat hier niet zelf vanwege persoonlijke omstandigheden. Ik geef het maar even aan, collega. Ik geleid die vraag graag door naar mevrouw Van Toorenburg en dan krijgt de heer Markuszower daar zeker een antwoord op. Ik weet dat mevrouw Van Toorenburg in eerste instantie heeft gevraagd om een onderzoek en dat daar een toezegging op is gekomen. Ik ken mevrouw van Toorenburg goed genoeg om te weten dat als dit niet afdoende zou zijn, zij daar zeker werk van zou maken.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u8">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg9">Dank u voor het antwoord. Ik zal zelf in mijn termijn een motie indienen die ziet op het verhogen van de straffen voor jeugddelinquenten. Ik hoop dat het CDA, net zoals ze in de media doet, zal zeggen dat ze daar voorstander van is en aanstaande dinsdag voor mijn motie zal stemmen.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u9">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg10">Ik breng het aan haar over.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering heeft toegezegd onderzoek uit te zullen laten voeren naar de strafmaat voor jeugdigen;</note>
+               <note>constaterende dat met name de strafrechtelijke afdoening van delicten gepleegd door adolescenten nog altijd niet optimaal is;</note>
+               <note>verzoekt de regering in de onderzoeksopzet naar de strafmaat ook mee te nemen de vraag op welke punten de aanpak van de jongvolwassenen verder kan worden verbeterd,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Agnes Mulder en Van Wijngaarden. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-58</note>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u10">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg11">De sluiting van de justitiële jeugdinrichtingen heeft ook ingrijpende gevolgen voor het personeel. De minister heeft in een commissiedebat gezegd dat dat in de eerste plaats de verantwoordelijkheid van de werkgever is. Wij zijn van mening dat het een gedeelde verantwoordelijkheid is, zeker na ruim 40 jaar inkoop en zorg voor deze moeilijke doelgroep. Dat schept verplichtingen. Vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering voornemens is justitiële jeugdcapaciteit af te bouwen met de sluiting van twee justitiële jeugdinrichtingen tot gevolg;</note>
+               <note>constaterende dat dit besluit grote consequenties heeft voor het personeel dat zich in de afgelopen jaren onvermoeibaar en met grote betrokkenheid heeft ingezet voor ontspoorde jeugdigen;</note>
+               <note>verzoekt de regering zich actief in te zetten voor herplaatsingen om recht te doen aan de inzet van het personeel en om zo veel mogelijk te voorkomen dat kennis en ervaring verloren gaat,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Agnes Mulder, Van Wijngaarden, Groothuizen en Van der Graaf. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-59</note>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u11">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg12">Ik zal de andere moties ook graag onder de aandacht brengen van mijn collega.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg13">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u12">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg14">Dank u wel. Dan is nu het woord aan de heer Van Nispen namens de Socialistische Partij.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u13">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg15">Dank u wel, voorzitter. De SP vindt het sluiten van de enige jeugdgevangenis in Limburg en de enige jeugdgevangenis in het noorden van het land een heel erg onverstandig besluit. Het is slecht voor de kwaliteit, slecht voor de jongeren waar het om gaat, slecht voor alle betrokkenen, slecht voor de regio, slecht voor de keten, noem het allemaal maar op. We gaan dus ook niet instemmen met deze kapitaalvernietiging. Moties van GroenLinks die dat proberen te voorkomen, hebben we natuurlijk van harte medeondertekend. Zelf heb ik ook nog drie voorstellen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering voornemens is twee justitiële jeugdinrichtingen te sluiten, één in het noorden van het land en één in het zuiden van het land en daarvoor in de plaats kleinschalige voorzieningen in het leven wil roepen;</note>
+               <note>overwegende dat er nog geen garanties zijn voor financiering van de kleinschalige voorzieningen en een gedegen financiële onderbouwing voor de plannen ontbreekt;</note>
+               <note>overwegende dat betrokkenen aangeven dat de sluiting te snel gaat en de kleinschalige voorzieningen ook niet binnen de gestelde termijn opgericht kunnen worden;</note>
+               <note>verzoekt de regering nu geen onomkeerbare stappen te zetten met de sluitingen en eerst te zorgen voor de realisatie van de kleinschalige voorzieningen, en een volledige financiële onderbouwing van de sluitingsplannen aan de Kamer te sturen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat twee justitiële jeugdinrichtingen die al jarenlang goed werk leveren in opdracht van de overheid gesloten worden, waarvan een op zeer korte termijn;</note>
+               <note>van mening dat deze justitiële jeugdinrichtingen weliswaar formeel niet onder de overheid vallen omdat het hier om particuliere instellingen gaat, maar dat de beginselen van behoorlijk bestuur met zich meebrengen dat bij de sluiting van jeugdgevangenissen uiterste zorgvuldigheid wordt betracht, zeker in de richting van het personeel;</note>
+               <note>verzoekt de regering invulling te geven aan de zorgplicht richting de medewerkers die geraakt worden door de sluiting van de justitiële jeugdinrichtingen, door ervoor te zorgen dat er ruimte is voor ordentelijke vertrek- en doorstroomregelingen voor werknemers en daarnaast alles op alles te zetten de aanwezige kennis en expertise te behouden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat met de sluitingen van de justitiële jeugdinrichtingen in Veenhuizen en Cadier en Keer ook de daaraan verbonden instellingen voor speciaal onderwijs voor een voldongen feit worden geplaatst, op kosten worden gejaagd en daarmee in het voortbestaan bedreigd worden;</note>
+               <note>van mening dat deze kennis en expertise niet verloren mag gaan;</note>
+               <note>verzoekt de regering ervoor te zorgen dat de specifieke deskundigheid van de medewerkers van het samenwerkingsverband passend onderwijs behouden blijft, bijvoorbeeld door hen van begin af aan deel te laten nemen en bij te laten dragen aan de nog te ontwikkelen kleinschalige voorzieningen in deze regio's,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Nispen, Van den Berge en Kuiken. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-60</note>
+               <note>Deze motie is voorgesteld door de leden Van Nispen, Van den Berge en Kuiken. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-62</note>
+               <note>Deze motie is voorgesteld door de leden Van Nispen, Van den Berge en Kuiken. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-61</note>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u14">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg16">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u15">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg17">Dank u wel. Dan is nu het woord aan de heer Van Wijngaarden namens de VVD.</seg>
+            </u>
+            <u who="#JeroenvanWijngaarden" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u16">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg18">Dank u, voorzitter. Ik heb geen moties, maar ik wil hier wel graag nog twee zaken markeren.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg19">Ten eerste het punt van het onderzoek naar zwaardere straffen. We zijn blij met de toezegging om het WODC dat onderzoek uit te laten voeren. Ik ben wel benieuwd wanneer we de opzet als Kamer mogen verwachten, want de ervaring leert dat die WODC-onderzoeken nogal weerbarstig kunnen zijn, ook in timing. Ik hoop dat daarin ook kan worden meegenomen dat de rechtsgevoelens in de samenleving ook iets zijn om rekening mee te houden, en niet alleen de mening van deskundigen. Deskundigen zeggen dat het niet altijd helpt om iemand gevangen te zetten, en juist niet bij jeugd. Ik zou zeggen: je kunt al vanaf dag één beginnen met behandelen. Het allerergste wat je kan overkomen als ouder, is dat je kind slachtoffer wordt van zowel een ernstig zedendelict als een ernstig geweldsdelict. Nabestaanden zeggen: alleen al voor dat eerste zit je aan de maximumstraf. Dat blijft dus een dilemma waar wij mee zitten. Ik hoop dat dat dilemma grondig aan de orde komt in dat WODC-onderzoek. Graag wat opmerkingen daarover van de minister.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg20">Ten aanzien van de regio's zullen wij nauwlettend volgen dat minister De Jonge, die er vandaag niet bij hoefde te zijn, ervoor zorgt dat als een ouder in de regio, in het noorden of in het zuiden, een kind heeft dat zorg nodig heeft, bijvoorbeeld gesloten jeugdzorg, dat dan ook kan. Daar hebben we goede afspraken over gemaakt, maar wij gaan nauwlettend in de gaten houden dat die ook worden nagekomen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg21">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u17">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg22">U ook bedankt. Dan is nu het woord aan de heer Markuszower namens de PVV.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u18">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg23">Dank u wel, voorzitter. Naar aanleiding van het gehouden AO, zou ik graag drie moties willen indienen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg24">Motie 1 luidt als volgt.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de maximale jeugddetentie voor 12- tot 14-jarigen één jaar is en voor 16- tot 18-jarigen twee jaar;</note>
+               <note>overwegende dat slachtoffers of nabestaanden met de huidige jeugdstraffen geen of nauwelijks genoegdoening ervaren en de maatschappij onvoldoende beschermd wordt;</note>
+               <note>overwegende dat de petitie Verhoog jeugdstraffen, die oproept de jeugdstraffen te verhogen, op brede steun kan rekenen;</note>
+               <note>verzoekt de regering de celstraffen in het jeugdstrafrecht te verdubbelen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Markuszower. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-63</note>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u19">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg25">Dank u wel. De tweede motie luidt als volgt.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat Marokkaanse jongeren (van 12 tot 18 jaar) 3,5 keer vaker verdachte zijn van een misdrijf dan Nederlandse jongeren;</note>
+               <note>overwegende dat Marokkanen met een dubbele nationaliteit die een geweldsdelict hebben gepleegd gedenaturaliseerd dienen te worden;</note>
+               <note>overwegende dat ouders verantwoordelijk zijn voor de daden van hun minderjarige kinderen;</note>
+               <note>verzoekt de regering relatief jonge daders met een dubbele nationaliteit die een geweldsmisdrijf hebben gepleegd na het uitzitten van de straf de Nederlandse nationaliteit af te nemen alsook van hun directe familieleden en hen vervolgens het land uit te zetten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Markuszower. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-64</note>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u20">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg26">Ik heb hier toch even een vraag over. Begrijp ik deze motie nou goed? De PVV stelt voor dat als iemand een crimineel feit begaat en daarvoor veroordeeld wordt, familieleden, die daar natuurlijk helemaal niks aan kunnen doen, dan ook een straf krijgen. Begrijp ik dat goed?</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u21">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg27">Het is niet per se een straf, maar een maatregel. Het gaat hier om minderjarige delinquenten. Ik vind, en misschien vindt u dat ook wel, dat ouders altijd verantwoordelijk zijn voor de daden van hun minderjarige kinderen. Als je die minderjarige kinderen moet denaturaliseren omdat zij een strafbaar feit hebben gepleegd en zij nou eenmaal die dubbele nationaliteit hebben, dan is het toch logisch dat die ouders, die verantwoordelijk zijn voor de daden van het kind, dezelfde maatregel opgelegd krijgen?</seg>
+            </u>
+            <u who="#RensRaemakers" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u22">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg28">D66 vindt dit wel echt een grens overgaan. Dit past niet binnen ons strafrecht. Dit is ook in strijd met internationale verdragen. Dit is gewoon unfair. Mensen zijn zelf verantwoordelijk voor hun daden. Daarom hebben we ook het jeugdstrafrecht: jongeren zijn strafrechtelijk verantwoordelijk voor hun eigen daden. En om daar dan familieleden ook een straf voor te geven, gaat wat D66 betreft een grens over.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u23">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg29">De winst is wel dat D66 het blijkbaar geen grens meer over vindt gaan dat meerderjarige Marokkanen die een misdaad hebben gepleegd en de dubbele nationaliteit bezitten, wel gedenaturaliseerd kunnen worden, blijkens de interruptie van de heer Raemakers. Dat is dus winst in dit debat; dat is mooi. Maar ja, oké, dan verschillen we van mening. Ik vind dat ouders verantwoordelijk zijn voor de daden van hun minderjarige kinderen. Het is dus heel erg logisch dat als het kind een maatregel opgelegd krijgt omdat het iets stouts heeft gedaan, de ouders dezelfde maatregel opgelegd krijgen.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u24">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg30">Geldt dat ook voor Nederlandse ouders zonder dubbele nationaliteit? Krijgen die ook een extra maatregel opgelegd door de PVV?</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u25">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg31">Als je een enkelvoudige nationaliteit hebt, is het nog lastiger om die af te nemen. Je zou er wat mij betreft wel over na kunnen denken, hoor, bij veel ernstigere misdaden, zoals terrorisme, maar dat is een heel andere discussie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg32">Over het algemeen ben ik van mening dat als een minderjarig kind van ouders met een enkelvoudige nationaliteit bijvoorbeeld schade veroorzaakt, de ouders die schade zouden moeten betalen; misschien is dat nu al de wet. Als een minderjarig kind door het plegen van een misdrijf schade veroorzaakt of iemand schade berokkent, wie moet dan die schade vergoeden? Volgens mij zijn dat volgens de Nederlandse wet nu ook al de ouders of de voogden. Dat is dus eigenlijk al de wet. Eigenlijk zeg ik hier niet eens wat nieuws. Ik breng hier helemaal niets nieuws, behalve het feit van het denaturaliseren, dat natuurlijk een nieuw iets is, maar de gedachte dat ouders verantwoordelijk zijn voor de daden van hun kind, is niet nieuw.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u26">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg33">Maar het is een redelijk verstrekkende maatregel die u voorstelt. Ik ben benieuwd of u zo'n zelfde soort maatregel voorstelt voor Nederlandse ouders. Dat zou ik graag van u willen weten, want u bent toch niet voor ongelijke behandeling, denk ik?</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u27">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg34">De ongelijkheid zit hem in de vraag of iemand een enkelvoudige of een dubbele nationaliteit heeft. Bij een dubbele nationaliteit kan je kijken of je de de Nederlandse nationaliteit kunt afpakken. Als iemand alleen maar de Nederlandse nationaliteit heeft, is dat anders. Dat zijn geen gelijke gevallen. Gelijke gevallen moet je gelijk behandelen, maar dit zijn geen gelijke gevallen. Het ene ouderkoppel heeft een delinquente zoon met een dubbele nationaliteit; dan kan je daar iets aan doen. Als er geen sprake is van een dubbele nationaliteit maar van een enkelvoudige nationaliteit, ligt dat anders, want die kan je niet of lastiger afpakken.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u28">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg35">Ik vroeg me af of dit voorstel, dat ik inderdaad vrij ver vind gaan, ook geldt voor jongeren die bijvoorbeeld nog nooit in het land van een andere nationaliteit zijn geweest, die gewoon in Nederland zijn geboren en opgegroeid en nog nooit één stap in Marokko hebben gezet. Geldt het voor hen net zo goed?</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u29">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg36">Ja, eigenlijk wel. Als mensen het vervelend vinden om een dubbele nationaliteit te hebben omdat daar extra problemen mee komen, dan moeten ze maar zorgen dat ze geen dubbele nationaliteit hebben. Ook dat is eigenlijk een verantwoordelijkheid van die ouders. Die moeten er maar voor zorgen dat hun kinderen niet worden geboren met een dubbele nationaliteit, zodat die ook niet kan worden afgepakt. Overigens is dit geheel in lijn met de gedachte achter de huidige wet. Ook de Nederlandse wet is niet zo'n groot voorstander van een dubbele nationaliteit. Er zijn wat uitzonderingscategorieën, waardoor mensen nog een dubbele nationaliteit hebben, maar het is niet zo dat wij als Kamer het prettig vinden dat mensen een dubbele nationaliteit hebben in Nederland, want de wet sluit dat eigenlijk uit.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u30">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg37">Ik ken die Rijkswet op het Nederlanderschap, maar het feit dat mensen niet van hun Marokkaanse nationaliteit af kunnen, is niet hun keuze. Dat wordt niet bepaald door de Nederlandse wet, maar door de Marokkaanse wet.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u31">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg38">Maar het is ook niet ons probleem. Het is hun probleem.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u32">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg39">Dat kunt u zo zeggen, "dat is niet ons probleem", maar ik vind wel dat we hier met doordachte voorstellen moeten komen. Ik vroeg me af of de heer Markuszower werkelijk mensen die tegen hun zin nog de nationaliteit van een ander land hebben en die nog nooit in dat andere land zijn geweest, de Nederlandse nationaliteit af zou willen pakken, maar kennelijk is het antwoord "ja".</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u33">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg40">Op zich zeg ik hier niks nieuws. De PVV zegt al jaar en dag dat veroordeelde criminelen met een dubbele nationaliteit na het uitzitten van hun straf de Nederlandse nationaliteit moet worden afgepakt en dat die criminelen het land moeten worden uitgezet. Dat is geen nieuw standpunt. Het enige nieuwe wat ik nu inbreng — maar dat is gewoon gededuceerd — is een punt over kinderen met zo'n dubbele nationaliteit. Die ouders zijn verantwoordelijk voor de daden van hun kinderen, dus die gaan mee. Maar het is geen nieuwe gedachte die ik hier inbreng. Het is een gededuceerde gedachte, een uitvloeisel van ons oude standpunt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u34">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg41">U vervolgt uw betoog.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u35">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg42">Dat is dan de derde motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat relatief jonge daders van de meest gruwelijke misdrijven zoals moord doodslag en verkrachting in Nederland amper straf krijgen;</note>
+               <note>overwegende dat dit onverteerbaar is voor de slachtoffers en nabestaanden en de maatschappij onvoldoende wordt beschermd;</note>
+               <note>verzoekt de regering te regelen dat daders van 14 jaar en ouder die een ernstig geweldsmisdrijf hebben gepleegd altijd op grond van het volwassenenstrafrecht berecht worden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Markuszower. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-65</note>
+            </u>
+            <note>Dan is nu het woord aan mevrouw Kuiken namens de Partij van de Arbeid.</note>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u36">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg43">Voorzitter. Ik heb tijdens het debat al aangegeven dat ik het besluit dat nu voorligt voor de sluiting van deze twee jeugdgevangenissen, deze twee justitiële jeugdinrichtingen, onverstandig vind. Het zal dan ook niet verbazen dat de moties die ik indien, in het verlengde liggen van de moties die eerder zijn ingediend, onder anderen door collega's van GroenLinks en de SP.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering zich heeft voorgenomen om in de regio Noord en in de regio Zuid ieder één kleinschalige voorziening op te richten;</note>
+               <note>van mening dat voor een goed functionerend regionaal aanbod voor delinquente jeugdigen ofwel een jji dan wel een kleinschalige voorziening met een deugdelijke inbreng van expertise en passende methodiek nodig is;</note>
+               <note>van mening dat met de huidige contouren en onzekerheden het tijdpad met betrekking tot het opzetten van kleinschalige voorzieningen in de regio risicovol is voor de ontwikkeling van een goede regionale jeugdforensische aanpak;</note>
+               <note>verzoekt de regering ervoor te gaan zorgen dat er in de regio's waar geen jji/kleinschalige voorziening voor jongeren komt per regio wel een kleinschalige voorziening neergezet wordt die de gewenste functie kan vervullen in het jeugdforensisch veld,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Kuiken, Van Nispen en Van den Berge. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-66</note>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u37">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg44">Het tweede punt dat ik heel kwalijk vind, is dat het kabinet wel voornemens is om kleinschalige voorzieningen op te starten, maar daarvoor niet het benodigde budget levert, dus met andere woorden: zoek het uit. Dat vind ik onacceptabel, dus daarom de volgende motie:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering voornemens is twee justitiële jeugdinrichtingen te sluiten, één in het noorden van het land en één in het zuiden van het land, maar dat er op deze plaatsen kleinschalige voorzieningen zullen worden gerealiseerd;</note>
+               <note>overwegende dat er nog geen garanties zijn voor financiering van de civielrechtelijk te plaatsen jongeren en dat het nog onzeker is of gemeenten deze extra kosten gaan dragen;</note>
+               <note>verzoekt de regering ervoor garant te staan dat deze civielrechtelijke plaatsen er gaan komen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Kuiken, Van Nispen en Van den Berge. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-67</note>
+            </u>
+            <note>Dank u voor uw inbreng. Dan is nu het woord aan mevrouw Van der Graaf namens de ChristenUnie.</note>
+            <u who="#StienekevanderGraaf" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u38">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg45">Dank u wel voor het woord, meneer de voorzitter. Meneer de voorzitter, we hebben een pittig AO gehad met heftige onderwerpen. De ChristenUnie steunt het onderzoek dat de minister heeft toegezegd te doen naar passende jeugdstraffen. Dat doet ook recht aan de petitie die we hebben ontvangen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg46">Een ander indringend besluit waar we over hebben gesproken is de sluiting van twee jeugdinrichtingen. De ChristenUnie vindt het van belang dat die sluiting plaatsvindt met toekomstperspectief voor de mensen die door dit besluit worden geraakt. In eerste instantie denken wij aan de medewerkers, de mensen die daar met hart en ziel zich iedere dag inzetten voor de jongeren die daar verblijven. Daarom hebben wij de motie mede ingediend om de minister op te roepen om zich echt actief ervoor in te zetten dat deze medewerkers op een andere plek aan het werk kunnen gaan. Op dat punt zien wij een verantwoordelijkheid voor de overheid.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg47">Ik heb een motie over de toekomst van het justitieel complex in Veenhuizen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat wordt voorgesteld om de jeugdgevangenis Juvaid in Veenhuizen te sluiten per 1 januari 2021;</note>
+               <note>verzoekt de regering om voor het einde van dit kalenderjaar in overleg te treden met provinciale en lokale overheden en de DJI over hoe er op korte en middellange termijn kan worden omgegaan met gebouwen en percelen van de pi-voorzieningen in Veenhuizen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van der Graaf, Van Toorenburg, Kuiken, Van Wijngaarden en Renkema.</note>
+               <note>Zij krijgt nr. kst-28741-68</note>
+            </u>
+            <u who="#StienekevanderGraaf" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u39">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg48">Voorzitter. Ik heb naar aanleiding van de forse recidivecijfers een motie over de re-integratie van jeugddelinquenten. Het is een voorstel van een werkgroep van de jongeren van de ChristenUnie, PerspectieF. Die werkgroep hield zich bezig met het onderwerp "jongeren in de gevangenis".</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat uit onderzoek van het WODC blijkt dat er de afgelopen jaren een stijging van recidive van jeugdige daders plaatsvond naar 38% binnen twee jaar;</note>
+               <note>overwegende dat bij re-integratie goede begeleiding van belang is en dat het van toegevoegde waarde is wanneer die re-integratie ook na het verlaten van de jji wordt voortgezet;</note>
+               <note>verzoekt de regering in de begeleiding van jongeren met jeugddetentie dan wel met een PIJ-maatregel in te zetten op begeleiding die voortgezet wordt in het kader van re-integratie, nadat de jongere de jji heeft verlaten en op de uitwerking terug te komen in de eerstvolgende voortgangsrapportage,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van der Graaf en Raemakers. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28741-69</note>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u40">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg49">Daarmee zijn we aan het einde gekomen van de termijn van de zijde van de Kamer. De minister wil gelijk reageren, maar hij heeft nog niet alle moties. Ik stel voor dat we daar even op wachten en schors een minuutje.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u41">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg50">Aan de orde is de voortzetting van de behandeling van het verslag van het algemeen overleg Justitiële Jeugd. Het woord is aan de minister voor Rechtsbescherming. Gaat uw gang.</seg>
+            </u>
+            <u who="#SanderDekker" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u42">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg51">Veel dank daarvoor, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg52">We hebben op 25 september een goed maar ook best heftig debat gehad over een aantal zware onderwerpen. We hebben, ook vanavond weer, veel gesproken over te sluiten instellingen. Het is een ongelooflijk lastig besluit, maar tegelijkertijd zitten we wel met twee problemen: het probleem van de enorme overcapaciteit en tegelijkertijd de sterke behoefte om meer te doen aan differentiatie. Ik begrijp dat het pijn doet, maar ik kies ervoor om die overcapaciteit aan te pakken en over te gaan tot aan de ene kant afstoting en aan de andere kant gelijktijdige investeringen in meer maatwerk. Het is dus geen bezuiniging, maar, hoe zwaar en ingewikkeld ook, een echte investering in de toekomst.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg53">Ik telde veertien moties.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u43">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg54">Dat is correct. Dat klopt.</seg>
+            </u>
+            <u who="#SanderDekker" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u44">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg55">Ik ga ze langs en begin met de motie op stuk nr. 56. Het is goed dat de fundamentele vraag op tafel ligt, maar u begrijpt dat ik die motie moet ontraden. Met de motie op stuk nr. 57 kan ik goed uit de voeten. Ze vraagt mij om een inspanning te plegen. Oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg56">De motie op stuk nr. 58: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg57">De motie op stuk nr. 59: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg58">De motie op stuk nr. 60 zegt eigenlijk: begin pas met het afstoten van capaciteit als de kleinschalige voorzieningen volledig staan. Ik moet die motie ontraden, ook omdat de investeringen die wij doen in die kleinschalige voorzieningen pas mogelijk worden omdat we ook een aantal pijnlijke besluiten nemen. Ze kunnen niet hand in hand gaan. Daarom ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg59">De motie op stuk nr. 61.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u45">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg60">Een ogenblik. Een interruptie van de heer Van Nispen.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u46">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg61">De minister rechtvaardigde zijn plannen in het algemeen overleg wel deels door te zeggen: het is niet zo heel erg voor de regio, want voor de jeugdgevangenis die dichtgaat, komt een kleinschalige voorziening in de plaats. Alleen hebben we geen idee hoelang dat nog duurt. Dus als de minister zegt dat het hem inderdaad om het belang van de jeugdigen gaat en dat dat voorop staat, en dat het niet is zoals de heer Van Nispen in het AO zei, namelijk dat het belang van het geld voor de minister voorop staat, dan zou deze motie oordeel Kamer moeten krijgen. Want natuurlijk gaat het dan hand in hand en sluit je pas iets als de vervanging ervan gerealiseerd is. Dat lijkt mij volstrekt logisch.</seg>
+            </u>
+            <u who="#SanderDekker" ana="#regular" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u47">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg62">We hebben tegelijkertijd te maken met een enorme overcapaciteit. Het is dus niet zo dat de jongeren uit Noord en Zuid nergens terechtkunnen. Dat kunnen ze ook nog als er bijvoorbeeld in Zuid — daar speelt het op de meest korte termijn, in Cadir en Keer — overgegaan wordt tot sluiting. Wij denken overigens dat het ook mogelijk moet zijn om daar binnen afzienbare tijd een kleinschalige voorziening op te starten. We hebben ook een kleinschalige voorziening in Amsterdam die gefinancierd moet worden. We willen kleinschalige voorzieningen ook in Maastricht en in het noorden gaan opstarten. Het is één geheel pakket. Dus nu geen onomkeerbare besluiten nemen over de af te stoten jji's en eerst de rest maar eens opbouwen ... Ik begrijp de wens en de vraag van uw kant, maar je kunt die twee dingen niet tegelijk doen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg63">Dan de motie op stuk nr. 61 over de zorgplicht. Die motie ontraad ik. Ook hiervoor geldt dat wij natuurlijk wel een inspanningsverplichting willen aangaan. Dat willen we best doen, maar een zorgplicht, een doorstroomregeling en een vertrekregeling vind ik uit principe een taak van de opdrachtgevers en niet zozeer van de subsidieverstrekker.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg64">Voorzitter. Met de motie op stuk nr. 62 zou ik uit de voeten kunnen, als ik haar mag interpreteren als zo'n inspanningsverplichting. Deze is ook iets minder strak geformuleerd. De minister van OCW is ook al in gesprek met het bestuur van de scholen die zijn verbonden aan de jji's in Cadir en Keer en in Huizen, om te kijken wat er gedaan kan worden om die expertise te behouden. Oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg65">Drie moties van de PVV. De motie op stuk nr. 63 over de verdubbeling van de celstraffen in het jeugdstrafrecht ontraad ik. Met het oog op het onderzoek dat gaat lopen is die motie prematuur.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg66">De motie op stuk nr. 64 ontraad ik. U kent de discussie over de mogelijkheden die er zijn om een nationaliteit af te nemen, maar dat is in heel specifieke gevallen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg67">De motie op stuk nr. 65 ontraad ik, omdat we juist een heel goede discussie hebben gehad over jeugdstrafrecht en adolescentenstrafrecht, en over hoe je daarmee een opbouwend regime krijgt richting het volwassenenstrafrecht.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg68">De motie op stuk nr. 66 lees ik zo dat die vraagt om kleinschalige voorzieningen in de regio's. Wij hebben steeds gezegd: we sluiten een jji in de regio Noord en daar komt een kleinschalige voorziening voor terug, en er sluit een jji in de regio Zuid en daar komt een kleinschalige voorziening voor terug. Vanuit dat oogmerk is deze motie overbodig, maar volgens mij bedoelt mevrouw Kuiken iets anders. Zij zegt: het noorden bestaat uit drie provincies, dus je zou daar misschien wel drie kleinschalige voorzieningen moeten hebben. Dat is ook zoals ik het me herinner uit het debat dat we hebben gehad. In dat geval moet ik deze motie niet ontraden omdat zij overbodig is, maar omdat wij, kijkend naar de instroom en de hoeveelheden, zien dat er onvoldoende aanwas is om drie kleinschalige voorzieningen in het noorden open te houden. Dat weten we ook een beetje uit de ervaring met de eerdere proeven die zijn gedraaid. Nu vergroten we de doelgroep wel iets door bijvoorbeeld niet alleen de preventief gehechten, maar ook de korter gestraften en de mensen die in een eindfase van hun straf zitten mee te nemen, maar ook dan denk ik dat we echt ons best moeten doen om die kleinschalige voorziening in, pak 'm beet, Groningen — ik kan me voorstellen dat dat een plek is waar die zou kunnen landen — in te vullen. Vandaar ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg69">Dan de motie op stuk nr. 67. Daar neem ik even waar voor mijn collega De Jonge. In die motie wordt eigenlijk aan het Rijk gevraagd om garant te staan voor de financiering van een aantal civiele plekken. Dat is best ingewikkeld. Bij die gecombineerde instellingen financiert JenV de strafrechtelijke plekken, maar het stelsel, de gesloten jeugdzorg, is echt iets wat in het gemeentelijke domein ligt. Dat kunnen we dus niet doen. Wat we wel kunnen doen, is actief met de gemeenten in gesprek gaan en daar ook wat projectgeld tegenaan zetten. Dat gaat VWS ook doen. Ik denk heel eerlijk gezegd dat het ook interessant kan zijn voor gemeenten om hieraan mee te doen, omdat je juist ook in de gesloten jeugdzorg een beweging ziet naar steeds verdere kleinschaligheid. Ik geloof echt, samen met mijn collega, dat hier een enorme kans ligt, even los van dat gemeenten uiteindelijk een deel van de structurele financiën voor hun rekening zullen moeten nemen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg70">Met de motie op stuk nr. 68 kan ik uit de voeten, dus oordeel Kamer. Hetzelfde geldt voor de motie op stuk nr. 69.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg71">Dan is er nog een vraag van de heer Van Wijngaarden. Hij vroeg naar de planning van het WODC-onderzoek. Ik heb een snelle inschatting gedaan en gezegd eind volgend jaar, eind 2020. Ik heb ook gezegd dat ik het WODC de mogelijkheid wil geven om zijn onderzoeksopzet en daarmee ook de planning aan u voor te leggen. Ik vermoed dat dat voor het einde van dit jaar kan. Dan geef ik ook een nadere invulling van de precieze tijdspanne en periode die we nodig denken te hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg72">Voorzitter, misschien mag ik tot slot nog een woord zeggen. Ik was onder de indruk van de grote hoeveelheid mensen op de publieke tribune vorige week. Het is vanavond niet helemaal leeg, maar wel bijna leeg. Ik weet echter zeker dat er heel veel mensen thuis zitten te kijken. Ik begrijp ook dat het voorgenomen besluit om twee ji's te sluiten geen fijn nieuws is. Ik begrijp dat mensen teleurgesteld zijn en dat er een hoop frustratie is. Dat doet niets af aan de waardering die wij als Kamer en als kabinet in ieder geval hebben voor het belangrijke werk dat daar wordt gedaan. Ik blijf mij ook inzetten om de beste voorzieningen voor deze doelgroep, voor jeugdigen, te realiseren, ook in die regio's van het land. Continuïteit van zorg, een goede behandeling en goede resocialisatie van deze jongeren staan bij mij voorop.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u48">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg73">Dank u wel. Daarmee zijn we aan het einde gekomen van de behandeling van dit verslag algemeen overleg Justitiële Jeugd.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.u49">
+               <seg xml:id="ParlaMint-NL_2019-10-03-tweedekamer-10.seg74">We gaan aanstaande dinsdag, 8 oktober, stemmen over de ingediende moties. Ik schors de vergadering voor enkele minuten, zodat we kunnen overstappen naar het volgende debat.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

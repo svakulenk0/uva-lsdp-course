@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-09-09 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-09-09 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 99, Session 5 (2020-09-09)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 99, Session 5 (2020-09-09)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="99">Meeting 99</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="2">2 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="2">2 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="593">593 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="593">593 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-09-09">2020-09-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="16"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="2"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-09-09">2020-09-09</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg1">Dan is nu aan de orde de regeling van werkzaamheden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg2">Ik stel voor toe te voegen aan de agenda van de Kamer:</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg3">het VAO Toerisme, met als eerste spreker de heer Von Martels namens het CDA.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg4">Ik stel voor het debat over de Europese top van 24 en 25 september 2020 aan de agenda van de Kamer toe te voegen en daarbij maximumspreektijden te hanteren van:</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg5">10 minuten voor VVD, PVV, CDA en D66;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg6">7 minuten voor GroenLinks, SP en PvdA;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg7">5 minuten voor ChristenUnie, Partij voor de Dieren, 50PLUS, SGP, DENK en Forum voor Democratie;</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg8">2,5 minuut voor de leden Krol, Van Kooten-Arissen en Van Haga.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg9">Ik stel voor toe te voegen aan de agenda van de Kamer:</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg10">het wetsvoorstel Wijziging van de Telecommunicatiewet in verband met het invoeren van een opt-in-systeem voor het overbrengen van ongevraagde communicatie voor commerciële, ideële of charitatieve doeleinden aan natuurlijke personen (35421).</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg11">Ik stel voor dinsdag 22 september aanstaande ook te stemmen over het wetsvoorstel Wijziging van de Huisvestingswet 2014 in verband met de aanpak van ongewenste neveneffecten van toeristische verhuur van woonruimte (Wet toeristische verhuur van woonruimte) en de daarbij ingediende moties (35353).</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg12">Op verzoek van het lid Van Esch stel ik voor haar motie (25295, nr. 334) opnieuw aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg13">Aangezien voor de volgende stukken de termijn is verstreken, stel ik vast dat wat deze Kamer betreft de daarbij ter stilzwijgende goedkeuring overgelegde stukken zijn goedgekeurd: 35324-1; 35323-(R2138)-1; 23908-(R1519)-145; 24493-R1557-89.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg14">Ik stel voor de volgende stukken van de stand van werkzaamheden af te voeren: 35135; 35446; 35326; 35164; 35300-IV-70; 35420-97; 35300-IV-69; 33625-321; 33625-320; 26485-331; 33625-316; 26485-330; 35450-XVII-3; 35470-XVII-6; 35470-XVII-5; 35470-XVII-14; 35470-XVII-1; 33625-312; 21501-04-232; 33625-318; 33835-168; 35420-32; 21501-32-1232; 35442-3; 35083-6; 27858-439; 34985-10; 30826-56; 21501-32-1238; 35334-87; 28625-284; 21501-32-1236; 21501-32-1234; 21501-32-1235; 27858-511; 33576-193; 33576-192; 28286-1105; 29659-155; 35334-90; 26991-569; 28973-238; 35334-85; 28286-1102; 28345-228; 28345-230; 28638-181; 28345-227; 28345-223; 29325-101; 28345-226; 32462-2; 31497-361; 31839-730; 31839-729; 31839-702; 31839-727; 31839-728; 31839-719; 31839-726; 34477-67; 31839-723; 34477-70; 32011-70; 30234-216; 25657-320; 34994-20; 32011-67; 29689-1017; 35087-20; 35000-XVI-128; 32279-174; 29282-365; 29538-292; 29323-125; 23235-179; 33990-66; 34767-12; 22112-2765; 21501-34-337; 29689-1056; 34104-280; 28286-1103; 28286-1101; 28286-1100; 28286-1096; 28286-1095; 29325-122; 2020Z01805; 25295-386; 31765-412; 31765-407; 31765-426; 31765-400; 30169-71; 2020Z02152; 35070-13; 24170-228; 34477-71; 29282-408; 27529-214; 29247-311; 31016-279; 29247-310; 29247-308; 31016-258; 29247-309; 29247-297; 31016-237; 32620-230; 31865-150; 2019Z13613; 29214-81; 31865-147; 29689-998; 32772-35; 29248-317; 29689-993; 29447-50; 29447-49; 29447-48; 35200-XVI-1; 29689-983; 29689-985; 31765-409; 31765-406; 33654-35; 31765-399; 29325-97; 23987-331; 31765-365; 29447-46; 29248-316; 2019Z02727; 31765-363; 34111-28; 29247-269; 23987-305; 29447-45; 29477-536; 29447-43; 29447-41; 31839-631; 21501-34-308; 29689-1025; 29689-1024; 29689-1023; 19637-2524; 33675-11; 29477-654; 29248-321; 31765-489; 29477-649; 32620-243; 29248-319; 32864-10; 21501-31-554; 25295-122; 25295-388; 25295-381; 25295-418; 25295-419; 25295-384; 28286-1104; 25295-428; 29689-1055; 21501-31-567; 29477-650; 29477-652; 29477-645; 29477-644; 29477-641; 32620-241; 2019Z25678; 29477-640; 2019Z25580; 29477-643; 29477-638; 29689-1067; 29689-1045; 29689-1049; 29689-1052; 29689-1050; 33077-23; 29689-1033; 33077-22; 31865-143; 35200-XVI-2; 35000-XVI-8; 22112-2749; 21501-31-505; 35000-XVI-134; 28345-224; 35300-XVI-164; 31839-745; 35470-XVI-12; 28286-1119; 28286-1116; 25295-427; 25295-423; 25295-422; 25295-421; 35450-XVI-3; 31765-478; 30169-72; 29538-309; 32805-87; 29538-307; 31476-29; 31765-477; 31765-475; 29538-311; 29538-295; 29538-290; 31765-454; 31765-438; 31765-436; 29247-296; 29247-295; 32620-259; 33578-78; 29689-1031; 33578-79; 29389-102; 2019Z25232; 35470-XVI-6; 32761-162; 29447-57; 35420-78; 21501-34-341; 35300-XVI-165; 21501-34-338; 28345-234; 28345-229; 31839-717; 31839-715; 31839-704; 31765-404; 34910-23; 34677-19; 21501-02-2187; 22112-2889; 31288-826.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg15">Daarmee zijn we aan het einde gekomen van de regeling van werkzaamheden. Het is een heel andere regeling dan we gewend zijn. Zeker in deze periode, na het uitlekken van de Miljoenennota, stond de heer Van Raak hier standaard achter de interruptiemicrofoon of achter het spreekgestoelte. Hij moet nu maar accepteren dat we vandaag een andere regeling hebben, maar volgende week hebben we de Algemene Politieke Beschouwingen, dus dan komt het vast wel weer terug.</seg>
+               <seg xml:id="ParlaMint-NL_2020-09-09-tweedekamer-5.seg16">Ik schors de vergadering enkele ogenblikken. Wij wachten even op de minister van Binnenlandse Zaken; zij kan elk ogenblik hier zijn.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

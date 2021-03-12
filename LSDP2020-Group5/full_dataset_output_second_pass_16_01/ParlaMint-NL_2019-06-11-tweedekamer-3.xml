@@ -1,0 +1,125 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-06-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-06-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 91, Session 3 (2019-06-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 91, Session 3 (2019-06-11)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="91">Meeting 91</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="12">12 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="12">12 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1589">1589 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1589">1589 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-06-11">2019-06-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="17"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="12"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-06-11">2019-06-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Nijboer</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg1">Dan is nu aan de orde de vraag van de heer Nijboer aan de minister van Financiën over het toenemend aantal pinstoringen. Ik heet de minister van Financiën van harte welkom. De heer Nijboer.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg2">Dank u wel, voorzitter. Een heel ander onderwerp. Gisterenmiddag stonden in Zoetermeer, Middelburg, Groningen, Breda en Maastricht hele rijen mensen die hun winkelkarretje hadden gevuld en die hun boodschappen niet konden afrekenen. Dat kon een uur later ook niet en toen zijn ze maar onverrichter zake naar huis gegaan. Dat toont de nutsfunctie, de belangrijke vitale functie, van ons betalingsverkeer in de samenleving aan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg3">Ik heb aan de minister van Financiën vragen over of die nutsfunctie wel voldoende gewaarborgd is. Mijn eerste vraag aan de minister is hoe het kan dat er zich zo lang zo'n grote verstoring kan voordoen bij zo'n grote grootgrutter in Nederland, de Albert Heijn. Was er geen back-upsysteem voorhanden? Dan de tweede vraag. Uit de media begrijp ik dat het komt door een maatregel die KPN in het kader van databeveiliging heeft genomen. Dat is een heel grote telecomprovider, ook een vitale infrastructuur in onze samenleving. Hoe kan er zo'n groot effect op het betalingssysteem zijn als een zo'n provider blijkbaar zijn zaken niet op orde heeft? De derde vraag is of de normstelling die we bij wet hebben geregeld wel voldoende is als je zo'n grote impact ziet alleen al op boodschappen doen. Moet u nagaan wat er gebeurt als iemand moedwillig het betalingsverkeer zou willen ontmoedigen, als iemand dat echt met slechte bedoelingen zou doen, want dit lijkt een fout te zijn. Is dat wel voldoende beschermd en zou dat niet veel beter moeten gebeuren?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg4">Dan geef ik nu het woord aan de minister van Financiën.</seg>
+            </u>
+            <u who="#WopkeHoekstra" ana="#regular" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg5">Voorzitter, dank u wel. Dank aan de heer Nijboer voor de gestelde vragen en voor het vragen van aandacht voor dit thema. Een aantal opmerkingen. De eerste is dat wat er gebeurd is natuurlijk echt vervelend is — daar zijn de heer Nijboer en ik het over eens — voor de mensen die het betrof, mensen die aan het winkelen waren bij een van de winkels van de firma Ahold, namelijk Albert Heijn, Etos en Gall &amp; Gall. Het was overigens ook niet plezierig voor de caissières, die het in veel winkels hebben moeten ontgelden. Want wat zich daar heeft afgespeeld was, zo heb ik begrepen, in lang niet alle gevallen alleen maar fraai.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg6">Het tweede is — dat is ook belangrijk om te markeren vanwege de vragen van de heer Nijboer — dat het hier ging om een IT-storing bij een private onderneming, namelijk bij Ahold. De private partij, precies zoals de heer Nijboer zegt, waar Ahold vervolgens weer zaken mee doet, namelijk KPN, had kennelijk een softwarewijziging doorgevoerd waardoor er problemen waren met de betalingen daar.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg7">Het derde — dat is wel wat anders — gaat over het betalingsverkeer zelf. Dat gaat dus echt over de functie van de banken. De heer Nijboer heeft er natuurlijk helemaal gelijk in dat dat van vitaal belang is voor de Nederlandse economie. Dat is overigens ook van vitaal belang voor welzijn. De beschikbaarheid van het betalingsverkeer is in Nederland zeer hoog. Ik geloof dat de norm op 99% ligt, maar de resultaten liggen aanmerkelijk hoger dan die 99%, terwijl — dat kunnen we ons allemaal voorstellen — de hoeveelheid pintransacties natuurlijk alleen maar is toegenomen, ook de afgelopen jaren weer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg8">Het vierde en laatste wat er ik er nog over zou willen zeggen, is dat ik natuurlijk bij herhaling richting de Kamer heb aangegeven waarom ik het zo belangrijk vind — ik meen dat de heer Nijboer en ook anderen het daar zeer mee eens zijn — dat je, wat de grote voordelen van pinnen ook zijn, als samenleving ook moet kunnen terugvallen op en gebruik moet kunnen blijven maken van contant geld, juist voor een situatie zoals die zich gisteren heeft voorgedaan. Ook al is het praktisch voor de consument om met pin te betalen, zo'n situatie is precies de reden waarom ik het van groot belang vind dat er ook met cash betaald kan blijven worden, ook in de toekomst.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg9">Ik vraag graag door op die norm, want als die 99% zou zijn, zou die veel te laag zijn. We hebben 365 dagen per jaar. Als we drie dagen in het jaar niet kunnen betalen, wordt onze economie een enorme chaos. Ik vraag de minister om daar toch preciezer op in te gaan. Mijn tweede vraag ging over het back-upsysteem. Bij ziekenhuizen staan de generatoren klaar voor als de elektriciteit uitvalt. Is er voor het betalingssysteem niet ook zo'n soort stelsel voorhanden? De derde vraag gaat over het chartale geld, het cashgeld dat mensen hebben. Je zag dat binnen de kortste keren de pinautomaten leeg waren. Zelfs in steden moet je al zo'n beetje tien minuten fietsen om een pinautomaat te vinden. Is dat wel voldoende gewaarborgd?</seg>
+            </u>
+            <u who="#WopkeHoekstra" ana="#regular" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg10">Eerst even over die eerste vraag. Daar kan ik nog wel wat percentages bij noemen. In 2018 — de heer Nijboer zal begrijpen dat we de cijfers van dit jaar nog niet hebben — was het percentage bij pinnen en contactloos betalen 99,89%. Voor mobiel bankieren was het 99,75% en voor internetbankieren 99,72%. Dat is allemaal zeer hoog, maar het gaat dan over de resultaten die we gehaald hebben op het betalingsverkeer. Het tweede dat belangrijk is om eraan toe te voegen, is dat het in dit specifieke geval gaat om een pinstoring, of eigenlijk moet je zeggen: een IT-storing. Die storing leidde ertoe dat er niet meer met een pasje betaald kon worden bij één organisatie, terwijl betalen met contant geld daar nog wel degelijk mogelijk was en men bovendien ook naar de pinautomaat op de hoek kon gaan of naar een andere supermarkt had kunnen gaan. Ik wil het probleem niet bagatelliseren, maar het is wel echt iets fundamenteel anders dan een probleem dat te maken heeft met het betalingsverkeer, waardoor mensen geen toegang meer zouden hebben tot elektronisch betalen in het algemeen. Het antwoord op de laatste vraag van de heer Nijboer, hoe het geregeld is met de toerusting van de pinautomaten, heb ik hier niet paraat. Dat zou ik nog graag schriftelijk met hem willen wisselen. Voor de volledigheid merk ik nog op dat wat betreft de percentages die ik noemde, de norm voor het hoge tijdvak 99,88% is. Dus daar zaten we aan de goede kant van de streep. 98,5% is het percentage voor andere tijdstippen. Als dat behulpzaam is, kan ik dat nog allemaal in een brief duiden.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg11">De brief met de precieze percentages zie ik graag tegemoet. Ik zou het toch nog wel even over de ernst van de situatie willen hebben. Altijd kan er iets uitvallen of misgaan. Dat kan ook gebeuren bij de elektriciteitsvoorziening. Gelukkig gebeurt dat in Nederland niet al te veel. Mijn punt is dat het betalingsverkeer een vitaal economisch en maatschappelijk belang in zich heeft. Je zult maar niet kunnen afrekenen bij een benzinepomp terwijl je naar een sollicitatiegesprek moet. Dat is echt wel een maatschappelijk probleem. Ik vind dat de overheid daar niet lichtzinnig mee moet omgaan en dat zij moet afdwingen dat het publieke belang is geborgd. Over dat thema heb ik nog één vraag. Er is één privaat geldbedrijf dat nu de pinautomaten vult. Er is één bedrijf failliet gegaan, en dat is erg genoeg, maar er is dus één bedrijf dat al onze pinautomaten vult. We zijn dus met z'n allen afhankelijk van het functioneren van dat bedrijf of de geldautomaten wel gevuld zijn. Vindt de minister dat verantwoord of zegt hij ook daar met de PvdA dat dit een publieke taak is en dat we die beter moeten garanderen?</seg>
+            </u>
+            <u who="#WopkeHoekstra" ana="#regular" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg12">Eerst toch nog even over dat eerste. Ik heb het geprobeerd onder woorden te brengen — de heer Nijboer en ik zijn het daarover eens — dat het op orde hebben van de betaalinfrastructuur ontzettend belangrijk is voor het hele land. Nu is deze historisch gezien, maar ook als je deze vergelijkt met het buitenland, zeer goed in orde. Wat overigens ook zeer goed in orde is, is dat andere dossier, waar het gaat om de mogelijkheid om zonder storingen bij private partijen te betalen. De situatie gisteren was opmerkelijk en was vervelend en ongelukkig, maar is in Nederland gelukkig wel echt een uitzondering. Het is een ander type getallen dan in het buitenland. Ik denk dat dat belangrijk is, want de heer Nijboer en ik zijn het eens over het belang hiervan, maar het is goed om de context hier nog een keer te memoreren.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg13">Voorzitter. De laatste vraag van de heer Nijboer ging over contant geld. Daar hebben hij en ik eerder ook schriftelijk met elkaar over van gedachten gewisseld. Daarbij waren we het eens over het belang van voldoende toegang tot pinautomaten. We hebben vervolgens ook gekeken of het wegvallen van een van die partijen nou prohibitief is voor het kunnen vullen van die geldautomaten. Volgens mij heb ik toen ook al de toezegging aan de heer Nijboer gedaan dat ik in een brief — ik meen nog voor het einde van dit jaar, maar ik zou de termijn even moeten nakijken — terugkom op de vraag of er hier nou potentieel een probleem is of niet, en dat ik De Nederlandsche Bank en de ACM daar ook nog over zal consulteren, want die hebben daar vermoedelijk nog beter inzicht in dan ikzelf. Die toezegging ververs ik bij dezen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg14">Dank u wel, meneer Nijboer.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg15">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg16">Dank u wel, minister.</seg>
+            </u>
+            <u who="#WopkeHoekstra" ana="#regular" xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2019-06-11-tweedekamer-3.seg17">Dank u wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

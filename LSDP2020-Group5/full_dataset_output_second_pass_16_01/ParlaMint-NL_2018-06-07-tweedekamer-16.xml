@@ -1,0 +1,223 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-06-07 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-06-07 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 91, Session 16 (2018-06-07)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 91, Session 16 (2018-06-07)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="91">Meeting 91</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="16">Session 16</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="22">22 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="22">22 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1356">1356 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1356">1356 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-06-07">2018-06-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="26"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="22"/>
+               <tagUsage gi="note" occurs="70"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-06-07">2018-06-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Administratieve lasten in de zorg</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u1">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg1">Aan de orde is het VAO over administratieve lasten, regeldruk, governance, gegevensuitwisseling in de zorg, gegevensbescherming, innovatie en verspilling in de zorg. Ik heet de minister voor Medische Zorg van harte welkom en geef mevrouw Van Kooten-Arissen namens de Partij voor de Dieren het woord.</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u2">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg2">Voorzitter, dank u wel. Ik heb twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het programma MedMij spelregels opstelt over communicatie van zorggegevens naar patiënten via Persoonlijke Gezondheidsomgevingen (PGO's) die gekoppeld worden aan uitwisselingssystemen die zorgaanbieders gebruiken;</note>
+               <note>overwegende dat miljoenen Nederlanders geen toestemming hebben gegeven aan zorgaanbieders voor gebruik van het Landelijk Schakelpunt (LSP) dat gebruikmaakt van centrale componenten;</note>
+               <note>overwegende dat de Eerste Kamermotie-Bredenoord c.s. van 4 oktober 2016 (33509, R) oproept tot dataprotectie-by-design en gebruik van decentrale systemen;</note>
+               <note>overwegende dat de Eerste Kamermotie-Teunissen c.s. van 25 oktober 2016 (33509, T) de regering opdraagt dat toegang tot het medisch dossier decentraal via bij de zorgaanbieder vastgelegde toestemmingen en autorisaties mogelijk moet blijven;</note>
+               <note>verzoekt de regering in het MedMij-programma zorg te dragen voor de realisatie van decentrale koppelvlakken, zodat PGO's ook direct op systemen van zorgaanbieders kunnen aansluiten zonder gebruik van het LSP, zodat ook patiënten die geen toestemming aan het LSP hebben gegeven een PGO naar hun keuze kunnen gebruiken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Kooten-Arissen en Hijink. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29515-425</note>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u3">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg3">De volgende motie is ietsje korter.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat outcomedoelen van het Informatieberaad Zorg, zoals informatie-uitwisseling en -overdracht, niet louter betrekking hebben op ICT- en zorgprocessen, maar ook vraagstukken rondom de privacy van patiënten behelzen;</note>
+               <note>constaterende dat er louter zorg- en ICT-partijen deelnemen aan de kerngroep en expertcommunities van het Informatieberaad;</note>
+               <note>overwegende dat privacy- en burgerrechtenorganisaties kennis hebben over de maatschappelijke implicaties van de onderwerpen waarover het Informatieberaad vergadert;</note>
+               <note>verzoekt de regering om privacy- en burgerrechtenorganisaties actief te betrekken in de kerngroep en de expertcommunities van het Informatieberaad Zorg,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Kooten-Arissen en Hijink. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29515-426</note>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u4">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg4">Dank u wel.</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u5">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg5">Voorzitter, dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u6">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg6">Dan geef ik nu het woord aan mevrouw Ellemeet namens GroenLinks.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u7">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg7">Voorzitter, dank u wel. Ik begin ook met mijn langste motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat een deel van de regeldruk in de zorg ontstaat door een gebrekkige interoperabiliteit — digitale overdracht van medische informatie — tussen zorgaanbieders;</note>
+               <note>constaterende dat het Informatieberaad beoogt dat zorgverleners per 1 januari 2020 de gegevens die nodig zijn voor goede zorg en behandeling van een patiënt digitaal, gestandaardiseerd, beveiligd en met toestemming van de patiënt kunnen overdragen aan andere betrokken zorgverleners;</note>
+               <note>constaterende dat verschillende veldpartijen zich zorgen maken over de voortgang van deze doelstelling;</note>
+               <note>verzoekt de regering in kaart te brengen of de doelstelling "Gestandaardiseerde informatie-uitwisseling" van het Informatieberaad voldoende en in samenhang wordt opgepakt en geconcretiseerd;</note>
+               <note>verzoekt de regering tevens bij gebleken onvoldoende voortgang regie te nemen en te bevorderen dat zorgverleners per 1 januari 2020 in staat zijn gegevens uit te wisselen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Ellemeet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29515-427</note>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u8">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg8">Mijn tweede motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regeldruk in de zorg een groot en hardnekkig probleem is;</note>
+               <note>van mening dat de aanpak van regeldruk gebaat is bij heldere doelstellingen en afspraken binnen de verschillende deelsectoren van de zorg;</note>
+               <note>van mening dat alle betrokken partijen gezamenlijk de verantwoordelijkheid dragen om de aanpak van regeldruk tot een succes te maken;</note>
+               <note>constaterende dat vertegenwoordigende partijen van de ggz en de medisch-specialistische zorg een verdere aanscherping van de aanpak regeldruk bepleiten;</note>
+               <note>verzoekt de regering in gesprek te gaan met de ggz en de medisch-specialisten over verbetermogelijkheden van de aanpak regeldruk,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Ellemeet en Pia Dijkstra. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29515-428</note>
+            </u>
+            <note>Dank u wel. Dan geef ik nu het woord aan mevrouw Aukje de Vries namens de VVD.</note>
+            <u who="#AukjedeVries" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u9">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg9">Dank u wel, voorzitter. In het algemeen overleg hebben we al heel veel onderwerpen bediscussieerd. Ik wil graag op één punt een motie indienen. Die gaat over de elektronische gegevensuitwisseling.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat elektronische gegevensuitwisseling tussen zorgaanbieders belangrijk is voor de patiëntveiligheid, de kwaliteit van zorg, de vermindering van de regeldruk en het tegengaan van verspilling in de zorg;</note>
+               <note>van mening dat de patiënt altijd zeggenschap moet houden of en met wie er gegevens uitgewisseld mogen worden;</note>
+               <note>constaterende dat in de hoofdlijnenakkoorden is afgesproken te onderzoeken hoe te komen tot een kwaliteitskader voor elektronische gegevensuitwisseling;</note>
+               <note>van mening dat het noodzakelijk is om versneld te komen tot een volledige elektronische gegevensuitwisseling;</note>
+               <note>verzoekt de regering regie te nemen en tevens te onderzoeken of het mogelijk is een wettelijke basis te creëren voor het verplichten van een goede, verantwoorde en veilige elektronische gegevensuitwisseling tussen zorgaanbieders, en de Tweede Kamer daarover te informeren in de tweede helft van 2018,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Aukje de Vries, Pia Dijkstra en Van den Berg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29515-429</note>
+            </u>
+            <u who="#MaartenHijink" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u10">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg10">Ik vraag me even af wat mevrouw De Vries nu precies voorstelt. Stelt zij voor dat er een wettelijk verplichte manier moet komen waarop zorgaanbieders onderling communiceren? Wat stelt zij precies voor?</seg>
+            </u>
+            <u who="#AukjedeVries" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u11">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg11">Nee. Wij denken dat het sneller moet gaan met de gegevensuitwisseling tussen zorgaanbieders. Wij denken dat het misschien handig is om daar een drukmiddel achter de hand te hebben. Daarom vragen wij het kabinet om te onderzoeken of dat tot de mogelijkheden behoort. Daarbij zeggen wij nadrukkelijk dat het altijd de patiënt is die bepaalt of hij wel of niet wil dat er gegevens worden uitgewisseld.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u12">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg12">Tot slot de heer Hijink.</seg>
+            </u>
+            <u who="#MaartenHijink" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u13">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg13">Ja, maar u vraagt ook om regie. Is dat regie om één bepaald systeem voor alle zorgaanbieders te ontwikkelen, of vraagt u om regie waardoor zorgaanbieders maar ook patiënten zelfstandig kunnen besluiten welk systeem ze willen gebruiken om eventueel patiëntgegevens uit te wisselen?</seg>
+            </u>
+            <u who="#AukjedeVries" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u14">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg14">Ik vind niet dat wij het systeem moeten voorschrijven. Ik vind het wel belangrijk dat bij de ontwikkelingen die plaatsvinden in het kader van het Informatieberaad, er met één taal wordt gesproken, zodat er uitgewisseld kan worden. Verder vind ik het belangrijk dat versnellingsprogramma's die al lopen doorgang vinden. Daarnaast vinden wij het belangrijk dat uiteindelijk alle zorgaanbieders gaan meedoen aan de mogelijkheid tot uitwisseling, zodat patiënten daarin een bewuste keuze kunnen maken en het straks niet zo is dat een deel van de zorgaanbieders daar niet aan meedoet.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u15">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg15">Dank u wel. Tot slot is het woord aan de heer Hijink namens de SP.</seg>
+            </u>
+            <u who="#MaartenHijink" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u16">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg16">Dank u, voorzitter. Ik heb in het debat vorige week vooral stilgestaan bij de effecten van regels en de markt op de fysiotherapie. Dat wilde ik vandaag afronden met de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat uit onderzoek van KPMG uit 2016 blijkt dat bij fysiotherapeuten de kostprijs van een zitting rond €38 ligt;</note>
+               <note>constaterende dat fysiotherapeuten van zorgverzekeraars tarieven vergoed krijgen die rond de €28 per zitting liggen;</note>
+               <note>van mening dat het onacceptabel is dat fysiotherapeuten structureel onder de kostprijs betaald krijgen;</note>
+               <note>verzoekt de regering om het zorgverzekeraars onmogelijk te maken om tarieven aan te bieden waarvan bekend is dat ze niet kostendekkend zijn,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Hijink. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29515-430</note>
+            </u>
+            <note>Dank u wel. De minister vraagt om een schorsing van vijf minuten.</note>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u17">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg17">Ik geef de minister het woord.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u18">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg18">Dank u wel, voorzitter. Ik loop de verschillende moties graag eventjes langs. De motie op stuk nr. 425 heeft als dictum: "verzoekt de regering in het MedMij-programma zorg te dragen voor de realisatie van decentrale koppelvlakken, zodat PGO's ook direct op systemen van zorgaanbieders kunnen aansluiten zonder gebruik van het LSP, zodat ook patiënten die geen toestemming aan het LSP hebben gegeven een PGO naar hun keuze kunnen gebruiken". Ik zat een beetje met de eerste passage van dit dictum, "verzoekt de regering in het MedMij-programma zorg te dragen". Het lijkt hier alsof het MedMij-programma de bouwer is van dat soort koppelvlakken, en dat is het niet. Het MedMij-programma is een afsprakenstelsel dat leveranciers helpt om die PGO's, die persoonlijke gezondheidsomgevingen, op een goede manier in te richten. Als dat "zorg dragen" mag worden gelezen als bevorderen, onder de aandacht brengen en het thema aan de orde stellen, dan heb ik geen bezwaar tegen de motie en zou ik het oordeel over deze motie aan de Kamer willen laten. Ondertussen kijk ik de indiener aan in de hoop dat ik de goede inlezing doe in het dictum van de motie.</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u19">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg19">Het "zorg dragen" mag inderdaad zo worden opgevat als de minister voorstelt.</seg>
+            </u>
+            <u who="#BrunoBruins" ana="#regular" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u20">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg20">Bon. Dan ga ik naar de motie op stuk nr. 426. Daarvan luidt het dictum: "verzoekt de regering om privacy- en burgerrechtenorganisaties actief te betrekken in de kerngroep en de expert communities van het Informatieberaad Zorg". Ook over deze motie zou ik het oordeel aan de Kamer willen laten. Deelname aan de voorbereiding van het Informatieberaad staat open voor alle partijen. Ik ben graag bereid om met de genoemde partijen in gesprek te gaan om een goede plaats voor hun bijdrage te leveren.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg21">Voorzitter. De derde motie, op stuk nr. 427, is van mevrouw Ellemeet. Daarvan luidt het dictum: "verzoekt de regering in kaart te brengen of de doelstelling 'gestandaardiseerde informatie-uitwisseling' van het Informatieberaad voldoende en in samenhang wordt opgepakt en geconcretiseerd" en "verzoekt de regering bij gebleken onvoldoende voortgang de regie te nemen en te bevorderen dat zorgverleners per 1 januari 2020 in staat zijn gegevens uit te wisselen". Ook deze motie krijgt wat mij betreft "oordeel Kamer". Ik zie de motie als steun voor het beleid. Met u ben ik van mening dat het voor goede zorg en behandeling van een patiënt nodig is dat gegevens digitaal, gestandaardiseerd en beveiligd, en met toestemming van de patiënt kunnen worden overgedragen aan andere betrokken zorgverleners. In het debat van vorige week heb ik u toegezegd om u voor het einde van het jaar te informeren over onder meer visie en doelen ten aanzien van informatievoorziening in de zorg. Dat wordt een brief. Daarin zal ook worden ingegaan op de doelen van het Informatieberaad, de realisatie daarvan in de praktijk en — dat is het punt waar de indiener op gewezen heeft — de wijze waarop de regie wordt genomen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg22">Voorzitter. Dan de motie op stuk nr. 428. Het dictum daarvan luidt: "verzoekt de regering in gesprek te gaan met de ggz en medisch specialisten over verbetermogelijkheden van de aanpak regeldruk". Ook voor deze motie geldt "oordeel Kamer". Ik wil allerminst de indruk wekken dat het werk met het maken van een plan over (Ont)Regel de Zorg gedaan is en dat het daarmee af is. Het vergt permanent onze aandacht. Zo is het ook verwoord in de hoofdlijnakkoorden, waarvan vandaag het tweede wordt gesloten. Het zal echt permanent onze aandacht hebben. De motie op stuk nr. 428 krijgt dus "oordeel Kamer".</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg23">Voorzitter. De motie op stuk nr. 429, ingediend door mevrouw De Vries en ondersteund door mevrouw Dijkstra en mevrouw Van den Berg, "verzoekt de regering regie te nemen en tevens te onderzoeken of het mogelijk is een wettelijke basis te creëren voor het verplichten van een goede, verantwoorde en veilige elektronische gegevensuitwisseling tussen zorgaanbieders, en de Tweede Kamer daarover te informeren in de tweede helft van 2018". Ook hiervoor geldt "oordeel Kamer". Met u hecht ik groot belang aan kwalitatief goede zorg en vermindering van regeldruk en verspilling. Elektronische gegevensuitwisseling tussen zorgaanbieders draagt daaraan bij. We nemen ook al op een paar punten regie. Via het Informatieberaad werken we aan afspraken over digitale en gestructureerde gegevensuitwisseling, met ambitieuze planning vanwege de beoogde versnelling. En op basis van de Wet cliëntenrechten bij elektronische verwerking van gegevens zijn zorgaanbieders al wettelijk verplicht om, als zij gegevens elektronisch uitwisselen, dat veilig en verantwoord te doen aan de hand van concrete normen. Dat zegt nog niets over wat er precies wordt uitgewisseld en dát er ook elektronisch wordt uitgewisseld als dat nodig is. Ik zeg u toe om te onderzoeken of het nodig en mogelijk is ook voor deze zaken een verplichtend karakter te creëren, zodat toezicht en handhaving op zorgbrede afspraken over elektronische gegevensuitwisseling mogelijk wordt. In de eerder genoemde brief zal ik in de tweede helft van dit jaar op dat punt terugkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg24">Nu heb ik vijf moties overgelaten aan het oordeel van de Kamer. Om de pret een beetje te bederven, ontraad ik de zesde motie, de motie op stuk nr. 430. Het dictum is: "verzoekt de regering om het zorgverzekeraars onmogelijk te maken om tarieven aan te bieden waarvan bekend is dat ze niet kostendekkend zijn". Daar zit de assumptie in dat bekend is dat tarieven niet kostendekkend zijn. Daarover hebben we juist een afspraak gemaakt met de NZa om in Paramedie onderzoek te doen naar de tarieven. Ik stel voor dat we eerst dat onderzoek afwachten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u21">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg25">Dank u wel. Daarmee zijn we aan het eind gekomen van dit VAO.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.u22">
+               <seg xml:id="ParlaMint-NL_2018-06-07-tweedekamer-16.seg26">Over de ingediende moties zullen we volgende week dinsdag stemmen. Ik dank de Kamerleden en de minister en ik schors de vergadering voor enkele ogenblikken.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

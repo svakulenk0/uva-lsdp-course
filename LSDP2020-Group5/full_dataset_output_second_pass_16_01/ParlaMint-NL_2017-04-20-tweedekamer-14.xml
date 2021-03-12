@@ -1,0 +1,234 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-04-20 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-04-20 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 71, Session 14 (2017-04-20)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 71, Session 14 (2017-04-20)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="71">Meeting 71</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="14">Session 14</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="27">27 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="27">27 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2787">2787 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2787">2787 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-04-20">2017-04-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="38"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="27"/>
+               <tagUsage gi="note" occurs="59"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-04-20">2017-04-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeldruk</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u1">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg1">Ik heet de minister van Economische Zaken opnieuw van harte welkom. Ik geef als eerste het woord aan de heer Paternotte van D66. Er geldt een spreektijd van twee minuten.</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u2">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg2">Voorzitter. Ik hoop dat u dit niet als mijn maidenspeech beschouwt, want ik ga eigenlijk alleen een motie voorlezen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u3">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg3">Dat zullen we niet doen.</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u4">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg4">Dank u wel.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat bedrijven en burgers, naast regeldruk als gevolg van regels opgesteld door de rijksoverheid, ook hinder ondervinden van regelgeving opgesteld door lagere overheden zoals de provincies, gemeenten en waterschappen;</note>
+               <note>constaterende dat het Adviescollege toetsing administratieve lasten (Actal) deze regeldruk op verzoek kon toetsen en het nog op te richten Adviescollege toetsing regeldruk deze bevoegdheid niet heeft;</note>
+               <note>overwegende dat het laatste rapport van Actal laat zien dat veel regeldruk niet alleen van de rijksoverheid afkomstig is maar ook van Provinciale Staten, gemeenten en waterschappen;</note>
+               <note>verzoekt de regering, het Adviescollege toetsing regeldruk in het instellingsbesluit de mogelijkheid te geven om ook op verzoek de regeldruk voortkomend uit de activiteiten van lagere overheden, zoals provincies, gemeenten en waterschappen, te kunnen toetsen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Paternotte, Ziengs, Agnes Mulder, Dijkgraaf en Hijink.</note>
+               <note>Zij krijgt nr. kst-29515-403</note>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u5">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg5">Dit komt uiteraard voort uit het feit dat er tegenwoordig in gemeenten ook veel beleid gemaakt wordt en dat wij de regeldruk in gemeenten graag laag willen houden voor ondernemers en burgers. Daarom willen we graag dat de regeldruk op verzoek van de lagere overheden getoetst kan worden, net als Actal dat kon doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u6">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg6">Ik vond het een mooie maidenmotie en die maakt nu onderdeel uit van de beraadslaging. Ik geef graag het woord aan mevrouw Agnes Mulder namens het CDA.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u7">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg7">Voorzitter. Ik dien twee moties in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat een ministerraadversie van wetgeving aanzienlijk kan afwijken van een consultatieversie;</note>
+               <note>overwegende dat het van belang is dat het Adviescollege toetsing regeldruk (ATR) de mogelijkheid heeft om als waakhond zelfstandig te oordelen of sprake is van een aanzienlijke afwijking, zonder hierbij afhankelijk te zijn van het oordeel van de vakminister;</note>
+               <note>verzoekt de regering om het instellingsbesluit zodanig aan te passen dat het adviescollege zelf een oordeel kan vormen of sprake is van een aanzienlijke afwijking in vergelijking met de consultatieversie en hierbij zelf kan besluiten of een aanvullende zienswijze over de ministerraadversie wenselijk is, zonder dat het adviescollege daarbij afhankelijk is van het oordeel van de vakminister die het aangaat,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het instellingsbesluit alleen ruimte geeft aan het Adviescollege toetsing regeldruk (ATR) om advies te geven richting de Tweede Kamer over initiatiefwetgeving en amendementen, waarbij dit alleen mag op verzoek van de Tweede Kamer;</note>
+               <note>overwegende dat het van belang is dat het adviescollege als informatiebron van de Eerste en Tweede Kamer kan optreden en het daarom ruimte moet hebben om de Eerste en Tweede Kamer te kunnen adviseren over regeldruk indien het dat wenselijk acht;</note>
+               <note>verzoekt de regering om in het instellingsbesluit toe te voegen dat het adviescollege te allen tijde eigenstandig beide Kamers der Staten-Generaal kan adviseren over regeldruk,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Agnes Mulder, Ziengs, Paternotte, Dijkgraaf, Hijink en Graus.</note>
+               <note>Zij krijgt nr. kst-29515-404</note>
+               <note>Deze motie is voorgesteld door de leden Agnes Mulder, Ziengs, Paternotte, Dijkgraaf, Hijink en Graus.</note>
+               <note>Zij krijgt nr. kst-29515-405</note>
+            </u>
+            <note>Hartelijk dank. Het woord is aan de heer Dijkgraaf namens de SGP.</note>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u8">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg8">Voorzitter. Ik dien de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering, het ontwerpbesluit voor het nieuwe Adviescollege toetsing regeldruk zo aan te passen dat het adviescollege ook gevraagd en ongevraagd kan adviseren over knelpunten in bestaande wet- en regelgeving naar aanleiding van signalen vanuit bedrijfsleven en samenleving,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Dijkgraaf, Hijink, Agnes Mulder, Paternotte, Ziengs en Graus.</note>
+               <note>Zij krijgt nr. kst-29515-406</note>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u9">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg9">Ik heb diverse andere moties meegetekend omdat wij het van belang vinden dat er voldoende tegenkracht is om ervoor te zorgen dat de regeldruk nog verder naar beneden gaat dan die al gegaan is.</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u10">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg10">Voorzitter. In de memorie van toelichting staat dat de strategische advisering over regeldruk bij bestaande wet- en regelgeving dichter bij de doelgroepen zal worden georganiseerd. Hoe wordt dit concreet uitgewerkt? Is de minister bereid een brief te sturen met deze uitwerking, op een dusdanige manier dat het Adviescollege toetsing regeldruk hiermee aan de slag kan gaan en het optuigen van het adviescollege niet in het geding komt?</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg11">Vervolgens dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat bedrijven en burgers, naast regeldruk van regels opgesteld door de rijksoverheid, ook hinder ondervinden van beleidsregels opgesteld door toezichthouders, uitvoeringsorganisaties, inspecties en andere organen;</note>
+               <note>constaterende dat het Adviescollege toetsing administratieve lasten (Actal) de ruimte had om al deze regeldruk te onderzoeken, en het nog op te richten Adviescollege toetsing regeldruk deze bevoegdheid niet heeft;</note>
+               <note>overwegende dat het laatste rapport van Actal laat zien dat veel regeldruk niet alleen van de rijksoverheid afkomstig is maar ook van toezichthouders, uitvoeringsorganisaties, inspecties en andere organen en het dus van groot belang is dat het Adviescollege toetsing regeldruk ook deze regeldruk kan toetsen;</note>
+               <note>verzoekt de regering, het Adviescollege toetsing regeldruk de mogelijkheid te geven om ook de regeldruk voortkomend uit de activiteiten van toezichthouders, uitvoeringsorganisaties, inspecties en andere organen, zoals beleidsregels, te kunnen toetsen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Ziengs, Dijkgraaf, Hijink, Agnes Mulder en Paternotte.</note>
+               <note>Zij krijgt nr. kst-29515-407</note>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u11">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg12">Mijnheer de voorzitter. Al tien jaar strijd ik als woordvoerder van de ondernemers hier in de Staten-Generaal ook tegen regeldruk. Ik heb daarvoor zelf ook goede plannen ingediend, waarvan sommige het haalden en sommige niet. Dit keer was ik voorzitter van het AO, omdat niemand anders zich had aangemeld. Ik wil aan nieuwe Kamerleden meegeven dat op het moment dat iemand noodgedwongen voorzitter is en daardoor minder goed zijn inbreng kan doen, het netjes zou zijn om ook de moties voor te leggen, zoals mevrouw Mulder en professor Dijkgraaf hebben gedaan. Zo werkt het natuurlijk wel, want anders wil dadelijk niemand meer voorzitten, als je daarna niet meer mee mag doen. Ik zou dat wel netjes vinden. Dat wil ik opvoedend meegeven aan nieuwe Kamerleden. Ik zal de motie van D66 zeker steunen en eigenlijk had mijn naam daaronder moeten staan, na tien jaar trouwe dienst hier. Ik wens u allen een gezegende avond verder en ik laat het hierbij.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u12">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg13">Hartelijk dank. Het woord is aan de heer Hijink, die ook een maidenmotie heeft, geloof ik.</seg>
+            </u>
+            <u who="#MaartenHijink" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u13">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg14">Voorzitter. Gisteren werd duidelijk in het debat dat de minister wel een organisatie wil om regeldruk te toetsen, maar dat hij die organisatie liefst zo klein mogelijk wil houden en vooral niet te veel te zeggen wil geven. Dat staat haaks op wat de SP wil. Daarom steunen wij de moties die hiervoor al zijn ingediend. Het nieuwe Adviescollege toetsing regeldruk moet ook ongevraagd advies kunnen geven en regeldruk door bestaande wetten kunnen toetsen. Wij willen een waakhond met tanden en niet een waakhond met een muilkorf. Voor de SP is het belangrijk dat het nieuwe adviescollege niet alleen zelfstandig onderzoek kan doen, maar ook dat mensen en organisaties die werken in de publieke sector, naar het adviescollege toe kunnen stappen om onzinnige regels te melden. Daarom dienen wij de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het Adviescollege toetsing regeldruk zich zal richten op de regeldruk bij bedrijven, burgers en beroepsbeoefenaren in zorg, onderwijs, veiligheid en sociale zekerheid;</note>
+               <note>verzoekt de regering, het mogelijk te maken op verzoek van organisaties of beroepsbeoefenaren in de publieke sector de regeldruk te laten toetsen door het Adviescollege toetsing regeldruk,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Hijink, Dijkgraaf, Paternotte en Agnes Mulder. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-29515-408</note>
+            </u>
+            <note>We wachten even tot de minister alle moties heeft. Ik heb begrepen dat de minister behoefte heeft aan een korte schorsing.</note>
+            <note>De vergadering wordt van 16.04 uur tot 16.08 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u14">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg15">Ik zie dat de minister bereid en in staat is om te antwoorden. Ik geef derhalve het woord aan de minister.</seg>
+            </u>
+            <u who="#HenkKamp" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u15">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg16">Voorzitter. Ik kreeg een aantal moties voorgelegd waar ik naar aan het luisteren was en ondertussen stelde de heer Ziengs nog een vraag aan mij. Ik heb die vraag niet goed meegekregen. Dus ik ga, als de heer Ziengs dat goed vindt, die vraag schriftelijk beantwoorden. Mocht het nodig zijn, dan zal ik er zelf nog even contact met de heer Ziengs over hebben om te zien hoe we dat het beste af kunnen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg17">Dan wil ik mij nu richten op de moties. Allereerst merk ik op dat we wat betreft het nieuwe adviescollege voor de toetsing van de regeldruk met de situatie zaten dat per 1 juni 2017 Actal aan het eind zou komen. Actal is het adviescollege dat twee periodes van zes jaar mocht bestaan volgens de wettelijke regeling die daarvoor gold. Verlenging was niet mogelijk, wat betekent dat Actal per 1 juni aanstaande wegvalt. Ik wil graag dat er meteen daarna een opvolgend adviescollege komt omdat de toetsing van de regeldruk van onverminderd groot belang is. Ik heb in de Kamer aangegeven hoe ik dat wilde doen. In juni vorig jaar en in november vorig jaar heb ik voortgangsbrieven naar de Kamer gestuurd over hoe ik daarmee bezig ben. Ik heb daarover gesproken met de Kamer op 22 juni, 25 oktober en 7 december van het vorige jaar. Het meest relevant uiteindelijk was de motie-Ziengs die daaruit resulteerde. Die motie hield in dat de regeldruktoetsing in drie stadia van het wetgevingsproces zou moeten plaatsvinden. Volgens de voortgangsbrieven die ik heb gestuurd en volgens de motie-Ziengs c.s. heb ik de zaak verder uitgewerkt. Dat heeft geleid tot het instellingsbesluit dat nu voorligt. Er liggen nu ook een aantal moties van de Kamer voor, waarbij behalve de focus op de toetsing van de regels er nog vier, vijf andere dingen gedaan moeten worden door het nieuwe college. Dat is in strijd met de lijn zoals ik die heb neergezet en in strijd met wat ik tot dusverre met de Kamer heb gewisseld. Als ik dat allemaal zonder nadere nuancering zou gaan doen, dan zou er van de versterking op het punt van de toetsing van de regeldruk niets terechtkomen terwijl dat juist van het grootste belang is, omdat in het verband van de ontwikkelde landen bezien, het OESO-verband, Nederland op de 28ste plaats staat wat betreft de kwaliteit van de regeldruktoetsing. En dat is echt niet goed en dat moet echt veranderen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg18">Dus ik wil dat het nieuwe college zich op die regeldruktoetsing kan concentreren. Vandaaruit ben ik de werving voor de leden van het nieuwe adviescollege begonnen. Op die manier kan ik het ook per 1 juni voortzetten. Als ik het precies moet doen zoals in die moties staat, kan ik dat niet op een verantwoorde manier voortzetten. Dan zal ik het proces moeten stoppen. Dat betekent dat ook de werving van de leden van het nieuwe adviescollege gestopt moet worden en dat er na 1 juni geen adviescollege is en er dus een periode ontstaat van, naar mijn inschatting, één jaar dat er geen adviescollege is en dat mijn opvolger dan op de een of andere manier het opnieuw in kan gaan vullen. Omdat ik het heel ongewenst vind dat er zo'n gat ontstaat, ben ik bereid de Kamer zo veel mogelijk tegemoet te komen. Wat ik zou kunnen doen, is met een aantal nuanceringen die ik zo meteen zal aangeven, ervoor zorgen dat het adviescollege zich voornamelijk richt op de toetsing van de regeldruk en de uitvoering van de motie-Ziengs in eerdergenoemde drie stadia van het wetgevingsproces. Daar moet het echt gebeuren en dan moeten we er ook voor zorgen dat we echt de kwaliteit leveren die geleverd moet worden om ook internationaal de toets der kritiek te kunnen doorstaan. Als zo'n college er is, is er ook nog wel enige speelruimte om andere dingen te doen. Die zou benut kunnen worden om ook in de geest van de moties een aantal zaken aandacht te geven. Ik zal zo meteen aangeven op welke wijze dat volgens mij verantwoord zou kunnen. Als de Kamer dat zo zou kunnen accepteren, dan kan ik het oordeel over die moties aan de Kamer laten en kan ik het zo op een verantwoorde manier doorzetten. Mocht de Kamer dat niet kunnen doen, dan zal ik de zaak voorlopig moeten opschorten.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg19">De motie van de heer Paternotte op stuk nr. 403 verzoekt de regering het Adviescollege toetsing regeldruk de mogelijkheid te geven om ook op verzoek de regeldruk voortkomend uit de activiteiten van lagere overheden — ik spreek zelf altijd van andere overheden — zoals provincies, gemeenten en waterschappen, te kunnen toetsen. Als van "toetsen" gemaakt kan worden "adviseren over" en als eraan toegevoegd kan worden dat dit geen afbreuk mag doen aan de kerntaak van het Adviescollege toetsing regeldruk, heb ik er geen probleem mee om daarvoor enige ruimte te bieden aan het adviescollege zodat ook in de geest van de motie gehandeld zou kunnen worden. Als de heer Paternotte c.s. met die beide aanvullingen kan instemmen — adviseren over en geen afbreuk doen aan de kerntaak van het ATR — laat ik het oordeel over aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg20">In de motie van mevrouw Mulder c.s. op stuk nr. 404 wordt de regering verzocht, het instellingsbesluit zodanig aan te passen dat het adviescollege zelf een oordeel kan vormen of sprake is van een aanzienlijke afwijking in vergelijking met de consultatieversie wat betreft hetgeen er uit de ministerraad komt. Wij hebben dat nu op een naar mijn overtuiging zeer zorgvuldige en unieke manier geregeld. Als het Adviescollege toetsing regeldruk in de internetconsultatiefase met een volledig advies is gekomen, nadat het ook al in het allereerste stadium coachend en adviserend naar het ministerie toe is opgetreden, en er vervolgens in vergelijking met wat in de internetconsultatie werd gebracht een relevante afwijking plaatsvindt, is de minister verplicht dit aan het adviescollege voor te leggen en dat in de gelegenheid te stellen om aanvullend te adviseren. Die verantwoordelijkheid is bewust bij de minister gelegd omdat die ervoor moet zorgen dat het adviescollege goed kan functioneren. Dit is absoluut de beste oplossing. Wat er nu in staat, is een niet noodzakelijke aanvulling. Wat wij hebben geregeld, is ook uniek. Geen enkel adviescollege heeft zo'n regeling gekregen. Ik ontraad dus de motie op stuk nr. 404 van mevrouw Mulder c.s.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg21">In de motie van mevrouw Mulder c.s. op stuk nr. 405 is het verzoek om in het instellingsbesluit toe te voegen dat het adviescollege te allen tijde eigenstandig beide Kamers der Staten-Generaal kan adviseren. Als daaraan toegevoegd kan worden dat dit op verzoek van de Kamers is, dus dat de Kamers vragen dat het adviescollege het gaat doen, en mits dat geen afbreuk doet aan de kerntaak van het adviescollege — de kerntaak is dus toetsing van de regeldruk — heb ik daar geen bezwaar tegen. Als die beide wijzigingen kunnen worden aangebracht door de indiener kan ik het oordeel over de motie aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg22">Bij de motie van de heer Dijkgraaf c.s. op stuk nr. 406 speelt eigenlijk hetzelfde. Daarin staat dat het adviescollege gevraagd en ongevraagd over knelpunten in bestaande wet- en regelgeving zou moeten kunnen adviseren. Als daarvan gemaakt kan worden dat het adviescollege in voorkomende gevallen ook gevraagd en ongevraagd kan adviseren, mits dat geen afbreuk doet aan de kerntaak van het adviescollege — dus de aanvulling is "in voorkomende gevallen" en "mits dat geen afbreuk doet aan de kerntaak", hetzelfde als bij de andere moties — heb ik daar geen bezwaar tegen. Dan laat ik het oordeel over deze motie ook aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg23">In de motie van de heer Ziengs op stuk nr. 407 wordt de regering gevraagd om het adviescollege de mogelijkheid te geven om regeldruk voortkomend uit activiteiten van toezichthouders, uitvoeringsorganisaties, inspecties en andere organen ook te gaan toetsen. Daarvan zou ik willen maken "in samenspraak met betreffende instanties daarover te adviseren". Ik heb al eerder gevraagd om "toetsen" te vervangen door "adviseren". Ook hier zou ik "toetsen" willen vervangen door "adviseren" en dan toe te voegen "in samenspraak met betreffende instanties". Dan laat ik het oordeel over deze motie ook aan de Kamer, weer met de restrictie die ik graag wil toevoegen dat het geen afbreuk mag doen aan de kerntaak van het college.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg24">De laatste motie heb ik beantwoord.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg25">Samenvattend: het Adviescollege toetsing regeldruk is van het allergrootste belang om ervoor te zorgen dat wij het wat betreft toetsing van de regeldruk beter gaan doen. Dat kan door anders dan Actal de gelegenheid had, nu te zorgen dat op drie momenten dat college zijn werk kan doen. Het college heeft deskundigheid en heeft menskracht beschikbaar en beschikt zelf over deskundigheid. Het heeft enige ruimte om een aantal andere activiteiten te doen die de Kamer van belang vindt. Als de Kamer onverkort aan de moties vasthoudt, kan ik het proces niet op een verantwoorde wijze voortzetten. Als de Kamer de moties kan aanpassen op de wijze die ik net heb aangegeven, kan ik het oordeel over al deze moties, met uitzondering van de eerste motie van mevrouw Mulder, aan het oordeel van de Kamer laten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u16">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg26">De heer Dijkgraaf heeft een vraag.</seg>
+            </u>
+            <u who="#ElbertDijkgraaf" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u17">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg27">Misschien meer een opmerking, voorzitter. Het betreft het verzoek van de minister over hoe wij omgaan met de motie. Wat mijn motie betreft is de voorwaarde die de minister stelt, prima: "in voorkomende gevallen" toevoegen en "mits het geen afbreuk doet aan de kerntaken". Wij zullen de motie op die manier aanpassen.</seg>
+            </u>
+            <u who="#HenkKamp" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u18">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg28">Dank u wel.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u19">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg29">Ik ga mijn tweede motie gewoon voorleggen aan de Kamer. Wat de andere moties betreft denk ik dat de minister terecht opmerkt dat je niet aan de kerntaken van het ATR moet komen. Daar steun ik de minister in. Wel hoor ik graag in hoeverre er het komende jaar knelpunten optreden bij het ATR en wil ik dat we die inzichtelijk krijgen, zodat we over een jaar met elkaar kunnen bekijken wat misschien beter of anders kan, zodat het ATR niet in een vervelende, knellende positie terechtkomt. Kan de minister daar wat over zeggen?</seg>
+            </u>
+            <u who="#HenkKamp" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u20">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg30">Ik dank mevrouw Mulder voor haar toegeeflijkheid. Ik ben zeker bereid om een halfjaar nadat het nieuwe college is begonnen met zijn werkzaamheden, met hem te bekijken hoe de zaak er voorstaat en hoe het in de praktijk uitpakt. Is dat naar onze verwachtingen? Het college moet enige ruimte hebben voor de dingen die de Kamer belangrijk vindt, zonder dat dat ten koste gaat van zijn kerntaak: het toetsen van de regeldruk op drie verschillende momenten. Ik zal datgene wat daar uitkomt, aan de Kamer voorleggen. Zo kan niet alleen mijn opvolger, maar ook de Kamer zelf daar een opvatting over hebben. Ik zal dus doen wat mevrouw Mulder vraagt.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u21">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg31">Dank voor deze toezegging.</seg>
+            </u>
+            <u who="#ErikZiengs" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u22">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg32">Voor de motie op stuk nr. 407, die is opgesteld door mij en medeondertekenaars, kunnen wij een aanpassing toezeggen. Dat geeft mij de gelegenheid om collega Graus er extra onder te zetten. Het is zeer terecht dat hij de opmerking maakte. Hij zat de vergadering voor, maar hij is altijd pleitbezorger geweest van regeldrukvermindering.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u23">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg33">De heer Ziengs heeft weer vrienden gemaakt. Heel goed!</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u24">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg34">Ook wat ons betreft is het prima om het op verzoek van de minister aan te passen in "adviseren over". Dat ligt inderdaad in lijn met wat Actal tot nu toe deed en kon doen. Ook ik zal de heer Graus uitnodigen om mee te tekenen. Dat doe ik met alle plezier.</seg>
+            </u>
+            <u who="#HenkKamp" ana="#regular" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u25">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg35">Nadat u het debat hebt afgesloten, voorzitter, zal ik samen met de woordvoerders de teksten nog even zodanig aanpassen dat ze zijn zoals de indieners wensen. Dan kan ik, gelet op de reacties van de woordvoerders, instemmen met wat er is gekomen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg36">Er is nog één motie die ik geen aandacht heb gegeven. Dat is de motie op stuk nr. 408 van de heer Hijink c.s. Ik had gezegd dat ik daarop al was ingegaan, maar dat is niet zo. Ik hoop dat ik er alsnog iets over mag zeggen. In de motie van de heer Hijink c.s. wordt de regering verzocht, het mogelijk te maken om op verzoek van organisaties of beroepsbeoefenaren in de publieke sector de regeldruk te laten toetsen door het Adviescollege toetsing regeldruk. Het ATR focust nu op de sectoren met de grootste problematiek op dit punt. Dat zijn de politie, de zorg en het onderwijs. Daar moet al een heleboel gebeuren. Met deze motie wordt dat met name in de overweging uitgebreid. We moeten realistisch zijn. De Kamer noemt nu vier, vijf dingen waaraan het adviescollege, naast de hoofdtaak, enige aandacht moet geven. Ik wil dat ook zeker doen voor de politie, de zorg en het onderwijs, maar het lijkt mij niet verstandig om het uit te breiden naar sociale zekerheid en andere punten die in de motie staan. We kunnen dat ook niet waarmaken. Ik denk dat het al ambitieus is om dit te doen voor politie, zorg en onderwijs. Daarom ontraad ik de motie op stuk nr. 408 van de heer Hijink, die over deze sectoren gaat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u26">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg37">Hartelijk dank.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.u27">
+               <seg xml:id="ParlaMint-NL_2017-04-20-tweedekamer-14.seg38">Over de moties zal vanavond nog worden gestemd. Ik schors de vergadering tot 16.45 uur. Waarschijnlijk gaan we dan eerst door met het VAO Curriculum vo en p.o.</seg>
+            </u>
+            <note>De vergadering wordt van 16.22 uur tot 16.46 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

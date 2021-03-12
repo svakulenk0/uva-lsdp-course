@@ -1,0 +1,137 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-10-05 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-10-05 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 9, Session 7 (2017-10-05)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 9, Session 7 (2017-10-05)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="9">Meeting 9</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="14">14 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="14">14 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="652">652 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="652">652 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-10-05">2017-10-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="22"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="14"/>
+               <tagUsage gi="note" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-10-05">2017-10-05</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg1">Dan is nu aan de orde de regeling van werkzaamheden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg2">Op verzoek van de aanvrager stel ik voor het debat over databeveiliging bij de Belastingdienst van de agenda af te voeren.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg3">Ik stel voor dinsdag aanstaande ook te stemmen over een brief van de vaste commissie voor Europese Zaken (34754, nr. 6).</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg4">Op voorstel van de vaste commissie voor Veiligheid en Justitie stel ik voor de volgende leden af te vaardigen naar de gezamenlijke toezichtsgroep Europol:</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg5">mevrouw Van Toorenburg, als lid;</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg6">mevrouw Helder, als plaatsvervangend lid.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg7">Ik deel mee dat de volgende aangehouden moties zijn vervallen: 29279-376; 21501-33-643; 34563-6; 34725-6; 21501-02-1752; 21501-02-1754; 21501-33-645; 30169-60.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg8">Ik stel voor de volgende stukken van de stand van werkzaamheden af te voeren: 26643-489; 21501-07-1461; 30175-256; 27858-401; 27858-400; 27858-397; 29842-41; 27858-396; 27858-394; 31710-68; 21501-32-1040; 21501-32-1049; 32647-67; 32647-68; 29911-170.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg9">Dan geef ik nu het woord aan mevrouw Van Toorenburg namens het CDA.</seg>
+            </u>
+            <u who="#MadeleinevanToorenburg" ana="#regular" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg10">Voorzitter. Er is een rapport verschenen van de Raad voor Strafrechtstoepassing en Jeugdbescherming. Voor alle leerlingen die vandaag op de tribune zitten: dat is een belangrijk adviesorgaan dat kijkt hoe het in Nederland gaat met bijvoorbeeld de reclassering van ontspoorde mensen. Daarnaast heeft de raad een rechtsprekende taak. Dit orgaan heeft een belangrijk rapport geschreven waarin staat dat het helemaal niet goed gaat met de re-integratie, de resocialisatie, van gedetineerden in Nederland. Ik denk dat het belangrijk is om daar een debat over te voeren. We hebben een reactie gekregen van het kabinet. Ik wil daarbij opmerken dat ik het belangrijk vind om zowel met de RSJ als met een aantal cruciale personen nog het gesprek te voeren in een hoorzitting om meer diepgang te geven in de problematiek, maar daar kom ik in de procedurevergadering wel op terug. Uiteindelijk wil ik er een plenair debat over.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg11">Voorzitter, een ontzettend belangrijk onderwerp. Recidive bestrijden is slachtoffers voorkomen. Maar we hebben het hier al jaren over. Onder andere mijn fractie heeft ook tal van voorstellen gedaan om dit te verbeteren, maar de minister komt eigenlijk met helemaal niets in zijn brief, alleen met een nieuw onderzoek. Dus voluit steun voor een debat. Wat mij betreft kan dat ook gewoon snel, bij wijze van spreken volgende week.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg12">Ook van mijn kant steun om hier uiteindelijk, zoals mevrouw Van Toorenburg zei, over te gaan praten. Er is inderdaad al een reactie van het kabinet. Ik ben er ook wel voor dat er eerst een hoorzitting wordt gehouden. Wat mij betreft bespreken we dit dus eerst in de procedurevergadering volgende week. Ik vind het prima als dat uiteindelijk uitloopt op een plenair debat, maar misschien moeten we er eerst aandacht aan besteden in een AO, waarin we veel meer tijd hebben, in plaats van hier een soort plenair vluggertje eroverheen te doen. Ik wil eigenlijk in de procedurevergadering verder stilstaan bij wat we gaan doen, maar dat niet per se nu snel doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg13">Dus voorlopig geen steun.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg14">Nee, ik wil eigenlijk dat het naar de procedurevergadering gaat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg15">Helder.</seg>
+            </u>
+            <u who="#RoelofBisschop" ana="#regular" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg16">Voorzitter. Namens de SGP van harte steun voor dit voorstel. Ik begrijp dat mevrouw Van Toorenburg al een heel traject in gedachten heeft. Wat ik daarvan hoor, spreekt ons in ieder geval aan. Van harte steun.</seg>
+            </u>
+            <u who="#FoortvanOosten" ana="#regular" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg17">Voorzitter. Steun, maar ook ik wil wel een rondetafel of misschien een briefing. Dat is iets wat we bij de procedurevergadering hebben te bespreken.</seg>
+            </u>
+            <u who="#SelçukÖztürk" ana="#regular" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg18">Voorzitter. Ik denk dat de collega's daar gelijk in hebben. Laten we tijdens de procedurevergadering kijken naar een rondetafel of een hoorzitting alvorens we het debat kunnen voeren.</seg>
+            </u>
+            <u who="#GidiMarkuszower" ana="#regular" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg19">Geen steun, voorzitter. Als criminelen moeilijk aan de bak kunnen komen nadat ze gedetineerd zijn geweest, hadden ze een ander beroep moeten kiezen.</seg>
+            </u>
+            <u who="#MaartenGroothuizen" ana="#regular" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg20">Steun voor het verzoek. Zoals meerderen hebben gezegd, lijkt het me wijs om daarover eerst een hoorzitting te organiseren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg21">Mevrouw Van Toorenburg, u heeft een meerderheid voor het houden van een debat. De brief hierover is al binnen. Dank u wel.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-05-tweedekamer-7.seg22">Daarmee zijn we aan het einde van deze regeling gekomen.</seg>
+            </u>
+            <note>De vergadering wordt van 12.49 uur tot 13.00 uur geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>
