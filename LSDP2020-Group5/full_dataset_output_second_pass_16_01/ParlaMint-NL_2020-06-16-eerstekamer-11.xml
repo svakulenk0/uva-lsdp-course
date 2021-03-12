@@ -1,0 +1,234 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2020-06-16 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2020-06-16 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 32, Session 11 (2020-06-16)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 32, Session 11 (2020-06-16)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="32">Meeting 32</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="11">Session 11</meeting>
+            <meeting ana="#parla.term #EK.36" corresp="#EK" n="36-upper">Meeting of the 36th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="40">40 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="40">40 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3897">3897 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3897">3897 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2020-06-16">2020-06-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="54"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="40"/>
+               <tagUsage gi="note" occurs="17"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-06-16">2020-06-16</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Uitvoering motie-Kox c.s.</note>
+            <note>(Zie vergadering van 2 juni 2020.)</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u1">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg1">Thans is aan de orde een derde termijn naar aanleiding van de uitvoering van de moties 35431, letter D, de motie-Kox c.s. over een tijdelijke huurstop voor zowel de sociale sector als de vrije sector en de motie 35431, letter H, de motie-Kox c.s. over het alsnog op enigerlei wijze uitvoeren van de motie-Kox c.s. over een tijdelijke huurstop voor zowel de sociale sector als de vrije sector. Tot het houden van deze derde termijn is eerder vanmiddag verlof verleend door de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg2">Ik heet de minister van Binnenlandse Zaken en Koninkrijksrelaties van harte welkom in de Eerste Kamer. Ik geef het woord aan de heer Kox vanachter het spreekgestoelte.</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u2">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg3">Voorzitter, dank u wel. Fijn dat de minister op zo'n korte termijn weer in ons midden kan zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg4">Voorzitter. Acht weken geleden vroeg en kreeg de regering steun van deze Kamer voor een ongekend omvangrijk en ingrijpend pakket van tijdelijke generieke regelingen, bedoeld om de onzekere maar waarschijnlijk heftige sociaal-economische gevolgen van de coronacrisis zo goed als dat kan op te vangen. Diezelfde dag vroeg deze Kamer de regering om nog een additionele tijdelijke generieke crisismaatregel en wel voor de grote en extra kwetsbare groep van 3,3 miljoen huurders van wie een kwart al voor de crisis financieel klem zat volgens het Nibud. Om te voorkomen dat zij per 1 juli een extra huurlast van om en nabij 400 miljoen op jaarbasis opgelegd zouden krijgen, riep deze Kamer per motie de regering op om als noodmaatregel een tijdelijke huurstop mogelijk te maken voor de sociale en vrije sector.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg5">Voorzitter. De minister ontraadde de motie, maar beloofde ermee aan de slag te gaan indien de Kamer ervoor zou stemmen, zoals het hoort. Afgelopen vrijdag echter, nadat kort daarvoor deze Kamer als afronding van een interpellatiedebat een tweede motie had aangenomen, die erop aandrong dat de eerste motie uitgevoerd zou worden, liet de minister weten nog steeds niet bereid te zijn de Kamer daarin tegemoet te komen. Ze voert haar eigen beleid uit en daar blijft het bij.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg6">Dat druist in tegen de opvattingen dat het in het goede verkeer tussen regering en parlement betaamt dat aangenomen moties in beginsel uitgevoerd worden. Moties uitvoeren wil niet zeggen dat de Kamer de minister de wet wil voorschrijven. Voor deze Kamer van heroverweging, die alle wetsvoorstellen moet goedkeuren willen ze in het Staatsblad kunnen verschijnen, zijn moties en toezeggingen een belangrijk essentieel hulpmiddel om onze taak als medewetgever en volksvertegenwoordiger naar behoren te kunnen vervullen. Gedane toezeggingen en aangenomen moties dienen we derhalve te koesteren en de nakoming ervan strikt te bewaken. Dat doen we ook als Eerste Kamer en dat werkt. Gedane toezeggingen worden nagekomen en aangenomen moties worden uitgevoerd, zoals het hoort.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg7">Voorzitter. Moties zijn geen amendementen. De minister kan daarom een eigen invulling geven aan zo'n Kameruitspraak, maar dient daarbij wel in de geest van de uitspraak te handelen. Vanuit de Kamer zijn daartoe verschillende suggesties aan de minister gedaan, helaas nog zonder resultaat.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg8">Voorzitter. Nu de minister een door de Kamer voorgestelde tijdelijke generieke huurmaatregel als noodmaatregel in de coronacrisis blijft afwijzen, niet reageert op eventuele varianten en steeds verwijst naar specifieke maatwerkmaatregelen die ze in het verleden genomen heeft of in de toekomst wil nemen, handelt de minister willens en wetens niet overeenkomstig hetgeen betaamt in het goede verkeer tussen regering en parlement. In zo'n geval kan de Kamer niet anders dan dat handelen afkeuren, ter bescherming van haar eigen positie en in de hoop dat de minister zich alsnog terdege zal beraden op haar opstelling tegenover en haar verhouding met deze Kamer. Tot nu toe beweegt de minister zich op een doodlopend spoor. De wissel moet om in het belang van het goede verkeer tussen regering en parlement en dat kan als de minister dat wil. Vandaar de volgende motie.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg9">De:</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg10">Door de leden Kox, Koffeman, Gerbrandy, Baay-Timmerman, Crone, Van Strien en De Boer wordt de volgende motie voorgesteld:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de Kamer op 21 april 2020 en 9 juni 2020 de regering heeft opgeroepen om, als noodmaatregel, een tijdelijke huurstop voor de sociale sector en de vrije sector mogelijk te maken, vanwege de precaire situatie waarin nu al een aanzienlijk deel van de huurders van woonruimten verkeert en ervan uitgaande dat die situatie zich in de komende periode eerder zal verslechteren dan zal verbeteren;</note>
+               <note>gezien de verklaring van de minister in het Kamerdebat van 2 juni 2020 dat een tijdelijke huurstop mogelijk gemaakt kan worden via verschillende opties (een minnelijke overeenkomst met de verhuurders, een wettelijk regime voor de vrije huursector en een ministeriële regeling voor de gereguleerde huursector), maar dat de minister die door de Kamer gevraagde tijdelijke maatregel "niet proportioneel en doeltreffend" vindt en daarom afwijst;</note>
+               <note>gezien de mededeling van de minister in haar brief van 12 juni jongstleden aan de Kamer dat ze, ook na het debat met de Kamer op 2 juni jongstleden en het aannemen van de tweede motie op 9 juni jongstleden, geen mogelijkheden ziet om verder te gaan dan ze in het Kamerdebat en haar eerdere brief van 5 juni jongstleden aan de Kamer heeft aangegeven, ondanks het nadrukkelijke verzoek daartoe van de Kamer;</note>
+               <note>stelt daarom vast dat de minister niet tegemoet wil komen aan de uitdrukkelijke en herhaalde oproep van de Kamer om een tijdelijke huurstop, in enigerlei vorm, mogelijk te maken;</note>
+               <note>spreekt daarover haar afkeuring uit;</note>
+               <note>verzoekt de minister alsnog een tijdelijke huurstop, dan wel substantiële preventieve maatregelen van vergelijkbare aard, mogelijk te maken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Zij krijgt nr. kst-35431-K</note>
+            </u>
+            <note>Dank u wel. De motie wordt dus voldoende ondersteund. Zij zal worden rondgedeeld. Er is een interruptie voor u, meneer Kox, van de heer Van der Burg.</note>
+            <u who="#EricvanderBurg" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u3">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg11">Eerst even een organisatorische vraag. Spreekt u hier namens de SP of ook mede namens alle andere indieners?</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u4">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg12">Ik spreek namens alle indieners die, zoals straks getoond zal worden, de motie ondertekend hebben.</seg>
+            </u>
+            <u who="#EricvanderBurg" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u5">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg13">Mag ik de heer Kox dan vragen wat de indieners van deze motie bedoelden met de tussenzin van de heer Kox, "mede ter bescherming van haar eigen positie"?</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u6">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg14">We hebben de tekst vooraf gewisseld. We bedoelen daar dus mee wat er staat, "het beschermen van haar eigen positie". Ik dacht dat ik in mijn korte toelichting heb aangegeven dat voor deze Kamer, die het middel van het amendement en het middel van het initiatief niet heeft, gedane toezeggingen en aangenomen moties essentieel zijn om ons werk te kunnen doen. Ik spreek uit enige ervaring. Ik ben blij dat we dat stelsel van softe power hebben als Eerste Kamer om de regering uiteindelijk te bewegen te doen wat deze Kamer wil. Is dat voldoende uitleg?</seg>
+            </u>
+            <u who="#TheoRietkerk" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u7">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg15">We gaan niet het inhoudelijke debat voeren. De vraag vanuit de CDA-fractie aan de heer Kox en de indieners is: duidt u deze motie als een motie van treurnis?</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u8">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg16">Nee, dit is een motie van de Kamer. In deze motie wordt in het dictum uitgesproken dat naar de mening van de indieners de minister niet doet wat haar te doen zou staan. Dat wordt afgekeurd. Tegelijkertijd wordt de minister opgeroepen alsnog datgene te doen wat we niet zouden afkeuren.</seg>
+            </u>
+            <u who="#TheoRietkerk" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u9">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg17">Het is dus geen motie van treurnis. Dan is de vervolgvraag: is het naar uw idee een motie van afkeuring?</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u10">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg18">Nog een keer: het is de motie zoals die is. In de motie wordt die afkeuring uitgesproken en tegelijkertijd de hoop dat de minister alsnog doet wat deze Kamer wil. Moties van treurnis hebben — volgens mij al sinds Hans van Mierlo daar korte metten mee maakte — niet erg veel school gemaakt in het parlement. Van Mierlo had als opvatting zoiets als: je eigen persoonlijke gemoedstoestand onderwerp maken van een uitspraak van de Kamer is wat al te veel van het goede. Ik denk dat hij daar gelijk in had. De opvatting van Van Mierlo was: je bent een vent of een vrouw als je niks zegt of als je je mening geeft; daar ga je niet tussenin zitten. Dus geen motie van treurnis.</seg>
+            </u>
+            <u who="#TheoRietkerk" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u11">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg19">Dus een motie van afkeuring. Dat was mijn tweede vraag. Het antwoord is dus ja, namens alle indieners.</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u12">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg20">Sorry, ons Reglement van Orde kent geen gradatie van moties. Wij kennen moties en moties van orde. Dit is een motie van de Kamer en daarin spreekt de Kamer uit wat er gebeurd is, spreekt zij haar afkeuring daarover uit en roept zij de minister op alsnog te doen wat de Kamer wil. Zo is de motie en zo heet de motie.</seg>
+            </u>
+            <u who="#TheoRietkerk" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u13">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg21">Er staat duidelijk in: "spreekt haar afkeuring uit". Dat is een motie van afkeuring. Dan is de vervolgvraag: als het om een motie van wantrouwen gaat, wat is dan de volgende stap als de minister blijft bij het beleid zoals ze dat de afgelopen weken heeft uitgelegd?</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u14">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg22">Ik heb alle vertrouwen in het goede verstand en de goede politieke voelhoorns van deze minister. Op het moment dat deze Kamer deze motie zou aannemen, denk ik dat de minister in beraad zal gaan om na te denken over wat te doen. Ik ga ervan uit dat dan uiteindelijk gedaan wordt wat in een democratie gedaan hoort te worden, namelijk dat de wil van de Kamer uitgevoerd wordt. Ik ben dus nog helemaal niet verder. En nog een keer, de motie is zoals de motie luidt. Al die kwalificaties die daaraan gegeven worden, zijn voor rekening van de geachte afgevaardigde. Deze motie spreekt afkeuring uit over het feit dat de minister niet doet wat de Kamer wil en spreekt de hoop uit dat de minister wel gaat doen wat de Kamer wil. Duidelijker kan ik het niet maken.</seg>
+            </u>
+            <u who="#TheoRietkerk" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u15">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg23">In de motie van afkeuring staat een opdracht voor de minister, waarvan het beleid — in ieder geval dit onderdeel van het beleid — wordt afgekeurd. Dan staat er: "dan wel substantiële preventieve maatregelen". Kunt u dat eens duiden in taal die we kunnen verstaan? Geen tijdelijke huurstop — want dat was tot nu toe het standpunt — maar "substantiële preventieve maatregelen"; kunt u de rest van de Kamer helpen door aan te geven wat u daaronder verstaat?</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u16">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg24">Zoals ik al in mijn inbreng zei, dient deze Kamer geen amendementen in, maar neemt zij moties aan. Met moties schrijven we de minister niet de wet voor, niet letterlijk en niet figuurlijk. Met moties geven we aan wat we willen. Dat is gebeurd. Tijdens dat debat is er door verschillende deelnemers aan het debat gezegd: maar ministers, doe misschien dit of misschien dat. Het gaat er natuurlijk over dat we de last wat willen verlichten voor een grote doelgroep die mogelijkerwijs in de problemen komt en voor een groot deel al in de problemen zit. Daarvoor zijn mogelijkheden. Een tijdelijke huurstop is een in deze Kamer breed gesteunde mogelijkheid. Als de minister nou zegt dat zij dat om de een of andere reden niet kan doen, maar een ander voorstel heeft, dan is dat goed. Maar tot nu tot heeft de minister alleen gezegd: wat vindt u van het beleid dat ik al voer? Dat beleid kennen we en is ook goedgekeurd, maar het is geen antwoord op de vraag van deze Kamer.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u17">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg25">Meneer Rietkerk, de laatste keer.</seg>
+            </u>
+            <u who="#TheoRietkerk" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u18">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg26">Dus we kijken gezamenlijk nieuwsgierig uit naar niet alleen het antwoord van de minister, maar ook of er invulling kan worden gegeven aan een substantiële, preventieve maatregel?</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u19">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg27">Ik ben benieuwd naar alle invullingen die de minister kan geven aan de nu al twee keer aangenomen motie om te doen wat deze Kamer wil. Dat is duidelijk geworden. Deze Kamer is ruimdenkend en het zou fijn zijn als de minister dat op een gelijke manier zou beantwoorden. Maar de eerste die aan zet is na aanneming van deze motie, is de minister. Zoals gezegd, ik heb alle vertrouwen in haar gezond verstand.</seg>
+            </u>
+            <u who="#JorisBacker" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u20">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg28">Ik begrijp dat deze motie volgende week in stemming komt. Dan zal ook onze woordvoerder op dit dossier, collega Pijlman, er zijn. Ik heb alleen een paart constitutionele overwegingen, want ik vind het toch bijzonder. De heer Kox heeft idealen en daar strijdt hij voor. Zo ken ik hem ook. Maar er zijn ook zaken die groter zijn dan zijn idealen en dat zijn de constitutionele verhoudingen tussen deze twee Kamers. Als de motie van de minister vraagt om maatregelen te nemen waar een meerderheid van de Tweede Kamer tegen is geweest bij een motie van gelijke strekking, dan vraagt die dus aan de minister om de Tweede Kamer, die toch het primaat van de politiek heeft, te trotseren. Dat is omdat u toch het onderste uit de kan wil halen, zelfs na alle zaken die de minister al heeft gedaan om te proberen u tegemoet te komen. Als u het onderste uit de kan wil, dan weet u dat u haar in conflict brengt met de Tweede Kamer. Ik zeg dat niet om haar te beschermen. Dan zeg ik: ik zou de heer Kox toch de vraag in overweging willen geven of de continuïteit van de verhoudingen tussen deze twee Kamers niet belangrijker is dan dit incidentele succesje. Vliegt hij hier niet constitutioneel een beetje uit de bocht?</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u21">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg29">Het mag bekend zijn dat ik een groot liefhebber ben van constitutioneel recht en van de constitutionele positie van beide Kamers. Het is zelfs zo dat wij tien jaar terug in deze Kamer, in de andere zaal, hierover een gesprek hebben gehad met de regering, die toen ook al geleid werd door minister-president Rutte. Maar zijn vertegenwoordiger op dat moment was staatssecretaris Weekers. Staatssecretaris Weekers zei tegen de Eerste Kamer: geachte Kamer, ik kan niet uitvoeren wat u vraagt, want de Tweede Kamer heeft mij iets anders gevraagd. Toen hebben de gezamenlijke fractievoorzitters gezegd: dan mag de minister-president hier komen, want het kan niet zo zijn dat een uitspraak van de ene Kamer de andere Kamer aan banden legt. Toen is dat constitutionele leerstuk van staatssecretaris Weekers een hele snelle dood gestorven en zo hoort het ook. De regering heeft — lees er de leerboeken op na — een eigenstandige relatie met beide Kamers en heeft zich te verhouden tot beide Kamers. In geen van de Kamers kan de regering zeggen: maar ik mag dit niet doen van de andere Kamer. Dat zou de bijl aan de wortel van ons parlementaire stelsel zijn.</seg>
+            </u>
+            <u who="#JorisBacker" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u22">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg30">Toch twee opmerkingen daarover. Ik wil natuurlijk niet de kennis van staatsman Weekers betwisten. Ik begrijp uit uw antwoord, en dat vind ik gek, dat een dergelijk conflict slechts op het niveau van de minister-president kan worden opgelost. Dat is één. Dat is voor mij nieuw, maar het kan. Twee. U zegt: wij vragen hier aan de regering om wetgeving in gang te zetten. Dan vraagt u toch iets dat deze Kamer in beginsel niet toekomt? U zei in het begin al: de motie is een instrument, net als de toezegging, om beleid eventueel bij te sturen. Maar de motie is niet, en zeker niet in een controversieel dossier als dit, een instrument om van de regering iets te vragen dat zij niet mocht van een Kamermeerderheid in de Tweede Kamer. Iedere casus is weer anders, maar ik denk dat dat niet de casus is van de heer Weekers.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u23">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg31">De heer Kox nog een korte reactie.</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u24">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg32">Ik verwijs graag naar de Handelingen op dat punt. Overigens mocht ik toen het woord voeren namens alle fractievoorzitters, inclusief de fractievoorzitter van D66. Toen losten we het probleem op. Een minister kan zich in geen van beide huizen beroepen — de minister heeft dat ook niet gedaan — op de uitspraak: ik mag hier iets niet zeggen van de andere Kamer. Dat past niet in een tweekamerstelsel. Dat is dus niet aan de orde. Dus ik deel de zorgen van de geachte collega en vind dat wij buitengewoon stipt moeten zijn op de constitutionele verhoudingen, en dat speelt hier nou net. Op het moment dat deze Kamer te horen krijgt "u mag niet iets willen, want de andere Kamer wil het niet", is het einde verhaal. Daar is op dit moment niemand op uit. Ook de staatscommissie-Remkes heb ik er niet op betrapt dat die daar voorstellen over doet.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u25">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg33">De heer Backer, derde vraag.</seg>
+            </u>
+            <u who="#JorisBacker" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u26">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg34">Tot slot. Dan vind ik het toch merkwaardig dat u — de heer Van der Burg vroeg daar ook naar — er in deze motie de wending aan geeft dat u de minister in bescherming neemt, terwijl u hier in feite een conflict creëert.</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u27">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg35">Voor alle duidelijkheid: ik neem de Kamer in bescherming. Ik vind namelijk dat een Kamer, die in haar functionaliteit gebaseerd is op gedane toezeggingen en aangenomen moties, er niet mee akkoord moet gaan als toezeggingen niet nagekomen worden of moties niet worden uitgevoerd. Dat is geen bijzonder links of rechts leerstuk, dat is de essentiële positie van deze Kamer. Ik weet dat collega Backer het er eigenlijk ook wel mee eens is dat we dat moeten beschermen. Maar ik denk ook dat we de goede verhouding tussen de minister en deze Kamer moeten beschermen. Dat komt erop neer dat als deze Kamer echt iets wil, de minister dan gehouden is om uit te gaan zoeken hoe ze dat kan realiseren. Dat is op dit moment niet het geval. Daarover spreekt deze motie zich uit.</seg>
+            </u>
+            <u who="#PeterSchalk" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u28">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg36">Ik wil in ieder geval vandaag niet ingaan op de inhoudelijke kant en dergelijke, maar wil gewoon een hele simpele vraag stellen aan ervaren collega Kox. Ik zit hier nog maar vijf jaar en heb tot nu toe nooit een motie van afkeuring meegemaakt. Ik heb ze wel vaak gezien aan de overkant. Daar wordt in ieder geval hetzelfde dictum gebruikt: spreekt daarover haar afkeuring uit. Maar ik heb eigenlijk nog nooit gezien dat er vervolgens weer een vervolgopmerking kwam. Want de minister wordt verzocht om alsnog een tijdelijke huurstop dan wel substantiële preventieve maatregelen van vergelijkbare aard mogelijk te maken. Met andere woorden: is dit geen opmaat naar een vierde motie? Ik denk dat we dat even moeten proberen te voorkomen. Dat zouden we kunnen voorkomen door aan de minister te vragen: wilt u alstublieft vandaag wel meteen aangeven of u bereid bent om nieuwe stappen te zetten naar aanleiding van deze motie? Want anders blijven we elkaar elke week een beetje bezighouden met opvolgende moties. Dus mijn concrete vraag is: wat is de bedoeling van de toevoeging, die volgens mij staatsrechtelijk redelijk nieuw is, van een nieuwe opdracht na het uitspreken van de afkeuring?</seg>
+            </u>
+            <u who="#TinyKox" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u29">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg37">Vooraf: het nakomen van moties moet ook collega Schalk na aan het hart liggen. Ik herinner me nog zijn ijver toen hij zei: de motie-Schalk moet worden uitgevoerd, met steun van deze Kamer. Uiteindelijk zijn we zover gekomen. De uitvoering van moties is altijd binnen grenzen. Ik heb gezegd: de regering, de minister, heeft haar eigen vrijheid. Dat het dictum anders luidt dan in de Tweede Kamer, is misschien een extra bewijs dat deze Kamer een eigenstandige positie heeft. Het geeft ook aan deze motie niet zegt: minister, ga weg. Nee, deze motie zegt: minister, treed op; treed op op een wijze dat deze Kamer daardoor gecontenteerd kan worden. Dat is de meest vriendelijke variant die we samen konden bedenken, nogmaals, omdat het doel van dit proces niet is elke week een motie in te dienen, maar wel pal te staan voor de dingen die een meerderheid van deze Kamer besluit, om tot een oplossing te komen. Daar is, denk ik, iedereen in deze Kamer op uit. Zoals gezegd, ik ga ervan uit dat ook de minister daarop zal uitkomen en in de komende dagen wellicht met een oplossing voor de dag kan komen.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u30">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg38">De heer Schalk, nog een laatste.</seg>
+            </u>
+            <u who="#PeterSchalk" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u31">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg39">Ik begrijp de redenering enerzijds. Aan de andere kant: ik heb de eerste motie van de heer Kox ondersteund; niet ondertekend, wel ondersteund. De tweede heb ik niet ondertekend en niet ondersteund. Maar die inhoudelijke kant moeten we nu even weglaten. De principiële vraag op dit moment is de volgende. Op het moment dat we deze motie aanvaarden, komt er een vervolg op, want we gaan opnieuw iets verzoeken aan de minister, waar ze wel of niet gevolg aan geeft. Mijn vraag zou dan zijn: laat de minister helder aangeven of ze daaraan tegemoet gaat komen, anders krijgen we volgende week dat we u, en ons allemaal, weer heel veel werk bezorgen. Dat is overigens niet erg, want het is bijzonder boeiend. Maar volgens mij moeten we het wel staatsrechtelijk zuiver houden.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u32">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg40">De minister krijgt zo het woord. Wenst een van de andere leden nog het woord in de derde termijn? Dat is niet het geval.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg41">Dank u, meneer Kox. Dan geef ik het woord aan de minister van Binnenlandse Zaken en Koninkrijksrelaties, nadat haar katheder geplaatst is.</seg>
+            </u>
+            <u who="#KajsaOllongren" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u33">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg42">Dank, voorzitter. Uiteraard kom ik als deze Kamer vraagt om mijn aanwezigheid, dus daar hoeft niemand mij ooit voor te bedanken. Ik waardeer de aandacht die de heer Kox en anderen hebben voor het onderwerp, namelijk de huurders. Ik denk dat ik in de brieven en in de debatten hier heb laten zien dat ik mijn best doe om aan die zorgen tegemoet te komen en de indiener te contenteren, in de woorden die de heer Kox net sprak. Maar, en dan kom ik op de inhoud — dat doe ik kort, want we moeten hier niet herhalen wat we al vaker met elkaar hebben besproken — ik denk dat er een verschil van inzicht is tussen de indieners en de intentie van de motie, en de wijze waarop ik probeer tegemoet te komen aan de zorgen die de indieners hebben. Dus daar gaat het debat steeds over.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg43">Ik heb geprobeerd te laten zien dat ik een aantal stappen heb gezet, aanvullend op wat ik al in de Tweede Kamer had aangekondigd, omdat de positie van de huurders ook mij zorgen baart. We zijn begonnen bij een appel aan de verhuurders en inmiddels zijn we bij het meldpunt voor huurders en de aankondiging van wat er in augustus en september nog zou kunnen volgen. Dat is allemaal niet niks. Ik neem de oproep dus ontzettend serieus. Dat zou ik hier vandaag toch nog eens willen onderstrepen. De huurders die als gevolg van corona echt in de problemen zijn gekomen, zijn geholpen met echte maatregelen. De inventarisatie bij bijvoorbeeld Aedes, bij de woningbouwcorporaties, laat zien dat zij die huurders ook echt helpen, bijvoorbeeld door hun huurverlaging aan te bieden of uitstel te geven. De mensen die echt in de problemen komen, worden als gevolg van de voortdurende aandacht voor dit probleem, ook van deze Kamer, echt geholpen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg44">Maar als de vraag is of ik nu, op dit moment, nog verder kan gaan dan alle maatregelen die ik heb opgesomd, dan zeg ik: nee, dat is nu heel lastig. Ik heb natuurlijk wel gezegd dat ik, vanwege de slechte economische vooruitzichten die we nu hebben, de positie van de huurders heel goed in de gaten wil houden. Als ik in augustus, september met de collega's in het kabinet tot besluitvorming kom over de koopkracht van mensen, gaat het ook over de positie van de huurders. Ik vind het belangrijk om die ruimte te hebben en geen instrumenten uit te sluiten om hen zo goed mogelijk te helpen. Dat is de benadering die het kabinet heeft gekozen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg45">Daarmee ben ik, denk ik, ver gegaan om te proberen de indieners van deze motie te contenteren. Uit de nieuw ingediende motie maak ik op dat dat voor degenen die deze motie hebben ondertekend, nog niet het geval is. Dat betreur ik. Dat vind ik jammer. Maar dat laat onverlet dat ik me zal blijven inzetten voor de huurders.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg46">Als de vraag is — de heer Schalk stelde daar net ook een vraag over aan de heer Kox — wat ik wel kan doen en of hiervoor substantiële preventieve maatregelen van vergelijkbare aard bestaan, dan denk ik dat het goed is om opnieuw te verwijzen naar wat ik eerder heb aangekondigd, namelijk: kijk in augustus, als we naar alle Nederlanders kijken, juist ook naar de belangen van de huurders en sluit dan geen instrument uit. Dat herhaal ik hier. Het is dus een stapsgewijze aanpak om te kijken hoe we huurders nu helpen als ze in de financiële problemen zijn gekomen, de mensen die hun baan zijn kwijtgeraakt, de zzp'ers, de flexwerkers. Maar inderdaad moeten we steeds verder blijven denken. Dat doet het kabinet wat betreft de hele aanpak, de generieke aanpak van de inkomenssteun. Dat doe ik ook wat betreft de huurders.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg47">Voorzitter, om niet in herhaling te vervallen, wil ik het daar eigenlijk bij laten.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u34">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg48">Dank u wel, minister. Is er behoefte aan een vierde termijn? Dat is niet het geval. De heer Van der Burg wenst het woord in vierde termijn?</seg>
+            </u>
+            <u who="#EricvanderBurg" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u35">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg49">Nee, ik heb een punt van orde.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u36">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg50">Een punt van orde is uiteraard ook mogelijk. Gaat uw gang.</seg>
+            </u>
+            <u who="#EricvanderBurg" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u37">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg51">Voorzitter. Uitgaande van het feit dat de motie volgende week in stemming komt — dat nemen we even als uitgangspunt aan — verzoekt in ieder geval de VVD-fractie de Voorzitter om uit te gaan van een hoofdelijke stemming.</seg>
+            </u>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u38">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg52">Dank u, meneer Van der Burg. Wenst een van de overige leden nog het woord? Dat is niet het geval.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u39">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg53">Ik stel voor om volgende week over de ingediende motie te stemmen.</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.u40">
+               <seg xml:id="ParlaMint-NL_2020-06-16-eerstekamer-11.seg54">Ik schors de vergadering voor de dinerpauze tot 19.30 uur.</seg>
+            </u>
+            <note>De vergadering wordt van 17.58 uur tot 19.36 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

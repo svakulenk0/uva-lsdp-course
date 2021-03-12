@@ -1,0 +1,155 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-04-12 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-04-12 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 75, Session 29 (2016-04-12)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 75, Session 29 (2016-04-12)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="75">Meeting 75</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="29">Session 29</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="15">15 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="15">15 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1200">1200 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1200">1200 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-04-12">2016-04-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="20"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="15"/>
+               <tagUsage gi="note" occurs="22"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-04-12">2016-04-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Evaluatie bankenbelasting</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u1">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg1">Zo te zien zijn er voor een groot deel dezelfde deelnemers. Alleen bij D66 zie ik een wisseling. De heer Koolmees is onderweg. Ik geef als eerste het woord aan mevrouw De Vries van de VVD.</seg>
+            </u>
+            <u who="#AukjedeVries" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u2">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg2">Voorzitter. De VVD heeft nog twee punten over dit VSO Bankenbelasting. Wij hadden het logisch gevonden als er naar aanleiding van de evaluatie een aanpassing had plaatsgevonden van de wet, omdat er een verschil is tussen het bonusbeleid dat in deze wet staat en het bonusbeleid dat recent is vastgesteld voor de hele financiële sector. Het kabinet heeft daar helaas geen aanleiding toe gezien.</seg>
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg3">Het tweede punt is een vraag over de dubbele bankenbelasting die nog voor zou kunnen komen. Wij zijn benieuwd hoe de staatssecretaris dat ziet.</seg>
+            </u>
+            <u who="#RolandvanVliet" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u3">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg4">Voorzitter. Ik heb met veel interesse en plezier meegedaan aan het schriftelijk overleg, dus ik neem nu ook deel aan dit VSO. Ik dien de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de Wet bankenbelasting door de regering is geëvalueerd;</note>
+               <note>overwegende dat in deze evaluatie niet zijn meegenomen de economische effecten, waaronder de CPB-raming dat de jaarlijkse groei van het bbp met 0,08% zou afvlakken bij een opbrengst van 600 miljoen euro aan bankenbelasting en gelijkluidende conclusies van de Nederlandsche Bank;</note>
+               <note>verzoekt de regering, bij de volgende evaluatie van de bankenbelasting de economische effecten zo veel mogelijk mee te nemen en de Kamer dan daarover te rapporteren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Vliet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32545-49</note>
+            </u>
+            <u who="#ArnoldMerkies" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u4">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg5">Voorzitter. Vier jaar geleden, nog tijdens het vorige kabinet, werd het amendement Braakhuis/Groot ingediend, waarin werd voorgesteld om de bankenbelasting te verhogen van 300 miljoen naar 1 miljard. Dat amendement is nooit in stemming gebracht, omdat we toen het lenteakkoord kregen. Vervolgens is er wel een nieuw amendement ingediend, inmiddels zonder de naam Groot. De beoogde opbrengst daarvan was 600 miljoen. Wat opviel, was dat er een zinnetje aan was toegevoegd: bij evaluatie van de Wet bankenbelasting zal worden bezien of de opbrengst verder verhoogd kan worden. Dan vraag ik mij af of dat de toezegging geweest is richting GroenLinks bij het lenteakkoord. Is er gezegd: een miljard gaat ons nu te ver, maar over drie jaar kunnen we kijken of dat wel mogelijk is?</seg>
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg6">We kunnen uit deze evaluatie van de bankenbelasting opmaken dat het mogelijk is. Die spookverhalen over instortende kredietverstrekking als gevolg van de bankenbelasting zijn sterk overtrokken, zo blijkt uit deze evaluatie. Inmiddels zien we dat de winsten ten opzichte van 2012 meer dan verdubbeld zijn. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>van oordeel dat banken mede debet zijn aan het ontstaan van de financieel-economische crisis;</note>
+               <note>overwegende dat de steunmaatregelen voor banken een veelvoud hebben gekost van de opbrengst van de bankenbelasting;</note>
+               <note>voorts overwegende dat de winsten van banken een opwaartse trend laten zien;</note>
+               <note>verzoekt de regering, de bankenbelasting structureel te verhogen naar 1 miljard euro,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Merkies. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32545-50</note>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u5">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg7">Voorzitter. De PvdA is een groot voorstander van het belasten van de bancaire sector. Het is een onderbelaste sector. De belasting is dan ook de afgelopen jaren verhoogd van 300 naar 600 miljoen euro, dus verdubbeld. Dat is een goede zaak, mede door steun van de PvdA.</seg>
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg8">De PvdA-fractie is tegenstander van morrelen aan onderdelen van de wetgeving over bonussen voor bankiers. Ze hebben het goede voorbeeld nog niet echt laten zien, dus er is geen enkele aanleiding om die wet verder te versoepelen.</seg>
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg9">De heer Merkies heeft zojuist een motie ingediend om de bankbelasting verder te verhogen. Een bankbelasting van 1 miljard staat ook in het verkiezingsprogramma van de PvdA, dus daar zijn wij gewoon voorstander van. Maar zoals met alle fiscale voorstellen hier — ik hoef de staatssecretaris maar even in de ogen te kijken om te zien wat er dan gebeurt — is er een meerderheid in beide Kamers voor nodig. Ik nodig de heer Merkies en de SP daarom van harte uit om bij het komende begrotingsoverleg dit punt in te brengen. De PvdA-fractie staat daar zeer sympathiek tegenover, maar er is dus wel een meerderheid in beide Kamers voor nodig. Dat wordt bij de behandeling van het Belastingplan geregeld. Hij kan de motie aanhouden tot dan. Hij kan haar ook in stemming brengen, maar ik ga niet tussendoor fiscale voorstellen steunen, zoals ook algemeen bekend is in de Kamer.</seg>
+            </u>
+            <u who="#ArnoldMerkies" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u6">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg10">Gaat de PvdA nou tegenstemmen? Zoals ik al zei, heeft de PvdA dit amendement zelf ingediend. Toen het bleek te zijn afgezwakt van 1 miljard naar 600 miljoen heeft de PvdA terecht haar handtekening eronder vandaan gehaald. Ik vraag me dan toch af wat de PvdA nu gaat doen.</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u7">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg11">Ik geloof eerlijk gezegd niet dat de heer Merkies zich dat afvraagt, want hij weet precies hoe het hier gaat. Wij zijn zelf voor het eerlijker belasten van zaken. Met D66 delen wij de wens voor vergroening van het belastingstelsel. Andere partijen vinden andere dingen weer belangrijk. Voor alle fiscale voorstellen en wensen is een deal nodig met een meerderheid van de Kamer. De PvdA-fractie is voorstander van het zwaarder belasten van de financiële sector. Als de heer Merkies met ons aan tafel komt voor de begroting, dan zijn we samen en staan we sterker. Ik kan niet even één onderdeeltje met hem regelen zonder dat we een meerderheid kunnen behalen voor de andere punten. Dat weet de heer Merkies heel goed. Ik hoop dat de SP dit jaar wel aanschuift bij het belastingplan en dat zij nu wel naar de bespreking komt. Dan kun je je idealen ook realiseren.</seg>
+            </u>
+            <u who="#ArnoldMerkies" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u8">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg12">Ik vind dit heel raar. De idealen stonden dacht ik in het verkiezingsprogramma van de PvdA: 1 miljard. Nu zegt de PvdA: we gaan tegenstemmen. Dan ben je toch je idealen aan het verloochenen?</seg>
+            </u>
+            <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u9">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg13">Ik verklap de heer Merkies niets nieuws: de akkoorden die hier worden gesloten, zijn geen verkiezingsprogramma van een van ons allen. Daar heb je afspraken en gesprekken voor nodig. Het is nodig om meerderheden te zoeken. De SP heeft er vorige keer voor gekozen om langs de kant te blijven staan. Ik hoop dat de heer Merkies samen met andere partijen de boel deze keer een beetje naar links wil trekken en dat zij niet weer wegloopt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u10">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg14">Ik begrijp dat de staatssecretaris gelijk kan antwoorden, want iedereen heeft de twee moties in bezit. Ik geef het woord aan de staatssecretaris.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u11">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg15">Voorzitter. Mevrouw De Vries vraagt hoe het eigenlijk staat met de dubbele bankenbelasting. Daar hadden wij inderdaad een probleem, met name vis-à-vis België en Polen. Dat is ook een kwestie van blijven aandringen bij collega's. Ik spreek met mijn Poolse collega tijdens de Ecofin. Ik ben graag bereid datzelfde te doen met mijn Belgische collega, die nieuw is ten opzichte van de vorige keer dat er over dit onderwerp is gesproken. Dat is dan ook mijn antwoord aan mevrouw De Vries.</seg>
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg16">In de motie op stuk nr. 49 wordt gevraagd om "de economische effecten zoveel mogelijk mee te nemen". Daar kun je haast niet tegen zijn, maar ik word wel gewaarschuwd door de mensen die hier de vorige keer aan hebben gerekend dat de economische effecten van een bankenbelasting zeer moeilijk te onderscheiden zijn van allerlei andere zaken, zoals rente en kapitaal. Ik wil daarom de verwachtingen toch wel erg laag stellen. Degenen die betrokken zouden zijn bij de uitvoering van deze motie, vinden dat ik haar moet ontraden. Maar "zoveel mogelijk" is zoveel mogelijk en dat is altijd mogelijk. Mijn verwachtingspatroon daarbij is laag, maar ik laat het oordeel over de motie wel aan de Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u12">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg17">Heel kort, mijnheer Van Vliet, want het oordeel is aan de Kamer.</seg>
+            </u>
+            <u who="#RolandvanVliet" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u13">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg18">Inderdaad, "zoveel mogelijk"; ik ben realist. Nu stond er helemaal niets over economische effecten in. Als we het dus op die manier kunnen afspreken, dan dank ik de staatssecretaris dat hij het oordeel aan de Kamer laat.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u14">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg19">De heer Merkies stelt in zijn motie een hogere bankenbelasting voor. We hebben allemaal meegemaakt dat de impliciete overheidsgarantie ten aanzien van de banken niet is toegenomen maar is afgenomen. Daar past ook geen hogere vergoeding bij. Ik ontraad zijn motie dan ook.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.u15">
+               <seg xml:id="ParlaMint-NL_2016-04-12-tweedekamer-29.seg20">Ik dank de staatssecretaris van Financiën voor zijn beantwoording. De stemmingen zullen komende dinsdag plaatsvinden.</seg>
+            </u>
+            <note>De vergadering wordt van 17.19 uur tot 17.25 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

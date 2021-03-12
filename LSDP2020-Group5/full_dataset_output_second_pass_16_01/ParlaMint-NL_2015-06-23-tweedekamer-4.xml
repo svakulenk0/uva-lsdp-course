@@ -1,0 +1,143 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-06-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-06-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 99, Session 4 (2015-06-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 99, Session 4 (2015-06-23)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="99">Meeting 99</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="19">19 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="19">19 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1511">1511 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1511">1511 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-06-23">2015-06-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="21"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="19"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-06-23">2015-06-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Keijzer</note>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg1">Voorzitter. Sinds ik namens het CDA het debat over het rapport van de parlementaire werkgroep ICT heb gevoerd, heb ik er een buitengewoon boeiend onderwerp bij gekregen, namelijk ICT. Sinds begin maart dit jaar is het extra gaan leven. Zie de grote problemen bij de SVB ten aanzien van de pgb's met een nadrukkelijke ICT-component. Sindsdien lees ik met een extra oog alles wat naar buiten komt op dit gebied, wat wel "het ICT-falen" genoemd wordt. De kosten zijn gigantisch. Honderden miljoenen aan belastinggeld verdwijnen in de zakken van ik-weet-niet-wie, maar dat leidt niet tot werkende systemen. Ik noem SPEER bij Defensie (1 miljard euro), een nieuw transactiesysteem bij de Belastingdienst (200 miljoen) en het fraudebestrijdingsprogramma bij Justitie, RADAR, waarover collega Gesthuizen van de SP direct ook nog vragen gaat stellen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg2">Maar vandaag sta ik hier voor de BPR, de Basisregistratie Personen. Voor de wat oudere mensen onder ons: dat is de kaartenbak bij de secretarie waar alles en iedereen in stond. Er zit al 70 miljoen euro belastinggeld in dit ICT-systeem. René Veldwijk heeft daarover een lezenswaardig artikel geschreven op Computable met als ondertoon: zó gaat het niet werken! Wie is die man? Een bekende deskundige die de polisadministratie bij het UWV heeft opgelost. Gaat het goed met de BPR? Wat gaat er goed? Delen. Het is opensourcesoftware, oftewel vrije software zonder licenties. Ik heb daar een aantal vragen over. Ten eerste: hoe gaat de minister om met het vernietigende oordeel, dat uit het artikel blijkt, nadat delen van de software zijn ingezien? Is de software inderdaad onnodig ingewikkeld gebouwd? Klopt de analyse dat dit in de toekomst gaat leiden tot hoge onderhoudskosten? Ten tweede: kan de minister de Kamer toezeggen dat geen persoon of partij rechten kan claimen op de concepten of de generatorsoftware? De afgelopen tijd is wel gebleken dat dit soort vragen tot een welles-nietesspelletje leiden, maar het is eigenlijk heel simpel. Vandaar mijn derde vraag: wil deze minister de broncode gewoon openbaren?</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg3">Voorzitter. De BRP, niet de BPR, is een van de grote ICT-projecten. Daarom is het heel belangrijk dat dit strak bestuurd wordt. Dat weet u, want wij hebben de Kamer daarover regelmatig gerapporteerd. Op 6 maart is er een brief gestuurd waarin ik de BRP langs de meetlat van de commissie-Elias heb gelegd. Daarin heb ik de verschillende risico's in kaart gebracht. Op 23 april heb ik de meest recente voortgangsrapportage aan de Kamer gestuurd. Er is toen ook een Kamerdebat over geweest, een algemeen overleg, waarin dit onderwerp uitgebreid aan de orde is gekomen en waarin de vragen die mevrouw Keijzer stelde, uitgebreid met de daar aanwezige Kamerleden zijn besproken. Er was steun voor de aanpak waarvoor de regering heeft gekozen. Ook was er steun voor de manier van openbaarmaking. Ik geloof dat mevrouw Oosenbrug de eerste was die erop aandrong om de software open source te maken. Ik heb toen teruggekoppeld naar de Kamer dat er redenen waren om te kiezen voor wat wij "responsible disclosure" noemen, wat minder vergaand is dan een complete opensourcebenadering. Daar was in de Kamer steun voor. Dat laat overigens onverlet dat ik deze zomer de manier waarop dat heeft uitgepakt zal evalueren. Dat had ik de Kamer ook al eerder toegezegd. Ik zal bekijken of dat een bevredigende manier is om dat openbaar te maken of dat wij dit nog verdergaand zullen moeten doen. De brief daarover komt na de zomer. Daarin kan ik ook aspecten die in diverse publicaties op internet genoemd zijn laten terugkomen, voor zover ze relevant zijn.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg4">Voorzitter, ik heb een aantal heel duidelijke vragen gesteld, maar ik constateer dat ik hier geen antwoord krijg. Ik zit nu een beetje omhoog. U bent degene die hier moet controleren dat er ook antwoord gegeven wordt op de vragen die je gesteld hebt.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg5">Ja, maar u moet het inhoudelijk beoordelen.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg6">Ja, graag, maar als ik hier vragen stel waar ik geen antwoord op krijg, sta ik hier vervolgens een beetje gemankeerd. Wil de minister toch nog een keer heel duidelijk antwoord geven? Kan hij toezeggen dat geen personen of partijen rechten kunnen claimen op de software of de generatorsoftware? Hoe gaat hij om met het oordeel dat in dat artikel staat? Nogmaals, de heer Veldwijk is niet zomaar iemand. Hij heeft de chaos bij het UWV opgeruimd na een eerder ICT-falen. Kan de minister daarop ingaan? Is het programma niet onnodig ingewikkeld gebouwd, waardoor in de toekomst de kosten van het onderhoud gigantisch hoog zijn? En nogmaals, wil de minister de broncode gewoon openbaren? Doordat er gekozen is om te werken met open source-software is eigenlijk het kiezen voor de mindere variant, onnodig. Je hebt gekozen voor Java en voor postgreSQL. Dat zijn open source-softwaresystemen. Dat kun je openbaar maken. Het is ook de enige manier om eens uit het welles-nietesspelletje te stappen. Elke keer komt er aan het einde van gefaalde ICT-projecten van de overheid pas duidelijkheid. Dan is het misgegaan en dan pas kun je het er met elkaar over hebben. Doe het nu! Het is niet zo ingewikkeld.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg7">Dank u wel.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg8">Ik wil het nog even kort toelichten. Het is net als met juristen. Je hebt de wet die openbaar is. Vervolgens ga je met elkaar bespreken of het in de praktijk klopt.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg9">Dank. Het woord is aan de minister voor zijn beantwoording van de opnieuw gestelde vragen.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg10">Voorzitter. Voor zover ik wat omfloerst reageerde, was dat in een poging om beleefd te zijn. Bij het AO waarnaar ik verwees, was het CDA namelijk niet aanwezig. Dat kan, maar tijdens dat overleg is uitgebreid ingegaan op al deze vragen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg11">Het CDA stelt nu deze vragen en wil nu graag antwoord.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg12">In het AO hebben we de wijze van openbaar maken besproken. Ik heb toen de keuze voorgelegd en verdedigd om het niet volledig open source te maken. Die keuze werd door de Kamer geaccepteerd. Ik heb erbij gezegd: we zullen de manier waarop dat is gebeurd, namelijk door responsible disclosure waarvoor steun van de Kamer was, evalueren en ik zal na de zomer met de evaluatie terugkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg13">Er werd verwezen naar de persoon die de column heeft geschreven. Ook daarmee ben ik wat terughoudend. Hij is bekend bij de tijdelijke commissie ICT-projecten bij de overheid. Men heeft mij de conclusies van de voorzitter van deze commissie, de heer Elias, aangereikt. Ik zal ze niet citeren maar ze komen erop neer dat de commissie niet van oordeel was dat hij de meest gezaghebbende persoon was. Laat ik het zo samenvatten. Het is niet aan mij om dat verder te expliciteren.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg14">Dank u wel.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg15">Voorzitter.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg16">Uw tijd om. Het spijt mij zeer, maar we gaan door naar de volgende vraag. Mevrouw De Caluwé heeft nog een aanvullende vraag.</seg>
+            </u>
+            <u who="#IngriddeCaluwé" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg17">Aanvullend hierop, want de BRP komt iedere keer terug. We hebben het onderwerp inderdaad uitgebreid besproken tijdens het AO. Ik ben blij met de toezegging van de minister dat hij met een evaluatie komt. Het is een langslepend ICT-project. Er zijn heel wat issues mee geweest. Per 1 juli hebben we het tijdelijke Bureau ICT-toetsing. Is het niet een idee om dat bureau te vragen om het traject door te lichten en te kijken of we op de goede route zijn, of dat we het anders moeten doen. Zo krijgen we voor eens en altijd helder of we op de goede weg zijn.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg18">Ik wil daar zo transparant mogelijk over zijn. We laten de broncode wel regelmatig toetsen door KPMG. Dat is al eerder gebeurd en daarover is aan de Kamer gerapporteerd. Dit zal opnieuw gebeuren. Ik laat veel mensen meekijken naar de bouw van de BRP. De rapportages van de quality assurance-opdrachten zijn te vinden op de website van de Operatie BRP. Het is natuurlijk gemakkelijk om nieuwe toezeggingen te doen, maar we moeten oppassen dat we niet het een op het andere gaan stapelen. Mijn streven is volledig dat van mevrouw De Caluwé. Het is een groot, meerjarig project, dus de risico's zijn typisch die van een grootschalig ICT-project van de overheid. Vandaar dat we er in de governance van alles aan gedaan hebben om ervoor te zorgen dat we qua budget, tijd en doelstellingen een goede aansturing hebben.</seg>
+            </u>
+            <u who="#SharonGesthuizen" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg19">Hoeveel mag het dan nog gaan kosten? De minister zet de schrijver van dit uitstekende artikel weg als een soort lichtgewicht, dat we niet al te serieus zouden moeten nemen, maar hoeveel tientallen miljoenen euro's mag het nog kosten van de minister?</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg20">Er is eerder een budget gealloceerd. Zoals ik de Kamer periodiek rapporteer, blijven wij binnen het budget. Ik ben het volledig met mevrouw Gesthuizen eens dat het met dit soort grote projecten een risico is. Dat is overigens ook een van de redenen waarom wij terughoudend zijn met nieuwe wensen voor aanvullend werk voor de BRP. Het is net als bij een aannemer. Als je vraagt of hij meer werk kan verrichten, zegt hij altijd ja, maar vervolgens wordt het project wel duurder. We proberen de modernisering van de BRP af te schermen om te voorkomen dat het steeds duurder wordt.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2015-06-23-tweedekamer-4.seg21">Dank voor uw antwoorden en voor uw komst naar de Kamer.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

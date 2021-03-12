@@ -1,0 +1,151 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-12-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-12-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 34, Session 3 (2019-12-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 34, Session 3 (2019-12-10)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="34">Meeting 34</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="20">20 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="20">20 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2061">2061 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2061">2061 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-12-10">2019-12-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="27"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="20"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-12-10">2019-12-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Van Dam</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg1">Dan geef ik nu het woord aan de heer Van Dam namens het CDA voor zijn vraag aan de minister van Justitie en Veiligheid, die ik van harte welkom heet. De vraag gaat over het kopen van zwaar illegaal vuurwerk.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg2">Ik zal even wachten tot de minister zit.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg3">Dat is heel netjes. Gaat uw gang.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg4">Dank u wel, voorzitter. Dit weekend stond er een artikel in de Gelderlander — in allerlei kranten staan dit soort artikelen — waaruit bleek hoe makkelijk het is om zwaar illegaal vuurwerk te kopen. Journalisten kochten op vrij eenvoudige wijze een Cobra 6. Ze hadden ook nog een mortierbom, ook wel een shell genoemd, willen kopen, maar de verkoper zei dat die uitverkocht waren, want het was niet normaal druk. Trouw berichtte vorige week dat de politie inmiddels een kleine 35.000 kilo illegaal vuurwerk in beslag heeft genomen, voor het merendeel zware explosieve vuurwerkbommen. We weten allemaal dat wanneer zo'n shell of Cobra wordt afgestoken, omstanders — politiemensen, brandweermensen, iedereen die in de buurt is — groot gevaar lopen, en het gaat dan niet alleen om gevaar voor gehoorschade, want dit soort bommen gaat dwars door beschermende kleding, door schilden en helmen van ME'ers en zelfs door autodeuren heen, als het erg tegenzit. Het is levensgevaarlijk spul.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg5">We spreken in deze Kamer geregeld over vuurwerk. Op bepaalde onderdelen verschillen we dan van mening, maar ik dacht toch dat er Kamerbreed overeenstemming over is dat dat zware illegale vuurwerk bestreden moet worden. Ik las in een onderzoek in de krant dat acht op de tien Nederlanders ook vinden dat zwaar illegaal vuurwerk keihard moet worden aangepakt. Maar volgens de richtlijnen van het Openbaar Ministerie krijg je een werkstraf; dat is het uitgangspunt waar het OM voor gaat. Als je tot ongeveer honderd van die dingen — populair gezegd — op zak hebt, wordt er geen gevangenisstraf maar een werkstraf geëist. Als je één vuurwapen op zak hebt, dan is de eis al zes maanden in de gevangenis. Het is maar de vraag of een vuurwapen echt veel gevaarlijker is dan zo'n bom die alle kanten op ontploft.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg6">Daarom is mijn vraag aan de minister of hij bereid is om op korte termijn die strafvorderingsrichtlijn van het Openbaar Ministerie aan te passen. Daar is geen wetswijziging voor nodig. Dat is gewoon iets wat in de ambtelijke rangen geregeld kan worden. Ik ben van mening dat een vuurwerkterrorist op oudejaarsdag niet achter zijn voordeur hoeft te zitten maar achter de celdeur.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg7">Dan is nu het woord aan de minister van Justitie en Veiligheid.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg8">Voorzitter. Laat ik beginnen met te onderschrijven dat het ernstig is dat we zo veel illegaal vuurwerk in ons land zien. Op dit moment is overigens het afsteken van iedere vorm van vuurwerk verboden, en dus illegaal. De daders van handel in het illegale zware vuurwerk en de afstekers moeten streng worden bestraft. De politie zet er ook op in om deze mensen op te pakken en aan te pakken. Er is tot en met eind november inderdaad 38.000 kilo illegaal vuurwerk in beslag genomen. Ik denk dat we ons moeten realiseren dat de maximale inzet door de politie die op dit moment plaatsvindt, er nog steeds niet toe leidt dat deze vorm van criminaliteit helemaal verdwijnt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg9">Het Openbaar Ministerie zet er op dit moment op in dat men bij dagvaarding zo snel mogelijk voor de rechter komt, dat er bij zaken als bedreiging en mishandeling van hulpverleners sprake is van een dubbele strafeis en dat de schade wordt verhaald op de verdachte. Het OM hanteert daarnaast inderdaad een schema ten aanzien van de hoeveelheden die zijn aangetroffen om ten aanzien van het bezit ook straffen te eisen. Er is vanaf 41 stuks van de genoemde soorten vuurwerk naast de taakstraf van 200 uur sprake van één maand voorwaardelijk. Dat loopt dan verder zo op. Bij recidive is overigens al bij een hoeveelheid van één stuk vuurwerk sprake van een eis van drie tot zes maanden onvoorwaardelijk.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg10">Voorzitter. Ik wil meteen zeggen dat ik bereid ben om de komende week met het Openbaar Ministerie te spreken over de vraag hoe men dit in aanloop naar de jaarwisseling zelf ziet. Dat was eigenlijk al mijn voornemen, maar ik wil het hier nogmaals benadrukken. Daarbij moet in ogenschouw worden genomen dat op 15 december aanstaande de wet in werking treedt die het hinderen en lastigvallen van hulpverleners zwaarder bestraft. Voorts is het dit jaar voor het eerst mogelijk om per gemeente een algeheel vuurwerkverbod uit te spreken. Dat is nu al mogelijk. Dat zal natuurlijk een aantal andere zaken met betrekking tot vervolging ook op scherp zetten.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg11">Voorzitter. Ik vind het fijn dat de minister met het OM wil gaan praten om te horen hoe zij erover denken, maar ik zou toch iets meer een toezegging willen horen. Als er als richtlijn een taakstraf op staat en je komt bij de rechter-commissaris, dan zegt die: ja, er zou misschien op zitting nog weleens een taakstraf uit kunnen komen, dus ik ga die meneer nu niet vastzetten in afwachting van oudejaarsnacht. Ik vind dat mensen die dit soort gevaarlijk spul op zak hebben, niet thuishoren in onze oudejaarsnachtviering. Daar komt ook nog bij dat voor dit soort vuurwerkadepten — als ik het neutraal mag zeggen — de oudejaarsnacht vaak de hoogmis van het hele jaar is. Dus ik vind het echt heel erg belangrijk dat die mensen weten dat als ze vandaag of morgen met dat spul de straat op gaan en gepakt worden, ze die oudjaarsnacht gewoon missen, enkel omdat ze dat spul op zak hebben. Al ons beleid en alle discussies die we hebben, gaan over vuurwerk dat je dan oudejaarsnacht wel mag hebben. Dit gaat over zwaar illegaal vuurwerk. Twee of drie van die dingen, daar worden plofkraken mee gepleegd. Het is levensgevaarlijk spul. Ik zou de minister toch echt willen vragen om met wellicht iets meer stelligheid — zoals wij hem ook kennen — het gesprek met het OM aan te gaan. Ik durf toch best te zeggen dat als we dit type vuurwerk niet bestrijden, het gevoelen in de Kamer zal zijn dat we eigenlijk niet achter onze hulpverleners staan. Dat is het punt dat ik hier wil maken.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg12">Mede omwille van de tijd heb ik nog niet genoemd dat er natuurlijk nog middelen zijn zoals gebiedsverboden, meldplichten en dergelijke die ertoe kunnen leiden dat mensen op de oudjaarsnacht niet daar kunnen zijn waar zij zouden willen zijn als het gaat om vuurwerk en met name illegaal vuurwerk. Dat is één. Ten tweede is er niet alleen het wetsvoorstel dat het hinderen van hulpverleners zwaarder bestraft, maar werken collega Dekker en ik op dit moment ook aan een taakstrafverbod ten aanzien van een aantal zaken, waaronder geweld en agressie tegen hulpverleners.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg13">Ik heb toegezegd een gesprek met het Openbaar Ministerie te houden. Dat ga ik ook doen. Maar in onze rechtsstaat moet ik als minister niet gaan treden in het uiteindelijk toch altijd zeer afgewogen vervolgingsbeleid van het Openbaar Ministerie. Ik wil daar ten slotte nog over zeggen dat de afgelopen jaren zeer duidelijk hebben laten zien dat het Openbaar Ministerie een streng beleid voert.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg14">Als allerlaatste: in de eerste maanden van volgend jaar komt een wetsvoorstel inzake het verhaal van de kosten van onder meer het verwijderen en onschadelijk maken van illegaal vuurwerk, in consultatie. Dat zal zeker een enorme kostenpost gaan opleveren voor mensen die zich met dit soort criminele activiteiten bezighouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg15">Tot slot, de heer Van Dam.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg16">Ja, voorzitter, tot slot. Ik ben natuurlijk enthousiast over alle maatregelen die eromheen zitten, maar dit gaat gewoon om de kern van het probleem. De kern van het probleem is dat ondanks al die maatregelen er een klein aantal mensen in Nederland is dat echt maar door blijft gaan met dat zware illegale vuurwerk. De politie pakt de handel aan. Daar ben ik ook tevreden over. Het wordt tijd dat we ook de individuele gebruiker van dit vuurwerk verantwoordelijk maken, aanpakken en direct aanspreken. Daar richt mijn pleidooi zich op.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg17">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg18">Dank u wel.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg19">Nogmaals, bij recidive ... Ik kan het hele staatje oplezen, maar zelfs bij één stuks geldt al een eis van een gevangenisstraf van drie tot zes maanden. De mensen waar de heer Van Dam het vooral over heeft, de mensen die gewoon aan de gang blijven met dit asociale gedrag, krijgen een forse douw op het punt van gevangenisstraf. "Een forse douw" is een criminele uitdrukking voor als je een flink eind achter de tralies zit.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg20">Ik krijg het idee dat we toch veel te slappe maatregelen nemen. In mijn jeugd was vuurwerk echt een grapje. Er was ook veel minder zwaar vuurwerk. Nu zien we dat vuurwerk wordt gebruikt tegen hulpverleners. We hebben gezien dat het echt enorm veel schade oplevert. We hebben gezien dat hulphonden erdoor getraumatiseerd kunnen worden. Allemaal onherstelbare zaken. Wanneer gaan we nou eindelijk eens zover dat we durven zeggen dat alleen siervuurwerk mag worden afgestoken door gemeentes en dat we stoppen met die hele onzin? Het wordt met het jaar erger.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg21">Uw Kamer heeft in juni 2018 — vergeef mij dat ik even niet de exacte dag weet — aangegeven niet een algeheel vuurwerkverbod te willen, maar dat wij als kabinet het mogelijk moesten maken dat per gemeente een algeheel vuurwerkverbod kan worden opgelegd. De huidige minister voor Milieu en Wonen en ik hebben ons daar ook heel duidelijk aan gehouden. Het is inmiddels ook mogelijk. Ik weet in ieder geval dat men dit in Apeldoorn heeft afgekondigd. Ik heb eerder in uw Kamer het volgende uitgelegd. Als u de kaart van Nederland ziet, zijn er bepaalde gebieden waar inderdaad onverantwoord tot asociaal gedrag aan de orde is op oudejaarsnacht, niet alleen vuurwerk maar ook andere dingen. We zien ook hele delen van de kaart waar dat niet aan de orde is. Ik ben geen socioloog, de heer Krol kent mij ook niet als zodanig, dus ik kan dat niet verklaren. Ik kan alleen wel zeggen dat in dat opzicht juist een verbod per gemeente de rechtvaardigheid het meeste recht doet, als dat geen tautologie is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg22">De heer Wassenberg namens de PvdD.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg23">Voorzitter. Dat illegaal vuurwerk moet worden aangepakt, is evident. Dat vindt de PvdD, dat vindt de minister. Maar de meeste slachtoffers vallen niet door illegaal vuurwerk, maar door legaal vuurwerk. Lees de rapporten er maar op na. Driekwart van de gevallen op de spoedeisende eerste hulp komt door gewoon legaal vuurwerk. Als je je alleen maar richt op dat ene kwart, ben je dus blind voor driekwart van de gevallen. Waarom heeft de minister de focus alleen op illegaal vuurwerk en negeert hij driekwart van de slachtoffers, namelijk slachtoffers door legaal vuurwerk? Moet hij daar niet veel meer op zitten?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg24">Ik ben inderdaad de minister van Justitie en Veiligheid. Ik moet ervoor zorgen dat er geen criminele activiteiten plaatsvinden. Dan gaat het onder andere om de handel in en het afsteken van illegaal vuurwerk. Wat betreft het legaal vuurwerk heb ik zojuist uiteengezet dat na een zeer goed debat met de Kamer vorig jaar is gezegd: we gaan dat verbod per gemeente mogelijk maken. Zo is geschied en zo wordt het nu ook uitgevoerd. Dat is wat ik daarover kan verantwoorden. Wat betreft het illegaal vuurwerk, u kunt ervan verzekerd zijn dat ik daar heel erg stevig op inzet.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg25">De gemeenten zelf en de politie zeggen: zo'n gemeentelijk vuurwerkverbod helpt onvoldoende, het moet landelijk zijn. Laat ik een heel concreet voorbeeld geven. Vanochtend stond in het Algemeen Dagblad het walgelijke verhaal dat een kat is opgeblazen met vuurwerk. De kat is overleden. Dit zijn dus de gevolgen van het gewone, normale vuurwerkverbod. De minister zei: vuurwerk dat je voor 31 december afsteekt, is illegaal, maar het is vuurwerk dat normaal wordt gebruikt. Dit valt onder de categorie legaal vuurwerk, op het verkeerde moment afgestoken. Met dat normale, legale vuurwerk kun je dit soort gruwelijke dingen doen. Is de minister het met mij eens dat dit ook moet worden aangepakt? We hebben het over wapens.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg26">Dit concrete geval ken ik niet, moet ik bekennen. Maar iemand die straks rond oudjaar, of dat nu met toegestaan of illegaal vuurwerk gebeurt, het leven van mens of dier bedreigt, is strafrechtelijk vervolgbaar. Daar moeten we heel duidelijk over zijn. Het nu afsteken van wat voor vuurwerk dan ook is niet toegestaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2019-12-10-tweedekamer-3.seg27">Dank u wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,242 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-07-02 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-07-02 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 104, Session 6 (2015-07-02)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 104, Session 6 (2015-07-02)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="104">Meeting 104</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="25">25 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="25">25 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2594">2594 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2594">2594 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-07-02">2015-07-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="37"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="25"/>
+               <tagUsage gi="note" occurs="72"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-07-02">2015-07-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Decentralisatie jeugdzorg</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg1">Ik heet de staatssecretaris van Volksgezondheid, Welzijn en Sport van harte welkom. De spreektijd in dit VAO is twee minuten per fractie, inclusief het indienen van moties.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg2">Voorzitter. Ik zal mij beperken tot het indienen van twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het terugdringen van bureaucratie een van de doelen is van de jeugdzorgdecentralisatie;</note>
+               <note>constaterende dat zorgaanbieders sinds de jeugdzorgdecentralisatie te maken krijgen met verschillende informatie-uitvragen, verantwoordingssystemen en contracten van gemeenten;</note>
+               <note>overwegende dat het onwenselijk is dat zorgverleners plaats moeten maken voor ICT-specialisten en accountants;</note>
+               <note>verzoekt de regering, in overleg met de VNG te komen tot een uniforme standaard voor de verantwoordingsinformatie op basis van outcome die gemeenten vragen van gecontracteerde zorgaanbieders, teneinde de administratieve lasten voor zorgaanbieders zo veel mogelijk te beperken;</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering bij het vaststellen van het jeugdzorgbudget voor 2016 en verder overweegt om af te wijken van de bestuurlijke afspraak met gemeenten om de uitgaven aan jeugdzorg in 2013 als startpunt te hanteren;</note>
+               <note>overwegende dat het slagen van de decentralisatie van de jeugdzorg gebaat is bij een stabiel budget en het vasthouden aan de gemaakte bestuurlijke afspraken;</note>
+               <note>verzoekt de regering, bij het vaststellen van het budget voor jeugdzorg in 2016 en verder de uitgaven aan jeugdzorg in 2013 als startpunt te nemen, in lijn met de daarover gemaakte bestuurlijke afspraken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Voortman en Ypma. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31839-473</note>
+               <note>Deze motie is voorgesteld door het lid Voortman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31839-474</note>
+            </u>
+            <u who="#IekevanderBurg" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg3">Ik heb een vraag over de eerste motie. We hebben in het debat uitgebreid gesproken over standaardisering en het belang daarvan. Er is bekend dat gemeenten dat onvoldoende weten. Er is de toezegging gedaan dat er met de VNG over gesproken wordt. Wat voegt deze motie nog toe ten opzichte van die toezegging van de staatssecretaris?</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg4">Wat dit toevoegt, is dat wij aangeven dat wij het belangrijk vinden dat die landelijke standaard er komt. Ik ben heel blij dat de staatssecretaris overlegt, maar hij heeft niet aangegeven wat zijn doel is met het overleg. Vandaar dat ik het nodig vond om dit toch nog even aan te scherpen.</seg>
+            </u>
+            <u who="#IekevanderBurg" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg5">Ik vind het belangrijk dat de Kamer een toezegging van de staatssecretaris serieus neemt. Daarom maak ik deze opmerking. Ik vond dat die toezegging duidelijk was. We weten allemaal dat het niet mogelijk is om die standaarden op te leggen, want dat hebben we zelf uit de wet geamendeerd. Wat voegt deze motie dus toe?</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg6">Dat heb ik volgens mij helder aangegeven. Ik ben altijd zeer terughoudend met het indienen van moties. Dat is echt waar, mevrouw Van der Burg. Ik dien vandaag nog geen handjevol moties in. Ik vind deze opmerking dus een beetje raar. Wij zijn hier heel precies in. Ik vond de toezegging op dit punt niet hard genoeg, vandaar deze aanscherping van mij en mevrouw Ypma.</seg>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg7">Voorzitter. We hebben het gehad over de professionele wijkteams. Daar heb ik de volgende motie over.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>van mening dat kinderen en gezinnen die zorg en ondersteuning nodig hebben adequaat en professioneel geholpen dienen te worden;</note>
+               <note>verzoekt de regering, ervoor te zorgen dat zorgverlening door wijkteams geboden wordt door hiertoe gekwalificeerde professionals,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kooiman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31839-475</note>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg8">Instellingen en gemeenten geven aan dat zij steeds meer met enorme wachtlijsten te maken krijgen, wat goede zorg voor kinderen en gezinnen niet ten goede komt. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de staatssecretaris van VWS, gezien het feit dat deze in de nieuwe Jeugdwet systeemverantwoordelijke is, erop toe hoort te zien dat er geen onnodige wachtlijsten ontstaan;</note>
+               <note>overwegende dat steeds meer gemeenten en instanties aangeven dat de wachtlijsten oplopen, hetgeen goede zorg voor kinderen en gezinnen in de weg staat;</note>
+               <note>verzoekt de regering, de informatie over de wachtlijsten onderdeel uit te laten maken van de landelijke monitor jeugdhulpgebruik,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kooiman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31839-476</note>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg9">Voorzitter. Nederland heeft een heel lange grens. Die loopt van Groningen naar Limburg en uiteindelijk naar Zeeland. Ook daar zitten kinderen op school. Soms staan de huizen waar die kinderen wonen net aan de andere kant van de grens. De vraag is hoe deze kinderen op de scholen in Nederland de jeugdzorg krijgen waar zij, naar de mening van het CDA, recht op hebben. Daar is over gedebatteerd, ook in de Eerste Kamer. De staatssecretaris heeft daar toegezegd dat hij met een oplossing hiervoor zou komen. Ons bleek op een gegeven moment dat die oplossing er niet was. Toen hebben wij schriftelijke vragen ingediend. Daar kwam een antwoord op dat nogal teleurstellend was. Eigenlijk zei de staatssecretaris: dit is het probleem, en dit is het probleem. Wij willen een oplossing. De staatssecretaris heeft die ook al toegezegd in de Eerste Kamer. Vandaar dat wij de volgende motie indienen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat jeugdigen die in het buitenland wonen maar voorheen in Nederland voor ggz waren verzekerd via de Zorgverzekeringswet, deze zorg nu niet meer vergoed krijgen vanwege het woonplaatsbeginsel in de nieuwe Jeugdwet;</note>
+               <note>constaterende dat dit ook geldt voor "grenskinderen" die wel in Nederland naar school gaan, terwijl ook voor hen integrale zorg op school en daarbuiten van groot belang is;</note>
+               <note>constaterende dat de staatssecretaris tijdens de behandeling van de Jeugdwet in de Eerste Kamer heeft toegezegd dit specifieke probleem met de VNG te zullen bespreken om daarvoor een oplossing uit te werken;</note>
+               <note>constaterende dat deze oplossing vooralsnog niet uitgewerkt is;</note>
+               <note>verzoekt de regering, alsnog met de VNG in overleg te gaan met als doel een maatwerkoplossing mogelijk te maken voor jongeren met ggz-problematiek die net over de grens wonen en in Nederland naar school gaan,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Keijzer en Van Helvert. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31839-477</note>
+            </u>
+            <u who="#PiaDijkstra" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg10">Voorzitter. Ik vervang mijn collega, mevrouw Berndsen. Het is dus vooral een kwestie van het voorlezen van een motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat medisch specialistische jeugdhulp niet door elke gemeente of in iedere regio aangeboden kan worden;</note>
+               <note>constaterende dat het onduidelijk is hoe de objectieve herverdeling van de AWBZ-middelen zal uitpakken en of er sprake zal zijn van een reservering vooraf voor de waarborging van medisch specialistische jeugdhulp;</note>
+               <note>overwegende dat een keuze voor géén reservering vooraf tot gevolg kan hebben dat er vanuit instellingen een kleiner budget overblijft om te investeren in medisch specialistische jeugdhulp;</note>
+               <note>van mening dat in het nieuwe stelsel ruimte moet zijn voor medisch specialistische jeugdhulp;</note>
+               <note>verzoekt de regering, waar nodig financieel te waarborgen dat medisch specialistische jeugdhulp beschikbaar blijft,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Pia Dijkstra en Berndsen-Jansen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31839-478</note>
+            </u>
+            <u who="#IekevanderBurg" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg11">Voorzitter. Wij hebben een aantal weken geleden een goed en belangrijk debat gevoerd over standaardiseringen. Ik heb daar net een vraag over gesteld aan mevrouw Voortman en nu stel ik dezelfde vraag aan de staatssecretaris. Wat voegt een motie toe ten opzichte van de toezegging die tijdens het debat is gedaan? De staatssecretaris heeft mij een toezegging gedaan over de outcome. Aan collega's en aan mij heeft hij verder toezeggingen gedaan over standaardisering, het inschakelen van het Kwaliteitsinstituut Nederlandse Gemeenten (KING), en het ervoor zorgen dat er kennis komt bij de gemeenten en dat er standaarden zijn. Dat laatste is een van de grote problemen. Qua outcome moet er gestuurd worden op resultaten, want dat beperkt de administratieve lasten enorm. Wij hebben namelijk niet alle gegevens nodig. We willen gewoon weten hoe het werkt en wat het resultaat is.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg12">Nu kom ik op een ander punt. Door een amendement van mevrouw Ypma en mij is in de wet verankerd dat gemeenten op outcome moeten inkopen dan wel sturen bij de zorgaanbieders. In heel veel gemeenten gebeurt dit gewoon nog niet, terwijl dit wel in de wet staat. Wat gaan we daaraan doen? Ik heb al gevraagd of het Ondersteuningsteam Decentralisaties de gemeenten daarbij kan helpen, want het is lastig om dat in te voeren, maar wel buitengewoon belangrijk, ook in het kader van de administratieve lasten. Wat gaat de staatssecretaris doen om ervoor te zorgen dat de gemeenten gaan sturen op outcome?</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg13">Dat brengt mij bij een concreet probleem. In een groep gemeenten in de omgeving van Den Haag en ook in Den Haag zelf hebben raadsleden van mijn partij via amendementen het initiatief genomen om in alle lokale en ook regionale kaders voor elkaar te krijgen dat er op outcome gestuurd zal worden. In zeven van de tien gemeenten zijn die amendementen aangenomen, maar nog probeert men om er onderuit te komen door te zeggen: ja, maar er zijn enkele gemeenten waar dit niet aangenomen is en daarom gaan we het misschien toch niet doen. Ik vind dit onvoorstelbaar, want het staat gewoon in de wet. Hoe gaan wij dit dus communiceren en regelen? Want laten we wel wezen, volgens de VVD hebben de gemeenten alle beleidsvrijheid binnen de wet, maar ze moeten wel de kaders van de wet respecteren.</seg>
+            </u>
+            <u who="#LoesYpma" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg14">Voorzitter. Met het aannemen van een wet hebben wij nog niet geregeld dat kinderen eerder de juiste zorg, ouders meer de regie en professionals meer vertrouwen krijgen. Om die reden dien ik samen met mevrouw Voortman een motie in over het terugdringen van de administratieve lasten. Verder maak ik mij zorgen over de expertise in de wijkteams en het aantal kinderen dat in de crisisopname terechtkomt in plaats van bij pleeggezinnen thuis. Daarom heb ik de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat wij signalen krijgen dat de instroom in de tweedelijns jeugdzorg afneemt (beoogd doel) maar de crisisopname toeneemt (geen beoogd doel);</note>
+               <note>overwegende dat kinderen zo vroeg mogelijk de juiste hulp moeten krijgen en wijkteams voldoende expertise moeten hebben;</note>
+               <note>overwegende dat in de pleegzorg alarmoverleg plaatsvindt vanwege de drastische afname van het aantal kinderen;</note>
+               <note>verzoekt de regering, met de VNG in overleg te gaan over de beschikbaarheid van expertise in de wijk, door bijscholing, goede samenwerking met tweede lijn of jeugdbeschermers en specialisten uit de LVB en JGGZ in het wijkteam;</note>
+               <note>verzoekt de regering voorts, bij de VNG aan te dringen op uitvoering van het amendement-Ypma over "inhuisplaatsen" zodat bij íéder kind dat niet meer thuis kan wonen, wordt gekeken of er een pleeggezin of gezinshuis beschikbaar is alvorens kinderen te plaatsen op een leefgroep,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Ypma. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31839-479</note>
+            </u>
+            <u who="#LoesYpma" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg15">Voorzitter. Vanwege de tomeloze inzet van de griffie, maar ook van het ministerie van VWS, de staatssecretaris en zijn ondersteuning, heb ik voor hen een bedankje meegenomen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u14">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg16">Hartelijk dank. Dit zal zo in de Handelingen worden vermeld, maar wij kunnen deze doosjes chocolade natuurlijk niet als bijlage opnemen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg17">Ik schors de vergadering voor enkele ogenblikken tot alle moties zijn gekopieerd.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u15">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg18">Voorzitter. Ik beperk mij tot een duiding van de moties. Ik zal daarbij de opmerking van mevrouw Van der Burg meenemen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg19">Ik begin met de motie op stuk nr. 473. Ik verkeer in een dilemma. Wij hebben hierover uitgebreid gesproken tijdens het debat. Wij hebben met elkaar vastgesteld dat het noodzakelijk is om tot een verdere standaardisering te komen om de administratieve lasten zo veel mogelijk te beperken en daaraan te verbinden dat gemeenten zo veel mogelijk werken op basis van outcome. In de landelijke werkgroep van VNG en zorgaanbieders bewerkstelligen we dat de administratieve lasten worden teruggedrongen en er een werkagenda informatievoorziening wordt gemaakt. Dat is dus in gang gezet. Ik kan er natuurlijk ook niet tegen zijn. Het is namelijk heel belangrijk dat die administratieve lasten worden teruggedrongen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg20">Ik heb wel twee kanttekeningen. Mijn eerste kanttekening is dat er wordt gesproken over een uniforme standaard voor de verantwoordingsinformatie. Ik weet niet of het voor alle gemeenten uniform kan zijn. Voor een deel is het namelijk gekoppeld aan de contracten die gemeenten hebben gesloten. Ik wil het wel zo veel mogelijk uniform doen. Dat is het streven, maar we moeten enige ruimte aan de gemeenten laten en bekijken of er redenen zijn voor gemeenten en zorgaanbieders om specifieke afspraken te maken.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg21">Mijn tweede kanttekening is dat er in de wet al staat dat het op basis van outcome moet gebeuren. Daar zijn we ook voor. Het zal echter wel even tijd kosten, ook voor gemeenten. Mevrouw Van der Burg wees er ook al op. Het gaat meestal niet vanzelf. Het zijn dus twee afzonderlijke acties. De eerste is om zo veel mogelijk te uniformeren. De tweede is om dit zo veel mogelijk te doen op basis van outcome. Dit is overigens ook conform de wet. Als ik deze kanttekeningen mag plaatsen bij de motie, laat ik het oordeel aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg22">In de motie op stuk nr. 474 worden we verzocht om 2013 als startpunt te nemen bij het vaststellen van het budget voor 2016. We hebben uitgebreid met de VNG gesproken en onderhandeld over de meicirculaire 2015. We hebben afgesproken om zo zuiver mogelijk weer aan de startstreep te komen. Daarbij speelde van alles, waaronder de vraag wat een zo zuiver mogelijke startstreep is. We hebben eerst gesteld dat dit gold voor de realisatiecijfers van 2013. Toen kwamen de nieuwe realisatiecijfers van 2014. Vervolgens zijn nieuwe bestuurlijke afspraken gemaakt. Die zijn afgestemd met de VNG, ook samen met de Wmo. Deze bestuurlijke afspraken zijn gemaakt en hebben hun weerslag gevonden in de meicirculaire. We moeten er geen nieuwe afspraken meer over maken. Daarom ontraad ik de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg23">In de motie op stuk nr. 475 wordt de regering verzocht ervoor te zorgen dat zorgverlening door wijkteams geboden wordt door hiertoe gekwalificeerde professionals. Dat staat in de Jeugdwet. Dat is één. Het tweede is dat de regering daar niet voor moet zorgen. Dat is namelijk aan de gemeenten. Zij zijn verantwoordelijk voor de Jeugdwet en de wijze waarop daarmee gewerkt wordt. Dat kan met wijkteams, maar het kan ook op een heel andere manier. Om die reden ontraad ik de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg24">In de motie op stuk nr. 476 worden we verzocht de informatie over de wachtlijsten deel uit te laten maken van de landelijke monitor jeugdhulpgebruik. Laten we even naar het verleden kijken. We hebben ervaringen met wachtlijstinformatie. Die had een zeer beperkte waarde. Vaak ging het om een momentopname. Er werd eerder gestuurd op wachtlijsten dan dat er kinderen werden geholpen; ik overdrijf nu even. We hebben afgesproken om samen met het CBS een vrij uitgebreide monitor te maken over het jeugdhulpgebruik en over van alles en nog wat waarover we in deze Kamer monitors hebben afgesproken. Als we signalen krijgen van gemeenten of de VNG dat de wachtlijsten dreigen toe te nemen, zal dat uiteraard onderwerp van gesprek zijn. Sterker nog, we hebben in de afgelopen periode al regelmatig over signalen gesproken. Ik voel er echter niet voor om net als vroeger informatie over wachtlijsten deel te laten uitmaken van de landelijke monitor. Dan spannen we het paard weer achter de wagen. Daarom ontraad ik de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg25">In de motie op stuk nr. 477 wordt de regering verzocht met de VNG in overleg te gaan om een maatwerkoplossing mogelijk te maken voor jongeren met ggz-problematiek die over de grens wonen. Ik merk dat mevrouw Keijzer niet tevreden is met de antwoorden hierover. We hebben wel met elkaar geregeld wie er wel of geen recht hebben op zorg conform de Jeugdwet. We hebben onderkend dat er in de grensstreken problemen kunnen zijn, omdat dit natuurlijk niet van de ene op de andere dag geregeld kan worden. Daarvoor hebben we in 2015 een overgangsregeling gemaakt. Zo kan iedereen een beetje wennen aan de nieuwe situatie dat hij in zijn woonplaats die zorg moet krijgen. Het staat gemeenten natuurlijk vrij om maatwerkoplossingen te bieden, maar ik kan geen rechten regelen die niet in de Jeugdwet zijn geregeld. Om die reden ontraad ik de motie.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u16">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg26">Nu hebben we volgens mij toch een akkefietje met elkaar. In de Eerste Kamer heeft de staatssecretaris gezegd: ik wil graag toezeggen dat ik dit specifieke probleem met de VNG zal bespreken om daarvoor een oplossing uit te werken. Er staat niet achter: alleen voor 2015. Hier staat dat dit een reëel probleem is dat opgelost moet worden. Ik wil graag dat de staatssecretaris daarop reflecteert. Ook wil ik van hem weten hoe dat dan moet in de praktijk. Je kind zit de hele dag op school. Daar is zorg en ondersteuning nodig. Hoe moet dat dan?</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u17">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg27">Juist om die reden is er gekozen voor de oplossing die u geen oplossing vindt. Dit is een overgang van rechten en wetten. Die hebben we bewust met elkaar gemaakt. Vervolgens is er oog voor dat de ouders met kinderen in de grensgebieden die dit raakt, tijd moeten hebben om tot een oplossing te komen. Dat is de reden waarom we een overgangsregeling hebben gemaakt. U bent niet tevreden met die overgangsregeling, dat is een andere kwestie, maar we hebben wel te maken met de wetten waarin staat waar men wel en geen recht op heeft. Voor degenen die te maken hebben met een plotselinge overgang hebben we die overgangsregeling gemaakt. Ik blijf dus bij mijn oordeel over de motie.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u18">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg28">Een korte opmerking.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u19">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg29">De staatssecretaris doet wel zijn eigen positie geweld aan. Hij staat in de Eerste Kamer, daar belooft hij dingen en vervolgens maakt hij een bypass en voert hij ze niet uit. Ik ben benieuwd hoe de komende debatten met deze staatssecretaris in de Eerste Kamer zullen verlopen.</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u20">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg30">Daar zie ik dan ook naar uit, want op grond van die toezegging is een overgangsregeling gemaakt voor 2015. Daar bent u misschien niet tevreden over, dat is een andere kwestie, maar u kunt niet zeggen dat er geen gevolg aan gegeven is.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg31">In de motie op stuk nr. 478 wordt de regering verzocht waar nodig financieel te waarborgen dat medisch-specialistische jeugdhulp beschikbaar blijft. We hebben geen geoormerkte budgetten in de jeugdhulp. Wel hebben we in de wet geregeld dat er voor de jeugdhulp in de eerste lijn en de tweede lijn een raming wordt gemaakt van de budgetten en dat er ook passende hulp moet worden gegeven als dat aan de orde is. Dus: aan de voorkant waar het kan en medisch-specialistische hulp waar dat nodig is. Dat is de jeugdhulpplicht zoals die ook in de Jeugdwet staat. Dan moeten we niet een aparte financiële waarborg en een apart budget voor de medisch-specialistische zorg beschikbaar maken. Om die reden ontraad ik de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg32">Dan kom ik op de motie op stuk nr. 479 over de noodzaak tot inhuisplaatsing en het overleg daarover. De inhuisplaatsing maakt deel uit van de Vernieuwingsagenda Jeugd die ik al in april naar de Kamer heb gezonden. Het is inderdaad zo dat gemeenten verantwoordelijk zijn dat kinderen die niet meer bij de eigen ouders kunnen wonen, in de pleegzorg of in een gezinstehuis worden geplaatst, tenzij dit aantoonbaar niet in het belang is van de jeugdigen. De voorkeur gaat dan ook uit naar inhuisplaatsing. We werken er samen met de Alliantie Kind in Gezin hard aan om inhuisplaatsing als standaard binnen de jeugdhulp te implementeren. Daarnaast heeft Jeugdzorg Nederland het initiatief genomen om met steun van VWS een landelijke wervingscampagne te starten om aandacht te vragen voor het pleegouderschap om daarmee meer pleegouders te werven. Ik ben en blijf bereid ervoor te zorgen dat gemeenten en zorgaanbieders samen met VWS nader met elkaar in overleg treden over hoe inhuisplaatsing verder gestimuleerd kan worden. Ik hoop dat met deze toezegging mevrouw Ypma zou willen overwegen om nog eens naar de motie te kijken.</seg>
+            </u>
+            <u who="#LoesYpma" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u21">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg33">Zeker, deze toezegging maakt het tweede verzoek in de motie overbodig. Kan de staatssecretaris misschien ook ingaan op het eerste verzoek in de motie, namelijk om met de VNG in overleg te gaan over de beschikbaarheid van expertise in de wijkteams?</seg>
+            </u>
+            <u who="#MartinvanRijn" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u22">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg34">Ja, dat wil ik doen. Ik wijs er overigens op dat onder leiding van een ex-wethouder van Rotterdam ook al gekeken is naar wat er in den lande gebeurt op het gebied van de wijkteams, zodat datgene wat in de wet geregeld is, ook in de praktijk gerealiseerd wordt. Ik ben, zoals gezegd, bereid om dat ook met de VNG te bespreken.</seg>
+            </u>
+            <u who="#LoesYpma" ana="#regular" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u23">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg35">Met deze twee toezeggingen heb ik mijn doel bereikt en is mijn motie overbodig, zodat ik die kan intrekken.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u24">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg36">Aangezien de motie-Ypma (, nr. ) is ingetrokken, maakt zij geen onderwerp van beraadslaging meer uit. </seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.u25">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-6.seg37">Over de ingediende moties zal vanavond worden gestemd.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

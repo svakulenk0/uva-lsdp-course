@@ -1,0 +1,163 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-12-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-12-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 34, Session 22 (2015-12-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 34, Session 22 (2015-12-08)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="34">Meeting 34</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="22">Session 22</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="19">19 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="19">19 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1260">1260 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1260">1260 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-12-08">2015-12-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="26"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="19"/>
+               <tagUsage gi="note" occurs="16"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-12-08">2015-12-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Strafrechtelijke onderwerpen</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u1">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg1">Ik heet alle aanwezigen in de zaal van harte welkom, in het bijzonder de minister van Veiligheid en Justitie. Ik geef het woord aan mevrouw Kooiman van de SP, die dit VAO heeft aangevraagd.</seg>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u2">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg2">Voorzitter. Het moge duidelijk zijn: tijdens het algemeen overleg hebben wij gesproken over de verloren tapgesprekken. Daar is een onderzoek naar geweest. Ik denk dat ik de motie gewoon voorlees, want ik denk dat die helder genoeg is.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het onderzoek dat door de Auditdienst Rijk is verricht naar de tapstoring in september 2012, waardoor ook het telefoongesprek tussen Teeven en Van Rey niet is opgeslagen, niet op alle punten volledige duidelijkheid heeft opgeleverd;</note>
+               <note>constaterende dat een aantal vragen onbeantwoord is gebleven, zoals de vraag wat de precieze oorzaak was van de storing, waarom het back-upsysteem niet heeft gewerkt, waarom getapte gesprekken niet in de buffer zijn blijven hangen, waarom het systeem zonder toestemming handmatig opnieuw is opgestart en waarom hiervan geen proces-verbaal is opgemaakt;</note>
+               <note>overwegende dat dit vragen zijn die mogelijk opgehelderd kunnen worden door nader diepgravend onderzoek;</note>
+               <note>van mening dat het van belang is dat hierover zo min mogelijk onduidelijkheid blijft bestaan vanwege de integriteit van de opsporing en de zorgvuldigheid van de bewijsverkrijging in strafzaken;</note>
+               <note>verzoekt de regering, nader diepgravend onderzoek te laten verrichten naar de nog niet beantwoorde vragen en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Kooiman, Van Nispen, Van Tongeren en Swinkels. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. dossier/29279</note>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u3">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg3">Ik denk dat de motie helder genoeg is, dus ik laat het hierbij.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u4">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg4">Zij was in ieder geval lang.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg5">Ik geef het woord aan de heer Oskam van het CDA.</seg>
+            </u>
+            <u who="#PeterOskam" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u5">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg6">Nou voorzitter, u gaat het toch nog een keer meemaken.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u6">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg7">Wat dan?</seg>
+            </u>
+            <u who="#PeterOskam" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u7">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg8">Dat ik binnen de tijd blijf.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg9">Voorzitter. Ik heb geen moties maar wel twee korte vragen over de aanpak van hooligans. In het betreffende AO over strafrechtelijke onderwerpen is aan de minister gevraagd of de burgemeesters kunnen worden aangesloten op het Voetbal Volg Systeem, niet pas in de vernieuwde versie maar al in het huidige. Ze hebben inmiddels een belangrijke rol vanuit hun verantwoordelijkheid voor de openbare orde. Dat was al zo, maar ze hebben meer bevoegdheden gekregen. Informatie over relschoppers is ook voor burgemeesters van groot belang. De minister heeft toegezegd dat hij dit met de Nationale Politie zou gaan bespreken. Is dat al gebeurd — volgens de planning wel — en wat is daaruit voortgekomen?</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg10">Mijn tweede vraag gaat over de bereidheid van bvo-burgemeesters, burgemeesters die een betaaldvoetbalorganisatie in hun gemeente hebben, om gebruik te maken van een digitale meldplicht. Tot nu toe valt die erg tegen. De minister heeft gezegd dat hij hierover met bvo-burgemeesters zou spreken in het eerstvolgende burgemeestersoverleg. Dat was vorige maand. Ik wil graag weten wat daar uitgekomen is.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u8">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg11">Misschien kunt u dat dan volgende maand vertellen. Dank u wel, mijnheer Oskam. U bent inderdaad binnen de tijd gebleven. De heer Recourt wilde niet meer spreken. Die wilde alleen luisteren, net als mevrouw Helder, mevrouw Swinkels en de heer Van Oosten. Dus hiermee is er een einde gekomen aan de termijn van de zijde van de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg12">De staatssecretaris … Nee, de minister! O, sorry, sorry, sorry. De minister is klaar om antwoord te geven. Ik geef het woord aan de minister van Veiligheid en Justitie.</seg>
+            </u>
+            <u who="#AdvanderSteur" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u9">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg13">Voorzitter. Ik heb vandaag inderdaad de rol van de staatssecretaris mogen overnemen, dus ik voel mij ook een beetje staatssecretaris. In die zin zal ik u de vergissing met de benaming zeker niet euvel duiden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg14">Allereerst kom ik op de motie van de leden Kooiman, Van Nispen en een aantal anderen op stuk nr. 290. Wij hebben hier in het algemeen overleg uitgebreid van gedachten over gewisseld. De Auditdienst Rijk (ADR) heeft onafhankelijk, diepgaand en grondig onderzoek verricht naar de storing. Hierbij zijn geen aanwijzingen aangetroffen dat er sprake zou zijn van opzettelijk menselijk handelen bij het optreden van de storing die tot gevolg heeft dat gesprekken niet zijn vastgelegd. Ook zijn er geen aanwijzingen gevonden dat er sprake is geweest van het opzettelijk wissen van die gesprekken, met name op 20 september 2012, het moment waarop het gesprek van de toenmalig staatssecretaris plaats heeft gevonden. Er is dan ook geen aanleiding om te veronderstellen dat de storing opzettelijk is veroorzaakt. Het is belangrijk dat wij dat nog even vastleggen, zodat dat helder is.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg15">Ik heb in het algemeen overleg een brief toegezegd. Die heb ik vanmiddag naar de Kamer gezonden. Daarin heb ik aangekondigd dat ik het, gezien de twijfels bij niet alleen de heer Van Nispen van de SP-fractie maar ook bij de heer Recourt van de PvdA-fractie, op prijs zou stellen als de heren Van Koppen en Jacobs in staat worden gesteld om met de ADR hun gedachten, hun gevoelens en ook het artikel van de heer Van Koppen te bespreken. Mochten daar nieuwe inzichten uit komen, dan zal ik de Kamer daarover informeren. Mijn suggestie aan mevrouw Kooiman zou zijn om haar motie in het licht van die brief aan te houden, totdat ik de Kamer over de uitkomsten van dat gesprek heb kunnen informeren. Naar ik aanneem, zal dat in het voorjaar van volgend jaar kunnen plaatsvinden.</seg>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u10">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg16">Als de minister toezegt dat hij in ieder geval de punten van zorg en de onbeantwoorde vragen in het gesprek zal meenemen, kan ik de motie aanhouden.</seg>
+            </u>
+            <u who="#AdvanderSteur" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u11">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg17">Dat is natuurlijk aan de gesprekspartners, maar ik zal ervoor zorgen dat zij de motie kennen.</seg>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u12">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg18">Dan houd ik mijn motie aan.</seg>
+            </u>
+            <u who="#AdvanderSteur" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u13">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg19">Dan het voetbalvolgsysteem, waar de heer Oskam mij met charmante vasthoudendheid vragen over blijft stellen, omdat hij weet dat ik net als hij een groot fan ben van het spel waar het over gaat. De vernieuwing van het voetbalvolgsysteem wordt meegenomen in het totale ICT-aanvalssysteem van de politie. Daarover kan ik de Kamer in het voorjaar van 2016 nader informeren. Ik zal een afschrift daarvan zenden aan Capelle aan de IJssel. Het huidige voetbalvolgsysteem blijft tot die tijd te gebruiken door de partners die er nu al gebruik van maken. Dat heb ik de heer Oskam al eerder gemeld. Gemeenten kunnen het systeem via hun partners, met name de politie, ook raadplegen en het goede nieuws is dat dit ook gebeurt. Met de inwerkingtreding van het nieuwe systeem kunnen gemeenten er ook helemaal zelfstandig gebruik van maken.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg20">Het is bekend dat het portfolio van de informatiseringsvoorziening van de Nationale Politie een groot probleem is. Dat heb ik op 23 november ook aan de Kamer gemeld. Het streven is erop gericht om het nieuwe systeem in het seizoen 2016-2017 op te leveren en dat het gaat doen wat we ervan verwachten. Ik heb nog niet met de burgemeesters kunnen spreken over de meldplicht, waarom de heer Oskam heeft gevraagd, maar ik zal de Kamer daarover informeren, wederom met een kopie aan de gemeente Capelle aan de IJssel.</seg>
+            </u>
+            <u who="#PeterOskam" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u14">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg21">Daar ben ik blij mee. Naast het VVS, het voetbalvolgsysteem is er ook het WIS, het wandelgangeninformatiesysteem. Daaruit heb ik begrepen dat er spanning zit op de privacy, dat wil zeggen dat er in dat systeem aspecten zitten waarbij de privacy in het geding is. Hoe kijkt de minister daar tegenaan?</seg>
+            </u>
+            <u who="#AdvanderSteur" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u15">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg22">De minister vindt het in algemene zin van groot belang dat er in de wandelgangen ook informatie wordt gedeeld. Of dat in overeenstemming is met de privacy … Nee, serieus, ik heb geen idee. Als de heer Oskam dat graag wil, zal ik hem daarover nog voor de kerst nader informeren. Laat ik althans zeggen dat ik dat voor het einde van het jaar zal doen, want kerst is wel heel snel.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u16">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg23">Collega Kooiman was mij even voor. Ik had namelijk een vraag over de brief van de minister en het antwoord daarop is doorslaggevend voor mijn advies aan de fractie. In de laatste alinea schrijft de minister namelijk dat de ADR desgewenst de heren van Koppen en Jacobs zal uitnodigen. Ik leid daaruit af dat het initiatief nu juist bij die twee onderzoekers ligt, terwijl in de motie van mevrouw Kooiman wordt gevraagd om een onderzoek te verrichten. Gaat het gesprek nu wel plaatsvinden en is het daarom terecht dat de motie wordt aangehouden?</seg>
+            </u>
+            <u who="#AdvanderSteur" ana="#regular" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u17">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg24">Ik begrijp de vraag van mevrouw Helder goed. De zin is zo bedoeld dat het ADR al dan niet samen met mijn ministerie aan de betrokkenen vraagt of zij behoefte hebben aan het gesprek en of zij dat op prijs stellen. Wij kunnen mensen ook niet verplichten om gesprekken aan te gaan. Als zij dat willen, zullen zij daarvoor worden uitgenodigd.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u18">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg25">Wellicht ten overvloede merk ik het volgende op.</seg>
+            </u>
+            <note>Op verzoek van mevrouw Kooiman stel ik voor, haar motie (29279, nr. 290 ) aan te houden.</note>
+            <note>Daartoe wordt besloten.</note>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.u19">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-22.seg26">We zullen voorlopig dus nog niet stemmen over de ingediende motie.</seg>
+            </u>
+            <note>De vergadering wordt van 19.12 uur tot 19.20 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

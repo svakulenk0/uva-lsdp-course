@@ -1,0 +1,368 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-12-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-12-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 33, Session 6 (2016-12-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 33, Session 6 (2016-12-08)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="33">Meeting 33</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="61">61 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="61">61 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2541">2541 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2541">2541 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-12-08">2016-12-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="71"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="61"/>
+               <tagUsage gi="note" occurs="92"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-12-08">2016-12-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Dierenwelzijn</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg1">Ik geef de heer Graus als eerste het woord. Ik herhaal nog even dat we een spreektijd van twee minuten hanteren, inclusief het indienen van eventuele moties, die bij voorkeur kort en bondig zijn.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg2">Voorzitter.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering, zogenoemde groene boa's (buitengewoon opsporingsambtenaren) nauw te laten samenwerken met taakaccenthouders dierenwelzijn van de nationale politie, ter bescherming van weidevogels en aanpak van stroperstuig,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat bij paardenmarkten, veemarkten en slachthuizen regelmatig sprake is van intimidatie en/of bedreiging van keuringsartsen van de Nederlandse Voedsel- en Warenautoriteit;</note>
+               <note>verzoekt de regering om een NVWA-keuringsarts tijdens risicovolle controles te laten vergezellen door een NVWA-inspecteur of een politiebeambte, belast met het taakaccent dierenwelzijn,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat er momenteel veel fraude wordt gepleegd met dierenpaspoorten en het chippen en registreren van honden;</note>
+               <note>constaterende dat deze fraude met name plaatsvindt bij honden die uit het buitenland worden geïmporteerd;</note>
+               <note>verzoekt de regering, ervoor zorg te dragen dat alleen dierenartsen honden mogen chippen en registreren;</note>
+               <note>verzoekt de regering tevens, puppy's enkel te registreren en chippen in het bijzijn van het moederdier inclusief de benodigde documenten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-891</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-892</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-893</note>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg3">Al deze vragen komen van mensen die aan het front staan van de Landelijke Inspectie Dierenbescherming en van de dierenpolitie, wat momenteel taakaccenthouder dierenwelzijn van de nationale politie heet.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg4">Tot slot. We hebben last van nieuwe dierenleedrages zoals de ponypletters. Dat zijn allemaal van die moddervette vrouwen die konijnen en pony's bijna tot aan de verstikkingsdood toe pletten. Dit valt voor een gedeelte onder economische delicten, maar voor een gedeelte kan de politie er ook niks tegen doen. Dat kan natuurlijk niet. Kan de staatssecretaris samen met zijn collega van Justitie bekijken hoe we dat kunnen aanpakken, hoe we die dierenpletters achter slot en grendel kunnen krijgen en een levenslang verbod kunnen geven op het houden van dieren?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg5">Dank u zeer, mijnheer Graus. Gepassioneerd als altijd!</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg6">Voorzitter. Ik heb een viertal moties en een vraag.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat louche hondenhandelaren veel dierenleed veroorzaken, de dier- en volksgezondheid in gevaar brengen en veel leed veroorzaken bij kopers van een pup;</note>
+               <note>overwegende dat België een witte lijst heeft met buitenlandse fokkers en handelaren;</note>
+               <note>verzoekt de regering, voor de zomer 2017 met voorstellen te komen voor een witte lijst van bonafide hondenhandelaren en -fokkers,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering, in overleg met de provincies te treden teneinde de zwanenjacht te beëindigen en diervriendelijke alternatieven te bevorderen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering, er zorg voor te dragen dat het Faunafonds niet als voorwaarde voor vergoeding van schade veroorzaakt door zwanen stelt dat er jacht gemaakt moet worden op deze zwanen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de Europese richtlijn die het routinematig couperen van varkensstaarten verbiedt, reeds 25 jaar van kracht is en dat desalniettemin in Nederland het overgrote deel van de biggen routinematig gecoupeerd wordt;</note>
+               <note>overwegende dat onder andere Zweden, Finland, Litouwen, Slowakije, Noorwegen en Zwitserland zich wel aan het coupeerverbod houden en een aantal Nederlandse varkenshouders toont dat het mogelijk is;</note>
+               <note>van mening dat een dier niet aangepast moet worden aan zijn stal, maar de stal aan het dier;</note>
+               <note>verzoekt de regering, een eind te maken aan het routinematig couperen van varkensstaarten en de Kamer voor de zomer van 2017 een plan van aanpak te sturen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-894</note>
+               <note>Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-895</note>
+               <note>Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-896</note>
+               <note>Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-897</note>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg7">We hadden in het algemeen overleg nog gevraagd om een reactie op een kritische brief van Wakker Dier over luchtwassers. Ik krijg graag een brief van de staatssecretaris waarin de voor- en nadelen van verschillende systemen op een rijtje worden gezet.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg8">Voorzitter. Er ligt al jaren een aangenomen motie van de Partij voor de Dieren om de illegale puppyhandel aan te pakken. Het kabinet neemt wel maatregelen, maar er kan en moet veel meer gebeuren. Ik heb drie moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat een groot aantal van de puppy's die in Nederland worden verkocht afkomstig is van grote broodfokkers in onder andere Hongarije;</note>
+               <note>constaterende dat deze malafide puppyhandel zorgt voor ernstig dierenleed;</note>
+               <note>constaterende dat België succesvol maatregelen heeft getroffen om de import van puppy's uit Hongarije drastisch te beperken;</note>
+               <note>verzoekt de regering om, in navolging van de Belgische maatregelen, de import van puppy's uit in elk geval Hongarije in te perken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat (mede) ter bestrijding van malafide puppyhandel het Europees dierenpaspoort is ingevoerd, een officieel identificatiedocument dat alleen door dierenartsen mag worden verstrekt, waarbij zij verplicht zijn het paspoortnummer tezamen met het chipnummer te registeren;</note>
+               <note>constaterende dat in Nederland echter niet het dierenpaspoort verplicht is, maar het veel fraudegevoeligere vaccinatieboekje;</note>
+               <note>verzoekt de regering, het vaccinatieboekje voor honden te verbieden en alleen nog het dierenpaspoort toe te staan,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de malafide puppyhandel nog altijd op grote schaal plaatsvindt en dat de ons omringende landen een striktere aanpak hebben om deze handel tegen te gaan;</note>
+               <note>constaterende dat in Frankrijk de directe verkoper van puppy's verplicht is zich te registreren en zijn registratienummer te delen met potentiële kopers;</note>
+               <note>constaterende dat daarmee zowel de potentiële koper als de Belastingdienst informatie over de verkoper kan inzien, waardoor fraude, waaronder belastingontduiking, veel beter kan worden bestreden;</note>
+               <note>verzoekt de regering om voor Nederlandse verkopers van puppy's een registratienummer verplicht te stellen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Ouwehand. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-898</note>
+               <note>Deze motie is voorgesteld door het lid Ouwehand. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-899</note>
+               <note>Deze motie is voorgesteld door het lid Ouwehand. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28286-900</note>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg9">Voorzitter. Er zijn tien moties ingediend over verschillende onderwerpen. De eerste motie van de heer Graus verzoekt dat groene boa's nauw samenwerken met bijvoorbeeld taakaccenthouders dierenwelzijn van de nationale politie. Dat is ondersteuning van beleid. Er wordt overigens met veel meer mensen samengewerkt om zo goed mogelijk het dierenwelzijn te beschermen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg10">U krijgt uw zin. Wat wilt u nog, mijnheer Graus?</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg11">Ik krijg van zowel de groene boa's als van de dierenpolitie te horen dat dit juist niet het geval is. Ik ben heel blij met wat de staatssecretaris zegt, mijnheer de voorzitter, maar ik handhaaf de indiening van de motie. Die zal het ook gaan halen. Dan hebben we een stok achter de deur.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg12">Ik laat het oordeel aan de Kamer, maar het verandert niets aan mijn inzet. Ik vind dat de samenwerking met alle betrokkenen zo goed mogelijk moet zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg13">De motie-Graus op stuk nr. 893 verzoekt om een NVWA-keuringsarts tijdens risicovolle controles te laten vergezellen door een inspecteur of een politiebeambte. Nu moet de heer Graus even goed opletten. Ten eerste, de motie is ondersteuning van beleid. Het is staand beleid dat NVWA'ers niet alleen gaan als er risico's zijn. Maar ik ga de Kamer toch ontraden om de motie aan te nemen en wel vanwege het volgende. Ik vind principieel dat de Kamer niet gaat over het personeelsbeleid van de toezichthouder. Het is aan de toezichthouder om inschattingen te maken over risico's en om daarop maatregelen te nemen, en dat gebeurt ook al.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg14">Waarbij de "NVWA" dus de Nederlandse Voedsel- en Warenautoriteit is.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg15">Dat klopt, mijnheer de voorzitter. Dat staat ook in de eerste constatering uitgelegd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u14">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg16">Niet iedereen op de publieke tribune heeft de motie in de hand, vandaar.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u15">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg17">Dat ben ik met u eens. Tot een bepaalde hoogte ga ik mee met de staatssecretaris, maar wij gaan wel over de bescherming van dieren en over dierenleed. Daar gaan wij allemaal over, en ook de staatssecretaris. Als controleartsen, dus dierenartsen van de NVWA geïntimideerd of bedreigd worden bij slachthuizen …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u16">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg18">Deze discussie hebt u al gevoerd.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u17">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg19">… of bij rituele martelingen …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u18">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg20">Wat is uw vraag aan de staatssecretaris?</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u19">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg21">… dan moeten ze wel kunnen steunen …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u20">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg22">Mijnheer Graus.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u21">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg23">Ik wil het uitleggen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u22">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg24">Mijnheer Graus!</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u23">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg25">U zit er de hele tijd doorheen te praten!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u24">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg26">Mijnheer Graus, ik spreek tegen u. Dan moet u gewoon naar mij luisteren. Mijn vraag is of u een vraag wilt stellen aan de staatssecretaris en niet de discussie over wilt doen die al plaatsgevonden heeft. Gaat uw gang.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u25">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg27">Ik moet niets, buiten eten, drinken, poepen en plassen af en toe, en sterven ooit. Ik wil alleen maar zeggen, mijnheer de voorzitter, dat ik met mijn vraag begonnen was en u mij de hele tijd in de rede viel. Dat is het verhaal. Ik vraag gewoon of een politiebeambte belast met dierenwelzijn, de dierenpolitie, meegaat met een inspecteur van de NVWA als die zich niet veilig voelt, om zo iemand te beschermen. Want heel veel ambtenaren durven dat niet te melden, omdat ze bang zijn te worden ontslagen. Daar gaat het namelijk om. Ze durven niet te zeggen dat ze bang zijn. Want dan gaan ze dadelijk zeggen "voor jou tien anderen, ga maar weg". En er zijn al heel veel goeien eruit gegooid bij de NVWA.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u26">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg28">Ik herken dat absoluut niet. Er is bij de NVWA zeer goed oog voor risicovolle situaties. Helaas gebeurt het soms, zoals de heer Graus zegt, dat inspecteurs te maken krijgen met bedreigingen of met vervelende situaties. Er is afstemming tussen de NVWA en de politie. Ik ben het inhoudelijk eens met de heer Graus. Ik zeg hem dat het ook al geborgd is in het beleid van de NVWA. Maar ik vind dat de Kamer niet tot op dit niveau uitspraken moet doen over het personeelsbeleid van de NVWA, zeker gelet op het feit dat het ook geen probleem is, omdat de NVWA juist al doet wat de heer Graus vraagt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u27">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg29">De derde motie.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u28">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg30">De derde motie is de motie op stuk nr. 893. Ik geef de heer Graus in overweging om de motie aan te houden. De Kamer krijgt begin volgend jaar van mij een brief over I&amp;R Hond, het registratiesysteem, waarin ook de wijze van chippen wordt meegenomen. Ik wijs er overigens op dat deskundigen eerder hebben gezegd dat het niet zoveel soelaas biedt om de aanwezigheid van een moederdier te verplichten, omdat je niet aan het dier kunt zien of het een moederdier is en het te ver voert om bij elke puppy die gechipt wordt een DNA-test te doen op moeder en pup. Zo'n verplichting is dus vrij eenvoudig te omzeilen. We kijken er wel naar. We nemen het mee. Alles om illegale hondenhandel tegen te gaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u29">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg31">Wat is "begin van volgend jaar"? Is dat voor of na 15 maart?</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u30">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg32">Ik weet dat dat elke keer de datum is waarnaar wordt gevraagd, maar "begin volgend jaar" is nog wel echt voor 15 maart.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u31">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg33">Ik ga de motie aanhouden op advies van de staatssecretaris.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u32">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg34">Op verzoek van de heer Graus stel ik voor, zijn motie (28286, nr. 893) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg35">Daartoe wordt besloten.</seg>
+            </u>
+            <note>De motie op stuk nr. 894.</note>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u33">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg36">Het ponypletten zal ik onder de aandacht brengen van het ministerie van Veiligheid en Justitie. Op basis van wat ik ervan heb gezien, lijkt het mij een vorm van dierenmishandeling, maar het is niet aan mij om daarover te oordelen. Het is aan V en J om te bekijken wat het daaraan kan doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u34">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg37">U bent nu aangekomen bij de motie op stuk nr. … ?</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u35">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg38">Ik kom nu bij nr. 894. Dit was net nog een antwoord op een vraag van de heer Graus.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u36">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg39">Zeker, dat begreep ik.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u37">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg40">Korte vraag: zou op een of andere manier kunnen worden teruggekoppeld naar onze commissie wat V en J daaraan gaat doen? Is dat misschien mogelijk? Anders hebben wij daar geen zicht op.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u38">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg41">Sorry, procedureel moet u dat bij V en J vragen. Dat is niet aan deze staatssecretaris.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u39">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg42">De motie-Van Gerven op stuk nr. 894 vraagt om een witte lijst van bonafide hondenhandelaren en fokkers. Ik heb al eerder aangegeven dat ik daar een voorstander van ben, maar dat vormt een inbreuk op het vrije verkeer in Europa. Daarom moeten wij er eerst voor zorgen dat wij een goede onderbouwing hebben en moeten de gegevens die wij gebruiken om die witte lijst op te stellen ook betrouwbaar zijn. Daarom kost het tijd. Dat heb ik in het algemeen overleg ook aangegeven. Daar wordt nu aan gewerkt. Ik geef de indiener in overweging om de motie aan te houden. Als hij zegt dat het voor de zomer moet, dan kan ik niet beloven dat me dat lukt. Dan moet ik de motie ontraden.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u40">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg43">Wij hebben die discussie gehad inderdaad. Ik weet dat de staatssecretaris er positief in staat. Wij hebben nu de motie ingediend omdat we het willen voor een bepaald tijdstip en voor de zomer is heel ruim. Wanneer verwacht de staatssecretaris dat dat onderzoek dan wel klaar is en kan hij wel een lijst presenteren?</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u41">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg44">Ik kan dat op dit moment niet zeggen. Ik kan wel zeggen dat wij daar in de brief van begin volgend jaar nader op in zullen gaan. Ik zei net al dat je dit echt goed moet onderbouwen, omdat je het Europese vrije verkeer ermee beperkt. Dat moet je heel goed onderbouwen. Ik heb in het algemeen overleg gezegd dat de Belgen al een aantal stappen verder zijn. Die hadden al wat meer informatie vergaard en konden daarom tot die onderbouwing komen. Wij zijn nog niet zover. Ik wil wel toezeggen dat wij in de brief van begin volgend jaar zullen ingaan op de stappen die nodig zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u42">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg45">Een moment. Mag ik de leden achter in de zaal vragen, als zij met elkaar willen praten, om dat buiten de zaal te doen?</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u43">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg46">Ik houd de motie op stuk nr. 984 aan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u44">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg47">Op verzoek van de heer Van Gerven stel ik voor, zijn motie (28286, nr. 894) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg48">Daartoe wordt besloten.</seg>
+            </u>
+            <note>De motie op stuk nr. 985.</note>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u45">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg49">De motie-Van Gerven op stuk nr. 985 vraagt om einde aan de zwanenjacht. Dat is een bevoegdheid van de provincies. Ik meen dat de SP in alle Provinciale Staten vertegenwoordigd is. Dat moet zij daar aan de orde stellen. Ik ontraad die motie.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg50">Hetzelfde geldt voor de motie-Van Gerven op stuk nr. 986, die gaat over hetzelfde onderwerp.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg51">De motie-Van Gerven op stuk nr. 987 verzoekt de regering, een eind te maken aan het routinematig couperen van varkensstaarten. Die beschouw ik als ondersteuning van beleid, want dat is ook de inzet. Zoals ik in het algemeen overleg ook heb gezegd, wil ook de varkenshouderij dat zelf. Alleen, dat vraagt de nodige aanpassingen aan het huidige houderijsysteem. Ik kan dus niet zeggen dat voor de zomer helder is wanneer we dat couperen van varkensstaarten kunnen beëindigen. Ik kan wel zeggen dat ik de Kamer voor de zomer van 2017 informeer. Zo zie ik het verzoek om een plan van aanpak voor de zomer van 2017 te sturen dan ook maar. In die zin is de motie ondersteuning van beleid. Daarmee laat ik het oordeel daarover aan de Kamer.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u46">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg52">Gezien de positie houding van de staatssecretaris, zijn duidelijke uitspraak dat de motie ondersteuning van beleid is en zijn toezegging om in het voorjaar met een nader plan te komen, houd ik de motie aan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u47">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg53">Op verzoek van de heer Van Gerven stel ik voor, zijn motie (28286, nr. 897) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg54">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u48">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg55">In de motie op stuk nr. 898 van het lid Ouwehand wordt de regering verzocht om, in navolging van de Belgische maatregelen, de import van puppy's uit Hongarije in te perken. Daarvoor geldt wat ik net zei over de witte lijst: dat is een beperking van het vrije verkeer in Europa, wat alleen maar kan als er geen goede onderbouwing voor is. Een goede onderbouwing om een Europees land geheel uit te sluiten van het vrije handelsverkeer heb ik niet. In het kader van de witte lijst onderzoek ik of de eisen kunnen worden verhoogd. Dat is het traject dat ik voor me zie. Ik moet deze motie ontraden, omdat ik haar niet kán uitvoeren.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u49">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg56">Het verbaast me dat de staatssecretaris zegt dat hij deze motie niet kán uitvoeren. Deze motie vraagt om dingen te doen die België ook heeft gedaan, namelijk het opstellen van witte lijsten. Het zou een Kameruitspraak zijn die in lijn ligt met wat de staatssecretaris zelf al aan het onderzoeken is. Het verschil is dat de Kamer echt wil dat het gebeurt. Als de staatssecretaris na zijn onderzoek naar de mogelijkheden een goed verhaal heeft richting de Kamer waardoor het toch niet kan, dan zij dat zo, maar het lijkt me niet nodig om de motie af te wijzen.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u50">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg57">Ik kan niet anders, want de motie vraagt mij om de import van puppy's uit Hongarije in te perken. Ik kan binnen het Europees recht, het vrije handelsverkeer, niet zomaar zeggen: ik perk de import vanuit een bepaald land in. Er is vrij verkeer. Als je daarbij beperkingen oplegt, heb je daar een goede onderbouwing voor nodig. Zoals ik al zei, werken we aan de totstandkoming van een witte lijst. Die onderbouwing hebben we nodig om een beperking te kunnen opleggen aan het vrije verkeer. Ik ben graag bereid om dat te doen, we werken eraan, maar dat vergt nu eenmaal stappen. Ik kan dus niet voldoen aan wat in deze motie wordt gevraagd, namelijk om de import uit Hongarije sowieso in te perken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u51">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg58">Mevrouw Ouwehand, ten laatste.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u52">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg59">Jazeker wel, want de motie vraagt precies aan de staatssecretaris om die stappen te zetten die België allang gezet heeft. Hij mag het inderdaad wel als een kleine tik op de vingers ervaren dat er al in 2008 een motie is aangenomen voor een plan van aanpak tegen de illegale handel in puppy's, terwijl we nu moeten horen dat België vooroploopt en al wel maatregelen kan treffen tegen de invoer uit Hongarije. Het lijkt me dat het kabinet gewoon even zijn verlies moet nemen en door de Kamer moet worden bijgestuurd.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u53">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg60">We hebben duidelijk een verschil van opvatting over wat mogelijk is binnen het Europees recht. Wat mevrouw Ouwehand vraagt, is niet mogelijk, zodat ik de motie blijf ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg61">In de motie op stuk nr. 899 van het lid Ouwehand wordt de regering verzocht om het vaccinatieboekje voor honden te verbieden en alleen nog het dierenpaspoort toe te staan. Een dierenpaspoort is alleen verplicht voor dieren die reizen of die geïmporteerd worden. Het toezicht daarop is geborgd door I&amp;R Hond. Ik moet daarom de motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg62">In de motie op stuk nr. 900 van het lid Ouwehand wordt de regering verzocht, een registratienummer voor alle verkopers van puppy's in het leven te roepen. Bedrijfsmatige handelaren in honden worden geregistreerd. I&amp;R Hond registreert alle honden. Daarmee is daar zicht op. Een registratienummer voor alle verkopers van puppy's, dus ook de niet-bedrijfsmatige variant, gaat me te ver. Ik moet de motie daarom ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg63">Daarmee ben ik gekomen aan het eind van de moties.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u54">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg64">Bij dit algemeen overleg en de drie daaraan voorafgaande.</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u55">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg65">Er rest nog een antwoord op de vraag over de luchtwassers.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u56">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg66">Wilt u die vraag even herhalen?</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u57">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg67">In een brief van Wakker Dier staat: de luchtwassers in de varkenshouderij werken niet goed. Ik vroeg om een schriftelijke reactie op die luchtwassers.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u58">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg68">Luchtwassers?</seg>
+            </u>
+            <u who="#HenkvanGerven" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u59">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg69">Ja, zo heten die dingen. Ze zijn voor de afvang van van alles en nog wat.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u60">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg70">De Kamer krijgt eens in de zoveel tijd een update over het dierenwelzijnsbeleid. Ik ben bereid om dit in de eerstvolgende voortgangsbrief mee te nemen.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.u61">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-6.seg71">Daarmee zijn we gekomen aan het eind van deze beraadslaging. Ik stel voor om volgende week dinsdag over de ingediende moties te stemmen. Ik dank de staatssecretaris voor zijn aanwezigheid bij vier verslagen algemeen overleg.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

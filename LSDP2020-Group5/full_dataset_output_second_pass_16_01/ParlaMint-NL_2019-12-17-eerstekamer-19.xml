@@ -1,0 +1,89 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-12-17-eerstekamer-19">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2019-12-17 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2019-12-17 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 14, Session 19 (2019-12-17)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 14, Session 19 (2019-12-17)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="14">Meeting 14</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="19">Session 19</meeting>
+            <meeting ana="#parla.term #EK.36" corresp="#EK" n="36-upper">Meeting of the 36th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="1">1 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="1">1 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="150">150 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="150">150 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2019-12-17">2019-12-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="3"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-12-17">2019-12-17</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Benoeming vertrouwenspersoon</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2019-12-17-eerstekamer-19.u1">
+               <seg xml:id="ParlaMint-NL_2019-12-17-eerstekamer-19.seg1">Aan de orde is de benoeming van een vertrouwenspersoon voor de leden van de Eerste Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-17-eerstekamer-19.seg2">Artikel 12 van de Gedragscode integriteit schrijft voor dat de Kamer op voorstel van de Huishoudelijke Commissie een onafhankelijke vertrouwenspersoon benoemt om leden en fracties van advies te dienen over de interpretatie van de gedragscode en over het gewenst handelen in concrete situaties. De Huishoudelijke Commissie stelt thans voor mevrouw Carla Verwoerd in deze functie te benoemen. Mij is gebleken dat er geen behoefte is aan een schriftelijke stemming over deze benoeming. Ik leg de Kamer daarom de vraag voor of zij zich met het voorstel tot benoeming van mevrouw Verwoerd kan verenigen. Dat is het geval.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-17-eerstekamer-19.seg3">Mevrouw Carla Verwoerd is daarmee benoemd tot vertrouwenspersoon voor de Eerste Kamerleden. Namens u allen heet ik mevrouw Verwoerd hartelijk welkom. Ik schors de vergadering voor enkele ogenblikken zodat u met haar kunt kennismaken in de Hall.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

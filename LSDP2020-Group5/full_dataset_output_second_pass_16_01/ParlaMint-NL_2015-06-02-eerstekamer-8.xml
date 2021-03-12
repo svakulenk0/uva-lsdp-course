@@ -1,0 +1,120 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2015-06-02 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2015-06-02 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 33, Session 8 (2015-06-02)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 33, Session 8 (2015-06-02)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="33">Meeting 33</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #EK.34" corresp="#EK" n="34-upper">Meeting of the 34th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="7">7 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="7">7 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1271">1271 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1271">1271 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2015-06-02">2015-06-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="18"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="7"/>
+               <tagUsage gi="note" occurs="5"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-06-02">2015-06-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Onderzoek geloofsbrieven nieuw benoemde leden der Kamer</note>
+            <u who="#AnkieBroekers-Knol" ana="#chair" xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg1">Ik deel aan de Kamer mee dat door mij zijn benoemd tot leden van de commissie tot onderzoek van de geloofsbrieven van de benoemde leden der Kamer in groep I: de heer Franken, voorzitter, mevrouw Slagter-Roukema en mevrouw Scholten.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg2">In groep I zijn in alfabetische volgorde opgenomen: de heer E.B. van Apeldoorn, de heer J.J. Atsma, de heer J.P. Backer, mevrouw M.A.M. Barth, mevrouw J. Beuving, mevrouw S.C. van Bijsterveld, mevrouw M.H. Bikker, mevrouw A.L. Bredenoord, de heer L.C. Brinkman, mevrouw A. Broekers-Knol, de heer J.A. Bruijn, de heer R.G.J. Dercksen, de heer D.J.H. van Dijk, de heer H.M. Don, mevrouw A.W. Duthler, de heer A. Elzinga, de heer J.W.M. Engels, de heer P. Ester, mevrouw M.H.M. Faber-van de Klashorst, de heer A.H. Flierman, de heer R.R. Ganzevoort, mevrouw A.M.V. Gerkens, de heer Th.C. de Graaf, de heer F.H.G. de Grave, de heer A.W.J.A. van Hattem, de heer L.M.L.H.A. Hermans, de heer W.B. Hoekstra, de heer H. ten Hoeve, mevrouw W.H. Huijbregts-Schiedon, mevrouw A. Jorritsma-Lebbink, de heer F.E. van Kappen, de heer N.J.J. van Kesteren, de heer H.P.M. Knapen, de heer M.A.J. Knip, de heer N.K. Koffeman, de heer F. Köhler, de heer C.J. Kok en de heer A. Kops.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg3">Ik deel aan de Kamer mede dat de reeds ingekomen missiven van de voorzitter van het centraal stembureau en de geloofsbrieven van eerder genoemde leden in groep I inmiddels in handen zijn gesteld van de commissie tot onderzoek van deze geloofsbrieven. Het is mij gebleken dat de commissie haar taak reeds heeft verricht. Ik geef derhalve het woord aan de heer Franken, voorzitter van de commissie, tot het uitbrengen van het rapport.</seg>
+            </u>
+            <u who="#HansFranken" ana="#regular" xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg4">Voorzitter. De commissie die de geloofsbrieven van de benoemde leden van de Kamer, in alfabetische volgorde opgenomen in groep I, heeft onderzocht, heeft de eer te rapporteren dat de geloofsbrieven en de daarbij ingevolge de Kieswet overgelegde bescheiden van de volgende personen in orde zijn bevonden: de heer E.B. van Apeldoorn te Haarlem; de heer J.J. Atsma te Surhuisterveen; de heer J.P. Backer te 's-Gravenhage; mevrouw M.A.M. Barth te Wassenaar; mevrouw J. Beuving te 's-Gravenhage; mevrouw S.C. van Bijsterveld te Rijen; mevrouw M.H. Bikker te Utrecht; mevrouw A.L. Bredenoord te Utrecht; de heer L.C. Brinkman te Leiden; mevrouw A. Broekers-Knol te Overveen; de heer J.A. Bruijn te Wassenaar; de heer R.G.J. Dercksen te Bosch en Duin; de heer D.J.H. van Dijk te Benthuizen; de heer H.M. Don te Waalre; mevrouw A.W. Duthler te 's-Gravenhage; de heer A. Elzinga te Overveen; de heer J.W.M. Engels te Eelderwolde; de heer P. Ester te Baarn; mevrouw M.H.M. Faber-van de Klashorst te Hoevelaken; de heer A.H. Flierman te Markelo; de heer R.R. Ganzevoort te Utrecht; mevrouw A.M.V. Gerkens te Haarlem; de heer Th.C. de Graaf te Nijmegen; de heer F.H.G. de Grave te Amsterdam; de heer A.W.J.A. van Hattem te Steensel; de heer L.M.L.H.A. Hermans te Beetsterzwaag; de heer W.B. Hoekstra te Bussum; de heer H. ten Hoeve te Stiens; mevrouw W.H. Huijbregts-Schiedon te Oosterhout (NB); mevrouw A. Jorritsma-Lebbink te Almere; de heer F.E. van Kappen te Doorn; de heer N.J.J. van Kesteren te Katwijk; de heer H.P.M. Knapen te Amsterdam; de heer M.A.J. Knip te Almelo; de heer N.K. Koffeman te Vierhouten; de heer F. Köhler te Amsterdam; de heer C.J. Kok te Almere en de heer A. Kops te Apeldoorn.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg5">Het rapport van de commissie is neergelegd ter Griffie ter inzage voor de leden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg6">De commissie adviseert de Kamer, voornoemde personen als leden van de Kamer toe te laten.</seg>
+            </u>
+            <u who="#AnkieBroekers-Knol" ana="#chair" xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg7">Ik dank de heer Franken voor het uitbrengen van het rapport en de commissie voor het verrichten van haar taak.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg8">Ik stel aan de Kamer voor, het advies van de commissie te volgen en het rapport in de Handelingen te doen opnemen.</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+            <note>(Het rapport is opgenomen aan het eind van deze editie.)</note>
+            <u who="#AnkieBroekers-Knol" ana="#chair" xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg9">Ik deel voorts aan de Kamer mede dat door mij zijn benoemd tot leden van de commissie tot onderzoek van de geloofsbrieven van de benoemde leden der Kamer in groep II: mevrouw Linthorst, voorzitter, de heer Thissen en mevrouw Frijters-Klijnen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg10">In groep II zijn in alfabetische volgorde opgenomen: de heer M.J.M. Kox, mevrouw P.C. Krikke, de heer R. Kuiper, de heer F.C.W.C. Lintmeijer, de heer G. Markuszower, mevrouw M.J.T. Martens, mevrouw M.P. Meijer, de heer J.G. Nagel, mevrouw J.E.A.M. Nooren, mevrouw M.G.H.C. Oomen-Ruijten, de heer H.J. Pijlman, mevrouw G.J.F. Popken, de heer A. Postema, mevrouw H.M. Prast, de heer M.L.A. van Rij, de heer A.H.G. Rinnooy Kan, de heer A.G.J.M. Rombouts, de heer M.J. van Rooijen, de heer R.F. Ruers, de heer S. Schaap, de heer P. Schalk, de heer H.A. Schaper, de heer P. Schnabel, de heer J.M. Schouwenaar, de heer N.J. Schrijver, mevrouw E.M. Sent, mevrouw C.P.W.J. Stienen, de heer G.A. van Strien, mevrouw M.H.A. Strik, mevrouw C. Teunissen, de heer M.P.M. van de Ven, de heer L.H.J. Verheijen, mevrouw M.B. Vos, de heer R.L. Vreeman, mevrouw G. de Vries-Leggedoor, mevrouw V.D.D. van Weerdenburg en mevrouw A.M.T. Wezel.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg11">Ik deel aan de Kamer mede dat de reeds ingekomen missiven van de voorzitter van het centraal stembureau en de geloofsbrieven van eerdergenoemde leden inmiddels in handen zijn gesteld van deze commissie tot onderzoek van deze geloofsbrieven. Ik geef derhalve het woord aan mevrouw Linthorst, voorzitter van de commissie, tot het uitbrengen van het rapport.</seg>
+            </u>
+            <u who="#MarijkeLinthorst" ana="#regular" xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg12">Voorzitter. Ik denk dat de namen van deze leden niet gauw vergeten zullen worden nu deze dubbel worden voorgelezen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg13">De commissie die de geloofsbrieven van de benoemde leden van de Kamer, in alfabetische volgorde opgenomen in groep II, heeft onderzocht, heeft de eer te rapporteren dat de geloofsbrieven en de daarbij ingevolge de Kieswet overgelegde bescheiden van de volgende personen, in orde zijn bevonden: de heer M.J.M. Kox te Tilburg; mevrouw P.C. Krikke te Arnhem; de heer R. Kuiper te Amsterdam; de heer F.C.W.C. Lintmeijer te Vleuten; de heer G. Markuszower te Amstelveen; mevrouw M.J.T. Martens te Nijmegen; mevrouw M.P. Meijer te Amsterdam; de heer J.G. Nagel te Hilversum; mevrouw J.E.A.M. Nooren te Linschoten; mevrouw M.G.H.C. Oomen-Ruijten te Maasbracht; de heer H.J. Pijlman te Groningen; mevrouw G.J.F. Popken te 's-Gravenhage; de heer A. Postema te Maastricht; mevrouw H.M. Prast te Amsterdam; de heer M.L.A. van Rij te Wassenaar; de heer A.H.G. Rinnooy Kan te Aerdenhout; de heer A.G.J.M. Rombouts te 's-Hertogenbosch; de heer M.J. van Rooijen te Oegstgeest; de heer R.F. Ruers te Utrecht; de heer S. Schaap te Emmeloord; de heer P. Schalk te Veenendaal; de heer H.A. Schaper te 's-Gravenhage; de heer P. Schnabel te Utrecht; de heer J.M. Schouwenaar te Middelburg; de heer N.J. Schrijver te Oegstgeest; mevrouw E.M. Sent te Nijmegen; mevrouw C.P.W.J. Stienen te 's-Gravenhage; de heer G.A. van Strien te Arcen; mevrouw M.H.A. Strik te Oosterbeek; mevrouw C. Teunissen te 's-Gravenhage; de heer M.P.M. van de Ven te Rijpwetering; de heer L.H.J. Verheijen te Nijmegen; mevrouw M.B. Vos te Amsterdam; de heer R.L. Vreeman te Tilburg; mevrouw G. de Vries-Leggedoor te Nieuw-Buinen; mevrouw V.D.D. van Weerdenburg te Amstelveen; mevrouw A.M.T. Wezel te Amsterdam.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg14">Het rapport van de commissie is neergelegd ter Griffie ter inzage voor de leden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg15">De commissie adviseert de Kamer, voornoemde personen als leden van de Kamer toe te laten.</seg>
+            </u>
+            <u who="#AnkieBroekers-Knol" ana="#chair" xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg16">Ik dank mevrouw Linthorst voor het uitbrengen van het rapport en de commissie voor het verrichten van haar taak.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg17">Ik stel aan de Kamer voor, het advies van de commissie te volgen en het rapport in de Handelingen te doen opnemen.</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+            <note>(Het rapport is opgenomen aan het eind van deze editie.)</note>
+            <u who="#AnkieBroekers-Knol" ana="#chair" xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2015-06-02-eerstekamer-8.seg18">Ik zou nu de vergadering voor enkele ogenblikken schorsen in afwachting van de minister-president, maar hij komt iets later. De minister-president is namelijk dringend gesommeerd voor het vragenuurtje in de Tweede Kamer. Wij wachten niet tot hij komt, maar gaan verder met de vergadering. Op het moment dat hij komt, schors ik de vergadering heel kort.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

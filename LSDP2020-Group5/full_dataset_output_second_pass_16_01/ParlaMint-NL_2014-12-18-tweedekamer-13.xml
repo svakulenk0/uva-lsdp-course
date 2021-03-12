@@ -1,0 +1,303 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2014-12-18 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2014-12-18 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 39, Session 13 (2014-12-18)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 39, Session 13 (2014-12-18)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="39">Meeting 39</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="13">Session 13</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="66">66 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="66">66 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3681">3681 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3681">3681 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2014-12-18">2014-12-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="83"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="66"/>
+               <tagUsage gi="note" occurs="5"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2014-12-18">2014-12-18</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u1">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg1">Ik stel voor, hedenavond ook te stemmen over het wetsvoorstel Wijziging van de Wet op het onderwijstoezicht in verband met het wettelijk regelen van de verbetertermijn voor zeer zwakke instellingen die bestaan uit basisscholen als bedoeld in de Wet op het primair onderwijs en scholen als bedoeld in de Wet op het voortgezet onderwijs (33796) en de daarbij ingediende moties, en over de aangehouden motie-Dijkgraaf/Pieter Heerma (34000-XV, nr. 41).</seg>
+            </u>
+            <note>Daartoe wordt besloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u2">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg2">Op verzoek van de CDA-fractie benoem ik in de vaste commissie voor Veiligheid en Justitie het lid Omtzigt tot plaatsvervangend lid in de bestaande vacature.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg3">Ik stel voor, toe te voegen aan de agenda van de Kamer:</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg4">het wetsvoorstel Wijziging van de Wet wapens en munitie in verband met de inwerkingtreding van de Verordening (EU) nr. 258/2012 van het Europees Parlement en de Raad van 14 maart 2012 tot uitvoering van artikel 10 van het Protocol van de Verenigde Naties tegen de illegale vervaardiging van en handel in vuurwapens, hun onderdelen, componenten en munitie, tot aanvulling van het Verdrag van de Verenigde Naties ter bestrijding van grensoverschrijdende georganiseerde misdaad (VN-protocol inzake vuurwapens), en tot vaststelling van uitvoervergunningen voor vuurwapens, hun onderdelen, componenten en munitie en maatregelen betreffende de invoer en doorvoer ervan (PbEU 2012, L 94) (33995);</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg5">het wetsvoorstel Wijziging van Boek 2 van het Burgerlijk Wetboek in verband met de wijziging van de regels voor werknemersmedezeggenschap in geval van grensoverschrijdende fusie van kapitaalvennootschappen (34012);</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg6">het wetsvoorstel Wijziging van de Wet bescherming persoonsgegevens en enige andere wetten in verband met de invoering van een meldplicht bij de doorbreking van maatregelen voor de beveiliging van persoonsgegevens alsmede uitbreiding van de bevoegdheid van het College bescherming persoonsgegevens om bij overtreding van het bepaalde bij of krachtens de Wet bescherming persoonsgegevens een bestuurlijke boete op te leggen (meldplicht datalekken en uitbreiding bestuurlijke boetebevoegdheid Cbp)(33662);</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg7">het wetsvoorstel Uitvoering van Verordening (EU) Nr. 606/2013 van het Europees Parlement en de Raad van 12 juni 2013 betreffende de wederzijdse erkenning van beschermingsmaatregelen in burgerlijke zaken (PbEU 2013, L181) (Uitvoeringswet verordening wederzijdse erkenning van beschermingsmaatregelen in burgerlijke zaken) (34021);</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg8">het wetsvoorstel Wijziging van de Wet kinderopvang en kwaliteitseisen peuterspeelzalen in verband met de aanpassing van het klachtrecht voor ouders, de wijziging van het adviesrecht van de oudercommissie en enkele andere aanpassingen (Wet versterking positie ouders kinderopvang en peuterspeelzalen) (34045).</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg9">Ik stel voor, de volgende stukken van de stand van werkzaamheden af te voeren:</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg10">31787-12; 32706-60; 2014Z23161; 29521-267; 27925-487; 27925-482; 25928-68; 2014Z23222; 19637-1934; 29838-75; 33695-7; 33750-VI-96; 33750-VI-121; 33750-VI-117; 22452-41; 31524-195; 2014Z22871; 29325-70; 29325-69; 2014Z22992; 2014Z22579; 34000-IV-25; 34000-IV-26; 34000-IV-24; 34000-IV-23; 2014Z21376; 2014Z20217; 2014Z20213; 2014Z21322; 2014Z20430; 17050-489; 17050-488; 34000-XV-4; 33623-12; 25883-245; 17050-484; 25883-241; 32660-61; 32336-36; 30169-38; 29675-176; 2014Z22439; 2014Z23140; 2014Z23115; 2014Z23100; 2014Z22740; 29389-78; 33578-13; 34104-1; 29538-168; 30597-483; 33841-170; 31765-96; 31839-427; 30597-470; 31839-430; 31839-422; 32761-77; 31839-423; 31839-424; 32545-23; 31311-143; 34000-XIII-140; 24446-56; 24446-57; 34000-V-42; 2014Z22430.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg11">Ik stel voor, toe te voegen aan de agenda:</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg12">het VAO Evaluatie piraterijbestrijding, naar aanleiding van een algemeen overleg gehouden op 17 december, met als eerste spreker de heer Jasper van Dijk van de SP;</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg13">het VAO Woningwaarderingsstelsel en Regeling hypothecair krediet, naar aanleiding van een algemeen overleg gehouden op 17 december, met als eerste spreker mevrouw Karabulut van de SP;</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg14">het VSO over de voorgenomen aanwijzing ex artikel 8 Wet marktordening gezondheidszorg (Wmg) (30597, nr. 485), met als eerste spreker mevrouw Leijten van de SP;</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg15">het VAO Maatschappelijke opvang/Zwerfjongeren, naar aanleiding van een algemeen overleg gehouden op 17 december, met als eerste spreker mevrouw Berckmoes-Duindam van de VVD, in te plannen na het kerstreces.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u3">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg16">Het woord is aan mevrouw Leijten van de SP. Zij heeft vanmorgen al aangekondigd dat zij bij deze regeling een verzoek zou doen.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u4">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg17">Voorzitter. Ik wil geen verzoek doen voor een debat over de politieke consequenties van het afstemmen van dat wetsvoorstel. We weten wat daarover is gewisseld en voor dat debat is dus geen steun. Ik wil de Kamer voorstellen om een kort debat te voeren met de minister over het pgb-gedeelte van het wetsvoorstel. Daarover bestond in deze Kamer en in de Eerste Kamer geen verschil van inzicht. Ik stel voor om dat gedeelte van de wet in een noodprocedure hier voor te leggen, zodat wij er vanavond over kunnen stemmen. Maandag komt de Eerste Kamer bij elkaar en die kan er dan ook over stemmen. Het pgb is dan gewoon in de Zorgverzekeringswet verankerd. Daarvoor hebben we een debat nodig. Dat is de aanleiding voor mijn verzoek. Het kan wat mij betreft een kort debat zijn, maar ik vraag wel steun aan de Kamer om de minister te verzoeken, vandaag zo snel mogelijk via een noodprocedure het pgb te verankeren in de Zorgverzekeringswet.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u5">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg18">Ik zal het verzoek voorleggen aan de Kamer.</seg>
+            </u>
+            <u who="#ArnoRutte" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u6">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg19">Wij hebben vandaag een verhelderende brief over deze kwestie gekregen. Daarin staat duidelijk dat het pgb, ook zonder dat het wettelijk verankerd is, voor volgend jaar geregeld is. De benodigde wetswijziging zal op korte termijn volgen, maar die hoeft niet per se vandaag te worden behandeld. Dus geen steun voor dit debat.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u7">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg20">Ik steun met klem het verzoek aan de minister om juist die wettelijke borging van het pgb vanavond nog naar de Kamer te sturen. Het debat daarover kan heel kort zijn. Misschien kan het zelfs een interpellatiedebat zijn; ik weet niet zeker of dat kan bij wetgeving. Ik steun het verzoek van harte om deze vraag bij de minister neer te leggen en het vanavond in een kort debat af te handelen.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u8">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg21">Steun voor het debat. Mijn fractie vindt het belangrijk om het pgb zo snel mogelijk te verankeren in de Zorgverzekeringswet.</seg>
+            </u>
+            <u who="#FleurAgema" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u9">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg22">Ik zou het debat heel graag steunen, maar de VVD-fractie heeft al gezegd dat zij hieraan geen behoefte heeft. Ik ben daarom heel benieuwd naar wat de Partij van de Arbeid gaat doen.</seg>
+            </u>
+            <u who="#HankeBruinsSlot" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u10">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg23">Steun voor het debat. Los van dit verzoek om een debat heb ik nog een vraag aan de voorzitter. Zij zou nog even kijken of de minister-president in het land zou blijven. Heeft zij daar al duidelijkheid over?</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u11">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg24">Ik kan er kort over zijn: steun voor het debat. We kunnen het lot van de patiënt niet overlaten aan de willekeur van de zorgverzekeraar.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u12">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg25">Mevrouw Ouwehand doet de suggestie om het verzoek bij de minister neer te leggen. Als minister dat volgt en als zij dus met die noodprocedure komt — dit kan staatsrechtelijk gewoon; het hoeft ook niet naar de Raad van State — is wat mij betreft ook geen debat nodig. We kunnen dan vanavond gewoon voor die wet stemmen. De Eerste Kamer komt volgende week terug van reces en die kan dat dan ook doen. De Eerste Kamer heeft nota bene een motie van GroenLinks aangenomen waarin gesproken wordt van "zo snel als mogelijk". We hoeven dan niet te kijken naar bestuurlijke afspraken, maar we hebben dan gewoon de wettelijke instrumenten die wij anders ook gehad zouden hebben, waarover geen controverse bestaat, noch in dit huis, noch in de senaat.</seg>
+            </u>
+            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u13">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg26">Wat voor de Partij van de Arbeid belangrijk is, is het antwoord op de vraag of het pgb nu geregeld is. Ja, het pgb is geregeld; in de brief staat dat de zorgverzekeraars zich daaraan hebben gecommitteerd. Daarom zijn een debat en een spoedprocedure nu niet nodig. Dus geen steun voor een debat.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u14">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg27">Ik heb de brief van de minister gelezen en ik vond die geruststellend: de afspraken zoals die zijn gemaakt met de zorgverzekeraars en Per Saldo worden door de zorgverzekeraars uitgevoerd. Daarmee is voor ons de kou uit de lucht en de pijn weg. Ik denk dat er duidelijkheid is voor de pgb-houders en daarom steunen we dit verzoek om een debat niet. Dat neemt niet weg dat wij, als er vandaag nog een debat wordt gevoerd, de inhoud van de brief daar nog bij kunnen betrekken.</seg>
+            </u>
+            <u who="#KeesvanderStaaij" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u15">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg28">Ook de SGP-fractie heeft geen behoefte om hierover een apart debat te voeren. Er is nu juist helderheid geboden en we moeten ervoor oppassen dat er nu niet weer onduidelijkheid wordt geschapen door over allerlei noodprocedures te spreken. Wij hebben dus geen behoefte aan een debat na de heldere brief die wij daarover vanmorgen hebben ontvangen. Ik sluit me verder aan bij wat mevrouw Dik heeft gezegd. We gaan er toch wel van uit dat er vandaag nog een debat zal volgen over de politieke gevolgen van het wetsvoorstel. Dan zou zoiets ook nog weer, al naar gelang de wens van de fractie, aan de orde kunnen komen.</seg>
+            </u>
+            <u who="#GerKlein" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u16">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg29">Steun voor het verzoek. De brief is een mooie aanleiding om een en ander vervolgens wettelijk te verankeren.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u17">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg30">Bestuurlijke afspraken zijn mooi en het is goed dat die zijn gemaakt. Met het wettelijk instrument kunnen wij echter een minimumtarief instellen op het moment dat er wel een pgb in de polis zit, maar het tarief dat volgt evident te laag is om die zorg te regelen. De staatssecretaris heeft in een debat dat wij hierover vorige week hadden, aangegeven dat hij heel zorgvuldig zou kijken hoe het zou gaan met het tarief en dat hij de mogelijkheid om die basis, die bodem, erin te leggen, ook direct zou toepassen als in januari zou blijken dat de tarieven niet voldoende zijn. We zijn dat instrument nu kwijt. Daarom wil ik die noodprocedure voorstellen. Staatsrechtelijk kan dat en is het geen probleem. De minister kan dit gedeelte uit de wet halen en aan ons voorleggen. Ik wil dan toch verzoeken om, als een meerderheidsdebat niet mogelijk is, een dertigledendebat te houden en dat voorrang te geven op de agenda. Ik had liever gehad dat het niet nodig is, maar u bent aan zet om het te plannen, voorzitter. Ik doe dan ook een beroep op u om de brede oppositie die er is, los van de gedoogpartijen, te horen en haar de mogelijkheid te geven om hierover te debatteren in deze zaal. Al die oppositiepartijen willen hierover een debat.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u18">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg31">Ik heb nog even een vraag ter verheldering aan mevrouw Leijten. Als de minister de uitnodiging van de Kamer aanneemt om wel dit deel van de wet hierheen te sturen, zouden we het ook als hamerstuk kunnen afdoen. Dat is ook een heel warme uitnodiging aan de minister. In deze Kamer kan het op een meerderheid rekenen en in de Eerste Kamer ook. Voor de SP zou dan een debat misschien niet eens nodig zijn. Heb ik dat goed begrepen?</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u19">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg32">Op het moment dat de minister ons laat weten dat zij deze noodprocedure inzet, is er geen debat nodig. Dat debat is nodig om deze noodprocedure met de minister te bespreken en uiteindelijk ook de politieke vraag te stellen waarom ze niet bereid is om dat te doen. Maar als ze bereid is om dat te doen, is het debat daarover niet meer nodig.</seg>
+            </u>
+            <u who="#ArnoRutte" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u20">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg33">Ik constateer dat een heel grote meerderheid in dit huis dit debat op dit moment niet wil. Ik hoor mevrouw Leijten vragen om er een dertigledendebat van te maken. Dat kan natuurlijk altijd. Uiteindelijk is het aan u als Voorzitter, maar ik zou het wat vreemd vinden als dit opeens een andere prioritering kreeg dan andere dertigledendebatten.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u21">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg34">Het is aan de wijsheid van de voorzitter of zij de twee regeringspartijen met de onderhandelingspartijen hier een debat laat blokkeren. Wij hebben nog maar één dag. Het is aan de voorzitter om hierover een besluit te nemen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u22">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg35">Ik concludeer het volgende. Ik ga het stenogram van dit gedeelte van de vergadering doorgeleiden naar het kabinet vanwege het debat dat er was. De minister kan dan eigenstandig besluiten om een brief over de wettelijke verankering aan de Kamer te sturen. Ik zal het stenogram van dit gedeelte van de vergadering dus doorgeleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg36">Ik constateer dat er geen meerderheid is voor het houden van een debat zoals dat verzocht is. Er zijn wel 48 leden die het debat steunen. Ik zal dus een dertigledendebat toevoegen aan de lijst van debatten.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg37">Mij is ook nog gevraagd om bij de minister-president te inventariseren of hij vandaag voor een debat beschikbaar is. Hij heeft mij laten weten dat hij vandaag beschikbaar is als de Kamer behoefte heeft aan een debat.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u23">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg38">Dank voor die laatste opmerking. De minister-president heeft beloofd dat hij tijdens de Europese top een aantal zaken zou inbrengen. Ik zou graag vernemen wie dat vandaag namens de Nederlandse regering gaat doen. Er wordt besloten over Griekenland en over Turkije. Dat is best belangrijk. Is er namens de regering iemand aanwezig of laten wij het gaan? Dat zou ik graag horen.</seg>
+            </u>
+            <u who="#JesseKlaver" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u24">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg39">Ik steun het verzoek om inlichtingen van de heer Omtzigt.</seg>
+            </u>
+            <u who="#GeertWilders" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u25">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg40">Ook wij steunen dat verzoek. Om een extra regeling van werkzaamheden naar aanleiding van uw laatste mededeling, namelijk dat de minister-president er is, te voorkomen, verzoek ik u om dat debat alvast voor vandaag in te plannen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u26">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg41">U citeert mij niet geheel juist. Ik heb gezegd: de minister-president heeft laten weten dat hij beschikbaar is als de Kamer dat verzoekt. Ik heb daarmee niet gezegd dat hij hier ook is. Dat weet ik helemaal niet. De telefoon geeft niet aan waar hij is.</seg>
+            </u>
+            <u who="#TonElias" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u27">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg42">Het lijkt mij aan de Kamer om te wegen of men de minister-president hier wil hebben of naar Europa wil laten gaan.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u28">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg43">Ik noteer het verzoek van de heer Wilders.</seg>
+            </u>
+            <u who="#GeertWilders" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u29">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg44">Mijn verzoek is dus niet om te weten waar hij is, maar om, nu de minister-president bereid is om te komen, vandaag nog een debat met hem te houden over de politieke component waarover wij het al drie dagen hebben.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u30">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg45">Dat betekent dat u een nieuw verzoek doet, dat ik aan de Kamer moet voorleggen.</seg>
+            </u>
+            <u who="#GeertWilders" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u31">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg46">Zeker, om een nieuwe regeling van werkzaamheden te voorkomen. Ik hoorde de heer Zijlstra eerder zeggen dat hij daar geen bezwaar tegen had. Wellicht kunt u dit nu aan de orde stellen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u32">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg47">Dit is niet gebruikelijk. Zoals ik vanmorgen tegen mevrouw Leijten heb gezegd, neem ik verzoeken die niet zijn aangemeld bij de regeling normaal gesproken niet in behandeling. Ik moet eerlijk zeggen dat ik ook wel gevoelig ben voor het argument dat wij een extra regeling van werkzaamheden moeten afwenden. Ik zie dat alle partijen hier vertegenwoordigd zijn. Zij hebben het verzoek kunnen horen. Mijn voorstel is om dit verzoek nu gewoon aan de Kamer voor te leggen. Het is een verzoek om steun voor een vandaag in te plannen debat met de minister-president.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg48">Mijnheer Roemer? Dit was eigenlijk uw verzoek vanmorgen.</seg>
+            </u>
+            <u who="#EmileRoemer" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u33">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg49">Ja, het is niet verrassend dat ik dit graag wil. De minister-president mag ons allen en de media ook op het Torentje uitnodigen, maar dat is heel erg klein. Dan kunnen wij het beter hier doen.</seg>
+            </u>
+            <u who="#ArieSlob" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u34">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg50">Ik heb gisteren al aangegeven dat u dit wat mij betreft met potlood kunt inplannen. Wij hebben nu te horen gekregen dat de minister-president beschikbaar is als dat nodig is. Op het moment dat er een brief is, kunnen wij definitief beslissen of wij dat debat laten doorgaan. Laten wij er gewoon rekening mee houden.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u35">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg51">Op dit moment geen steun, maar …</seg>
+            </u>
+            <u who="#ArieSlob" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u36">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg52">… met potlood kunt u het noteren. Dat debat zal er vandaag wel komen, denk ik.</seg>
+            </u>
+            <u who="#AlexanderPechtold" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u37">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg53">Ik heb gisteren mijn steun voor een debat afhankelijk gemaakt van de beschikbaarheid van de minister-president vandaag. Ik begreep dat hij er vanochtend was en ik begrijp nu van u dat hij eventueel ook de rest van de dag beschikbaar is als er een oplossing komt. Ik sluit mij aan bij collega Slob. Een debat in potlood lijkt mij het meest logisch, maar een debat heeft alleen zin wanneer er iets valt te bespreken.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u38">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg54">Dat is geen steun voor het verzoek, maar u vraagt om er rekening mee houden dat het debat later wellicht alsnog komt.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u39">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg55">GroenLinks steunt het verzoek wel. Wij hebben het gisteren en vanmorgen gesteund. Wij willen nog steeds dat het debat in de plenaire zaal plaatsvindt, en het niet alleen via de media gespeeld wordt, of dat sommige partijen wel en andere niet bijgepraat worden. Het moet gewoon transparant, met iedereen, in deze zaal gebeuren.</seg>
+            </u>
+            <u who="#MartijnvanDam" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u40">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg56">We doen eenzelfde rondje, terwijl de situatie nog niet wezenlijk veranderd is ten opzichte van vanmorgen. Vanmorgen hebben we er duidelijke afspraken over gemaakt. Die staan wat ons betreft. Als er iets te melden valt, dan ligt het best voor de hand dat er een debat gehouden wordt, maar als de Kamer zichzelf serieus neemt, plant ze dat op het moment dat er ook iets is om over te praten.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u41">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg57">Op dit moment dus nog geen steun.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u42">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg58">Mijn fractie steunt het verzoek en ontvangt graag binnen een uur een brief waarin staat wie er namens de regering aanwezig is bij de Europese top. Dat had u net nog niet afgeconcludeerd, voorzitter.</seg>
+            </u>
+            <u who="#KeesvanderStaaij" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u43">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg59">Ook de SGP blijft bij hetgeen vanmorgen naar voren is gebracht. Als we inderdaad vanmiddag een brief zouden krijgen waarin staat dat er een bepaald resultaat is, ligt het voor de hand om daar een debat over te voeren.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u44">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg60">De fractieleider van de VVD zei vanmorgen: nou, een debat is niet handig, want dan gaat de minister-president toch alleen maar om de hete brij heen draaien. Dat was op zich wel eerlijk, maar ik zou de minister-president iets meer credits willen geven, en in de veronderstelling willen verkeren dat hij ook wel iets te zeggen heeft en hij hier een verklaring kan afleggen waarover we vervolgens vragen kunnen stellen. Wij steunen een debat dus.</seg>
+            </u>
+            <u who="#GerKlein" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u45">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg61">Dit is een extra iets om een extra regeling van werkzaamheden te voorkomen. Die gaan we voorkomen door nu gewoon steun te geven aan een debat. Op het moment dat er niets te melden is, kan het er weer af.</seg>
+            </u>
+            <u who="#TamaravanArk" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u46">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg62">Wij handhaven de vanmorgen gemaakte afspraak: geen steun voor het debat.</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u47">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg63">Het is duidelijk dat de coalitiepartijen dit debat willen blokkeren. Wij willen dat niet. Wij steunen het debat, dat vandaag nog moet worden gehouden. Het is niet relevant of er dan een brief komt of niet. De ontstane situatie is voldoende om daarover een debat te voeren.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u48">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg64">Ik constateer dat er op dit moment geen meerderheid is die vindt dat het debat alvast ingepland kan worden. Ik heb op deze manier geprobeerd om een extra regeling van werkzaamheden af te wenden, maar gezien de woorden die zijn gesproken, verzoek ik u allen er wel rekening mee te houden dat er wellicht nog een extra regeling van werkzaamheden komt. We zijn toch allemaal in huis, want we hebben nog stemmingen vandaag. Wat mevrouw Keijzer opmerkte, is terecht: ik had nog niet gevraagd om het stenogram van dit gedeelte van de vergadering door te geleiden naar het kabinet met het verzoek om te laten weten aan de Kamer wie er vandaag aanwezig is bij de Europese top in Brussel. Dat is het verzoek dat ik heb gedaan en dat zal ik doorgeleiden naar het kabinet.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u49">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg65">Ik had er wel een termijn aan verbonden. Graag een beetje vlot, binnen een uur, had ik gezegd. Als u dat er ook in opneemt: graag.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u50">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg66">Dat staat in het stenogram. Niet alleen mijn conclusie staat daarin, maar vooral ook het hele debat dat eraan vooraf is gegaan.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u51">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg67">Ik ben een beetje in het ongewisse of er nu nog een extra regeling komt. Om die misschien te voorkomen, zeg ik van mijn kant: we zouden voor 12.00 uur een brief krijgen over de uitleg van bed, bad en brood. Die is niet gekomen. Het was een Kamerbreed verzoek. Die brief is nog niet gekomen. Ik zou dus willen rappelleren, om die brief alsnog zo snel mogelijk naar de Kamer te krijgen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u52">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg68">Ik zal het stenogram van dit gedeelte van de vergadering doorgeleiden naar het kabinet. Voor de zekerheid: er is geen extra regeling van werkzaamheden door de Kamer aangevraagd, maar veel partijen hebben gezegd dat er wellicht vandaag nog een debat nodig zal zijn. Daar preludeerde ik op.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg69">Ik geef het woord aan mevrouw Van Tongeren voor een heel ander verzoek.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u53">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg70">Voorzitter. Dit is een verzoek om een debat met de minister van Binnenlandse Zaken. Uit een brief van minister Plasterk kun je concluderen dat een bekend advocatenkantoor gedurende lange tijd afgeluisterd is. De CTIVD concludeert dat er gesprekken afgeluisterd en uitgewerkt zijn die "evident niet als relevant voor enig onderzoek van de AIVD kunnen worden beschouwd". Dat vindt mijn fractie voldoende aanleiding om daarover met de minister van Binnenlandse Zaken van gedachten te wisselen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u54">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg71">Een verzoek om steun voor het houden van een debat over afluisterpraktijken.</seg>
+            </u>
+            <u who="#KlaasDijkhoff" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u55">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg72">Ik kan me voorstellen dat wij hierover spreken met de minister. Wij doen dat ook graag op 21 januari in het geplande algemeen overleg over de inlichtingen- en veiligheidsdiensten, zodat we niet te lang hoeven te wachten op plenaire behandeling.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u56">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg73">Geen steun dus voor dit verzoek.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u57">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg74">Dit is een heel serieuze kwestie, zo serieus dat de toezichthouder, de CTIVD, ernaar heeft gekeken en kritische opmerkingen heeft gemaakt. Die zullen we bespreken op 21 januari.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u58">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg75">Het is belangrijk om hierover te spreken, maar prima om dat op 21 januari te doen. Dat is waarschijnlijk het snelst, dus geen steun.</seg>
+            </u>
+            <u who="#RoelofBisschop" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u59">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg76">Geen steun voor een apart debat. 21 januari is prima. Misschien kan de minister schriftelijk een toelichting geven, zodat die bij de voorbereiding betrokken kan worden.</seg>
+            </u>
+            <u who="#JeroenRecourt" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u60">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg77">Geen steun. Ik merk op dat we wel moeten kijken of er niet al een toelichting is van de minister, want die geeft meestal een toelichting op CTIVD rapporten.</seg>
+            </u>
+            <u who="#MonaKeijzer" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u61">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg78">Ik sluit me aan bij alles wat de heer Bisschop net zei.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u62">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg79">Steun. Als op 21 januari blijkt dat het voldoende aan de orde is geweest, kan het altijd nog van de agenda worden gehaald.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u63">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg80">Nu geen steun.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u64">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg81">Mevrouw Van Tongeren, u hebt geen steun van de Kamer voor het houden van een plenair debat, vooral omdat er op 21 januari een AO gepland staat over de CTIVD, waarbij dit onderwerp betrokken kan worden. Er is wel een toelichting gevraagd door de heer Bisschop. Een ander lid van de Kamer zei dat de toelichting waarschijnlijk al in de reactie op het CTIVD-rapport staat. Ik zal het als volgt formuleren. Ik vraag de minister om nog even goed te kijken of hij op dit specifieke geval al gereageerd heeft. Dat zou dan van toegevoegde waarde kunnen zijn in een reactie. Dat verzoek zal ik doen. Ik zal het stenogram van dit gedeelte van de vergadering doorgeleiden naar het kabinet.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u65">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg82">Dank u wel.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.u66">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-13.seg83">Daarmee is er een einde gekomen aan deze regeling van werkzaamheden.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

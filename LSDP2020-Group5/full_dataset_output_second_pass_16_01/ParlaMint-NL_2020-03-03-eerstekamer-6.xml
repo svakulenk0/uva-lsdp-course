@@ -1,0 +1,88 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-03-03-eerstekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2020-03-03 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2020-03-03 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 22, Session 6 (2020-03-03)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 22, Session 6 (2020-03-03)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="22">Meeting 22</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #EK.36" corresp="#EK" n="36-upper">Meeting of the 36th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="1">1 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="1">1 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="120">120 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="120">120 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2020-03-03">2020-03-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="2"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-03-03">2020-03-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Voorlichting Raad van State inzake het wetsvoorstel Wet taal en toegankelijkheid</note>
+            <u who="#JanAnthonieBruijn" ana="#chair" xml:id="ParlaMint-NL_2020-03-03-eerstekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2020-03-03-eerstekamer-6.seg1">Aan de orde is de brief van 19 februari 2020 (35282, C) van de voorzitter van de vaste commissie voor Onderwijs, Cultuur en Wetenschap aan de Kamervoorzitter met het voorstel aan de Kamer om op grond van artikel 21a van de Wet op de Raad van State voorlichting te vragen aan de Afdeling advisering van de Raad van State inzake het voorstel van de Wet taal en toegankelijkheid (35282).</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-03-eerstekamer-6.seg2">Ik stel voor het voorstel van de vaste commissie voor Onderwijs, Cultuur en Wetenschap met de bijbehorende voorlichtingsvraag als hamerstuk af te doen. Kan de Kamer zich met dit voorstel verenigen? Dat is het geval. Dan is het voorstel aangenomen. Wenst een van de leden aantekening? Dat is niet het geval.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-05-17 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-05-17 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 76, Session 8 (2017-05-17)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 76, Session 8 (2017-05-17)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="76">Meeting 76</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="10">10 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="10">10 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="300">300 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="300">300 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-05-17">2017-05-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="14"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="10"/>
+               <tagUsage gi="note" occurs="16"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-05-17">2017-05-17</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg1">Er zijn drie leden die, voordat we gaan stemmen, iets willen melden. Ik begin bij de heer Rutte.</seg>
+            </u>
+            <u who="#MarkRutte" ana="#regular" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg2">Voorzitter. Het gaat weer mis, want ook de vorige motie was staatsrechtelijk niet op orde. Dat blijft een zwak punt voor mij. Ik heb deze keer de steun niet gekregen van de SGP, maar van de Voorzitter zelf. Het gaat namelijk niet om benoemen, maar om aanwijzen. Waar stond "benoemt E.I. Schippers tot informateur", moet staan "wijst mevrouw E.I. Schippers aan tot informateur".</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg3">De motie-Mark Rutte (, nr. ) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>kennisgenomen hebbende van het eindverslag van informateur E.I. Schippers en het daarin opgenomen advies met betrekking tot de kabinetsformatie;</note>
+               <note>neemt de inhoud van dit advies over en wijst mevrouw E.I. Schippers aan tot informateur met als opdracht op korte termijn de mogelijkheden te verkennen die er op dit moment zijn voor de vorming van een kabinet dat kan rekenen op een vruchtbare samenwerking met de Staten-Generaal en daarbij aan te geven op welke wijze dit tot stand kan komen, en hierover verslag uit te brengen aan de Kamer,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg4">Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg5">Zij krijgt nr., was nr. 9 ().</seg>
+            </u>
+            <note>Dank u wel. Het woord is aan mevrouw Thieme.</note>
+            <u who="#MarianneThieme" ana="#regular" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg6">Voorzitter. Ik wil graag het dictum van mijn motie wijzigen. Nu staat er: "spreekt uit dat het Terlouwmanifest het vertrekpunt moet vormen in een nieuwe informatieopdracht voor de vorming van een nieuw kabinet". Ik zou daar graag van willen maken: "spreekt uit dat het Terlouwmanifest onderdeel moet uitmaken van een nieuwe informatieopdracht voor de vorming van een nieuwe kabinet".</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg7">De motie-Thieme (, nr. ) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat uit het Terlouwmanifest een breed gedeelde urgentie spreekt ten aanzien van een nieuw te vormen regeerakkoord;</note>
+               <note>spreekt uit dat het Terlouwmanifest onderdeel moet uitmaken van een nieuwe informatieopdracht voor de vorming van een nieuw kabinet,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg8">Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg9">Zij krijgt nr., was nr. 10 ().</seg>
+            </u>
+            <note>Dank u wel.</note>
+            <note>Nu komt er een ingewikkeld verzoek van de heer Baudet. Hij vraagt de Kamer, hem in de gelegenheid te stellen om zijn motie in te trekken, maar ook om drie moties in te dienen. Volgens mij is er niemand die daar bezwaar tegen heeft. Of wel?</note>
+            <u who="#ThierryBaudet" ana="#regular" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg10">Mevrouw de voorzitter …</seg>
+            </u>
+            <u who="#SybrandVanHaersmaBuma" ana="#regular" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg11">Voorzitter, ik wil niet lullig doen, maar is dit nu een heropening, of wat gebeurt er nu?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u8">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg12">Ja, het is een heel korte heropening om één motie in te trekken en daarvoor in de plaats drie nieuwe moties in te dienen. Maar om dat te mogen doen, heb je de toestemming van een meerderheid van de Kamer nodig.</seg>
+            </u>
+            <u who="#SybrandVanHaersmaBuma" ana="#regular" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u9">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg13">Ik ga het niet tegenhouden, hoor; daar niet van. Maar als we een debat voeren met z'n allen, is het wel zinvol als men van tevoren bedenkt welke moties men wil indienen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.u10">
+               <seg xml:id="ParlaMint-NL_2017-05-17-tweedekamer-8.seg14">Dan heropenen we het debat.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

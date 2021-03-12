@@ -1,0 +1,129 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-10-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-10-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 10, Session 4 (2016-10-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 10, Session 4 (2016-10-11)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="10">Meeting 10</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="11">11 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="11">11 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2247">2247 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2247">2247 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-10-11">2016-10-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="23"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="11"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-10-11">2016-10-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Voortman</note>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg1">Voorzitter. Afgelopen zaterdag verscheen in NRC een bericht met de titel "Een schroefje van 17 mille". Beste minister, als ik naar de fietsenmaker ga, is precies op de rekening te zien welke kosten er zijn gemaakt voor welke verrichting. In de zorg is dit helaas niet het geval. In het stuk lezen wij hoe mevrouw Ten Bokkel Huinink erachter kwam dat het plaatsen van een schroefje achter haar oor ten behoeve van een gehoorapparaat maar liefst €16.943,36 kostte. Zij wilde graag weten hoe dat bedrag tot stand kwam. Eerst zei het ziekenhuis dat het door de narcose kwam. Dat bleek niet te kloppen. Toen werd gezegd dat het gehoorapparaat €5.000 kostte. De rekening daarvoor moet echter nog komen. Uiteindelijk zei het ziekenhuis: wij zijn niet verplicht om specificaties te geven.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg2">Wat vindt de minister van deze gang van zaken? Komt het vaker voor dat niet-verleende zorg wel in rekening wordt gebracht? Hoe kan het dat deze behandeling in het ziekenhuis in Enschede €17.000 kost terwijl de gemiddelde prijs voor deze behandeling €10.000 minder is? Dat is toch een enorm verschil?</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg3">Het probleem dat hieraan ten grondslag ligt is natuurlijk breder. Er hangt te veel mist rondom de prijsopbouw van zorgbehandelingen. Het dbc-systeem heeft als doel om kwalitatief goede, inzichtelijke en betaalbare zorg te faciliteren. Nu wordt in sommige gevallen een heel behandeltraject in rekening gebracht terwijl maar een klein deel van de behandeling verricht is. Patiënten weten niet wat en waarvoor er moet worden betaald. Er lijkt gedacht te worden dat de verzekeraar toch wel betaalt. Hoe kan deze perverse prikkel, waardoor er meer kosten in rekening worden gebracht, uit het systeem worden gehaald?</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg4">Een ander probleem is dat de ziekenhuizen niet transparant zijn over hun tarieven. Hoe gaan wij ervoor zorgen dat ziekenhuizen openbaar maken welke kosten er aan welke behandeling zijn verbonden, zodat dit kan leiden tot een debat waarin duidelijk wordt waarom ziekenhuis A het ene vraagt voor een behandeling en ziekenhuis B het andere? Is de minister bereid te bevorderen dat ziekenhuizen hun tarieven openbaar maken?</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg5">Voorzitter. Ik begrijp dat mevrouw Ineke ten Bokkel Huinink hiervan is geschrokken en op onderzoek is uitgegaan. Het toont haar grote betrokkenheid bij de zorg en de betaalbaarheid daarvan. Het gaat om een gehoorapparaat dat op het bot moet worden bevestigd met een schroef. Daarom was zij in het ziekenhuis. Anders vragen mensen zich misschien af waarom zij naar het ziekenhuis was gegaan. Zij heeft daarvoor een rekening gekregen van bijna €17.000. De kostprijs van de schroef was €1.100.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg6">Wij hebben het in de Tweede Kamer heel vaak besproken: het is een misverstand dat in de zorg wordt gewerkt met kostprijzen. Wij komen uit een systeem met budgetten. Ieder ziekenhuis kreeg een budget. Dat werd niet onderbouwd met wat alles kostte. Je kreeg gewoon een budget en daarvoor moest je het doen. In 2006 is een nieuw systeem geïntroduceerd: de diagnose-behandelcombinaties als vehikel om te betalen. Dat waren nog steeds fictieve prijzen. Ze hadden geen consequenties voor de bekostiging van een ziekenhuis. Pas in 2012 is de grote stap gezet waardoor 70% van alles wat we doen in de zorg vrije prijzen kent. Er kan daarover een onderhandeling plaatsvinden tussen verzekeraar en ziekenhuis.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg7">Nu is de dbc een specialismegeoriënteerd vehikel. Het gaat over de diagnose en de behandeling in combinatie en niet over de kostprijs. In de praktijk worden de budgetten nog steeds rond gerekend. Niet wat het kost, wat er aan menselijke capaciteit voor nodig is en misschien iets extra's om te herinvesteren vormen de leidraad, maar er wordt toegerekend naar het budget. We deden dat eerst met 48.000 diagnose-behandelcombinaties. We zijn nu overgegaan op 4.800 DOT's. Die bundeling betekent dat er meer ongelijksoortige dingen in één mandje zijn gegooid. Dat zijn goedkope en dure dingen en daar wordt een gemiddelde prijs voor berekend voor een patiënt. Als iemand een behandeling krijgt die goedkoop is, betaalt de verzekeraar er dus meer voor. Voor iemand die een complexe behandeling krijgt, wordt minder betaald.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg8">Er is wel een ontwikkeling naar het werken met kostprijs. De consumentendruk via het eigen risico is daar een oorzaak van. Bovendien bleek dat de nieuwkomers in de gezondheidszorg wel konden aangeven wat iets kost. Die nieuwkomers konden dus een aanbod doen aan de verzekeraar dat veel lager was dan die gemiddelde mandjesprijs die de ziekenhuizen konden bieden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg9">In 2012 stond ik hier naar aanleiding van de "oorsmeergate", zoals die is gaan heten, op de spoedeisende hulp. Toen bleek dat daar een gemiddelde prijs werd berekend die mensen hun eigen risico kostte. Het is niet niets, als je €385 in één keer kwijt bent. De eerste stap die is gezet, is dat daar zaken veel meer worden gekoppeld aan wat ze kosten. Er zijn vier productprijzen gemaakt: goedkoop, onder het gemiddelde, net boven het gemiddelde en duur. Je krijgt hierdoor veel meer een relatie tussen de prijs en wat er is gebeurd. Overigens moet je oorsmeer verwijderen niet op de spoedeisende hulp laten doen, want daar is die niet voor bedoeld.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg10">De tweede ontwikkeling die we zien, is dat CZ een lijst heeft gepubliceerd tot €885: het bedrag van het verplichte eigen risico en het vrijwillige eigen risico bij elkaar opgeteld. Het publiek maken van die prijzen zal ertoe leiden dat men steeds vaker naar de kostprijs zal gaan en dus veel preciezer zal zijn. Het is belangrijk om dit door te zetten, maar het is complex. Toevallig is er vandaag een expertmeeting geweest met het veld op het ministerie over de transparantie van de ziekenhuiskosten. Dat zal altijd geleidelijk moeten gaan. We hebben hier immers al gezegd dat we die ziekenhuizen niet iedere keer met schokken naar nieuwe systemen moeten laten gaan. We moeten die transparantie stap voor stap opvoeren. Ik zal de Tweede Kamer wat vandaag is besproken dit najaar aanbieden in een brief.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg11">Ik heb een aantal vragen gesteld. Ik heb gevraagd wat de minister vindt van de gang van zaken bij het ziekenhuis in Enschede. We hebben te maken met een mevrouw die wilde gaan uitzoeken waarom een behandeling zo ontzettend veel kostte. Zij kreeg eerst een aantal uitvluchten te horen en vervolgens kreeg zij te horen: wij zijn niet verplicht om die specificatie te regelen. Een andere vraag die ik heb gesteld, is of het vaker voorkomt dat niet-verleende zorg in rekening wordt gebracht. De bedoeling van het dbc-systeem was toch ooit om goede zorg voor de beste prijs te regelen voor consumenten? Dat lijkt hier niet te gebeuren. Als een ziekenhuis €17.000 in rekening brengt, dat dus door de zorgverzekeraar betaald wordt, wordt dat natuurlijk uiteindelijk wel doorberekend aan die patiënt, die verzekerde. Ik wil graag antwoord van de minister op deze vragen. Ik wil specifiek een reactie op deze casus, maar ook breder op de vraag wat we doen aan die dbc-tarieven en of de minister gaat bevorderen dat ziekenhuizen hun tarieven openbaar gaan maken.</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg12">We hebben al enige tijd geleden in de Kamer afgesproken dat als een verzekerde wil weten of klopt wat in rekening is gebracht, hij contact moet opnemen met zijn verzekeraar. Iedere verzekeraar zal namelijk een andere prijs afspreken met een ziekenhuis. Een ziekenhuis heeft niet één prijs die hij met iedereen heeft onderhandeld. Een ziekenhuis zal een verzekeraar die 10.000 patiënten bij hem heeft lopen een lagere prijs rekenen dan een verzekeraar die er 3 patiënten heeft lopen. Ik heb al vaak in de Kamer gezegd: wilt u weten of een rekening terecht is, vraag het uw verzekeraar. Die moet dat voor iemand kunnen nakijken en hem daarbij helpen. De verzekeraar is ook verplicht om daar informatie over te geven.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg13">Het publiceren wat er wordt betaald voor zorg, juich ik zeer toe. CZ is daarmee begonnen. Daar is veel kritiek op gekomen, ook van de ziekenhuizen. Ik denk echter dat het de enige weg is naar het daadwerkelijk goed informeren van patiënten. Dit is een eerste stap, de tarieven tot €885. Ik zeg niet voor niets dat het een eerste stap is. Ik ga er namelijk vanuit dat er meerdere stappen volgen. Ik begrijp dat het niet in één keer kan. Anders waren we hier niet al zo lang mee bezig.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg14">Ik wil het systeem langzaam maar zeker veranderen. Dus niet zoals we met de DOT hebben gedaan, met jarenlang allemaal jaarrekeningellende die we op ons dak hebben gehad. We willen immers niet dat ziekenhuizen omvallen als wij het systeem veranderen. Geleidelijk aan wil ik het systeem veranderen, opdat het gevoeliger wordt voor wat er wordt geleverd en voor de zorgzwaarte die wordt geleverd. Dus ja, het systeem is verre van ideaal en behoeft sterke verbetering, maar dat moeten we wel voorzichtig en geleidelijk doen. Anders wordt het ziekenhuisveld helemaal gek van ons.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg15">In de eerste plaats zegt de minister dat mevrouw Ten Bokkel Huinink naar de verzekeraar moet gaan, maar de verzekeraar stuurt haar juist weer terug naar het ziekenhuis. Als de minister zegt dat zij niet naar het ziekenhuis had moeten gaan, ben ik benieuwd wat zij er dan van vindt dat mevrouw Ten Bokkel Huinink heen en weer gestuurd wordt tussen de zorgverzekeraar en het ziekenhuis. Heeft de zorgverzekeraar hier verkeerd gehandeld?</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg16">In de tweede plaats haalt de minister de lijst van CZ aan als het gaat om de transparantie van de tarieven. Waarom zijn ziekenhuizen echter nu zo onwillig om die transparantie te verschaffen? Wat doet de minister daaraan? Het kan wel zijn dat ziekenhuizen hier gek van worden, maar het gaat hier om cijfers die ziekenhuizen gewoon al hebben. het enige wat zij hoeven te doen en wat mensen zoals mevrouw Ten Bokkel-Huinink vragen, is of zij die tarieven openbaar maken zodat we ze allemaal kunnen zien en we ook vraagtekens kunnen zetten bij waarom het ene ziekenhuis zo veel meer vraagt dan het andere. Zo raar is dat verzoek toch niet?</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg17">Ik vind deze actie enorm te waarderen. Daar ben ik mijn beantwoording ook mee begonnen. Het is geen kwestie van: ik leun achterover en het wordt toch wel betaald. Nee, het gaat hier om iemand die heel betrokken is bij wat het allemaal kost en hoe we het met elkaar in de hand kunnen houden. Had de verzekeraar door moeten sturen? Nee, dat is de fout van de verzekeraar. We hebben afgesproken dat de verzekeraar informatie moet geven over wat hij betaalt namens die mevrouw voor die behandeling. Daar moet ze zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg18">Wat vind ik van de onwilligheid van de ziekenhuizen? De ziekenhuizen zien allerlei informatie die weinig relatie heeft met de kostprijs. Ik ben budgetten aan het rondrekenen. Daar zit natuurlijk het hele probleem, namelijk in het feit dat een ziekenhuis waarschijnlijk zelf ook niet kan aangeven wat de kostprijs is. Het heeft onderhandeld met de zorgverzekeraar en dat wordt teruggerekend naar een budget. Zo plat gaat het in de praktijk. Wat wij van het systeem verwachten, kan het systeem nu niet leveren. Dat weten we al een tijdje. Daarom hebben we vaak met elkaar gewisseld hoe we stapsgewijs naar een systeem toe kunnen dat het wel kan leveren. Ik denk dat we stapsgewijs naar een ander financieringssysteem moeten. Dit systeem kan dat niet leveren. Wij kunnen er niet in een klap vanaf, maar stapsgewijs wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg19">Dan mevrouw Bouwmeester.</seg>
+            </u>
+            <u who="#LeaBouwmeester" ana="#regular" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg20">Nog net op de valreep! Ik hoor de minister zeggen dat we hier al vier jaar over praten en dat het eigenlijk gewoon nog een puinhoop is. We weten niet wat de prijs is en vervolgens niet wat de behandeling kost. Dat kan de patiënt zijn gehele eigen risico kosten. Er wordt niet goed geïnformeerd, maar terecht zegt de minister dat er één zorgverzekeraar is die de prijzen wel openbaar maakt. Dat waardeert de minister en dat waarderen wij ook. Op welke manier gaat zij haar stelselverantwoordelijkheid nu gebruiken om ervoor te zorgen dat alle zorgverzekeraars achter hun verzekerden en patiënten gaan staan en allemaal meteen die service en openbaarheid bieden? Dan hoeft die NRC-journalist geen wekelijkse column te schrijven, want dan is het probleem opgelost.</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg21">Ik neem er afstand van dat het een puinhoop is. De politiek heeft een systeem ingevoerd en dat is een complex systeem. Je kunt je afvragen of dit nu het beste systeem was dat er was. Er was internationaal een goed systeem, maar dat hebben wij destijds niet ingevoerd omdat wij niet een goed systeem wilden maar een excellent systeem. Dat bleek alle complexiteit met zich te brengen. Nu moeten we dat heel complexe systeem terugbrengen naar het daadwerkelijk inzicht geven in wat het kost en het niet binden aan allerlei andere doelen die we bij de invoering wilden willen stellen. Dat is een veel te zwaar idee geweest. Wij hebben het te doen met het systeem dat er is. Wij hebben het simpeler gemaakt, omdat we van 48.000 combinaties naar 4.800 combinaties wilden. Dat maakt alleen maar dat de range breder wordt. Het betekent ook dat we moeten erkennen en ook moeten communiceren dat wij niet betalen op kostprijs maar op het rondrekenen van budgetten. Dat is een lastige boodschap, maar volgens mevrouw Bouwmeester is er licht aan het einde van de tunnel, omdat de nieuwkomers laten zien dat ze het kunnen. Dat geeft druk en dat zie je. De consumenten vragen erom. Dat geeft druk en dat zie je. Dat doet CZ. Ik vind dat heel erg goed. Ik vind dat andere verzekeraars dat voorbeeld moeten volgen …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg22">Dank u wel!</seg>
+            </u>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2016-10-11-tweedekamer-4.seg23">… en dus achter hun patiënten moeten gaan staan, zoals mevrouw Bouwmeester zei. Zij moeten inzicht bieden en dus zou ik willen zeggen: volg dit voorbeeld.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

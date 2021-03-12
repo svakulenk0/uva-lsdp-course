@@ -1,0 +1,161 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-12-22 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-12-22 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 39, Session 45 (2016-12-22)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 39, Session 45 (2016-12-22)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="39">Meeting 39</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="45">Session 45</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="17">17 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="17">17 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="764">764 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="764">764 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-12-22">2016-12-22</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="18"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="17"/>
+               <tagUsage gi="note" occurs="26"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-12-22">2016-12-22</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>DELTA</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u1">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg1">Ik heet ook de minister van Financiën, die net is aangeschoven, van harte welkom. Ik geef het woord aan mevrouw Agnes Mulder van het CDA. De spreektijd is twee minuten, inclusief eventuele moties.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u2">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg2">Deze voorzitter is heel streng, zeg ik tegen de bewindslieden, die gemaand worden om stil te zijn. Ook voor Kamerleden is de voorzitter streng.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u3">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg3">Maar we zitten wel op schema.</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u4">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg4">Voorzitter. Laat ik direct overgaan tot het indienen van mijn beide moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het Rijk uiteindelijk een verantwoordelijkheid heeft bij de veiligheid van de kerncentrale in Borssele;</note>
+               <note>overwegende dat nog een definitieve uitspraak van het hof te verwachten is en dat in de tussenuitspraak van het hof staat: "Deze splitsing kan voor Delta een onevenredig zware last betekenen, gelet op de exploitatie van de kerncentrale in Borssele, zolang geen adequate voorziening is getroffen om die last te verlichten. (...) Het Hof zal partijen de gelegenheid geven zich hierover bij akte nader uit te laten.";</note>
+               <note>verzoekt de regering, opnieuw in gesprek te gaan met de provincie Zeeland en daarbij te kijken naar mogelijkheden waarbij Rijk en decentrale overheden een gedeelde verantwoordelijkheid nemen voor de kerncentrale, zodat een eventuele onevenredig zware last voor DELTA weggenomen wordt;</note>
+               <note>verzoekt de regering voorts, de Kamer te informeren over het gesprek met de provincie Zeeland en zonder overleg met de Tweede Kamer geen nadere stappen te zetten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Agnes Mulder, Dijkgraaf, Dik-Faber, Smaling en Koolmees.</note>
+               <note>Zij krijgt nr. kst-25422-178</note>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u5">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg5">Ik wil het even scherp hebben. U vraagt iets wat de minister al heeft gezegd in relatie tot het gesprek dat hij zal voeren. Klopt dat, of wilt u echt iets anders?</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u6">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg6">Ik vond het vanmorgen niet heel helder, moet ik zeggen. Ik was bij hetzelfde debat aanwezig als de heer Bosman. Ik vond het niet volstrekt helder, vandaar dat ik deze motie wilde indienen. Eigenlijk hoorde ik de minister van Economische Zaken zeggen: we hebben alle gesprekken gevoerd, het is gedaan en dit is het. Dan is dit wel een andere richting.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u7">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg7">Voor de duidelijkheid: u vraagt de minister om weer in overleg te treden met de overheden in Zeeland?</seg>
+            </u>
+            <u who="#AgnesMulder" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u8">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg8">Zo is het. Mijn tweede motie luidt als volgt.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>kennisgenomen hebbend van het rapport Advies van de commissie structuurversterking en werkgelegenheid Zeeland en haar aanbevelingen;</note>
+               <note>verzoekt de regering, de businesscase voor het bètacollege University College for Engineering and Innovation snel op te pakken;</note>
+               <note>verzoekt de regering tevens, samen met Zeeland bij een positief oordeel te bezien hoe het bètacollege vorm kan krijgen;</note>
+               <note>verzoekt de regering voorts, hierover bij de Voorjaarsnota te rapporteren en dan ook de noodzakelijke middelen hiervoor vrij te maken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Agnes Mulder, Dijkgraaf, Koolmees en Bruins. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25422-179</note>
+            </u>
+            <note>De heer Albert de Vries wenst niet het woord te voeren. Ik kijk even naar de bewindslieden om te zien of ze nog interdepartementaal overleg behoeven voor de beantwoording. De laatste motie komt hun kant op. In afwachting daarvan schors ik enkele ogenblikken.</note>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u9">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg9">Ik geef graag het woord aan de minister van Economische Zaken.</seg>
+            </u>
+            <u who="#HenkKamp" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u10">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg10">Voorzitter. In de motie-Agnes Mulder c.s. op stuk nr. 178 wordt de regering verzocht om opnieuw in gesprek te gaan met Zeeland en te kijken naar mogelijkheden waarbij het Rijk, de provincie en de gemeenten daar een gedeelde verantwoordelijkheid nemen voor de kerncentrale, zodat een eventuele onevenredig zware last voor DELTA wordt weggenomen. We hebben vanmiddag in het algemeen overleg met elkaar doorgenomen dat er een aantal malen zeer intensief overleg is geweest met Zeeland, dat er verschillende varianten zijn verkend, dat er aanbiedingen van onze kant zijn gedaan, dat die aanbiedingen met argumenten zijn afgeslagen, dat er alternatieven zijn besproken waarvan we gezamenlijk tot de conclusie kwamen dat die niet gingen vliegen, waarbij we vervolgens hebben vastgesteld dat het mogelijk was om een tijdelijke periode van moeilijke jaren voor de kerncentrale te overbruggen door twee onderdelen van DELTA te verkopen. Een onderdeel is al verkocht. Het tweede staat in de verkoop. Ik denk dat alles heel uitputtend besproken is. Het heeft geen zin om dat nu opnieuw te gaan doen. Ik ontraad de Kamer daarom om de uitspraak zoals die is voorgelegd door mevrouw Mulder c.s., te doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u11">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg11">Als sluitstuk, zoals het er nu naar uitziet, van de parlementaire beraadslagingen over 2016, geef ik het woord aan de minister van Financiën.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u12">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg12">Eén moment, voorzitter. Ik krijg nog belangrijke informatie aangereikt. Het was misschien praktischer geweest als de minister van Economische Zaken ook deze motie had genomen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u13">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg13">Ik wijs de minister van Financiën erop dat op verzoek van het kabinet thans een tweehoofdige delegatie aanwezig is. Ga u uw gang.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u14">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg14">Dit moeten wij officieel ontkennen, maar u bent de baas, dus als u dat zo zegt, dan is dat zo.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u15">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg15">Het is overigens echt zo.</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u16">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg16">Akkoord. Ik zei al: u bent de baas, dus u hebt altijd gelijk.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg17">Voorzitter. Ik kom bij de motie-Agnes Mulder c.s. op stuk 179 over het bètacollege. Daarover is overleg met de provincie, de gemeente en OCW gaande. Onze inzet is dat in 2018 op dit punt een subsidieaanvraag ingediend kan worden, waarna de minister van OCW — ik hoop dat ik het goed zeg — of in ieder geval een van de bewindslieden van OCW zich daar een oordeel over kan vormen. Meer in algemene zin — dat is ook gewisseld in het debat — hebben wij met de provincie Zeeland afgesproken dat wij ons zullen inzetten om goede projecten ter waarde van een bedrag van 25 miljoen in te passen op de begroting of op de begrotingen, want dat kunnen ook andere begrotingen dan die van EZ zijn. Zo hebben we het ook in de brief geformuleerd. Dat kan dus ook hierover gaan, maar om op dit moment te zeggen: het moet gebeuren — dat is eigenlijk het dictum van de motie — en de middelen moeten erbij komen bij de Voorjaarsnota. Hier moet ik weer even streng zijn, dames en heren, want een verwijzing naar de Voorjaarsnota is natuurlijk geen dekking. Het is nu ook te snel om te zeggen: het moet en het geld moet er komen. Dit traject loopt. We hebben een positieve basishouding in algemene zin. We staan echt open voor goede projecten uit Zeeland. Dat is onze houding en zo hebben we het ook met de Zeeuwse bestuurders afgesproken. Alles afwegende ontraad ik de motie.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.u17">
+               <seg xml:id="ParlaMint-NL_2016-12-22-tweedekamer-45.seg18">Dank u zeer. Hedenavond nog wordt over de ingediende moties gestemd.</seg>
+            </u>
+            <note>De vergadering wordt van 18.28 uur tot 19.30 uur geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

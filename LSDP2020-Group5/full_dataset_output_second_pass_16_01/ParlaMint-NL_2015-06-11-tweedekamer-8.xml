@@ -1,0 +1,115 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-06-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-06-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 95, Session 8 (2015-06-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 95, Session 8 (2015-06-11)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="95">Meeting 95</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="6">6 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="6">6 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="382">382 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="382">382 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-06-11">2015-06-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="18"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="6"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-06-11">2015-06-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden stemmingen</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg1">Er zijn een tweetal mededelingen. De motie-Voordewind (32317, nr. 297) is, anders dan op de stemmingslijst staat, al aangehouden. Daar gaan we dus vandaag niet over stemmen. Ik zie dat de heer Voordewind nog een opmerking heeft.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg2">Ik had het rijkelijke aantal van twee moties ingediend. Ik houd ook de andere aan, dus die op stuk 296.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg3">Op verzoek van de heer Voordewind stel ik voor, zijn motie (32317, nr. 296) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg4">Daartoe wordt besloten.</seg>
+            </u>
+            <note>Ik geef nu het woord aan de heer Van Oosten, want hij wil een motie wijzigen.</note>
+            <u who="#FoortvanOosten" ana="#regular" xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg5">Het betreft een motie ingediend bij het VAO dat een paar minuten geleden heeft plaatsgevonden.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg6">De gewijzigde motie-Van Oosten c.s. (32317, nr. 301) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg7">De Kamer,</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg8">gehoord de beraadslaging,</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg9">overwegende dat predikers die haat prediken, tot geweld oproepen of zelfs jihadistische propaganda verspreiden een gevaar vormen voor de openbare orde en nationale veiligheid van Nederland en daarmee in Nederland niet welkom zijn;</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg10">overwegende dat burgemeesters in Nederland regelmatig worden geconfronteerd met de komst van haatpredikers en er tot op heden geen eenduidige aanpak is over hoe in Nederland om te gaan met het vraagstuk van haatpredikers;</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg11">overwegende dat de weigeringsgronden uit de Schengenvisumcode weliswaar helder zijn maar niet altijd door alle Schengenlanden even eenduidig worden toegepast bij visumaanvragen door haatpredikers van buiten de EU;</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg12">overwegende dat veel haatpredikers die zich in Nederland melden in het bezit zijn van een EU-paspoort en daarmee moeilijker te weren zijn uit Nederland;</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg13">van mening dat de overheid zowel haatpredikers van buiten als van binnen de EU uit Nederland moet kunnen weren;</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg14">verzoekt de regering, tijdens de JBZ-Raad van 15 en 16 juni a.s. het probleem van haatpredikers aan de orde te stellen en aan te kondigen werk te gaan maken van het in kaart brengen en weren van haatpredikers, zowel van buiten als van binnen de EU, en de Kamer te informeren over de uitkomsten hiervan,</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg15">en gaat over tot de orde van de dag.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg16">Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg17">Zij krijgt nr. 308, was nr. 301 (32317).</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2015-06-11-tweedekamer-8.seg18">Het lijkt een heel grote wijziging, maar er zijn eigenlijk twee woordjes toegevoegd, namelijk "en weren". Ik realiseer mij dat twee woordjes een ingrijpende wijziging zouden kunnen zijn, maar ik neem aan dat hiertegen geen bezwaar wordt gemaakt. Dan gaan we vandaag over deze motie in gewijzigde vorm stemmen.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,256 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-12-21 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-12-21 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 38, Session 6 (2017-12-21)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 38, Session 6 (2017-12-21)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="38">Meeting 38</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="34">34 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="34">34 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1635">1635 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1635">1635 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-12-21">2017-12-21</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="40"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="34"/>
+               <tagUsage gi="note" occurs="65"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-12-21">2017-12-21</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Ggz</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg1">Een hartelijk woord van welkom aan de staatssecretaris. Er zijn acht deelnemers van de zijde van de Kamer. Niet iedereen van hen gaat spreken. Dat lucht weer op. De eerste spreker is mevrouw Kooiman van de fractie van de SP. Het woord is aan haar.</seg>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg2">Voorzitter. De oplettende collega heeft mogelijk al opgemerkt dat in zijn of haar mailbox een hele mooie brief te vinden is van cliëntenraden, psychiaters, ervaringsdeskundigen, verpleegkundigen, psychologen. Zij zeggen allemaal: er is wat aan de hand rondom de ROM-gegevens en rondom de privacy van patiënten in de ggz. Ook om het medisch beroepsgeheim te handhaven, heeft de SP een hele mooie motie opgesteld. Die ga ik graag voorlezen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het verkrijgen van expliciete, geïnformeerde toestemming van de patiënt een van de wettelijk vastgelegde grondslagen is om medische gegevens op individueel niveau te mogen verstrekken aan, en te doen ontvangen en verwerken door een derde partij;</note>
+               <note>constaterende dat ook de strekking van het medisch beroepsgeheim is dat zonder wettelijke grondslag, zonder expliciete toestemming van de patiënt, geen medische gegevens op individueel niveau mogen worden verstrekt aan, en ontvangen en verwerkt door een derde partij die niet direct betrokken is bij de behandeling;</note>
+               <note>verzoekt de regering om erop toe te zien dat ROM-gegevens alleen worden aangeleverd bij, en ontvangen en verwerkt door de Stichting Benchmark GGZ op basis van expliciete, geïnformeerde toestemming van de patiënt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kooiman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25424-379</note>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg3">Rest mij eigenlijk alleen nog maar aan te geven, vooral aan de staatssecretaris, dat in deze motie niet iets anders wordt voorgesteld dan in de huidige wet al staat. Ik vraag de staatssecretaris eigenlijk alleen maar om erop toe te zien dat die wet ook wordt nageleefd.</seg>
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg4">Voorzitter, dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg5">Dank u wel. We gaan luisteren naar mevrouw Voortman van de fractie van GroenLinks.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg6">Voorzitter. Ik zal mij beperkten tot het indienen van twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de politie per 1 januari 2018 het vervoer van personen met verward gedrag wil beëindigen;</note>
+               <note>overwegende dat nog niet in alle regio's goede afspraken zijn gemaakt over hoe het vervoer van personen met verward gedrag vanaf dat moment wordt georganiseerd en de staatssecretaris de Kamer begin 2018 informeert over de voortgang;</note>
+               <note>overwegende dat de minister in maart 2017 een onderzoek met aanbevelingen over vervoer van personen met verward gedrag aan de Kamer heeft gestuurd, maar dat niet duidelijk is hoe en of deze zijn opgevolgd;</note>
+               <note>verzoekt de regering uiterlijk 15 januari te rapporteren aan de Kamer in welke regio's wel en in welke regio's nog geen goede afspraken over het vervoer zijn gemaakt, in hoeverre de eerder genoemde aanbevelingen zijn opgevolgd en of zij voornemens is het wettelijke gat dat er bestaat rond het vervoer van personen met verward gedrag, te dichten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat op dit moment niet openbaar inzichtelijk is hoeveel dwangmaatregelen in de geestelijke gezondheidszorg per instelling worden toegepast, terwijl aanbieders dit wel bijhouden en doorgeven;</note>
+               <note>van mening dat transparantie kan helpen om inzicht te krijgen in de toepassing van dwangmaatregelen, relevante ontwikkelingen en opvallende uitschieters bij instellingen of regio's;</note>
+               <note>overwegende dat uit eerder onderzoek blijkt dat er sterke regionale verschillen bestonden en het goed is dat deze verschillen opnieuw zichtbaar worden;</note>
+               <note>verzoekt het kabinet te zorgen dat de dwangmaatregelen per ggz-instelling, begeleid door een analyse van de ontwikkelingen en duiding in de context, openbaar gemaakt worden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Voortman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25424-380</note>
+               <note>Deze motie is voorgesteld door het lid Voortman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25424-381</note>
+            </u>
+            <note>Dank u wel. Op de sprekerslijst staat dat nu mevrouw Dijksma van de Partij van de Arbeid zou spreken, maar die zie ik niet in de zaal.</note>
+            <note>Het woord is aan mevrouw Sazias van 50PLUS.</note>
+            <u who="#LéonieSazias" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg7">Dank u, voorzitter. Wij hebben tijdens het AO en ook al eerder geconstateerd dat het gat gewoon te groot is voor ggz-cliënten die uit een instelling komen en die met ambulante hulp zelfstandig gaan wonen. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat er een tekort is van circa 10.000 woningen met ambulante begeleiding voor mensen die doorstromen vanuit een ggz-instelling;</note>
+               <note>overwegende dat voorkomen moet worden dat deze kwetsbare groep tussen wal en schip valt;</note>
+               <note>overwegende dat er lokaal al afspraken worden gemaakt, maar dat dit per gemeente kan verschillen;</note>
+               <note>verzoekt de regering meer regie te nemen in deze kwestie door in gesprek te gaan met VNG en zorgverzekeraars om te bezien hoe dit tekort aangepakt kan worden en de Kamer hierover binnen drie maanden te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Sazias. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25424-382</note>
+            </u>
+            <note>Dank u wel. Dan de laatste spreker van de zijde van de Kamer, mevrouw Diertens van D66.</note>
+            <u who="#AntjeDiertens" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg8">Voorzitter. Graag wil ik de staatssecretaris bedanken voor zijn toezeggingen op het gebied van eerdere afspraken over de Wlz. Wij blijven ons nog wel zorgen maken over één zaak: de privacy van cliënten binnen de ggz. Vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het gebruik van ROM-data (Routine Outcome Monitoring) positieve gevolgen kan hebben voor diverse partijen, zoals cliënten en zorgaanbieders;</note>
+               <note>overwegende dat de discussie rondom het gebruik van ROM-data veelal draait om de mate waarin de privacy van de cliënten en hun data geborgd zijn;</note>
+               <note>overwegende dat de Autoriteit Persoonsgegevens zich buigt over de ROM-data en dat vanaf 25 mei 2018 de Algemene verordening gegevensbescherming (AVG) van toepassing is, waardoor de Wet bescherming persoonsgegevens niet meer geldt;</note>
+               <note>van mening dat privacy binnen de zorg, met name binnen de geestelijke gezondheidszorg, van groot belang is en dat de betrokken partijen zonder angst voor inbreuken op privacy gebruik moeten kunnen maken van ROM-data;</note>
+               <note>verzoekt de regering ervoor te zorgen dat de ROM-data voldoen aan de AVG en de Kamer hierover te informeren voordat de AVG van toepassing is,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Diertens en Van den Berg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25424-383</note>
+            </u>
+            <note>Eén vraag, mevrouw Kooiman.</note>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg9">Het verbaast me heel erg dat D66 met een andere motie over de ROM komt, temeer omdat ik vooraf mijn motie aan mevrouw Diertens heb voorgelegd. Mijn vraag is eigenlijk simpel: waarom steunt of ondertekent ze mijn motie niet gewoon mee? Daarin is die expliciete toestemming wel geregeld en in haar motie niet.</seg>
+            </u>
+            <u who="#AntjeDiertens" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg10">Dat is nou precies het knelpunt waar wij een verschil van mening over hebben, want wij vinden dat de expliciete toestemming eigenlijk al in onderzoek is. Daar wordt ook aan gewerkt en dat willen wij aan de zorgaanbieders zelf overlaten. Het gaat ons precies om de nieuwe wetgeving op het gebied van privacy en persoonsgegevens gekoppeld aan de ROM. Dat vinden wij dus essentieel voor deze motie. Dat is wel een groot verschil.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg11">Helder, dank u wel. Tot zover de inbreng van de Kamer. Is de staatssecretaris reeds in staat om de moties te becommentariëren en antwoord te geven op de vragen? U heeft nog niet alle moties? Nou, dan doet u het toch gewoon even uit de losse pols! Nee hoor, ik zal voor vijf minuten schorsen.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg12">Het woord is aan de staatssecretaris.</seg>
+            </u>
+            <u who="#PaulBlokhuis" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg13">Voorzitter, dank. Bij mijn weten zijn er vijf moties ingediend. Daarvan gaan er twee over ROM. Mevrouw Kooiman heeft al eerder aangekondigd dat zij met een motie daarover kwam. Zij heeft een motie ingediend met een dictum dat vrij rigide is. In ROM mag namelijk alleen informatie op basis van expliciete, geïnformeerde toestemming van de patiënt worden opgenomen. Daar staat een motie naast van mevrouw Diertens, die eigenlijk dezelfde intentie heeft maar wel wil aansluiten bij de normen die worden voorgeschreven in de AVG. Het zal de indieners niet verbazen dat het kabinet zich meer thuis voelt bij de laatste motie. Die AVG is immers een wettelijk regime. Het is inderdaad de vraag of in alle gevallen sprake moet zijn van vooraf gegeven toestemming. Ik wil daar niet mee marchanderen. In een heel aantal gevallen zal dat moeten, maar er zijn situaties denkbaar waarin dat niet per se nodig is.</seg>
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg14">De motie op stuk nr. 379 ontraad ik, in het licht van wat ik zonet zei. De motie op stuk nr. 383 van mevrouw Diertens kan wat mij betreft door de Kamer worden aangenomen. Het oordeel daarover is dus aan de Kamer. Als de Kamer daarmee instemt, is dat wat ons betreft prima.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg15">Prima. Een korte vraag nog van mevrouw Kooiman.</seg>
+            </u>
+            <u who="#NineKooiman" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u14">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg16">Het is natuurlijk ontzettend vreemd. Vooraf vraag je aan een collega "goh, wil je even meetekenen?" Achter je rug wordt het kabinet geïnformeerd en wordt er een nieuwe motie gecreëerd. Zo gaat dat collegiaal hier blijkbaar bij VWS. In mijn motie heeft de Autoriteit Persoonsgegevens het getest aan de Wbp, de Wet bescherming persoonsgegevens. Daarin staat, en dat heeft minister Schippers ook al aangegeven, dat expliciete toestemming een van de grondslagen van de wet is, dat dat al een wettelijke grondslag is. Ik vraag niet iets heel raars. Ik vraag alleen maar dat de wet nu wordt nageleefd en dat er dus wel expliciete toestemming gevraagd wordt.</seg>
+            </u>
+            <u who="#PaulBlokhuis" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u15">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg17">Ja, en het bijzondere is dat ook de andere indiener vraagt om de wet te volgen, namelijk de AVG, die als wettelijke grondslag dient, waarbij de toepassing minder rigide is. Ik wil niet marchanderen met het verstrekken en delen van persoonsgegevens, maar als het binnen de normen van de AVG gebeurt, is dat dus binnen wettelijke normen. Daar wordt dus aan voldaan. Mevrouw Kooiman verwijst naar de minister van VWS. Diezelfde minister heeft geadviseerd te werken met toestemming zolang er geen definitieve uitspraak van de rechter of van de Autoriteit Persoonsgegevens is of het daadwerkelijk gaat om persoonsgegevens en toestemming in de zin van de Wet bescherming persoonsgegevens. Dat is een relevante vraag. Zoals mevrouw Kooiman weet, is het de bedoeling dat de AVG op 25 mei in werking treedt. Vanaf dat moment mag er op gerekend worden dat binnen die normen wordt gehandeld. Dat is de wettelijke grondslag op dat moment.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u16">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg18">Prima. Nee, mevrouw Kooiman, we gaan door. De motie op stuk nr. 380.</seg>
+            </u>
+            <u who="#PaulBlokhuis" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u17">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg19">In de motie op stuk nr. 380 vraagt mevrouw Voortman de regering om uiterlijk 15 januari te rapporteren aan de Kamer hoe het vervoer is geregeld in de verschillende regio's. Op zich snap ik dat goed, want er is urgentie en we willen allemaal — ik wil dat blijven onderstrepen — dat mensen humaan worden vervoerd en dat personen met verward gedrag niet met geweld in een politieauto verdwijnen, wat traumatisch is voor de betreffende patiënt maar zeker ook voor de betrokken politiemensen. Passend vervoer moet er zijn. Ik wil kijken of we elkaar kunnen ontmoeten. Mevrouw Voortman noemt 15 januari. Dat vind ik wel heel snel. Ik hoop dat dat haar openingsbod is. Ik zou die informatie wel in februari kunnen verstrekken. Om 15 januari te kunnen halen, moeten alle verloven in de kerstvakantie worden ingetrokken.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u18">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg20">Dat wil ik ook niet op mijn geweten hebben. Moet ik de motie nu nog aanpassen of is het goed dat ik instem met de uitleg die de staatssecretaris eraan geeft?</seg>
+            </u>
+            <u who="#PaulBlokhuis" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u19">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg21">Ik vind dat laatste wel acceptabel, maar ik laat het aan de voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u20">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg22">U moet haar echt even aanpassen.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u21">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg23">"In februari", maak ik er dan van.</seg>
+            </u>
+            <u who="#PaulBlokhuis" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u22">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg24">Tenzij u genoegen neemt met mijn toezegging, want dan kunt u de motie intrekken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u23">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg25">Nee, er moet echt even die datum in. Zei u "in februari" of "1 februari"?</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u24">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg26">1 februari is prima.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u25">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg27">Dat is maar een woord verschil dan. Prima.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u26">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg28">De motie-Voortman (, nr. ) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de politie per 1 januari 2018 het vervoer van personen met verward gedrag wil beëindigen;</note>
+               <note>overwegende dat nog niet in alle regio's goede afspraken zijn gemaakt over hoe het vervoer van personen met verward gedrag vanaf dat moment wordt georganiseerd en de staatssecretaris de Kamer begin 2018 informeert over de voortgang;</note>
+               <note>overwegende dat de minister in maart 2017 een onderzoek met aanbevelingen over vervoer van personen met verward gedrag aan de Kamer heeft gestuurd, maar dat niet duidelijk is hoe en of deze zijn opgevolgd;</note>
+               <note>verzoekt de regering uiterlijk 1 februari 2018 te rapporteren aan de Kamer in welke regio's wel en in welke regio's nog geen goede afspraken over het vervoer zijn gemaakt, in hoeverre de eerder genoemde aanbevelingen zijn opgevolgd en of zij voornemens is het wettelijke gat dat er bestaat rond het vervoer van personen met verward gedrag, te dichten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg29">Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg30">Zij krijgt nr., was nr. 380 ().</seg>
+            </u>
+            <u who="#PaulBlokhuis" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u27">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg31">Daar zijn we het over eens, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg32">De derde motie gaat over de toepassing van dwangmaatregelen. Mevrouw Voortman vraagt om ervoor te zorgen dat die dwangmaatregelen per ggz-instelling openbaar worden gemaakt, begeleid door een analyse. Ik snap de intentie heel goed, maar we moeten ons daarbij wel een paar dingen afvragen. Als wij die informatie hebben, die kennis, is het de vraag of daaraan conclusies te verbinden zijn, zoals: als die instelling zo veel dwangmaatregelen toepast, dan zal ze niet goed bezig zijn. Dat is misschien niet de intentie van de indiener. Kwaliteit gekoppeld aan het aantal dwangmaatregelen is geen een-op-eenrelatie; er zit geen causaal verband tussen. Een andere kanttekening die ik bij de motie wil maken, is dat het de vraag is of er een juridische grondslag voor is. Kunnen we het wel op die manier doen? Ik snap het verzoek, maar ik zou haar willen vragen — ja, ik vraag heel veel van mevrouw Voortman nu — of zij mij even de tijd wil geven om dit te bestuderen, zodat ik de Kamer eind januari, begin februari kan informeren over wat er mogelijk is. Ik zou mevrouw Voortman dringend willen verzoeken om de motie in ieder geval tot die tijd aan te houden of genoegen te nemen met de toezegging. Ik zal de Kamer informeren over wat er kan.</seg>
+            </u>
+            <u who="#LindaVoortman" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u28">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg33">Ik maak mij geheel geen zorgen over de vraag of hier een juridische grondslag ligt. De staatssecretaris zal mij daarover informeren en tot die tijd houd ik de motie aan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u29">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg34">Op verzoek van mevrouw Voortman stel ik voor haar motie (25424, nr. 381) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg35">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#PaulBlokhuis" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u30">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg36">De motie op stuk nr. 382 van mevrouw Sazias verzoekt de regering meer regie te nemen waar het gaat om het ongedaan maken van het tekort van ongeveer 10.000 woningen voor mensen met een speciale zorgvraag. Zij verzoekt de regering de regie te nemen en in overleg te gaan met de VNG en de zorgverzekeraars. In het algemeen overleg en tijdens de begrotingsbehandeling heb ik gezegd dat ik er ook over in gesprek ben met de minister van Binnenlandse Zaken, die over wonen gaat. Ik denk dat ik haar vast niet op de kast jaag als ik zeg dat ik het gevraagde gesprek graag zal voeren en de Kamer zal informeren. Het oordeel is wat mij betreft bij deze motie aan de Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u31">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg37">Prima. De motie op stuk nr. 383 hebben we al gehad. Waren er nog vragen die u moet beantwoorden? Ik dacht het niet.</seg>
+            </u>
+            <u who="#PaulBlokhuis" ana="#regular" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u32">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg38">Nee.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u33">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg39">Prima. Tot zover dit debat.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.u34">
+               <seg xml:id="ParlaMint-NL_2017-12-21-tweedekamer-6.seg40">Vanavond stemmen wij over de overgebleven moties.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

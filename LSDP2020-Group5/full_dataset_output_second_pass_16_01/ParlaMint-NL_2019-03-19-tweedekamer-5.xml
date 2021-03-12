@@ -1,0 +1,115 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-03-19 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-03-19 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 64, Session 5 (2019-03-19)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 64, Session 5 (2019-03-19)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="64">Meeting 64</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="9">9 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="9">9 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="205">205 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="205">205 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-03-19">2019-03-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="13"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="9"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-03-19">2019-03-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg1">Ik stel voor zo dadelijk ook te stemmen over de aangehouden motie-Wassenberg (32849, nr. 157), de aangehouden motie-Van Raan/Wassenberg (32813, nr. 294), de aangehouden motie-Van den Berg (27529, nr. 173) en de aangehouden motie-Van den Berg (34834, nr. 9).</seg>
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg2">Dan geef ik nu het woord aan de heer De Groot namens D66.</seg>
+            </u>
+            <u who="#TjeerddeGroot" ana="#regular" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg3">Voorzitter, dank u wel. Ik wil graag onder agendapunt 22, de stemmingen over moties over insectensterfte, mijn motie op stuk nr. 122 over blijvend grasland behouden, aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg4">Op verzoek van de heer De Groot stel ik voor zijn motie (26407, nr. 122) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg5">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg6">De heer Koerhuis namens de VVD.</seg>
+            </u>
+            <u who="#DanielKoerhuis" ana="#regular" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg7">Dank u wel, voorzitter. Ik zou graag onder punt 21, de stemmingen over moties over het opkopen van huizen door beleggers, mijn motie (32847, nr. 493) willen aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg8">Op verzoek van de heer Koerhuis stel ik voor zijn motie (32847, nr. 493) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg9">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg10">Tot slot mevrouw Van Toorenburg namens het CDA.</seg>
+            </u>
+            <u who="#MadeleinevanToorenburg" ana="#regular" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg11">Ik wil onder punt 15, de stemmingen over moties over kinderporno en kindermisbruik, mijn motie (31015, nr. 170) over de ontsleutelplicht graag aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg12">Op verzoek van mevrouw Van Toorenburg stel ik voor haar motie (31015, nr. 170) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-03-19-tweedekamer-5.seg13">Daartoe wordt besloten.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

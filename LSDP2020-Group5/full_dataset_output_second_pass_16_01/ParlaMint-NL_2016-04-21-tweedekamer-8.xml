@@ -1,0 +1,110 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-04-21-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-04-21 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-04-21 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 80, Session 8 (2016-04-21)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 80, Session 8 (2016-04-21)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="80">Meeting 80</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="4">4 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="4">4 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="194">194 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="194">194 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-04-21">2016-04-21</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="4"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="4"/>
+               <tagUsage gi="note" occurs="15"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-04-21">2016-04-21</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Herziene opbrengstverrekening curatieve geestelijke gezondheidszorg</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-21-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2016-04-21-tweedekamer-8.seg1">We hebben twee deelnemers van de zijde van de Kamer, maar alleen mevrouw Leijten zal het woord voeren. Ik zie echter dat ze nog niet aanwezig is. Omdat dit debat gepland was om 14.10 uur en het nu pas 14.05 uur is, schors ik nu even de vergadering.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2016-04-21-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2016-04-21-tweedekamer-8.seg2">Voorzitter. Er wordt altijd een totaalberekening gemaakt van wat er in de zorg is uitgegeven. Dan wordt eraan gesleuteld en vindt een herverdeling plaats. Dat gebeurt ook voor de geestelijke gezondheidszorg over 2012. Omdat er tussen 2012 en nu een hoop veranderingen zijn geweest voor geestelijkegezondheidszorginstellingen, hangt deze opbrengstverrekening als een zwaard van Damocles boven sommige instellingen. Omdat wij ons zorgen maken over de continuïteit van zorg, dienen wij de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de definitieve opbrengstverrekening 2012 voor de curatieve geestelijke gezondheidszorg (ggz) na vier jaar tot veranderende budgetten leidt;</note>
+               <note>constaterende dat de opbrengstverrekening tot financieel nadeel zal leiden bij een aantal ggz-instellingen;</note>
+               <note>overwegende dat niet op voorhand is uit te sluiten dat de continuïteit van zorg daarmee in gevaar komt;</note>
+               <note>van mening dat het onwenselijk is dat een rekening uit het verleden de continuïteit van zorg en/of de werkgelegenheid van mensen in gevaar brengt;</note>
+               <note>verzoekt de regering, erop toe te zien dat de herziene opbrengstverrekening 2012 niet zó nadelig uitwerkt, dat de continuïteit van de zorg voor patiënten en de werkgelegenheid voor medewerkers in gevaar komt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Leijten. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25424-310</note>
+            </u>
+            <note>Misschien moet de minister nog even wachten tot het moment dat de motie op papier bij haar is.</note>
+            <u who="#EdithSchippers" ana="#regular" xml:id="ParlaMint-NL_2016-04-21-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2016-04-21-tweedekamer-8.seg3">Voorzitter. Ik had deze motie verwacht, dus ik kan er al op reageren. Er is geen objectieve grond om twee ggz-instellingen waarvoor de herziene opbrengstverrekening negatief uitpakt, te ontzien, terwijl de herziene opbrengstverrekening voor alle andere ggz-instellingen wel wordt uitgevoerd. Als wij dat zouden doen, zou dat niet op draagvlak kunnen rekenen. Het risico op bezwaarprocedures en langlopende onzekerheid zou dan toenemen. Derhalve ontraad ik de motie.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-21-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2016-04-21-tweedekamer-8.seg4">Wij stemmen dinsdag over de motie.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

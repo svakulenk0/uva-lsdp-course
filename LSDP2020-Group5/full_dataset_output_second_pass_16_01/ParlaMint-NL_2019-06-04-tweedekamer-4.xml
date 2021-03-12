@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-06-04 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-06-04 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 88, Session 4 (2019-06-04)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 88, Session 4 (2019-06-04)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="88">Meeting 88</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="13">13 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="13">13 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1749">1749 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1749">1749 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-06-04">2019-06-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="18"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="13"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-06-04">2019-06-04</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Van Nispen</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg1">Dan geef ik nu het woord aan de heer Van Nispen namens de SP voor zijn vraag aan de minister van Justitie en Veiligheid over het bericht dat Justitie vaker het fraudeonderzoek overlaat aan advocaten van bedrijven. Uiteraard heet ik de minister van Justitie en Veiligheid van harte welkom. Het woord is aan de heer Van Nispen.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg2">Toen deze minister aantrad, heb ik hem gecomplimenteerd met zijn boekje "Rafels aan de rechtsstaat", maar die zorgen van de minister over die rafels zijn volgens mij nog niet helemaal weg. Sterker nog, er zijn heel rare ontwikkelingen. Krijgen we nog meer rafels aan de rechtsstaat?</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg3">We hebben het eerder indringend gehad over het verschil in strafrechtelijke behandeling tussen mensen en grote bedrijven. Als iemand een fout maakt en beschuldigd wordt van bijvoorbeeld uitkeringsfraude, dan zijn we keihard en dreigen er sancties, keiharde sancties. Maar als een groot bedrijf fraudeert — ik noem bijvoorbeeld een ING waar de controle op witwassen faalde en jarenlang honderden miljoenen euro's zijn witgewassen — dan kan zo'n bedrijf strafvervolging afkopen door een schikking te treffen met het Openbaar Ministerie; geen persoon wordt vervolgd. Ik heb dat eerder klassenjustitie genoemd. En nu gaat justitie hierin, zo lijkt het, nog een stap verder. In het Financieele Dagblad lazen we vandaag dat we bedrijven die verdacht worden van fraude en corruptie, voortaan zelf hun advocaten laten inhuren voor het onderzoek. Ik herhaal dat even: dus een bedrijf dat verdacht wordt van corruptie of fraude wordt voortaan niet door de politie of het Openbaar Ministerie onderzocht, maar door zijn eigen advocaten. Dat biedt die bedrijven dan kans op strafverlichting en beperking van reputatieschade. Dat lijkt mij een feest voor die frauderende bedrijven en heel erg slecht voor de geloofwaardigheid van ons strafrecht.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg4">Ik heb één kernvraag: waarom? Waarom zouden we nou eigenlijk toestaan dat frauderende bedrijven zichzelf gaan onderzoeken en dat we ze zelf het onderzoek laten doen door advocaten die door die mogelijk frauderende bedrijven zelf worden ingehuurd in plaats van justitie? Hoe draagt dat nou helemaal bij aan de waarheidsvinding en de rechtvaardigheid? Waarom trapt de minister niet op de rem, in het belang van de rechtsstaat? Niet nog meer rafels aan die rechtsstaat alstublieft.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg5">Het woord is aan de minister.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg6">Voorzitter. Het is natuurlijk mooi als de heer Van Nispen naar een boek van mijzelf verwijst. Helaas is het uit druk, dus kan in ieder geval de Kamer er verzekerd van zijn dat ik er geen enkel voordeel uit haal.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg7">We moeten niet te snel naar conclusies springen, om een mooi anglicisme te gebruiken, want de kop in de krant is misschien iets te snel. Het Openbaar Ministerie en de FIOD onderzoeken of en waar er winst valt te behalen in de medewerking bij fraudeonderzoeken door verdachte bedrijven. In de Verenigde Staten van Amerika zijn er heel goede ervaringen mee opgedaan. Overigens, dit gebeurt nu af en toe ook wel. Iedere verdachte kan meewerken aan het onderzoek. Dan gaat het om de waarheidsvinding, waar we als maatschappij natuurlijk allemaal belang bij hebben. Een betere medewerking tussen het Openbaar Minister, de vervolgende instantie en de verdachte partij — of dat nu een natuurlijk persoon of een bedrijf is — betekent altijd dat een onderzoek naar bijvoorbeeld fraude efficiënter en beter kan verlopen. Maar laten we wel wezen, daar zitten allerlei randvoorwaarden aan. Een daarvan is dat altijd het Openbaar Ministerie het laatste woord heeft over de vraag of er nog meer onderzoek moet worden gedaan en of de door het bedrijf opgeleverde eigen gegevens niet opnieuw getoetst moeten worden. De FIOD doet bovendien altijd nog een eigen toets op die gegevens. Dus we moeten, denk ik, eerst eens kijken wat de bevindingen zullen zijn van Openbaar Ministerie en FIOD. Van klassenjustitie zal hier geen sprake zijn. In de eerste plaats niet omdat, zoals gezegd, het meewerken aan de waarheidsvinding in de eigen zaak, iets is wat de rechtspersoon maar ook een natuurlijk persoon kan doen. In de tweede plaats omdat wij wat mij betreft, maar ook internationaal gezien een uitstekende rechterlijke macht hebben die klassenjustitie zal tegengaan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg8">Ten slotte. Als we spreken over rechtsstatelijk, dan moeten we het wel hebben over bedrijven die verdacht worden of mogelijk verdacht worden van fraude en niet over frauderende bedrijven, want daar gaat het onderzoek juist over.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg9">De heer Van Nispen.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg10">Voorzitter. Niemand is er tegenstander van dat we bedrijven vragen om mee te werken aan onderzoek. Dat vragen we van gewone mensen ook, en dan kunnen ze ja of nee zeggen. Maar dat is wat anders dan samenwerking met strafvermindering tot gevolg, zoals we in het artikel hebben gelezen. En niet alleen in de krantenkop, minister! Ik heb echt verder gekeken. De coördinerend officier van justitie fraudeopsporing zegt in het artikel dat dit voor het Openbaar Ministerie wel handig is. Daar is immers sprake van een groot capaciteitstekort. Dus de vraag aan de minister is ook: komt dit nou door de capaciteitsproblemen bij het Openbaar Ministerie? Is dit nu de staat van onze publieke sector: dat de nood zo hoog is dat frauderende bedrijven niet meer door de Staat onderzocht worden om straf te krijgen? Ja, ze houden het laatste woord. Is het nou zo dat we bedrijven vooral vragen om zichzelf te gaan reinigen? Zo werkt onze rechtsstaat toch niet!</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg11">Mijn vervolgvragen zijn de volgende. Hoe vaak is dit eigenlijk al gebeurd? De minister zegt dat we dit nu aan het onderzoeken zijn. Ik lees in het artikel dat er op dit moment op basis van deze werkwijze gewoon al gehandeld wordt. Hoe vaak is dit dus al gebeurd? Om wat voor zaken ging het dan? Waarom weten wij daar tot nu toe helemaal niets van? Ziet de minister dan helemaal geen risico's voor de waarheidsvinding? Ik zie die namelijk wel. Iets met Wc-eend of, zo u wilt, de slager die zijn eigen vlees keurt. En wat voor strafvermindering is er dan allemaal mogelijk? Mijn laatste vraag: mogen gewone mensen dit voortaan ook of is dit exclusief iets voor de grote bedrijven? Dus als een willekeurig persoon verdacht wordt van fraude, mag die persoon dan voortaan ook zijn eigen advocaat inhuren om die eigen frauduleuze praktijken aan het licht te brengen? Doet Justitie dan ook een stapje terug? Kan die persoon dan ook rekenen op strafvermindering? Kortom, geldt dit nou voor iedereen? Want als dat niet zo is, als het antwoord op die vraag "nee" is, dan lijkt het me toch evident dat er sprake is van een vorm van klassenjustitie.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg12">Voorzitter. Het feit dat een verdachte — of dat nu een bedrijf of een persoon is — meewerkt aan het tegen die verdachte gerichte strafrechtelijk onderzoek, is iets van alle tijden. Dat is dus niet iets nieuws. In het artikel staat dat het Openbaar Ministerie en de Fiscale Inlichtingen- en Opsporingsdienst (de FIOD) onderzoeken of en waar er in dit opzicht efficiencyvoordelen te behalen zijn door die medewerking uit te breiden en strakker te maken. Het gaat hier nog steeds om een onafhankelijke toets door zowel de FIOD of de politie als het Openbaar Ministerie. Daarom gaan de vergelijkingen met het keuren van het eigen vlees of met het merk dat u zojuist noemde — dat ik natuurlijk niet zal herhalen — niet op. De heer Van Nispen vraagt of er sprake is van gelijkheid. Als het gaat om een groot bedrijf, is er voor het Openbaar Ministerie zeker een afweging van efficiency te maken. Het gaat om de vraag of men precies weet op welke mensen men zich moet richten. En laten we wel zijn: dat doet het Openbaar Ministerie ook nog steeds op een onafhankelijke wijze. Daar valt meer efficiency te behalen dan bij een klein bedrijf. Maar het uitgangspunt is nog altijd dat iedere verdachte kan meewerken aan de waarheidsvinding in zijn eigen zaak.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg13">Afrondend.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg14">Voorzitter. Dit gaat dus toch over efficiency. Daar hadden we het al over. Dat lazen we in het artikel. Dat heb ik ook gezegd. Daar is de minister eerlijk over. Dit gaat om efficiency. Het is toch een beetje alsof je een automobilist met een flitser op pad stuurt en hem vraagt om te rapporteren wanneer hij te hard rijdt. In ruil daarvoor krijgt hij dan een lagere boete. Dat is toch ronduit absurd! Wat de SP betreft, moeten we witteboordencriminelen juist harder aanpakken en bestraffen in plaats van fraude en corruptie met de mantel der liefde te bedekken.</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg15">Voorzitter. De heer Van Nispen maakt weer een vergelijking die echt volledig mank gaat. We zeggen niet tegen een bedrijf: als u bezig bent, wilt u dan even kijken of u soms iets overtreedt. Nee, als er sprake is van een situatie waarin een verdenking is ontstaan, bekijken we of er voor de waarheidsvinding op bepaalde punten kan worden medegewerkt. Dat is dus heel wat anders dan iemand met een flitser op pad sturen. Maar goed, dit geheel terzijde.</seg>
+            </u>
+            <u who="#MaartenGroothuizen" ana="#regular" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg16">Voorzitter. Dank aan de heer Van Nispen voor het agenderen voor dit thema. Ik heb nog wel een vraag over de efficiency en de controle nadien. Er wordt gezegd: dit is vaak complex — ik denk dat dat zo is — waardoor het voor de hand ligt om bedrijven een grotere rol te laten spelen in het meewerken aan het onderzoek, maar er vindt achteraf nog een onafhankelijke toets plaats. Waar zit dan nog precies de efficiencywinst in? Met andere woorden: als je de risico's wilt voorkomen die de heer Van Nispen schetst, ben je dan eigenlijk niet verplicht om de toets achteraf zo in te richten dat het efficiencyvoordeel behoorlijk tegenvalt?</seg>
+            </u>
+            <u who="#FerdGrapperhaus" ana="#regular" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg17">De heer Groothuizen weet uit zijn rijke ervaring als officier van justitie dat je in een situatie kunt terechtkomen waarin het in het kader van het onderzoek van belang is om een groot aantal getuigen te horen, zonder dat je precies weet waarop en op wie je je moet richten. Ik noem een voorbeeld, hè? Stel dat je met het bedrijf afspreekt dat die getuigen in eerste instantie worden gehoord door de advocaat van het bedrijf. Dat geeft duidelijk geloofwaardigheid, want die advocaat heeft met een eed of een belofte gezworen dat hij niet tegen de waarheid in zal gaan. Het OM kan dan een selectie maken uit die al opgemaakte verklaringen van werknemers en daarop doorgaan. Nog steeds kan het OM bij zichzelf denken: nou, ik vind datgene waarmee de advocaat komt niet geloofwaardig. Het efficiencyvoordeel is dan niet zo groot, maar ik denk dat het OM niet voor niets mogelijkheden ziet om daar efficiencyvoordelen te boeken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2019-06-04-tweedekamer-4.seg18">Dank u wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

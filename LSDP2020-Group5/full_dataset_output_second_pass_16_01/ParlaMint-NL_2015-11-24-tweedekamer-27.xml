@@ -1,0 +1,561 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-11-24 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-11-24 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 28, Session 27 (2015-11-24)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 28, Session 27 (2015-11-24)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="28">Meeting 28</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="27">Session 27</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="102">102 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="102">102 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="6541">6541 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="6541">6541 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-11-24">2015-11-24</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="123"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="102"/>
+               <tagUsage gi="note" occurs="151"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-11-24">2015-11-24</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Luchtvaart</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u1">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg1">Ik heet de staatssecretaris van Infrastructuur en Milieu van harte welkom. Als eerste op de sprekerslijst staat de heer Graus, maar die is nog niet aanwezig. Dan ga ik gelijk door naar mevrouw Van Tongeren. De spreektijd bedraagt twee minuten, inclusief het indienen van eventuele moties.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u2">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg2">Voorzitter. Ik dien mijn moties in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat bij de uitbreiding van Eindhoven Airport gezocht moet worden naar pragmatische oplossingen voor door omwonenden ondervonden overlast;</note>
+               <note>verzoekt de regering, de huidige op Eindhoven Airport vigerende boeteregeling aan te vullen met een klimboeteregeling ter hoogte van 25% daarvan ingaande 23.30 uur, gevolgd door 50% ingaande 23.45 uur en de volledige boeteregeling ad 100% te handhaven ingaande 24.00 uur, als voorwaarde voor het verlenen van medegebruiksvergunningen aan Eindhoven Airport in de jaren 2016 en verder,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat Schiphol Airport glijvluchten afwijst als geluidsbeperkende maatregel en andere maatregelen niet worden overwogen;</note>
+               <note>verzoekt de regering om, zoals in de Alderstafel in 2013 is afgesproken, het maximumaantal nachtvluchten in drie jaar met 3.000 te verlagen, tenzij glijvluchten mogelijk gemaakt worden, en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat met name opstijgende vliegtuigen een belangrijke bron van ultrafijnstof zijn met gezondheidsrisico's voor omwonenden van Schiphol Airport;</note>
+               <note>verzoekt de regering, te onderzoeken welke maatregelen getroffen kunnen worden om deze gezondheidsrisico's te beperken en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Tongeren. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-304</note>
+               <note>Deze motie is voorgesteld door het lid Van Tongeren. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-305</note>
+               <note>Deze motie is voorgesteld door het lid Van Tongeren. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-306</note>
+            </u>
+            <note>De heer Graus is inmiddels gearriveerd en had een goede reden voor vertraging. Ik geef hem alsnog het woord.</note>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u3">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg3">Voorzitter. Ik dien mijn moties in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering, te onderzoeken wat de mogelijkheden zijn tot het verkrijgen van een terugkoopoptie op KLM uit de Air France-KLM Groep,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering, ervoor zorg te dragen dat Schiphol het simultaan gebruik van zijn start- en landingsbanen mag uitbreiden naar "2+2",</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Graus en Van Helvert. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-307</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-308</note>
+            </u>
+            <note>Ze zijn wel kort. Dat is goed. Gaat u verder, mijnheer Graus.</note>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u4">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg4">Dank u wel.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de luchtvaart middels honderdduizenden banen en een toegevoegde waarde van tientallen miljarden per jaar onmisbaar is voor de Nederlandse economie;</note>
+               <note>overwegende dat de positie van Schiphol en KLM enorm in de knel komt door groeiende concurrentie uit Turkije en de Golfstaten;</note>
+               <note>verzoekt de regering om samen met onze nationale luchthavens en Nederlandse luchtvaartmaatschappijen een toekomstbestendig en concurrentieresistent luchtvaartplan op te stellen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-309</note>
+            </u>
+            <note>Hoeveel moties hebt u eigenlijk nog, mijnheer Graus?</note>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u5">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg5">Nog drie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat KLM sinds 1919 tezamen met thuishaven Schiphol één geheel van elkaar versterkende bedrijven en economische activiteiten vormt van nationaal belang;</note>
+               <note>voorts constaterende dat KLM tot de grootste particuliere werkgevers van Nederland behoort;</note>
+               <note>verzoekt de regering, al haar bevoegdheden en mogelijkheden te benutten om, onder het Nederlands recht opererende, KLM uit de vleugellamme positie binnen Air France te halen en als rampscenario in een reddingsplan te voorzien om het voortbestaan van KLM en haar dochter Transavia te borgen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het actief werven door Schiphol van concurrerende luchtvaartmaatschappijen grote gevolgen kan hebben voor luchtvaartmaatschappijen, waaronder KLM;</note>
+               <note>overwegende dat het wervingsbeleid haaks staat op zijn hubfunctie;</note>
+               <note>verzoekt de regering, ervoor zorg te dragen dat de kortingen die gemoeid zijn met het actieve wervingsbeleid, ten goede komen aan de maatschappijen die reeds op Schiphol gestationeerd zijn,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-310</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-311</note>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u6">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg6">Mijn laatste motie is de volgende.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het huidige systeem van One Group of Airports (OGA) zorg draagt voor een adequate luchtverkeersleiding op de vliegvelden Eelde en Maastricht Aachen Airport;</note>
+               <note>overwegende dat dit systeem voor elke passagier op Schiphol slechts €0,10 kost en afschaffing van dit systeem dus een oplossing is voor een probleem dat niet bestaat;</note>
+               <note>overwegende dat afschaffing van dit systeem tot gevolg kan hebben dat de toekomst van de vliegvelden Eelde en Maastricht Aachen Airport op losse schroeven komt te staan;</note>
+               <note>verzoekt de regering, het systeem van One Group of Airports in stand te houden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-312</note>
+            </u>
+            <note>U hebt uw moties precies binnen de beschikbare spreektijd kunnen indienen, mijnheer Graus. Had u soms thuis geoefend?</note>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u7">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg7">Nee, nee.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg8">Ik vecht altijd tegen het gebruik van Engelse termen in ons Nederlandse parlement, voorzitter. Excuses voor het feit dat ik genoodzaakt ben om nu toch Engelse termen te gebruiken. Ik hoor deze dingen zo te noemen, omdat ze nu eenmaal zo in het Engels heten.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u8">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg9">Ik zal er maar niks over zeggen. Je zou de term "hubfunctie" bijvoorbeeld kunnen vervangen door "spilfunctie", om maar eens iets te noemen.</seg>
+            </u>
+            <u who="#EricSmaling" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u9">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg10">Voorzitter. Ik begin met een motie over Eindhoven.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er aan de Alderstafel van Eindhoven Airport niet tot overeenstemming is gekomen met de bewonersorganisaties wat betreft nachtvluchten op Eindhoven Airport, ondanks hun vergaande concessies;</note>
+               <note>overwegende dat draagvlak bij omwonenden van groot belang is bij de voorgenomen groei van Eindhoven Airport;</note>
+               <note>overwegende dat het beperken van geluidsoverlast in nachtelijke uren geen onredelijke eis is van omwonenden;</note>
+               <note>verzoekt de regering, geen geplande vluchten na 23.00 uur toe te staan en in het weekend geen vluchten voor 8.00 uur,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Smaling. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-313</note>
+            </u>
+            <u who="#EricSmaling" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u10">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg11">Bij de volgende motie hoort een korte inleiding. Schiphol voert een actief beleid om nieuwe maatschappijen naar de luchthaven te halen. De eerste twee jaar ontvangen zulke maatschappijen een bonus van ongeveer €10 per passagier die op Schiphol instapt. Het eerste jaar mag de maatschappij het geld houden en het tweede jaar moet zij het inzetten voor marketing. Zo heeft Emirates in totaal zo'n 2 miljoen subsidie ontvangen. Dat krijgt dus een maatschappij die door de eigen staat ook nog eens wordt gesubsidieerd. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat KLM van levensbelang is voor het netwerk van Schiphol;</note>
+               <note>overwegende dat door het prijsbeleid van Schiphol de concurrentie van KLM in sommige gevallen wordt bevoordeeld;</note>
+               <note>verzoekt de regering, te komen tot een nieuw en toetsbaar prijsbeleid van Schiphol, waarbij KLM niet wordt benadeeld ten opzichte van de concurrentie,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Smaling. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-314</note>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u11">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg12">Voorzitter. Ik wil twee moties indienen, maar eerst wil ik ook nog een vraag stellen. Gisteren ontvingen wij de brief naar aanleiding van het AO over Transavia en de aandelenoverdracht. Het is de VVD-fractie nog steeds niet helder waarom de aandelen vanuit de Nederlandse holding, vanuit KLM in Transavia Frankrijk wél worden overgedragen aan een specifieke Transavia company, maar dat dat vanuit Frankrijk niet gebeurt. In de brief wordt dat ook niet duidelijk. Bij dezen vraag ik de staatssecretaris om nog eens op het nut en de noodzaak daarvan in te gaan. Wat betekent dit voor Eindhoven Airport?</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg13">Van de twee moties die ik wil indienen, gaat er één over Eindhoven Airport. De staatssecretaris weet dat de leden van de VVD-fractie geen grote fan zijn van de Alderstafel. Voor ons ligt nu een brief. Daarbij willen we de volgende motie indienen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat afgesproken is dat de groei van Eindhoven Airport met 25.000 vliegbewegingen ondersteunend is aan de mainportfunctie van Schiphol;</note>
+               <note>constaterende dat uit de evaluatie in 2015 blijkt dat alle afspraken van de Alderstafel Eindhoven zijn nagekomen en de groei dus ingezet kan worden;</note>
+               <note>constaterende dat de groei van Eindhoven Airport desalniettemin conditioneel wordt gemaakt door de regering met nieuwe, aanvullende voorwaarden;</note>
+               <note>overwegende dat nieuwe voorwaarden, gegeven de eerdere afspraken, onwenselijk zijn en tevens invloed kunnen hebben op de toekomstige groei van Schiphol Airport;</note>
+               <note>overwegende dat de reden voor nieuwe, aanvullende voorwaarden het creëren van meer draagvlak is, maar dat dit niet gerealiseerd wordt;</note>
+               <note>verzoekt de regering, af te zien van het instellen van nieuwe, aanvullende voorwaarden ten opzichte van het in 2015 voorgelegde Aldersadvies Eindhoven,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Visser. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-315</note>
+            </u>
+            <u who="#WassilaHachchi" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u12">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg14">Deze motie van de VVD-fractie vraagt om een reactie. Wij hebben tijdens het rondetafelgesprek maar ook tijdens het debat voldoende tijd besteed aan het feit dat omwonenden en belanghebbenden zorgen hebben over de hinder en dat draagvlak ontzettend belangrijk is. Ook deze nieuwe staatssecretaris vindt dat. Nu ligt er een akkoord en zegt de VVD-fractie eigenlijk: wij vinden het eigenlijk onzin dat er überhaupt rekening is gehouden met die omwonenden.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u13">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg15">Wat is uw vraag?</seg>
+            </u>
+            <u who="#WassilaHachchi" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u14">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg16">Begrijp ik mevrouw Visser goed?</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u15">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg17">Nee, totaal niet. Hier hebben wij al twee keer uitgebreid over gesproken. Het standpunt van de VVD heb ik twee keer uitgebreid toegelicht. De VVD had daarbij ongeveer als enige de lijn dat zij duidelijkheid wil scheppen ook jegens de bewoners. In het Aldersadvies staat ook dat bewoners tegemoet moet worden gekomen door te voldoen aan een aantal voorwaarden. Maar wat wij niet willen accorderen is het volgende. In 2010 zijn afspraken gemaakt en in 2012 zijn aanvullende afspraken gemaakt, waarbij toen is afgesproken dat de groei zou worden toegestaan als in 2015 zou blijken dat aan alle afspraken zou zijn voldaan. Dat is gebeurd. En wat gebeurt er vervolgens? De regering stuurt een brief waarin zij zegt: weet je, je hebt wel aan alle voorwaarden voldaan, maar wij gaan alsnog aanvullende voorwaarden stellen. Daarvan zeggen wij: nee, dat is niet conform de afspraak van 2010 en ook niet van 2012.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u16">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg18">Mevrouw Hachchi, ik geef u alleen het woord als u een aanvullende vraag hebt. Wij gaan niet het debat, dat al heeft plaatsgevonden, overdoen.</seg>
+            </u>
+            <u who="#WassilaHachchi" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u17">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg19">Of je bent voor draagvlak en je bent bereid om te kijken of daar oplossingen voor zijn, of niet. Ik constateer dat de VVD-fractie gaat voor "niet": dan maar geen draagvlak. Zij wil coûte que coûte aan die groei vast blijven houden, terwijl er nu eindelijk een oplossing ligt waar iedereen mee kan leven.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u18">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg20">Dat klopt niet, want het draagvlak is nog steeds niet toereikend. De partijen die aan tafel hebben gezeten bij het Aldersadvies zijn en blijven tegen. Daarmee wordt wat D66 zo graag wil, namelijk draagvlak, niet gerealiseerd.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u19">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg21">Uw volgende motie.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u20">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg22">Dan kom ik op de laatste motie. Wij kregen gisteren een brief binnen over het dronegebruik rondom Schiphol. Die was een beetje teleurstellend, want de VVD heeft daar al eerder aandacht voor gevraagd. Vandaar dat ik de volgende motie indien.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat professionele dronegebruikers aan tal van regels moeten voldoen in tegenstelling tot recreatieve dronegebruikers;</note>
+               <note>constaterende dat hierdoor een disbalans ontstaat tussen de eisen die aan professionele en recreatieve dronegebruikers worden gesteld en daarmee professionele dronegebruikers onnodig worden belast;</note>
+               <note>verzoekt de regering om te bezien op welke wijze de regels voor professionele dronegebruikers kunnen worden verlicht, waardoor de disbalans wordt weggenomen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Visser. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-316</note>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u21">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg23">Voorzitter. Allereerst wil ik zeggen dat de motie-Graus op stuk nr. 307 ook ondertekend was door mij, maar door de haast is de versie uitgedeeld waar mijn naam nog niet onder stond. Dat geef ik alvast mee.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg24">Zelf heb ik twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat aandelenpakketten verschoven zijn binnen de holding Air France-KLM waardoor Transavia Frankrijk geen onderdeel meer is van de Nederlandse tak, maar direct onder de holding is gepositioneerd;</note>
+               <note>overwegende dat daardoor de aansturing en regie niet meer vanuit Nederland maar vanuit Frankrijk plaatsvindt;</note>
+               <note>verzoekt de regering, een verdere herpositionering van aandelen te blokkeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat er aanwijzingen zijn dat de beveiliging van het vliegveld van het Egyptische Sharm-el-Sheikh onvoldoende is en dat voor andere vliegvelden dergelijke aanwijzingen er niet zijn;</note>
+               <note>overwegende dat het daarom onveilig is voor reizigers om van en naar Sharm-el-Sheikh te gaan, maar dat het ontbreekt aan een beeld van de beveiliging van andere vliegvelden;</note>
+               <note>verzoekt de regering, in beeld te brengen welke vliegvelden met directe bestemmingen vanaf Nederlandse vliegvelden voor wat betreft beveiliging van het vliegveld onvoldoende zijn, en dat maandelijks te actualiseren en aan de Kamer te melden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Helvert en Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-317</note>
+               <note>Deze motie is voorgesteld door de leden Van Helvert en Hachchi. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-318</note>
+            </u>
+            <u who="#WassilaHachchi" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u22">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg25">Voorzitter. We hebben het eerste debat over luchtvaart met deze staatssecretaris gevoerd. Over de vele onderwerpen, zoals Schiphol, Air France-KLM en vliegen over conflictgebieden, gaan we zeker nog verder spreken met deze staatssecretaris. Naast de motie die ik samen met collega Van Helvert heb ingediend, dien ik een motie over Eindhoven Airport in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat Eindhoven Airport onderdeel is van de nationale luchtvaartdiscussie;</note>
+               <note>overwegende dat in dat kader aan Eindhoven Airport tot 2020 groeiruimte wordt verleend;</note>
+               <note>van mening dat in het kader van draagvlak de regering daarom haar fair share moet bijdragen aan het op te richten Leefbaarheidsfonds Eindhoven Airport;</note>
+               <note>van mening dat dit leefbaarheidsfonds primair ten goede moet komen aan het realiseren van (innovatieve) maatregelen die substantieel bijdragen aan het verminderen van gezondheidsschade dan wel hinder voor omwonenden en het tegengaan van milieuschade;</note>
+               <note>verzoekt de regering om minimaal €200.000 bij te dragen aan het op te richten Leefbaarheidsfonds Eindhoven Airport, en zo mogelijk dit bedrag te vergroten om zo de combinatie wonen en vliegen rondom Eindhoven Airport voor mens en milieu acceptabel te houden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Hachchi en Van Helvert. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-319</note>
+            </u>
+            <u who="#JacquesMonasch" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u23">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg26">Voorzitter. Bij een van de twee AO's kon ik niet aanwezig zijn, en toen is er een nieuwe staatssecretaris gekomen. Ik zie dus uit naar de debatten die ik de komende tijd met staatssecretaris Dijksma mag gaan voeren.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg27">Ik heb een aantal vragen naar aanleiding van brieven en het nieuws dat na de twee AO's naar buiten kwam. In de brief van gisteren geeft de staatssecretaris een aantal zaken in de belangenverhouding in de holding tussen KLM en Air France aan. Aan het eind van die brief schrijft zij wat er in ieder geval niet gaat gebeuren, namelijk dat er banen worden overgeheveld. Wat er volgens haar wel blijft, is het zelfstandig financieel beheer. Wat daar niet staat, is dat er geen winst van KLM zal worden overgemaakt naar Parijs om bijvoorbeeld het falend reorganisatiebeleid bij Air France te financieren. Mag ik dat ook lezen in de opsomming aan het eind van de brief? En als dat niet mag, kan de staatssecretaris dan uitleggen waarom dat er niet in staat? Ik denk namelijk dat daar een groot deel van de zorg bij velen zit die hier in de Kamer en daarbuiten KLM een warm hart toedragen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg28">De transactie van de Transavia-aandelen blijkt onduidelijk. Op zich willen wij ons niet met een bedrijfseconomische afweging bemoeien, maar wat wel speelt, is het volgende. In dit tijdsgewricht, in dit aanhoudende conflict, verzwakt het verplaatsen van die aandelen de machtspositie van KLM gewoon. Het wordt weggehaald bij KLM Nederland en ergens anders ondergebracht. Dat baart ons zorgen, wat wij ook in het AO naar voren hebben gebracht. Die zorgen worden door de brief niet weggenomen. Zou de staatssecretaris daar nog een keer op kunnen ingaan?</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg29">Dan kom ik bij het nieuws dat concurrenten van Schiphol voordelen krijgen waardoor zij makkelijker kunnen toetreden tot Schiphol. Daarover hebben wij een motie ingediend. Dat lijkt in ieder geval ogenschijnlijk in strijd te zijn met de mainportstrategie, namelijk dat Schiphol en KLM zo'n belangrijke coalitie is. De vraag is ook of Schiphol probeert er met twee bruiden vandoor te gaan. Aan de ene kant zeggen ze dat het cruciaal is dat KLM blijft en aan de andere kant halen ze allerlei andere jongens en meisjes binnen. Gaat de minister hier ook naar kijken in de door haar aangekondigde mainportvisie?</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg30">Tot slot. Er ligt een besluit voor over Eindhoven. De besluitvorming daarover heeft lang genoeg geduurd. Wij denken dat er een goed evenwicht is gevonden. Na het Aldersadvies is er nog een keer teruggegaan naar de bewoners en naar de gemeenteraden. De groei van Eindhoven blijft op deze manier mogelijk. Wat ons betreft zorgt dat voor een goed evenwicht. Wij zullen dat besluit dan ook steunen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u24">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg31">Daarmee zijn wij gekomen aan het eind van de inbreng van de zijde van de Kamer. Het is het eerste optreden van de staatssecretaris, althans op het gebied van luchtvaart en in deze plenaire zaal. Ik was van plan om haar tien minuten de kans te geven om rustig naar de moties te kijken, maar zij geeft nu aan dat vijf minuten voldoende is.</seg>
+            </u>
+            <note>De vergadering wordt van 16.49 uur tot 16.56 uur geschorst.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u25">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg32">Ik geef graag het woord aan de staatssecretaris.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u26">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg33">Voorzitter. Ik zal proberen om in staccato een antwoord te geven op de zestien ingediende moties. Voor een belangrijk deel gaan ze over de discussie met betrekking tot de voorstellen voor vliegveld Eindhoven. Daarnaast is er de discussie over KLM, Air France en Transavia en spelen er nog een paar andere kwesties.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u27">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg34">Mag ik vragen of de loge wat minder lawaai wil maken? Dank u wel.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u28">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg35">Om in één klap duidelijk te zijn over Eindhoven: ik kan me goed aansluiten bij de woorden die de heer Monasch hierover heeft gesproken. Er ligt nu een broos evenwicht voor. Aan de ene kant hebben wij maximaal rekening gehouden met de belangen van omwonenden. En ja, zeg ik tegen mevrouw Visser, het zal niet voor alle omwonenden altijd goed genoeg zijn. Maar ik denk wel dat wij met het bedrijfsbelang van Eindhoven in het achterhoofd nu wel het meest vergaande doen wat mogelijk is om het draagvlak zo stevig mogelijk te laten zijn. Dat betekent ook dat ik moties waarin wordt gevraagd om terug te keren naar het voorstel van de Alderstafel, maar ook moties zoals die van de heer Smaling en mevrouw Van Veldhoven waarin wordt gevraagd om nog verder te gaan, allemaal zal ontraden. Ik denk namelijk dat wij daarmee het huidige evenwicht kwijt zijn en dat zou onverstandig zijn.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u29">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg36">Ik zie mevrouw Visser bij de interruptiemicrofoon staan en nu zit ik even in dubio. Wij kunnen wachten tot wij bij de behandeling van de moties zijn, maar de staatssecretaris is wel vrij helder. Ik denk dan ook dat ik toch maar een interruptie toesta.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u30">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg37">Dan ben ik wel benieuwd hoe de staatssecretaris het gehele proces van afspraken over Eindhoven de afgelopen jaren aan de Alderstafel beoordeelt. Er zijn afspraken gemaakt in 2010 en 2012. Ook is afgesproken dat bij het nakomen ervan — dat is het geval — in 2015 de groei op Eindhoven Airport zou kunnen worden doorgezet. Nu worden er conditionele afspraken door het kabinet voorgesteld rondom de groei. Hoe beoordeelt de staatssecretaris dit?</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u31">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg38">Voor mij geldt dat deze conditionele afspraken in ieder geval voor het vliegveld zelf, het bedrijf zelf, voldoende zijn om mee te kunnen leven. Dat dit voor hen niet de meest ideale oplossing is, begrijp ik ook. U hebt echter ook vastgesteld dat er voor de bewoners in de omgeving ook niet in alle gevallen de meest ideale oplossing voorligt. Dan bereiken wij hiermee een evenwicht, waarbij wij de businesscase voor Eindhoven heel houden en dat is zeer belangrijk. Ik spreek u erop aan dat wij dit samen moeten blijven realiseren. Tegelijkertijd hebben wij nog een extra stap gezet op basis van wat er al voorlag bij de Alderstafel om bewoners maximaal tegemoet te komen. Zo zie ik het graag. Ik sta voor dit compromis. Ik vind het een goed evenwicht. Het is verdedigbaar, het is economisch ook nog steeds een goed verhaal, dus lijkt het me dat wij het zo moeten doen.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u32">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg39">De staatssecretaris geeft aan: evenwicht en draagvlak. Nu moeten wij constateren dat de partijen aan tafel nog steeds niet akkoord zijn, zelfs niet met de aanvullende voorwaarden. Ik ben benieuwd hoe de staatssecretaris daarover denkt. Wat als blijkt dat gedurende het proces tot 2020 er toch niet kan worden voldaan aan de voorwaarden, ondanks alle inspanningen van Eindhoven Airport en druk op Schiphol Airport? Wat wordt dan de afweging van de staatssecretaris?</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u33">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg40">Wat dat laatste betreft, ik heb geleerd dat het onverstandig is om te redeneren in als-dansituaties. Wij beginnen nu met deze afspraken. Ik heb er vertrouwen in. Dit zijn afspraken waarbij wij ook Eindhoven zelf aan boord hebben, letterlijk en figuurlijk. Laten wij dat vooral zo houden. Men weet wat men te doen staat en dat is pittig, maar niet onmogelijk. Anders hadden wij dit voorstel niet gedaan.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u34">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg41">De moties en de sneltreinvaart.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u35">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg42">Om die reden ontraad ik de motie van mevrouw Van Tongeren op stuk nr. 304. Ik kan er nog een hele, inhoudelijke redenering bij houden — met boeteregeling en verschuiving maak je de businesscase kapot — maar dat hebben wij in het debat al gewisseld.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg43">Om diezelfde reden ontraad ik ook de motie op stuk nr. 305. Er zijn afspraken gemaakt aan de Alderstafel. Nu hebben wij het over Schiphol Airport en de glijvluchten. Ter compensatie van het niet kunnen uitvoeren van glijvluchtlandingen is een reductie van nachtvluchten afgesproken. Daarmee is deze afspraak onderdeel geworden van het werkprogramma van de Omgevingsraad Schiphol. De Kamer krijgt periodiek informatie daarover. Daarmee is feitelijk al gedaan waarom mevrouw Van Tongeren vraagt, maar ik vermoed dat zij verdergaande voorstellen beoogt. Wat we doen, dat doen we. Er is een goede afspraak gemaakt. Als mevrouw Van Tongeren daar niet tevreden mee is en zij met deze motie iets anders vraagt, moet ik de motie ontraden omdat ik dan niet weet waarop ik aankoers.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u36">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg44">In de motie wordt om niets meer gevraagd dan wat er oorspronkelijk afgesproken is. De bewoners maken zich zorgen dat dit niet voldoende is vastgelegd. Als de staatssecretaris de motie zo uitlegt dat die ondersteuning is van beleid en van wat er afgesproken is, ben ik het daarmee eens. Dit gaat niet om nog een keer 3.000 vluchten minder of iets dergelijks.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u37">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg45">Goed. Dan heb ik het helder. In dat geval kan de motie worden gezien als ondersteuning van beleid, want dit is inderdaad afgesproken. We zullen dat ook volgen. Ik laat het oordeel over deze motie aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg46">De motie-Van Tongeren op stuk nr. 306 moet ik wel ontraden. Het spijt mij; het is niet elke dag feest. De metingen naar ultrafijnstof zijn belangrijk. We moeten daar inzicht in krijgen. Daarom hebben we de aanbeveling van het RIVM op dit punt overgenomen. We willen inzicht krijgen in de gezondheidseffecten van blootstelling aan ultrafijnstof en die begrijpen. Begin 2016 zal de Kamer over het vervolgonderzoek worden geïnformeerd. Op dat moment zullen we moeten bezien wat dat eventueel voor gevolgen heeft voor Schiphol. Ik wil daar niet nu op vooruitlopen. Om die reden vraag ik mevrouw Van Tongeren om haar motie aan te houden. Zo niet, dan moet ik de motie ontraden.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u38">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg47">Het loven en bieden is begonnen.</seg>
+            </u>
+            <u who="#LiesbethvanTongeren" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u39">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg48">Uit het TNO-onderzoek en uit buitenlands onderzoek blijkt dat er connecties zijn tussen ultrafijnstof en gezondheidsrisico's. Stel dat Schiphol zich net zo gedraagt als de rest van de wereld, dan zijn die risico's er hier ook. Ik vraag de regering om nu alvast eens te bekijken wat voor maatregelen je zou moeten nemen zodat je niet eerst dingen toestaat waarvan je vervolgens moet zeggen dat die vanwege de gezondheidsrisico's niet kunnen. Ik vraag niet om die maatregelen nu al uit te voeren, maar wel om gewoon eens te scannen wat de maatregelen zouden kunnen zijn, zodat je niet andere besluiten neemt die de mogelijkheden van deze beperking doorkruisen.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u40">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg49">Mevrouw Van Tongeren loopt echt op de zaken vooruit. Begin 2016 krijgen we het onderzoek van het RIVM. Dan zal helder zijn wat ons daarna te doen staat. Nogmaals, ik ontraad de motie nu. Daarmee is niet de discussie weg, want die gaan we volgens mij juist volop voeren, maar dan wel op basis van onderzoek.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u41">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg50">Ik zie mevrouw Van Tongeren geen aanstalten maken om het verzoek van de staatssecretaris om de motie aan te houden, te honoreren.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u42">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg51">Ik kom bij de motie-Graus/Van Helvert op stuk nr. 307. Ik begrijp de liefde voor de grote blauwe vogel heel goed. Ik heb zelf in mijn vorige functie heel veel gereisd. Dat geeft wel weer dat wanneer je het vliegtuig binnenstapt, je je al een beetje thuis voelt. Dat gevoel kan ik mij ontzettend goed voorstellen. Ook de liefde voor het bedrijf delen we, zo zeg ik tegen de heer Graus. Air France-KLM kan echter alleen zelf besluiten om bijvoorbeeld KLM te verkopen. Volgens mij is dat niet aan de orde, dus ik wil daar ook niet op speculeren. Om dezelfde reden moet ik deze motie echt ontraden.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u43">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg52">Zullen we alle vijf ontradingen in één keer doen, mijnheer Graus?</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u44">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg53">Hebt u een glazen bol, voorzitter?</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u45">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg54">Daarmee loopt u inderdaad een beetje te ver vooruit op de materie, voorzitter.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u46">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg55">Ik vraag daarom ook om dit te onderzoeken. Ik weet — dat zal ik u voorspellen, mijnheer de voorzitter — dat hierover een parlementaire enquête gaat komen. Ik ben heel benieuwd hoe de Kamer zich hierover gaat uitspreken. Ik vraag de staatssecretaris om dit te onderzoeken. Er is geen terugkoopactie bedongen. Dat is een fout. Menig hoogleraar heeft dat ook gezegd. Het is indertijd een fout geweest van de Nederlandse regering, niet van deze staatssecretaris. Ik vraag de staatssecretaris om te onderzoeken wat de mogelijkheden zijn om die terugkoopoptie wel te krijgen. Dat is heel sympathiek en daar is niets mee aan de hand.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u47">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg56">Ik snap de redenering van de heer Graus, maar ik heb niets toe te voegen aan wat ik zojuist heb gezegd. Ik blijf daarom bij mijn oordeel.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg57">Ik kom bij de motie op stuk nr. 308 over het baangebruik en het simultaan gebruiken van banen, het gaan naar twee plus twee dus. Ook die motie moet ik ontraden. Er zijn aan de Alderstafel goede afspraken gemaakt over de inzet van de start- en landingsbanen. De afspraak is om overlast zo veel mogelijk te beperken door niet meer banen in te zetten dan strikt noodzakelijk is. Daarover is uitvoerig met de Kamer gesproken. Die stap is vervolgens ook verankerd in wet- en regelgeving. Daar gaan we op korte termijn over spreken. Het volledig vrijgeven van de vierde baan en de inzet van twee start- en twee landingsbanen op Schiphol, want daar doelt de heer Graus denk ik op, past gewoon niet binnen de gemaakte afspraken. Die afspraken moeten wel hun werk doen, dus daarom ontraad ik de motie.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u48">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg58">Ook hierbij bedoel ik: daar waar mogelijk. Laat dat heel duidelijk zijn. Het zal niet altijd mogelijk zijn. Mijn verzoek is dat het wel mogelijk moet kunnen zijn als het mogelijk is. Er is zelfs een hoogleraar die mij hierin heeft gesteund tijdens het rondetafelgesprek. Hij vond het een goede optie om te kijken naar die twee plus twee om Schiphol op een verantwoorde manier te helpen groeien.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u49">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg59">Ik waardeer de volhardendheid van de heer Graus, maar mijn argumentatie verandert niet. Uiteindelijk is dit in een spannend gesprek met omwonenden aan de Alderstafel op een gegeven moment ergens belegd. We hebben daar stappen over afgesproken. Van mij wordt op dit onderwerp consistentie verlangd, ook richting alle mensen die daar in de buurt wonen en van ons verlangen dat wij onze afspraken nakomen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg60">Het goede nieuws van vandaag is dat de motie op stuk nr. 309 kan worden beschouwd als ondersteuning van beleid. Die motie wil ik daarom graag aan het oordeel van de Kamer overlaten. We zijn met de minister van Economische Zaken bezig om een actieagenda Schiphol te maken. Die verschijnt als het goed is in maart 2016. Mag ik de motie zo uitleggen dat de heer Graus ons daartoe nog eens extra aanspoort? Ik zou er niet heel veel meer bij gaan vragen, mijnheer Graus, want dan wordt het problematisch.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u50">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg61">Ik heb die motie al twee keer eerder ingediend, volgens mij zelfs vorig jaar nog. Toen werd zij steeds ontraden. Wat dat betreft zijn we erop vooruitgegaan qua staatssecretaris.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u51">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg62">Dank u.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg63">Dan kom ik bij een motie die ik wel moet ontraden. In de motie op stuk nr. 310 verzoekt de heer Graus de regering om al haar bevoegd- en mogelijkheden te benutten om KLM los te weken uit Air France-KLM. Ik heb net bij de motie op stuk nr. 307 al het een en ander gezegd over hoe het bedrijfstechnisch zit. Losweken is niet aan de orde. Misschien is het voor de historie toch goed om op te merken dat KLM bij de fusie in 2004 zelfstandig niet levensvatbaar was. Er is dus echt aanleiding geweest om KLM te versterken. Dat is ook nodig voor de hubfunctie van Schiphol, waarop ik straks nog zal ingaan. Het is echt Air France-KLM zelf die beslist over eventueel afstoten. Vandaar dat ik hier dezelfde redenering hanteer als bij de motie op stuk nr. 307.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u52">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg64">Dat is duidelijk. Ik vraag ook om in een reddingsplan te voorzien. De vorige staatssecretaris zei steeds dat dit niet nodig was, maar het bleek wel nodig te zijn voor de toekomst. Nogmaals, dit gaat ooit een parlementaire enquête opleveren. Ik wil dat de Kamer zich hierover kan uitspreken. Ik ben heel benieuwd wat de collega's gaan doen, want we kunnen nu stappen zetten en klappen maken. Anders zitten zij straks met een natte bilnaad voor een parlementaire enquêtecommissie.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u53">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg65">Ik denk dat het goed is hier twee dingen over te zeggen. Ik ben vrij snel na mijn aantreden naar Parijs gegaan. Ik moest daar zijn, maar dacht dat het waarschijnlijk verstandig was om duidelijk te maken waarop wij letten als het gaat om de bewegingen die Air France-KLM maakt om haar positie verder te versterken. Er is een nationaal belang. Dat is gelieerd aan het bedrijf KLM en zeker ook aan de versterking van de hubfunctie — spilfunctie, zo de voorzitter wil — van Schiphol. Wij zullen vanuit dat belang blijven redeneren bij elke stap die gezet wordt. Daarover verschillen wij dus echt niet van mening. Ik zit echter niet in de cockpit. Het is belangrijk dat we ons dat realiseren. Dat hebben we ook tijdens het debat gewisseld. Het is een bedrijf, dat zelfstandig beslissingen neemt.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg66">Dan komen we bij de motie op stuk nr. 311. In de motie op stuk nr. 314 van de heer Smaling wordt eigenlijk hetzelfde gezegd: doe iets aan het Airline Reward Programma. Schiphol gaat zelf over het Airline Reward Programma. Voor de overheid geldt hierbij dat Schiphol zich moet inzetten voor een optimale netwerkkwaliteit. Een Airline Reward Programma kan daaraan bijdragen. Het is goed om te zeggen dat het programma jaarlijks door Schiphol aan luchtvaartmaatschappijen wordt voorgelegd, in het kader van de totstandkoming van de tarieven en de voorwaarden. Als luchtvaartmaatschappijen dan bijvoorbeeld vinden dat zij oneerlijk worden bejegend, dat het niet goed is voor hun positie en dat het programma niet voldoet aan de wettelijke vereisten, kunnen zij een klacht indienen bij de Autoriteit Consument &amp; Markt (ACM). Het programma heeft als doel om de netwerkkwaliteit te versterken. Je geeft voor maximaal twee jaar een beloning bij het opstarten van een nieuwe route. Het programma geldt gelijkelijk voor alle nieuwe luchtvaartmaatschappijen, ook de Nederlandse. Er is nu dus voor mij geen aanleiding om te interveniëren. Om die reden ontraad ik de motie.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u54">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg67">Ontraadt u dus beide moties?</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u55">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg68">Ja, ik ontraad beide moties.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u56">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg69">De staatssecretaris ontraadt dus ook de motie van de heer Smaling?</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u57">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg70">Ik moet ook op mijn eigen efficiency letten, vandaar.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u58">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg71">Ik begrijp dat er een bepaald wervingsbeleid is. Daar kunnen we niet tegen zijn. Zeker de regering, als aandeelhouder, kan daar niet tegen zijn en ik, als Kamerlid met een warm hart voor de luchtvaart, ook niet. Er is echter momenteel een actief wervingsbeleid, waardoor bijvoorbeeld KLM in de toekomst gigantische klappen kan krijgen. Dat zal zich nog uitwijzen. Maar daarover wil ik tegen de staatssecretaris zeggen: dat mag niet gebeuren. Dat mag niet. KLM moet niet benadeeld worden, maar dat is wel aan het gebeuren. Daarom heb ik deze motie ingediend en daar wil ik graag een reactie op.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u59">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg72">Een programma als dat van Schiphol gebruik je om je positie als wereldwijde spilfunctie te versterken. Luchtvaartmaatschappijen die vinden dat zij door het programma oneerlijk behandeld worden, hebben de gelegenheid om daartegen in het geweer te komen. Dat is een systeem dat tot nu toe werkt. Je zou bijna kunnen zeggen dat in de democratie verankerd is hoe men dat optuigt. Ik heb nu geen aanleiding om op dat punt te interveniëren. Dat vraagt de heer Graus wel van mij.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u60">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg73">Mijnheer Monasch, ik zie dat u iets wilt vragen. Het is echter niet zo gebruikelijk om iets te vragen wat niet over uw eigen motie gaat. Ik zeg dit ook omwille van de tijd. Ik maak een uitzondering als u het kort houdt.</seg>
+            </u>
+            <u who="#JacquesMonasch" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u61">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg74">Ik kan u een legitimatie voor die uitzondering geven, omdat ik een vraag hierover had gesteld. Daarom wil ik dit onderwerp graag oppakken. Het probleem wringt op de volgende manier. Emirates krijgt zo'n korting als wervingsvoordeel. Tegelijkertijd is het kabinet, via de voorganger van de staatssecretaris, bezig om te onderzoeken of Emirates nog wel mag komen, in verband met ongeoorloofde staatssteun. Het kabinet geeft daarom geen uitbreiding van landingsrechten. Het is dus een beetje raar dat aan de ene kant het kabinet voorlopig geen nieuwe landingsrechten geeft, omdat er misschien sprake is van ongeoorloofde staatssteun, terwijl aan de andere kant Schiphol, waarin de Staat een grote portie aandelen heeft, een bonus aan die maatschappij geeft. Hoe verhoudt zich dat tot elkaar?</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u62">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg75">Wij hebben dit debat eigenlijk nog niet gevoerd tijdens het algemeen overleg, omdat het heel recent via de publiciteit naar buiten is gekomen. Dat begrijp ik, maar het wreekt zich hier nu wel een beetje. Ik vind namelijk dat dit onderwerp echt meer gesprek met de Kamer vraagt dan we nu kunnen voeren. Juist wanneer je kien bent op het voorkomen van staatssteun, moet je immers oppassen dat je je er zelf bij wijze van spreken niet schuldig aan maakt. Er speelt dus echt wel meer om op te letten. Binnenkort zal een besluit moeten vallen over de landingsrechten. We hebben daarbij ook te maken met Europese regelgeving. Ook Nederland kan zich daar niet aan onttrekken. Ik snap het debat dus, maar ik voel mij wel beperkt in de tijd om dit delicate thema — laten we maar vaststellen dat het delicaat is — helemaal in extenso met de Kamer uit te discussiëren.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u63">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg76">In verband met de tijd wil ik het volgende zeggen. Er moet straks een belangrijk debat met de minister-president plaatsvinden. Daarnaast is er nog een ander VSO.</seg>
+            </u>
+            <u who="#JacquesMonasch" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u64">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg77">Heel kort, voorzitter?</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u65">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg78">Mag ik heel even? Ik heb begrepen dat er over deze kwestie schriftelijke vragen zijn gesteld. Als die zijn beantwoord, kan daarover een VSO worden gepland. Ik hoor nu dat het gaat om individuele schriftelijke vragen. Nou goed, die procedure loopt in ieder geval. Ik stel dus voor dat u dat op een andere manier en een ander moment uitdiscussieert.</seg>
+            </u>
+            <u who="#JacquesMonasch" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u66">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg79">Misschien kan het met een korte toezegging. Ik wil dit onderwerp betrekken bij de discussie over de mainportagenda. Dit lijkt mij daarbij relevant. Ik begrijp dan ook waarom de staatssecretaris nu zegt dat zij daarop terugkomt.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u67">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg80">Ik weet niet zeker of het specifiek alleen bij de mainportdiscussie speelt. Ik denk dat het ook eerder zal spelen, op het moment dat er een besluit moet vallen over de landingsrechten. Ik begrijp dat er schriftelijke vragen zijn gesteld. Als die zijn beantwoord, kan de Kamer haar procedure kiezen voor de wijze waarop daar met mij verder over gediscussieerd wordt.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u68">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg81">Want dat het een belangrijk onderwerp is, staat buiten kijf.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u69">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg82">Zonder meer, en dat erken ik.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u70">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg83">Het woord is aan de heer Smaling over de motie op stuk nr. 314.</seg>
+            </u>
+            <u who="#EricSmaling" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u71">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg84">Ik zou het me kunnen voorstellen als de staatssecretaris tegen de heer Graus en mij zegt: houd de moties aan. Door ze te ontraden, zegt zij nu indirect: ik zet een mes tussen Schiphol en KLM; KLM moet het maar uitzoeken en Schiphol moet groeien tot het maximale aantal vliegbewegingen.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u72">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg85">Daar gaan we al. Ik vind dit geen faire conclusie. Ik ben het daar niet mee eens. Er kunnen ook andere redenen voor zijn. Ik heb net een poging gedaan om uit te leggen hoe het zit. Het rewardsysteem wordt gewoon getoetst, ook bij andere luchtvaartmaatschappijen. Als er een probleem mee is, kan er een klacht ingediend worden. Voor Schiphol zal het daarnaast belangrijk zijn dat het zijn spilfunctie met KLM en naast KLM verstevigt. Dat hoeft niet per se alleen maar tegenover elkaar gezet te worden. Nogmaals, we moeten dit debat voeren — dat voel ik inmiddels aan mijn water — maar het lijkt mij niet goed om dat nu zo snel te doen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u73">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg86">Ik zie bewegingen voor mij die in de richting van "aanhouden" gaan.</seg>
+            </u>
+            <u who="#EricSmaling" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u74">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg87">Ja, de heer Graus en ik houden beiden onze moties aan. We zullen bekijken of we met een SO of iets dergelijks een nieuwe bres in het standpunt van de staatssecretaris kunnen slaan.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u75">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg88">Op verzoek van de heer Graus stel ik voor, zijn motie (31936, nr. 311) aan te houden. Op verzoek van de heer Smaling stel ik voor, zijn motie (31936, nr. 314) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg89">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u76">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg90">Over die bres: deze regeling geldt ook voor KLM op nieuwe bestemmingen. Voordat de heer Smaling ergens een bres in slaat, zou ik willen zeggen: weet wat u doet.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg91">Ik ontraad de motie op stuk nr. 312. Er wordt op dit moment samen met de regio een marktverkenning uitgevoerd naar concrete besparingsopties voor de luchtverkeersleiding op regionale velden. Dit onderzoek wordt in het voorjaar van 2016 afgerond. Tot die tijd zetten wij geen onomkeerbare stappen. Wellicht zou de heer Graus het dus over zijn hart kunnen verkrijgen om de motie aan te houden.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u77">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg92">De motie op stuk nr. 312 houd ik ook aan.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u78">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg93">Op verzoek van de heer Graus stel ik voor, zijn motie (31936, nr. 312) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg94">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u79">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg95">Hartelijk dank.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg96">De motie op stuk nr. 313 had ik in mijn inleiding feitelijk al ontraden, want dat gaat over het broze evenwicht van Eindhoven. Hetzelfde geldt voor de motie op stuk nr. 315 van mevrouw Visser.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg97">Om over de motie op stuk nr. 316 van mevrouw Visser een lang verhaal kort te maken, zeg ik: ja, we zullen moeten kijken naar een vereenvoudiging voor het gebruik van drones. Die is niet nu al mogelijk omdat de huidige regelgeving Europees gewijzigd moet worden. Met deze regelgeving hebben we geprobeerd om juist de zakelijke dronegebruikers te helpen, omdat ze voor die tijd afhankelijk waren van ontheffingen. Ik beschouw deze motie maar als ondersteuning van beleid. Ik zeg er wel bij dat ik pas in december weet hoe het pakket uit Europa eruit gaat zien. Dan weet ik dus meer over hoe vereenvoudigd "vereenvoudigd" is. Mevrouw Visser kan overwegen om daarop te wachten, voor wat het waard is.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg98">De motie op stuk nr. 317 gaat weer over Air France-KLM. Ik heb de Kamer gisteren een brief gestuurd. Er wordt gesproken over het overgaan van een minderheidsbelang van Transavia Nederland naar de holding. Een van de dingen die nog bestudeerd wordt, is dat er eventueel andersom een beweging zou kunnen volgen van een minderheidsbelang van Transavia Nederland naar de holding. Dan zou je een synergetische situatie krijgen. Het is niet zo dat wij er vanuit de overheid direct zeggenschap over hebben. De moties die daarover gaan, moet ik ontraden. Het is ook zo dat mij in de motie op stuk nr. 317 wordt gevraagd om iets te doen wat ik feitelijk niet kan, namelijk het blokkeren van het overgaan van aandelen. Mevrouw Visser vraagt waarom dan niet alle aandelen naar de holding gaan. Die vraag kan ik niet beantwoorden want nogmaals: ik ben niet het bedrijf. Ik stel vast dat er plannen zijn. Ik stel ook vast dat ik binnen twee dagen na mijn aantreden wel ook het Nederlands belang heb neergelegd bij Air France-KLM. Ik denk eerlijk gezegd dat dat op zichzelf ook een signaal is. Tegelijkertijd zien we ook dat Air France, KLM en het bedrijf als geheel gewoon het een en ander moeten doen aan kostenbesparing. Het bedrijf zal ook een strategie moeten hebben om de concurrentie van de lowcostcarriers die van elders komen, aan te kunnen. Ook dat vraagt wel om beweging.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u80">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg99">Deze discussie hebben we bij het AO ook al gehad. Ik heb ook duidelijk aangegeven dat de VVD niet op de bedrijfsstoel wil gaan zitten. Het gaat mij juist om het belang van de mainportfunctie Schiphol. Wat echter ook in de beantwoording nog steeds onduidelijk blijft, is waarom de aandelen uit Nederland worden overgedragen, terwijl de aandelen uit Frankrijk in Frankrijk blijven. Dat is volgens mij wel een relevante discussie, juist als je die mainportfunctie wilt bewaken. Dat blijkt ook niet uit de brief en ook nu niet uit de beantwoording. Ik zou de staatssecretaris, die binnenkort vast weer met haar collega's om tafel gaat, eigenlijk willen vragen om de Kamer hierover proactief te informeren, zodat wij in ieder geval zeker weten dat die mainportfunctie van Schiphol Group geborgd blijft.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u81">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg100">U hebt in dezelfde brief ook kunnen lezen dat, als er bij Transavia Nederland eenzelfde soort exercitie plaatsvindt — dat is nog niet zeker, dat wordt bestudeerd — het ook zou gaan om het overhevelen van een minderheidsaandeel van Transavia Nederland naar de holding, en dat dus de meerderheid van de aandelen van Transavia Nederland in Nederland blijft. Dat blijkt ook uit die brief.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg101">U vraagt waarom in beide gevallen, zowel bij Transavia Frankrijk als Transavia Nederland, het meerderheidsaandeel bij de respectievelijke bedrijven blijft, namelijk Air France en KLM in dit geval. Dat is een bedrijfsafweging. Ik begrijp dat u mij naar al die beweegredenen vraagt, maar ook hiervoor geldt dat u niet op die stoel in dat bedrijf zit en ik ook niet. Dit is de informatie die we hebben en daar zullen we het voor nu even mee moeten doen.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u82">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg102">Maar de zorgen zijn er. We zitten inderdaad niet op die bedrijfsstoel, maar we maken ons wel zorgen om die mainportfunctie. Met het oog daarop hebben wij volgens mij Kamerbreed een oproep gedaan. Ik snap dat de staatssecretaris daar geen inhoudelijke mededelingen over kan doen. We willen echter wel weten hoe zich dat tot elkaar verhoudt, en met deze druk vanuit de Kamer zou ik haar wel de suggestie willen doen dat zij ons daar proactief over blijft informeren. Zo wordt voorkomen dat we hier iedere week schriftelijke vragen over stellen of een debataanvraag doen om deze discussie hier te voeren.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u83">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg103">Dat laatste zou ik ons allen niet aanbevelen, want dan gaan we precies datgene doen waarvan u zelf zegt dat we het niet moeten doen, namelijk op de stoel van bijvoorbeeld de raad van commissarissen gaan zitten. Dat wilt u niet en dat wil ik ook niet. Ik heb hier heel helder neergezet waar ik op toets en wat het Nederlandse belang is. Dat heb ik in de brief ook verwoord en daar zat geen woord Frans bij, zou ik haast willen zeggen. Ik heb dit ook al binnen een paar dagen na mijn aantreden overgebracht en ik geloof dat die boodschap wel luid en duidelijk is overgekomen.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u84">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg104">De staatssecretaris …</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u85">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg105">We gaan hier niet uitgebreid over debatteren.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u86">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg106">Nee, ik heb het over de motie op stuk nr. 317. De staatssecretaris ontraadt deze motie, omdat ik haar iets zou vragen wat zij niet kan doen, namelijk blokkeren. De strekking van die motie is dat de staatssecretaris alles in het werk stelt wat binnen haar mogelijkheden ligt, formeel en informeel, om een verdere herpositionering te blokkeren of te laten blokkeren. Dus: voor zover dat kan. De staatssecretaris antwoordt dan met wat zij allemaal niet kan en dat begrijp ik. Dus als dat te fel geformuleerd is in de motie, wil ik dat wel herformuleren, in de zin van: verzoekt de regering alles wat binnen de mogelijkheden ligt te doen om herpositionering van aandelen tegen te gaan. Dat geeft de staatssecretaris misschien een steun in de rug, aangezien we weten dat in Frankrijk de mening van het parlement en de staatssecretaris rondom het bedrijfsleven zwaarder weegt dan in Nederland.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u87">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg107">Maar wordt die verzachting ook gedeeld door de medeondertekenaar?</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u88">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg108">Ik knipoogde net naar de heer Graus en hij knipoogde terug.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u89">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg109">Dan is het dus een bereidheid van beide ondertekenaars.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u90">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg110">Maar dat verandert mijn oordeel niet.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u91">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg111">Dat lijkt mij helder.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u92">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg112">Dan kom ik op de motie op stuk nr. 318. Deze motie vraagt iets wat is aan soevereine staten. Deze discussie gaan we echt nog wel voor een belangrijk deel voeren in de nasleep van het debat dat we zullen hebben over de MH17. Het is aan de soevereine staten zelf om de security op luchthavens te borgen en dat is ook conform de internationale regelgeving van ICAO. Ik moet de motie dan ook ontraden. Ik hecht er echter wel aan om hierbij op te merken dat ik het belangrijk vind dat we deze discussie beter en langer voeren met elkaar op een ander moment, ook naar aanleiding van de kabinetsreactie op het rapport van de OVV.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u93">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg113">De heer Van Helvert geef ik nog kort het woord over deze motie. We komen echt niet uit met de tijd. Wilt u daar een beetje rekening mee houden?</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u94">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg114">Ik heb twee moties ingediend en ten aanzien van beide zegt de staatssecretaris "ontraden", terwijl ik denk dat ik echt de staatssecretaris help als zij deze motie van mevrouw Hachchi en mij "oordeel Kamer" zou geven.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u95">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg115">Maar de staatssecretaris denkt daar anders over en heeft haar oordeel al gegeven.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u96">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg116">Ik probeer daar één opmerking over te maken. Volgens mij mag je conform het reglement een opmerking maken …</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u97">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg117">Nee hoor, de voorzitter bepaalt of interrupties worden toegestaan. Ik sta u dat nu toe.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u98">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg118">Dank voor uw bereidwilligheid in dezen, voorzitter. Het punt is dat sommige vliegvelden onveilig zijn verklaard en andere niet, maar dat dit geen gevolgen heeft voor een eventueel reisadvies. Mensen die nu op vakantie willen, moeten een financiële afweging maken: zal ik het, ondanks het feit dat het vliegveld onveilig is, toch maar doen of juist niet? Een heel duidelijke communicatie over de vraag welke vliegvelden veilig zijn en een advies hierover zijn heel belangrijk. Dat begint met een onderzoek. Daarom wil ik de staatssecretaris een steun in de rug geven en vraag ik haar om haar oordeel over de motie te heroverwegen.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u99">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg119">Nee. De heer Van Helvert geeft met deze uitleg juist aan dat hij mij vragen stelt die buiten mijn competentie liggen. Reisadviezen vallen onder verantwoordelijkheid van de minister van Buitenlandse Zaken. Nogmaals: het lijkt mij echt goed om deze discussie met elkaar verder te voeren, maar dan in reactie op het OVV-rapport, omdat we de zaak dan in samenhang kunnen bekijken. Dan kunnen we zien wat we via de ICAO kunnen doen, wat er vanuit Nederland gebeurt en hoe we informatie kunnen verkrijgen door de samenwerking van diensten. Natuurlijk moet het debat gevoerd worden, maar ik hoop dat de heer Van Helvert het mij vergeeft dat we dat niet op deze manier, via deze motie, doen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u100">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg120">Dan gaan we verder met de motie op stuk nr. 319.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u101">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg121">De heer Van Helvert wil heel graag dat een motie van hem als ondersteuning van beleid wordt gezien. Dat kan, maar zo te zien is hij daar niet eens blij mee. Het gaat om de motie op stuk nr. 319, van mevrouw Hachchi en de heer Van Helvert zelf. Deze motie zie ik als ondersteuning van beleid, omdat het mijn voornemen is om dit te doen. Dat gaan we dus doen.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.u102">
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg122">Ik dank de staatssecretaris voor de beantwoording. Volgende week dinsdag zal over de ingediende moties worden gestemd.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-24-tweedekamer-27.seg123">Ik zie dat alle spelers voor de volgende ronde aanwezig zijn. We kunnen zonder schorsing verder met het volgende debat.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

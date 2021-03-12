@@ -1,0 +1,137 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-05-15 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-05-15 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 82, Session 5 (2019-05-15)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 82, Session 5 (2019-05-15)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="82">Meeting 82</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="9">9 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="9">9 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="534">534 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="534">534 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-05-15">2019-05-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="12"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="9"/>
+               <tagUsage gi="note" occurs="24"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-05-15">2019-05-15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Onderzoeksvragen vervolgonderzoek naar schaduwonderwijs</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg1">Aan de orde is het VSO Onderzoeksvragen, dat betrekking heeft op het vervolgonderzoek naar schaduwonderwijs.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg2">Ik zou als eerste het woord willen geven aan mevrouw Westerveld van GroenLinks.</seg>
+            </u>
+            <u who="#LisaWesterveld" ana="#regular" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg3">Voorzitter. Mijn fractie was kritisch over het laatste rapport over schaduwonderwijs. Wij vonden definities onduidelijk en ook het bedrag dat ouders besteden aan schaduwonderwijs had wel een hele grote bandbreedte, namelijk tussen de 185 en 286 miljoen euro. Zo waren er meer losse eindjes, maar we zijn blij dat de minister een aantal suggesties die we in het debat deden, overnam.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg4">Voor nu heb ik de volgende twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de uitgaven van ouders aan schaduwonderwijs al jarenlang stijgen;</note>
+               <note>overwegende dat de private bijlesindustrie bijdraagt aan de kansenongelijkheid in het onderwijs;</note>
+               <note>overwegende dat er wel vervolgonderzoek wordt gedaan naar onder andere de omvang en motieven van schaduwonderwijs, maar niet wordt gekeken naar oplossingen voor de ongewenste gevolgen van de groei van het schaduwonderwijs;</note>
+               <note>verzoekt de regering naar aanleiding van de onderzoeksresultaten samen met het onderwijsveld beleidsopties te verkennen om de ongewenste gevolgen van schaduwonderwijs tegen te gaan,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat een aantal scholen leerlingen stimuleert om schaduwonderwijs te volgen;</note>
+               <note>overwegende dat dit zich uit in mails naar ouders over het belang van en kortingen op examentraining, kraampjes van bijlesinstituten op open dagen en reclamefolders op scholen;</note>
+               <note>overwegende dat het onwenselijk is dat schaduwonderwijs een vanzelfsprekende aanvulling wordt op het onderwijs;</note>
+               <note>verzoekt de regering in het onderzoek naar schaduwonderwijs ook te onderzoeken in hoeverre scholen schaduwonderwijs stimuleren en of scholen financieel belang hebben bij de samenwerking met bijlesinstituten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Westerveld, Van den Hul en Kwint. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31293-461</note>
+               <note>Deze motie is voorgesteld door de leden Westerveld, Van den Hul en Kwint. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31293-462</note>
+            </u>
+            <u who="#LisaWesterveld" ana="#regular" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg5">Voorzitter. Dan wilde ik nog kort wijzen op een artikel dat ik vanochtend in het Algemeen Dagblad las. Dat staat ook in de regionale kranten. Dat ging over meneer Tasdan. Hij is docent maatschappijleraar. En in deze tijd van examens staat hij echt dag en nacht klaar voor zijn leerlingen, op heel veel nieuwe manieren: hij gebruikt sociale media en vlogs. Dat vind ik een enorm mooie betrokkenheid. Ik zie dat ook bij meer docenten, maar dit artikel is zeker een aanrader om eens te lezen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg6">Dank u wel. Dan de heer Kwint van de SP. O, ik begrijp van niet. Dan zijn we daarmee al aan het einde gekomen van de inbreng van de Kamer. Het wachten is even op de moties, en dan gaan we over tot de beantwoording van de minister.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#ArieSlob" ana="#regular" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg7">Voorzitter. Ook bij dit onderwerp dank ik de Kamer voor het overleg van alweer enige tijd geleden en mijn verdere onderzoeksopdracht daarna om bij dit onderwerp veel meer gegevens uit de scholen en de omgeving van de scholen te halen om met elkaar tot gerichte keuzes te kunnen komen bij dit onderwerp en om te voorkomen dat door de groei van schaduwonderwijs, zoals we dat zijn gaan noemen, de kansenongelijkheid verder zal toenemen, want dat is voor geen van ons allen een doelstelling. We willen de kansengelijkheid juist vergroten. Ik hoop na het zomerreces de Kamer de onderzoeksgegevens te kunnen verstrekken, zodat we het debat daarover kunnen voortzetten.</seg>
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg8">Er zijn moties ingediend. De motie op stuk nr. 461 geeft aan dat er tijdig moet worden nagedacht over beleidsopties om ongewenste gevolgen, als die er zijn, tegen te gaan. Het is inderdaad belangrijk om het denken daarover op tijd te starten en gesprekken daarover te voeren. Ik zie dit als een goede aanvulling op hetgeen nu al in gang is gezet, dus ik kan deze motie oordeel Kamer geven.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg9">De motie op stuk nr. 461 krijgt oordeel Kamer.</seg>
+            </u>
+            <u who="#ArieSlob" ana="#regular" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg10">De motie op stuk nr. 462 heeft heel duidelijk betrekking op het onderzoek dat nu loopt. Bij dat onderzoek worden hele gerichte vragenlijsten naar de scholen gestuurd om op die wijze heel gericht informatie van hen te krijgen. Ik geef deze motie oordeel Kamer. Als zij door de Kamer wordt aangenomen, ben ik bereid om dit mee te nemen in die enquête richting de scholen. Dat is op een goede manier te doen. Ook deze motie kan ik dus oordeel Kamer geven.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg11">De motie op stuk nr. 462 krijgt oordeel Kamer. Daarmee hebben we dit VSO afgerond.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2019-05-15-tweedekamer-5.seg12">Over enkele ogenblikken gaan wij door met het volgende VSO over het bericht "Asielzoekersscholen leveren komende jaren fors in".</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

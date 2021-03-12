@@ -1,0 +1,891 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-12-19 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-12-19 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 39, Session 40 (2019-12-19)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 39, Session 40 (2019-12-19)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="39">Meeting 39</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="40">Session 40</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="227">227 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="227">227 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="17383">17383 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="17383">17383 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-12-19">2019-12-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="317"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="227"/>
+               <tagUsage gi="note" occurs="37"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-12-19">2019-12-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Interpellatie-Karabulut</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u1">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg1">Aan de orde is het interpellatiedebat over het onderzoeksrapport van CENTCOM over de lunchtaanval op Hawija. Ik heet de minister van Defensie, de leden en allen die dit debat volgen van harte welkom. Voordat ik het woord geef aan mevrouw Karabulut, meld ik enige bijzonderheden omtrent dit debat, dat in vorm afwijkt van het gebruikelijke debat.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg2">Mevrouw Karabulut zal dadelijk een toelichting geven op de door haar ingediende interpellatievragen. Het is niet gebruikelijk dat de interpellant in dit stadium wordt geïnterrumpeerd. De minister zal vervolgens antwoorden; ook hier sta ik geen interrupties toe. Na het antwoord van de minister krijgt mevrouw Karabulut opnieuw het woord, waarna de overige woordvoerders volgen. Voor de overige woordvoerders is dit de enige termijn. Dus mochten jullie moties hebben, dan moeten die in deze termijn worden ingediend. Het is dus één termijn, waarin natuurlijk wel kan worden geïnterrumpeerd. Ik zeg alvast dat ik twee interrupties toelaat: een vanafvraag en een vervolgvraag of in totaal vier vragen achter elkaar of los van elkaar.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg3">Dan geef ik nu het woord aan mevrouw Karabulut namens de SP.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u2">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg4">Voorzitter. We staan hier weer, voor de derde keer. We staan hier omdat Nederland verantwoordelijk is voor een bombardement op Hawija in Irak in juni 2015, omdat hier weer onduidelijkheid over is ontstaan. Verschillende bronnen berichten dat tussen de 70 en 170 burgers zijn gedood, verreweg het grootste drama in de recente geschiedenis van de Nederlandse luchtmacht. Het leek wel een kernexplosie, zeggen getuigen. Tijdens het debat vorige maand verzekerde de minister ons dat hierover nooit een eindrapport van de coalitie van CENTCOM zou zijn opgesteld, een zogenaamd closure report. Toen De Nieuws BV op Radio 1 daar onlangs navraag naar deed, zou er opeens toch wel zo'n eindrapport zijn. Nu toch weer niet, aldus de minister in haar brief van gisterenavond. Er is wel een eindrapport, het onderzoek naar Hawija is wel gesloten, het is closed maar het rapport is geen closure report. Een woordenspel, wat we eerder ook al zagen toen CENTCOM bevestigde en na een belletje uit Nederland weer ontkende dat er 70 burgerdoden waren gevallen in Hawija. Waarom houdt de minister ons voor dat er geen eindrapport is terwijl ze weet dat het onderzoek al jaren gesloten is? Klopt het dat het tweede CENTCOM-onderzoek naar Hawija een zogenaamd AR 15-6-rapport is, een bijzonder zwaar onderzoek? Is het gebruikelijk dat hierop een closure report volgt? Wat staat er concreet allemaal in het tweede rapport over burgerslachtoffers? Wat is het verschil tussen dit type rapport en een closure report?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg5">Voorzitter. De minister stelt dat de grafiek in een Amerikaans defensierapport met ruim 70 bevestigde burgerdoden in Irak over de periode mei-juli 2015 niet de doden van Hawija betreft. Ik toon u hier de grafiek, voorzitter. Het is een totale piek en het kan niet anders verklaard worden dan dat dit de doden in Hawija waren. Daarom is het antwoord van de minister ook zo vreemd. Want wie de gegevens van CENTCOM erop naslaat, moet wel concluderen dat het Hawija betreft. Dat stelt Airwars, een zeer, zeer gerespecteerde en professionele ngo. Worden we onjuist geïnformeerd, vraagt de ngo zich hardop af. Kan de minister hierop reageren? Hoe verklaart zij de piek in de grafiek? Waar en wanneer heeft CENTCOM over specifiek deze doden gerapporteerd? Dat moet echt opgehelderd worden. Hoe is het mogelijk, als dat klopt, dat de doden van Hawija niet zijn opgenomen in de officiële telling van CENTCOM, zelfs niet één, zoals de minister stelt? Wat zegt dat dan over die telling? Dat kan nooit kloppen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg6">Deze zaak stinkt. Transparantie moet. Dat kan door de rapporten van CENTCOM over Nederlandse betrokkenheid bij de aanval op Hawija vrij te geven. De minister moet dit bepleiten bij de Amerikanen. Wil zij dat doen? Ik wijs erop dat er eerder tal van CENTCOM-rapporten zijn vrijgegeven. Wij moeten de onze ook opvragen. Ten slotte verneem ik zo meteen graag alle antwoorden van de minister op de twintig eerder door mij ingediende vragen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg7">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u3">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg8">Dank u wel, mevrouw Karabulut. U kunt weer gaan zitten. Dan geef ik nu het woord aan de minister van Defensie.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u4">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg9">Dank u wel, mevrouw de voorzitter. Het is natuurlijk heel erg vervelend dat er onduidelijkheid is ontstaan over het al dan niet bestaan van een closure report over de Nederlandse aanval in Hawija in 2015. Ik ben het gelijk met iedereen eens dat dit in niemands belang is. Daarom wil ik kort de kern toelichten en daarna de twintig interpellatievragen die door mevrouw Karabulut schriftelijk zijn gesteld, beantwoorden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg10">Laat ik beginnen met de kern. De kern is, zoals ook in de brief aangegeven: er is geen closure report over Hawija. Dat heeft CENTCOM keer op keer bevestigd. Er zijn wel twee rapporten: ten eerste het initiële rapport en ten tweede het rapport over het aanvullende onderzoek naar het targetingproces. Daarover bent u geïnformeerd. Meer is er niet. We hebben na de ontvangst van het tweede rapport en de mededeling dat hiermee het onderzoek was afgerond, verder de stappen in het proces gezet die nodig waren, zoals het afronden van het eigen onderzoek. Daar is uw Kamer ook over geïnformeerd bij brief van 25 november.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg11">Dan het tweede punt. Een specifiek aantal slachtoffers heeft CENTCOM nooit kunnen vaststellen. Ook dat is meermaals door CENTCOM aan ons bevestigd. Iedereen in deze Kamer, ook mevrouw Karabulut, kan ervan op aan dat als CENTCOM dat wel had kunnen vaststellen en bevestigen, of het er nou 7 waren of 70 of 170 — allemaal aantallen die rondgaan — wij daar dan van uitgaan. Dat zeg ik u en de hele Kamer ook meteen toe. Maar ik vaar op CENTCOM en CENTCOM heeft die aantallen nooit bevestigd. CENTCOM geeft in onze richting aan dat de burgerslachtoffers die zeer waarschijnlijk zijn gevallen in Hawija, geen onderdeel uitmaken van het aantal bevestigde burgerslachtoffers of grafieken of bevestigde aantallen in welke staatjes dan ook. CENTCOM heeft namelijk geen aantallen kunnen bevestigen. Daar hebben we uitgebreid met elkaar over gesproken. CENTCOM gaat uiteindelijk zelf over de rapportages over burgerslachtoffers en achterliggende data. Wij kunnen alleen de vragen die gesteld worden, voorleggen. CENTCOM geeft dan zelf de antwoorden. Dat is waarmee ik wilde beginnen, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg12">Ik zal nu ingaan op de vragen, gesteld in de interpellatie, te beginnen met vraag 1. Klopt het dat er een CENTCOM-rapport is van 20 augustus 2015 en dat dat een closure report is? Nee, dat klopt niet.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg13">Dan de vragen 2 tot en met 4. Hoe is de onduidelijkheid ontstaan? In het mediabericht waar mevrouw Karabulut naar verwijst, wordt een CENTCOM-persvoorlichter aangehaald die mondeling aangeeft dat er een closure report is opgemaakt. Wij hebben deze week nog een keer op zeer hoog militair niveau bij CENTCOM navraag gedaan. Daaruit bleek dat de betreffende persvoorlichter hier doelde op het rapport van het aanvullende onderzoek naar het targetingproces, gedateerd op 20 augustus 2015. Dat is het rapport dat het ministerie van Defensie op 22 januari 2016 heeft ontvangen. Dat is ook een rapport dat bij de Kamer bekend is, want daarover hebben we uw Kamer bij brief van 25 november geïnformeerd. Zoals ik al eerder heb aangegeven, is er geen closure report over Hawija opgemaakt. Hier was door ons in november al navraag naar gedaan. Deze week heeft CENTCOM nogmaals bevestigd dat er nooit een closure report is opgemaakt. De persvoorlichter had hier dus nooit op deze manier naar een rapport moeten verwijzen, dat helemaal niet een closure report was. Er is en blijft immers geen closure report over Hawija. Dat is wat er hier aan de hand is en dat is waar de onduidelijkheid over is ontstaan. Dat wat betreft de vragen 2 tot en met 4.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg14">Dan vraag 5. Waarom is er geen eindrapport over burgerdoden opgesteld? Vooropgesteld moet dus worden dat het onderzoek wel degelijk is afgerond. Dat hebben we op 22 januari 2016 ook te horen gekregen toen we het rapport van het aanvullende onderzoek naar het targetingproces ontvingen. CENTCOM gaf toen aan dat zij daarmee het onderzoek als afgesloten beschouwden. Voor het proces daarna — zeg ik nogmaals — was dit signaal voldoende om zelf de verdere stappen in het proces te doorlopen, zoals het afronden van ons eigen onderzoek naar de wapeninzet.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg15">Wanneer heeft u vastgesteld en op basis van welke informatie dat er een eindrapport ontbrak? Dat is vraag 6. Toen wij van CENTCOM op 22 januari 2016 het rapport van het aanvullend onderzoek naar het targetingproces kregen, is gelijktijdig mondeling aangegeven dat CENTCOM daarmee de zaak als afgesloten beschouwde. Er was daarmee geen aanleiding om te verwachten dat er nog een closure report zou volgen. Vervolgens hebben wij dus zelf de verdere stappen in het proces doorlopen. Waar heeft het onderzoek toe geleid? Dat is vraag 7. Er is inderdaad een onderzoek uitgevoerd. Dat bestaat uit twee rapporten, die wij ook hebben ontvangen. Het onderzoek naar burgerslachtoffers in Hawija werd door CENTCOM als afgesloten beschouwd na het aanvullende onderzoek naar het targetingproces. De conclusie van het aanvullende CENTCOM-onderzoek luidde dat er "probable", aannemelijk, burgerslachtoffers waren gevallen bij deze door Nederland uitgevoerde aanval. Uiteindelijk heeft CENTCOM dus nooit een nauwkeurige vaststelling kunnen doen van het aantal burgerslachtoffers.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg16">Is de Kamer op dit punt verkeerd geïnformeerd? Dat is een vraag die mevrouw Karabulut net ook stelde. Nee, de Kamer is niet verkeerd geïnformeerd. De twee rapporten die wij hebben ontvangen over Hawija zijn u gemeld. Er is nooit een closure report opgemaakt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg17">Waarom — vraag 9 en 10 — is pas op 5 december opnieuw over slachtoffers gesproken? CENTCOM heeft in onze richting aangegeven dat ze vanwege de publiciteit die deze aanval hier in Nederland heeft gekregen, nogmaals bekeken hebben hoe ze hierover in de maandelijkse overzichten precies hebben gerapporteerd. Men ontdekte toen dat er in het maandelijks overzicht nooit een afrondende melding is gekomen van dit dossier, terwijl dit wel hoort te gebeuren. CENTCOM heeft met de melding van 5 december dus een tekortkoming rechtgezet door melding te maken van de afronding van dit onderzoek. Mij moet wel van het hart — dat mag hier dan wel — dat dit wat mij betreft niet de schoonheidsprijs verdient. Dit had men al veel eerder netjes moeten doen, en moeten verwerken in het maandelijkse overzicht.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg18">Vraag 11. Heeft u formeel of informeel een verzoek gedaan aan CENTCOM om alsnog te publiceren onder de rubriek "Previously Assessed Credible Report"? Zo'n verzoek hebben wij niet gedaan. Hoe er gerapporteerd wordt, is uiteindelijk een zelfstandig, eigenstandig proces van CENTCOM.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg19">Vraag 12. Is er dan vanuit uw ministerie op enig moment contact geweest met CENTCOM over de publicatie van de uitkomsten van het onderzoek dat op 20 augustus was afgerond? Ja, dat hebben we wel gedaan. Dat had ik uw Kamer ook beloofd. Na het laatste debat hebben wij CENTCOM gevraagd of de ontvangen rapporten openbaar gemaakt kunnen worden. Het antwoord daarop was nee, zoals verwacht. Dit soort rapporten kennen een hoge rubricering, die door de VS zelf aan de rapporten wordt toegekend. Ik heb u in de debatten hierover al aangegeven dat Nederland deze rapporten dus niet zelfstandig, eigenstandig kan vrijgeven.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg20">Waarom wordt er in de berichtgeving van 5 december door CENTCOM geen dodenaantal genoemd voor de aanval op Hawija? Dat is vraag 13. Uiteindelijk heeft CENTCOM nooit een nauwkeurige vaststelling kunnen maken van het aantal burgerslachtoffers. Daarom wordt dat ook niet genoemd.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg21">Vraag 14 bestaat uit twee delen. Die wil ik graag allebei even voorlezen, omdat de antwoorden verschillend zijn. Het eerste deel luidt: klopt het dat CENTCOM in 2017 wijst op 80 niet eerder opgenomen burgerdoden in hun maandelijkse overzichten? En het tweede deel luidt: betreft dit onder andere de doden in Hawija naar aanleiding van de Nederlandse aanval? Op het eerste deel, namelijk of die 80 zijn opgenomen, kan ik zeggen: ja, dat klopt. CENCTOM heeft ons laten weten dat dit soort correcties het resultaat zijn van controles die CENTCOM geregeld uitvoert op de eigen rapportages over burgerslachtoffers. Het tweede deel van de vraag is of het klopt dat dit de Hawijaslachtoffers zijn. Nee, dat klopt niet. Het kan hier niet de burgerslachtoffers betreffen die zeer waarschijnlijk zijn omgekomen bij de aanval in Hawija. CENTCOM heeft namelijk nooit — ik zei het al in antwoord op een eerdere vraag — een nauwkeurige vaststelling kunnen maken van het aantal burgerslachtoffers. CENTCOM heeft daarover eerder in onze richting aangegeven dat de burgerslachtoffers die zeer waarschijnlijk in Hawija zijn gevallen, geen onderdeel uitmaken van het totale aantal door CENTCOM bevestigde burgerslachtoffers.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg22">Vraag 15. Klopt het dat CENTCOM in de eigen telling van het aantal burgerdoden, momenteel 1.347, de doden door de Nederlandse aanval in Hawija heeft meegenomen? Het antwoord is nee. CENTCOM heeft nooit een nauwkeurige vaststelling kunnen maken van het aantal burgerslachtoffers ten gevolge van de Nederlandse wapeninzet in de nacht van 2 op 3 juni in Hawija. CENTCOM heeft nogmaals in onze richting aangegeven dat vanwege het feit dat men dat dus nooit heeft kunnen bevestigen, de burgerslachtoffers die zeer waarschijnlijk bij deze wapeninzet zijn gevallen, geen onderdeel uitmaken van het totale aantal van 1.347 door CENTCOM helaas bevestigde burgerslachtoffers.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg23">Vraag 16. Hoe is het mogelijk dat CENTCOM eerst meldt dat er 70 burgerdoden zijn gevallen, maar later deze duidelijkheid niet meer kan geven? Dat is uitgebreid aan de orde geweest in het debat dat hier in de Kamer is gehouden. Wij hebben op basis van de toenmalige berichtgeving die naar voren kwam — dit ging ook over iets wat in de publiciteit was — natuurlijk actie ondernomen in de richting van CENTCOM. Wij hebben u toen ook de bevestiging van CENTCOM gegeven, overhandigd in deze Tweede Kamer, met een mail, dat dat aantal nooit is vastgesteld.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg24">Vraag 17. Kunnen alle CENTCOM-rapporten over Nederlandse aanvallen waarbij mogelijke burgerslachtoffers zijn gevallen, gedeeld worden met de Kamer en, zo nee, waarom niet? Na het laatste debat — ik zei het net ook al bij een andere vraag — hebben wij gevraagd aan CENTCOM of de ontvangen rapporten openbaar gemaakt kunnen worden. Het antwoord daarop was ook bij deze vraag nee, en dat was wel onze verwachting. U weet dat we het daar ook over gehad hebben in het vorige debat. Ik heb u in de debatten al aangegeven dat dit geclassificeerde rapporten van de Amerikanen zijn en het niet aan Nederland is om deze eigenstandig openbaar te maken. Het klopt wel dat de VS zelf — ik denk dat dat een van de rapporten is die mevrouw Karabulut net omhooghield, maar ik kon dat natuurlijk niet helemaal zien — een gerubriceerde versie van het closure report van Mosul hebben uitgegeven. Dat kunt u ook zien op de website van The New York Times.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg25">Vraag 18. Indien de CENTCOM-rapporten vertrouwelijk zijn, is het dan mogelijk om deze vertrouwelijk in te zien, eventueel gerubriceerd? Ook hier moet ik zeggen dat ik in het debat al heb aangegeven dat dit dus door de Amerikanen geclassificeerde rapporten zijn en dat het niet aan Nederland is om deze eigenstandig openbaar te maken. Deze rapporten kan ik dus ook niet zomaar vertrouwelijk aanbieden zonder de VS daarover te consulteren. Het klopt wel dat er dus een rapport over Mosul is vrijgegeven. Ik zou wel bij CENTCOM kunnen informeren of vertrouwelijke inzage mogelijk is, maar ook hier acht ik de kans zeer klein, want we hebben ook na de afgelopen debatten herhaaldelijk geïnformeerd. Maar ik ben daartoe bereid. De ervaring leert gewoon echt dat men hier zeer terughoudend mee is.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg26">Vraag 19, voorzitter, de een-na-laatste vraag. Hebben andere parlementen van andere coalitielanden wel inzage in de CENTCOM-rapporten? Hier hebben wij geen zicht op. Ik kan natuurlijk deze vraag altijd meenemen in de gesprekken die ik heb met CENTCOM, maar ik heb er geen zicht op.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg27">Dan de laatste vraag. Heeft u CENTCOM verzocht om de rapporten over de Nederlandse aanvallen vrij te geven? Die vraag vervolgt met "zo nee", maar het antwoord is ja. Ja, ik heb dat verzocht. Ik heb u dat bij het antwoord op vraag 12 ook al aangegeven. Ik had dat ook aan uw Kamer beloofd overigens, ik geloof op een vraag van mevrouw Belhaj, maar ik weet dat niet meer helemaal zeker. Na het laatste debat hebben wij gevraagd aan CENTCOM of de ontvangen rapporten openbaar gemaakt kunnen worden. Het antwoord daarop was nee, zoals verwacht. Dit soort rapporten hebben een hoge rubricering en wij kunnen ze niet zelf vrijgeven.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg28">Buiten deze interpellatievragen had mevrouw Karabulut nog één vraag die niet in de interpellatievragen stond: klopt het dat het tweede rapport het After Action Report 15-6 is en wat staat daarin over burgerslachtoffers? Dat vroeg zij net mondeling. Dat klopt. Het antwoord hierop is ja. Dat is dat rapport. Hier staan interne aanbevelingen voor toekomstige wapeninzet in. Ook levert dit rapport een uitspraak op over de mate van waarschijnlijkheid van burgerslachtoffers. De conclusie van dit rapport was wat wij ook in de brief hebben geschreven, namelijk dat het "probable" ofwel aannemelijk was dat er burgerslachtoffers waren gevallen. Ook hier wordt het aantal niet bevestigd.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg29">Dat zijn mijn antwoorden, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u5">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg30">Dank u wel.</seg>
+            </u>
+            <note>De beraadslaging wordt geopend.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u6">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg31">Dan geef ik nu het woord aan mevrouw Karabulut namens de SP.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u7">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg32">Voorzitter. Ik zei het al: dit zaakje stinkt. Laten we eerst het goede nieuws benoemen. Ik ben in ieder geval blij dat de minister erkent dat er twee rapporten zijn en dat het onderzoek naar burgerslachtoffers in Hawija is afgesloten. Zij stelt daarbij dat het aantal burgerslachtoffers niet nauwkeurig vastgesteld kan worden, maar ik zou na alle woordspelletjes — bevestigingen en vervolgens ontkenningen — als eerste van de minister een erkenning willen horen dat er burgerslachtoffers, veel burgerslachtoffers zijn gevallen in Hawija.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg33">Voorzitter. Het tweede wat ik mij afvroeg, is het volgende. Er is over en weer op heel hoog niveau gebeld met CENTCOM, onlangs ook weer, om opheldering te vragen. Kan de minister ons precies vertellen wat in dat gesprek aan CENTCOM is gevraagd en met wie daarover is gesproken? Want, zoals u weet, het eerdere gesprek in dat laatste debat dat wij hierover met de minister-president hadden, leidde tot een briefje vanuit CENTCOM waaruit zou blijken dat het eigenlijk allemaal helemaal niet bevestigd is en dat de eerdere bevestiging tegenover de NOS en de NRC en ook de eerdere bevestiging van deze minister van Defensie dat er burgerslachtoffers zijn gevallen, allemaal weer helemaal vaag waren, dat dat allemaal onbekend was. Want onlangs, nu net, bereikte mij het volgende bericht. In tegenstelling tot wat de minister van Defensie in dit debat beweert, namelijk dat de 70 burgerslachtoffers geen onderdeel zouden zijn van het totaal aantal slachtoffers en dat dat niet zou zijn bevestigd door de Amerikanen, is dat wel het geval. Dat staat nu op de NOS-site.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg34">Voorzitter. Ik wil de minister ook vragen of zij kan bewijzen dat de 70 burgerslachtoffers, zoals die in de grafiek van Defensie, van het Pentagon, zijn genoteerd, inderdaad niet Hawija betreffen. Want ik heb hier het bewijs dat dat Hawija is, Hawija moet zijn — het kan niet anders — op 3 juni 2015, met het aantal van 70 bevestigde doden. Dat zou betekenen dat wij inderdaad, om welke reden dan ook, verkeerd geïnformeerd zijn. Dus als de minister zegt "dit klopt niet", dan wil ik van de minister de onderbouwing horen, en vooral zien, dat dit niet om Hawija in Irak gaat.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u8">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg35">Mevrouw Karabulut en ik hebben wel vaker gesproken over dat aantal van 70. Natuurlijk is ieder slachtoffer er een te veel, maar in oorlogen is het bijna onmogelijk om feitelijk vast te stellen hoeveel mensen er zijn omgekomen. Mevrouw Karabulut poneert hier de stelling dat zij exact weet dat het er 70 zijn en dat dat feitelijk bewijsbaar is. Op basis waarvan?</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u9">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg36">Dit zijn door CENTCOM, door het Amerikaans commandocentrum, bevestigde burgeraantallen. Wat Airwars heeft gedaan — dat bericht heeft u misschien ook wel gekregen en dat kunt u bestuderen — is exact kijken waar die aanvallen waren in die drie maanden. De minister zegt op basis van de piek in die tabel: "Dat klopt niet. Dat is niet Irak. Dat is niet Hawija." Een heel groot deel van de aanvallen was in Syrië. Bij een aantal aanvallen in Irak was er een heel laag aantal: 6, 0 en 0. Bij eentje, op 3 juni, was het aantal 70. Wat zou u dan voor conclusie trekken, meneer Bosman?</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u10">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg37">Mevrouw Karabulut zegt dat CENTCOM exact het aantal van 70 heeft, maar iedere keer geeft CENTCOM aan dat ze dat niet kunnen bevestigen. Dat is een formele uitspraak van een formele organisatie, die iedere keer zegt: we kunnen dat niet formeel bevestigen. Nogmaals, het gaat mij niet om het getal, maar om het feit dat het niet exact dat getal hoeft te zijn om het heel erg te maken. Dat is mijn punt iedere keer. Als mevrouw Karabulut blijft zeuren over die 70 — het moet exact 70 zijn — terwijl er iedere keer door erkende instellingen wordt gezegd dat dat niet te bevestigen is, dan heb ik daar moeite mee.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u11">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg38">Ik vind het echt ongelofelijk wat de heer Bosman doet. Ik zou hier van de heer Bosman nu voor eens en altijd het volgende willen horen. Erkent u dat er vele tientallen slachtoffers — misschien 50, misschien 60, misschien 100, misschien 150 — zijn gevallen? Erkent u dat? En strijdt u er samen met mij voor dat we de feiten boven tafel krijgen, in plaats van een heel rookgordijn op te trekken? Wij willen dat mensen de waarheid te horen krijgen, dat de slachtoffers eindelijk erkenning krijgen en dat de militairen precies kunnen vertellen wat er is gebeurd, in plaats van dat er iedere keer gebeld wordt met CENTCOM en dat onwelgevallige feiten worden verdoezeld. Want dan komen we verder.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u12">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg39">Wat mij begint te storen, is dat mevrouw Karabulut niet luistert. Ik heb namelijk keer op keer gezegd dat er slachtoffers zijn gevallen. Ik heb keer op keer gezegd dat het getal niet is te noemen. Het is inderdaad, zoals de minister ook aangeeft, tussen de 70 en 170. Dat heb ik gewoon gezegd, in ieder debat. Dus als mevrouw Karabulut gewoon eens een keer luistert naar haar collega's en ze niet probeert hen de maat te nemen met allerlei onzin, dan zou dat het debat helpen.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u13">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg40">Ik luister heel goed naar meneer Bosman. Ik luister heel goed. Ik vind het oprecht goed om te horen dat de VVD nu ook de vele tientallen burgerslachtoffers erkent. Ik zou de heer Bosman het volgende willen voorhouden. Eerst is er erkenning. Het wordt meermaals bevestigd op hoog niveau aan de NRC. Vervolgens wordt het bevestigd door de minister. Maar vervolgens wordt het in een later debat met de minister-president, na een belletje, ontkend. Gisteravond kregen wij een brief met een tabel, waarin staat: het is wel 70, maar dat heeft helemaal niks met Hawija te maken; het zit niet in het totale aantal burgerslachtoffers dat door de Amerikanen is bevestigd. Maar nu blijkt dat wel het geval geweest te zijn. Wat zou u daarvan vinden? Als u terugkijkt op dit hele proces, vanaf 2015 tot en met nu, wat vindt u er dan zelf van? Ik luister echt goed naar u, maar we moeten ook eerlijk zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u14">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg41">Goed. De heer Bosman komt straks nog met zijn eigen bijdrage. Tot slot op dit punt.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u15">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg42">Voorzitter, ik werd weer persoonlijk aangesproken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u16">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg43">Ja, dat begrijp ik.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u17">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg44">Alsof de VVD nu pas een erkenning geeft. Dat is onjuist. Dat is wederom onjuist. Dat wil ik even corrigeren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u18">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg45">Dat heeft u gedaan.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u19">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg46">De VVD heeft al veel eerder aangegeven dat we ons hierover zorgen maken, dat de aantallen onbekend zijn en dat ze tussen de 70 en 170 liggen. Dat is niet nu pas gebeurd. Dat is al veel eerder gebeurd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u20">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg47">Dan heeft u dit punt verduidelijkt.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u21">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg48">Dat vind ik in ieder geval prettig. Maar ik baseer me natuurlijk op de uitspraken van nota bene de minister-president, die dit na het laatste debat allemaal afdeed als geruchten. De minister-president, de baas van dit land.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u22">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg49">Meneer Bosman, tot slot.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u23">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg50">Voorzitter. Als mevrouw Karabulut onzin blijft vertellen, blijf ik bij de interruptiemicrofoon komen om te herstellen. Want kennelijk is dat nodig voor mevrouw Karabulut, omdat die onzin iedere keer herhaald wordt, en dat blijft hangen. Dat stoort mij en het is onnodig. Dat doet afbreuk aan wat wij willen bereiken. Het doet afbreuk aan het verhaal van mevrouw Karabulut en het doet onrecht aan de collega's.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u24">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg51">U heeft dit punt duidelijk gemaakt. Ik wil eigenlijk voorstellen ...</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u25">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg52">Voorzitter. Ik wil er alleen maar op wijzen dat die uitspraken in de media te vinden zijn ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u26">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg53">Dat heeft u al gedaan, dus ik stel ...</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u27">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg54">... en dat de teksten van de debatten nagelezen kunnen worden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u28">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg55">Gaat u verder.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u29">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg56">Ik zou toch graag willen dat de minister met de Amerikanen in conclaaf gaat en er alles aan doet om de bestaande rapporten vrij te geven, om voor eens en voor altijd duidelijkheid te krijgen. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat tegenstrijdige mededelingen zijn gedaan over rapporten van CENTCOM over Nederlandse betrokkenheid bij burgerslachtoffers in Hawija, in Irak, in de strijd tegen Islamitische Staat, waardoor onduidelijkheid hierover blijft bestaan;</note>
+               <note>van mening dat er transparantie moet komen over deze CENTCOM-rapporten;</note>
+               <note>constaterende dat allerlei rapporten van CENTCOM eerder vrijgegeven zijn;</note>
+               <note>verzoekt de regering verzoeken in te dienen tot het vrijgeven van de CENTCOM-rapporten over mogelijke betrokkenheid van Nederland bij burgerslachtoffers in Hawija in de strijd tegen Islamitische Staat,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Karabulut. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-35363-1</note>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u30">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg57">Dank u wel, mevrouw Karabulut. Dan geef ik nu het woord aan de heer Kuzu namens DENK.</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u31">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg58">Voorzitter. 1.347 burgerslachtoffers, dat stond net op de NOS-pagina. 1.347 levens die zijn genomen, families die uit elkaar zijn gereten, een grote schande voor de inzet die wij plegen. Het is des te pijnlijker omdat we net een algemeen overleg hebben gehad waarin we de missie, de Nederlandse inzet in Irak, voor de jaren 2020 en 2021 verder verlengen. De Nederlandse inzet heeft niet bijgedragen aan veel goeds. De afgelopen weken, de afgelopen maanden, hebben we veel getouwtrek gezien, veel tegenstrijdige informatie. De zorgen die de fractie van DENK heeft over de wispelturigheid van en de tegenstrijdigheid in de antwoorden van de minister ten opzichte van CENTC0M, ten opzichte van de Amerikaanse inlichtingen, staat nog steeds overeind. Het zijn inderdaad woordspelletjes, zoals mevrouw Karabulut terecht aangaf. Het kan dan misschien zo zijn dat op de kaft van het Closure Report niet staat dat het een Closure Report is, maar we weten niet of het in de inhoud van de rapportage daadwerkelijk gaat om closure.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg59">Nee, ik ben nog niet klaar, maar ik zie meneer Van Helvert staan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u32">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg60">Dat weet ik, maar ik dacht: misschien maakt u uw zin af. De heer Van Helvert.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u33">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg61">Volgens mij is dit interpellatiedebat aangevraagd in het kader van de vraag of de minister de Kamer fout heeft geïnformeerd. We weten inmiddels allemaal al, eigenlijk ook al van tevoren, dat dat niet het geval is. Nu zien we dat een aantal andere zaken naar voren worden gebracht. Nu zegt de heer Kuzu namens DENK dat de Nederlandse inzet in Irak niet veel goeds heeft gebracht. Dan kun je zeggen: als ik er nou niks over zeg, dan vliegt het voorbij, maar ik vind het niet kunnen. Want onze vrouwen en mannen van de krijgsmacht zijn daar als een soort geallieerden mensen, duizenden en duizenden Irakezen, aan het bevrijden geweest. Duizenden mensen. Studenten die nu demonstreren, zijn bevrijd. Vrouwen, christenen, Turkmenen, Koerden, ze zijn allemaal bevrijd, ook dankzij de Nederlanders. Zelfs met het bombardement waar we het nu over hebben, waar helaas zeer waarschijnlijk burgerslachtoffers bij zijn gevallen. Daardoor zijn mensen gered omdat er een wapenfabriek kapot is gemaakt waar anders ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u34">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg62">Goed, ja ...</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u35">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg63">Excuus, mevrouw de voorzitter, u moet nu even ... Dit is namelijk heel ernstig wat hier gezegd wordt. Dus ik wil dit toch even afmaken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u36">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg64">Nou ...</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u37">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg65">Hier wordt dus gezegd dat de inzet van Nederland niet veel goeds heeft gebracht. Duizenden en duizenden mensen zijn bevrijd, ook door onze mensen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u38">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg66">Dat heeft u duidelijk gemaakt.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u39">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg67">Het klopt dat een oorlog geen film is, zoals in een bioscoop, waar Amerika binnenvalt en na 1 uur en 56 minuten de strijd heeft gewonnen. Oorlog gaat met ups en hele diepe downs.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u40">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg68">Dat heeft u duidelijk gemaakt, meneer Van Helvert.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u41">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg69">Maar het kan niet zo zijn dat een Kamerlid hier zegt dat de inzet van Nederland niet veel goeds heeft gebracht als zo veel mensen daardoor gered zijn.</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u42">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg70">De heer Van Helvert weet als geen ander sinds 2003, de war on terror, en vervolgens naar aanleiding van het rapport van de commissie-Davids, dat we met de wetenschap van toen niet hadden moeten ingrijpen. Dat ingrijpen heeft de spiraal van geweld alleen maar verder versterkt en daar plukken we nog steeds de wrange vruchten van. We hebben een regio gedestabiliseerd. We hebben veel families en gezinnen kapotgemaakt door een westerse interventie in het Midden-Oosten. Voorzitter, als dat in deze Kamer niet gezegd mag worden, als ik dat gevoel niet mag uitdrukken, dan ben ik als volksvertegenwoordiger geen knip voor de neus waard. Ik begrijp heel goed dat de heer Van Helvert de inzet die hij destijds wilde plegen, hier moet verdedigen. Maar ik ben hier Kamerlid, ik ben volksvertegenwoordiger, ik maak een andere afweging dan de heer Van Helvert.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u43">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg71">Ja, maar wacht even.</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u44">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg72">En voorzitter, ik wil dit punt toch ook nog gemaakt hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u45">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg73">Dat heeft u gedaan.</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u46">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg74">Ik zag het net ook terug in het woordgebruik van de heer Bosman, namelijk dat een collega wordt beticht van zeuren over burgerslachtoffers, dat er "onzin" wordt verteld en dat soort woordgebruik. Ik vind dat het debat niet waardig. We kunnen hier veel woorden gebruiken, maar collega's ervan betichten dat iets niet gezegd mag worden of dat het op een andere manier gezegd moet worden, dat maakt de heer Bosman erg klein. En de heer Van Helvert zit heel goed in zijn spoor.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u47">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg75">Goed. U krijgt zo het woord, maar ik wil jullie er even aan herinneren dat dit debat een interpellatiedebat is over het onderzoeksrapport van CENTCOM. Ik verzoek jullie allemaal jullie daaraan te houden. U ook, u ook, meneer Van Helvert, u ook, meneer Bosman, en u ook, mevrouw Karabulut. Gaat u verder.</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u48">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg76">De minister gaf net in haar antwoorden aan dat de Nederlandse regering die informatie niet eigenstandig kan vrijgeven. Ik vraag me dan wel af wat dan wél de mogelijkheden zijn. De Verenigde Staten moeten geconsulteerd worden. De minister heeft ook heel duidelijk aangegeven dat ze daartoe een aantal verzoeken heeft gedaan. Wat is de reden voor de Amerikanen om die informatie niet vrij te geven? Daar wil ik wel antwoord op hebben, want misschien hebben we op die manier een ingang om ervoor te zorgen dat de gewenste informatie naar buiten komt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg77">Voorzitter. Ik vind het vreemd en erg opvallend dat zulke belangrijke informatie op zo'n onzorgvuldige manier naar buiten wordt gebracht. Ik hoorde een CENTCOM-woordvoerder heel duidelijk zeggen " Yes. The closure report itself is currently classified. But it did produce a closure report back in august 20th." Dat zijn hele duidelijke woorden. De interviewer vraagt "together with the closure of the investigation?", en de woordvoerder van CENTCOM zegt heel duidelijk "yes". Als ik dan een paar dagen later een brief zie van de minister die aangeeft dat het wat onzorgvuldig was, maakt dat het verhaal er niet geloofwaardiger op. Graag een duidelijk antwoord van de minister.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg78">Voorzitter. Dan kom ik op mijn laatste vragen. De minister heeft verschillende pogingen gedaan om het finale rapport openbaar te krijgen. De minister heeft aangegeven dat zij een verzoek heeft gedaan aan de Verenigde Staten, maar ik vraag me af hoe vaak de minister daarnaar gevraagd heeft. Kan de minister aangeven welke gelijkenis het rapport dat door de woordvoerder van CENTCOM is bevestigd, heeft met het closure report dat is opgesteld voor Mosul? Dat is wel openbaar.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg79">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u49">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg80">Dank u wel. Dan geef ik nu het woord aan mevrouw Van Kooten-Arissen.</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u50">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg81">Voorzitter, dank u wel. Hier staan we weer. Het is het bericht waarvan je wist dat het ging komen. Er was volgens CENTCOM wel een rapport, er waren er zelfs twee, maar minister Bijleveld houdt vol dat er nooit een closure report is opgemaakt over Hawija. Volgens de minister zijn de twee rapporten andere rapporten. Het dreigt wederom een debat te worden met eindeloos getouwtrek om informatie en een minister die steeds verder verstrikt raakt in leugens en verdraaiingen. Op welke verrassingen zal de minister ons vandaag trakteren? Zal zij toch nog een CENTCOM-rapport uit haar bureaula trekken en ronddelen?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg82">Er is gebrek aan openheid, zeer gebrekkige informatievoorziening aan de Kamer, gedraai en een minister die koste wat het kost wil blijven zitten. Steeds wordt er gewezen naar anderen. Nu is het de schuld van de persvoorlichter van CENTCOM, die blijkbaar onterecht zegt dat het eindrapport op 20 augustus 2015 werd afgerond.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg83">De Kamer is zo vleugellam en moet het doen met de informatie die al dan niet wordt aangeleverd. Zal de minister aftreden als we haar betrappen op een leugen of het achterhouden van informatie?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg84">Hoe reageert de minister op het nieuwsbericht van de NOS, waarin staat dat de burgerdoden in Hawija al anderhalf jaar worden meegeteld, zoals nu online staat?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg85">Voorzitter, dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u51">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg86">Dank u wel, mevrouw Van Kooten. Dan geef ik nu het woord aan mevrouw Belhaj, namens D66.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u52">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg87">Voorzitter. De Kamer, in het bijzonder mijn partij en de SP, heeft sinds de aanvang van de missie aangedrongen op transparantie rondom burgerdoden, niet omdat er sprake was van onrechtmatige daad of omdat onze vliegers iets te verwijten valt, maar omdat wij overtuigd zijn van het belang van publieke transparantie en verantwoording over burgerdoden bij militaire missies. Dit hoort bij een volwaardige democratie. Wij pleiten er dan ook voor om die openheid en transparantie te betrachten, ook wanneer het gaat om slecht nieuws.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg88">Voorzitter. Afgelopen week bleek uit het gesprek tussen de journalist van De Nieuws BV en CENTCOM dat er wel degelijk een closure report bestaat. Bovendien geeft CENTCOM in dat gesprek te kennen dat er daarnaast ook nog een AR 15-6-onderzoek is gedaan. Dat laatste is cruciaal. Een Army Regulation 15-6 investigation is een diepgravend, formeel onderzoek. De resultaten daarvan of het bestaan ervan zijn nooit gedeeld met de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg89">Mijn vraag aan de minister is: welke onderzoeken heeft CENTCOM op welk moment met uw ministerie gedeeld? Welke andere onderzoeken zijn er door de Verenigde Staten met uw ministerie inzake Hawija gedeeld? Wist uw ministerie van het bestaan van een Army Regulation 15-6-onderzoek? Waarom hebben wij dat dan niet gekregen?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg90">Het misverstand gaat erover dat u aangeeft dat er twee rapporten zijn, een van augustus en een van januari. Volgens mij gaat dat gesprek tussen CENTCOM en De Nieuws BV over dat onderzoek AR 15-6, dat wel degelijk geclosed is en dus een closure report was en tussen die andere twee rapporten in zat. Mijn vraag is of u dat herkent, want dat is toch wel cruciaal. Niet alleen de Kamer, maar ook alle betrokkenen, de nabestaanden en de gemeenschap in kwestie hebben recht op de waarheid.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg91">CENTCOM heeft meerdere AR 15-6-raporten geopenbaard. CENTCOM heeft eerder meerdere closure reports en onderzoeken naar buiten gebracht. Ik verzoek de minister hierbij om met CENTCOM in gesprek te treden en hen te verzoeken alle rapporten rondom Hawija met de Kamer te delen, al dan niet in vertrouwelijkheid. Hierover ligt er al een motie van de SP.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg92">In aansluiting daarop vraag ik of dat rapport niet gedeeld kan worden omdat het geen closure report is. Wat is dan de reden dat er geen closure report is? Is dat omdat Nederland zelf nog informatie moet aandragen? De Amerikanen zijn ontzettend zorgvuldig met zulk soort zaken. Nota bene bij zo'n ernstige zaak wordt ervoor gekozen om niet te closen en dat geeft een ongemakkelijk gevoel.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg93">Ik heb dan ook de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het CENTCOM heeft geoordeeld dat aanvullend onderzoek nodig was, maar dat het CENTCOM uiteindelijk nooit is gekomen tot een closure report;</note>
+               <note>overwegende dat wanneer er sprake is van een vermoeden dat er burgerslachtoffers zijn gevallen, CENTCOM het onderzoek afsluit met een finaal rapport, het zogenaamde closure report;</note>
+               <note>verzoekt de regering bij CENTCOM te verzoeken alsnog te komen tot een zogenaamd closure report,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Belhaj. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-35363-2</note>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u53">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg94">Dank u wel, voorzitter. Daarmee pleit ik er dus eigenlijk bij de minister voor om de Kamer nog meer duidelijkheid te geven over het proces. Om welke reden wordt dat nu niet geclosed? Dat is gewoon heel vreemd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u54">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg95">Dank u wel.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u55">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg96">Graag gedaan, voorzitter. Ik ben blij dat u het waardeerde.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u56">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg97">Goed. Dan geef ik nu het woord aan mevrouw Diks namens GroenLinks.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u57">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg98">Dank u wel, voorzitter. Vandaag praten we al voor de derde keer in twee maanden tijd over het Nederlandse bombardement op Hawija, waarbij waarschijnlijk — dat is nog onduidelijk — meer dan 70 burgerslachtoffers zijn gevallen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg99">Als ik goed luister naar de antwoorden van de minister, dan stelt zij dat het handelen van CENTCOM niet de schoonheidsprijs verdient. En dát ben ik met haar eens. Ik wil de minister vragen wat er nu in vredesnaam aan de hand is met de informatie-uitwisseling tussen CENTCOM en het ministerie van Defensie. CENTCOM was en is immers verantwoordelijk voor het onderzoeken van alle gevallen van mogelijke burgerslachtoffers die veroorzaakt zijn door ingrijpen van de coalitie. Eerder kregen journalisten al onjuiste informatie van CENTCOM, en nu lijkt dat weer gebeurd te zijn met de mededeling dat er een definitief rapport zou zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg100">Het komt op mij allemaal behoorlijk onzorgvuldig en chaotisch over. Of moet ik het misschien zo begrijpen dat CENTCOM het Nederlandse ministerie van Defensie niet serieus genoeg neemt om het ook adequaat te informeren? Waarom heeft het ministerie van Defensie niet aangedrongen op een definitief rapport nadat van CENTCOM de mondelinge mededeling kwam dat het hierbij zou blijven? Ook — onbevestigd — ging het waarschijnlijk om grote aantallen doden. Kan de minister reageren op de uitlatingen van kolonel Myles Caggins, de woordvoerder van de anti-ISIS-missie, die nu, as we speak, aan NOS en NRC bevestigt dat CENTCOM die 70 burgerdoden in Hawija al jaren meetelt?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg101">Wat betekent deze rommelige gang van zaken voor de toekomst? Vindt de minister zelf dat ze nog op informatie vanuit CENTCOM kan vertrouwen? Wat GroenLinks betreft moeten we lessen leren uit deze verschrikkelijke casus en in de toekomst betere afspraken maken over het delen van informatie en het doen van onderzoek naar voorvallen in onze internationale coalities. Dat moet om recht te doen aan de slachtoffers en hun nabestaanden in Hawija, maar ook vanwege de verlenging van de anti-ISIS-missie, waarover de Kamer later vandaag nog te spreken komt. Cruciaal daarbij zijn heldere afspraken over een duidelijke informatievoorziening tussen de coalitiepartners. Als Nederland besluit zijn militairen in te zetten in een coalitie, dan moet die goede informatie-uitwisseling tussen coalitiepartners klip-en-klaar zijn. De Kamer, het ministerie van Defensie en vooral de uitgezonden militairen en hun thuisfront moeten daarop kunnen vertrouwen. Om dat te borgen dien ik een motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat inzake de burgerslachtoffers die zijn gevallen bij het Nederlandse bombardement op Hawija verwarrende en onvolledige informatie is verstrekt door CENTCOM, waaronder het nalaten van het opstellen van een definitief rapport;</note>
+               <note>overwegende dat het van elementair belang is dat Nederland bij militaire inzet in het verband van een internationale coalitie altijd moet kunnen rekenen op tijdige en correcte informatie vanuit de centrale leiding van die coalitie;</note>
+               <note>verzoekt de regering bij militaire inzet in coalitieverband voortaan heldere afspraken te maken over het onderzoeken van, en rapporteren over, incidenten waarbij Nederland was betrokken, dienaangaande altijd schriftelijke conclusies op te stellen en deze met de Kamer te delen, en actief op de naleving van deze afspraken toe te zien,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Diks. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-35363-3</note>
+            </u>
+            <note>Dank u wel.</note>
+            <note>Dan geef ik nu het woord aan de heer Van Helvert namens het CDA.</note>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u58">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg102">Dank u wel, voorzitter. Wij hebben inderdaad al heel wat debatten gevoerd over de militaire inzet van Nederland in de nacht van 2 op 3 juli 2015. We hebben debatten gehad over burgerslachtoffers. Daarin heeft de minister excuses aangeboden voor de communicatie daarover in het verleden richting de Kamer. Er zijn ook lessen getrokken op het gebied van de transparantie. Dat is heel goed. Het is ook goed dat de minister inzake transparantie gelijk de daad bij het woord heeft gevoegd.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg103">Nu ontstond er verwarring door een interview dat een woordvoerder van dat heel grote instituut CENTCOM had met een Nederlandse journalist. De woordvoerder sprak daarin over een afsluitend rapport van CENTCOM over de Nederlandse inzet en de burgerdoden in de nacht van 2 op 3 juni 2015. Navraag leverde overigens direct op dat dat een onjuiste woordvoering was van CENTCOM en dat de minister dus niet verkeerd geïnformeerd had. Dat was de reden van dit debat, en daarmee is er in ieder geval gelijk duidelijkheid geschapen. Dat zien we ook bij alle woordvoerders, die overigens wel nog heel boos of ontevreden zijn over een heleboel andere dingen in dit debat. Dat mag ook. Maar waar het debat voor is gevraagd, is geen onduidelijkheid meer over: de minister heeft niet fout geïnformeerd.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg104">Als CENTCOM verkeerd communiceert, dan is dat heel erg slecht en buitengewoon vervelend, voor de nabestaanden, maar ook voor onze piloten, en ook voor de Kamer, want wij moeten het controleren. Dat is geen verantwoordelijkheid van de minister, maar het is wel vervelend. Als CENTCOM eist dat rapporten vertrouwelijk zijn, dan kunnen we het daar niet mee eens zijn, maar dan kun je niet van het kabinet vragen om dat toch te doen. Als CENTCOM terugkomt op eerder gedane uitspraken, voor de tweede keer nu ... Een kolonel heeft dat namelijk een keer gedaan, en nu heeft een woordvoerder iets verkeerd gezegd. En twee keer moet CENTCOM zeggen: o, dat was niet de bedoeling. Als CENTCOM terugkomt op eerder gedane uitspraken, dan is dat heel vervelend en heel slecht, maar dan kun je dat niet het kabinet kwalijk nemen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg105">Ik vind wel dat wij als Kamer aan CENTCOM kunnen laten weten dat wij heel erg ontstemd zijn over de wijze waarop zij communiceren over dit soort zaken. Want als zij fout communiceren over rapporten waarbij burgerdoden betrokken zijn, dan moet daar buitengewoon nauwgezette communicatie over zijn. Dat hebben wij geëist van onze minister — zij heeft er ook excuses voor aangeboden dat dat destijds niet gebeurd is — maar dat eisen we ook van CENTCOM. Ik zou dus aan de Voorzitter willen vragen of de Voorzitter bereid is om namens de Kamer een brief te sturen aan CENTCOM, om CENTCOM te laten weten dat de Tweede Kamer het buitengewoon belangrijk vindt dat als er rapporten zijn die betrekking hebben op de Nederlandse inzet waarbij burgerdoden betrokken zijn, wij dan zeer nauwkeurige communicatie eisen. Ik wil vragen hoe de Voorzitter van de Kamer daartegenover staat.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg106">Voorzitter. Ik dank de minister voor de gegeven antwoorden. Ik denk dat het goed is dat we helder hebben dat er niet fout gecommuniceerd is. Ik denk dat we wel nog het onderzoek afwachten dat de minister heeft toegezegd in het vorige debat en dat samenhangt met de tegemoetkoming aan de nabestaanden, want het is heel belangrijk dat dat gebeurt.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u59">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg107">Ik zou toch graag van de heer Van Helvert willen horen wat hij van het volgende vindt. Hij zegt dat de minister niet verkeerd heeft geïnformeerd. Maar nu blijken er twee rapporten te zijn, waarvan eentje een rapport is met een hele uitgebreide rapportage in een hele zware vorm, terwijl afgelopen keer, in het laatste debat, de minister-president en de minister aangaven dat het helemaal niet vast te stellen was, onduidelijk was et cetera et cetera. Wat vindt de heer Van Helvert ervan dat er nu door de Amerikanen luid en duidelijk wordt gezegd: "Dat klopt. Het aantal zit ook in het totaal aantal burgerslachtoffers"? Wat vindt hij van deze gang van zaken?</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u60">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg108">Ik zie in de gang van zaken dat CENTCOM informatie geeft aan het ministerie. Op basis daarvan nemen wij besluiten. Overigens niet alleen Nederland, maar meerdere landen maken veel, of eigenlijk alleen maar gebruik van de informatie van CENTCOM. Mevrouw Karabulut haalt er ook andere bronnen bij, waarvan CENTCOM zegt: die kennen wij, maar die kunnen wij niet verifiëren. Dan kan het nog steeds zo zijn dat die bronnen bestaan, maar zolang ze niet te verifiëren zijn, kunnen wij die hier in de Kamer en ook op het ministerie niet gebruiken als zijnde de waarheid. Het is uiteraard de keuze van de SP zelf om het hier te blijven verkondigen als de volledig geldende waarheid. Dat mag, maar als dan dezelfde SP woorden in de mond neemt als "woordenspelletjes", dan vind ik dát daar wel een voorbeeld van. Want de minister zegt klip-en-klaar, heel duidelijk: "Wij krijgen informatie van CENTCOM. Wij zijn daar ook afhankelijk van, en op basis daarvan maken wij afwegingen".</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u61">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg109">Ik verkondig hier echt helemaal niks. Het enige wat ik noem en voorhoud, zijn cijfers en tabellen met een piek in juni 2015 in Irak van CENTCOM zelf. Ik verzin het niet. Ik verkondig helemaal niks. Ik wil het gewoon duidelijk krijgen. Het is later ontkend. Nu wordt het bevestigd. Ik zou de heer Van Helvert willen vragen of hij het met mij eens is dat we in eerste instantie helder moeten krijgen wat er in de bestaande rapportages staat. We moeten erop aandringen dat het kabinet daar werk van maakt. We moeten ook weten op welk moment en met wie daarover contact is geweest bij CENTCOM. We moeten helder hebben wat de inzet van het kabinet is. Is de heer Van Helvert dat met mij eens?</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u62">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg110">Nee, ik ben dat niet met mevrouw Karabulut eens. CENTCOM heeft inderdaad veel openbare bronnen aangehaald, met pieken erin en zelfs met cijfers van het aantal burgerdoden, maar het heeft er tegelijkertijd bij gezegd: die zijn niet verifieerbaar voor ons, dus wij geven deze conclusie door aan de minister van Defensie in Nederland, en die conclusie is dat er zeer waarschijnlijk burgerdoden zijn gevallen, maar dat niet vast te stellen is hoeveel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u63">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg111">Uw derde vraag, mevrouw Karabulut.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u64">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg112">Maar dit zijn gewoon door CENTCOM vastgestelde aantallen burgerslachtoffers. Dat het allemaal niet tot op de komma nauwkeurig is en dat zij een bepaalde werkwijze hanteren, is vers twee, maar dit zijn vastgestelde aantallen burgerslachtoffers die zij, juist voor de coalitiepartners, rapporteren. Het is de verantwoordelijkheid van ons land, van Nederland, om daarover te publiceren en te communiceren. Of wil de heer Van Helvert hier nu stellen dat ook het Pentagon onjuiste informatie verspreidt en dat het het Pentagon is dat ons mogelijk desinformeert?</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u65">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg113">Op basis van een aantal bronnen — openbare bronnen, onderzoek dat ze zelf kunnen doen — geeft CENTCOM een conclusie door aan de minister van Defensie, aan het kabinet van Nederland. Daar liggen heel veel bronnen aan ten grondslag die cijfers noemen, die pieken en dalen geven, die aantallen slachtoffers geven. Vervolgens zegt CENTCOM: een aantal daarvan kunnen wij verifiëren en een aantal niet, en dit is onze conclusie. En ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u66">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg114">Dank u wel.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u67">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg115">... op basis van die conclusie neemt het kabinet een besluit. Die bronnen zijn er dus wel, maar CENTCOM zegt: we kunnen ze niet verifiëren. Als ze ergens in een rapport bepaalde cijfers zien en als het kabinet daarna vraagt of ze die kunnen verifiëren, of ze kunnen vaststellen hoeveel burgerslachtoffers er zijn, zegt CENTCOM op basis van hun eigen stukken: nee, dat kunnen we niet. Dan pakken wij de eindconclusie van CENTCOM, waar het vaakst naar gekeken is, als conclusie; gelukkig doet de minister dat ook. Dat vind ik ook heel terecht.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u68">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg116">Dank u wel, meneer Van Helvert. Dan geef ik nu het woord aan de heer Kerstens namens de PvdA.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u69">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg117">Dank u wel, voorzitter. Soms kan je aan de buitenkant niet meteen zien of er sprake is van een welbewuste strategie of van een aaneenschakeling van knulligheden. Maar het moet gezegd: als je in korte tijd als minister drie keer hier moet komen opdraven, ziet dat er zonder meer knullig uit. Nu weer is de minister hier omdat onduidelijk is of er nou wel of niet een definitief rapport over de aanval op Hawija is en wat dat wel of niet zegt over het vermoedelijke aantal burgerslachtoffers dat daarbij valt te betreuren. Eerst was er wel zo'n rapport, toen weer niet, nu misschien toch weer wel, of toch niet. Eerst werden wel aantallen slachtoffers genoemd, ook door de minister zelf, toen weer niet, daarna weer wel, of toch niet.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg118">Wat zegt het dat daarover blijkbaar zo'n verschil van inzicht is tussen de Amerikaanse krijgsmacht, tussen CENTCOM, en de onze? En als het geen verschil van inzicht is, is er in ieder geval veel miscommunicatie, met een woordvoerder die tot op de dag van vandaag volhoudt dat er 70 slachtoffers zijn gevallen, terwijl de minister zegt dat het aantal niet kan worden vastgesteld. Blijkbaar zegt een aantal hoge militairen uit de Amerikaanse krijgsmacht dat het Amerika is dat juist door een aantal bondgenoten onder druk is gezet om maar geen details van aanvallen naar buiten te brengen, terwijl de minister beweert dat het CENTCOM is dat op z'n rapporten zit en die niet vrijgeeft.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg119">Over het verstrekken van die rapporten door CENTCOM aan de Nederlandse defensie, in vertrouwelijkheid, heeft de minister overigens aangegeven dat zij de Verenigde Staten daar best eens over zou kunnen consulteren. Mijn vraag is dan: waarom heeft de minister dat niet gedaan in de afgelopen tijd, waarin er zo veel onduidelijkheid was? Is ze bereid om dat alsnog te doen?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg120">Voorzitter. Informatie over aanvallen tijdens missies, over wie die waar uitvoerden en of daar slachtoffers bij zijn gevallen, zijn inmiddels op allerlei plekken op het internet en in de krant te vinden, onder meer op de website van CENTCOM zelf. Ook als daaruit valt af te leiden dat Nederland bij zo'n aanval betrokken is, lijkt het erop alsof Defensie tot op de dag van vandaag zijn kaken stijf op elkaar houdt. Dat is wat mij betreft moeilijk te rijmen met de grotere transparantie die de minister hier bij elke gelegenheid zegt voor te staan. Hoe vaker de minister zegt hoe transparant ze wel niet is, hoe meer onduidelijkheid er lijkt te bestaan. Dat is natuurlijk geen uitnodiging om weer minder transparant te zijn, maar het is wel een oproep om de daad bij het woord te voegen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u70">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg121">Dank u wel, meneer Kerstens. Dan geef ik nu het woord aan de heer Stoffer namens de SGP.</seg>
+            </u>
+            <u who="#ChrisStoffer" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u71">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg122">Voorzitter. In de nacht van 2 op 3 juni 2015 is er Nederlandse wapeninzet geweest in Hawija. Volgens mij is het heel helder dat het zeer waarschijnlijk is dat daarbij burgerslachtoffers zijn gevallen. Dat is vreselijk. De vraag die vanmiddag voorligt is: is daar door CENTCOM wel of niet een closure report over opgesteld? Mevrouw Karabulut zegt bijna zeker te weten van wel en de minister zegt van niet.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg123">Er zijn veel vragen gesteld door collega's. Ik ben erg benieuwd naar de antwoorden die dadelijk komen. Ik zou daar de volgende vraag aan willen toevoegen: stel dat dit rapport er wel zou zijn — ik zeg daarmee niets over of het er wel of niet is — wat zou dan het verschil zijn? Wat zou dit uitmaken? Wat zou er dan spelen? Ik hoop dat de minister daar antwoord op kan geven. Daar laat ik het bij.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg124">Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u72">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg125">Dank u wel, meneer Stoffer. Dan geef ik nu het woord aan de heer Bosman namens de VVD.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u73">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg126">Voorzitter. Daar staan we weer, maar we doen het ook zelf. We vragen het zelf aan. We hadden ook gewoon een brief kunnen vragen. Volgens mij ligt er een heel duidelijke en heldere brief met antwoorden. Als je terugkijkt naar wat we nu bespreken, dan staat dit feilloos in de brief. Maar goed, dat is een keus van de Kamer. De meerderheid heeft erom gevraagd, dus staan we hier weer. We moeten niet doen alsof het opeens ontstaat. Nee, dat doen we zelf. We zijn er zelf verantwoordelijk voor.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg127">Voorzitter. CENTCOM heeft een verantwoordelijkheid.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u74">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg128">Het staat natuurlijk ieder Kamerlid vrij om opmerkingen te maken over het type debat, maar ik heb bijna de indruk dat de heer Bosman niet heeft begrepen waarom we hier in een keer staan. Er is namelijk een bericht naar buiten gekomen, waarin onder andere wordt gesproken over het rapport waarover ik vragen heb gesteld aan de minister, dat AR 15-6-rapport. In dat verslag van de journalist over CENTCOM wordt ernaar verwezen dat dit een closure report was. Ik vind dit een legitieme reden om er hier het debat over te voeren. Bent u het met me eens dat we die informatie niet eerder hadden en dat het buitengewoon relevant is om die antwoorden alsnog te krijgen?</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u75">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg129">Ik zeg alleen dat we dit prima via een brief hadden kunnen doen. Dat is het enige wat ik zeg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u76">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg130">Maar het debat is al afgesproken en u doet mee. Dus ik zou zeggen: kom!</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u77">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg131">Ja, dus ik doe gewoon mee.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u78">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg132">Ik maak nog even de opmerking af. Die brief hebben we gekregen, maar het rapport waar ik nu aan refereer, staat niet in die brief. Dus er is hoe dan ook alsnog reden om dit debat te voeren en deze vragen te stellen, maar blijkbaar vindt u van niet.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u79">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg133">Gaat u verder.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u80">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg134">Het is goed als CENTCOM met eenduidige informatie komt. Ik ben blij dat de minister dat ook aangeeft en dat ook heeft gemeld aan CENTCOM. Het is handig voor de communicatie, maar het is inderdaad — zoals eerdere collega's al hebben gezegd — beter voor een ieder dat we over dezelfde definitie spreken: wat voor een rapport is het, waar komt het rapport vandaan en hoe wordt het rapport beoordeeld?</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u81">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg135">Het is natuurlijk overbodig te vermelden dat het ieder Kamerlid vrijstaat om niet aan debatten deel te nemen. Toch ben ik heel blij dat de heer Bosman hier staat, want ik zou graag een reactie van de heer Bosman willen krijgen op de uitlatingen van de minister-president na het laatste debat, dat de 70 burgerslachtoffers een gerucht zijn en dat het geen relevant getal is; zeker nu een woordvoerder van het Amerikaanse CENTCOM, het hoofdkwartier, heeft bevestigd dat de 70 burgerdoden al zeker anderhalf jaar worden erkend en meegeteld in de statistieken.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u82">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg136">Nu gaan er wel heel veel dingen door elkaar heen. In principe is er een brief van CENTCOM gekomen waarin staat dat het geen vaststaand getal is. Die is gewoon van CENTCOM gekomen. Sterker nog, in het laatste debat en in de mail is duidelijk erkend dat het geen vaststaand getal is. Maar wat mij stoort, is het volgende. Ik vind het jammer dat we hier het debat voeren over de aantallen. Want met het noemen van een aantal doe je alsof dit een hele klinische operatie is. Dit is veel erger dan een klinische operatie. Ieder slachtoffer is er één te veel. Of het er nou 70 of 170 zijn, het zijn er te veel. Maar door te doen alsof het er exact 69 zijn, of 70, of 71, maken we er een klinisch verhaal van. Ik ben daar serieus op tegen. Sterker nog, iedereen zegt: er is geen hard getal te noemen. Alleen mevrouw Karabulut heeft harde cijfers.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u83">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg137">Een laatste opmerking of een laatste vraag.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u84">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg138">Even voor de duidelijkheid: ik stel helemaal niks. Ik citeer de minister-president en ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u85">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg139">U mag het verduidelijken.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u86">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg140">Ik citeer de minister-president en CENTCOM. CENTCOM had een briefje voor de minister-president geschreven waarin ze het ontkenden, en nu bevestigen ze het weer. Wat vindt u daarvan? Wat vindt u van de uitlatingen van de minister-president, die inderdaad over dit hele grote incident spreekt als een gerucht en geen relevant getal?</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u87">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg141">Exact hetzelfde. Daarin steun ik de minister-president, die zegt: jongens, het gaat om slachtoffers. De discussie over de cijfers, mevrouw Karabulut blijft het maar doen. En dat stoort mij echt mateloos. Dit is gewoon een discussie die je op die manier niet moet voeren. De essentie is: er zijn slachtoffers gevallen. Natuurlijk zijn er slachtoffers gevallen. Dat hebben wij ook erkend, meerdere malen. In 2018 is er al een brief over gekomen vanuit het Openbaar Ministerie. Er is onderzoek naar gedaan, er is onderzoek gedaan naar de rechtmatigheid. Gelukkig spreekt iedereen in de Kamer ook uit dat het rechtmatig was, dat de vlieger niets te verwijten valt. En dat is essentieel in dit verhaal.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u88">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg142">Oké, dan stel ik voor dat u verdergaat. Nee, nee, nee, mevrouw Karabulut. Nee.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u89">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg143">Dan sluit ik af met het verhaal dat ik hier heb neergezet. Er is niemand die ontkent dat er slachtoffers zijn gevallen, maar een exact getal is niet te geven. En dat is vaak het geval in een inzetgebied. Het is naïef om te denken dat er altijd exacte getallen te geven zijn van slachtoffers. Sterker nog, dat is het meest verdrietige en het meest erge in een situatie: dat je geen duidelijkheid kan geven over de hoeveelheid slachtoffers die zijn gevallen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg144">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u90">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg145">Mevrouw Diks heeft een vraag.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u91">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg146">Dank u wel, voorzitter. Die heb ik zeker aan de heer Bosman. Zojuist heb ik in mijn eerste termijn aangegeven dat kolonel Caggings, nu de woordvoerder van de anti-ISIS-missie, heeft gezegd dat CENTCOM al jaren die 70 burgerdoden in Hawija meetelt. Ik ben dus benieuwd hoe u daarnaar kijkt. Hoe beoordeelt u die opmerking van kolonel Caggings?</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u92">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg147">Ik baseer mij op de informatie die ik feitelijk heb gekregen van CENTCOM. In het laatste debat is er gewoon een brief gekomen waarin staat hoe zij daarmee omgaan, dat ze niet met absolute zekerheid kunnen stellen dat die 70 er zijn. Ik weet niet wie deze kolonel is, waar hij kennis van heeft en waar ...</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u93">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg148">Dat is de woordvoerder van de missie. Dat is dus niet onbelangrijk.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u94">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg149">Maar volgens mij is CENTCOM in principe degene die over de woordvoering gaat. Toch? Onze woordvoerder van de VVD zegt ook niet wat GroenLinks moet denken. Toch? Het zou wel helpen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u95">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg150">U dwaalt een beetje af. Mevrouw Diks, uw tweede vraag.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u96">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg151">De tweede vraag die ik aan de heer Bosman heb, luidt: hoe beoordeelt u vanuit uw positie de samenwerking tussen CENTCOM en het ministerie van Defensie?</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u97">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg152">Ik ben heel blij dat de minister heel duidelijk aangeeft, ook richting CENTCOM: jongens, als je informatie geeft, aan wie dan ook, gebruik overal dezelfde tekst voor hetzelfde rapport. Want er is niks zo vervelend als wanneer iemand denkt "joh, dit is het laatste rapport; laat ik het maar een final report noemen", terwijl de volgende zegt: iemand heeft "final report" gezegd, maar we kunnen het ook wel een closure report noemen. Ik vind het storend als we dat soort definities door elkaar gaan halen. Ik weet dat collega's daartoe ook hebben opgeroepen in een motie, maar volgens mij heeft de minister het al aangegeven</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u98">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg153">Mevrouw Diks.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u99">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg154">Ik had nog een vervolgvraag, en die wil ik ook graag stellen. Heeft u het idee, vraag ik aan de heer Bosman, dat het Nederlandse ministerie van Defensie serieus wordt genomen door CENTCOM?</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u100">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg155">Ja, dat denk ik wel.</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u101">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg156">Ik dacht even: moet ik nou wel of niet interrumperen? Waarom staat meneer Bosman hier met zo'n hoerastemming iedereen de les te lezen? Dat begrijp ik niet helemaal. Degene die geciteerd wordt in het artikel is de woordvoerder van het Amerikaanse CENTCOM, kolonel Myles Caggings. Hij zegt: de internationale coalitie telt ongeveer 70 doden uit 2015. Dat aantal wordt al zeker achttien maanden meegeteld. Waarom kan de heer Bosman daar niet gewoon antwoord op geven? Het klopt gewoon niet wat hier gebeurt.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u102">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg157">Voorzitter, allereerst sta ik hier niet met een hoerastemming. Laten we dat even afspreken met elkaar. Ik sta hier niet met een hoerastemming. Ik sta hier niemand de les te lezen. Maar het interessante is nu dat mevrouw Van Kooten-Arissen zegt "dit is de woordvoerder van CENTCOM", terwijl mevrouw Diks zegt: nee, die is van de missie. Wie is het nu? Is hij nou van de missie of van CENTCOM? Kunt u even duidelijkheid geven? Want ik mis het even.</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u103">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg158">Ten eerste staat de heer Bosman wel iedereen hier de les te lezen en dus te vragen naar de relevantie van het hele debat. Vervolgens staat hij de woordvoerders de les te lezen. Als u zelf het artikel had kunnen lezen, of willen lezen, dan had u in de inleiding gelezen dat er staat: "toch stelt een woordvoerder van het Amerikaanse CENTCOM ..." En dan later, in de vijfde alinea staat ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u104">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg159">Is het een artikel, is het een stuk? Geef dan een kopie.</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u105">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg160">Ja, het is gewoon het NOS-artikel. De Amerikaanse woordvoerder van de missie in Bagdad, dezelfde waaraan in de inleiding wordt gerefereerd, zegt dat. Dat is de heer Myles Caggings. Het is heel duidelijk. Daar had de heer Bosman gewoon kennis van kunnen nemen, net als wij allemaal, en hij had gewoon antwoord daarop kunnen geven.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u106">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg161">Ik heb namelijk kennisgenomen van een bericht van CENTCOM. Een formeel bericht van CENTCOM is gewoon hier plenair in deze zaal behandeld. Het is aan alle deelnemers hier aanwezig gegeven. Daarin zegt CENTCOM gewoon: we zijn niet duidelijk en we hebben geen absolute cijfers over de hoeveelheid slachtoffers. Dat bericht komt gewoon van CENTCOM. Dus nogmaals: als mensen dit zeggen, vind ik dat prima. Maar dan neem ik aan dat er nog een bericht komt van CENTCOM, waarmee ze dat even gaan herstellen. De officiële berichtgeving hebben we hier plenair gehad.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u107">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg162">Het gaat om een nieuwsbericht, begrijp ik, dat om 16.00 uur is verschenen. Kennelijk heeft niet iedereen dat nodig. Ik sowieso niet.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg163">Dan geef ik nu het woord aan de heer De Roon namens de PVV.</seg>
+            </u>
+            <u who="#RaymonddeRoon" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u108">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg164">Voorzitter, dank u wel. Er is geen finaal CENTCOM-rapport opgemaakt over de Nederlandse luchtaanval op een IS-bomfabriek in Irak, waarbij een hele woonwijk compleet is weggevaagd. Het aanvullende en tweede onderzoek inzake het targetingproces van CENTCOM was ook meteen het laatste dat er is geproduceerd daar. Wat er niet is, dat is er niet. Het ontbreken van een eindrapport, van een closure report moet ik zeggen, kun je betreuren of niet, maar daar houdt het dan ook mee op. De procedures bij CENTCOM laten het nu eenmaal open of er al dan niet een closure report wordt opgemaakt. Tot zover het standpunt van de minister zoals ik het begreep.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg165">Over het aanvullend rapport over het targetingproces heb ik nog wel een paar vragen. In de eerste plaats: waarom is dat aanvullend rapport pas op 22 januari 2016 naar Defensie gestuurd, terwijl het al op 20 augustus 2015 werd opgemaakt? Hoe verklaart de minister dat verschil?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg166">De tweede vraag is: wanneer — en dan bedoel ik op welke datum — werd de minister op de hoogte gebracht van het feit dat er geen finaal CENTCOM-rapport is opgemaakt en dat het aanvullend onderzoek naar het targetingproces dus het laatste stuk was?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg167">Ten derde, is het aanvullende CENTCOM-onderzoek net als het initiële onderzoek in januari/februari 2016 met het OM gedeeld? En waarom staat daar nou niks over vermeld in het feitenrelaas van 5 november?</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg168">Voorzitter. Er is iets meer duidelijkheid gekomen over de CENTCOM-rapporten, maar ik vraag me nog steeds af waarom dit allemaal zo verschrikkelijk lang heeft moeten duren. Dat is toch echt een vraag die wel blijft hangen. De PVV vindt dat getreuzel een slechte en schadelijke zaak, niet alleen voor de informatievoorziening aan de Kamer, die maar blijft haperen, maar ook voor de reputatie en de uitstraling van onze krijgsmacht. En dat is iets dat blijft knagen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg169">Voorzitter. Het totaalplaatje levert nog steeds geen geruststellend positief beeld op. Integendeel, nog steeds heerst er bij de PVV een gevoel van wantrouwen en onbehagen. Dat is er allereerst met betrekking tot het slechte geheugen van de premier, maar daarnaast is het ook nog steeds buitengewoon ongeloofwaardig dat niet te achterhalen valt hoe die dubbele leugen van mevrouw Hennis nou eigenlijk tot stand is gekomen. Uit dit dossier blijft een onwelriekende geur opstijgen, oftewel: het stinkt nog steeds, dat hele zaakje.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg170">Mevrouw Karabulut komt vandaag dus met een motie, waarin zij de minister vraagt om bij CENTCOM langs te gaan en te vragen of wij alsnog inzage in die rapporten kunnen krijgen, wellicht het hele publiek, maar wat mij betreft in ieder geval de Kamerleden. Misschien levert dat niks op aan nieuwe inzichten, maar misschien ook wel. Maar als je het hebt gezien, weet je in ieder geval precies waar je staat bij de beoordeling van rapporten die je tot nu toe nog steeds niet hebt kunnen zien. Dus dat is de reden waarom ik zou zeggen: ik ga mijn fractie adviseren om de motie van mevrouw Karabulut te steunen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg171">Voorzitter, hier laat ik het bij. Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u109">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg172">Dank u wel, meneer De Roon. Dan geef ik tot slot het woord aan de heer Voordewind namens de ChristenUnie.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u110">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg173">Dank u wel, voorzitter. Ik vind de discussies die wij voeren inmiddels ook wel verwarrend. Nu net meldde de NOS weer drie bronnen te hebben die zouden beweren afkomstig te zijn van CENTCOM en dat er wel degelijk 70 slachtoffers zouden zijn gevallen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg174">Voorzitter. Ik onderschrijf ook de e-mail van 20 november, die wij hier bij het eerdere debat rondgestuurd hebben gekregen. Daarin staat dat rechtstreeks door CENTCOM is gemeld dat ze het getal van 70 slachtoffers weliswaar uit externe bronnen of openbare bronnen hebben gekregen, maar dat ze dat aantal nooit zelf hebben kunnen bevestigen. We hebben het dan dus niet over bronnen van bronnen van media en zelfs niet over een bron van deze minister. Dit is een rechtstreekse e-mail geweest van CENTCOM. Als dat nou rechtstreeks van CENTCOM komt en niet via via, dan denk ik dat dat helder is.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg175">Dan hebben we nog twee laatste vragen, die nu weer opspelen. Is er nou een closure report geweest of niet? De minister zegt: dat is er niet geweest. We hebben het rapport van 22 januari gehad, maar we hebben ook mondeling te horen gekregen dat dat gezien moet worden als een closure report. Nou, dat zegt de minister. Ik neem aan dat de minister daar ook een bron voor heeft of een mail over heeft gehad. Als de Kamer dan zelf een salomonsoordeel wil vellen, dan zouden we zelfs die mail nog kunnen krijgen en dan krijgen we 'm rechtstreeks van CENTCOM.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg176">Dan blijft het laatste punt over, namelijk of die 70 nou wel of niet in de tabel van CENTCOM zijn opgenomen. Daar blijkt ook nog weer onduidelijkheid over. Misschien kan in diezelfde mail van CENTCOM ook naar de Kamer gestuurd worden of het er nou wel of niet bij zat, want anders krijgen we hier geen helderheid over. Maar over die 70 hebben we heel expliciet een directe mail gehad.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u111">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg177">Een korte vraag aan de heer Voordewind. Ik was eigenlijk wel benieuwd waarom de heer Voordewind de officiële militaire woordvoerder van de anti-ISIS-missie een vage bron noemt.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u112">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg178">Ik heb geen rechtstreekse mails of contacten met deze woordvoerder. Ik lees dat in de media, maar ik heb wel rechtstreeks een mail gehad van CENTCOM, waarin gezegd wordt dat die 70 een openbare bron was, maar dat dat door CENTCOM nooit bevestigd kon worden. Nou, dat is een rechtstreekse bron. Die andere berichten die ik nu ook in de media lees ... Ja, daar moet ik maar van uitgaan dat die zo ... Dat kan uit een stenografisch verslag zijn geweest et cetera, maar ik heb daar geen rechtstreeks informatie over.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u113">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg179">Dank u wel, meneer Voordewind. Volgens mij was u klaar.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u114">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg180">Ja, voorzitter. Dat zijn de twee simpele vragen die ik heb, dus of er ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u115">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg181">Helder, u hoeft ze niet te herhalen.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u116">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg182">Als het hier in de Kamer nog enigszins onduidelijk is, kan de minister misschien alsnog een mailtje laten sturen. Dan hebben we rechtstreeks van de bron de bevestiging dat het niet zo is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u117">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg183">Dank u wel, meneer Voordewind. Dan schors ik nu even, en daarna gaat de minister in op de vragen en de moties.</seg>
+            </u>
+            <note>De vergadering wordt van 17.06 uur tot 17.15 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u118">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg184">Dan geef ik de minister van Defensie het woord.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u119">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg185">Dank u wel, voorzitter. Omdat ik in eerste termijn al veel antwoorden heb gegeven, zal ik proberen zo kort mogelijk de vragen te beantwoorden. Er is iets dat toch belangrijk is om ons hier allemaal te realiseren, want het blijft natuurlijk vervelend dat we hier staan en dat er onduidelijkheid is. Maar het eerste punt dat ik in mijn algemene punt na de eerste termijn heb aangegeven, ook aan mevrouw Karabulut, is: er is geen closure report. En het tweede punt, als het gaat om het aantal burgerslachtoffers, hebben we in eerdere debatten ook gewisseld. Het is een groot aantal waar het hier om gaat. Maar ieder burgerslachtoffer is er voor mij één te veel, en dat wat er is, wat ons moet raken. En hoe werken wij dan? Als CENTCOM ze officieel, via de lijn, kan bevestigen, is dat ons uitgangspunt; dan nemen we dat serieus. Wij zullen nooit, maar dan ook nooit, burgerslachtoffers ontkennen of verzwijgen, maar wij moeten het met een formele lijninformatie doen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg186">Dan ga ik nu de woordvoerders op volgorde langslopen. Ik begin bij mevrouw Karabulut, en ik kijk alleen nog naar de aanvullend gestelde vragen. Mevrouw Karabulut zegt: erkent u nu eens dat er burgerslachtoffers zijn gevallen. Ik vind dat een belangrijk punt. Overigens hebben wij daar nooit verschil van opvatting over gehad, want de minister-president was daar ook duidelijk over in het debat dat we hier in uw Kamer hadden. Er is hier, denk ik, niemand in de Kamer die denkt dat er geen burgerslachtoffers zijn gevallen. Maar formeel, volgens de officiële lijnteksten die wij hebben van CENTCOM, is het alleen zeer waarschijnlijk, hoe vervelend wij dat ook vinden. Dat kwam eigenlijk net ook goed naar voren. Niemand zal op basis van wat we nu allemaal denken te weten over wat er allemaal is gebeurd, denken dat het niet om een groot aantal gaat. Het gaat om een bommenfabriek die is ontploft, waar ernstige andere aanslagen door IS mee zijn voorkomen. Niemand zal denken dat het om kleine aantallen gaat. Mogelijk zijn het er veel, maar we weten het gewoon niet. Het is volgens de officiële termen zeer waarschijnlijk dat er burgerslachtoffers zijn gevallen. Dat weten we zonder dat aantal; die feiten hebben we gewoon niet.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg187">Zodra we die feiten hebben, zodra CENTCOM die ons officieel, via de officiële lijn, kan aangeven, dan zullen wij die aangeven en dan nemen wij die over. Dat wil ik nog wel zeggen. Wij — ik dacht dat de heer Bosman dat zei, die heeft als eerste de OM-rapporten naar uw Kamer gestuurd — hebben meteen de verantwoordelijkheid genomen als kabinet, voor die aanvallen waar burgerslachtoffers bij zijn gevallen. Zodra we die aanvallen kunnen bevestigen, via de officiële kanalen, dan zullen wij die meenemen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg188">Dan de vraag, ook van mevrouw Karabulut: kunt u bewijzen dat de piek in de grafiek niet de slachtoffers van Hawija bevat? Nee, dat kan ik niet bewijzen, net zoals u dat ook niet kunt bewijzen. Het is ook niet aan mij om dat te bewijzen; dat is ook goed om te weten, denk ik. Dat is aan CENTCOM, CENTCOM volgens de officiële lijn. CENTCOM gaat ook zelf over de rapportages en over de data die daar achter zitten.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg189">Wat ik wel kan doen, zo heb ik in de eerste termijn al gezegd, is nogmaals vragen aan CENTCOM om dat te bevestigen. Ik ben daar ook toe bereid. Dat had ik in de eerste termijn ook gezegd. Ik weet niet of er een antwoord komt, maar ik zal dat zeker doen. Wat ik wel heel vervelend vind, is dat er in een bericht, blijkbaar van NRC, een woordvoerder wordt aangehaald. Ik heb daarom even de schorsing benut om dat bericht te lezen. Dat betreft niet een officiële woordvoerder van CENTCOM. Dat punt moeten we toch hier neerzetten. Wij moeten het als defensieorganisatie doen met de officiële lijninformatie, waarin de militaire organisatie en de mensen die daar verantwoordelijk voor zijn om informatie wordt gevraagd. Ik wil het nog een keer vragen. En als nou blijkt dat de officiële lijn deze informatie heeft, dan zal ik u dat meteen laten weten. Want ik vind het eerlijk gezegd waardeloos wat hier gebeurt. Ik vind het ook waardeloos dat er nu weer een kolonel wordt aangehaald, die iets anders doet en een andere functie heeft, en die iets zegt over het werk in zijn verleden. Ik zeg het maar zoals ik ernaar kijk.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg190">Er is geen enkele reden voor ons om ook maar enig burgerslachtoffer achter te houden, want wij hebben de verantwoordelijkheid genomen — wij waren de enigen die vlogen boven Hawija — net zoals we de verantwoordelijkheid voor Mosul hebben genomen. Maar we weten het niet! En wij móéten vertrouwen op de officiële lijninformatie. Hoezeer ik woordvoerders ook allemaal waardeer, wij hebben met officiële lijnen te maken en ik vind het echt heel vervelend en echt waardeloos dat deze verwarring is ontstaan, een verwarring van een aard die in ieder geval ík niet ken en die ook niet in de officiële lijninformatie zit, zeg ik dan maar even. U mag rustig weten dat ik aan onze CDS zal vragen om nu nog een keer op hoog niveau met CENTCOM te bellen dat er geen mensen meer dit soort uitspraken doen, zonder dat wij ... En ik zal zelf de officiële informatie vragen, maar wij moeten gewoon in de lijn de informatie krijgen en niet op deze manier.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u120">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg191">Korte vraag, mevrouw Karabulut.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u121">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg192">Voorzitter, ik zal zo kort als mogelijk zijn. De officiële lijn: er is nu een officiële verklaring via de media — onze media schrijven geen leugens op — dat de ongeveer 70 doden uit de luchtaanval op Hawija in 2015 al zeker 18 maanden in het totale aantal burgerdoden zitten. Dit is gewoon officieel, voorzitter. De minister zegt het zelf ook al. De minister is natuurlijk vanuit Nederland zelf verantwoordelijk — dat is ook wat CENTCOM vraagt — voor het rapporteren over burgerdoden. Dat gebel en tussendoor gemail en tussendoor berichtjes sturen, doet sterk het vermoeden rijzen dat wij CENTCOM bellen wanneer hier mensen politiek klem komen te zitten. Ik kan dat niet controleren, voorzitter. Ik zou willen vragen of de minister officieel haar ambtsgenoot wil vragen hoe het precies zit met de tabel, met het eerdere rapport, met de eerdere verklaringen. Ik kan de minister helpen bij het opstellen van een brief — dat doe ik echt met alle liefde — zodat wij ook officieel alle informatie op papier krijgen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u122">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg193">De minister.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u123">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg194">De Kamer heeft van mij alle officiële informatie gekregen. Ik kom zo op de aanvullend gestelde vragen. Deze meneer is geen officiële woordvoerder van CENTCOM. Voor zover ik net snel heb gelezen, is hij een woordvoerder van de OIR-missie in Bagdad, dacht ik. Dat is iets anders dan een officiële woordvoerder van de CENTCOM-lijnorganisatie, die de verantwoordelijkheid heeft aan ons officieel te rapporteren. Daar kan ik onze plaatsvervangend commandant van de strijdkrachten, die hier aanwezig is, op aanspreken. Die moet de contacten onderhouden officieel in de lijn. Wij moeten het doen met officiële informatie, omdat het geheime, geclassificeerde informatie is voor het merendeel. Dat is de informatie die u ook van mij hebt gekregen. Ik vind het waardeloos — dat heb ik u net al gezegd — dat ik dit zie, en vervelend, maar als blijkt dat er nu wel andere informatie is ... Ik ben bereid om mijn ambtsgenoot daarover te bellen, geen enkel probleem, en daarop aan te spreken. Die spreek ik ook over andere zaken, op uw verzoek, dus dan doe ik dit zeker ook. Als blijkt dat die andere informatie heeft, dan krijgt u die van mij, maar ik moet het via de officiële lijn krijgen. Ik kan niet op mediaberichten varen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u124">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg195">Dat heeft u duidelijk gemaakt. Mevrouw Karabulut, de tweede vraag.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u125">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg196">Het is niet alleen deze woordvoerder. Het is ook een andere woordvoerder, kolonel Sean Ryan, die dit allemaal bevestigt. En voorzitter, ik neem geen genoegen — en ik denk dat u mij als Kamervoorzitter heel goed begrijpt — met dat tussendoor bellen. Ik wil graag de rapportages openbaar. Dat mag gewoon; informatie mag gedeclassificeerd worden. Dat doet CENTCOM ook. Ik wil dat de minister een officiële brief met alle informatie opvraagt, ook over het hele proces, bij haar ambtsgenoot, zodat wij dat op papier kunnen krijgen en kunnen controleren.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u126">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg197">Ik heb zelf in de eerste termijn — de Kamer heeft dat gehoord als zij goed geluisterd heeft — gezegd dat ik dat zou vragen. Ik kom zo nog op de motie, want mevrouw Karabulut heeft daar ook een motie over ingediend en die ga ik gewoon beoordelen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u127">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg198">Uw derde vraag, mevrouw Karabulut. U heeft vier vragen.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u128">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg199">Ik wil wel nog even iets zeggen over meneer Ryan. Dat is het punt waar de heer Bosman op inging in zijn betoog: ik heb u gewoon schriftelijk doen toekomen dat dat is teruggenomen. Dat heeft u van mij in ontvangst genomen en is in de Kamer verspreid. Het gaat dus niet aan dat mevrouw Karabulut nu opeens zegt dat dat staande is gebleven, want het is niet staande gebleven. Dat heb ik in een officieel schrijven aan u doen toekomen. Dat wil ik wel even uit de wereld hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg200">Dan ga ik nu verder met de antwoorden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u129">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg201">Op dit punt nog, mevrouw Karabulut. Uw derde vraag.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u130">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg202">Een ander punt, in het verlengde hiervan. Even als reactie op de opmerking van de minister: dat was ter plekke in het debat waar dat eerder werd bevestigd, de burgerdoden werden toen ontkend en daar werd die mail toen bij gehaald. Vandaar dat ik zeg dat ik een officieel document wil en een brief daarover.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg203">Dan over het aantal. In haar brief van gisterenavond schrijft de minister dat die 70 niet Hawija kan zijn, die piek. Het is een officiële grafiek. Het zijn cijfers van CENTCOM, gewoon van de Amerikanen, officieel bevestigde dodenaantallen. Daarvan schrijft de minister gisteren in haar brief heel stellig dat dat het niet is. Ik heb hier op basis van CENTCOM-cijfers, uitgezocht door Airwars, volledig een onderbouwing dat dat niet anders kan: op 3 juni 2015 70 burgerslachtoffers, dat die daar wel degelijk onderdeel van uitmaken. Vandaar mijn vraag aan de minister. De minister beweert en schrijft ons dat dat niet zo is. Kan ze dat aantonen?</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u131">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg204">Ik heb die vraag net gewoon beantwoord. De vraag die u mij stelde, was: kan de minister bewijzen dat die piek ... Ik heb gezegd: ik kan dat niet bewijzen, maar mevrouw Karabulut kan het ook niet bewijzen. Ik moet het doen met de officiële CENTCOM-rapportages. Ik ben bereid om dat nog een keer te vragen, maar volgens de officiële antwoorden — dat heb ik allemaal gezegd, voorzitter — is dat dus niet waar. Zij zeggen niet dat het niet zo is. Zij zeggen — dat heb ik in de eerste termijn ook gezegd — dat het zeer waarschijnlijk is dat er veel slachtoffers zijn gevallen, maar dat zij de aantallen niet weten. Voor ons doet dat er niet toe, maar zij kunnen het pas opnemen als het geregistreerd en bevestigd is. Zo melden ze het in de officiële lijn. Ik vind Airwars een belangrijke organisatie — ik heb u in het vorige debat beloofd dat we daarmee gaan praten — maar dat is niet de officiële lijn waarmee wij te maken hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u132">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg205">Laatste vraag, mevrouw Karabulut.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u133">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg206">CENTCOM bevestigt de 70, ook dat ze in de lijst met het totaal aan doden zitten, vandaag nog. Deze cijfers komen van Defensie. Dus als de minister hier stelt dat zij het niet kan aantonen, heeft zij — daar zou ik graag een reactie op willen — ons gisteren in de brief toch echt verkeerd geïnformeerd. Dan had ze moeten opschrijven: mogelijk is dat Hawija, maar ik kan dat niet bevestigen.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u134">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg207">Nee, nou draait u het echt om. Er is geen bevestiging van CENTCOM, ook niet in de media. Daar heb ik u net wat over gezegd. Er is een kolonel in Bagdad die daar iets over zegt. Dat is niet de officiële CENTCOM-lijn, hoe vervelend u dat misschien ook vindt en hoe waardeloos ik het vind dat dit opeens — ik moest het nog even lezen tijdens het debat — naar voren komt. Ik ga — dat heb ik de Kamer al beloofd — aan onze commandant van de strijdkrachten vragen om te bellen naar de commandant van de strijdkrachten daar, om te zeggen dat het nooit meer mag voorkomen dat deze kolonels afwijkende gegevens bekendmaken, dat die niet via de officiële lijn komen. Ik vraag zelf nog een keer naar die dingen. Ik zal zo ingaan op wat wij al op schrift hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u135">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg208">Dat heeft u volgens mij al drie of vier keer gezegd, dus het wordt een herhaling van dezelfde vraag en hetzelfde antwoord.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u136">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg209">Voorzitter, ik zou graag een ordevoorstel doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u137">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg210">Ja, een ordevoorstel?</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u138">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg211">U heeft helemaal gelijk, voorzitter. Dit zijn geen dingen die ik verzin. Dit zijn officiële CENTCOM-cijfers.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u139">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg212">Wat is uw ordevoorstel?</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u140">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg213">De minister beweert het tegenovergestelde. Ik wil geen gebel. Ik wil voorstellen dat we desnoods het debat even schorsen en/of dat de minister ervoor zorgt dat wij voor het einde van het debat de informatie hebben waarop de minister zich zegt te baseren, de officiële informatie van CENTCOM.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u141">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg214">Dat is een ordevoorstel.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u142">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg215">Ik kan zo namelijk op geen enkele wijze mijn werk doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u143">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg216">Goed. Wie is er voor het ordevoorstel van mevrouw Karabulut om het debat te schorsen?</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u144">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg217">Voorzitter, we hebben alle formele informatie gekregen. Ik baseer mij als Kamerlid op de formele informatie. Mevrouw Karabulut doet allemaal aannames. Er is geen formeel bewijs vanuit CENTCOM. Daarom geen steun.</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u145">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg218">Voorzitter, ik steun het voorstel en het verzoek van harte. Als hier echt op basis van officiële cijfers van CENTCOM wordt gesteld dat er inderdaad zeker 70 doden, en waarschijnlijk ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u146">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg219">Oké, u steunt het verzoek?</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u147">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg220">Absoluut.</seg>
+            </u>
+            <u who="#RaymonddeRoon" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u148">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg221">Dat de minister zegt dat zij alleen maar met formele stukken kan werken, kan ik begrijpen. Maar nu zegt een Kamerlid: het is formeel rond. Dit, terwijl er toch ook aanwijzingen zijn die duiden op wat anders. Dat kan ik niet begrijpen. Ik steun dus dat verzoek van mevrouw Karabulut wel degelijk.</seg>
+            </u>
+            <u who="#TunahanKuzu" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u149">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg222">Voorzitter, wij steunen het verzoek van harte. Het is nogal duidelijk, lijkt me.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u150">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg223">Mevrouw de voorzitter. Kan een minister nóg duidelijker zijn? Zij zegt: zodra ik officiële informatie krijg, deel ik die gelijk met de Kamer. Ik steun het verzoek dus niet. We doen het met de officiële informatie die we hebben. We debatteren hier misschien weliswaar naar aanleiding van mediaberichten, maar niet op basis van mediaberichten als officiële informatie.</seg>
+            </u>
+            <u who="#ChrisStoffer" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u151">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg224">Voorzitter. Ik zou niet weten welke gegevens we nog extra nodig hebben, dus ik steun het verzoek niet.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u152">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg225">Er is wel een tabel. Die is ons toegestuurd door Airwars. Ik zou wel graag van de minister horen: van wie was deze tabel nou afkomstig?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u153">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg226">Het gaat nu over het ordevoorstel, mevrouw Diks.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u154">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg227">Precies, dat is waar ik het over heb. Volgens mij kan de minister de vraag heel snel beantwoorden of die tabel waar we het over hebben ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u155">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg228">Nee, het gaat over het ordevoorstel. Wilt u schorsen of niet?</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u156">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg229">O, om te schorsen? Nou, ik denk dat die informatie heel snel gevonden kan worden. Dus daarom schorsen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u157">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg230">Wel of niet schorsen, mevrouw Diks?</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u158">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg231">Dus daarom wil ik schorsen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u159">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg232">Oké.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u160">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg233">Ik ga het korter proberen te doen, voorzitter. Ik steun het verzoek.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u161">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg234">Ik steun het verzoek.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u162">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg235">Voorzitter, ik zou ook graag opheldering willen hebben over waar het verschil precies in zit.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u163">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg236">Ja. Wilt u schorsen?</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u164">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg237">Een korte schorsing lijkt me dus prima.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u165">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg238">U wilt een korte schorsing. Oké.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg239">Er is een meerderheid voor een korte schorsing.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u166">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg240">Dan zult u mij de tabel even moeten verstrekken, voorzitter. Er wordt hier over tabellen gesproken, maar die moet ik dan op z'n minst toch hebben?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u167">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg241">Heeft iemand de tabel waar het nu over gaat voor de minister, voordat er geschorst wordt? Ik zie dat mevrouw Karabulut hem aan haar aanreikt. Dit zou via de bode moeten gaan.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u168">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg242">Nu heb ik een punt van orde, voorzitter. De minister werkt op basis van officiële documenten. We vragen haar nu om plotseling te reageren op documenten die in de media naar voren worden gebracht door verschillende organisaties. Daar moet de minister nu ineens een mening over hebben, en we willen die documenten nu ineens betrekken in het debat. Op die manier maakt de Kamer zich echt belachelijk. De minister heeft gezegd: als er officiële documenten zijn, krijgt de Kamer die. Als we onszelf serieus nemen, kunnen we dit niet zo willen. Ik kijk even naar mijn collega's. Dit is een zeer belangrijk onderwerp waarbij we accuratesse van de minister en accuratesse van piloten vragen. Hierbij voelen we allemaal compassie met nabestaanden. We gaan bij zo'n onderwerp nu toch niet heel snel even aan de minister vragen om even snel te reageren op een stuk, een tabel van een instantie ergens in Nederland of buiten Nederland?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u169">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg243">Meneer Van Helvert, ...</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u170">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg244">Mevrouw de voorzitter, dat komt het debat, de kwaliteit van het debat niet ten goede.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u171">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg245">Dat begrijp ik.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u172">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg246">Hiermee doen we de minister, de Kamer, de nabestaanden ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u173">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg247">Meneer Van Helvert!</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u174">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg248">... en de piloten geen recht.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u175">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg249">Ik ga er nu doorheen praten. Er is besloten om een korte schorsing te houden. Dat gaan we doen. Daarna kan de minister aangeven of ze hier wel of niet op kan reageren. En dan is het inderdaad ook klaar! Meneer Bosman.</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u176">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg250">Voorzitter. Als dit soort informatie beschikbaar komt voor de Kamer, dan ga ik ervan uit dat het feitelijke informatie is, met onderliggende bewijzen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u177">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg251">Ja, dat is helder.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u178">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg252">Dat vraag ik!</seg>
+            </u>
+            <u who="#AndréBosman" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u179">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg253">Nee, het is geen vraag. Die bewijzen moeten dan worden aangeleverd. Ik neem dus aan dat die bewijzen nu worden aangeleverd door mevrouw Karabulut.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u180">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg254">Ik denk dat het goed is als de minister daar straks op terugkomt. Dan kan ze misschien zelf daarop antwoord geven, maar dat weet ik allemaal niet. Ik schors de vergadering voor vijf minuten.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u181">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg255">Maar hebben we nu een stuk, of niet?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u182">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg256">Dat gaat de bode nu even aan de minister overhandigen.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u183">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg257">Als ik geen stuk heb, kan ik er ook niet naar kijken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u184">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg258">Nee. Goed. Ik schors de vergadering voor vijf minuten.</seg>
+            </u>
+            <note>De vergadering wordt van 17.39 uur tot 17.44 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u185">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg259">Ik geef de minister het woord.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u186">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg260">Voorzitter. Ik heb het staatje bekeken. Ik moet u zeggen dat ik moet acteren op basis van officiële contacten en officiële documenten. Als CENTCOM mij iets nieuws gaat zeggen, ga ik dat aan u melden. In het kader van de beantwoording in de richting van uw Kamer hebben wij natuurlijk officieel contact gehad met CENTCOM. Toen hebben wij de volgende vraag gesteld: was Hawija onderdeel van het totaal aantal bevestigde slachtoffers? Dat is de vraag die is gesteld. Daarover ging een van de Kamervragen die wij hebben beantwoord, zoals bijgevoegd in de brief in de richting van mevrouw Karabulut. Overigens heb ik daar in eerste termijn ook iets over gezegd. Ik lees u nu het officiële antwoord van CENTCOM voor. In het Engels; dat moet u maar goed vinden, voorzitter. "No, CENTCOM reports only confirmed numbers of CIVCAS. However, it does not exclude the possibility of more, at least. The Hawija investigation found that non-combatant deaths were likely, but was unable to confirm the specific number of CIVCAS." Dat is het officiële antwoord dat wij hebben gekregen. Ik zal dus nooit enigerlei slachtoffer ontkennen — zoals ik mijn eerste termijn al begon — maar ik moet het doen met de officiële lijnregistratie. Dat is wat ik hierover kan zeggen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u187">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg261">Mevrouw Karabulut, ik ga nu echt ingrijpen, want dit is het antwoord naar aanleiding van uw schorsing. Ik wil het voorstel doen dat de minister gewoon verdergaat.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u188">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg262">Dit was dus niet het antwoord op de door mij gestelde vragen. Ik zou graag de minister willen verzoeken om de onderliggende informatie bij de stukken waaruit zij citeert en de beantwoording van de schriftelijke vraag 8 over de tabel, zoals gisteravond ontvangen. Ik zou graag de onderliggende informatie willen ontvangen waaruit het antwoord "nee" blijkt.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u189">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg263">Ik heb het antwoord net voorgelezen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u190">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg264">Nee, mevrouw Karabulut, u krijgt niet nogmaals het woord.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u191">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg265">Wat ik u al wel toegezegd heb, is dat ik nogmaals een aantal zaken zal vragen aan CENTCOM; dat heeft u allemaal gehoord als antwoord in reactie op andere Kamerleden die dat vroegen. Dat zal ik hier in dit geval ook doen. Als daar iets anders uit blijkt, dan zal ik u dat rapporteren, zoals ik heb gezegd. Bij ons is er geen enkele neiging om welk burgerslachtoffer dan ook te ontkennen; we vinden het akelig genoeg. Wij zullen u daar dan schriftelijk over informeren.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u192">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg266">Ik begrijp dat de minister elke keer teruggrijpt op het feit dat we niet precies weten hoeveel het er zijn. Waarom deze vraag eigenlijk best relevant was, is omdat men heeft besloten om misschien toch 70 op te nemen, ondanks het feit dat ze wellicht niet voor honderd procent zeker waren dat het er niet meer of minder hadden kunnen zijn. De minister zegt in haar antwoord: dat kan niet Hawija zijn geweest. Dat is heel stellig. Daarom zijn wij op zoek naar iets dat de minister aan de Kamer kan geven, waaruit blijkt dat het inderdaad onmogelijk Hawija geweest kan zijn. Dat is waar de vraag over ging.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u193">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg267">Ik snap dat, maar ik moet mij baseren op wat wij van de officiële CENTCOM-lijn terugkrijgen, zeg ik in de richting van mevrouw Belhaj. Airwars heeft natuurlijk een aantal dingen opgeteld. Het gaat over die 1.347. Ik heb het staatje net bekeken. Maar de officiële CENTCOM-lijn zegt tegen ons dat als burgerslachtoffers niet zijn bevestigd, ze die dan niet opnemen in de rapportages. Mocht dat wel zo zijn, zoals ik trouwens voor de schorsing al gezegd heb, en mocht dat uit andere informatie blijken, dan zal ik dat meteen aan u laten weten. Ik heb u, overigens al in het antwoord in eerste termijn, toegezegd om dat te vragen aan CENTCOM, net zoals ik naar de rapporten zou vragen. Ik vind het vervelend en waardeloos genoeg — niet voor niets zijn die termen gebruikt — dat er tijdens een debat verwarring ontstaat door bronnen die ik nu niet kan controleren. Ik moet het doen met de officiële lijninformatie. Ik ontken helemaal niks. Als ik iets weet, zal ik dat meteen aan u geven.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u194">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg268">Het is natuurlijk niet alleen het debat; u beantwoordt die vraag zo stellig. Dat moet u op basis van iets hebben gedaan, en dat was de vraag. CENTCOM heeft gezegd: het klopt, die twee maanden; dat kan geen Hawija zijn geweest. Als u dat nu zegt, dan is dat zo, dan heeft iemand verkeerd lopen tellen of de verkeerde gegevens aangeleverd gekregen. Maar dat is de vraag waar het nu over gaat.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u195">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg269">Zeker, maar daarom heb ik de tekst ook voorgelezen die wij terug hebben gekregen, in het Engels: "No, CENTCOM reports only confirmed numbers." Dat is waar wij ons op baseren. Ik kan de tabel niet controleren ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u196">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg270">Dat heeft u ook gezegd, dus ik stel voor dat u verdergaat.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u197">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg271">... dus doe ik het met dit officiële antwoord dat zij alleen ... Ik ga nog een keer vragen, ook aan hen, of ze dit wel hebben meegenomen. Dat had ik u al toegezegd en daar zal ik u natuurlijk over informeren.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg272">Ik was eigenlijk toegekomen aan de vragen van de heer Kuzu. Hij vroeg: hoe reageert u op de onzorgvuldige communicatie? Dat heb ik eigenlijk in de eerste termijn al gezegd. Ik vind dat echt vervelend. Dat verdient geen schoonheidsprijs. Wij hebben dat indringend opgebracht bij de officiële CENTCOM-lijn. Ik ga dat nog een keer doen, want nu zijn er weer andere mensen die praten.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg273">De heer Kuzu vroeg ook waarom de Amerikanen de rapporten niet kunnen vrijgeven. Dat heb ik eigenlijk al gezegd. De Amerikanen bepalen zelfstandig de classificatie van rapporten. De Amerikaanse foreign disclosure officer bepaalt of een rapport wel of niet aan een land kan worden vrijgegeven. Welke criteria hierbij gebruikt worden, is aan de Amerikanen, maar ik zal het nog een keer vragen. Ik kom nog op de motie terug.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg274">Dan mevrouw Belhaj en de rapporten. Ik wil dat even heel precies uitleggen. Mevrouw Belhaj zei dat ze in verwarring is over de rapporten, omdat ze daar in de media iets anders over leest. Ik heb er net in de inleiding en ook in mijn brief van gister al bij stilgestaan, maar ik wil dat nog een keer doen. Er zijn twee rapporten over Hawija: het initiële rapport, zoals u weet, en het rapport over het aanvullend onderzoek naar het targetingproces. Dat zijn de twee rapporten die er zijn. Er is geen ander rapport. Dat tweede rapport, dat wij steeds het aanvullend onderzoek naar het targetingproces noemen, is het aanvullende rapport dat u noemde, namelijk het rapport Army Regulation 15-6.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg275">Er is dus helemaal niets achtergehouden of wat dan ook. Er is ook geen ander rapport. Dit is gewoon het tweede rapport, maar wij hebben dat in het Nederlands in de brief opgenomen. Dat is dus het rapport dat het ministerie van Defensie op 22 januari 2016 heeft ontvangen. Dat is ook het rapport dat u kent. Het is bij de Kamer bekend. Dat is ook in de brief aangegeven en er is op 25 november in het debat over gesproken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg276">Zoals ik al eerder heb aangegeven, is er geen closure report opgemaakt. Het zijn dus die twee onderzoeken en bij het tweede rapport hebben ze gezegd dat het onderzoek gesloten verklaard is. Waarom is dat gebeurd? Dat was ook een vraag van mevrouw Belhaj. Ik weet het niet. Vooropgesteld is dat het rapport wel degelijk is afgerond. Dat hebben we te horen gekregen. Voor het proces daarna was het signaal dat het is afgerond en dat wij dit aanvullende rapport hadden voldoende om alle stappen te doorlopen, om het eigen onderzoek te gaan doen en om het aan het OM te geven. Dat is de basis geweest waardoor wij uiteindelijk in maart 2018 aan u hebben kunnen rapporteren dat er vier gevallen onderzocht zijn en dat wij bij twee gevallen verantwoordelijk zijn geweest voor burgerslachtoffers.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg277">Het gebeurt niet vaak, maar het gebeurt wel meer dat er geen closure report wordt opgemaakt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u198">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg278">Zijn hiermee alle vragen van mevrouw Belhaj beantwoord?</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u199">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg279">Ja.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u200">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg280">Mevrouw Belhaj, derde vraag.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u201">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg281">Dat klopt. Het kan natuurlijk gebeuren dat je een keer een rapport niet afsluit. Maar dit is een rapport waarvan je niet verwacht dat er geen closure report van komt. Ik zou graag willen weten waarom dat zo is. Soms kan het zijn dat iets niet afgesloten kan worden. Moet Nederland bijvoorbeeld nog iets aanleveren of moet een ander land nog iets aanleveren, waardoor het niet afgesloten kan worden? Ik zou graag willen dat de minister vraagt wat de reden is. Soms kan de reden zijn dat men nog op een brief wacht, maar dat die brief niet komt ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u202">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg282">Misschien kan de minister daar kort op reageren.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u203">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg283">Dan is dat dus de reden waarom het rapport niet is afgerond. En is dat dan ook de reden dat het rapport niet openbaar gemaakt wordt?</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u204">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg284">Er is een misverstand. Er is geen closure report in officiële zin, maar het onderzoek is wel afgerond. Dat is het punt waar het om gaat. Bij het aanvullende onderzoek van 22 januari dat wij hebben gekregen, hebben zij ons mondeling gemeld dat ze het onderzoek hebben gesloten. Er was ook niets aanvullends voor nodig, want ze hadden alle informatie. Dat is in het aanvullend onderzoek naar het targeting process opgenomen. Dat is het afrondende onderzoek en dat is voor ons de basis geweest voor het vervolgproces, dat nodig was om eigen onderzoek te doen en aan het OM te leveren, zodat er onderzoek kon worden gedaan. Het is dus gewoon afgerond, zonder dat het de officiële naam "closure report" heeft.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u205">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg285">Tot slot, mevrouw Belhaj.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u206">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg286">Dat is bijna een antwoord op mijn vraag. Ik vraag aan de minister of zij wil checken waarom dat zo is. Waarom maken ze er geen closure report van? Het is niet zomaar een incident. Het is een incident waar mogelijk 70 of meer burgerslachtoffers zijn gevallen. Ik zou echt willen weten wat de reden daarvan is.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u207">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg287">Ik wil dat best vragen ...</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u208">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg288">Voorzitter, ik was nog niet klaar.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u209">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg289">Gaat u verder.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u210">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg290">Dat zou ik dus graag willen weten. Ik zou ook willen weten of dat de reden is dat het rapport niet openbaar gemaakt kan worden. Als je er geen stickertje opplakt met "closure", terwijl het wel afgesloten is, kan dat dan een juridische reden zijn om het niet openbaar te maken?</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u211">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg291">Dat laatste is niet waar. Het is allemaal geclassificeerde informatie. CENTCOM gaat zelf over de vraag of zij iets openbaar maken, om welk onderzoek het dan ook gaat. Het maakt niet uit welke naam het onderzoek heeft. Daar gaan zij in z'n totaliteit over.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg292">Voorzitter. Ik was bij meneer Kerstens aanbeland. Hij vroeg: die rapporten zijn vertrouwelijk, maar is het mogelijk om ze toch in te zien? Ik heb dat al gezegd in reactie op de eerste termijn van mevrouw Karabulut. Ik heb aangegeven dat de rapporten geclassificeerd zijn. Het is niet aan ons om ze openbaar te maken. Ik kan ze dus ook niet zomaar vertrouwelijk aan u aanbieden. Het is wel zo dat de VS inderdaad een versie over Mosul openbaar hebben gemaakt. Ik heb daarom gezegd dat ik bereid ben om bij CENTCOM te informeren of vertrouwelijke inzage mogelijk is. Zoals ik in de eerste termijn heb gezegd, weet ik niet wat het antwoord daarop zal zijn, maar ik zal u dat natuurlijk laten weten. Ik weet wel dat men heel terughoudend is — dat heb ik u al laten weten — maar ik ben bereid om dat na te vragen. Ik heb natuurlijk ook gezien dat er een motie daarover is. Ik zal daar zo nog wat over zeggen.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u212">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg293">Dat is helder. Ik verzoek de minister om CENTCOM dan ook te vragen om daar schriftelijk over terug te koppelen. We hoorden de minister net ook een paar keer zeggen "we hebben mondeling begrepen dat ...", maar het blijft dan toch wat vager dan wanneer we, net als de minister vorige keer probeerde in het debat, van CENTCOM helder, zwart-op-wit te lezen krijgen wat het antwoord is op de vraag die de minister gaat stellen, namelijk of het mogelijk is om die rapporten vertrouwelijk ter beschikking te stellen.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u213">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg294">Ik zal het vragen. Ik weet niet of ze bereid zijn om dat te doen, maar ik zal het zeker vragen. Ik zal daar ook op aandringen, want dat gaat de heer Kerstens nu vragen. Ik zal er dus ook op aandringen. Dat is geen enkel probleem. Overigens las ik net het antwoord in het Engels voor, omdat we dat ook schriftelijk hadden gekregen. Anders kon ik het niet zo keurig netjes voorlezen. Maar ik zal dat dus zeker vragen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg295">Dan heb ik nog een vraag van de heer Stoffer en de vragen van de heer De Roon. De heer Stoffer zei: stel dat er een closure report was geweest, als er een rapport was met die naam, maakt dat dan verschil? Wat doet een closure report? Bij de casus van Mosul bevat en bevestigt dat rapport eigenlijk alle bevindingen van het onderzoek naar burgerslachtoffers en geeft het aan dat dat onderzoek is afgerond. Bij Hawija hebben we een aanvullend rapport. Ik sprak daar net met mevrouw Belhaj over. Als er wel een rapport over was opgemaakt, een closure report, nog na het aanvullende rapport, dan zou dat niet hebben afgeweken van wat er al in het aanvullende rapport had gestaan. Het ontbreken van een closure report, in de zin van dat het er niet is, heeft ons ook niet belet om stappen in het proces te zetten. Dat weet de heer Stoffer ook, want hij weet dat we daarna ons eigen onderzoek naar de wapeninzet hebben kunnen doen. Dat hebben we ook afgerond. We hebben dit aanvullende onderzoek aan het Openbaar Ministerie aangeboden. Het zou in onze ogen dus ook niks toevoegen aan wat er al lag, omdat het al heel specifiek in het aanvullende onderzoek is aangegeven. Dat heb ik net ook in de richting van mevrouw Belhaj gepoogd te antwoorden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg296">Voorzitter. Dan nog de vragen van de heer De Roon. Is het aanvullende rapport, het CIVCAS-rapport gedeeld met het OM? Het antwoord is ja. Dat is op 1 maart 2016 met het OM gedeeld.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg297">De heer De Roon vroeg ook: wanneer hoorde u dat het final closure report niet bestaat? Zoals ik net in de richting van mevrouw Belhaj heb gezegd, ontvingen wij het aanvullende onderzoek op 22 januari 2016. Tegelijkertijd werd Defensie er toen mondeling over geïnformeerd dat CENTCOM hiermee het gehele onderzoek naar de burgerslachtoffers als afgesloten beschouwde. Daarna is er niets mee gebeurd. Ze hebben het toen als afgesloten beschouwd. Dus vanaf die tijd weet de minister van Defensie dat officieel.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg298">De heer De Roon vroeg: "Hoe komt het dat het zolang heeft geduurd, namelijk tot 22 januari, voordat Defensie het rapport kreeg? Dat was immers al afgerond op 20 augustus 2015." Het aanvullend onderzoek van CENTCOM naar het targetingproces, het AR 15-6, heeft geresulteerd in een geclassificeerd Amerikaans rapport. Het vrijgeven en het met Nederland delen van dat rapport neemt tijd in beslag. Dat is de ingewikkeldheid bij dit soort dingen. Zoals ik al heb gemeld in het vorige debat, heeft Nederland enkele malen verzocht om de uitkomsten van het onderzoek te geven. Het is in augustus/september gevraagd, maar op 22 januari 2016 kwam het rapport. Dat heeft dus met de classificatie te maken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg299">Ten slotte voor ik toekom aan de moties, voorzitter. De heer De Roon vroeg waarom niet alle rapporten in het feitenrelaas staan. Het initiële rapport over Hawija van CENTCOM staat in het feitenrelaas. Het aanvullende rapport over Hawija staat spijtig genoeg niet in het feitenrelaas. Dat is jammer. Gelukkig hebben wij dat rechtgezet door het te noemen en toe te lichten in de brief van 25 november, want daar staat het wel in. Het stond niet in het feitenrelaas, maar wel in de brief van 25 november. En net heb ik het ook in het perspectief van de tijdlijn geplaatst. Er zijn dus twee rapporten van CENTCOM die in die zin steeds bij ons bekend zijn geweest.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg300">Voorzitter. Dan de moties.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u214">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg301">Misschien heb ik het gemist, maar dat lijkt me stug, want ik zat hier in de zaal: volgens mij is de minister helemaal niet meer ingegaan op de vragen die ik had gesteld. Blijkbaar was zij zelf in de veronderstelling dat het in de array van antwoorden meegenomen was, maar ik had toch nog wel graag een reactie van de minister willen hebben op de wel heel serieuze vraag die ik aan de minister had.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u215">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg302">Wat was de vraag?</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u216">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg303">Hoe gaat het nou eigenlijk met de informatie-uitwisseling tussen CENTCOM en het ministerie van Defensie? Voelt de minister dan wel het ministerie zich eigenlijk wel voldoende serieus genomen door CENTCOM? Ik vind het allemaal heel ernstig wat hier vandaag gebeurt. Het debat wordt niet op hoge toon gevoerd. Dat is op zich ook goed, maar het is wel heel ernstig ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u217">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg304">De minister.</seg>
+            </u>
+            <u who="#SalimaBelhaj" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u218">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg305">... zoals het allemaal is gelopen.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u219">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg306">Er zijn twee lijnen van kijken. Dat wil ik dan ook maar even aan u voorhouden. De officiële CENTCOM-lijn, waar ik mee te maken heb, is altijd consistent geweest. Dat is de officiële lijn die van departement naar departement loopt. Het ingewikkelde is dat de kolonel die mevrouw Belhaj net in haar vraag heeft aangehaald, iets anders zegt. Diens naam is mij even ontschoten, maar hij heeft een andere functie en zit niet in de officiële CENTCOM-lijn; voor zover ik het kan zien, want ik weet het niet precies nu. Maar ik, wij, moeten varen op onze officiële eigen lijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u220">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg307">Dat heeft u volgens mij tien keer gezegd. Ik ga echt verder, want de ploeg voor mijnbouw zit ook in de zaal. Ik zou dus willen voorstellen dat u nu gewoon naar de moties gaat.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u221">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg308">Ja, maar ik vind het wel vervelend, en dat heb ik ook gezegd zoals u weet. En daarom ga ik ze ook aanspreken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u222">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg309">Ja. Goed.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u223">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg310">Dan de moties. De motie op stuk nr. 1, van mevrouw Karabulut, verzoekt de regering om verzoeken in te dienen tot het vrijgeven van de CENTCOM-rapporten. Zoals ik zei, hebben wij dat na het debat van 28 november al gevraagd. Het antwoord was toen "nee". Maar ik wil toch het oordeel aan de Kamer laten. Ik heb u beloofd dat ik dat ga doen en dat zullen we ook langs verschillende lijnen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg311">De motie op stuk nr. 2, van mevrouw Belhaj, verzoekt de regering aan CENTCOM te verzoeken om alsnog te komen tot een zogenaamd closure report. Dat wil ik echt ontraden. Met het aanvullend rapport, het AR 15-6, is het onderzoek afgesloten. Nederland heeft daarna alle noodzakelijke stappen in het proces genomen. Het voegt niets toe. Dat heb ik ook aan de heer Stoffer geantwoord. De uitkomst zal daar ook niet door veranderen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg312">Dan de motie op stuk nr. 3, van mevrouw Diks. Ik beperk mij even tot het dictum. In het eerste deel van het dictum wordt de regering verzocht om bij militaire inzet in coalitieverband voortaan heldere afspraken te maken over het onderzoeken van en rapporteren over incidenten waar Nederland bij betrokken was en eventuele schriftelijke conclusies op te stellen — daar kan ik eigenlijk heel goed mee leven — en deze met de Kamer te delen. Dat tweede kan ik niet zomaar oordeel Kamer geven, want ik moet eerst zien wat erin staat. Ik kan dat namelijk niet een-op-een zomaar doen. Ik wil wel actief toezien op de afspraken, maar als u dat eruit zou halen of zou aanpassen, kan ik het oordeel aan de Kamer laten. Dus daar moet u dan zelf maar even naar kijken, en anders moet ik haar ontraden.</seg>
+            </u>
+            <u who="#IsabelleDiks" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u224">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg313">De reactie van de minister is helder. Ik zou nog kunnen kijken of ik haar een beetje kan aanpassen. Daar ben ik met alle liefde toe bereid. Ik heb heel nadrukkelijk niet in de motie gezet wannéér het met de Kamer moet worden gedeeld.</seg>
+            </u>
+            <u who="#AnkBijleveld-Schouten" ana="#regular" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u225">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg314">Nee, dat heb ik gezien.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg315">Voorzitter, volgens mij ben ik dan aan het eind gekomen van de beantwoording.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u226">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg316">Dat is ook zo. Dank u wel.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.u227">
+               <seg xml:id="ParlaMint-NL_2019-12-19-tweedekamer-40.seg317">Over de ingediende moties zullen we vanavond stemmen. Ik dank de minister. Ik dank de woordvoerders.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

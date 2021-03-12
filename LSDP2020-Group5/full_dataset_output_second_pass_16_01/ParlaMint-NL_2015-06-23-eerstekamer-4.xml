@@ -1,0 +1,90 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-06-23-eerstekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2015-06-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2015-06-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 36, Session 4 (2015-06-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 36, Session 4 (2015-06-23)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="36">Meeting 36</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #EK.35" corresp="#EK" n="35-upper">Meeting of the 35th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="1">1 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="1">1 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="192">192 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="192">192 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2015-06-23">2015-06-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="3"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-06-23">2015-06-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Procedure verkiezing ondervoorzitters der Kamer</note>
+            <u who="#AnkieBroekers-Knol" ana="#chair" xml:id="ParlaMint-NL_2015-06-23-eerstekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2015-06-23-eerstekamer-4.seg1">Voor de ondervoorzitters geldt geen afzonderlijke profielschets. De profielschets voor de Voorzitter is ook van betekenis voor de ondervoorzitters, omdat zij in staat moeten zijn de Voorzitter in zijn taken te vervangen. Ik stel aan de Kamer voor dat de kandidaatstelling na deze openbare vergadering schriftelijk kan plaatsvinden door middel van een brief aan de Eerste Kamer, die uiterlijk vrijdag 26 juni 2015 te 12.00 uur bij de Griffier moet zijn ingediend. Kandidaten geven aan of zij kandidaat wensen te zijn voor het eerste ondervoorzitterschap of het tweede ondervoorzitterschap c.q. voor beide, met dien verstande dat bij verkiezing tot eerste ondervoorzitter de kandidatuur voor het tweede ondervoorzitterschap vervalt. De Griffier zendt de ingekomen kandidaatstellingsbrieven in afschrift aan de leden van de Eerste Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-23-eerstekamer-4.seg2">In de plenaire vergadering van 30 juni 2015 krijgen de kandidaten in alfabetische volgorde maximaal vijf minuten de gelegenheid een toelichting te geven op hun kandidatuur. Aansluitend daarop kan de Kamer vragen stellen aan de kandidaten. Tot slot volgt de schriftelijke stemming overeenkomstig artikel 113 en volgende van het Reglement van Orde van de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-06-23-eerstekamer-4.seg3">Wenst een van de leden hierover nog het woord? Dat is niet het geval.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

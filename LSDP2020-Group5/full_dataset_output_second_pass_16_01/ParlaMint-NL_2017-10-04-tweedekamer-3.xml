@@ -1,0 +1,635 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-10-04 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-10-04 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 8, Session 3 (2017-10-04)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 8, Session 3 (2017-10-04)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="8">Meeting 8</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="107">107 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="107">107 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="8044">8044 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="8044">8044 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-10-04">2017-10-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="143"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="107"/>
+               <tagUsage gi="note" occurs="195"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-10-04">2017-10-04</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Luchtvaart</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg1">Ik heet de staatssecretaris van Infrastructuur en Milieu van harte welkom. Als eerste geef ik het woord aan de heer Graus namens de PVV.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg2">Voorzitter. Het blijft bij twee korte moties omdat de staatssecretaris al heel veel heeft toegezegd, zoals een en ander in het kader van de baanverlenging Maastricht, zodat een heleboel cargo carriers — full freight carriers, zoals dat heet — naar Maastricht Aachen Airport kunnen uitwijken, mocht die baan zo spoedig mogelijk verlengd worden. Die toezegging is gedaan, daar horen wij binnenkort van. Ik heb nog twee korte moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering om historisch verworven slots die niet gebruikt worden opnieuw in de verdeelpool te stoppen ten behoeve van home based carriers,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-400</note>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg3">Het is altijd lastig om vakjargon te gebruiken voor mensen thuis, maar home based carriers zijn de bestaande luchtvaartmaatschappijen die hun thuisbasis op Schiphol hebben, zoals de KLM, Transavia en Corendon, de laatste 100% Nederlandse airline. Ik zal het toch nog maar even zeggen, want de mensen denken altijd dat het een Turkse airline is, maar dat is niet zo. Die bestaat ook, maar wat ik bedoel, Corendon Nederland, is een 100% Nederlandse airline.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering het voortbestaan van vliegveld Teuge te borgen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-401</note>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg4">Mijnheer de voorzitter. De staatssecretaris heeft al toegezegd dat zij zich voor het Nationaal Paracentrum gaat inzetten, dus vandaar dat het een kortere motie is geworden. Ik vind ook dat vliegveld Teuge eveneens behouden moet blijven.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg5">Tot slot, het is waarschijnlijk de laatste keer dat ik hier sta met deze staatssecretaris. Tenminste, die kans is groot. Ik wil haar toch danken. Ik heb fijn met haar samengewerkt in de Kamer toen zij nog Kamerlid was. Toen stond zij als er een nationaal belang was ook al boven de partijpolitiek. Dat heeft zij ook als staatssecretaris gedaan. Zij is een rasechte PvdA'er, maar zij heeft altijd boven de partijpolitiek gestaan als bestuurder. Dat zijn er maar weinigen. Daarvoor wil ik haar prijzen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg6">Ik wil haar ook danken voor de inzet voor dierenwelzijn in Nederland en ook voor de fijne momenten die wij gehad hebben, ook buiten de Kamer, want ik heb ook een paar keer met haar op handelsmissie mogen gaan. Dat waren altijd bijzonder aangename momenten. Mijn dank daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg7">Het ga u goed en ook uw gezin!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg8">Dank u wel. Dan geef ik het woord aan de heer Van Raan namens de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg9">Voorzitter. Wij hebben drie moties die ik graag wil inbrengen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Onderzoeksraad voor Veiligheid (OVV) stelt dat door de verdere groei van de luchthaven Schiphol boven de 480.000 vliegbewegingen per jaar de veiligheid in het geding kan komen;</note>
+               <note>constaterende dat Schiphol desondanks al volop bezig is met de uitbreiding van de luchthaven, daarbij anticiperend op de uitbreiding van het aantal vluchten tot voorbij het plafond van 500.000 in 2020;</note>
+               <note>constaterende dat de geplande opening van Lelystad Aiport in 2019 als consequentie heeft dat er ten minste vier jaar lang zal worden gevlogen met extra geluidshinder en extra schadelijke effecten op het milieu en de gezondheid van de omwonenden;</note>
+               <note>verzoekt de regering om te stoppen met (de voorbereidingen voor) de uitbreiding van Schiphol tot voorbij de 500.000 vluchten;</note>
+               <note>verzoekt de regering voorts om af te zien van de geplande opening van Lelystad Airport per 1 april 2019,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Raan, Arissen en Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-402</note>
+            </u>
+            <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg10">Ik dank u, voorzitter. Dan nog twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat in de afgelopen jaren rondom Schiphol tienduizenden ganzen zijn gedood om de kans op vogelaanvaringen te verminderen;</note>
+               <note>constaterende dat de ganzenpopulatie hierdoor niet significant is afgenomen en dat het beleid hierdoor niet doeltreffend is geweest;</note>
+               <note>verzoekt de regering op Dierendag om serieus werk te maken van diervriendelijke oplossingen voor het terugdringen van de ganzenpopulaties rond luchthavens,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Raan en Arissen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-403</note>
+            </u>
+            <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg11">Dan de laatste motie, voorzitter.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de inzet op de economische concurrentiepositie van Schiphol ertoe heeft geleid dat Schiphol nu de laagste luchthavengelden heeft, met meer vliegbewegingen tot gevolg;</note>
+               <note>overwegende dat hier het "vervuiler betaalt"-principe zou moeten gelden;</note>
+               <note>verzoekt de regering om te komen met een plan van aanpak voor de invoering van een vliegtaks en de heffing van accijns op kerosine,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Raan en Arissen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-404</note>
+            </u>
+            <note>Ik maak u erop attent dat de moties zijn medeondertekend door mevrouw Arissen maar dat u dat niet hebt vermeld, wat wel gebruikelijk is.</note>
+            <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg12">Dat zal ik doen. Alle moties zijn medeondertekend door mevrouw Arissen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg13">Er is een interruptie van de heer Graus.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg14">Nou niet zozeer een interruptie, maar dit is mij dus ook gebeurd, want mijn motie over het behoud van vliegveld Teuge is medeondertekend door mijn dierbare collega Roy van Aalst. Dus ik zal de ondertekening van de motie laten wijzigen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg15">Waarvan akte. Dank u wel. Dan geef ik het woord aan mevrouw Kröger van GroenLinks.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg16">Voorzitter. GroenLinks maakt zich grote zorgen over de plannen rond vliegveld Lelystad maar nog veel meer over de toekomst van de luchtvaart. Hoe zorgen we ervoor dat Nederland goed bereikbaar blijft binnen de grenzen van het klimaatverdrag van Parijs? Dit zijn ingewikkelde vraagstukken. In het AO hebben we gesproken over het systeem van slottoewijzing op basis van geluid en uitstoot. Hierover spreken we later graag verder. Maar het meest urgent is Lelystad. Meer dan 80.000 mensen hebben duidelijk gezegd: pas op de plaats; eerst goed onderzoek naar impact en laten we de herindeling van het luchtruim bespoedigen. Daarom dient GroenLinks de volgende moties in. De eerste motie dien ik in mede namens de heer Laçin en de heer Van Raan.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat volgens de luchtverkeersleiding het Nederlandse luchtruim erg vol is;</note>
+               <note>overwegende dat het inpassen van nieuwe routes grote gevolgen heeft voor zowel de bestaande routes als voor de omwonenden en andere belanghebbenden in die gebieden;</note>
+               <note>verzoekt de staatssecretaris eerst de procedure en de belangenafweging rond de herindeling van het Nederlandse luchtruim af te maken alvorens verder te gaan met de besluitvorming rond luchthaven Lelystad,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Kröger, Laçin en Van Raan. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-405</note>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg17">Mijn tweede motie gaat over de MER.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de MER voor luchthaven Lelystad is gemaakt voordat de nu voorgestelde laagvliegroutes bekend waren;</note>
+               <note>overwegende dat laagvliegen mogelijk meer overlast in een veel groter gebied veroorzaakt en dat deze impact niet onderzocht is;</note>
+               <note>verzoekt de staatssecretaris de Commissie voor de milieueffectrapportage te laten toetsen of de huidige MER de gevolgen van de aansluitroutes voldoende heeft betrokken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Kröger, Van Raan en Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-406</note>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg18">Mijn laatste tien seconden wil ik gebruiken om de staatssecretaris te danken voor alle plezierige debatten over de luchtvaart.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg19">Dan geef ik het woord aan mevrouw Visser namens de VVD.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg20">Voorzitter, dank u wel. We hebben pittige debatten gehad met de staatssecretaris over hoe het proces is gegaan rondom Lelystad en de openstelling ervan en over de inspraak daarbij. Daarover wil ik een motie indienen en wil ik vooral ook aangeven — dat zal de heer Jetten ook doen — hoe belangrijk de versnelling van de luchtruimindeling is, niet alleen qua inhoud maar ook om te kijken hoe we dat beter kunnen inrichten zodat er geen black box meer is waardoor mensen zich overvallen voelen. Dat is volgens mij ook de grote les van dit proces dat heeft plaatsgevonden rond Lelystad.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg21">Ik heb een aantal moties. De eerste betreft de optimalisering inzake Lelystad en die motie dien ik mede in namens de heer Van Helvert, de heer Jetten en de heer Bruins.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat mede vanwege het jarenlang uitblijven van een noodzakelijke herindeling van het Nederlandse luchtruim er vooralsnog sprake is van suboptimale vliegroutes van en naar Lelystad Airport;</note>
+               <note>van mening dat binnen de vastgestelde randvoorwaarden inzake deze vliegroutes er gezocht moet worden naar zo min mogelijk overlast voor woonkernen en natuurgebieden;</note>
+               <note>van mening dat luchthaven Lelystad niet kan doorgroeien tot meer dan 10.000 vliegbewegingen voordat het luchtruim is heringedeeld;</note>
+               <note>verzoekt de regering om, in afwachting van de herindeling van het luchtruim, van de vliegroutes van en naar Lelystad de hinder te monitoren en binnen de gestelde randvoorwaarden blijvend te optimaliseren, en de betrokken bestuurders, bewoners en ondernemers proactief daarbij te betrekken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Visser, Van Helvert, Jetten en Bruins. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-407</note>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg22">Voorzitter. We hebben een rondetafelgesprek gehad over het selectiviteitsbeleid. Daarin kwamen een aantal bijzondere dingen naar voren. Vandaar dat ik de volgende motie indien.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de definities van de selectiviteitssegmenten niet eenduidig zijn, met ongewenste effecten van dien, en dat dat in de afgelopen jaren ertoe geleid heeft dat partijen met verschillende belangen langs elkaar heen konden praten;</note>
+               <note>constaterende dat onduidelijk is wat de betekenis van de definities is in internationaal verband en in de context van slotcoördinatie;</note>
+               <note>overwegende dat duurzaamheid ook een onderdeel kan vormen van het selectiviteitsbeleid;</note>
+               <note>verzoekt de regering om in overleg met de sector tot een eenduidige afbakening van de segmenten te komen die bijdraagt aan de versterking van de mainportfunctie van Schiphol,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Visser, Bruins, Van Helvert en Jetten. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-408</note>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg23">Voorzitter. Er zullen, mede namens mij, ook nog een aantal moties worden ingediend inzake de vracht en de MER.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg24">Ik heb nog een laatste vraag over Ryanair, waar we het in het AO over hebben gehad. De Britse toezichthouder heeft ingegrepen. Ik vraag de staatssecretaris om daarop te reageren: wat betekent dit voor de Nederlandse situatie?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg25">Dank u wel. Dan geef ik nu het woord aan mevrouw Kuiken namens de Partij van de Arbeid.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg26">Voorzitter. Ik heb eerst nog een vraag aan de staatssecretaris. In het debat van vorige week heeft zij er terecht op gewezen dat het niet gepast was dat de heer Nijhuis sprak over de MER, omdat die nog helemaal niet compleet is; dat geeft wel weer veel onrust over Schiphol. Ik wil graag een bevestiging van de staatssecretaris dat de MER die gepresenteerd is, inderdaad nog niet af is, dat de bestuurders inzicht krijgen in de MER op het moment dat die compleet is en dat er in de tussentijd geen gekke dingen gebeuren. Ik denk dat dat belangrijk is om vast te stellen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg27">Voorzitter. Ik heb de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de realisatie van Lelystad Airport, de daaraan gekoppelde vliegroutes en de aanstaande herindeling van het Nederlandse luchtruim ongerustheid onder bewoners en luchtruimgebruikers met zich mee brengen;</note>
+               <note>overwegende dat het van groot belang is dat opvattingen en zorgen van deze mensen en organisaties op een zorgvuldige wijze via inspraak en betrokkenheid geborgd worden;</note>
+               <note>verzoekt de regering om die inspraak en betrokkenheid van omwonenden en gebruikers van aansluitroutes op Lelystad Airport te borgen, waarbij vroegtijdig ruimte is voor de inbreng van voorstellen door betrokkenen;</note>
+               <note>verzoekt de regering voorts om deze aanpak te evalueren en mede op basis van de opgedane ervaringen het omgevingsmanagement voor de herziening van het luchtruim op te zetten, en de Kamer over de borging en opzet hiervan te informeren voor 1 december 2017,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kuiken.</note>
+               <note>Zij krijgt nr. kst-31936-409</note>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg28">Voorzitter. Het doel van deze motie is om nu niet alleen te kijken naar Lelystad, maar ook naar de hele herziening van het luchtruim. Hoe gaan we op een nieuwe manier een Alderstafel 2.0 — zo wil hij het noemen — borgen?</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg29">Tot slot …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg30">Een moment, ik onderbreek u even. Wordt de indiening van deze motie in voldoende mate ondersteund? Dat is het geval. Dan maakt zij deel uit van de beraadslaging.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg31">Dank u wel, voorzitter, en excuus. Tot slot zal collega Van Helvert van het CDA mede namens mij een motie indienen over het behoud en het belang van de cargo.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg32">Voorzitter, dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg33">Dank u wel. Dan geef ik nu het woord aan de heer Bruins namens de ChristenUnie. Sorry, er is een interruptie van mevrouw Kröger.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg34">Ik heb geen interruptie, maar een opmerking, namelijk dat mijn tweede motie tevens is ondertekend door de heer Van Raan en de heer Laçin. Dat wil ik hierbij melden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg35">Dank u wel. De heer Bruins.</seg>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg36">Voorzitter. Veel mensen in Overijssel, Gelderland, Zuidwest-Friesland en Flevoland zijn bezorgd dat zij overlast krijgen zodra Lelystad Airport opengaat. Het lijkt er nu op dat er onnodige overlast komt van laagvliegende vliegtuigen. Het is nog onduidelijk wat dit betekent voor gezondheid en milieu. Het is nodig dat het luchtruim anders wordt ingedeeld boven Oost-Nederland. De ChristenUnie wil dat de luchtruimherziening met de grootst mogelijke spoed plaatsvindt, dat alternatieven voor Lelystadroutes serieus doorgerekend worden, dat de onduidelijkheden over de milieueffectrapportage worden opgehelderd, dat bewoners een stem krijgen, dat lokale bestuurders beter geïnformeerd worden en dat vliegveld Teuge rendabel blijft. De ChristenUnie vraagt daarbij speciale aandacht voor laagvliegend verkeer boven het Vechtdal en de wijk Stadshagen in Zwolle en monitoring van de drukte boven Ede en het eerder genoemde vliegveld Teuge. Mensen verdienen gewoon een beter proces dan hoe het in de afgelopen jaren is gegaan. Daarom heb ik twee moties. Mijn eerste motie dubbelt misschien met die van de heer Graus, maar na dit VAO zal ik dat met hem opnemen, om te kijken hoe we dat oplossen. Die motie gaat namelijk over Teuge.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat vliegveld Teuge door de beoogde vertrekroutes van Lelystad Airport belemmerd dreigt te worden in zijn activiteiten en daardoor in zijn exploitatiemogelijkheden en zijn voortbestaan;</note>
+               <note>verzoekt de regering in overleg met vliegveld Teuge te bezien op welke wijze het voortbestaan van vliegveld Teuge ondersteund kan worden, bijvoorbeeld door nieuwe faciliteiten toe te voegen of bestaande faciliteiten over te hevelen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Bruins, Jetten, Van Helvert en Visser. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-410</note>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg37">Dan dien ik nu mijn tweede motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat in het B+-scenario bij oostenwind inkomend en uitgaand vliegverkeer elkaar kruisen, wat leidt tot naderend vliegverkeer op 3.000 voet nabij Zwolle (Stadshagen);</note>
+               <note>constaterende dat lager vliegen dan 6.000 voet slechts bij hoge uitzondering zou moeten plaatsvinden, maar dat dit kruisend vliegverkeer in de gekozen routering een reguliere situatie is;</note>
+               <note>verzoekt de regering in de nadere uitwerking en detaillering van de routes van en naar Lelystad, zowel voor als na herinrichting van het luchtruim, speciale aandacht te besteden aan het voorkomen van kruisend vliegverkeer en daarmee aan het verminderen van overlast door laagvliegroutes,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Bruins, Visser, Van Helvert, Jetten, Graus en Kuiken. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-411</note>
+            </u>
+            <note>Er is een interruptie van de heer Graus.</note>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg38">Voor wat betreft die eerste motie, over Teuge: als iemand voor die ellende gewaarschuwd heeft, dan ben ik het geweest. Ik hou het dus ook heel kort. Ik zeg tegen de staatssecretaris: borg Teuge maar, want ik heb het allemaal voorspeld. De partijen die nu die motie indienen — die eigenlijk een duplicaat is van mijn motie, alleen dan met heel veel wollige woorden — kunnen bij mij mee tekenen, want mijn motie blijft staan en is leidend. Iemand heeft hiervoor gewaarschuwd en een motie ingediend. Het kan dan niet zo zijn dat dadelijk de nieuwe coalitiepartijen nu een motie indienen en gewoon mijn motie ook nog afpakken. Dat zou ik onsportief vinden, moet ik eerlijk zeggen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg39">Daar zat niet echt een vraag in, maar de heer Bruins mag er wel op reageren.</seg>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg40">Ik waardeer de sympathie die de heer Graus tentoonspreidt en altijd tentoon heeft gespreid over vliegveld Teuge. Ik heb net inderdaad zijn motie gekregen en ik ga die serieus bekijken. Dan gaan we kijken wat we daarmee doen. Ik ken de heer Graus inderdaad als iemand die een warm hart heeft en als iemand die ook altijd gewaarschuwd heeft voor wat daar gebeurt.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg41">Het gaat erom dat ik er niet alleen voor heb gewaarschuwd, maar nu ook zeg: borg het. Er komen nieuwe coalitiepartijen, die eigenlijk een soort zelfde motie indienen, maar dan met meer woorden, die ik niet nodig heb. Er staat boven: gehoord de beraadslaging. Ik betrek de beraadslaging erbij, want daar staat alles in. Dan vind ik wel dat jullie desnoods mijn motie ook moeten steunen. Maar ik zou het heel raar vinden — want tegen dat soort spelletjes kan ik niet — als mijn motie dadelijk wordt weggestemd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg42">Meneer Graus, ik snap uw opmerking, maar volgens mij is het een beetje een herhaling van de opmerking die u net al heeft gemaakt, dus ik denk dat het punt helder is.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg43">Dat denk ik niet, want er wordt gezegd: we zullen de motie in beraadslaging nemen. Ik weet wel wat daar uitkomt: dan wordt mijn motie dadelijk verworpen en wordt het duplicaat van de motie-Graus aangenomen. Dat soort politieke spelletjes ... Als het trouwens doorgaat; het zit de mensen echt tot hier. Mensen volgen de debatten en ze zien hoe dat politieke spel gaat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg44">Het punt is duidelijk.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg45">Ere wie ere toekomt, ook hier in de Staten-Generaal. Laten we wel wezen: buiten deze Staten-Generaal zou het gewoon een soort plagiaat zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg46">De heer Bruins was klaar, toch?</seg>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg47">Ja, maar misschien staat u mij nog toe dat ik de staatssecretaris dank voor de kordate en open manier waarop zij sinds haar aantreden bij het ministerie van I en M verschillende zeer complexe dossiers heeft aangepakt. Ook wil ik haar graag danken voor de prettige samenwerking in die tijd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg48">Dank u wel. Dan is het nu het woord aan de heer Van Helvert namens het CDA.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u41">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg49">Dank u wel, voorzitter. We hebben inderdaad pittige discussies gehad. We hebben in eerste instantie vooral teruggekeken naar wat er is misgegaan en we hebben in tweede instantie bekeken hoe het nu verder moet. Er worden in totaal acht moties ingediend waar ik namens het CDA mijn naam onder heb gezet. Twee daarvan zal ik nu zelf indienen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat Lelystad Airport is bedoeld als overloopluchthaven van Schiphol;</note>
+               <note>overwegende dat de invulling hiervan nog moet plaatsvinden en het daarom van belang is dat Lelystad niet autonoom groeit;</note>
+               <note>overwegende dat naast de marktbenadering door Lelystad zelf, het van belang is om een set aan heldere instrumenten om verkeer van Schiphol naar Lelystad Airport uit te plaatsen, beschikbaar te hebben, zoals een verkeersverdelingsregel en geen slotallocatie op Lelystad Airport, omdat anders het risico te groot is dat de beschikbare capaciteit op Lelystad niet primair ten goede komt aan vliegbewegingen die ruimte achterlaten op Schiphol;</note>
+               <note>verzoekt de regering zich maximaal in te spannen om door middel van heldere (juridische) instrumenten te voorkomen dat de capaciteit op Lelystad beschikbaar komt voor bestemmingen en/of luchtvaartmaatschappijen die niet zijn verplaatst van Schiphol naar Lelystad,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat zowel passagiersvervoer als vrachtvervoer van en naar Schiphol essentieel zijn voor de mainportfunctie van de nationale luchthaven;</note>
+               <note>overwegende dat een sterke vrachtpositie van nationaal belang is vanwege exportkansen, vestigingsklimaat en werkgelegenheid;</note>
+               <note>verzoekt de regering de slotallocatie nu en in de toekomst te optimaliseren en daarom zo spoedig mogelijk in overleg te gaan over het hergebruik van toebedeelde, maar niet gebruikte slots met het Operationeel Schiphol Overleg (OSO) en de slotcoördinator en de Kamer hierover te informeren;</note>
+               <note>verzoekt de regering voorts om in beeld te brengen op welke wijze en condities niet-mainportgebonden vrachtvluchten aanvullende ruimte kunnen krijgen op andere vliegvelden, zoals Maastricht Aachen Airport,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Helvert, Visser, Jetten en Bruins. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-412</note>
+               <note>Deze motie is voorgesteld door de leden Van Helvert, Visser, Jetten, Bruins, Kuiken en Graus.</note>
+               <note>Zij krijgt nr. kst-31936-413</note>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u42">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg50">Dank u wel. Ik zie dat ik nog -14 seconden heb om de staatssecretaris hartelijk te bedanken voor de geweldige inzet in de afgelopen periode. Ik ben heel blij dat we haar nog wel als collega in de Tweede Kamer hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u43">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg51">Dank u wel. Dan geef ik nu het woord aan de heer Laçin namens de SP.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u44">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg52">Dank je wel, voorzitter. Wij hebben in twee termijnen pittige discussies gehad over Lelystad en de ontwikkeling van de luchtvaart. Wat ik daaruit kan concluderen is dat zowel de staatssecretaris als de formerende partijen voorstander zijn van Lelystad Airport op 1 april 2019. Rest mij niet anders dan drie moties in te dienen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat voor de inpassing van een miniem aantal vluchten op luchthaven Lelystad hemel en aarde bewogen moeten worden;</note>
+               <note>constaterende dat dit tot bijzonder veel onrust in het land leidt, blijkens de zeer rumoerig verlopen informatiebijeenkomsten, duizenden e-mails aan Kamerleden en de 80.000 verzamelde handtekeningen tegen de luchthaven Lelystad;</note>
+               <note>constaterende dat milieu en natuur, waaronder de Veluwe, extra belast worden door het openstellen van luchthaven Lelystad;</note>
+               <note>overwegende dat in dergelijke situaties het beter is ten halve te keren dan ten hele te dwalen;</note>
+               <note>draagt de regering op om de verdere ontwikkelingen rondom de luchthaven Lelystad per direct te stoppen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-414</note>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u45">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg53">Mijn tweede motie wordt gesteund door een uitspraak van gisteren van FNV, TLN, evofenedex en Air Cargo Netherlands.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat vrachtvluchten vanaf de komende winter onevenredig hard geraakt gaan worden door de slotschaarste op Schiphol;</note>
+               <note>constaterende dat dit grote gevolgen kan hebben voor de werkgelegenheid;</note>
+               <note>constaterende dat op basis van artikel 6 van het Besluit slotallocatie de minister kan ingrijpen in de toewijzing van slots;</note>
+               <note>verzoekt de regering om specifiek ruimte toe te wijzen aan de all-cargovrachtvliegtuigen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-415</note>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u46">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg54">Mijn derde motie gaat ook over Teuge. Ik ben dus benieuwd wat de heer Graus ervan gaat vinden.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat zowel de B+- als de B++-routevariant door hetzelfde deel van het kernluchtruim rondom Schiphol heen gaan;</note>
+               <note>constaterende dat de B++-routevariant voldoet aan de spelregels zoals vastgelegd aan de Alderstafel;</note>
+               <note>constaterende dat uit onderzoek in opdracht van Teuge Airport uitgevoerd door Adecs Airinfra blijkt dat het aantal gehinderden in de B++-routevariant aanzienlijk minder is dan in de B+-routevariant;</note>
+               <note>gehoord hebbende de toezegging van de staatsecretaris om de Kamer te informeren over de gesprekken met Teuge Airport;</note>
+               <note>overwegende dat dan feitelijk het doek al is gevallen voor de valschermactiviteiten op Teuge en alle bijbehorende economische spin-off;</note>
+               <note>verzoekt de regering om de B++-routevariant alsnog mee te nemen in het besluitvormingsproces om zodoende een echt zorgvuldige keuze te maken over de toekomst van ons nationaal paracentrum,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31936-416</note>
+            </u>
+            <u who="#CemLaçin" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u47">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg55">Dan wil ik de staatssecretaris danken voor de leuke en prettige debatten die wij hebben gevoerd en zie ik er ook vooral naar uit om samen met haar in de bankjes te zitten en goed oppositie te voeren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u48">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg56">Dan geef ik tot slot het woord aan de heer Jetten namens D66.</seg>
+            </u>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u49">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg57">Voorzitter, dank u wel. De afgelopen weken hebben wij als Kamer ontzettend veel berichten gekregen van bewoners uit Overijssel, Flevoland, Gelderland en Friesland, die zich zorgen maken over de ontwikkelingen rondom Lelystad Airport. Ik begrijp die onrust en die onduidelijkheid. Die onduidelijkheid is gisteren door een persbericht van de Commissie voor de m.e.r. opnieuw vergroot. D66 is ontevreden over het lage tempo van de herindeling, de tijdelijke suboptimale routes en het proces waarin belanghebbenden tot nu toe zijn meegenomen. De staatssecretaris heeft in het AO gelukkig dan ook toegezegd om op deze punten te verbeteren en wij zullen dat als D66-fractie kritisch volgen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg58">Ik heb twee moties. Allereerst de motie over het tempo van de herindeling.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat mede vanwege het jarenlang uitblijven van een noodzakelijke herindeling van het Nederlandse luchtruim er vooralsnog sprake is van suboptimale vliegroutes;</note>
+               <note>van mening dat binnen de vastgestelde randvoorwaarden inzake de vliegroutes van en naar Lelystad gezocht moet worden naar zo min mogelijk overlast voor woonkernen en natuurgebieden;</note>
+               <note>van mening dat luchthaven Lelystad niet kan doorgroeien tot meer dan 10.000 vliegbewegingen voordat het luchtruim is heringedeeld;</note>
+               <note>verzoekt de regering om de uitvoering om te komen tot een luchtruimherindeling zo snel mogelijk uit te voeren, daarmee zo snel als mogelijk af te ronden en de Tweede Kamer voor het kerstreces een plan van aanpak inzake de herindeling van het luchtruim te sturen, inclusief een voorstel op welke wijze de omgeving wordt betrokken bij dit proces,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Jetten, Visser, Van Helvert, Bruins en Graus.</note>
+               <note>Zij krijgt nr. kst-31936-417</note>
+            </u>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u50">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg59">Voorzitter. Mijn tweede motie gaat over de onduidelijkheid die gisteravond is ontstaan over de MER.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Commissie voor de m.e.r. op 3 oktober 2017 op haar website een persbericht heeft gepubliceerd over de tijdelijke aansluitroutes van en naar Lelystad Airport;</note>
+               <note>overwegende dat hierdoor onduidelijkheid is ontstaan over de mogelijke milieueffecten van de lage tijdelijke aansluitroutes van en naar Lelystad Airport;</note>
+               <note>verzoekt de regering parallel aan de consultatieperiode met de Commissie voor de m.e.r. duidelijkheid te verschaffen over detailniveau en reikwijdte van de vastgestelde MER in relatie tot de tijdelijke aansluitroutes en de mogelijke milieueffecten, en de Kamer zo spoedig mogelijk over de uitkomsten te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Jetten, Bruins, Van Helvert, Visser en Kuiken.</note>
+               <note>Zij krijgt nr. kst-31936-418</note>
+            </u>
+            <note>Er is een interruptie van de heer Van Raan.</note>
+            <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u51">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg60">Voorzitter, dank u wel. Ik heb een vraag aan de heer Jetten over zijn eerste motie. Die vraagt om zo snel mogelijk een herindelingsbesluit te nemen. Is de heer Jetten het met de Partij voor de Dieren eens dat, als die motie wordt aangenomen en uitgevoerd en als er dus gewerkt wordt aan die versnelde herindeling, eigenlijk alle voorbereidingen voor de uitbreiding zouden moeten stoppen totdat het besluit echt genomen is?</seg>
+            </u>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u52">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg61">Nee.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u53">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg62">Was er nog een tweede interruptie? Niet van de heer Van Raan. Wel van mevrouw Kröger.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u54">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg63">Even voor de duidelijkheid, ook in relatie tot de motie die GroenLinks heeft ingediend, samen met anderen. Betekent deze motie voor D66 dat de commissie voor de m.e.r. gaat analyseren in hoeverre de laagvliegroutes daadwerkelijk betrokken dienen te worden in de MER?</seg>
+            </u>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u55">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg64">Mevrouw Kröger heeft samen met een aantal andere leden zelf ook een interessante motie over de MER ingediend. Ik denk alleen dat de motie die ik juist heb ingediend, net een stap daarvoor zit. Het is namelijk voor mij nu niet duidelijk wat de commissie voor de m.e.r. gisteravond heeft bedoeld en waar we nu staan. Deze motie vraagt de staatssecretaris om vanuit het ministerie van I en M in samenwerking met de commissie voor de m.e.r. duidelijkheid te verschaffen. Pas als we die duidelijkheid hebben, kunnen we praten over de vraag die u hebt voorgelegd. Dus mijn motie is eigenlijk een stap daarvoor.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u56">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg65">Ik snap heel goed dat die motie een stap daarvoor zit. De vraag is alleen of die motie de commissie voor de m.e.r. ook vraagt om in het kader van dat "duidelijkheid verschaffen" te bezien of de MER die in 2014 is uitgevoerd, op dit moment nog volledig is als je de laagvliegroutes in ogenschouw neemt. Is dat onderdeel van wat D66 beoogt met "duidelijkheid verschaffen"?</seg>
+            </u>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u57">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg66">Ja.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u58">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg67">Dank u wel.</seg>
+            </u>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u59">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg68">Voorzitter, tot slot, als dat mag. Blijkbaar zijn wij er allemaal van overtuigd dat deze staatssecretaris niet meer met ons in debat hoeft te komen. Dat hoopt zij volgens mij zelf ook. We zullen het zien, maar mocht dit inderdaad de laatste keer zijn dat we tegenover elkaar staan in deze verhoudingen, dan wil ik haar danken voor de pittige, maar wel altijd constructieve debatten die wij de afgelopen zes maanden hebben gevoerd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u60">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg69">Dank u wel. Dan zijn wij aan het eind gekomen van de eerste termijn van de Kamer. De staatssecretaris heeft slechts vijf minuten nodig om te kunnen reageren op de moties.</seg>
+            </u>
+            <note>De vergadering wordt van 10.45 uur tot 10.50 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u61">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg70">Ik zie dat de staatssecretaris zover is. Ik geef het woord aan de staatssecretaris van I en M.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u62">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg71">Voorzitter, hartelijk dank. Ik ga mijn best doen om de negentien ingediende moties te voorzien van een oordeel en hier en daar ook nog een antwoord te geven op een enkele vraag.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg72">Voorzitter. We hebben inderdaad een stevig debat gehad over de toekomst van Lelystad Airport en de wijze waarop we daar nu mee verdergaan. Ik hoop dat we ook aan de hand van deze moties en de inzet die mijn mensen in de komende maanden en weken nog zullen plegen, toch zo veel mogelijk kunnen doen om uit te leggen wat we aan het doen zijn, daar transparant in te zijn, mensen mee te nemen in wat het betekent en ook soms de zorgen die er zijn weg te nemen. Ik zie bijvoorbeeld dingen langskomen als zouden er 70 vliegtuigen per uur over Ede komen. Dat is echt niet zo. Het is ook belangrijk dat we door die informatie te bieden mensen laten zien wat er nou wel en niet gaat gebeuren.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg73">Voorzitter. Ik kom bij de verschillende moties. Allereerst de moties van de heer Graus. De eerste motie, op stuk nr. 400, is supersympathiek maar totaal onuitvoerbaar. Hij wil historisch verworven slots in een pot stoppen voor onze eigen home based carriers. Ik snap dat, maar dat mag niet in het kader van het Europese mededingingsbeleid. Dat kan ik dus niet doen. Ik moet de motie om die reden ontraden. Dit debat hebben we ook vaker gevoerd. Dat weet u ook. Ik kan er een heel lang verhaal van maken, maar hier komt het eigenlijk op neer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u63">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg74">Een vraag van de heer Graus.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u64">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg75">De staatssecretaris was heel duidelijk, ook tijdens het AO, maar ik wil dat de Kamer zich uitspreekt. De Duitsers geven namelijk 150 miljoen steun en daar maakt de Europese Commissie allemaal geen probleem van. De Golfstaten hebben staatssteun. Ik kan nog een hele rij op gaan noemen. Wij laten ons de kaas van het brood eten. Alles kan. We klonen schapen, we landen op de maan. Alles kan, alles. Maar we moeten wat meer met de vuist op de tafel slaan. We zijn te onderdanig aan de bureaucraten in Brussel. Ik wil weten wat de Kamer hiervan vindt en daarom dien ik die motie in. De staatssecretaris is duidelijk tegen mij geweest. Ik wil weten wat de Kamer hiervan vindt, want andere landen laten de belangen van hun eigen airlines prevaleren boven die van andere, en wij doen dat niet. Ik wil dat wij de belangen van onze airlines gaan laten prevaleren, van …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u65">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg76">Het is duidelijk.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u66">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg77">… KLM, Transavia, Corendon.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u67">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg78">Twee opmerkingen daarover. Ik ben het met de houding van de heer Graus eens: huppetee, gewoon zorgen dat je voor je belang staat en daar geen twijfels over hebben. Als er met vuisten op tafels geslagen moet worden, moet dat gebeuren. Ik doet dat zelf meestal liever niet. Dat moet je eigenlijk ook helemaal niet nodig hebben om gezag af te dwingen in een discussie. Maar als dat zou moeten, dan moet dat gebeuren. Ik vind ook dat we het Nederlands belang inderdaad gewoon scherp op de agenda moeten hebben in Europees verband. U zegt dat u een uitspraak van de Kamer wil, maar dat doet deze motie niet want die verzoekt mij iets. Vandaar dat ik zo reageer, want u vraagt in deze tekst niet iets aan uw collega's maar aan het kabinet. Aan uw verzoek kan ik, in alle eerlijkheid, dus niet voldoen.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u68">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg79">Laat ik het dan duidelijk stellen. De slotscoördinator is niet God almachtig. Wij bepalen hier wat er gebeurt. Wij bepalen dat. Wij moeten dat bepalen met de Kamer. Het gaat om onze airlines. Het is namelijk wel mogelijk, hoor. Je kan het gewoon herverdelen, hop, en verdelen onder de home based carriers. Dat kan. Het is mogelijk, maar …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u69">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg80">Meneer Graus, dit is een interruptie. Wilt u hem kort houden? Anders gaan we het debat overdoen.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u70">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg81">Maar het moet wel goed worden uitgelegd. Ik ben benieuwd hoe de Kamer hierover gaat stemmen …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u71">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg82">U hebt de motie ingediend, dus de Kamer gaat stemmen.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u72">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg83">… want ik wil kijken wie er opkomt voor onze home based carriers. Daar ben ik echt benieuwd naar.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u73">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg84">Ik kom bij mijn oordeel over de tweede motie, op stuk nr. 401, van de heer Graus. Ik heb net het interruptiedebatje met de heer Bruins gehoord. Hij heeft op stuk nr. 410 een zelfde soort motie ingediend over het voortbestaan van vliegveld Teuge, met een tekst die mij iets meer ruimte geeft. Ik kijk nu dus even naar de heer Graus om eruit te komen. Ik ben heel brutaal nu want ik mag me hier helemaal niet mee bemoeien, maar het zou natuurlijk kunnen, zeg ik tegen meneer Graus, dat hij bereid is om een deel van de tekst uit die motie in zijn motie te stoppen. Hij was de eerste indiener. Wellicht zou de aanstormende nieuwe coalitie, die toch ook nog wel wat vrienden kan gebruiken in de Kamer, kunnen overwegen om dan de motie van de heer Graus met een goede tekst te steunen. Ik zal uitleggen waarom ik met uw tekst een klein beetje in de problemen kom. U zegt: je moet het voortbestaan borgen. Dat is een soort absolutie waarbij er geen andere route is. Mijn inzet is om het vliegveld te borgen, maar daarvoor moeten wel een paar dingen gebeuren. Om te beginnen moeten de aandeelhouders en de directeur van dat vliegveld zelf met mij om tafel gaan zitten en willen onderhandelen, bijvoorbeeld over het verplaatsen van het paracentrum naar een plek waar het wel kan en waar het perspectief heeft. Ik heb al gezegd dat ik bereid ben om daar financieel in te investeren. Dan moeten ze echter wel bewegen, want als zij stil blijven zitten en niets doen, kunt u mij dat wel opdragen, maar dan eindigt het met helemaal niets.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg85">Het andere punt is dat klein luchtverkeer, dat nu bijvoorbeeld op Lelystad Airport zit, wellicht versneld overgeplaatst zou kunnen worden naar Teuge. Daar heb ik met de gedeputeerden in Flevoland ook al over gesproken. Die moeten ook meewerken. Er is ook een intentie om dat te doen. Al die mensen moeten wel allemaal hun ding doen om dit met elkaar mogelijk te maken en de mensen van Teuge zelf moeten ook echt een knop omzetten. Met andere woorden, als de heer Graus er open voor staat om een klein beetje te sleutelen aan zijn tekst — deze tekst is heel eenvoudig, maar hij is daarin ook wat complicerend — zou hij een motie kunnen indienen die van mij "oordeel Kamer" krijgt en dan heeft hij er misschien wel vier nieuwe ondertekenaars bij. Dan haalt die motie het ook. Het is maar een suggestie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u74">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg86">De heer Graus, kort.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u75">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg87">Kort? Dit is pas de eerste keer bij deze tweede motie.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg88">Dat zou een sportieve gang van zaken zijn. Ik doe dat ook altijd. Als iemand eerder is, ben ik bereid om mijn motie over te dragen aan degene die eerder spreekt. Dat doe ik al elf jaar lang. Maar het gebeurt hier meestal niet. Daarom mijn motie. De heer Bruins, de eerste indiener, vertrouw ik wel. Ik neem dit dan ook zeker in beraad. Bovendien zijn we net al overeengekomen dat ik zijn motie ook meeonderteken. Er staan dus twee opties open: een hardere motie van de PVV en een PVV-light motie van de ChristenUnie en andere partijen.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u76">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg89">Als u uw motie handhaaft, moet er echt iets in uw tekst gebeuren, waarmee u mij een klein beetje ruimte geeft. Mijn voorstel zou zijn dat u de regering vraagt om zich maximaal in te zetten voor het voortbestaan van vliegveld Teuge. Dat geeft dan aan dat dat de inzet is, maar het geeft ook aan dat er een beweging van anderen nodig is. Als u dus zou kunnen zeggen: verzoekt de regering zich maximaal in te zetten om het voortbestaan van vliegveld Teuge te borgen, dan kan ik zeggen dat dat een goed idee is en dan heeft u er waarschijnlijk een heleboel extra nieuwe ondertekenaars bij. Ik heb meer dan alleen de heer Bruins heel welwillend zien glimlachen toen u dat allemaal zei. Het komt dan ook vast goed.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u77">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg90">Ik neem die adviezen mee en zal mijn motie aanpassen.</seg>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u78">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg91">We hebben hier ook een voorbeeld voor hoe we met elkaar om willen gaan. Ik stel voor dat als de staatssecretaris "oordeel Kamer" geeft op mijn motie over Teuge, ik de heer Graus bovenaan zet, zodat het de motie-Graus c.s. wordt. Ere wie ere toekomt.</seg>
+            </u>
+            <note>Motie</note>
+            <note>De Kamer,</note>
+            <note>gehoord de beraadslaging,</note>
+            <note>constaterende dat vliegveld Teuge door de beoogde vertrekroutes van Lelystad Airport belemmerd dreigt te worden in haar activiteiten en daardoor in haar exploitatiemogelijkheden en haar voortbestaan;</note>
+            <note>verzoekt de regering, in overleg met vliegveld Teuge te bezien op welke wijze het voortbestaan van vliegveld Teuge ondersteund kan worden, bijvoorbeeld door nieuwe faciliteiten toe te voegen of bestaande faciliteiten over te hevelen,</note>
+            <note>en gaat over tot de orde van de dag.</note>
+            <note>Daarmee is de motie op stuk nr. 410 (31936) dus ingetrokken. Zo komen we eruit.</note>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u79">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg92">Ik geef "oordeel Kamer" op de motie-Bruins op stuk nr. 410. Dan hebben we het hiermee opgelost. Dat is mooi. Hartstikke goed. Dat vind ik ook fijn.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg93">Dan komen we bij de motie-Van Raan c.s. op stuk nr. 402. Die moet ik ontraden. Ik ga niet stoppen met de voorbereidingen van een aantal zaken die wij inderdaad rondom Schiphol in gang aan het zetten zijn. Het is gewoon een andere politieke inzet. Dat begrijpt de heer Van Raan ook wel. Ik denk dat mijn oordeel voor zich spreekt. Hij heeft hier gewoon een ander standpunt hierover. Dat mag uiteraard en dat begrijp ik ook vanuit zijn politieke achtergrond. Zo is het nu eenmaal in het leven.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u80">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg94">Eén moment, ik geef nog even kort de heer Graus het woord.</seg>
+            </u>
+            <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u81">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg95">Even iets van huishoudelijke aard, mijnheer de voorzitter. Ik ga dus mijn motie intrekken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u82">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg96">Aangezien de motie-Graus (, nr. ) is ingetrokken, maakt zij geen onderwerp van beraadslaging meer uit. </seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u83">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg97">Dan kom ik bij de leden Van Raan en Arissen, die mij vragen om serieus werk te maken — ik zou haast zeggen: blijven maken, want dat doen we namelijk al — van diervriendelijke oplossingen voor het terugdringen van ganzenpopulaties. We doen er echt van alles aan. We willen immers het risico op vogelaanvaringen beperken. Als dat zo diervriendelijk mogelijk kan, is dat gewoon mijn inzet. Ik zou zeggen over deze motie: oordeel Kamer. Dit is wat wij doen. Ik vind het belangrijk dat we dat op deze manier doen. Het is een goed idee, niet alleen omdat het dierendag is, want in mijn ogen moet het elke dag dierendag zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg98">Dan kom ik bij de motie over de vliegtaks. Dat is echt iets voor een volgend kabinet. Ik kan hier alleen maar ontraden. Ik ben op dit moment diepdemissionair, zoals dat zo mooi heet. U heeft dat ook wel met elkaar geconstateerd. Ik zal aan het eind van mijn inbreng daar nog iets over zeggen. Deze motie past niet binnen het kabinetsbeleid en ik kan niet anders dan haar ontraden. Ik heb geen idee wat de toekomst hier brengt, dat zullen we afwachten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u84">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg99">Mevrouw Visser, het gaat niet over uw eigen motie.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u85">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg100">Nee, maar ik heb nog een vraag, voorzitter, naar aanleiding van de motie op stuk nr. 403. De staatssecretaris zei volgens mij "oordeel Kamer" en ik ben even op zoek of dit ook betekent nieuw beleid, ja of nee. Zo lees ik de motie namelijk. De vraag is hoe de staatssecretaris de motie interpreteert. Ik vraag dus om een toelichting, voorzitter.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u86">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg101">Wij zijn voortdurend aan het experimenteren, ook met nieuwe mogelijkheden, dus in die zin blijven we dat doen. Het kan zijn dat we weer een nieuwe methode verzinnen die het mogelijk maakt om op diervriendelijker wijze de ganzenpopulatie weg te houden bij de luchthavens. Zo zie ik het. Ik heb niet dé nieuwe instrumenten al in mijn achterzak, want dan hadden we ze al ingevoerd. Je moet wel op zoek blijven, want dat is gewoon verstandig om te doen. Zo zie ik het.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg102">Dan kom ik op de motie op stuk nr. 405 van mevrouw Kröger, waarin zij verzoekt om eerst de herindeling van het luchtruim te maken en daarna pas het vliegveld te openen. Eigenlijk hebben we daarover drie uur lang van standpunt gewisseld in het debat. Ik heb gezegd dat Lelystad dringend nodig is om het mainportgebonden verkeer verder te kunnen ontwikkelen en ook het vakantieverkeer juist daarnaartoe te kunnen uitplaatsen. Het is een overloopluchthaven van Schiphol. Mijn inzet was bekend. Eigenlijk zegt mevrouw Kröger dat zij het anders wil. Ik ontraad dat. De Kamer moet nu oordelen wat zij daarmee doet.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg103">Ik kom bij de Commissie voor de m.e.r.: de motie op stuk nr. 406. Er is ook een motie van de heer Jetten, die pak ik er meteen even bij, als u dat goedvindt. Dat is de motie op stuk nr. 418. Gisterenavond is er één nieuw zinnetje verschenen in een stuk tekst op de site van de Commissie voor de m.e.r. Ik moet eerlijk zeggen dat ik dat zelf ook verwarrend vond. Wij wisten het ook niet, voor ons kwam het ook als een volslagen verrassing. Wij hadden ook geen heads-up gehad, van "wij gaan iets doen op een site"; ik tenminste niet, laat ik het zo zeggen. Ik ga toch even proberen te zeggen hoe het zit. Daarna zal ik iets over de motie zeggen. In het MER zijn diverse varianten — A, A+, B, B+ — van al die ontsluitingsroutes bekeken voor zover deze relevant zijn voor de omvang en ligging van de wettelijk voorgeschreven geluidscontouren. De B+-variant kwam daarbij als verreweg de beste variant uit de bus op de verschillende in het MER in beeld gebrachte aspecten. Daarom hebben we voor die route gekozen. Op basis van de bij die routevariant behorende contouren is het Luchthavenbesluit formeel vastgesteld. In de afgelopen weken heb ik steeds aangegeven dat het van belang is, ook voor het voortgang van de procedure, dat we aan die routevariant vasthouden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg104">De aansluitingsroutes tussen de in het MER beschouwde routevariant B+ en de zogenaamde snelwegen in de lucht zijn niet in het MER voor Lelystad Airport onderzocht omdat deze geen effecten hebben op de ligging van de contouren die conform de wet in beeld gebracht zouden moeten worden. De Commissie m.e.r. zei gisteravond dat zij daar gewoon veel vragen over kreeg. Zij zei: wij hebben die aansluitingsroutes inderdaad niet bekeken. Maar waarom niet? En dat is wel even de kern: er is voor die aansluitroutes geen MER-plicht. Er zijn twee categorieën: soms zijn dingen MER-plichtig en je hebt een MER-beoordeling. Dat laatste is een soort lichtere toetsingsvariant. Voor die aansluitingsroutes geldt dat beide niet aan de orde zijn. Noch de MER-plicht, noch de MER-beoordeling is aan de orde. Dat doen wij ook niet voor bijvoorbeeld Schiphol. Je zou dan immers elke route opnieuw helemaal door de MER-toets moeten halen. Dit is dus allemaal conform de wijze waarop het in de wet is afgesproken. De Commissie m.e.r. heeft dus iets niet bekeken, omdat dat volgens de wet ook helemaal niet moet. Zo zit het.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg105">Er is natuurlijk wel onrust ontstaan over die aansluitingsroutes. Daarom hebben we ook gezegd: laten we nou een extern onderzoek doen. Het hoofddoel is om te laten zien dat er ook geen effect is op de ligging van de wettelijk voorgeschreven contouren. Het resultaat van het onderzoek dat wij zelf al extern laten doen is dat het geluid van die 10.000 bewegingen in het huidige luchtruim binnen de wettelijke contouren van het MER blijft. Zelfs als je nu 45.000 vliegbewegingen in het huidige luchtruim zou doen, wat om andere redenen niet kan, dan blijft het nog overeind staan. Die conclusie hebt u ook in de laatste Kamerbrief gezien.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg106">Nu zei HoogOverijssel in de afgelopen week: ja maar, die MER klopt niet; wij hebben andere berekeningen. Zoals ik al zei, hebben zij een eigen model ontworpen. Dat kan ook niet, want het model dat je moet hanteren is wettelijk belegd. Je kunt daar niet zelf iets uit kiezen. We spreken met hen hierover. We laten de berekeningen zien, ook voor die lagere routes, om te bewijzen hoe het zit, transparant als we willen zijn. Ik kan de Kamer daar nog een brief over sturen. De resultaten van het externe onderzoek naar de piekbelasting hebben we al gepresenteerd, bijvoorbeeld tijdens de informatieavonden. We zullen die de Kamer ook doen toekomen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg107">Wat de uitstoot betreft kan ik zeggen dat die altijd het hoogst is rond de luchthaven. Er zijn geen wettelijke normen voor op lagere hoogte. Dat is in de MER ook allemaal aangetoond. Die MER is destijds ook nog een keer aangevuld — dat ziet u ook op die website — maar het was verwarrend want het leek net alsof dat nu nog moest. Toen ik die tekst gisteravond las, dacht ik ook: wat zegt dit nou?</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg108">Ik stel daarom het volgende aan de Kamer voor. Ik ga niet doen wat mevrouw Kröger in de motie op stuk nr. 406 vraagt, want dat is niet de taak van de Commissie m.e.r., zoals ik net ook heb uitgelegd.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg109">Ik zeg het even in mijn eigen woorden, maar in de motie van de heer Jetten op stuk nr. 418 staat eigenlijk: ga nou met de Commissie m.e.r in gesprek en geef gewoon helderheid over hoe het precies zit. Dat lijkt mij verstandig, dus dat ga ik doen. Ik laat het oordeel over die motie aan de Kamer. Ik zou de motie ook kunnen overnemen, want we gaan dat gewoon doen wat mij betreft.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg110">U krijgt daar dan op een zo kort mogelijke termijn een brief over met de informatie die we hebben en ook eventueel de berekeningen die in het externe rapport staan. Dan kan iedereen ook weer gezellig meerekenen. Het is een hele toer. Het is hogere wiskunde, Lden's. Ga er maar aan staan. Maar dat moeten we gewoon doen. Daarmee kunnen we ook even vastleggen wat er volgens de MER allemaal moet, wat er al is gebeurd, wat er niet hoeft en wat wij desalniettemin doen. Op die manier hoop ik de Kamer zo veel mogelijk duidelijk te verschaffen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u87">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg111">Voorzitter. Nee, ik zeg het verkeerd. Het is even wennen.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u88">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg112">Ja, het is een mooie stoel, hè.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u89">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg113">Prachtig! Ik hoor de staatssecretaris zeggen: overnemen. Bestaat daar in de Kamer bezwaar tegen? Als dat zo is, komt de motie in stemming. Als dat niet zo is, komt de motie niet meer in stemming. Zo werkt het.</seg>
+            </u>
+            <u who="#RobJetten" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u90">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg114">Ik dank de staatssecretaris voor de heldere toelichting op beide moties. Ik wil mijn motie toch graag in stemming brengen, ook vanwege alle berichten die wij als Kamer in de afgelopen 24 uur weer hebben gekregen. Ik zie net op de website van de Commissie voor de m.e.r. dat daar nu weer een andere tekst staat. Ik vind het belangrijk dat we als Kamer hier ook een uitspraak over doen. Ik kan me dan helemaal vinden in de uitleg die de staatssecretaris aan de motie geeft.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u91">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg115">In dat geval is mijn oordeel dus "oordeel Kamer", want ik zie de motie als ondersteuning van het beleid.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u92">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg116">Wij zijn blij dat er een brief komt met de uitkomst van de gesprekken met de bewonersgroep HoogOverijssel. Die brief was ook al in het AO toegezegd. Het gaat ons erom dat de MER als onafhankelijk orgaan kan kijken naar de laagvliegroutes en de potentiële effecten van die routes betrekt in de advisering. Ik vroeg de heer Jetten hier net naar: dat bleek ook de intentie van D66 bij het indienen van de motie als het gaat om het verschaffen van duidelijkheid. Ik zou graag helder willen krijgen van de staatssecretaris of de Commissie voor de m.e.r. wordt gevraagd om ook de effecten van de laagvliegroutes erbij te betrekken.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u93">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg117">Ik ga niet om een nieuw advies vragen om opnieuw naar de laagvliegroutes te kijken. Wat ik wel ga doen — zo heb ik de heer Jetten begrepen — is het gesprek met de Commissie voor de m.e.r. aangaan, waarna ik kan duiden waar zij wel en niet naar heeft gekeken. We kunnen dan met elkaar vaststellen dat dit volgens de wet goed gegaan is. Ik kan u daarover berichten. Vervolgens zal ik u ook laten zien dat onze berekeningen — die hebben we extern laten maken; die maken we niet zelf — ook voor de laagvliegroutes zijn. Dan krijgt u de geluidseffecten dus in beeld. Dat komt ook in de brief. Dan kan iedereen zien of het wel of niet klopt. Ik wil daar wel volledig transparant over zijn. Ik ga nu niet opeens een MER-positie creëren terwijl dat heel nadrukkelijk — dat weet de Commissie voor de m.e.r. ook — niet hun taak is. Volgens de wet hoeft dat ook niet te gebeuren. Dat wordt ook nooit gedaan, ook niet bij andere luchthavens of in andere situaties.</seg>
+            </u>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u94">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg118">De staatssecretaris geeft aan dat zij de Commissie voor de m.e.r. niet opnieuw naar de laagvliegroutes wil laten kijken. Volgens mij is precies het probleem dat er nog nooit naar de laagvliegroutes is gekeken door de commissie, aangezien de MER is gedaan voordat de laagvliegroutes bekend waren. De staatssecretaris geeft aan dat dit een unieke situatie is en dat de Commissie voor de m.e.r. nergens naar dit soort laagvliegroutes kijkt. Dat klopt, aangezien ook nergens ter wereld zo lang laag gevlogen gaat worden. Het gaat mij erom of de milieueffecten en de effecten op de omwonenden in vier provincies wel degelijk mee hadden moeten worden genomen in de MER en of de Commissie voor de m.e.r. daar een advies op kan geven.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u95">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg119">Ja, maar de MER die gedaan is, is zelfs nog aangevuld omdat de commissie indertijd vond dat er onvoldoende informatie was. Die MER is compleet uitgevoerd. Waarom is dat zo? Nou, die is niet gedaan op basis van 10.000 vliegbewegingen, waar we het nu over hebben, maar op basis van 45.000 vliegbewegingen. Een MER wil je altijd beoordelen op de geluidscontouren waar die het hevigst zijn. Dat is bij starten en landen, dus de eerste geluidsringen. Mijn stelling is dus — die zullen we ook met de Commissie voor de m.e.r. bespreken — dat de MER zoals die gedaan had moeten worden, ook met deze aansluitroutes, gedaan is. Er is namelijk geen wettelijke plicht voor de MER om naar de aansluitroutes te kijken. Er is niet eens — dat weet men ook — een beoordeling van de MER op dit punt gevraagd. Ik ga niet iets doen wat niet volgens de wet moet. Wat ik wel doe, omdat ik weet dat er onrust over is, is hen meenemen. HoogOverijssel zegt namelijk dat het allemaal niet klopt en dat de berekeningen ondeugdelijk zijn. De experts die dat voor ons voor de lage routes uitrekenen, laten zien hoe ze dat doen. Zij zijn daar volkomen transparant in. Men kan dat allemaal nakijken. Ik ga die informatie ook allemaal aan u aandragen. Over de aansluitroutes — daar hebben we het over; ik moet even heel precies zijn — zeg ik wat ik eerder gezegd heb. U krijgt een brief. We spreken met de commissie. We zullen precies daarin meegeven hoe het zit, want die routeset B+ is bekeken. Dat zijn feitelijk de lage routes. Die zijn gewoon bekeken. Ik weet dat het heel technisch is, maar dat is de reden waarom het echt goed is om ook in overleg met de MER te gaan en u daarna daarover een brief te sturen. Dan kunt u het nakijken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u96">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg120">Mevrouw Kröger, de interruptie is in tweeën en u hebt dat al gedaan.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u97">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg121">Ik kom op de motie-Visser op stuk nr. 407, die tot doel heeft in afwachting van de herindeling van het luchtruim de routes op het terrein van hinder binnen de gestelde voorwaarden te monitoren en te optimaliseren en betrokken bewoners, bestuurders en ondernemers goed erbij te betrekken. Ik wil het oordeel aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg122">Over geluidseffecten wordt door de luchthavenexploitant met de regio een monitoringsprogramma uitgewerkt. Als bijvoorbeeld uit operationele ervaring in de eerste jaren blijkt dat er binnen de afgesproken uitgangspunten optimalisaties mogelijk zijn die geen belemmering vormen voor de verdere herindeling van het luchtruim, moeten wij daar natuurlijk ook met voorrang naar kijken. Als ik de motie zo mag uitleggen, wil ik die als ondersteuning van beleid zien.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u98">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg123">Een moment. Ik geef mevrouw Visser kort het woord, want u hebt een vraag gesteld over de interpretatie.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u99">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg124">Ja. De motie heeft ook een tweede deel. Dat ziet erop toe bewoners, bestuurders en ondernemers er actief bij te betrekken. Dat is ook wel een stap in deze motie, maar daar heeft de staatssecretaris niets over gezegd in relatie tot haar interpretatie van deze motie.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u100">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg125">Nee. Daarover is nog een motie ingediend, namelijk die van mevrouw Kuiken. Maar ik kan heel kort zijn door te zeggen: ja, dat gaan we doen. We gaan het anders doen, ook op basis van de ervaring van nu. Die ervaring is dat er weliswaar veel informatieavonden zijn en er een grote opkomst is maar dat mensen niet het gevoel hebben dat hun inspraak daarmee geborgd is. Daarmee zullen we dus echt op een andere manier aan de slag moeten gaan. Ik kom daar direct over te spreken, maar ik denk dat we het daar allemaal over eens zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg126">Ik kom op de motie op stuk nr. 408 met het verzoek met de sector tot een eenduidige afbakening van de segmenten te komen die bijdraagt aan versterking van de mainportfunctie. Het gaat dan over het selectiviteitsbeleid. Ik vind dat een goed plan en ben al in gesprek met de sector. Wij gaan dat dus doen. Ik laat het oordeel aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg127">Ik kom bij de motie-Kuiken, waarin ook gevraagd wordt een evaluatie te doen op basis van de inbreng door betrokkenen over voorstellen — het betreft luchtvaartgebruikers maar ook bestuurders, ondernemers en bewoners — en te kijken of we vóór 1 december met de ervaringen van bijvoorbeeld Rijkswaterstaat op het terrein van omgevingsmanagement tot een betere borging van de inbreng van al deze mensen bij de herziening van het luchtruim kunnen komen. Dat zal de echte proof of the pudding blijken te zijn. Dat gaan we doen, dus ik laat het oordeel aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg128">Mevrouw Kuiken heeft gevraagd naar de MER Schiphol. Nee, deze MER is inderdaad nog niet af. Zodra dat zo is, krijgen de bestuurders zoals altijd inzage via de ORS, de Omgevingsraad Schiphol. Ik heb hierover vorige week genoeg gezegd, dus ik wil het nu hierbij laten. Het is ook niet elke dag feest.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg129">De motie-Bruins op stuk nr. 411 gaat over de uitwerking en de detaillering van de routes en het kruisend verkeer. De motie ziet in het bijzonder op Stadshagen. Bij Zwolle is er inderdaad sprake van een uitzonderingssituatie binnen het zogenaamde B+-gebied. Aan de Alderstafel is de afspraak gemaakt dat bij gelijktijdig verkeer het binnenkomende toestel naar 3.000 voet zal gaan. Maar op basis van deze motie ga ik nogmaals aan CLSK en LVNL vragen of er mogelijkheden zijn om ervoor te zorgen dat het binnenkomende toestel ook in die situatie hoger kan blijven, zowel voor als na de luchtruimherindeling. Ik laat het oordeel dus aan de Kamer. De motie zal ongetwijfeld aangenomen worden, maar wij gaan hiermee ook al aan de slag.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg130">De heer Van Helvert heeft ook een motie op het punt van selectiviteitsbeleid ingediend. De motie verzoekt de regering zich in te spannen om met heldere juridische instrumenten te voorkomen dat er capaciteit op Lelystad beschikbaar komt voor bestemmingen en luchtvaartmaatschappijen die niet verplaatst zijn, waardoor Lelystad geen overloopluchthaven meer zou zijn. Daarmee ben ik het natuurlijk eens. Ik laat het oordeel aan de Kamer. Dit gaat natuurlijk zowel om de marktwerking en de inzet daarvan als om de verkeersverdelingsregel die we aan het ontwikkelen zijn. Het is juridisch complex. Dat heb ik in het debat ook al omstandig uitgelegd, maar ik ga mij maximaal inspannen om dit juridisch zo goed mogelijk te borgen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg131">Dan komen we bij de motie over Maastricht Aachen Airport van — zo zou je het kunnen zeggen — de leden Van Helvert tot en met Graus. Die motie verzoekt om te kijken hoe we daar ook ruimte kunnen krijgen, bijvoorbeeld voor vracht. Daar zijn wij op de achtergrond al mee bezig. We hebben ook een werkgroep waar mensen uit Maastricht bij betrokken zijn. Ook met het Luchthavenbesluit zijn we allemaal in de weer om dit gewoon snel letterlijk van de grond te kunnen krijgen. Ook deze motie zie ik dus als ondersteuning van het beleid. Om een lang verhaal kort te maken: oordeel Kamer.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u101">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg132">Ik dank de staatssecretaris voor de reactie op de motie. Zij ging in op het laatste stukje daarvan. Dat is ook een buitengewoon mooi onderdeel van deze motie, moet ik zeggen, maar het stukje daarboven gaat over de slots voor vrachten in het algemeen. Ik neem aan dat ook dat hoort bij "oordeel Kamer".</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u102">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg133">Absoluut, dat kan ik u verzekeren, maar dat wordt een interessant gesprek, dat weet ik al, want dit gaat over het herverdelen van schaarste. Elke sociaaldemocraat weet dat dat altijd pijn doet. Dat gaat dus ook gebeuren. Dit wordt dus een lastig gesprek, maar dat gaan we wel doen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg134">Dan kom ik bij de heer Laçin. Hij zegt: stoppen met Lelystad. Daar ben ik het niet mee eens. Dat kan hij zich voorstellen. Ik moet deze motie dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg135">Dan kom ik bij de motie op stuk nr. 415, die zegt dat er specifiek ruimte moet worden toegewezen aan all-cargovrachtvliegtuigen. Ik kan niet rechtstreeks ingrijpen om slots aan te wijzen aan specifieke partijen. Dat kan ik niet doen. Wat de heer Laçin mij hier vraagt, is dus net te veel, want dat kan ik niet. Er is een rol voor een onafhankelijke slotcoördinator, maar de local rule, waar we het ook in het debat over hebben gehad, ligt hopelijk binnenkort bij mij op het bureau en u kent mijn intentie. Daar heb ik in het debat ook geen geheim van gemaakt: als dit juridisch kan, ben ik daar een voorstander van. Deze motie op stuk nr. 415 moet ik dus helaas ontraden, maar de intentie begrijp ik heel erg goed. Er zijn misschien een paar andere routes om dit wel voor elkaar te krijgen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg136">Met de motie op stuk nr. 416 verzoekt de heer Laçin mij om de B++-variant mee te nemen. Ik moet deze motie ontraden, want we hebben in het debat vastgesteld dat het jammere van deze B++-variant is dat die toch het kernluchtruim van Schiphol raakt. Je kan niet aan de ene kant een overloopvliegveld in Lelystad starten om Schiphol te ontlasten en vervolgens de routes zodanig neerleggen dat zij Schiphol belasten. Dat is niet logisch. Dus ik moet om die reden de motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg137">Dan kom ik bij de laatste motie, de motie op stuk nr. 417, die zegt: kom zo snel mogelijk tot een indeling van het luchtruim en stuur een plan van aanpak voor het kerstreces. Ook hier wordt weer de betrokkenheid van de omgeving genoemd. Ik heb al tegen de heer Jetten en alle anderen gezegd — ik kijk ook naar de motie van mevrouw Kuiken en de eerdere motie van mevrouw Visser waar dezelfde elementen in terugkomen — dat het heel verstandig is dat wij dat doen. Om die reden laat ik de motie graag aan het oordeel van de Kamer over.</seg>
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg138">Verschillende leden van uw Kamer hebben in mijn richting buitengewoon vriendelijke opmerkingen gemaakt over de samenwerking. Ik hoop dat ik nog wel een paar debatten met u mag voeren. Ik heb geen idee hoeveel weken ik nog diepdemissionair blijf. Ik weet dat niet zeker. Dit zou inderdaad het laatste debat kunnen zijn over de luchtvaart. Onze debatten waren inderdaad stevig, altijd inhoudelijk en wat mij betreft altijd heel open. Ik heb het als een groot voorrecht ervaren om dat zo met u te mogen doen. Ik ga niet weg; ik zit zo meteen in uw midden om samen met de heer Laçin de oppositie een beetje aan te voeren. Dat is dan voor mij een oude, maar ook weer nieuwe ervaring. Ik zie ernaar uit om ook dat te mogen doen. Ik wil de Kamer bijzonder bedanken voor al het vertrouwen, want dat was altijd groot, zo voelde ik dat. Ik heb echt met u op een heel plezierige manier samengewerkt. Dat kunnen wij niet vaak genoeg zeggen. Dus: dank u wel.</seg>
+            </u>
+            <note>(Geroffel op de bankjes)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u103">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg139">Ik zie nog een opmerking van mevrouw Visser.</seg>
+            </u>
+            <u who="#BarbaraVisser" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u104">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg140">Ik geloof dat de staatssecretaris heel erg graag naar de oppositiebankjes gaat. Dank voor de woorden en dank voor wat u als staatssecretaris in deze Kamer hebt gedaan. Ik heb nog een vraag gesteld over Ryanair, de stappen die de Britse toezichthouder heeft gezet, wat dat betekent voor de Nederlandse situatie en of Nederland ook stappen gaat zetten</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u105">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg141">Ik kom daar schriftelijk op terug. Wij moeten echt even bekijken wat daar nu precies gaande is. Voordat wij daar zomaar lukraak iets over zeggen, lijkt het mij wijs dat ik u schriftelijk van een antwoord voorzie. Dat lijkt mij fair en recht doen aan dit punt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u106">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg142">Hiermee zijn wij aan het einde van de beraadslaging gekomen.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.u107">
+               <seg xml:id="ParlaMint-NL_2017-10-04-tweedekamer-3.seg143">Ik stel voor dat wij aanstaande dinsdag stemmen over de moties.</seg>
+            </u>
+            <note>De vergadering wordt van 11.26 uur tot 11.32 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

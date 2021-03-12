@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-11-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-11-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 26, Session 17 (2017-11-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 26, Session 17 (2017-11-23)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="26">Meeting 26</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="17">Session 17</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="2">2 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="2">2 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="373">373 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="373">373 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-11-23">2017-11-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="18"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="2"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-11-23">2017-11-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.u1">
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg1">Ik stel voor toe te voegen aan de agenda van de Kamer:</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg2">het wetsvoorstel Wijziging van de Aanbestedingswet 2012 en de Aanbestedingswet op defensie- en veiligheidsgebied in verband met de implementatie van richtlijn 2014/55/EU van het Europees Parlement en de Raad van 16 april 2014 inzake elektronische facturering bij overheidsopdrachten (34780);</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg3">het wetsvoorstel Wijziging van de Elektriciteitswet 1998 en van de Gaswet (voortgang energietransitie) (34627);</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg4">het wetsvoorstel Wijziging van de Wet op de dierproeven (redactionele wijzigingen ter precisering van enkele onderdelen van de wet) (34814).</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg5">Ik stel voor dinsdag aanstaande ook te stemmen over een brief van de vaste commissie voor Europese Zaken (34835, nr. 1).</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg6">Ik deel aan de Kamer mee dat:</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg7">de vaste commissie voor Justitie en Veiligheid tot haar voorzitter heeft gekozen het lid Van Meenen en tot haar ondervoorzitter het lid Hijink;</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg8">de vaste commissie voor Defensie tot haar voorzitter heeft gekozen het lid Ten Broeke en tot haar ondervoorzitter het lid Van Ojik;</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg9">de vaste commissie voor Financiën tot haar voorzitter heeft gekozen het lid Anne Mulder en tot haar ondervoorzitter het lid Geurts;</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg10">de vaste commissie voor Binnenlandse Zaken tot haar voorzitter heeft gekozen het lid Ziengs en tot haar ondervoorzitter het lid Bruins Slot;</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg11">de vaste commissie voor Buitenlandse Zaken tot haar voorzitter heeft gekozen het lid Pia Dijkstra.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg12">Op verzoek van de fractie van GroenLinks benoem ik in de contactgroep Duitsland het lid Van Ojik tot lid.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg13">Ik stel voor de volgende stukken van de stand van werkzaamheden af te voeren: 29477-451; 29477-452; 29477-453; 29477-447; 29477-443; 29477-442; 29477-441; 29477-436; 29477-437; 29477-434; 29477-440; 29477-432; 29477-426; 29477-428; 29477-416; 29477-420; 29477-424; 29477-417; 2017Z08399; 30826-47; 34300-XIII-171; 33037-176; 33037-170; 31497-205; 33037-169; 33037-165; 33037-160; 33037-191; 33037-166; 34775-XIII-9; 34775-XVI-16; 32011-61; 34445-9; 29502-144.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg14">Ik deel mee dat de volgende aangehouden moties zijn vervallen: 34686-7; 24515-394; 34725-XIII-11; 34725-XVI-11; 27923-269; 34725-XIII-19; 33529-373; 33529-374; 30950-121; 30950-127; 34725-XII-10; 34725-XII-16; 30950-124; 29684-148; 32279-111; 32279-114; 32279-115; 30806-42; 30806-43; 30175-252; 34725-IX-10; 34677-11; 28286-930; 32813-152; 32813-153; 32813-154; 29517-132; 28286-929; 26991-492; 33997-107.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg15">Ik stel voor toe te voegen aan de agenda:</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg16">het VAO Gevangeniswezen, met als eerste spreker het lid Van Nispen namens de SP;</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg17">het VAO Dienst Uitvoering Onderwijs (DUO), met als eerste spreker het lid Özdil namens GroenLinks.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.u2">
+               <seg xml:id="ParlaMint-NL_2017-11-23-tweedekamer-17.seg18">Daarmee zijn we gekomen aan het eind van de regeling van werkzaamheden.</seg>
+            </u>
+            <note>De vergadering wordt van 14.36 uur tot 14.50 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

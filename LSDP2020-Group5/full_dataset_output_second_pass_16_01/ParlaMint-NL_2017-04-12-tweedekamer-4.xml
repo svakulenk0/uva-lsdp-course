@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-04-12 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-04-12 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 67, Session 4 (2017-04-12)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 67, Session 4 (2017-04-12)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="67">Meeting 67</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="4">4 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="4">4 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="863">863 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="863">863 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-04-12">2017-04-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="15"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="4"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-04-12">2017-04-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Jaarverslag Nationale ombudsman</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg1">Ik heet de Nationale ombudsman, de heer Van Zutphen, van harte welkom en natuurlijk ook de Kinderombudsman, mevrouw Kalverboer, en de substituut-ombudsman, mevrouw Sylvester.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg2">De Kamer vindt het belangrijk dat de aanbieding van het jaarverslag van de Nationale ombudsman de aandacht krijgt die zij verdient. Het is een van de weinige verslagen die in de plenaire zaal worden overhandigd en toegelicht. Dit jaar gebeurt dit voor de tiende keer. De Nationale ombudsman biedt ook het jaarverslag van werkzaamheden van de Veteranenombudsman over het jaar 2016 aan.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg3">Ik geef graag het woord aan de heer Van Zutphen namens het instituut Nationale ombudsman.</seg>
+            </u>
+            <u who="#ReiniervanZutphen" ana="#regular" xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg4">Mevrouw de voorzitter. Alle burgers hebben de overheid nodig om te kunnen meedoen en kwetsbare burgers het meest. Daarom zijn goede wetten en regels nodig; wetten en regels die begrijpelijk en uitvoerbaar zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg5">Burgers vertrouwen erop dat u zulke regels maakt. Burgers maken aanspraak op een betrouwbare overheid die zulke wetten en regels goed uitvoert. De titel van het jaarverslag 2016 van de Nationale ombudsman is: Wie niet past, loopt vast. Dat heeft met die aanspraak van de burgers op een betrouwbare overheid te maken, want voor wie laaggeletterd is — dat zijn in Nederland 2,5 miljoen mensen — voor wie schulden heeft — 500.000 huishoudens in schulden; 400.000 kinderen groeien op in armoede — voor wie met PTSS terugkeert van een militaire missie, voor wie leeft met een verstandelijke beperking, voor wie lichamelijk gehandicapt is, voor wie in Groningen woont, voor wie een van de 50.000 Q-koortspatiënten is, voor die burgers is de betrouwbare overheid vaak ver te zoeken.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg6">Het parlement is bij uitstek in de positie om burgers in staat te stellen om mee te doen. U kunt ervoor zorgen dat de overheid een humane schuldeiser is, dat de bestuurlijke spaghetti in Groningen van het bord verdwijnt, dat wetten en regels leesbaar en begrijpelijk zijn en dat mensen met een beperking niet worden overvraagd. U kunt ervoor zorgen dat ouderen niet in de armoedeval lopen. U kunt het perspectief van burgers borgen in regels, wetten en beleid. Dat verwacht de burger ook van u.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg7">Het borgen van het burgerperspectief gaat vooraf aan het vaststellen van wetten, regels en beleid. Nooit achteraf, want dan is het vaak te laat. Zo kon het fout gaan met de pgb's doordat te laat nog nieuwe regels werden bedacht en werden toegevoegd aan de wet met als gevolg dat de betrouwbaarheid van de overheid geweld werd aangedaan.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg8">Veel gaat echter ook goed, en steeds beter. Het aantal gijzelingen na het niet-betalen van geldboeten door mensen die niet kunnen betalen, is drastisch verminderd. Sommige gemeenten hebben hun bijstandsbeleid aangepast voor 27-plussers, op de juiste manier. Door en namens overheden wordt oprecht excuus gemaakt voor wat is fout gegaan tussen de overheid en de burger. Er is een nieuwe verbeterde beslagvrije voet door de Kamer vastgesteld. Ik zou zeggen: nu het bankbeslag nog. Er kwam een verbeterde klachtenregeling voor defensiepersoneel. Het aantal wanbetalers bij zorgverzekeringen daalde naar ver onder de 300.000.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg9">De burger verwacht natuurlijk ook wat van de Nationale ombudsman: inspringen en interveniëren waar het misgaat tussen burger en overheid, de vinger op de zere plek leggen, overheden aanzetten tot verbetering en tot leren van gemaakte fouten. Daarom hebben wij voortdurend aandacht voor en doen wij onderzoek naar burgers met schulden en in armoede, de gevolgen van digitalisering en de uitvoering van de verschillende decentralisaties. In de jaarverslagen van de Nationale ombudsman en de Veteranenombudsman ziet en leest u hoe we dat in 2016 hebben gedaan. We zochten de burger op en gaven hem steun waar het misging. We daagden alle overheden uit om te leren van fouten en ervaringen, zodat het beter, nóg beter, gaat tussen burger en overheid.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg10">Het parlement maakt regels en wetten die iedere burger in staat moeten stellen om mee te doen. Wij doen ons werk al 35 jaar; wij vieren ons zevende lustrum. Dat doen wij vanuit de met u gedeelde overtuiging dat de overheid er is voor de burger, en niet andersom. Daarom overhandig ik u, mevrouw de voorzitter, met veel plezier het Jaarverslag 2016 van de Nationale ombudsman en van de Veteranenombudsman.</seg>
+            </u>
+            <note>(Geroffel op de bankjes)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg11">Ik neem aan dat er geen bezwaar tegen bestaat dat dit stuk ter inzage wordt gelegd bij het Centraal Informatiepunt van de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg12">(Ter inzage gelegd bij het Centraal Informatiepunt van de Tweede Kamer der Staten-Generaal.)</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg13">Ik dank de Nationale ombudsman. Hartelijk dank voor het jaarverslag, mijnheer Van Zutphen, en voor het vele werk en de aandacht die wederom aan het jaarverslag zijn besteed. Vanzelfsprekend dank ik ook de substituut-ombudsman, mevrouw Sylvester, alsmede de medewerkers van het bureau Nationale ombudsman, die in de afgelopen periode met veel energie hebben meegewerkt aan de totstandkoming van dit jaarverslag.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg14">De Kinderombudsman komt volgende week met haar eerste jaarverslag. Dat wordt apart aan de Kamer aangeboden. Wij kijken daar ook naar uit.</seg>
+               <seg xml:id="ParlaMint-NL_2017-04-12-tweedekamer-4.seg15">Ik zal het jaarverslag van de Nationale ombudsman doorgeleiden naar de vaste commissie voor Binnenlandse Zaken. Het verslag van de werkzaamheden van de Veteranenombudsman zal ik doorgeleiden naar de vaste commissie voor Defensie. Daar zal later worden beslist over de verdere procedure. Voor nu wil ik de Nationale ombudsman en de mensen in de voorzittersloge nogmaals hartelijk bedanken.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-11-30 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-11-30 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 29, Session 7 (2017-11-30)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 29, Session 7 (2017-11-30)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="29">Meeting 29</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="2">2 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="2">2 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="314">314 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="314">314 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-11-30">2017-11-30</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="12"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="2"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-11-30">2017-11-30</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg1">Ik deel aan de Kamer mee dat het lid Bruins zijn aangehouden motie (34785, nr. 58) intrekt.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg2">Op verzoek van de fractie van DENK benoem ik:</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg3">in de vaste commissie voor Koninkrijksrelaties het lid Kuzu tot lid in plaats van het lid Öztürk en het lid Öztürk tot plaatsvervangend lid in plaats van het lid Kuzu.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg4">Ik deel mee dat de volgende aangehouden moties zijn vervallen: 27428-251; 34300-XIII-131; 24077-402; 32043-383.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg5">Op verzoek van een aantal leden stel ik voor de volgende door hen ingediende moties opnieuw aan te houden: 32670, nr. 121; 32670, nr. 122.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg6">Tot slot stel ik voor de volgende stukken van de stand van werkzaamheden af te voeren: 30982-35; 34550-IX-27; 34550-IX-4; 25087-179; 34550-IX-24; 34775-74; 31935-42; 27625-411; 27625-410; 31793-162; 27625-412; 28089-53; 27625-409; 26442-58; 29675-189; 33043-73; 27625-407; 27625-408; 29683-233; 27625-404; 27625-403; 32698-36; 34775-J-6; 34775-J-4; 34775-J-5; 32698-37; 18106-241; 34775-A-4; 30080-87; 32827-115; 32827-101; 32827-114; 32827-118; 32827-120; 32827-121; 34775-VIII-11; 34775-VIII-31; 34775-V-10; 33763-137; 29544-806; 34775-B-7; 30111-104; 31415-19; 32623-181; 31271-28; 32735-175; 33997-110; 34775-VI-14; 24587-699; 24587-698; 29544-792; 24587-696; 24587-692; 24587-693; 24587-691; 24587-689; 24587-674; 25268-147; 25268-144; 25424-377; 34104-200; 25424-375; 25424-371; 25424-369; 32399-87; 25424-357; 25424-368; 25424-358; 25424-355; 25424-354; 25424-352; 25424-353; 25424-348; 25424-345; 25424-349; 29279-378; 25424-346; 32793-259; 25424-344; 21501-33-670; 21501-33-669; 21501-33-667; 22112-2405; 21501-33-672; 21501-33-675; 21501-07-1472; 21501-07-1469; 22112-2418; 22112-2415; 21501-07-1468; 21501-07-1473; 21501-07-1471; 33340-12; 21501-02-1793; 32735-176; 2017Z09807; 2017Z09811; 29247-230; 29247-232; 29247-227; 29689-801; 29247-225; 29247-223.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg7">Ik stel voor toe te voegen aan de agenda van de Kamer:</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg8">het VAO GGZ, met als eerste spreker het lid Kooiman namens de SP;</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg9">het VAO Arbeidsomstandigheden - Handhaving, met als eerste spreker het lid Van Kent, ook namens de SP;</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg10">het VAO Formele Raad Werkgelegenheid en Sociaal Beleid van 7 december 2017, met als eerste spreker de heer Gijs van Dijk namens de PvdA.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg11">Dat was het. Ik dacht dat er allerlei verzoeken voor debatten en zo waren, maar dat is vandaag niet het geval.</seg>
+               <seg xml:id="ParlaMint-NL_2017-11-30-tweedekamer-7.seg12">Dan zijn we daarmee aan het eind gekomen van de regeling van werkzaamheden.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

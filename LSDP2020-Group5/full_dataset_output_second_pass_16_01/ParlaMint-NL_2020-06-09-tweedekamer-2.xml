@@ -1,0 +1,229 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-06-09 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-06-09 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 80, Session 2 (2020-06-09)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 80, Session 2 (2020-06-09)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="80">Meeting 80</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="2">Session 2</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="45">45 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="45">45 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3455">3455 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3455">3455 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-06-09">2020-06-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="55"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="45"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-06-09">2020-06-09</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Rudmer Heerema</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u1">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg1">We beginnen zoals gebruikelijk op dinsdagmiddag met het mondelinge vragenuur. Ik geef eerst het woord aan de heer Rudmer Heerema namens de VVD voor zijn vraag aan de minister van Onderwijs, Cultuur en Wetenschap, die de minister voor Basis- en Voortgezet Onderwijs en Media vervangt. De vraag gaat over de chaos bij het Haga Lyceum. Gaat uw gang, meneer Rudmer Heerema.</seg>
+            </u>
+            <u who="#RudmerHeerema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u2">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg2">Voorzitter, dank u wel. Ik dacht dat ik drie minuten zou hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u3">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg3">Nee, vier hoor.</seg>
+            </u>
+            <u who="#RudmerHeerema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u4">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg4">Vier zelfs! Dan gaat het helemaal goed komen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg5">Voorzitter. Deze saga van het Haga kent geen einde. Dat is diep, diep triest. Het Haga Lyceum had er nooit mogen komen en alles is uit de kast getrokken om te voorkomen dat deze school mocht starten. Een bestuurslid sprak sympathie uit voor de terreurgroep Islamitische Staat, de bekostiging werd geweigerd door toenmalig staatssecretaris Dekker, de onderwijsinspectie werd de school uit gegooid en verdere toegang geweigerd.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg6">Voorzitter. Op 5 juni jongstleden bevestigde de onderwijsinspectie dat er aangifte was gedaan wegens het afluisteren van vertrouwelijke gesprekken. Wanneer heeft de inspectie ontdekt dat ze is afgeluisterd? Hadden de inspecteurs tijdens hun onderzoek al aanwijzingen dat ze werden afgeluisterd? Is hier destijds melding van gemaakt? Waarom heeft de minister dat dan niet met de Kamer gedeeld? Welke gevolgen heeft het afluisteren van de inspecteurs voor de bekostiging van de school? Is er in dat geval sprake van belemmering van de onderwijsinspectie en daarmee juridische grond om de bekostiging stop te zetten? Of is er sprake van wanbestuur en dus ook een juridische grond om de bekostiging stop te zetten?</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg7">Voorzitter. In maart 2019 heb ik gezegd dat het Haga Lyceum dicht moest. Het kabinet gaf aan dat daar geen grond voor was. Ik heb de indruk dat het ministerie hoopte dat het wel beter zou gaan, dat het wel goed zou komen. Nou, dat hebben we geweten. Het is alleen maar slechter geworden. Bij de weigering om de inspectie toe te laten, kon de bekostiging stopgezet worden. Dat heeft de minister toen niet gedaan. Vindt de minister dit, nu terugkijkend, niet een kapitale fout?</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg8">Want, voorzitter, de nieuwste aflevering van deze soap is echt te treurig voor woorden. Op 28 mei jongstleden heeft de voorzitter van het bestuur de secretaris de wacht aangezegd, maar deze voorzitter was eerder al geschorst door de directeur en diezelfde secretaris. Volgt u het nog? De school is nu simpelweg stuurloos. Wie is er nu eigenlijk bevoegd om de ander de wacht aan te zeggen? Zelfs de onderwijsinspectie weet het niet meer en heeft gevraagd om per ommegaande te melden wie het nu voor het zeggen heeft. Tot wanneer heeft de school om daarop te reageren? Dat moet met een mailtje toch gewoon binnen een dag kunnen? Kan de minister met al deze informatie nu nog steeds niet tot een gedeeltelijke of gehele intrekking van de bekostiging overgaan? Wat heeft de minister precies tussen 28 mei en vandaag hieraan gedaan?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u5">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg9">Dank u wel. Dan geef ik nu het woord aan de minister.</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u6">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg10">Voorzitter, dank u wel. Ik vervang collega Slob, die op dit moment een wetsvoorstel in de Eerste Kamer staat te verdedigen. Ik begrijp heel goed dat de heer Heerema dit vandaag aankaart, want de situatie bij het Haga Lyceum is natuurlijk buitengewoon zorgelijk, vooral voor de leerlingen en de ouders. En daar moet het ons primair om gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg11">Het is misschien goed om vooraf te zeggen dat dit onder de rechter is. Daarom kan ik weinig zeggen over wat daar op dit moment bestuurlijk speelt. Op 4 juni is er een kort geding aanhangig gemaakt waarover morgen uitspraak wordt gedaan. We hopen dan ook morgen te weten wie op dit moment de bestuurder is. Ook hopen wij morgen te weten wie wij daar bestuurlijk kunnen aanspreken.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg12">De heer Heerema had ook een vraag over het afluisteren van de inspectie. De inspectie had eerder vermoedens dat er sprake kon zijn van afluisteren, maar zij had daarvoor geen bewijs. De aanwijzingen waren ook onvoldoende concreet. Om deze reden heeft de inspectie mij dat niet gemeld en hebben wij dat ook niet aan de Kamer gemeld. Wel zijn de inspecteurs op dat moment hun werkwijze gaan veranderen door steeds op een andere plek te gaan zitten en zijn zij extra alert geweest. Pas toen de aanwijzingen voor het afluisteren voldoende concreet waren, heeft men daarvan aangifte gedaan bij de politie. Die afluisterpraktijk is daarmee op dit moment onderwerp van justitieel onderzoek.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg13">De heer Heerema vroeg mij ook of het feit dat daar afgeluisterd wordt voldoende aanleiding is om te spreken van wanbeheer en of dat mogelijk reden is om bijvoorbeeld de bekostiging in te trekken. Ik zou bijna zeggen: was het maar zo simpel. Maar zo is het natuurlijk niet. Er zal in het justitieel onderzoek eerst moeten worden vastgesteld door wie is afgeluisterd. Daarom is er ook reden voor een strafrechtelijk onderzoek. Als het gaat om wanbeheer, zijn er eerder stappen gezet om juist een bekostigingssanctie op te leggen, maar dat oordeel is door de rechter onderuitgehaald. Er loopt op dit moment een onderzoek door de inspectie bij het Haga Lyceum in het kader van een herstelopdracht. Is aan die herstelopdracht voldaan? Je zou kunnen zeggen dat als er op het eerdere wanbeheer niet is hersteld, je nu heel snel zou kunnen doorpakken, ware het niet dat dat oordeel eerder door de rechter ongedaan is gemaakt. Dus dat betekent — en ik snap heel goed de frustratie die velen daarbij voelen — dat de inspectie dat op dit moment opnieuw moet onderzoeken en opnieuw een rapport moet vaststellen. We moeten daarmee de procedure weer door. Om die reden werken wij — en dat weet uw Kamer ook — aan het wetsvoorstel om het instrumentarium van de inspectie te vernieuwen, zodat wij in de toekomst sneller kunnen handelen en de termijnen korter kunnen zijn. Dus op dit moment kunnen wij geen bekostigingssanctie opleggen. Daarvoor zal eerst het onderzoek van de inspectie naar de herstelopdrachten afgerond moeten zijn.</seg>
+            </u>
+            <u who="#RudmerHeerema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u7">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg14">Ik mag er toch van uitgaan dat als blijkt dat het afluisteren op die wijze gegaan is, dat een reden is voor het intrekken van de bekostiging? De minister heeft toegezegd dat zij met voorstellen naar de Kamer komt om het instrumentarium uit te breiden om dit soort falende bestuurders aan te kunnen pakken. Ik wil dat dit voorstel eigenlijk nog voor de zomer naar de Kamer wordt gestuurd. U heeft er nu ruim een jaar aan kunnen werken, dus dat lijkt mij lang zat.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg15">Het voelt zo ongemakkelijk. We zitten al zo lang te wachten op die wet op de burgerschapsopdracht. Die zou naar de Kamer komen. Ik wil u eigenlijk verzoeken om dit nog voor de zomer te doen. Dat is gewoon noodzakelijk voor dit soort situaties, zodat we kunnen ingrijpen, want ik voel het ongemak dat we hier als Kamer zo weinig mee kunnen. Wilt u hier dan expliciet in opnemen dat dit soort chaos op een school sowieso reden is om bekostiging in te kunnen trekken?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u8">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg16">De minister. Dit zijn concrete vragen, dus die kunnen ook concreet worden beantwoord.</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u9">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg17">De heer Heerema stelde een als-danvraag: als wordt vastgesteld dat er door het bestuur is afgeluisterd, wat dan? Om die te kunnen beantwoorden moeten we dat onderzoek echt afwachten. Ik ga daar nu niet over speculeren.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg18">Het wetsvoorstel burgerschap ligt voor in uw Kamer. De nota naar aanleiding van het verslag volgt op korte termijn. Die zullen we in ieder geval nog voor de zomer naar de Kamer sturen. Voor het wetsvoorstel over het bestuurlijk instrumentarium hebben wij net de uitvoeringstoets binnen. Dit voorstel gaat zo snel mogelijk naar de ministerraad en moet vervolgens nog naar de Raad van State. We proberen er tempo achter te zetten, maar het gaat echt niet meer lukken om dit voor de zomer aan uw Kamer te sturen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg19">Voorzitter, dit waren mijn antwoorden op de vragen van de heer Heerema.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u10">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg20">Prima. De heer Heerema.</seg>
+            </u>
+            <u who="#RudmerHeerema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u11">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg21">We doen dit uiteindelijk allemaal voor de kinderen. We zouden het bijna vergeten, maar iedere dag wordt er dus een groep leerlingen blootgesteld aan de grillen van de bestuurders van deze school. Wat zijn dan de gevolgen voor de kwaliteit van het onderwijs met zo'n bestuurscrisis als hier plaatsvindt? Hoe kunnen we deze kinderen het beste helpen? Deze school hoort wat ons betreft niet in het Nederlands onderwijssysteem thuis. Daar hoort ons belastinggeld niet naartoe te gaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u12">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg22">U mag daarop reageren, maar dat was een statement van de heer Heerema.</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u13">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg23">Ik hoorde geen vraag, maar laten we wel vaststellen dat het niet de bedoeling is om hier de school te sluiten, maar wel om daar een deugdelijk bestuur te hebben. Dat is steeds de inzet geweest.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u14">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg24">Dank u wel, meneer Heerema. Dan ga ik eerst naar de heer Jasper van Dijk namens de SP.</seg>
+            </u>
+            <u who="#JaspervanDijk" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u15">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg25">Intimidatie, een angstbewind, afluisteren en een bestuur dat elkaar de tent uitvecht. En de minister — ik geloof mijn oren niet — zei net: "We hopen morgen te horen wie daar de dienst uitmaakt." Dat bent u! De minister maakt de dienst uit in het onderwijs. Zíj is de baas, uiteindelijk, als het zo verschrikkelijk misgaat. Bent u dat met mij eens? Bent u het met mij eens dat het een verschrikkelijke afgang is dat de Nederlandse regering er nog steeds niet in is geslaagd om dit bestuur simpelweg opzij te zetten? Want dit kan niet. Dit is wanbestuur. Dit is een blamage voor de kinderen. Minister, maak schoon schip!</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u16">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg26">Ik begrijp wel iets van wat in de vraag van de heer Van Dijk doorklinkt. Maar het mooie van dit land is dat ook bewindslieden zich aan de wet moeten houden. Het is nog steeds zo dat een minister niet het bevoegd gezag is van een school. Naar aanleiding van het kort geding van morgen weten wij wie er dan wordt erkend als het bevoegd gezag. Daar kunnen wij vervolgens de trajecten op zetten. Ik snap heel veel van de gevoelens hier — kan het allemaal niet sneller? — maar we hebben hier samen, u ook, als medewetgever, het wettelijk instrumentarium gemaakt waar de inspectie haar werk mee moet doen. Met u ben ik van mening — daarom komt er ook een wetsvoorstel aan — dat dat bestuurlijk instrumentarium herzien moet worden. We proberen alles uit de kast te trekken, binnen dat wettelijk kader van het instrumentarium, om hier passende maatregelen te nemen, maar u weet ook dat de rechter van de maatregelen die wij hadden getroffen, gezegd heeft "wij zijn het niet met dat oordeel eens". De rechter vond niet dat er sprake was van wanbeheer, bijvoorbeeld, waardoor we daarop niet konden doorpakken.</seg>
+            </u>
+            <u who="#HarmBeertema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u17">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg27">We hebben met islamitische scholen al meer dan tien jaar enorme problemen. Ik noem Ibn Ghaldoun in Rotterdam, de Islamitische Universiteit Europa in Rotterdam, het Haga Lyceum, waar het nu over gaat, en Al Amana in Ede. Die problemen gaan over fraude, misleiding, malversaties, maar ook over ideologische uitgangspunten. Ik noem geïnstitutionaliseerde discriminatie van vrouwen, van gelovigen, van ongelovigen, van homo's. Juist daar zit de kern van het probleem. Dat weet de VVD, dat weet u, en de AIVD weet dat als geen ander. Maar dat wordt niet formeel onderkend. De PVV heeft hier een uitweg geboden met een amendement op die wet Meer ruimte voor nieuwe scholen. Dat zou juist die mooie uitbreiding zijn van het wettelijk instrumentarium. Dit amendement regelt "dat de aanvraag voor de bekostiging van een nieuw op te richten school wordt geweigerd door de minister als de onderliggende levensvisie zich niet verhoudt tot de uitgangspunten ten aanzien ..."</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u18">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg28">En de vraag is?</seg>
+            </u>
+            <u who="#HarmBeertema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u19">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg29">Dit moet even uitgelegd worden, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u20">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg30">Maar ik weet niet hoe lang dat citaat is. Heel kort.</seg>
+            </u>
+            <u who="#HarmBeertema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u21">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg31">Heel kort. Maar nu moet ik even opnieuw beginnen, want anders is de minister het kwijt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u22">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg32">Nee, dat doen we niet. Gaat u verder.</seg>
+            </u>
+            <u who="#HarmBeertema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u23">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg33">Daar gaat-ie. "Dit amendement regelt dat de aanvraag voor de bekostiging van een nieuw op te richten school wordt geweigerd door de minister als de onderliggende levensvisie zich niet verhoudt tot de uitgangspunten ten aanzien van de democratische rechtsstaat en fundamentele rechten en vrijheden zoals gelijkwaardigheid van man en vrouw, lhbti+, en van andersdenkenden en andersgelovigen ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u24">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg34">Meneer Beertema ...</seg>
+            </u>
+            <u who="#HarmBeertema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u25">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg35">... zoals die in de Grondwet zijn verankerd." En tóch ontraadt u dit amendement!</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u26">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg36">En nu de vraag.</seg>
+            </u>
+            <u who="#HarmBeertema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u27">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg37">U ontraadt het amendement. Leg nou eens uit waarom u dat doet.</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u28">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg38">Hier wreekt zich een beetje dat ikzelf niet de behandeling van dat wetsvoorstel heb gedaan en ook niet het woord daarover heb gevoerd. U moet het mij niet euvel duiden dat ik niet de hele parlementaire behandeling hier in mijn hoofd heb. Maar de grote winst, straks, van dat nieuwe wetsvoorstel Meer ruimte voor nieuwe scholen, is natuurlijk wel dat we juist daarin de mogelijkheid hebben om wel degelijk een toets vooraf te doen. Misschien niet in de formulering zoals u die bedoelde, maar die mogelijkheid is er wel degelijk. Dat is grote winst.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u29">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg39">En nu een korte vraag, meneer Beertema.</seg>
+            </u>
+            <u who="#HarmBeertema" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u30">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg40">Dat is helemaal geen winst, want dit punt blijft heel nadrukkelijk liggen. De andere minister heeft dit ontraden. Hiermee opent u dus de weg voor het stichten van scholen van bijvoorbeeld neonazi's; ik hoop niet dat ze luisteren op dit moment, maar die kunnen dus een school inrichten. Als ze maar een leuk, modern ogend leerplan en schoolplan indienen, kunnen ze een school inrichten op basis van superioriteit van het blanke ras bijvoorbeeld. Die weg heeft u niet afgesloten. Wij hebben met dit amendement gevraagd om die streep in het zand, om die streep tussen enerzijds totalitaire ideologieën die misbruik maken van onze vrijheid van onderwijs en anderzijds de beschaving en de vrijheid van onze mooie rechtsstaat. Reageert u daar nou even op.</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u31">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg41">Dat wil ik best doen, want ik ben het met de heer Beertema oneens dat het nieuwe wetsvoorstel ons niet het instrumentarium zou geven om te voorkomen dat een school die niet de rechtsbeginselen van onze samenleving onderschrijft, er zou komen. Die ruimte biedt de wet wel degelijk.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u32">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg42">Dan ga ik naar de heer Bisschop namens de SGP.</seg>
+            </u>
+            <u who="#RoelofBisschop" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u33">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg43">De minister als hoedster van de vrijheid van onderwijs waarderen wij zeer, want die vrijheid van onderwijs is een groot goed en moeten we ook blijven koesteren. Alleen, die vrijheid van onderwijs is geen vrijbrief voor wanbeheer of dubieuze zaken. Hier is heel duidelijk sprake van wanbeheer. Alleen al het feit dat de ene afgezette bestuurder de andere afgezette bestuurder nog een keer afzet, geeft aan dat er chaos is en dat — dat ben ik volledig met de collega's eens — de kinderen de dupe ervan dreigen te worden omdat die school niet goed wordt geleid. Mijn vraag aan de minister is concreet: welk instrument mist de minister op dit moment om hier daadkrachtig in te kunnen grijpen?</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u34">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg44">Ik ben het zeer met de heer Bisschop eens dat de vrijheid van onderwijs nooit een vrijbrief mag zijn voor wanbeheer. Ik ben het ook met hem eens waar hij zegt dat de situatie aldaar zeer zorgelijk is en dat we dat niet moeten willen omdat kinderen en ouders daar last van hebben en er de dupe van zijn. Dan de vraag welk instrumentarium we nu missen. We missen vooral kortere termijnen en instrumentarium om op basis van dit soort signalen sneller in te kunnen grijpen. In het wetsvoorstel dat we in voorbereiding hebben, gaan we precies op dit punt dat instrumentarium uitbreiden zodat we sneller en doeltreffender kunnen ingrijpen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u35">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg45">De heer Bruins namens de ChristenUnie.</seg>
+            </u>
+            <u who="#EppoBruins" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u36">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg46">Voorzitter. Onderwijs is een voorwerp van aanhoudende zorg voor de regering, staat in artikel 23. Hier is zeker sprake van aanhoudende zorg. Vanuit die zorgplicht maak ik mij, net als de heer Bisschop, zorgen over de sociale veiligheid van de kinderen op het Haga Lyceum. In hoeverre is het nu zeker dat morgen het pleit beslecht is? Of zijn er mogelijkheden dat de juridische strijd nog langer duurt tussen die bestuurders en dat er langer onzekerheid is over wie er eigenlijk de baas is op die school? Wat kan de minister dan doen om de sociale veiligheid van de kinderen te waarborgen?</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u37">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg47">Ik vermoed dat de rechter toch ... Ergens moet dat pleit beslecht worden wie hier nou het bevoegd gezag is. Ik heb er alle vertrouwen in dat daar morgen helderheid in komt. Dan weten we ook wie we kunnen aanspreken. Dan zal ook de inspectie dat gesprek met die bestuurder verder voeren.</seg>
+            </u>
+            <u who="#PaulvanMeenen" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u38">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg48">Alle kinderen in Nederland hebben recht op goed en veilig onderwijs. Om te kijken of dat ook werkelijk gebeurt, hebben we een onderwijsinspectie. Nu is het al een aantal keren in deze casus gebeurd dat die onderwijsinspectie met een feit geconfronteerd wordt wat in ieder geval in mijn ogen onaanvaardbaar is, namelijk de toegang weigeren en afluisteren. Blijkbaar is nog even de vraag wie afgeluisterd heeft, maar het zijn allebei praktijken die de minister niet ziet zitten. Daar ga ik uit. Mijn vraag is, over dat instrumentarium wat eraan komt: gaat dat ook over wanneer de school gesloten kan worden als de inspectie geen toegang krijgt of op een andere manier onheus of onrechtmatig bejegend wordt? Dán kunnen we als samenleving namelijk niet meer kijken naar wat er werkelijk op een school gebeurt. Is de minister het met mij eens dat dat direct tot de sluiting van de school zou moeten gaan leiden?</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u39">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg49">Een van de problemen die we hebben is dat de definitie van "wanbeheer" nu een zeer beperkte is. Daarom ook dat het wanbeheer waarvan de inspectie eerder zei dat daar sprake van is, door de rechter onderuit is gehaald. Een van de dingen in het bestuurlijk instrumentarium in het wetsvoorstel is dus een bredere definitie van "wanbeheer". Ik heb niet het hele wetsvoorstel in mijn hoofd zitten, maar ik ga er zomaar van uit dat als een bestuur strafbare feiten pleegt, dat onder de definitie van "wanbeheer" mag worden gevat.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u40">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg50">Wat gebeurt er toch met Kamerleden zodra het gaat over islamitisch onderwijs? Wat gebeurt er met wethouder Moorman van de PvdA? Met burgemeester Halsema van GroenLinks? Wij hebben vorige week op tv kunnen zien dat het AIVD-bericht waar alles op gestoeld was rammelde aan alle kanten, dat dat aangezet is, aangedikt. Er zijn 45 rechtszaken gevoerd, vrijwel allemaal gewonnen. Waar komt die institutionele vooringenomenheid vandaan, ook van de minister, ten opzichte van islamitisch onderwijs?</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u41">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg51">Ik wil de heer Azarkan één ding verzekeren: ik heb totaal geen last van enige vooringenomenheid als het gaat om de vrijheid van onderwijs. Sterker nog, ik heb zojuist nog tegen de heer Heerema gezegd: het gaat noch collega Slob, noch mij om het sluiten van deze school. Het gaat erom dat daar een deugdelijk bestuur komt. Vandaar ook dat de aanwijzing destijds van de heer Slob was dat het bestuur vervangen moest worden, zodat daar een goed bestuur kwam en wij echt vertrouwen konden hebben in het bevoegd gezag. Het gaat hier helemaal niet om de vraag: mag hier islamitisch onderwijs zijn? Het gaat hier om: is hier sprake van een goed bestuurde school? Ik denk dat we hier toch met elkaar vaststellen dat dat op dit moment in ieder geval niet zo is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u42">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg52">De heer Azarkan, tweede vraag.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u43">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg53">Voorzitter. Het oordeelsvermogen van de minister om vast te stellen wat goed is en wat niet, kan ik nergens uit opmaken. Ik stel vast dat hier sprake is van institutionele vooringenomenheid. Ik zal ook vertellen waar dat uit blijkt. Deze minister, althans minister Slob, wilde de bekostiging stoppen. Dan wordt hij door de hoogste bestuursrechter, de Raad van State, teruggefloten. Dat mag niet. Waarom doet de minister dat? Vervolgens zegt de minister: ik ga dat bestuur aanzeggen dat ze moeten aftreden. Dan zegt de rechter: dat mag u niet doen. Voorzitter. Hoe kunt u mij nu wijsmaken dat er geen institutionele vooringenomenheid is tegen deze school? Wat deze minister moet uitleggen, is dat die kinderen en die ouders het recht hebben op islamitisch onderwijs. Daar mogen we eisen aan stellen. Wat niet kan, is dat we daar te ver in gaan en dat de minister elke keer terug wordt gefloten door instanties die dat gelukkig nog goed bewaken.</seg>
+            </u>
+            <u who="#IngridvanEngelshoven" ana="#regular" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u44">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg54">Het enige wat ik de heer Azarkan zou willen meegeven, is dat ik zomaar durf te zeggen — dat geldt ook voor collega Slob — dat als vergelijkbare feiten zich op enige andere school in Nederland hadden voorgedaan, de minister op dezelfde manier had gehandeld. Ik merk het ook in de Kamer; we vinden bijvoorbeeld dat de definitie van wat wij wanbeheer noemen, ruimer moet zijn. Het oordeel van in ieder geval het kabinet heeft niets te maken met de grondslag van de school, maar wel met de manier waarop er wordt bestuurd, met de manier waarop er onderwijs wordt gegeven en met de kwaliteit van het onderwijs. Dat is waar de inspectie op toeziet.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.u45">
+               <seg xml:id="ParlaMint-NL_2020-06-09-tweedekamer-2.seg55">Dank u wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

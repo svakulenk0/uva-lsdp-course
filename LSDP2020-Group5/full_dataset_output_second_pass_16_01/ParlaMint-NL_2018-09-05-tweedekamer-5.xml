@@ -1,0 +1,148 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-09-05 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-09-05 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 105, Session 5 (2018-09-05)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 105, Session 5 (2018-09-05)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="105">Meeting 105</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="20">20 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="20">20 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="950">950 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="950">950 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-09-05">2018-09-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="23"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="20"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-09-05">2018-09-05</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg1">Op verzoek van de aanvrager stel ik voor het debat over het abortuscijfer in Nederland van de agenda af te voeren.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg2">Aangezien voor de volgende stukken de termijn is verstreken, stel ik vast dat wat deze Kamer betreft, de volgende daarbij ter stilzwijgende goedkeuring overgelegde stukken zijn goedgekeurd: 23908-(R1519)-137; 24493-R1557-81; 24493-R1557-82; 33997-116; 23908-(R1519)-136; 34955-1; 24493-R1557-80; 34954-1; 34949-(R2105)-1.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg3">Ik stel voor de volgende stukken van de stand van werkzaamheden af te voeren: 33118-109; 2018Z12939; 32156-92; 28325-174; 32847-409; 33258-37; 32761-123; 34027-6; 30111-116; 34966-2; 22112-2585; 34960-B-3; 34960-C-3; 34960-VII-3; 34950-VII-5; 34950-B-5; 34950-XVIII-6; 34950-XVIII-7; 34950-XVIII-5; 31560-50; 31757-96; 32127-231; 29668-47; 34950-B-6; 34950-VII-6; 34950-XVIII-8; 2018Z12341; 34747-7; 34270-35; 2018Z11395; 29521-363; 29521-364; 27925-632; 27925-630; 32735-181; 34775-V-78; 27925-616; 2018Z13245; 34775-V-84; 22054-298; 30178-6; 26049-85; 29614-103; 29237-174; 34775-V-85; 29924-167; 28676-301; 28676-291; 32735-199; 32735-196; 21501-02-1888; 21501-02-1876; 21501-33-720; 29653-34; 29653-33; 30952-308; 34534-9; 34534-8; 34627-5; 34560-4; 34487-1; 33529-333; 33529-348; 33043-71; 32637-285; 30196-475; 25883-280; 24095-416; 24095-415; 22112-2359; 22112-2358; 22112-2357; 21501-33-660; 21501-33-658; 21501-30-406; 21501-30-396; 21501-08-672; 21501-30-394; 21501-30-393; 33529-493; 33529-467; 33529-464; 33529-461; 33529-455; 33529-460; 33529-495; 33529-496; 33529-470; 34775-XIII-144; 34950-XIII-13; 34950-XII-6; 34950-XIII-9; 34950-XIII-8; 34775-XIII-124; 29521-360; 34950-X-8; 29521-362; 29521-361; 27925-627; 27925-629; 27925-631; 2018Z05452; 30139-185; 30139-184; 30139-186; 34950-X-7; 34950-X-5; 34950-X-6; 34950-X-1; 30573-139; 19637-2396; 19637-2382; 30573-138; 19637-2395; 19637-2375; 29270-124; 19637-2413; 22112-2603; 22112-2604; 22112-2605; 32317-516; 29279-407; 34775-VI-102; 34107-2; 34300-VI-72; 34107-1; 2018Z12672; 29911-202; 26643-544; 26643-540; 26643-477; 26643-487; 29614-76; 29452-224; 29279-443; 31568-202; 31568-201; 31568-199; 31568-198; 29628-758; 34926-3; 34926; 34725-XV-2; 26448-593; 34950-IX-5; 34950-IX-2; 34950-24; 34950-25; 34950-XV-2; 34950-XV-5; 20043-113; 30486-18; 2018Z10313; 34775-XVI-133; 33845-30; 33845-24; 34773-6; 34773-4; 34773-5; 2017Z02529; 34570-14; 33835-50; 33576-82; 33037-185; 32336-66; 32201-87; 31239-222; 30826-45; 29659-147; 28973-193; 28973-177; 28625-247; 21501-32-1026; 21501-32-1025; 25883-296; 28286-812; 27858-430; 31571-32; 33037-283; 26991-527; 29697-49; 33037-290; 2018Z11348; 21501-32-1110; 34526-5; 33037-289; 33037-282; 33037-279; 34532-101; 34775-VIII-122; 30079-73; 30079-74; 31497-258; 31497-261; 31524-360; 31524-369; 31289-351; 31289-356; 2018Z02344; 31293-388; 2018Z03377; 33495-110; 31293-390; 31293-394; 31524-368; 31288-627; 22112-2528; 21501-07-1533; 21501-07-1531; 21501-07-1526; 21501-07-1532; 21501-07-1530; 25087-209; 25087-211; 34910-13; 2018Z13293; 34775-IX-26; 21501-07-1525; 34950-IX-6; 34950-IX-8; 34950-IX-7; 34950-IX-1; 34950-23; 34950-22; 34950-26; 28362-11; 25087-208; 25087-210; 34700-62; 32802-39; 21501-03-118; 21501-20-1340; 2018Z10670; 25087-206; 34785-90; 31066-409; 34298-23; 22112-2607; 34960-XVII-3; 32735-195; 32605-214; 26485-288; 34124-15; 34952-1; 33625-261; 26485-289; 34693-5; 34550-J-6; 34550-J-5; 32852-45; 32127-219; 31305-231; 30872-209; 25422-154; 22112-2186; 2017Z04573; 2017Z08865; 2016Z17960; 21501-33-659; 2017Z03810; 30175-293; 30175-291; 30175-292; 30175-287; 29383-295; 34950-XII-11; 34950-XII-10; 2018Z11553; 21501-08-729; 21501-08-731; 31936-482; 2017Z10003; 2018Z10759; 34950-IV-2; 34950-IV-6; 34950-IV-5; 34950-IV-1; 21501-20-1126; 2018Z12924; 21501-20-1354; 21501-20-1343; 21501-20-1342; 21501-20-1321; 21501-31-426; 21501-31-429; 21501-31-428; 24515-384; 25883-264; 25883-273; 25883-284; 25883-285; 32043-348; 34275-19; 34550-XV-7; 34550-XV-8; 34550-XV-9; 34617-9; 34617-8; 34707-2; 34725-XV-1; 34730-XV-4; 25883-286; 25883-287; 29538-243; 25883-289; 29544-778; 29818-43; 30982-29; 31322-333; 31142-57; 34376-12; 34550-VII-40; 31980-84; 34300-VII-62; 21501-33-596; 34475-VII-1; 34475-IIB-1; 34475-IIA-1; 34475-I-1; 34475-III-1; 34475-C-1; 34300-III-7; 34288-14; 34475-B-1; 34410-4; 34300-VII-69; 34389-22; 34588-5; 2016Z21261; 34567-13; 34550-VII-39; 31490-222; 34588-52; 27859-86; 33335-18; 31142-83; 31142-82; 31142-80; 31142-58; 34950-C-1; 29453-449; 32847-404; 29453-448; 29453-460; 29453-461; 29453-464; 29453-465; 29453-466; 29453-467; 32847-317; 29453-474; 2018Z07571; 32847-363; 29453-475; 27859-125; 27859-124; 27859-123; 27859-122; 27859-121; 31490-225; 31490-235; 31490-234; 34775-VII-47; 34843-12; 29362-267; 31490-239.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg4">Aangezien voor een aantal stukken de termijnen zijn verstreken, stel ik voor deze voor kennisgeving aan te nemen: 29838-93; 31289-370; 31524-365; 33118-33; 32127-223; 30872-208; 30196.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg5">Dan geef ik nu het woord aan de heer Azarkan namens DENK.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg6">Voorzitter, dank. Ik heb gisteren een debat aangevraagd over de dreigende uitzetting van de asielkinderen Lili en Howick, jonge Nederlandse kinderen die dreigen uitgezet te worden. Dat is door meer dan 30 leden gesteund, maar niet door een meerderheid. Ik zou graag de fracties die gisteren geweigerd hebben dat te steunen, opnieuw willen vragen om dat verzoek wel te steunen. Een aantal van die fracties heeft aangegeven dat er niet over individuele gevallen wordt besloten en ik heb dat toch even opgezocht. Het blijkt dat er in deze Kamer is gesproken over de individuele gevallen Mauro, Sahar, Aram, Jossef ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg7">Dus u wilt ...</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg8">... de familie Kadiri, individuele imams, meneer Jneid, El Alami Amaouch ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg9">Meneer Azarkan, het is duidelijk wat u wilt.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg10">Ik dacht even dat dat een argument was, maar dat is dus niet zo.</seg>
+            </u>
+            <u who="#MadeleinevanToorenburg" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg11">Ik zal mezelf herhalen: wij steunen geen debat over individuele verblijfsvergunningen. Dank u wel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg12">Ik kijk even rond. De heer Groothuizen namens D66.</seg>
+            </u>
+            <u who="#MaartenGroothuizen" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg13">Dank u wel, voorzitter. We hebben dit gisteren ook besproken. Toen heb ik uitgelegd dat het een trieste zaak is, maar het is een slecht idee om in deze zaal over individuele zaken te gaan spreken. Dus geen steun voor het vervroegen van het debat.</seg>
+            </u>
+            <u who="#JesseKlaver" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg14">Voorzitter. Wat pas echt een slecht idee is, is om deze Nederlandse kinderen uit te zetten. Het is ongebruikelijk, maar het is in het verleden ook al gebeurd. Alsjeblieft geen onomkeerbare stappen. Als daarvoor een debat nodig is, hebben we daar steun voor.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg15">Ook steun van de SP-fractie.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg16">We hadden al steun uitgesproken, dus ...</seg>
+            </u>
+            <u who="#FemkeMerelvanKooten-Arissen" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg17">Ook de Partij voor de Dieren had al steun uitgesproken, maar het heeft weinig zin om een dertigledendebat te voeren als die kinderen al uitgezet zijn. Van harte steun om het debat deze week in te plannen.</seg>
+            </u>
+            <u who="#MalikAzmani" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg18">Voorzitter. Geen steun, zoals ik dat gisteren ook al heb uitgelegd. De wetgever heeft de exclusieve bevoegdheid als het gaat om vergunningen discretionair aan de staatssecretaris gegeven. Dat betekent dat we vanuit de Kamer een debat kunnen gaan voeren met elkaar, maar dat zal ook niet helpen. Volgens mij moeten we elkaar dat ook niet aandoen. Dus geen steun.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg19">Voorzitter. Mijn partij, de ChristenUnie, is voor een debat in de breedte over het kinderpardon en hoe we in de toekomst met deze kinderen omgaan. Maar in deze specifieke zaak heeft de staatssecretaris zijn exclusieve discretionaire bevoegdheid, waarbij we ons hebben neer te leggen.</seg>
+            </u>
+            <u who="#KeesvanderStaaij" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg20">Voorzitter. Het wordt een herhaling van zetten, want we hebben gisteren in feite die argumenten ook al gedeeld. Voor de SGP-fractie blijft het hetzelfde: wij zullen dit niet steunen, maar we willen wel op de onderliggende problematiek terugkomen, ook bij de begroting.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg21">Meneer Azarkan, u heeft geen brede steun voor het houden van een meerderheidsdebat.</seg>
+            </u>
+            <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg22">Buitengewoon verdrietig, maar dank.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2018-09-05-tweedekamer-5.seg23">Dank u wel. Dan zijn we hiermee gekomen aan het eind van de regeling van werkzaamheden.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

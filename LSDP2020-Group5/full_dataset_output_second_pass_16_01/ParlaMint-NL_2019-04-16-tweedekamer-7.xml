@@ -1,0 +1,133 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-04-16 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-04-16 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 75, Session 7 (2019-04-16)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 75, Session 7 (2019-04-16)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="75">Meeting 75</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="14">14 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="14">14 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="351">351 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="351">351 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-04-16">2019-04-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="20"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="14"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-04-16">2019-04-16</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg1">Dan is nu aan de orde een korte regeling voor de stemmingen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg2">Ik stel voor zo dadelijk ook te stemmen over het wetsvoorstel Wijziging van het Wetboek van Strafvordering en de Overleveringswet ter implementatie van richtlijn nr. 2016/800/EU van het Europees Parlement en de Raad van 11 mei 2016 betreffende procedurele waarborgen voor kinderen die verdachte of beklaagde zijn in een strafprocedure (PbEU L 132) (35116).</seg>
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg3">Ik stel voor zo dadelijk ook te stemmen over de aangehouden motie-Buitenweg (35078, nr. 13) en de aangehouden motie-Renkema/Raemakers (34956, nr. 12 ).</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg4">Dan geef ik nu het woord aan mevrouw Ploumen.</seg>
+            </u>
+            <u who="#LiliannePloumen" ana="#regular" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg5">Voorzitter. Ik zou graag willen dat we eerst stemmen over drie moties onder agendapunt 13, de stemmingen over de moties ingediend bij de Wet medische hulpmiddelen, namelijk de moties op stukken nrs. 16, 18 en 20, voordat we stemmen over het wetsvoorstel onder agendapunt 12.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg6">Mij blijkt dat daar geen bezwaar tegen bestaat. Dan gaan we dat doen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg7">Mevrouw Ouwehand namens de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg8">Voorzitter. Ik wil graag mijn motie met nummer 33043, nr. 98 bij de stemmingen onder punt 9, over de moties ingediend bij het VSO Zienswijze van de Raad voor Dierenaangelegenheden betreffende insecten, aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg9">Op verzoek van mevrouw Ouwehand stel ik voor haar motie (33043, nr. 98) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg10">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg11">Mevrouw Buitenweg namens GroenLinks.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg12">Mevrouw de voorzitter. Wij hadden verzocht onze aangehouden motie in stemming te brengen, maar na overleg met een aantal fracties zal deze motie alsnog een klein beetje aangepast worden. We zullen deze motie op een nader tijdstip, zo snel mogelijk, opnieuw in stemming brengen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg13">Dat is de motie op stuk nr. 13, neem ik aan?</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg14">Ja, met dossiernummer 35078.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg15">De motie-Buitenweg (35078, nr. 13) wordt aangehouden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg16">Tot slot de heer El Yassini namens de VVD.</seg>
+            </u>
+            <u who="#ZohairElYassini" ana="#regular" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg17">Voorzitter. Graag houd ik onder agendapunt 6, stemmingen over de moties ingediend bij het debat over de resultaten van de JOB-monitor, de motie-El Yassini/Beertema (31524, nr. 414) aan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg18">Op verzoek van de heer El Yassini stel ik voor zijn motie (31524, nr. 414) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg19">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2019-04-16-tweedekamer-7.seg20">Dan gaan we nu naar de stemmingslijst.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

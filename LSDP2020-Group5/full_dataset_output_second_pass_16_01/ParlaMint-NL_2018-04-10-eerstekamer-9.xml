@@ -1,0 +1,87 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-04-10-eerstekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2018-04-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2018-04-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 26, Session 9 (2018-04-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 26, Session 9 (2018-04-10)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="26">Meeting 26</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="9">Session 9</meeting>
+            <meeting ana="#parla.term #EK.35" corresp="#EK" n="35-upper">Meeting of the 35th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="1">1 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="1">1 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="59">59 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="59">59 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2018-04-10">2018-04-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="1"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-04-10">2018-04-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Werkprogramma 2018 Europese Commissie</note>
+            <u who="#AnkieBroekers-Knol" ana="#chair" xml:id="ParlaMint-NL_2018-04-10-eerstekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2018-04-10-eerstekamer-9.seg1">De brief bevat de prioritering uit het werkprogramma van de Europese Commissie op basis van de inbreng van fracties en commissies in de Eerste Kamer. Kan de Kamer zich met het voorstel verenigen? Ik zie iedereen knikken, dus het antwoord is ja. Dat is dus het geval. Dan is het Europees werkprogramma 2018 van de Eerste Kamer hiermee vastgesteld.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

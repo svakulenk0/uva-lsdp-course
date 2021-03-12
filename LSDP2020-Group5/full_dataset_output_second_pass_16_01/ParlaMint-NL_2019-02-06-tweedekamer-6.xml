@@ -1,0 +1,334 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-02-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-02-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 50, Session 6 (2019-02-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 50, Session 6 (2019-02-06)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="50">Meeting 50</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="60">60 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="60">60 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="4785">4785 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="4785">4785 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-02-06">2019-02-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="75"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="60"/>
+               <tagUsage gi="note" occurs="56"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-02-06">2019-02-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Persoonsgebonden budget (pgb)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg1">Aan de orde is het VAO Pgb. Ik heet de minister van Volksgezondheid, Welzijn en Sport van harte welkom en geef de heer Kerstens namens de PvdA-fractie het woord.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg2">Dank u wel, voorzitter. Ik heb twee moties. Die ga ik voorlezen. Als er nog enige tijd over is, heb ik nog een klein slotakkoordje.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het Bureau ICT-toetsing (BIT) medio 2018 uiterst kritisch heeft geoordeeld over de aanpak van pgb 2.0 met als conclusie: "Wanneer het onmogelijk blijkt om (onze) adviezen in zijn geheel over te nemen, adviseren wij u te stoppen met het huidige programma pgb 2.0";</note>
+               <note>constaterende dat na verschijning van het BIT-rapport verschillende maatregelen zijn getroffen;</note>
+               <note>overwegende dat juist ook gelet op de stevige inhoud van dat rapport en de verstrekkende gevolgen als pgb 2.0 mislukt een quickscan, leidend tot een oordeel omtrent bedoelde maatregelen, passend is;</note>
+               <note>constaterende dat het BIT destijds is voortgekomen uit een door de Kamer geïnstigeerd parlementair onderzoek naar ICT-projecten bij de overheid en de noodzaak van instelling daarvan Kamerbreed werd ondersteund;</note>
+               <note>verzoekt het kabinet het BIT op korte termijn een quickscan te doen uitvoeren naar het antwoord op de vraag of zijn eerdere aanbevelingen in voldoende mate worden opgevolgd en volgende stappen met vertrouwen kunnen worden gezet alsook de Kamer van de bevindingen van het BIT ter zake op de hoogte te stellen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Kerstens en Hijink. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-308</note>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg3">Dan de tweede motie, voorzitter.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat in het kader van de (door)ontwikkeling van pgb 2.0 een pilot plaatsvindt, waaraan zorgverzekeraar DSW en de gemeente Westland alsook daar woonachtige pgb-houders deelnemen;</note>
+               <note>constaterende dat breed wordt onderschreven dat deze pilot niet representatief is voor de meeste andere gemeenten in Nederland, waardoor er geen algemeen geldende conclusies ten behoeve van een zogenoemde "landelijke uitrol" aan kunnen worden verbonden;</note>
+               <note>overwegende dat, alvorens met vertrouwen tot een dergelijke uitrol kan worden overgegaan, meer ervaring dient te worden opgedaan;</note>
+               <note>verzoekt het kabinet om op korte termijn een tweede pilot te doen plaatsvinden, qua opzet en omvang gelijkwaardig aan de eerste, waarbij een of meer andere gemeenten, zorgkantoren en zorgverzekeraars zijn betrokken alsook de Kamer over de voortgang en conclusies daarvan te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Kerstens en Ellemeet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-309</note>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg4">Voorzitter. Heel kort, afsluitend. De Partij van de Arbeid is voorstander van het pgb en hoopt ook dat pgb 2.0 gaat slagen. Wij vinden deze stappen wel belangrijk om er met een gerust hart verder mee aan de slag te gaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg5">Dank u wel, meneer Kerstens. Dan geef ik nu het woord aan mevrouw Bergkamp namens D66.</seg>
+            </u>
+            <u who="#VeraBergkamp" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg6">Voorzitter, dank u wel. We hebben een goed algemeen overleg gehad, waarin we de verschillende zorgen hebben uitgewisseld. Een van die zorgen ging over de structurele beheersorganisatie en de governance. Vandaar de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de ontwikkeling van het pgb 2.0-systeem is ondergebracht in een tijdelijke beheersorganisatie totdat een structurele oplossing uitgedacht is;</note>
+               <note>constaterende dat de Algemene Rekenkamer in de verantwoordingsonderzoeken altijd kritisch is geweest over de governance van het trekkingsrechtsysteem;</note>
+               <note>verzoekt de Algemene Rekenkamer om onderzoek te doen naar de governance van de structurele beheersorganisatie van het pgb 2.0-systeem, in het bijzonder naar de wijze waarop de minister zijn verantwoordelijkheden invult, en de Kamer over de uitkomst hiervan te informeren, zodat deze bij de besluitvorming kan worden betrokken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Bergkamp, Hermans, Slootweg en Segers. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-310</note>
+            </u>
+            <u who="#VeraBergkamp" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg7">Ik heb nog één vraag voor de minister. We hebben het in het AO niet gehad over de privacy-elementen. Ik ga ervan uit, kijkende naar alle vervolgstappen, dat er ook heel goed wordt gekeken naar allerlei privacywet- en regelgeving en dat de gekozen oplossingen daar ook aan voldoen. Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg8">Dank u wel, mevrouw Bergkamp. Dan geef ik nu het woord aan de heer Slootweg namens het CDA.</seg>
+            </u>
+            <u who="#Evert-JanSlootweg" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg9">Dank u wel, voorzitter. We hebben inderdaad een goed debat gehad maar wel een debat dat over systemen gaat. Het alternatieve softwaresysteem dat door DSW is ontwikkeld, kent een geschiedenis. Onder dit proces ligt gewoon een kritisch rapport van het BIT. ICT, overheid, iedereen voelt wel een beetje aan dat het ijs dun is. Vandaar dat mijn fractie meer comfort wil over die aanbevelingen van het BIT. Omwille van dat comfort ondertekenen wij de motie van mevrouw Hermans die nog komt en de motie van mevrouw Bergkamp zoals zij die net heeft voorgelezen, van harte mee.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg10">Dan heb ik nog een vraag. Een belangrijk punt voor het CDA is de rol van de SVB in het financieel domein. Het trekkingsrechtensysteem wordt min of meer ter discussie gesteld. Klopt het dat de Sociale Verzekeringsbank een rol heeft als monopolist ten aanzien van dat trekkingsrechtensysteem en zou de minister bereid zijn om een onderzoek in te stellen naar de vraag of er ook andere mogelijke aanbieders zouden kunnen zijn voor dat systeem? Wij zouden dan ook willen weten welke voor- en nadelen daaraan zijn verbonden en welke kosten dat met zich meebrengt.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg11">Ik heb nog een korte motie over de broncode. De minister geeft aan dat er heel veel openbaar wordt gemaakt, maar toch zouden wij eigenlijk willen dat het iets ruimhartiger gaat. Deze motie dien ik samen met mevrouw Bergkamp in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er grote maatschappelijke en economische voordelen zitten aan door de overheid ontwikkelde opensourcesoftware;</note>
+               <note>overwegende dat bureau Gartner, als uitkomst van de motie-Oosenbrug, aanbeveelt dat wettelijke belemmeringen weggenomen moeten worden om de broncodes van de door de overheid ontwikkelde software ter beschikking te stellen als opensourcesoftware;</note>
+               <note>constaterende dat de ontwikkelde software in zowel het financieel domein als het zorgdomein nog niet volledig open source zijn;</note>
+               <note>verzoekt de minister om in gesprek te gaan met Zorgverzekeraars Nederland en DSW met als doel de broncode van het pgb 2.0-systeem zo spoedig mogelijk volledig openbaar te maken,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Slootweg en Bergkamp. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-311</note>
+            </u>
+            <note>Meneer Kerstens, alleen over de motie want het algemeen overleg is al geweest. Dus als het echt een vraag betreft over ...</note>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg12">Het is niet een vraag over deze motie maar over mijn motie. De heer Slootweg geeft aan dat het CDA op zoek is naar meer comfort als het gaat om de doorontwikkeling van pgb 2.0. Nu kent u net zo goed als wij allemaal het rapport van het BIT dat hartstikke kritisch is. De heer Hijink en ik stellen in onze motie voor om het BIT nog een keer te laten kijken naar wat er met de aanbevelingen van het BIT is gebeurd en of dat het comfort gaat bieden dat we allemaal zoeken. Hoe kijkt u daarnaar?</seg>
+            </u>
+            <u who="#Evert-JanSlootweg" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg13">Het gaat mij niet om de plek waar het belegd wordt. Ik denk ook dat het voor het BIT heel erg lastig is om daarna na te gaan of het op de juiste manier is gebeurd. Mocht eruit komen dat het BIT het doet, dan heb ik daar geen probleem mee, maar om nu te zeggen "dit moet het BIT doen" is voor mij geen wet van Meden en Perzen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg14">Tot slot.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg15">Korte vervolgvraag. De Kamer heeft bij de instelling van het BIT juist dit als onderdeel van de taak van het BIT gezien, dus een rapport uitbrengen en kijken wat de voortgang is. In onze motie herinneren we de Kamer eigenlijk aan de eigen afspraken; de minister is weliswaar van zins een quickscan te laten houden maar juist niet door het BIT. U zegt dat het het BIT zou mogen zijn maar wat als wij als Kamer zouden zeggen dat het het BIT wordt?</seg>
+            </u>
+            <u who="#Evert-JanSlootweg" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u14">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg16">De heer Kerstens geeft heel precies de voortgang aan. In het algemeen overleg over het systeem zijn ook andere zaken aan de orde geweest. Dus in die zin wil ik gewoon de ruimte laten om te kijken waar het het best is belegd. Het is volgens mij wel heel duidelijk dat er Kamerbreed onrust is over wat er mee wordt gedaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u15">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg17">Dank u wel, meneer Slootweg.</seg>
+            </u>
+            <u who="#MaartenHijink" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u16">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg18">Voorzitter. Als de overheid grootschalige ICT-projecten op zich neemt, dan heeft het nog weleens de neiging om vol-le-dig uit de hand te lopen. Daar hebben we voorbeelden van gezien: ICT-projecten die tientallen en soms honderden miljoenen kosten en geen resultaat opleveren. Dat moeten wij zien te voorkomen, denk ik, zeker nu het gaat over de nieuwe software die ontwikkeld wordt voor het persoonsgebonden budget: pgb 2.0. De heer Kerstens en ik hebben samen een motie ingediend om het BIT, het Bureau ICT-toetsing, te vragen om dat pgb 2.0-systeem nog eens door te lichten. En waarom hebben wij dat gedaan? Omdat wij vorig jaar een vernietigend rapport hebben kregen van het BIT. Dat maakte eigenlijk gehakt van het plan zoals dat er nu ligt. En de Kamer zelf heeft, zoals meneer Kerstens terecht zei, na een parlementair onderzoek besloten: laten we nu dit BIT, dit Bureau ICT-toetsing, gebruiken om deze projecten te onderzoeken. Nu is dat gebeurd, en er ligt een vernietigend rapport. Nu de minister zelf zegt dat er van alles is gebeurd, dat het ICT-systeem nu wel op orde is en dat we verder kunnen, wat ligt er dan méér voor de hand dan dat wij nu het BIT nogmaals vragen: vindt u nou ook dat de minister op de goeie weg is? De minister zelf zegt iets anders. Hij zegt: we moeten dit door de Auditdienst Rijk laten onderzoeken. Maar dat is echt te gemakkelijk. Dat is eigenlijk zeggen: ik heb een slecht cijfer gehad, dus ik ga maar naar een andere school in de hoop dat ik daar een beter cijfer krijg. Dus mijn vraag aan de minister is: wat zou er mis mee zijn om niet alleen de Auditdienst Rijk, maar ook het BIT, nogmaals te vragen om een nieuwe toets te doen op dit systeem? Want we moeten voorkomen, en dan kijk ik ook naar de collega's, dat wij hier zelf voorstellen dat we de ICT-projecten beter moeten bewaken, terwijl wij na één vernietigend rapport van het BIT naar een andere dienst gaan kijken om hetzelfde werk te doen. Volgens mij neem je dan jezelf niet serieus. Dus dat is mijn boodschap aan de collega's.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u17">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg19">Helder, dank u wel. Tot slot, mevrouw Hermans namens de VVD.</seg>
+            </u>
+            <u who="#SophieHermans" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u18">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg20">Voorzitter, dank u wel. Er is al veel gezegd over de invoering van het nieuwe ICT-systeem, en over de techniek en de ingewikkeldheden daaromheen. Daar is in het AO ook uitgebreid bij stilgestaan. We zijn dit allemaal begonnen om een gebruiksvriendelijker systeem te maken voor al die mensen die gebruikmaken van het pgb. En zoals de heer Hijink al zei, ligt er inderdaad een kritisch BIT-rapport. De minister heeft daarop gereageerd. Hij heeft aangegeven: er is al een heleboel gebeurd in de tussentijd, en we gaan ook nog een heleboel stappen zetten. En om nu zeker te weten dat we op weg naar dat gebruiksvriendelijke systeem in de toekomst steeds goed kijken of we er ook echt klaar voor zijn om in die ICT de volgende stap te zetten, dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Auditdienst Rijk onderzoekt of er waarborgen ingebouwd zijn om opvolging te geven aan de door het BIT geconstateerde risico's en of deze bijdragen aan een zorgvuldige en beheerste invoering van het pgb 2.0-systeem door betrokken ketenpartijen;</note>
+               <note>constaterende dat dit onderzoek zich met name zal richten op de waarborgen ingebouwd door de tijdelijke beheersorganisatie en waarborgen voor een zorgvuldige invoering en daarmee het programma pgb 2.0;</note>
+               <note>constaterende dat de Tweede Kamer voldoende waarborgen wil inbouwen om een succesvolle invoering van het pgb 2.0-systeem mogelijk te maken;</note>
+               <note>verzoekt de regering om bij iedere betekenisvolle stap expliciet te overwegen al dan niet contraexpertise in te zetten, met als doel een zorgvuldige en beheerste invoering van het pgb 2.0-systeem te borgen, en de Kamer hierover tijdig te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Hermans, Bergkamp, Slootweg en Segers. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-25657-312</note>
+            </u>
+            <note>Een korte vraag van de heer Hijink.</note>
+            <u who="#MaartenHijink" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u19">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg21">Mevrouw Hermans vraagt naar contraexpertise. Ik zou zeggen: als we nou het BIT vragen om ook te blijven meekijken naar hoe het nieuwe pgb 2.0 zich ontwikkelt, dan heb je toch precies de extra toets die je eigenlijk wilt hebben? Wat zou daar een bezwaar tegen zijn?</seg>
+            </u>
+            <u who="#SophieHermans" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u20">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg22">Het verzoek in deze motie is net een andere. Zoals de minister in zijn brief heeft geschreven, gaat de Auditdienst Rijk kijken hoe de situatie precies is op dit moment. We hadden immers dat kritische advies van het BIT. De minister zet daartegenover: het gaat nu al veel beter, want we hebben een heel aantal aanbevelingen al opgevolgd. Wij willen dat er nu in het nu wordt gekeken of dat inderdaad zo is: zijn die waarborgen ingebouwd? Maar vanaf nu gaan er in de komende maanden nog een heleboel stappen gezet worden voor de verdere invoering van dat pgb 2.0-systeem. Bij elke stap die daar nu in gezet wordt, waarbij je ook in het kader van de ICT verdere stappen gaat zetten, willen wij graag dat nog op tijd wordt meegekeken en dat er een contraexpertise wordt gedaan of die stap ook echt zorgvuldig gezet kan worden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u21">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg23">Tot slot.</seg>
+            </u>
+            <u who="#MaartenHijink" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u22">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg24">Maar de vraag is: wie gaat dat dan doen? Ik ben geen ICT'er. Ik schat zo in dat u dat ook niet bent. U zet de minister eigenlijk deels onder curatele. U wilt iedere stap die hij zet, kunnen volgen. Prima, maar ik zou zeggen: laat dan de experts van het BIT meekijken. Dat is dan toch heel erg logisch? Of begrijp ik het verkeerd? Ik begrijp helemaal niet waar u dan die kennis, die extra expertise, wilt inhuren. Die hebben we. Dat heet namelijk het Bureau ICT-toetsing.</seg>
+            </u>
+            <u who="#SophieHermans" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u23">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg25">Ja, maar ik maak dus onderscheid tussen de second opinion —laat ik het maar even zo noemen — op dit moment en de stappen die we hierna gaan zetten. Ik noem ook niet een partij die dat wel of niet zou mogen doen. Het BIT zou een van die partijen kunnen zijn. Maar dat is wat anders dan het verzoek zoals ik dat gelezen heb in uw motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u24">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg26">Dank u wel, mevrouw Hermans.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg27">Er zijn vijf moties ingediend. Er is behoefte aan een korte schorsing van vijf minuten.</seg>
+            </u>
+            <note>De vergadering wordt van 14.02 uur tot 14.09 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u25">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg28">Ik geef de minister het woord.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u26">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg29">Dank voorzitter, voor de ingediende moties en voor een enkele vraag. Ik zal proberen daarop zo goed mogelijk te reageren. De motie-Kerstens/Hijink op stuk nr. 308 en de motie-Hermans c.s. op stuk nr. 312 wil ik in samenhang met elkaar bespreken. We hebben een uitvoerig debat gehad over het BIT-advies, dat we maar niet over moeten doen, omdat anders de voorzitter ingrijpt. En terecht. Het debat ging ook over, kort samengevat, het verschil van inzicht dat er is over de analyse die het BIT heeft gemaakt. Niet zozeer over de aanbeveling, want die hebben we overgenomen en daaraan hebben we invulling gegeven. Om die reden lijkt het me niet zinvol, zoals ik ook in het algemeen overleg al heb toegelicht, om het BIT er nog een keer naar te laten kijken. Tegelijkertijd snap ik ook dat uw Kamer graag comfort heeft over de vervolgstappen en wil weten of deze eigenlijk wel voldoende tegemoetkomen aan de aanbevelingen die zijn gedaan. Wij zitten hier allemaal met het vrij recente verleden in het achterhoofd. Dat betekent dat we superzorgvuldig moeten handelen en dat we iedere stap met grote zorgvuldigheid moeten zetten.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg30">Dat is de reden voor het ADR-advies zoals ik het heb beschreven in de quickscan in de brief aan uw Kamer. Daar komt de motie op stuk nr. 308 bij, waarin staat: laat dan ook het BIT er nog naar kijken, als aanvulling op die quickscan. Dat lijkt mij niet zinvol, maar ik snap wel dat u ook de betrokkenheid van het BIT nog een keer zou willen. Om die reden heb ik de ADR niet alleen inmiddels de opdracht verstrekt om die quickscan uit te voeren, maar heb ik de ADR ook gevraagd om zich te verstaan met het BIT, om zich goed op de hoogte te kunnen stellen van de bevindingen van destijds. Het gaat ook om de aanbevelingen van destijds en van de achtergrond daarvan, zodat de ADR die kan meewegen. De motie-Kerstens/Hijink op stuk nr. 308 ontraad ik in deze vorm.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg31">Dan kom ik op de motie op stuk nr. 312, die zegt: het gaat niet alleen om die second opinion of quickscan nu. Eigenlijk zouden we bij iedere betekenisvolle stap in het invoeringsproces, als dat nodig is, een externe blik willen hebben. Ik heb al toegelicht dat ik aan het einde van het eerste kwartaal met een implementatieplan kom, waarbij we met alle ketenpartners iedere keer elkaar aankijken en zeggen: gaat het lukken? Maar dan moeten we ook echt samen springen. Wat deze motie daaraan zou toevoegen, is: dan moeten we dat, als het nodig is in ieder geval, extern laten valideren en extern laten toetsen of het verantwoord is. Zeker als het gaat om zaken die vanuit de Kamer moeilijk te overzien zijn, maar die wel van belang zijn, namelijk: deugt het qua ICT-vormgeving? Om die reden kan ik deze motie goed begrijpen. Ik zou eigenlijk willen voorstellen om hieraan vorm en inhoud te geven in het implementatieplan. Dus de motie-Hermans c.s. op stuk nr. 312 geef ik oordeel Kamer</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u27">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg32">De heer Kerstens ... Heeft u alle moties van de heer Kerstens behandeld?</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u28">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg33">Nee, dat nog niet. Maar de motie op stuk nr. 308 en de motie op stuk nr. 312 heb ik in samenhang behandeld. Dat leek me inhoudelijk een goed idee.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u29">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg34">Ik wil niet bij elke motie uitgebreid discussie, dus heel kort, meneer Kerstens.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u30">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg35">Dat wil ik ook niet, voorzitter. De minister geeft net aan dat hij de ADR, de Auditdienst Rijk, heeft gevraagd om met BIT, het Bureau ICT-toetsing, zich te verstaan over die quickscan. Nu geeft de minister in zijn brief aan de Kamer zelf aan dat er bij de ADR, waar op zich heel goede mensen werken uiteraard, niet de topspecialisten op ICT gebied zitten, terwijl het hier nou juist om een ICT-toetsing zou moeten gaan. Daar ging het hele verhaal van het BIT over. Wat is dan precies de rol die de minister het BIT nu als een stapje blijkbaar toch wil geven in die quickscan? Dan gaat iemand die niet een expert is in ICT-toetsing zich verstaan met dé expert op het gebied van ICT-toetsting, die eerder een genadeloos rapport heeft afgeleverd.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u31">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg36">Ook het BIT heeft uiteindelijk geen softwaretoets gedaan. Dat hebben wij na afloop zelf gedaan, omdat dat niet in het BIT-advies zat. Wat we volgens mij te doen hebben, is extern gevalideerde zekerheid, een waarborg, zien te vinden in de invoering van pgb 2.0. Hebben de aanbevelingen die destijds zijn gedaan, voortkomend uit het BIT-advies, op een goede manier vorm en inhoud gekregen in de implementatie? Wat ik u heb toegezegd, is een implementatieplan te maken, dat ik eind dit kwartaal aan de Kamer doe toekomen, en daarbij een quickscan te voegen vanuit de ADR om te beoordelen of de waarborgen voor een verantwoorde invoering in voldoende mate zijn gegeven. De ADR heeft zich daartoe natuurlijk te verstaan met allerlei ketenpartijen, want die hebben namelijk zelf ook vorm en inhoud te geven aan die waarborgen. Maar omdat u dat een aantal keren in het algemeen overleg heeft genoemd, leek het mij wijs om tegelijkertijd ook te vragen ... Het gaat natuurlijk ook over die aanbevelingen die het BIT heeft gedaan en dan is het dus verstandig om zich ook met het BIT te verstaan. Wat waren de achtergronden van die aanbevelingen en wat waren de analyses die het BIT zelf heeft gedaan om te kijken of daaraan ook op een goede manier vorm en inhoud is gegeven?</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u32">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg37">Dan gaat het ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u33">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg38">Wel kort.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u34">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg39">... om het ophalen van informatie bij het BIT over de aanbeveling en niet om het BIT toch op de een of andere manier een rol te geven in de waardering van de stappen die daarna zijn gezet? Voor de helderheid.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u35">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg40">Nee, dat lijkt me niet goed.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u36">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg41">Mevrouw Hermans, u hebt een vraag over uw motie? Ik begreep dat uw motie oordeel Kamer had gekregen.</seg>
+            </u>
+            <u who="#SophieHermans" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u37">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg42">Een hele korte vraag naar aanleiding van de opmerking van de minister dat hij daarop zal terugkomen in het implementatieplan. Mag ik dat zo interpreteren dat hij dus terug zal komen op wanneer de stappen, die nu gezet gaan worden, ongeveer gezet zullen worden en wanneer de afweging wordt gemaakt of die contraexpertise daar al dan niet relevant voor is.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u38">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg43">Ja, zeker. Ik heb in het algemeen overleg toegezegd om een implementatieplan te maken en om de Kamer samen met het implementatieplan het resultaat van de quickscan van de ADR te doen toekomen. Daarnaast heb ik een calculatie van de kosten toegezegd — daar heeft u ook om gevraagd — en dat ik de Kamer periodiek zal informeren. Eigenlijk zag ik deze motie in het verlengde daarvan. Het is namelijk een specificatie daarvan. Je zult waarschijnlijk in dat implementatieplan door een aantal hoepels moeten en deze motie vraagt om die hoepels, als dat nodig en zinvol is, ook extern te valideren. Dat wil zeggen: ook extern advies vragen of om een validatie vragen. Deugt dit? Kunnen we deze stap zetten met elkaar? Dat lijkt me zinvol. Om die reden heb ik gezegd dat het oordeel aan de Kamer is.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg44">Dan de motie-Kersten/Ellemeet op stuk nr. 309. Zij verzoeken het kabinet om op korte termijn een tweede pilot te doen plaatsvinden. Wij hebben daar vrij uitvoerig over gesproken en ik moet even preciseren of ik 'm goed begrijp. We hebben namelijk gezegd dat het goed zou zijn als we testen of die software, die tot de kerst op de DSW-omgeving draaide, het ook ergens anders doet. Dat doen we sowieso natuurlijk in de ICTU-omgeving, in de tijdelijke beheerorganisatie in de overheidsomgeving. Maar de Kamer heeft ook, denk ik, wel terecht gezegd: zullen we ook eens kijken of dat bij een ander zorgkantoor ook aan de praat te krijgen is. Daarvan heb ik in de brief gezegd: "Ja, dat gaan we doen, droogzwemmend tot aan 1 april en vanaf half mei gaan we het water in." Met droogzwemmen bedoel ik dat je kijkt of het technische draaiend te krijgen is op de ICT-infrastructuur van een zorgkantoor.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg45">Dus ja, we gaan een tweede pilot doen. Daar is nu eigenlijk al in voorzien en in het implementatieplan zal ik ook exact uitschrijven hoe we dat gaan doen. Is dat wat u bedoelt? Als dat zo is, zou ik kunnen zeggen dat de motie eigenlijk overbodig is en dat ik haar moet ontraden. Ik kan ook zeggen: als u graag een toets wilt doen op de vormgeving van die tweede pilot, zou ik u willen vragen om de motie even aan te houden, totdat het implementatieplan met de Kamer is besproken.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u39">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg46">Er wordt onderhandeld over wat te doen met de motie. De heer Kerstens.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u40">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg47">Voorzitter, als je samen een motie indient, is het wel net zo netjes om dan samen even te kijken als de minister iets heeft aangegeven.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u41">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg48">Linkse samenwerking juichen we natuurlijk altijd toe vanuit het kabinet.</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u42">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg49">Die komt in ieder geval in de Handelingen terecht en dat komt te zijner tijd vast nog wel een keer van pas in een debat met de minister.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg50">De bedoeling van de motie is eigenlijk dat we wel echt gaan zwemmen. De minister had het over droogzwemmen, maar een pilot moet wel iets voorstellen. Het moet meer zijn dan alleen maar droogzwemmen. Wij vragen ons ook een beetje af hoe het dan met het tijdpad zit. U springt dan toch ineens het diepe in en wij zouden liever twee keer proefgezwommen hebben, voordat we dat diepe in springen. Maar we kunnen misschien best weleens kijken naar de bewoordingen, zodat beide kanten daarmee uit de voeten kunnen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u43">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg51">Ja, maar wat doet u met de motie?</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u44">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg52">Wij ...</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u45">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg53">Zal ik het toelichten? Want ik denk dat ik een heel eind in de buurt kom bij wat de heer Kerstens en mevrouw Ellemeet willen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u46">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg54">Ja, oké.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u47">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg55">Wat wij doen, is dit. Wij kunnen niet anders dan droogzwemmen tot aan 1 april, omdat we namelijk midden in de overdrachtssituatie zitten en het zou onverantwoord zijn om halverwege de overdrachtssituatie een extra pilot te starten. Dat wordt te rommelig. Het moet wel volgens de stappen van rust, reinheid en regelmaat gebeuren. Dat is ook wat de afspraak is geweest met de ketenpartners. Wat we hebben afgesproken, is dat we gaan droogzwemmen totdat de overdracht gereed is, en vanaf dat moment gaan we het water in en gaan we ook voor een echte pilot. Die pilot, die vervolgpilot, is één van de stappen in de implementatie, voordat het breder wordt uitgerold.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg56">Daarmee kom ik volgens mij aardig in de buurt van datgene wat u wilt. U zou kunnen zeggen: dat willen wij dan eerst nog wel even zien in het implementatieplan. Laat ik u toezeggen dat ik dit goed uitschrijf in het implementatieplan, dan kunt u op basis daarvan beoordelen of uw motie dan nog actueel is. Dan zou u uw motie kunnen aanhouden tot en met het implementatieplan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u48">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg57">Wat gaat u doen met de motie?</seg>
+            </u>
+            <u who="#JohnKerstens" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u49">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg58">We gaan haar even aanhouden, om te wachten op het implementatieplan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u50">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg59">Op verzoek van de heer Kerstens stel ik voor zijn motie (25657, nr. 309) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg60">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u51">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg61">Dan de motie-Bergkamp c.s. op stuk nr. 310, die de Algemene Rekenkamer verzoekt om onderzoek te doen naar de governance van de structurele beheerorganisatie. Wij werken nu in een tijdelijke beheerorganisatie. Ik kan mij voorstellen dat u zegt: de Algemene Rekenkamer heeft zich daar eerder over uitgesproken, die zouden we nog weleens een keer willen laten kijken naar de structurele vormgeving van die beheersituatie. In formele zin meen ik dat ik over deze motie geen oordeel hoef te geven, omdat het een verzoek is aan de Algemene Rekenkamer en niet aan het kabinet. Tegelijkertijd zou ik mij kunnen voorstellen dat het heel erg zinvol is. Had ik wel een oordeel moeten geven, dan was dat oordeel Kamer geweest. Ik zou graag naar aanleiding van deze motie, als die wordt aangenomen, in gesprek gaan met de Algemene Rekenkamer over de manier waarop dit in het proces zou kunnen. Of wij een concept uitwerken vanuit het departement en dat voorleggen aan de Rekenkamer of hoe de Rekenkamer dat anders in het proces voor zich ziet. Als deze motie wordt aangenomen, ga ik graag het gesprek aan met de Algemene Rekenkamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg62">Dan de motie-Slootweg/Bergkamp op stuk nr. 311, die vraagt om in gesprek te gaan met Zorgverzekeraars Nederland en met DSW, met als doel de broncode van pgb 2.0 volledig openbaar te maken, zo snel mogelijk. Dat is ingewikkeld. Ik zal die motie moeten ontraden. Qua intentie doe ik exact wat u vraagt. Wij hebben de intentie om zodra pgb 2.0 in voldoende mate is doorontwikkeld, zo veel mogelijk openbaar te maken, namelijk die delen die ik openbaar kán en mág maken. Dat is mogelijk als de volgende acties zijn ondernomen. Eén, opvolging van de aanbevelingen uit de kwaliteitstoets van de software en de juridische toets door de landsadvocaat. Twee, de code is aangepast aan de eisen voor de landelijke uitrol en er zijn geen belemmeringen vanuit het oogpunt van privacy — ik verwijs naar de vraag van mevrouw Bergkamp — en dat van fraude. En drie, de code bevat geen bedrijfsgevoelige informatie meer vanuit DSW. Dat zijn de doorontwikkelingen die eerst nog moeten plaatsvinden op de huidige code. Zo snel mogelijk is dan toch niet eerder dan voor het einde van dit jaar.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg63">Daarnaast is het zo dat ervoor gekozen is om in de software een aantal standaardonderdelen te gebruiken van leveranciers zoals Oracle. Die kan ik niet zomaar openbaar maken, want dat is geen eigendom van het Rijk, ook niet na de overdracht. Dat blijft eigendom van Oracle. Dus ik kan niet dat deel van de broncode openbaar maken. Daarnaast is een deel ook gewoon eigendom van DSW. Dat kan ik ook niet openbaar maken. Sommige delen zijn ook nu al open source, dus die zijn uiteraard al openbaar. Dat geheel maakt dat ik in de brief vrij precies heb willen aangeven dat het de intentie is om zo veel als mogelijk zo snel als mogelijk openbaar te maken. Maar "zo veel als mogelijk én zo snel als mogelijk openbaar" betekent toch nog steeds dat er een aantal onderdelen gewoon niet openbaar gemaakt kunnen worden, omdat dat indruist tegen het eigendomsrecht.</seg>
+            </u>
+            <u who="#Evert-JanSlootweg" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u52">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg64">Ik begrijp de minister nu een stuk beter dan na wat er in de brief staat, zeker wat die drie eerste zaken betreft, die juridische toets of die fraude. Daar zit volgens mij ook het punt niet. Maar als ik de brief van de minister lees, zie ik dat er eigenlijk staat: ik ben gehouden aan een aantal afspraken. Zijn dat dan de afspraken wat Oracle betreft? "Zo veel mogelijk" en "zo spoedig mogelijk" willen we volgens mij allebei bereiken. Maar zouden daarover niet ook afspraken te maken zijn?</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u53">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg65">Zo veel als mogelijk en zo spoedig als mogelijk zijn uitgangspunten waar ik iets mee kan. Maar aan de afspraken die bijvoorbeeld raken aan het eigendomsrecht of het auteursrecht, kan ik gewoon niet tornen, zoals u zult begrijpen. Dat moet ik ook niet willen. Daarnaast heb ik een aantal doorontwikkelstappen te zetten voordat we daadwerkelijk tot openbaarmaking over kunnen gaan. Maar ik constateer op grond van uw reactie dat de brief op dit punt onvoldoende helderheid gaf. U zult het niet geloven, maar er lag eerst een veel uitgebreidere en veel technischere versie voor. Daarvan dacht ik: dat gaat wel heel erg diep de techniek in; misschien moeten we het een beetje op hoofdlijnen houden. Maar ik zie bij u een grote gretigheid om het helemaal precies te weten. Daarom zou ik u willen voorstellen dat ik een wat uitgebreidere brief schrijf over wat we daadwerkelijk openbaar kunnen maken en wat er daadwerkelijk doorontwikkeld moet worden. Tot die tijd zou ik eigenlijk willen vragen of u de motie eventjes wilt aanhouden.</seg>
+            </u>
+            <u who="#Evert-JanSlootweg" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u54">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg66">Dat vind ik in ieder geval een hele belangrijke geste, omdat ik toch een aantal elementen niet begreep. Daarmee komt de minister volgens mij tegemoet aan de vraag die ik in mijn motie heb willen verwoorden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u55">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg67">U heeft de tijd tot ...? Aanhouden? Ik zie dat de heer Slootweg dat bevestigt.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u56">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg68">Ja, graag aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u57">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg69">Op verzoek van de heer Slootweg stel ik voor zijn motie (25657, nr. 311) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg70">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u58">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg71">Dan is er nog een tweetal vragen. De eerste is die van mevrouw Bergkamp, die vroeg of er goed gekeken wordt naar de privacyaspecten. Jazeker. Dat heeft deels ook te maken met de doorontwikkeling van de software. Uiteraard hebben we de privacyaspecten hoog in het vaandel staan bij de doorontwikkeling van de software. Zeker.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg72">Tot slot was er de vraag van de heer Slootweg of ik de bereidheid zou hebben om op dit moment te kijken naar een andere uitvoerder. Ik zag die suggestie ook gedaan in de brief van Per Saldo. Ik moet zeggen dat ik dat ingewikkeld vind. Als het gaat om de vraag of de Sociale Verzekeringsbank hierin een monopolie heeft, is het antwoord: jazeker, dat heeft de wetgever namelijk zo bepaald. Net zo hebben ook andere uitvoerings-zbo's een monopoliepositie: DUO als het gaat over de studiefinanciering, of het CAK; zo hebben we meer van dat type uitvoeringsorganisaties die inderdaad een monopoliepositie hebben. Dat heeft een reden. We weten dat het een foutgevoelig uitvoeringsproces is. Als je dat degelijk wilt laten plaatsvinden, zul je daar dus één uitvoerder voor moeten kiezen, en de krachten van de markt daarin geen vrij spel moeten geven. Dat is onlangs nog eens bevestigd door de ACM. Er meldde zich bij de ACM een uitvoerende partij die meende ook aanspraak te moeten kunnen maken op de taak die de SVB op dit punt nu heeft. Daarvan heeft de ACM gezegd: nee, dat is niet zo; er is niet voor niets door de wetgever bepaald dat deze taak bij de Sociale Verzekeringsbank is belegd.</seg>
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg73">Zou de wetgever daarover ook iets anders kunnen bepalen in de toekomst? In technische zin zou dat kunnen, maar ik zou daar zelf niet voor zijn, omdat ik eigenlijk vind, ook vanuit orde, rust en regelmaat geredeneerd, dat we alles op alles moeten zetten om te zorgen dat we het zorgdomein en het financieel domein, die twee kanten van pgb 2.0, nu in alle rust moeten doorontwikkelen. Het zou daarvoor ongelofelijk tijdverlies zijn als we onzekerheid laten bestaan of de partijen die daar nu uitvoerend in zijn daar ook naar de toekomst toe nog wel uitvoerend in zijn. De uitvoering is gewoon stabiel. Ik zie daarin eerlijk gezegd geen enkele aanleiding om daar een andere partij voor te willen. Ik zou die weg echt niet op willen. Wat mij betreft gaan we het gewoon zo doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u59">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg74">Dank u wel. Daarmee zijn we aan het eind gekomen van dit VAO.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.u60">
+               <seg xml:id="ParlaMint-NL_2019-02-06-tweedekamer-6.seg75">Over de ingediende moties zullen we volgende week dinsdag stemmen. Ik dank de minister en ik schors de vergadering tot 14.30 uur.</seg>
+            </u>
+            <note>De vergadering wordt van 14.27 uur tot 14.32 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

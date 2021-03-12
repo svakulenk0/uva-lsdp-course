@@ -1,0 +1,280 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-11-21 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-11-21 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 27, Session 8 (2019-11-21)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 27, Session 8 (2019-11-21)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="27">Meeting 27</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="33">33 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="33">33 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1785">1785 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1785">1785 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-11-21">2019-11-21</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="46"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="33"/>
+               <tagUsage gi="note" occurs="85"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-11-21">2019-11-21</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Jaarwisseling</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg1">Aan de orde is het VAO Jaarwisseling. Ik heet de minister van Justitie en Veiligheid en de minister voor Milieu en Wonen van harte welkom. Ik geef het woord aan de heer ... hè, ik zie de heer Krol niet. Hem heb ik hier op mijn lijstje staan als eerste spreker. Waar is de heer Krol? Hij heeft het VAO aangevraagd. Nou, dan geef ik het woord aan de heer Wassenberg namens de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg2">Dank u wel, voorzitter. Ik heb twee moties — dat is weinig — ik heb één vraag en slechts beperkte tijd tot mijn beschikking, dus ik zal er niet lang omheen draaien. Ik begin met motie één.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Onderzoeksraad voor Veiligheid in een advies over vuurwerk als belangrijkste maatregel voorstelt om een landelijk verbod op knalvuurwerk en vuurpijlen in te stellen;</note>
+               <note>constaterende dat dit advies wordt gesteund door onder meer de politie, het Genootschap van Burgemeesters, de gemeentes Amsterdam, Rotterdam, Utrecht en Den Haag, de Koninklijke Nederlandse Maatschappij voor Diergeneeskunde, de Dierenbescherming, het Nederlands Oogheelkundig Gezelschap, het Oogfonds, politievakbonden, jeugdartsen, longartsen, patiëntenverenigingen, het Longfonds, de brandweer, verzekeraars, de Vogelbescherming en openbaarvervoerbedrijven;</note>
+               <note>constaterende dat de politie waarschuwt voor de complexe handhaving die het gevolg is van een willekeur aan lokale vuurwerkverboden;</note>
+               <note>verzoekt de regering om het kopen en afsteken van knalvuurwerk en vuurpijlen met ingang van de jaarwisseling 2020-2021 te verbieden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Wassenberg en Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28684-580</note>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg3">Voorzitter. Bij het AO Jaarwisseling vroeg ik aan de minister, die toen nog staatssecretaris was, hoe de stikstofuitstoot van vuurwerk te rijmen is met de PAS-uitspraak van de Raad van State, want met vuurwerk wordt nogal wat stikstofoxide de lucht in geblazen. Het antwoord was dat ze het aan het RIVM zou vragen. We hebben er verder niks meer van gehoord. Ik ben benieuwd of de minister ons daar iets over kan vertellen dadelijk in haar termijn. Daarover gaat in ieder geval de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat er bij het afsteken van vuurwerk onder andere stikstofoxiden de lucht in worden geblazen;</note>
+               <note>overwegende dat na de PAS-uitspraak door de Raad van State nauwlettend gekeken moet worden naar de uitstoot van stikstofverbindingen;</note>
+               <note>constaterende dat de regering de hoeveelheid stikstofverbindingen die wordt uitgestoten bij het afsteken van vuurwerk nog niet in kaart heeft gebracht;</note>
+               <note>verzoekt de regering het RIVM te laten onderzoeken hoe groot de uitstoot van stikstofverbindingen is bij het afsteken van vuurwerk,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28684-581</note>
+            </u>
+            <note>Dank u wel, meneer Wassenberg. Dan geef ik nu het woord aan mevrouw Kröger namens GroenLinks.</note>
+            <note>Fijn dat u er bent, meneer Krol.</note>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg4">Voorzitter. Ook mijn fractie steunt van harte de oproep van politie en hulpverleners om tot veel strengere afspraken te komen over vuurwerk. Daarom staan wij ook onder de motie van de heer Wassenberg en ook onder de motie die nog wordt ingediend door de heer Van Dam. Wij vinden echt dat we het knalvuurwerk en de overlast moeten aanpakken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg5">Een additioneel aspect van overlast wil ik hier ook aan de orde stellen: de vervuiling, de plasticvervuiling. Vuurwerk veroorzaakt veel plasticvervuiling en daarom hebben wij de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat in geheel Europa, ten gevolge van uitvoering van de Europese SUP-richtlijnen, maatregelen worden voorbereid om plasticvervuiling door wegwerpproducten te verminderen;</note>
+               <note>overwegende dat in vuurwerk plastic wordt toegepast dat na ontbranding bijna onvermijdelijk in het milieu terechtkomt;</note>
+               <note>overwegende dat er dit jaar al meer dan 19.000 stuks plasticscherven en plasticrestanten van het zogenaamde categorie F1-vuurwerk/knalvuurwerk zijn vastgelegd door een kleine groep zwerfafvalrapers en dat deze plasticrestanten door heel het land en gedurende het hele jaar worden aangetroffen op straat en in de natuur;</note>
+               <note>verzoekt de regering om te onderzoeken hoe samen met de vuurwerkbranche het gebruik van plastic in vuurwerk en het aanbieden van vuurwerk waarin plastic is verwerkt kan worden tegengegaan, met in het bijzonder aandacht voor het categorie F1-vuurwerk, en de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28684-582</note>
+            </u>
+            <note>Er gaat een telefoon af. Wie was dat? Mevrouw Yeşilgöz, dat wordt straf! Ja, in de hoek inderdaad.</note>
+            <u who="#SuzanneKröger" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg6">Nu de straf is uitgedeeld, ga ik verder.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg7">Als we het hebben over de categorie F1-vuurwerk, dan hebben we het bijvoorbeeld over knetterballen. Ik was afgelopen zondag in een geweldig natuurgebied vlak bij mij in de buurt, dat een Natura 2000-gebied moet blijven. In dat gebied zag ik hoopjes knetterballen liggen. Dat zijn gewoon harde plastic bollen die achtergelaten worden, de boel vervuilen en in het water terechtkomen. Dat moeten we echt niet willen. Ik hoop dat deze staatssecretaris ermee aan de slag wil.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg8">Dank u wel, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg9">Dank u wel, mevrouw Kröger. Dan ga ik naar de heer Van Dam namens het CDA.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg10">Voorzitter. Ik beperk mij tot het voorlezen van één motie, waarvan iedereen die het AO destijds heeft gevolgd, snapt dat deze vandaag zou worden ingediend.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat single-shotvuurwerk en zware vuurpijlen, ook als het gaat om de categorie F2, makkelijk misbruikt kunnen worden, waardoor er veel dreiging voor omstanders en hulpverleners ontstaat;</note>
+               <note>overwegende dat de vuurwerkbranche aangeeft dat single shots vooral in Nederland en in mindere mate in omliggende landen te koop worden aangeboden, maar ook dat er voor zware vuurpijlen inmiddels voldoende veilige alternatieven beschikbaar zijn;</note>
+               <note>verzoekt de regering de regelgeving zodanig aan te passen dat single-shotvuurwerk en zware vuurpijlen verboden worden voor consumenten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Dam, Den Boer, Dik-Faber, Kuiken, Wassenberg en Kröger.</note>
+               <note>Zij krijgt nr. kst-28684-583</note>
+            </u>
+            <note>Dank u wel, meneer Van Dam. Uit de ondertekening blijkt al dat de indiening van de motie voldoende wordt ondersteund. Dan ga ik nu naar de heer Van Raak namens de SP.</note>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u8">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg11">Dank je, voorzitter. De Tweede Kamer heeft een tijd terug alweer een omvattend onderzoek ontvangen van de heer Paul van Buitenen, na de vuurwerkramp in Enschede. Wij hebben de heer Van Buitenen gesproken en als Kamer besloten om de Onderzoeksraad voor Veiligheid om advies te vragen. Om hem moverende redenen heeft de onderzoeksraad aangegeven daartoe niet in staat te zijn. De Stichting Maatschappij en Veiligheid van de heer Van Vollenhoven en tegenwoordig ook van de heer Joustra heeft zich wel bereid verklaard om de Tweede Kamer van advies te dienen. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de Kamer een omvattend onderzoek heeft ontvangen van de heer Van Buitenen over de vuurwerkramp in Enschede;</note>
+               <note>constaterende dat de Stichting Maatschappij en Veiligheid bereid is de Kamer advies te geven over de nadere lessen die uit de ramp moeten worden getrokken en of eerdere lessen in de praktijk zijn doorgevoerd;</note>
+               <note>vraagt de Stichting Maatschappij en Veiligheid om een specifieke projectomschrijving en een bijbehorende begroting te maken, waarna de Kamer een definitief besluit kan nemen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Raak, Van der Staaij en Krol. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28684-584</note>
+            </u>
+            <note>De heer Van Dam heeft een vraag over de ingediende motie.</note>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u9">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg12">Ja, heel kort. Collega Van Raak heeft dit verzoek onlangs ook gedaan tijdens de procedurevergadering van de commissie voor Justitie en Veiligheid. Hoe verhouden die twee trajecten zich tot elkaar?</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u10">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg13">Daar was lang niet iedereen aanwezig, dus het was moeilijk om te kijken of er een meerderheid was voor het verzoek of niet. Ik heb dit VAO gebruikt om het verzoek voor te leggen aan de Tweede Kamer. Ik heb dat bij dit VAO gedaan om ervoor te zorgen dat een ander VAO dat ik had aangevraagd, geen doorgang hoefde te vinden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u11">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg14">Dank u wel, meneer Van Raak. Mevrouw Den Boer ziet af van een bijdrage aan dit VAO. Dan de heer Bisschop namens de SGP-fractie.</seg>
+            </u>
+            <u who="#RoelofBisschop" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u12">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg15">Voorzitter, dank u wel. Ik heb het genoegen om collega Van der Staaij te vervangen en ik beperk mij tot het voorlezen van de motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering alleen zwaar knalvuurwerk in de categorie F3 aan wil pakken;</note>
+               <note>overwegende dat een analyse van VeiligheidNL leert dat vuurpijlen, ondanks genomen maatregelen, nog steeds veel letsel, juist ook bij omstanders, hebben veroorzaakt, en dat ook ander zwaar (knal)vuurwerk in de categorie F2 voor problemen blijft zorgen;</note>
+               <note>verzoekt de regering op basis van de genoemde analyses aan te sturen op het verder aan banden leggen van de verkoop van vuurpijlen en zwaar (knal)vuurwerk en wijziging van regelgeving zo snel mogelijk door te voeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Bisschop, Van der Staaij en Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28684-585</note>
+            </u>
+            <note>Dank u wel, meneer Bisschop. Ik zie dat de heer Krol namens 50PLUS het woord nog wenst te voeren.</note>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u13">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg16">Dank u wel, voorzitter. Ondanks een groot draagvlak onder de bevolking, handhavers, hulpverleners en medisch specialisten is de regering nog steeds niet zover een algemeen verbod op knalvuurwerk in te voeren. In de Kamer zijn er gelukkig wel steeds meer voorstanders. Daar zijn we blij mee. Maar ook deze jaarwisseling zal het weer heel triest worden voor al die handhavers, hulpverleners en inwoners, en vooral de dieren, die heel veel stress ervaren. Collega Van Dam heeft al een motie ingediend, die wij van harte zullen ondersteunen. Wellicht zijn er voor de jaarwisseling 2020-2021 wél grote stappen te maken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg17">Daarom twee moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat een gemeentelijke vuurwerkshow een feestelijke en veilige manier is om de jaarwisseling met elkaar te vieren;</note>
+               <note>overwegende dat er te weinig professionele vuurwerkafstekers zijn;</note>
+               <note>verzoekt de regering om samen met de vuurwerkbranche een scholingstraject te initiëren om vuurwerkverkopers en andere geïnteresseerden om te scholen tot professionele vuurwerkafstekers,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Krol. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28684-586</note>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u14">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg18">Mocht deze motie worden aangenomen en uitgevoerd, dan kunnen de professionele vuurwerkafstekers wat 50PLUS betreft bij de jaarwisseling van 2020-2021 aan de slag.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg19">Dan een motie uit de grond van mijn hart. Laten we nu alvast een stapje in de goede richting zetten en lessen leren. Dat is altijd heel belangrijk.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg20">Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat een gemeentelijke vuurwerkshow een feestelijke en veilige manier is om de jaarwisseling met elkaar te vieren;</note>
+               <note>verzoekt de regering om met een representatief aantal gemeenten die willen meewerken aan het organiseren van een professionele vuurwerkshow, de jaarwisseling te evalueren op ongeregeldheden, vernielingen, bedreigingen, schoonmaakwerkzaamheden en de ervaren feestelijkheid van bewoners en bezoekers, de plaatselijke middenstand, handhavers en hulpverleners,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Krol. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-28684-587</note>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u15">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg21">Dank u zeer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u16">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg22">Dank u wel, meneer Krol. Dan kijk ik naar beide ministers. Twee minuten schorsen? Dan schors ik de vergadering twee minuten.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u17">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg23">Zijn de laatste twee moties, van de heer Krol, rondgedeeld? Het woord is aan de minister voor Milieu en Wonen.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u18">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg24">Dank u wel, voorzitter. Hartelijk dank aan de leden voor de moties. Ik zal er snel doorheen gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg25">De motie op stuk nr. 580 van de heer Wassenberg en mevrouw Kröger is een beetje een herhaling van zetten. We hebben dit met elkaar besproken. Het kabinet kiest voor een balans, maar ik kom zo meteen bij een aantal andere moties nog terug op het feit dat die balans natuurlijk ook in beweging is. Dat hebben we ook in het AO geconstateerd. Ik ontraad deze motie omdat die zo absoluut is, maar we komen zo meteen op de andere moties.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg26">In de motie op stuk nr. 581 vraagt de heer Wassenberg te onderzoeken wat de impact van vuurwerk op de stikstofproblematiek is. Ik heb in het debat aangegeven dat ik dat door het RIVM wil laten onderzoeken. De brief komt in december. Ik vraag de heer Wassenberg om deze motie aan te houden, want dat loopt al.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg27">De motie op stuk nr. 582 van mevrouw Kröger verzoekt de regering met de vuurwerkbranche in gesprek te gaan over het plasticprobleem van vuurwerk. Ik ben met de branche in gesprek, maar ik steun dit verzoek. Ik kan de motie overnemen en anders krijgt die oordeel Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u19">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg28">Heeft iemand bezwaar tegen het overnemen van de motie op stuk nr. 582 van mevrouw Kröger? Nee.</seg>
+            </u>
+            <note>De motie-Kröger (, nr. ) is overgenomen.</note>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u20">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg29">Bij de motie op stuk nr. 583 van de heer Van Dam, ondersteund door een heel aantal andere partijen, komen we inderdaad op de balans. Ik heb in het debat aangegeven dat ik bereid ben om te onderzoeken of een verdergaande beperking in het aanbod van vuurwerk zinvol zou kunnen zijn. U zult daarover per brief geïnformeerd worden. Ik vind het wel belangrijk om aan te geven dat dan de winst aantoonbaar en onderbouwd een verschil moet maken. Vandaar dat we in diezelfde zoektocht eerst waren uitgekomen op het onderscheid F2-F3. Als je verder gaat zoeken naar een onderscheid, wil je wel een onderbouwd onderscheid hebben. Het tweede punt is dat het ook handhaafbaar moet zijn. Als ik de motie zo mag interpreteren dat mij gevraagd wordt om langs die twee lijnen — veiligheidswinst onderbouwd en ook handhaafbaar — te zoeken naar dat zinvolle onderscheid om het aanbod verder te beperken, dan ben ik daartoe bereid en kan ik onder die voorwaarde de motie overlaten aan het oordeel van de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg30">Datzelfde geldt dan eigenlijk ook voor de motie op stuk nr. 585. De heer Van der Staaij had het over andere typen vuurwerk, maar eigenlijk vraagt hij mij volgens mij precies hetzelfde.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u21">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg31">Ik kan leven met die appreciatie, waarvan ik veronderstel dat u de Kamer tijdig daarover gaat informeren.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u22">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg32">Uiteraard.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u23">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg33">Ik had net al even een een-tweetje met de heer Bisschop om te kijken of we wellicht wat in elkaar kunnen schuiven.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u24">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg34">Prima, maar dan heb ik over beide moties een oordeel gegeven. Dan begrijpen we elkaar goed. Ik kon me niet anders voorstellen dan dat ook de Kamer de handhaafbaarheid en onderbouwing van belang zou vinden. Fijn dat we elkaar op deze manier hebben gevonden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg35">Voorzitter. Dan twee moties van de heer Krol. De motie op stuk nr. 586 verzoekt de regering om samen met de vuurwerkbranche een scholingstraject te initiëren. Dat is echt aan de branche zelf, dus ik moet deze motie ontraden. Er is geen gebrek aan professionele vuurwerkafstekers voor de huidige vraag naar vuurwerkevenementen. Als er nieuwe vraag is, ontstaat er natuurlijk ook een reden om zo’n opleiding te doen. Overigens deel ik met de heer Krol dat die gemeentelijke vuurwerkshows prachtig zijn. Daarin vinden we elkaar dan wel.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg36">De motie op stuk nr. 587 verzoekt de regering om met een representatief aantal gemeenten een en ander te evalueren. Ik ontraad de motie, maar ik beloof de heer Krol wel dat we ook dit aspect waar mogelijk meenemen in de evaluatie van de jaarwisseling. We voeren al gesprekken met gemeenten. Ik denk dat we het niet apart moeten doen, maar we zouden ook dit aspect kunnen meenemen in de evaluatie.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg37">Dank u wel, voorzitter. Er is nog één motie. Die zal de minister van Justitie en Veiligheid beantwoorden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u25">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg38">Ja, maar nog even over de motie van de heer Wassenberg op stuk nr. 581. Aan de heer Wassenberg is gevraagd om de motie aan te houden. U heeft de tijd tot dinsdag. Maar mocht de motie niet worden aangehouden, dan zou ik graag willen weten wat het oordeel van de staatssecretaris is.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u26">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg39">Volgens mij knikte de heer Wassenberg net al dat hij wel bereid was om die motie aan te houden ... Nee? Dan vind ik het een overbodige motie en ontraad ik die, omdat ik al heb toegezegd dat ik dat zou doen en er ook mee bezig ben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u27">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg40">Ja. Dan is dat ook helder. U krijgt zo het woord, meneer Van Raak. De heer Wassenberg, op dit punt. Kort, graag.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u28">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg41">Ik heb toch een heel kleine nuance. De minister, toen nog staatssecretaris, heeft gezegd dat zij het RIVM ging vragen hoe het zit. Maar over een onderzoek heb ik toen nog echt niet gesproken.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u29">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg42">Maar een vraag aan het RIVM ... Het RIVM doet natuurlijk alles op basis van onderzoek, dus volgens mij krijgt de heer Wassenberg wat hij wil en heeft hij daar de motie niet voor nodig.</seg>
+            </u>
+            <u who="#RonaldvanRaak" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u30">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg43">Mijn motie, op stuk nr. 584, is een verzoek van de Kamer aan een stichting, dus er hoeft niet per se een appreciatie van de regering te komen.</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u31">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg44">Dan zijn we daar ook meteen uit, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u32">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg45">Dank u wel. Dan zijn we hiermee aan het einde gekomen van dit VAO.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.u33">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-8.seg46">Over de ingediende moties zullen we volgende week dinsdag stemmen.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

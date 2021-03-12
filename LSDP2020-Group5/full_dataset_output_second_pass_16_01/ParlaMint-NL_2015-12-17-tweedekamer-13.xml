@@ -1,0 +1,201 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-12-17 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-12-17 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 39, Session 13 (2015-12-17)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 39, Session 13 (2015-12-17)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="39">Meeting 39</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="13">Session 13</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="17">17 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="17">17 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="928">928 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="928">928 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-12-17">2015-12-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="22"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="17"/>
+               <tagUsage gi="note" occurs="62"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-12-17">2015-12-17</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Biotechnologie en kwekersrecht</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u1">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg1">Een hartelijk woord van welkom inmiddels ook aan de staatssecretaris van Economische Zaken, naast de staatssecretaris die al aanwezig was natuurlijk. Er hebben zich van de zijde van de Kamer vijf sprekers gemeld. De eerste spreker op mijn lijst is mevrouw Thieme van de fractie van de Partij voor de Dieren, maar ik begrijp dat zij vervangen wordt door de heer Wassenberg van dezelfde fractie. Hij heeft als alle overige sprekers twee minuten spreektijd.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u2">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg2">Voorzitter. Die twee minuten zal ik niet gebruiken. Ik heb een motie die ik graag wil indienen.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat voor genetische manipulatie van dieren het "nee, tenzij"-principe geldt en dat het genetisch manipuleren van dieren voor sport en vermaak verboden is;</note>
+               <note>constaterende dat tijdens een vergunningaanvraag voor een tentoonstelling met zebravisembryo's die geïnjecteerd zouden worden met genetisch gemanipuleerde blauwalgen bleek dat de ggo-regelgeving geen rekening houdt met tentoonstellingen;</note>
+               <note>constaterende dat er op dit moment geen verplichte ethische toetsing uitgevoerd hoeft te worden bij vergunningverlening voor tentoonstellingen met ggo's, terwijl een dergelijke toets wel uitgevoerd moet worden bij vergunningverlening onder de Wet dieren en de Wet op de dierproeven;</note>
+               <note>overwegende dat er in de maatschappij grote bezwaren leven tegen tentoonstellingen met levende dieren en dat het gebruik van genetisch gemanipuleerde organismen bij tentoonstellingen deze bezwaren versterkt;</note>
+               <note>verzoekt de regering, de ggo-regelgeving zodanig aan te passen dat ook bij het tentoonstellen van ggo's een ethische toets wordt vereist en dat het genetisch manipuleren van dieren voor tentoonstellingen wordt verboden,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-27428-319</note>
+            </u>
+            <note>Dan gaan we nu luisteren naar de heer Brouwer van de fractie van de Partij van de Arbeid. Het is de eerste keer dat hij hier staat, maar het is niet zijn officiële maidenspeech want dat doen we niet bij VAO's.</note>
+            <u who="#RicoBrouwer" ana="#regular" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u3">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg3">Voorzitter. De teelt van genetisch gemanipuleerde organismen, de zogenaamde ggo's, maakt een grote discussie los in de maatschappij. De PvdA is geen uitgesproken voorstander van ggo's zoals we in het debat hebben aangegeven. We zijn daarom blij dat Nederland zelf de mogelijkheid houdt om de teelt van ggo's te verbieden. We wachten inmiddels al ruim een halfjaar op het afwegingskader hiervoor. We zijn blij dat de staatssecretaris heeft aangegeven geen onomkeerbare stappen te zetten totdat dit afwegingskader beschikbaar is en dat hij daarom een geografische beperking heeft aangevraagd, die gelukkig is erkend door de ggo-producenten. Maar we zouden nu toch graag vernemen wanneer er een afwegingskader komt. Het is natuurlijk geen oplossing om die geografische beperkingen aan te blijven vragen zonder afwegingskader. We vragen de staatssecretaris dan ook of hij kan aangeven wanneer we nu echt dit afwegingskader kunnen verwachten en wanneer en op welke wijze de Kamer bij de opstelling hiervan betrokken wordt. Wij willen dit in ieder geval zo snel mogelijk regelen om te voorkomen dat ggo's meer kapotmaken dan ons lief is.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u4">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg4">Dank u wel. Dan hebt u alvast een beetje geoefend voor uw maidenspeech. Het woord is vervolgens aan de heer Jasper van Dijk van de fractie van de SP.</seg>
+            </u>
+            <u who="#JaspervanDijk" ana="#regular" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u5">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg5">Voorzitter. Ik heb vier moties.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het convenant co-existentie uit 2004 stamt, en daardoor niet de actuele stand van de wetenschap weergeeft;</note>
+               <note>overwegende dat bijvoorbeeld inzichten uit de praktijkproef maïs 2008 niet zijn meegewogen bij het convenant co-existentie;</note>
+               <note>verzoekt de regering, de co-existentieafspraken van het convenant in overleg met de partijen te updaten naar de stand der wetenschap,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>spreekt uit dat boeren in geen geval mogen opdraaien voor economische schade veroorzaakt door ongewenste gentechbesmetting van hun gewassen;</note>
+               <note>verzoekt de regering om dit te borgen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de regering Integrated Pest Management als uitgangspunt van beleid genomen heeft in de nota "Gezonde Groei, Duurzame Oogst; Tweede nota duurzame gewasbescherming";</note>
+               <note>verzoekt de regering, in haar afwegingskader gentech niet af te zetten tegenover reguliere landbouw, maar tegenover milieuvriendelijke landbouw, waarbij Integrated Pest Management het minimumniveau is en biologische landbouw het ideale kader,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering, de aangenomen motie op stuk 27428, nr. 275 over een labelingplicht voor cisgenese vóór eind januari onder de aandacht te brengen bij de Europese Commissie alsmede in de eerstvolgende Landbouwraad en Milieuraad;</note>
+               <note>verzoekt de regering voorts, de Kamer hierover te informeren,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-27428-320</note>
+               <note>Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-27428-321</note>
+               <note>Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-27428-322</note>
+               <note>Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-27428-323</note>
+            </u>
+            <u who="#RikGrashoff" ana="#regular" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u6">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg6">Voorzitter. Ik heb één motie. Tegen de staatssecretaris zeg ik erbij dat een heel heldere toezegging voor mij reden kan zijn om haar weer in te trekken.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat het kabinet momenteel werkt aan een nationaal afwegingskader voor toelatingen van teelt van ggo's;</note>
+               <note>overwegende dat het kabinet in zijn brief van 18 juni jl. aan de Kamer stelt dat het tot de conclusie komt dat geanalyseerde elementen als keuzevrijheid, co-existentie en gebruik van gewasbeschermingsmiddelen geen juridisch houdbare grond zijn om in Nederland de teelt van de betreffende gg-gewassen wettelijk te beperken of te verbieden;</note>
+               <note>overwegende dat deze conclusie in contrast lijkt te staan met de ambitie tot het opstellen van een afwegingskader waarin elementen zoals middelengebruik, maatschappelijke weerstand, co-existentie en invloed op de andere nationale wet- en regelgeving, zoals de Kaderrichtlijn Water, ter bespreking worden meegenomen;</note>
+               <note>van mening dat de Kamer de conclusie van het kabinet op dit moment niet kan valideren;</note>
+               <note>verzoekt de regering om voor de behandeling van het afwegingskader de Kamer uitgebreid en volledig te informeren over de juridische mogelijkheden en onmogelijkheden van het beperken en/of verbieden van gentechgewassen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Grashoff. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-27428-324</note>
+            </u>
+            <note>Dank u wel. Mevrouw Lodders spreekt niet? Dan zijn wij er meteen doorheen van de zijde van de Kamer. Ik schors de vergadering voor vijf minuten zodat de beide bewindspersonen even naar de moties kunnen kijken.</note>
+            <note>De vergadering wordt van 13.34 uur tot 13.42 uur geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u7">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg7">Het woord is aan de staatssecretaris van Economische Zaken.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u8">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg8">Er zijn zes moties ingediend en er is één vraag gesteld. Laat ik beginnen met de vraag van de heer Brouwer wanneer het afwegingskader naar de Kamer komt. Begin 2016 krijgt de Kamer het concept. Ik heb al in een eerder debat gezegd dat we het begin 2016 druk krijgen met elkaar, want er komt dan heel veel naar de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg9">In de motie van de heer Wassenberg op stuk nr. 319 wordt de regering verzocht, de ggo-regelgeving zodanig aan te passen dat ook bij het tentoonstellen van ggo's een ethische toets wordt vereist. Dat is al het geval, want voor elke tentoonstelling van ggo is een ethische toets vereist. Het tweede deel van het verzoek is dat het genetisch modificeren van dieren voor tentoonstellingen wordt verboden. Er is al een expliciet verbod voor genetische manipulatie van dieren ten behoeve van sport of vermaak. Als een tentoonstelling vermaak tot doel heeft, is het verbod dus al expliciet. Als een tentoonstelling een ander doel heeft, is er dus al een ethische toets nodig om toestemming te kunnen krijgen om genetisch te manipuleren. Daarmee vind ik deze motie overbodig.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u9">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg10">En dus?</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u10">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg11">Ik ontraad de Kamer altijd om overbodige moties aan te nemen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u11">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg12">Heel goed. Dat woord wilde ik even horen.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u12">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg13">De motie op stuk nr. 320 van Jasper van Dijk verzoekt de regering, de co-existentieafspraken van het convenant in overleg met de partijen te updaten naar de stand der wetenschap. Dat is ondersteuning van het beleid en is dus eveneens een overbodige motie.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u13">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg14">En dus ontraden.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u14">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg15">En dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg16">De derde motie van de heer Van Dijk, op stuk nr. 321, spreekt uit dat boeren in geen geval mogen opdraaien voor economische schade, veroorzaakt door ongewenste gentechbesmetting van hun gewassen en verzoekt de regering, dit te borgen. Dat is al voorzien via het co-existentiebeleid en afspraken over monitoring van vermenging. Daarmee is ook deze motie overbodig, die ik dan ook ontraad.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg17">De motie op stuk nr. 322 verzoekt de regering, het afwegingskader gentech niet af te zetten tegen reguliere landbouw en integrated pest management mee te nemen. Ook die motie is overbodig, want al dit soort vragen nemen we mee in het afwegingskader. Dus ook die motie is overbodig, die ik dus ook moet ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg18">De motie op stuk nr. 323 verzoekt de regering, de aangenomen motie 27428, nr. 275 over een labelingsplicht voor cisgenese vóór eind januari onder de aandacht te brengen van de Europese Commissie, alsmede in de eerstvolgende Landbouwraad en de Milieuraad. Dat doen wij sowieso, of de Kamer hier nu een uitspraak over doet of niet. Dat waren wij toch al van plan, dus eigenlijk is dit een overbodige motie, maar laat ik eens coulant zijn. Als de Kamer hierover een motie wil aannemen, laat ik dat aan het oordeel van de Kamer. Maar we doen dit sowieso.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg19">In de motie op stuk nr. 324 vraagt de heer Grashoff eigenlijk aan de regering om de Kamer vóór de behandeling van het afwegingskader uitgebreid en volledig te informeren over de juridische mogelijkheden en onmogelijkheden van het beperken en/of verbieden van gentechgewassen. Dat zeg ik graag toe. Dat is volgens mij de vraag die achter deze motie van de heer Grashoff besloten lag.</seg>
+            </u>
+            <u who="#RikGrashoff" ana="#regular" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u15">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg20">Met deze toezegging trek ik mijn motie in.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u16">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg21">Aangezien de motie-Grashoff (, nr. ) is ingetrokken, maakt zij geen onderwerp van beraadslaging meer uit. </seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.u17">
+               <seg xml:id="ParlaMint-NL_2015-12-17-tweedekamer-13.seg22">Dat gaat lekker snel, mijnheer de staatssecretaris. Wij moeten u hier vaker hebben! U komt straks nog een keer terug — goed dat u dat even zegt — bij het VAO Huiselijk geweld en dierenwelzijn.</seg>
+            </u>
+            <note>De vergadering wordt van 13.46 uur tot 14.27 uur geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

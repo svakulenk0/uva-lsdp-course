@@ -1,0 +1,161 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2017-06-20 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2017-06-20 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 89, Session 3 (2017-06-20)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 89, Session 3 (2017-06-20)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="89">Meeting 89</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="22">22 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="22">22 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1989">1989 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1989">1989 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2017-06-20">2017-06-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="31"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="22"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2017-06-20">2017-06-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Kuiken</note>
+            <note>(Onrust op de publieke tribune.)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg1">Nee, nee … Ik schors de vergadering voor enkele ogenblikken.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg2">We gaan verder met het mondelinge vragenuur. Volgens mij hebben we genoeg plekken waar gedemonstreerd kan worden. Dus uit respect voor andere mensen die dit debat volgen en op de publieke tribune zitten om te vernemen wat er in de Kamer speelt, zou ik zeggen: het is prima om te demonstreren, maar dat kan ook op het Plein.</seg>
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg3">Het woord is aan mevrouw Kuiken.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg4">Voorzitter. Je kind wordt vermist. Dat lijkt me een van de ergste dingen die je als ouder kan overkomen. En dan hoop je natuurlijk dat de politie alles in het werk stelt om jou te helpen om dat kind weer te vinden. Dat is precies waarom we hier in de Kamer al een aantal jaren aandacht hebben gevraagd voor het op orde brengen van de expertise bij en de capaciteit van de politie. Rond 2011 zijn daar door voormalig minister Opstelten ook heel harde beloften over gedaan. Er moest voldoende capaciteit en voldoende expertise aanwezig zijn om in die eerste kritieke minuten, uren van een vermissing, op het moment dat het signaal er is dat er iets meer aan de hand is dan een tijdelijke vermissing of een weggelopen kind, snel te handelen. Nu blijkt dat dit niet het geval is. De nationale politie erkent dat ook zelf in reactie op schriftelijke vragen van RTL. Dat kan dus eigenlijk niet waar zijn!</seg>
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg5">Mijn eerste vraag aan de minister luidt dan ook: herkent de minister zich in dit RTL Nieuwsitem? Herkent de minister zich in de antwoorden van de nationale politie? Zijn deze antwoorden ook met hem afgestemd? Een andere belangrijke vraag is natuurlijk: wat gaat de minister hieraan doen? Hoe gaan we ervoor zorgen dat er voldoende capaciteit en vooral ook voldoende expertise 24 uur per dag beschikbaar is? In geval van nood telt in dit geval immers elke minuut.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg6">Voorzitter. Mevrouw Kuiken verwijst naar het artikel van RTL Nieuws, dat is gebaseerd op antwoorden op vragen die gesteld zijn aan de nationale politie over de opsporing van vermiste personen. Net als mevrouw Kuiken schrok ik wel toen ik die antwoorden onder ogen kreeg, omdat daar het beeld uit komt van ziekteverzuim en procedures die nog niet lopen zoals ze zouden moeten lopen. Met mevrouw Kuiken ben ik van mening dat het van groot belang is dat, wanneer er sprake is van een vermissing, snel bekeken wordt welke actie vereist is. Landelijk krijgt de politie zo'n 40.000 meldingen van vermissing per jaar. Er moet dan dus ook snel beoordeeld worden welke actie noodzakelijk is en wanneer de zwaarste middelen, bijvoorbeeld een AMBER Alert, ingezet moeten worden. Zo'n afweging vindt eerst per politieregio plaats. Er zijn tien politieregio's. Elke politieregio heeft een specialist vermissingen. Die schakelt vervolgens met dat landelijke bureau waar mevrouw Kuiken naar verwijst.</seg>
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg7">Ik heb van de korpschef begrepen dat ook hij naar aanleiding van deze berichten vindt dat we nog eens goed moeten kijken naar de bemensing van het meldpunt vermiste personen en dat we, waar er reden is tot zorg, ook snel maatregelen moeten nemen. Ik ben van plan om dat zo snel mogelijk in gang te zetten en zal de Kamer hoogstwaarschijnlijk kort na de zomer informeren over de stappen die naar aanleiding van deze berichten gezet worden.</seg>
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg8">Nogmaals, ik vind echt dat wanneer er sprake van vermiste personen en daar ernstige zorgen over bestaan, maatregelen op tijd genomen moeten kunnen worden en dat de organisatie daarvoor op orde moet zijn.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg9">Ik bedank de minister voor deze toezegging. Ik noteer dat het niet alleen gaat om het opvangen van de capaciteit, die nu ook is weggevallen als gevolg van ziekte, maar ook en vooral om het nadrukkelijke verzoek om daar expertise neer te leggen. Er zijn in Nederland maar heel weinig mensen die überhaupt de expertise hebben om een en ander goed in te kunnen schatten wanneer er sprake is van een urgente vermissing. Ik zou graag nog wat nadere duiding willen hebben over de manier waarop de minister denkt, juist die expertise op te vullen.</seg>
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg10">Ik had nog een vraag aan de minister. Wordt ook geregistreerd in hoeveel gevallen achteraf een verkeerde inschatting is gemaakt? Nogmaals, bij de politie werken mensen en mensen kunnen fouten maken. Wordt echter achteraf geregistreerd wanneer een verkeerde inschatting is gemaakt en wordt die ook geëvalueerd? Ik maak een vergelijking met een ziekenhuis of een huisartsenpost. Als zich daar incidenten voordoen waardoor bijvoorbeeld iemand komt te overlijden terwijl de indicatie er niet was, wordt dat geëvalueerd. Gebeurt dit op dezelfde manier bij het Landelijk Bureau Vermiste Personen? Dat lijkt me wel cruciaal.</seg>
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg11">Ik vraag nog iets aan de minister. Het is goed dat er nu een toezegging ligt over de expertise en de capaciteit, maar is het ook niet belangrijk om onafhankelijk te onderzoeken hoe het bureau functioneert en wat feitelijk nodig is om dit met voldoende capaciteit en expertise te bemensen?</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg12">Mevrouw Kuiken vraagt allereerst naar de expertise. De reden voor het hebben van tien regionale experts en een landelijk bureau is inderdaad dat het goed kunnen beoordelen en gevolg geven aan meldingen van vermissingen expertise vraagt. Ik gaf al aan dat er zo'n 40.000 meldingen per jaar zijn. Die variëren van balorige pubers tot heel ernstige meldingen. Het vraagt dus deskundigheid en professionaliteit om daaraan een juist gevolg te geven. Je moet er namelijk niet aan denken dat je 40.000 AMBER Alerts per jaar gaat uitsturen. Dan verliest zo'n middel ook zijn kracht.</seg>
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg13">Onderdeel van het waarborgen van kwaliteit is een follow-up geven aan de meldingen. Een van de dingen waar ik benieuwd naar ben — daar zal ik in de brief die ik net beloofde, op ingaan — is de wijze waarop die kwaliteitsmeting plaatsvindt. Ik zou nu niet op grond van dit bericht dat in een extern onderzoek laten doen. Dat zou een beetje een motie van wantrouwen naar de politie zijn. Het signaal is ernstig. De korpschef heeft met mijn volle steun aangegeven, het nu op te pikken. Ik zal de Kamer daarover berichten. Ik vind dat dit nu eerst in de eigen organisatie van de juiste antwoorden moet worden voorzien.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg14">Het is goed dat de minister toezegt de kwaliteitsmeting daaraan toe te voegen. Mij bereiken ook signalen dat er weinig vertrouwen is van de korpsen zelf in het Landelijk Bureau Vermiste Personen. Dat maakt dus ook dat de afstemming tussen die twee instituties niet goed gaat. Ik wil dus ook graag dat de minister dit meeneemt in zijn kwaliteitsmeting, om te borgen dat het goed gaat.</seg>
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg15">Ik rond af. Wij hebben samen met de collega van D66 vragen gesteld. Hij zal vast nog wat specifieke vragen stellen. Het is goed dat er nu een toezegging ligt, het is goed dat die brief vlak na de zomer komt. Dan kunnen wij beoordelen of dat onafhankelijke onderzoek nodig is, maar wij kunnen niet op de oude voet blijven doorgaan. Wij zijn nu vijf jaar verder. De zaak is té belangrijk. Vermiste kinderen, het zal je eigen kind maar zijn. Dus laten wij dit nu echt serieus oppakken.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg16">Het bericht over de interne communicatie was mij niet bekend, maar het is logisch om dat punt mee te nemen nu wij sowieso kijken naar de werkwijze van het bureau en van de regionale specialisten.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg17">Ik vind het antwoord van de minister dat hij hier iets aan wil doen, heel verheugend. Ik ben echter ook een beetje verbaasd dat het lijkt alsof hij hier nog niets van wist, totdat RTL erover rapporteerde. Daardoor heb ik wel de vraag hoe het komt dat de politie al wel wist dat hier een tekort was en daarover nog niet met de minister in gesprek is gegaan. Hoe duidt de minister dit?</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg18">Staatsrechtelijk is het niet van belang of een ambtenaar iets wel of niet aan de minister vertelt. Alles wat onder de verantwoordelijkheid van de minister wordt gedaan, gezegd of geschreven, valt onder diens staatsrechtelijke verantwoordelijkheid. Op het moment dat een bericht mij bereikt, beslis ik of ik maatregelen wil nemen. In dit geval is dat zo.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg19">Dit is de tweede aanvullende vraag, mevrouw Buitenweg.</seg>
+            </u>
+            <u who="#KathalijneBuitenweg" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg20">Dat klopt, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg21">Het roept nog niet heel veel vertrouwen op dat er dus blijkbaar onvoldoende kennis aanwezig is om zelf te beoordelen of een bureau dat zo belangrijk is bij vermissingen van kinderen, de juiste menskracht heeft om goed te functioneren. Mijn vraag aan de minister is hoeveel menskracht er volgens hem nodig is om dit bureau echt al zijn taken te kunnen laten doen. Ik heb het dan niet alleen over de acute vermissingen, maar ook over het maken van profielen en over het leren van wat er bij andere vermissingen is gebeurd. Dus hoeveel menskracht is er volgens hem nodig?</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg22">Dat zou nou onzorgvuldig zijn, om nu ter plekke te gaan raden — want dat wordt het — hoeveel menskracht er nodig is. We constateren net met elkaar dat er een signaal naar buiten komt vanuit een belangrijke organisatie. Ik geef met de korpschef aan dat dat signaal zo ernstig is dat we onderzoeken wat daar precies speelt. Vervolgens rapporteren we aan de Kamer welke maatregelen we nemen. Daarbij hoort natuurlijk de vraag van mevrouw Buitenweg, maar het zou echt onzorgvuldig zijn om die nu te beantwoorden.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg23">Mijn vraag is een beetje in aansluiting op de vraag van mevrouw Buitenweg, die ik toch wel urgent vind over dit onderwerp. In mei 2016 heeft de CDA-fractie vragen gesteld over wetgeving om het uitpeilen van telefoons van vermiste kinderen mogelijk te maken, zonder dat er sprake is van verdenking van een strafbaar feit. Wij zouden bijzonder graag horen hoe het daarmee staat. Het is een verwant onderwerp, dat wij zeer belangrijk vinden.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg24">Dat is een logische vraag. Op korte termijn geef ik het wetsvoorstel bijzondere zoekmiddelen urgent vermiste personen in consultatie. Die wet heeft als doel om het mogelijk te maken dat bepaalde opsporingsmiddelen ook kunnen worden ingezet bij urgente vermissingen, bijvoorbeeld het peilen waar een telefoon is geweest of waar pinbetalingen zijn gedaan. Deze bevoegdheden zijn nu nog voorbehouden aan het strafrecht, bij de vervolging van zware misdrijven. Het feit dat het wetsvoorstel binnenkort in consultatie gaat, betekent dat ik hoop dat het na de zomer ook naar de Kamer kan.</seg>
+            </u>
+            <u who="#MaartenGroothuizen" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg25">Ik dank de minister voor de nadere toezegging. Ik ben blij om te merken dat ook hij zich zorgen maakt over de berichtgeving. Eén element is wat mij betreft nog wat onderbelicht gebleven, namelijk de kwaliteit van de meldingen die vanuit de regionale politie worden gedaan bij het landelijke bureau. Ik lees in het onderzoek van RTL dat ook daarover zorgen zijn, dat het soms weinig concreet is en dat informatie ontbreekt. Kan de minister aangeven of hij die zorg deelt en of hij dit punt ook zal meenemen in zijn naspeuringen naar wat beter kan?</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg26">Ook dat deel viel mij op. De instructie is om de meldingen aan het centrale bureau zo veel mogelijk mondeling te doen. De toets of de melding zeer zorgelijk is, vereist namelijk over het algemeen een toelichting. Ik begrijp uit het nieuwsbericht van RTL dat dit vaak per e-mail zou gebeuren. Dat deel van de werkwijze — ik kom dan ook op het onderdeel kwaliteit waarnaar mevrouw Kuiken begrijpelijkerwijs vroeg — is wat mij betreft ook onderdeel van het onderzoek. Zoals gezegd kom ik daar kort na de zomer op terug.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg27">Ik vind het heel goed dat die brief er komt. Ik heb nog wel een aantal specifieke, wat technische vragen. Het verzoek is dus of we via de commissie nog een aantal vragen kunnen doorgeven …</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg28">Dat is aan u, hè?</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg29">Ja, dat weet ik. Ik vraag de minister om begrip daarvoor, opdat deze vragen kunnen worden meegenomen in de brief die vlak na de zomer komt.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg30">Ja. Als ik die vragen zo snel mogelijk kan ontvangen, kunnen we er zo snel mogelijk mee aan de slag.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2017-06-20-tweedekamer-3.seg31">Dank u wel. Dan gaan we nu naar de heer Omtzigt namens het CDA.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,136 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-11-15 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-11-15 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 22, Session 4 (2016-11-15)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 22, Session 4 (2016-11-15)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="22">Meeting 22</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="15">15 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="15">15 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1982">1982 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1982">1982 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-11-15">2016-11-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="21"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="15"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-11-15">2016-11-15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen De Caluwé</note>
+            <u who="#IngriddeCaluwé" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg1">Voorzitter. In Het Financieele Dagblad van afgelopen zaterdag stond het bericht dat banken het online-identificatiemiddel iDIN breed gaan uitrollen in de private sector. Daar is niks mis mee en dat is ook niet het issue. Echter, als u en ik als consument deze dienst aanvragen, dan kunnen wij daarmee niet alleen op onze favoriete kledingsite inloggen, maar ook bij de Belastingdienst en bij verzekeringsmaatschappijen. En daar wringt de schoen.</seg>
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg2">Er moet een opvolger komen voor DigiD. Er zijn pilots gedraaid met verschillende middelen, waaronder iDIN, maar de toelatingseisen voor die nieuwe middelen zijn nog niet klaar en het toezicht is ook nog niet geregeld. Daarom is de pilotperiode verlengd tot eind volgend jaar met een maximumaantal uitgegeven inlogmiddelen, totdat alle voorwaarden duidelijk zijn en alle inlogmiddelen aan die voorwaarden zijn getoetst.</seg>
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg3">De Kamer wil dat veiligheid, betrouwbaarheid en privacy voor alle Nederlanders zijn gegarandeerd voordat wij allemaal massaal gaan inloggen bij de overheid. Voor alle duidelijkheid, de VVD wil ook graag haast maken met een goed digitaal paspoort, maar het moet wel zorgvuldig en veilig.</seg>
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg4">Iedereen met een iDIN-inlogmiddel kan meteen inloggen bij de overheid. Zo staat het in het persbericht van Betaalvereniging Nederland. En daarmee gaan op korte termijn potentieel honderdduizenden Nederlanders met hun iDIN bij de overheid inloggen. Mijn simpele vraag aan de minister is: hoe gaat de minister voorkomen dat massaal bij de overheid wordt ingelogd, terwijl de randvoorwaarden nog niet gereed zijn en er nog geen toets op heeft kunnen plaatsvinden? Of: hoe gaat de minister het proces van de overheid versnellen? Dat zou natuurlijk nog mooier zijn.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg5">Voorzitter. De vraag heeft betrekking op een middel dat door de banken in het private domein is aangewend, het zogenaamde iDIN-middel. Daarvoor zijn wij natuurlijk vanuit de publieke sector niet verantwoordelijk. Wij zijn een set van publieke middelen aan het ontwikkelen — daar hebben wij ook regelmatig in debat over gesproken — voor toegang tot wat we noemen "het bsn-domein", het domein van het burgerservicenummer. Voor de kijkers thuis: daaronder vallen de studiefinanciering, de Belastingdienst, het UWV, de zorg, het lokale bestuur, de gemeente. Dat is dus een heel grote sector met miljoenen interacties per jaar. Daarvoor hebben wij een aantal pilots gedaan, maar in die pilots zaten ook private middelen. Een van die pilots betrof inderdaad het iDIN-middel, waarmee op beperkte schaal ingelogd kan worden bij de Belastingdienst.</seg>
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg6">Het meest recente getal dat ik heb is dat er tot dusver, in het kader van die pilot, 2.090 mensen dat gedaan hebben. Dat moet u zien in verhouding tot het totale aantal interacties met DigiD bij de Belastingdienst, dat 12 miljoen is. Die 2.090 zijn dus maar een heel klein aantal ten opzichte van het totale aantal interacties. Dat aantal zou overigens kunnen groeien in het kader van deze pilot. De Belastingdienst en de banken hebben afgesproken om het in het kader van de nu lopende pilot te beperken tot 30.000. Het is dus een kleinschalige pilot. Verder zal ik nog voor het eind van dit jaar komen met een uniforme set van eisen, die ook de basis zal vormen voor de nog in te dienen Wet op de generieke digitale infrastructuur. Dat wetsvoorstel zal nadere kaders stellen voor alle middelen die in het publieke domein, dus bijvoorbeeld bij de Belastingdienst, gebruikt kunnen worden. Dan is de Kamer uiteraard volledig in beeld om te bezien of zij het daarmee eens is.</seg>
+            </u>
+            <u who="#IngriddeCaluwé" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg7">Dank. De minister schetst een heel breed scala aan allerlei organisaties van de overheid waar je kunt inloggen, het UWV, verzekeringen, Belastingdienst en dergelijke. Hij zegt ook dat er bij de Belastingdienst vorig jaar 2.090 mensen hebben ingelogd. Dat klopt. Belastingaangifte kun je doen vanaf eind februari of begin maart, maar begin maart waren nog maar twee banken al met iDIN begonnen. Dat is daarna verder uitgerold, in mei en juni, maar toen moest de belastingaangifte al gedaan zijn. Ik heb zelf gewacht. Ik dacht: ik ga bij mijn ABN AMRO inloggen, maar iDIN kwam bij ABN AMRO pas ergens in mei beschikbaar. Toen moest ik mijn aangifte al gedaan hebben. Het is dus heel goed verklaarbaar waarom het er maar 2.090 mensen waren. De minister zegt het te willen beperken tot 30.000, maar als je kijkt naar de hele scala aan overheidsdiensten waarbij je kunt inloggen en naar de brede scala aan faciliteiten of inlogmiddelen die de banken nu willen uitgeven, dan kom je vrij gemakkelijk aan die 30.000 als er in 2017 van begin af aan ingelogd kan worden bij de Belastingdienst.</seg>
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg8">De mogelijkheid bestaat dus wel degelijk dat men ver boven die 30.000 uit zal komen. Dat zou zomaar 100.000 of 200.000 kunnen zijn en dan vraag ik mij toch echt af of dat de bedoeling is, voor een middel dat nog niet getoetst is. Het zal ongetwijfeld goed zijn, maar het is nog niets getoetst, de randvoorwaarden zijn nog niet gereed, de governance is nog niet gereed. Terwijl wij wel vanuit de Kamer hebben gezegd: we willen middelen eerst toetsen, voordat ze uitgerold worden.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg9">Laat ik allereerst terugkomen op wat mevrouw De Caluwé in haar eerste bijdrage zei. Ze drong aan op spoed. Dat is ook de reden dat we aan de pilot zijn begonnen en dat we onderwijl die uniforme set van eisen aan het voorbereiden zijn. We zijn ook aan het bespreken, bijvoorbeeld met de banken, of zij op het punt van fraudebestrijding en privacy ervoor kunnen zorgen dat hun iDIN-middel aan alle eisen voldoet, waaraan het moet voldoen, als wij het eventueel in de toekomst willen gebruiken in het publieke domein. Dat overleg loopt en ik zal daar in de uniforme set van eisen op terugkomen. Die set wordt natuurlijk onderdeel van de Wet generieke digitale infrastructuur die door de Kamer zal worden behandeld en die nog dit jaar in consultatie zal worden gegeven.</seg>
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg10">Ik probeer dat te doen in lijn met de wens van de VVD, namelijk aan de ene kant haast maken of vaart maken met deze kwestie, maar aan de andere kant ook ervoor zorgen dat er een door de Kamer mede vastgestelde set van eisen is of een nieuw beoordeelde set van eisen, op basis waarvan het kan. Ten slotte: dat er ook private partijen actief zijn, zal de VVD vermoedelijk niet bezwaarlijk vinden.</seg>
+            </u>
+            <u who="#IngriddeCaluwé" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg11">Dat er private partijen betrokken zijn, is niet het issue. We hebben gezegd: doe maar pilots en ga tegelijkertijd die randvoorwaarden opstellen. Daar heeft de minister gelijk in. We hebben echter ook gezegd dat verdere uitrol boven die 30.000 absoluut niet kan voordat die middelen getoetst zijn aan de randvoorwaarden. Hier wringt de schoen. De randvoorwaarden zijn er nog niet. Als die er zijn, moeten de middelen daaraan getoetst worden. In de tussentijd worden er meer middelen gebruikt voor inloggen bij de Belastingdienst. Dat is nu precies waar de schoen wringt. Er kunnen veel meer inloggen plaatsvinden dan mag in de pilotperiode.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg12">Ik heb daar eigenlijk het antwoord al op gegeven. Dat aantal is in de afspraak tussen de Belastingdienst en de banken beperkt tot 30.000. Dat geeft op dit moment nog ruimte, omdat het aantal pas 2.090 is. De komende weken kunnen er nog wat meer mensen gebruik van maken. Dan staat die afspraak, totdat — de Kamer kijkt daarbij mee — eventueel is vastgesteld dat men aan de eisen voldoet, waardoor er een groter aantal kan worden toegelaten.</seg>
+            </u>
+            <u who="#AstridOosenbrug" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg13">Ik ga niet het hele debat overdoen dat we al eerder hebben gevoerd. Een belangrijk punt in het debat is privacy en dataverzameling. Nu gaat de bank contact zoeken met de Belastingdienst, maar diezelfde bank gaat ook het middel verstrekken waarmee ik alles online ga kopen. Wat betekent dit nu voor onze privacy? Dat is een heel grote vraag, maar die ga ik even heel klein maken: wat gebeurt er met die data? Zijn de voorwaarden daarvoor wel al duidelijk? Worden ze op tijd vernietigd en niet doorverkocht, zoals bijvoorbeeld een jaar geleden het plan van de ING was?</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg14">Voordat er sprake is van een bredere toelating tot het publieke domein, moeten er nog aanvullende eisen van privacy en fraudebestrijding worden ingevuld. Dat moet gebeuren voordat men onder die termen kan vallen. Het gaat nu om een zeer beperkte pilot, namelijk, zoals ik zojuist al zei, 2.000 gevallen op de 12 miljoen. Dat is echt alleen nog maar even uitproberen. Voordat het verder gaat, moet aan die eisen worden voldaan. Daarover loopt het gesprek nog.</seg>
+            </u>
+            <u who="#FatmaKoşerKaya" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg15">We kunnen nog heel lang op de wetgeving wachten. Die spelregels moeten nog naar de Kamer komen. Het punt is echter dat er nu wel geëxperimenteerd wordt en dat de experimenteerruimte wordt vergroot. Je moet dus nu heel helder hebben welke spelregels hier een rol spelen waar het gaat om privacy en veiligheid. Ik wil van de minister weten welke spelregels nu afgesproken zijn aan de voorkant met de banken, met de private sector, om te voorkomen dat de privacy en de veiligheid straks te grabbel worden gegooid.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg16">Dat is onderwerp van een brief die 25 augustus aan de Kamer heb gestuurd en ook van een AO dat we hebben gehad met een aantal partijen. Het zou kunnen dat niet alle partijen daar aanwezig waren. In het AO op 29 september is nader gesproken over dit onderwerp. Ik heb zojuist al gezegd dat voordat een privaat middel, dat op zichzelf overigens naar mijn indruk een prima middel zal blijken te zijn, algemeen toegelaten kan worden om te gebruiken in de zorg, bij de studiefinanciering of in algemene zin, men aan nadere eisen van vertrouwelijkheid en fraudebestendigheid zal moeten voldoen. Het overleg daarover loopt nog. De uniforme set van eisen gaat, zoals met de Kamer is afgesproken, voor het eind van het jaar naar de Kamer en zal de basis zijn voor een dan in consultatie te geven wetsvoorstel.</seg>
+            </u>
+            <u who="#FatmaKoşerKaya" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg17">Dat was mijn vraag niet. Dat die set aan regels en de wetgeving nog naar de Kamer komen, weet ik. Nu wordt de pilot opgerekt en er gaat een middel gebruikt worden door misschien wel meer dan 30.000 mensen. Ik wil weten wat er met de private sector voor dit onderdeel aan afspraken is gemaakt om te voorkomen dat de veiligheid en de privacy van de mensen in het geding komen.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg18">Dat is niet juist. De pilot wordt niet opgerekt. De pilot valt binnen de grenzen zoals die met de Kamer zijn besproken. Daarover is zowel schriftelijk als mondeling uitgebreid overleg geweest met de Kamer. Ik heb al gezegd dat er aanvullende eisen voor privacy en fraudebestendigheid moeten worden ingevuld voordat een middel breder kan worden uitgerold.</seg>
+            </u>
+            <u who="#MustafaAmhaouch" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg19">Voorzitter. Het is goed om te zien dat de minister in de versnelling komt nu we het eind van het jaar naderen, zeker op dit thema. De EID laat nog op zich wachten en je ziet dat het bedrijfsleven grote stappen zet met iDIN. Dat waarderen we van de minister, maar het CDA stelt wel de vraag of de minister in control is als het om deze pilot gaat. Wordt hij niet door het bedrijfsleven ingehaald? Als de minister kan garanderen dat hij in control is, dan steunen wij hem wat deze pilot betreft.</seg>
+            </u>
+            <u who="#RonaldPlasterk" ana="#regular" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg20">Ja, ik ben in control. Er lopen verschillende pilots naast elkaar. Ten aanzien van de private pilot van de banken en hun klanten ben ik natuurlijk niet in control, en dat moet ook niet, want dat is een privaat instrument. Over het toelaten daarvan op zeer beperkte schaal bij de Belastingdienst zijn afspraken gemaakt. Die zijn voldoende voor de kleinschalige pilot die nu loopt. Als men deze pilot wil verbreden of zodanig wil inrichten dat men met een login van de bank in het bsn-domein uit de voeten kan, dan moet daar een wettelijke grondslag voor komen en moet ook worden voldaan aan een aanvullende set van eisen. Daarover zal ik de Kamer nog informeren. Het korte antwoord is: ja.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2016-11-15-tweedekamer-4.seg21">Dank u wel. Hiermee zijn wij gekomen aan het einde van het mondelinge vragenuur. Na de schorsing gaan wij stemmen.</seg>
+            </u>
+            <note>De vergadering wordt van 14.54 uur tot 15.01 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,105 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-09-30 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-09-30 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 8, Session 7 (2020-09-30)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 8, Session 7 (2020-09-30)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="8">Meeting 8</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="2">2 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="2">2 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="28">28 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="28">28 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-09-30">2020-09-30</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="2"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="2"/>
+               <tagUsage gi="note" occurs="16"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-09-30">2020-09-30</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.seg1">We hebben een korte regeling van werkzaamheden.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <note>Afstand houden, meneer Baudet en meneer Omtzigt!</note>
+            <note>Ik ga nu naar de regeling van werkzaamheden.</note>
+            <note>Ik stel voor toe te voegen aan de agenda:</note>
+            <note xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.seq7">het VAO Dierenwelzijn buiten de veehouderij, met als eerste spreker de heer Wassenberg van de Partij voor de Dieren;</note>
+            <note xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.seq8">het Voorstel van wet van de leden Snels en Van Weyenberg tot wijziging van het voorstel van wet van de leden Snels en Van Weyenberg houdende regels over de toegankelijkheid van informatie van publiek belang (Wet open overheid) (Wijzigingswet Woo) (35112).</note>
+            <note>Ik stel voor dinsdag 6 oktober aanstaande ook te stemmen over:</note>
+            <note xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.seq10">de ingediende moties bij de notaoverleggen over de Ruslandstrategie en de initiatiefnota Samen de Baas.</note>
+            <note>Op verzoek van de fracties van de VVD en GroenLinks heb ik de volgende benoemingen in commissies gedaan:</note>
+            <note xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.seq12">in de OVSE-Assemblee het lid Bosman tot lid in de bestaande vacature;</note>
+            <note xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.seq13">in de vaste commissie voor Economische Zaken en Koninkrijksrelaties het lid Van den Nieuwenhuijzen tot plaatsvervangend lid in plaats van het lid Kröger;</note>
+            <note xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.seq14">in de vaste commissie voor Financiën het lid Smeulders tot lid in plaats van het lid Van der Lee, het lid Van der Lee tot plaatsvervangend lid in plaats van het lid Smeulders en het lid Bromet tot plaatsvervangend lid in plaats van het lid Renkema;</note>
+            <note xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.seq15">in de vaste commissie voor Volksgezondheid, Welzijn en Sport het lid Kröger tot plaatsvervangend lid in plaats van het lid Van den Berge.</note>
+            <note>Op verzoek van een aantal leden stel ik voor de volgende door hen ingediende moties opnieuw aan te houden: 19637-2626; 34346-3; 34298-9; 34775-XIII-109; 32813-366.</note>
+            <note>Ik stel voor de volgende stukken van de stand van werkzaamheden af te voeren: 35420-94; 35420-95; 35420-103; 35420-86; 30012-128; 28286-1120; 25295-511; 25295-501; 25295-507; 31016-293; 25295-502; 25295-504; 25295-510; 25295-457; 25295-506; 21501-20-1575; 21501-20-1576; 33529-799; 32849-204; 29684-207; 33529-800; 33529-797; 21501-34-344; 31289-425; 35300-VIII-185; 30012-129; 28760-102; 32820-377; 21501-04-233; 31289-426; 19637-2652; 35468-43; 29689-1076; 32793-490; 35300-XVI-170; 29477-661; 33542-44; 29911-284; 29279-605; 29279-606; 29279-604; 29628-964; 29279-602; 29279-599; 33258-47; 31066-693; 29279-595; 27565-175; 33628-75; 34641-26; 26643-710.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2020-09-30-tweedekamer-7.seg2">Daarmee zijn we aan het einde gekomen van de regeling van werkzaamheden. Ik zie dat de minister-president klaarstaat om te antwoorden.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

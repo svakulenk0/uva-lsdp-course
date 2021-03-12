@@ -1,0 +1,186 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-09-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-09-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 107, Session 9 (2016-09-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 107, Session 9 (2016-09-06)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="107">Meeting 107</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="9">Session 9</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="17">17 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="17">17 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1451">1451 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1451">1451 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-09-06">2016-09-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="22"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="17"/>
+               <tagUsage gi="note" occurs="47"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-09-06">2016-09-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Hypotheekverstrekking</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg1">29 juni jongstleden, dat lijkt allemaal zeer lang geleden. Ik heet de minister voor Wonen en Rijksdienst van harte welkom. Het woord is als eerste aan de heer Van der Linde namens de fractie van de VVD. Ik wijs op de spelregels: twee minuten spreektijd, inclusief het indienen van eventuele moties.</seg>
+            </u>
+            <u who="#RoaldvanderLinde" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg2">Voorzitter. Je wilt verhuizen, je hoort iedereen praten over lage hypotheekrente en op de tv hoor je elke dag "een hypotheek binnen een week". Maar als je boven de 65 bent en je inkomen er wat anders uitziet, komt je bank in een heel circus terecht met "comply or explain". Dat maakt hypotheken voor die groep duur en moeilijk bereikbaar, terwijl we juist deze groep in staat willen stellen om langer thuis te wonen, liefst zonder dat hij een beroep doet op collectieve middelen. Daarom dien ik de eerste motie van dit parlementaire jaar in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de Tijdelijke regeling hypothecair krediet een belangrijk prudentieel doel dient voor huizenbezitters en financiële instellingen;</note>
+               <note>overwegende dat deze regeling vanwege de inkomenseisen onvoldoende is ingesteld op oudere huizenbezitters die ofwel een hypotheeklening willen meenemen naar een volgende koopwoning, ofwel een bescheiden hypotheeklening willen hebben voor consumptieve doeleinden of voor woningverbetering;</note>
+               <note>voorts overwegende dat een beroep op de "explain"-bepaling voor kredietverleners duur en omslachtig is, waardoor hypotheken voor ouderen minder beschikbaar zijn;</note>
+               <note>verzoekt de regering, in overleg met de sector een kader op te stellen, waarbij aanzienlijk meer hypotheken voor ouderen binnen de "comply"-bepalingen kunnen worden verstrekt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van der Linde en Albert de Vries. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32847-264</note>
+            </u>
+            <u who="#ErikRonnes" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg3">Voorzitter. Er zijn situaties waarin mensen een bestaande hypotheek tegen lagere rente willen oversluiten, zonder te verhuizen of met verhuizen, maar dat niet kunnen omdat ze moeten voldoen aan de strengere inkomensnormen, hoewel de lening gelijk blijft of zelfs kleiner wordt. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het vanwege de lage rentestand wenselijk kan zijn voor woningeigenaren om hun bestaande hypotheek om te zetten naar een hypotheek met een lagere rente;</note>
+               <note>overwegende dat hypotheekverstrekkers, ondanks dat het omzetten van een hypotheek kan leiden tot lagere maandlasten, dergelijke verzoeken in de regel afwijzen, omdat bepaalde ministeriële regelingen of andere voorschriften te strak worden gehandhaafd;</note>
+               <note>overwegende dat dit vaak voorkomt bij consumenten die een uitkering genieten of ouder zijn dan een bepaalde leeftijdsgrens;</note>
+               <note>verzoekt de regering, in overleg te treden met de Autoriteit Financiële Markten, het Nationaal Instituut voor Budgetvoorlichting en de Nederlandsche Bank teneinde afspraken te maken over de interpretatie van de verschillende regels voor hypotheekverstrekking, om aldus meer mogelijkheden te bieden voor het oversluiten van hypotheken voor die gevallen waarin de woonlasten bij de nieuwe hypotheek gelijk zijn of afnemen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Ronnes. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32847-265</note>
+            </u>
+            <u who="#ErikRonnes" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg4">Ik kom bij mijn tweede motie. Ook wil het CDA dat alle mogelijkheden worden benut voor de consumenten om hun hypotheeklasten te laten dalen nu de rente zo laag is, zeker als dat voor consumenten nagenoeg kosteloos mogelijk is via het boetevrij aflosbare gedeelte van de hypotheek.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de rente voor onder andere hypotheekleningen historisch laag is;</note>
+               <note>constaterende dat het voor veruit de meeste huizenbezitters voordelig uitpakt als men een deel van de hypotheek kan oversluiten naar een hypotheek met lagere rente;</note>
+               <note>overwegende dat in bijna alle hypotheekcontracten de mogelijkheid wordt geboden om jaarlijks 10% tot 20% van de hypotheek kosteloos af te lossen;</note>
+               <note>overwegende dat op die manier in maximaal tien jaar tijd een hypotheek met hoge rente kan worden omgezet in een hypotheek met lagere rente als het kosteloos af te lossen bedrag wordt omgezet in een nieuw hypotheekdeel;</note>
+               <note>overwegende dat deze wijze voor de consument nauwelijks kosten met zich meebrengt, een voordeel oplopend tot honderden euro's per maand kan opleveren, maar niet wordt aangeboden door hypotheekverstrekkers;</note>
+               <note>verzoekt de regering, in gesprek te gaan met hypotheekverstrekkers en de Autoriteit Financiële Markten, om mogelijk te maken dat boetevrije aflossingsdelen gebruikt kunnen worden om hypotheken in stappen om te zetten naar een hypotheek met lagere maandlasten,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Ronnes en Omtzigt. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32847-266</note>
+            </u>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg5">Voorzitter. U hoort ook van de collega's dat er dringend behoefte is aan meer maatwerk in de verstrekking van hypotheken. Dat is de reden waarom de Partij van de Arbeid de motie van de heer Van der Linde mede heeft ondertekend. Het is ook de reden voor het indienen van de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat veel groepen in de samenleving, zoals ouderen en mensen met een WW- of WIA-uitkering, grote moeilijkheden ondervinden bij het verlengen of oversluiten van een hypotheek;</note>
+               <note>constaterende dat zij hierdoor niet kunnen profiteren van de huidige lage rentestanden;</note>
+               <note>constaterende dat banken verklaren dat zij de klant centraal stellen;</note>
+               <note>verzoekt de regering om met banken in overleg te treden om te bewerkstelligen dat zij zich inzetten om ook deze groepen de mogelijkheid te geven te profiteren van de lage rente,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Albert de Vries. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32847-267</note>
+            </u>
+            <note>Ik geef het woord aan de heer Bashir, maar ik zie dat hij daarvan afziet.</note>
+            <note>Dan schors ik de vergadering voor enkele ogenblikken, totdat de minister alle moties op schrift heeft ontvangen.</note>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg6">Voorzitter. In de motie van de heren Van der Linde en De Vries op stuk nr. 264 wordt ingegaan op de problemen die oudere huizenbezitters ervaren of kunnen ervaren bij het sluiten van hypotheken. Ik ben het met de indieners eens dat het van belang is dat mensen die het zich financieel kunnen veroorloven gewoon een hypotheek kunnen sluiten, ongeacht hun leeftijd. Ik ben het ook met hen eens dat het uitsluiten van ouderen zeker niet het doel is van het prudentieel toezicht, van de voorzichtige regels die we hanteren. Ik heb hierover gesproken in het gesprek dat ik nog niet zo lang geleden met de banken heb gevoerd. Ik kreeg daar het beeld dat er wel degelijk aanbieders bestaan. Ik herken echter tegelijkertijd de geluiden, die ook vandaag weer aan de orde zijn, dat veel ouderen tegen praktische hindernissen oplopen. In de motie wordt de regering verzocht in overleg te treden met de toezichthouders om te bekijken hoe wij ouderen het leven makkelijker kunnen maken. Dat overleg zal ik graag aangaan. Ik laat deze motie aan het oordeel van de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg7">Ik kom op de motie van de heer Ronnes op stuk nr. 265. Daarin wordt ingegaan op de problematiek waartegen mensen kunnen aanlopen die een bestaande hypotheek willen omzetten naar een hypotheek met een lagere rente. De heer Ronnes signaleert twee problemen. Op de problemen voor ouderen ben ik net al ingegaan in reactie op de motie van de leden Van der Linde en Albert de Vries. Daarnaast wijst de heer Ronnes ook op de positie van uitkeringsgerechtigden. In het dictum van de motie staat "om aldus meer mogelijkheden te bieden voor het oversluiten van hypotheken". Ik hecht aan een zuivere rolverdeling tussen de minister en de toezichthouders. Ik kan een toezichthouder niet onder druk zetten — dat wil ik ook niet — om criteria te hanteren die niet verantwoord zouden zijn. Mag ik de motie als volgt interpreteren? Ik treed in overleg met de toezichthouders over de positie van ouderen, zoals ik net al heb toegezegd, en de positie van uitkeringsgerechtigden. Voor hen geldt namelijk dezelfde redenering dat hypotheekverstrekking verantwoord moet zijn. Uitkeringen kunnen verschillende vormen hebben. Als ze tijdelijk zijn is het logisch en in het belang van de klant dat een hypotheekverstrekker de inkomsten tijdelijk meeneemt. Het kan ook permanent zijn. In die gevallen kan ook op een verantwoorde manier een hypotheek verstrekt worden. Als ik de motie zo mag interpreteren dat er overleg plaats moet vinden met toezichthouders over het helder communiceren en hanteren van de regels, dan laat ik ook deze motie aan het oordeel van de Kamer.</seg>
+            </u>
+            <u who="#ErikRonnes" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg8">Prima, maar ik heb wel de bedoeling hiermee een grotere doelgroep te bereiken, zodat meer personen daadwerkelijk kunnen overstappen.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg9">Als dat een gevolg is van betere communicatie ben ik het daarmee eens. Het ging mij erom dat de motie zo gelezen kan worden dat ik druk ga zetten op de toezichthouders om soepeler te worden in hun criteria. Volgens mij is het echter van groot belang dat er heldere uitleg en communicatie plaatsvindt. De heer Ronnes knikt, dus dan kan ik de motie aan het oordeel van de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg10">In de motie op stuk nr. 266 wordt ingegaan op de mogelijkheid dat er jaarlijks boetevrij 10% tot 20% van de hypotheek kosteloos wordt afgelost. Langs die route moet een hypotheek in maximaal tien jaar van een hypotheek met hogere rente kunnen worden omgezet in een hypotheek met lagere rente. In de motie wordt de regering verzocht in gesprek te gaan met hypotheekverstrekkers en de AFM om mogelijk te maken dat boetevrije aflossingsdelen gebruikt kunnen worden om hypotheken in stappen om te zetten naar een hypotheek met lagere maandlasten. Ik vind het lastig om hier uit het hoofd een goede reactie op te geven. De andere problematiek is in het algemeen overleg aan de orde gekomen, maar deze niet. Ik kan moeilijk inschatten waar eventuele knelpunten zitten en hoe groot de problematiek is. Het moet gaan om leningen met een rente die voor meer dan tien jaar vaststaat. Dat kan, maar ik heb geen idee hoe groot die groep is. Er wordt verwezen naar de hypotheekverstrekkers en de AFM. Ik kan niet goed beoordelen of de toezichthouder hier überhaupt een rol in heeft of dat dit meer te maken heeft met commerciële afwegingen. Ik wil de heer Ronnes vragen of ik hier schriftelijk op mag reageren. Dan kan ik een betere reactie geven dan ik nu improviserend zou doen.</seg>
+            </u>
+            <u who="#ErikRonnes" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg11">Prima. Als dat voor de stemmingen kan, is dat akkoord.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u10">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg12">Dan kom ik hier schriftelijk op terug.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u11">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg13">Voor de stemmingen? Anders kan de heer Ronnes de motie misschien beter aanhouden. Het is het een of het ander.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u12">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg14">Ik weet natuurlijk niet wanneer de Kamer stemt, maar als het volgende week dinsdag is, moet ik voor die tijd een reactie kunnen sturen.</seg>
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg15">De laatste motie is van de heer De Vries. Deze gaat specifiek over de positie van mensen met een WW- of WIA-uitkering en de problemen die zij kunnen ondervinden bij het oversluiten of verlengen van de hypotheek. In de motie wordt mij verzocht om in overleg te treden met banken om te bewerkstelligen dat ook deze groepen kunnen profiteren van de lage rente. Ik gaf net al aan dat het hebben van een uitkering niet per definitie betekent dat geen hypotheek verstrekt kan worden. Bij een tijdelijke uitkering kunnen de inkomsten natuurlijk alleen tijdelijk meegenomen worden en bij een permanente uitkering permanent. Volgens mij is ook hier de vraag om te zorgen voor helderheid van de kant van de hypotheekverstrekkers richting klanten. Dus in lijn met mijn advies over de vorige moties ga ik het overleg graag aan en laat ik de motie aan het oordeel van de Kamer.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u13">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg16">De heer Ronnes heeft een vraag naar aanleiding van de reactie van de minister op een motie van de heer De Vries? Het is niet zo gebruikelijk, maar ga uw gang.</seg>
+            </u>
+            <u who="#ErikRonnes" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u14">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg17">Het komt eigenlijk op hetzelfde neer. In het algemeen overleg hebben wij de gelegenheid gekregen om een aantal voorbeelden aan te dragen, niet alleen richting minister Blok maar ook richting minister Dijsselbloem van Financiën, van casussen waarvan wij denken dat er eens goed naar gekeken moet worden. Ik proef dat er moties zijn die allemaal een beetje in dezelfde richting gaan. Is de minister bereid om de voorbeelden te betrekken bij het overleg, zodat het echt leidt tot oplossingen voor de voorbeelden die wij aandragen?</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u15">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg18">Ik heb tijdens het AO zelfs gevraagd om die voorbeelden. Ik heb begrepen dat de CDA-fractie inderdaad voorbeelden heeft aangeleverd. Die voorbeelden zal ik dus graag betrekken bij het overleg met de hypotheekverstrekkers en toezichthouders.</seg>
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg19">Daarmee ben ik aan het eind gekomen van mijn reactie op de ingediende moties.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u16">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg20">En van uw beantwoording.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.u17">
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg21">Ik stel voor om dinsdag aanstaande over de ingediende moties te stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2016-09-06-tweedekamer-9.seg22">Ik zie dat alle spelers voor de volgende ronde ook aanwezig zijn en stel dan ook voor om gewoon door te gaan.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-04-08-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-04-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-04-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 67, Session 4 (2020-04-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 67, Session 4 (2020-04-08)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="67">Meeting 67</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="1">1 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="1">1 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="248">248 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="248">248 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-04-08">2020-04-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="6"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-04-08">2020-04-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-04-08-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2020-04-08-tweedekamer-4.seg1">Dan is nu aan de orde een korte regeling van werkzaamheden. Ik stel voor zo dadelijk ook te stemmen over de moties ingediend bij het notaoverleg over de eurogroep en over de aangehouden motie-Krol/Marijnissen (25295, nr. 217) en de aangehouden motie-Azarkan (24295, nr. 210). Die laatste is volgens mij ingetrokken, maar dan zeg ik dat straks.</seg>
+               <seg xml:id="ParlaMint-NL_2020-04-08-tweedekamer-4.seg2">Op verzoek van de fractie van D66:</seg>
+               <seg xml:id="ParlaMint-NL_2020-04-08-tweedekamer-4.seg3">benoem ik in de vaste commissie voor Financiën de heer Paternotte tot lid in plaats van mevrouw Van Beukering-Huijbregts, en mevrouw Van Beukering-Huijbregts tot plaatsvervangend lid in plaats van de heer Paternotte.</seg>
+               <seg xml:id="ParlaMint-NL_2020-04-08-tweedekamer-4.seg4">Aangezien alle ingeschreven sprekers zich hebben teruggetrokken, zal het VSO Subsidieregeling tienjarige ondersteuning iconische rijksmonumenten van de agenda worden afgevoerd.</seg>
+               <seg xml:id="ParlaMint-NL_2020-04-08-tweedekamer-4.seg5">Ik stel voor de volgende stukken van de stand van werkzaamheden af te voeren: 31066-610; 26485-324; 31066-609; 29323-134; 25657-328; 21501-33-798; 26234-234; 21501-02-2132; 29665-381; 29398-813; 33835-114; 21501-32-1170; 35083-10; 34952-81; 28625-276; 35300-XIV-7; 35300-XIV-8; 32201-111; 22112-2831; 21501-32-1204; 21501-32-1203; 28625-282; 35300-XIV-5; 21501-32-1222; 35350-XIV-3; 21501-32-1223; 31104-6; 28625-280; 35300-XIV-67; 28625-263; 34985-8; 32800-67; 35414-3; 24515-527; 25295-199; 21501-32-1229; 21501-20-1527; 32734-42; 25295-179; 25424-526; 31936-728; 32851-59; 31293-514; 31765-491; 19637-2592; 31288-836; 21501-33-800; 27923-405; 27923-389; 27923-390; 27923-406; 29398-811; 32317-609; 25883-373; 25883-371; 24202-44; 28165-321; 25295-125; 25295-124.</seg>
+               <seg xml:id="ParlaMint-NL_2020-04-08-tweedekamer-4.seg6">Op verzoek van een aantal leden stel ik voor de volgende door hen ingediende moties opnieuw aan te houden: 29826-113; 30420-325; 27858-431; 27858-469; 33037-264; 33037-243; 35300-XII-69; 34985-43; 34985-42; 34985-41; 35006-8; 33835-100; 28973-203; 21501-32-1188; 31532-239; 35054-16; 29398-803; 31305-302; 29383-339; 28089-130; 21501-08-750; 28089-118; 31936-677; 29279-566; 31015-188; 33835-69; 33605-XIII-15; 26991-449; 21501-32-687; 35300-XIII-73; 35300-XIII-72; 35300-XIII-70; 31936-636; 31936-625; 31936-624; 31936-623; 31936-622; 35300-41; 35000-26; 32813-312; 32813-310.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

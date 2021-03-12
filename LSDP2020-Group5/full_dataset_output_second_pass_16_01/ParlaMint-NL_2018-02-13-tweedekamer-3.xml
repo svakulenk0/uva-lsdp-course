@@ -1,0 +1,140 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2018-02-13 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2018-02-13 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 51, Session 3 (2018-02-13)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 51, Session 3 (2018-02-13)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="51">Meeting 51</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="18">18 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="18">18 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1738">1738 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1738">1738 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2018-02-13">2018-02-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="20"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="18"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-02-13">2018-02-13</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Dijksma</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg1">Dan ga ik nu naar mevrouw Dijksma van de Partij van de Arbeid voor haar vraag over de spermabanken die jarenlang in de fout zouden zijn met gegevens van donoren. Het woord is aan mevrouw Dijksma.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg2">Voorzitter. Ik moet even het katheder een halve meter naar beneden gooien. Ik hoop dat dit niet van mijn tijd afgaat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg3">Nee, hoor. Dat is speciaal ingesteld voor mensen zoals u en ik. Gaat uw gang.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg4">Voorzitter. Ook nu weer een serieus onderwerp. De wet is namelijk duidelijk: donorkinderen hebben er recht op om te weten wie hun vader is. Afgelopen zaterdagavond hebben we bij Nieuwsuur een vrij schokkende verbeelding gezien van de werkelijkheid. We hebben gezien dat spermaklinieken weigeren om mee te werken aan het verstrekken van gegevens van donoren, met name van kinderen die verwekt zijn voor 2004. We hebben een Stichting donorgegevens in beeld gezien die namens ons allemaal er juist voor moet zorgen dat dit goed gaat, maar die er niet bovenop blijkt te zitten. We hebben ook gezien dat er grote fouten worden gemaakt in de uitvoering waarbij kinderen het beeld krijgen dat de donor geen contact wil, terwijl de werkelijkheid een heel andere is.</seg>
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg5">Voorzitter, mijn vragen. Allereerst: was dit bekend bij het ministerie van VWS? Zo ja, op welk moment is dit eerder met de Kamer gedeeld? Heeft het ministerie actie ondernomen? Mijn tweede vraag: is er door de minister inmiddels opheldering gevraagd aan de Stichting donorgegevens over het onderzoek dat Nieuwsuur gepresenteerd heeft, waaruit zou blijken dat bijna geen enkele kliniek de gevraagde gegevens heeft overgedragen? En zo ja, wat is daar dan het antwoord op? Mijn derde vraag is: waarom heeft de Stichting donorgegevens nooit de inspectie ingeschakeld om eventueel gegevens los te krijgen? Dan mijn volgende vraag. Uit de uitzending blijkt dat er echt fouten worden gemaakt. Wat zegt dit volgens de minister over de kwaliteit van het werk van de stichting? Is de minister bereid om de archieven van de klinieken te vorderen? En mijn laatste vraag is: hoe garandeert de minister dat spermaklinieken zich gaan houden aan de wet?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg6">Het woord is aan de minister.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg7">Voorzitter, dank. Ik snap dat dit onderwerp voor beroering blijft zorgen, zeker bij de kinderen die dit betreft. Eén moment, voorzitter, er ging opeens een tafeltje omhoog hier. In alle ernst: weten van wie je afstamt, is voor heel veel kinderen die als donorkind ter wereld zijn gekomen, ontzettend belangrijk. Dat is ook de reden waarom de wet in 2004 is gewijzigd. Daarvoor was er sprake van anoniem doneren, maar sindsdien kan dat eigenlijk niet meer. Er is destijds, in 2004, een overgangsbepaling in de wet gekomen — daar gaat het hier over — die stelde dat alle gegevens van de spermaklinieken moesten worden overgedragen aan een stichting, de Stichting donorgegevens kunstmatige bevruchting. Daarnaast is er de afspraak gemaakt — die is zeker zo belangrijk — dat donorkinderen die willen weten welke gegevens beschikbaar zijn en of de betreffende donor zichzelf openbaar zou willen maken, bij die stichting terechtkunnen, dat er wordt doorgevraagd en dat een donor die anoniem wil blijven toch de volgende vraag wordt voorgelegd: er is een donorkind dat wil weten van wie hij afstamt; is het goed om dat openbaar te maken?</seg>
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg8">Wat betreft dat laatste punt: we weten al enige tijd dat die afspraak, dus niet zozeer de overgangsbepaling, niet helemaal correct is verlopen. Een aantal klinieken interpreteert die afspraak op een andere manier. Daarnaast is duidelijk dat niet alle klinieken de gegevens daadwerkelijk hebben overgedragen aan de stichting. Dat weten we al sinds het inspectieonderzoek uit 2016. Dat is op dat moment ook met de Kamer gedeeld. Daarna heeft mijn voorganger, Schippers, een oproep gedaan aan donoren van voor 2004 om zich kenbaar te maken en uit de anonimiteit te treden in het belang van de kinderen. Daarna is er een actieplan opgesteld. Dat actieplan is ook in de Kamer aan de orde geweest. Daar staat bijvoorbeeld in dat er door klinieken afspraken worden gemaakt om ook gegevens aan te leveren van voor 2004 als donorkinderen op de deur bonzen en zeggen: wij willen graag weten van wie we afstammen. Daarnaast is er sprake van het werken met een databank — daar zijn ook middelen voor uitgetrokken — zodat donoren hun DNA in de databank van Fiom kunnen achterlaten en er daadwerkelijk een match tot stand kan worden gebracht. Kortom, er is een flink aantal acties opgezet om donoren uit de anonimiteit te halen en om donorkinderen van voor 2004 de mogelijkheid te geven om te weten van wie zij afstammen.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg9">Het is natuurlijk hartstikke goed dat er al een aantal acties hebben plaatsgevonden, maar uit die uitzending blijkt dat er ook in 2016 nog steeds fouten werden gemaakt. Er zijn bijvoorbeeld brieven vanuit de stichting naar donorkinderen gegaan waarin werd gezegd "jullie donor heeft geen behoefte aan contact" terwijl zij er via eigen onderzoek achter kwamen dat dat gewoon niet correct was. Dus mijn vraag blijft staan. Is het zo dat de uitwerking van die wet uit 2004 dit jaar aanmerkelijk beter verloopt dan eerder? Hoe heeft de minister daar zicht op? Werken alle klinieken nu wel mee bij het overdragen van archiefgegevens? En op welke wijze valt dat te controleren? Anders blijft het voor ons toch een soort black box en blijven we achter de feiten aanlopen en moeten we er elke keer via incidenten achter komen of dat allemaal op orde is. Ik zou dus van de minister heel graag een laatste stand van zaken of een update willen hebben van hoe het er nu voor staat. Eventueel zou hij die informatie via een brief aan de Kamer kunnen doen toekomen.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg10">Dat lijkt me een heel praktisch voorstel. Het actieplan, dat nog van mijn voorganger is, is op dit moment volop in uitvoering. De typen problemen die u net benoemt, zijn allemaal belegd met acties en worden op dit moment allemaal uitgevoerd. Mijn indruk is dat daar zeker voortgang op wordt geboekt. Ik herken ook de onregelmatigheden die mevrouw Dijksma noemt, maar daarop wordt ook altijd geacteerd vanuit het actieplan. Ik zeg haar derhalve graag toe een brief te sturen om de Kamer goed te kunnen informeren over de laatste stand van zaken bij de uitvoering van dat actieplan. Op grond daarvan kunnen we mogelijkerwijs nadere debatten met elkaar voeren.</seg>
+            </u>
+            <u who="#SharonDijksma" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg11">Allereerst dank voor de toezegging van een brief. Zou ik die brief meteen na het voorjaarsreces mogen verwachten? Dan heeft u een paar weken de tijd. Dat moet mogelijk zijn. Dan kunnen we ergens medio maart, april weer over deze zaak spreken op basis van de meest actuele stand van zaken.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg12">Dat lijkt me prima.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg13">Dank u wel, mevrouw Dijksma.</seg>
+            </u>
+            <u who="#VeraBergkamp" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg14">Ik hecht ook wel waarde aan de terminologie die wordt gebruikt: we hebben het niet over vaders maar over spermadonoren. Ik denk dus dat de minister dat goed heeft aangegeven. Eén vraag is blijven hangen en die heeft betrekking op de uitzending van Nieuwsuur, waarin heel stellig werd gezegd dat die klinieken de wet hebben overtreden. Kan de minister er kleuring aan geven of hij dat ook van mening is? Als dat namelijk zo is, dan zouden er wat acties moeten volgen. Ik ben trouwens blij met de toezegging van een stand-van-zakenbrief.</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg15">Voor de nuance is dat wel goed. Ik wil daar ook nog wel op ingaan in de brief, maar ik vat het heel kort samen. De anonimiteit van voor 2004 kon niet meer worden voortgezet na 2004; dat is wat de wet in de basis voorschreef. Er bestond een overgangsregeling waarbij alle fertiliteitsklinieken werden geacht de gegevens over te dragen aan de stichting. Dat is niet in alle gevallen gebeurd. Je zou kunnen zeggen dat dat in strijd is met die overgangsbepaling. Daarnaast is het volgende afgesproken. Als een donorkind van voor 2004 wilde weten wie de donor was, werd die vraag eigenlijk altijd — ook al zouden donoren zich als anoniem hebben aangemerkt — toch nog eventjes voorgelegd. Dat is niet altijd gebeurd. Dat was alleen geen onderdeel van de wet, maar onderdeel van de afspraken die zijn gemaakt. Dus iets meer nuance is hier zeker op zijn plaats. Ik wil dat best nog wel wat preciezer duiden in die brief, want we moeten hier wel precies over zijn. Blijft natuurlijk staan dat het een diepe wens, en een heel begrijpelijke wens is van donorkinderen om absoluut te willen weten van wie ze afstammen.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg16">Dit onderwerp raakt mensen natuurlijk in de kern van hun leven ...</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg17">Zeker.</seg>
+            </u>
+            <u who="#CorinneEllemeet" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg18">... dus daarom is het zo belangrijk dat we daarbovenop zitten. Dat hoor ik de minister ook beamen, maar ik heb hem nog niet specifiek horen ingaan op de misleidende informatie daar waar klinieken een ander beeld geven van de wens van de donor dan feitelijk het geval is. Dus is dat ook onderdeel van het actieplan? En zo nee, hoe wil de minister juist op dit ingewikkelde punt ingaan en hierop actie ondernemen?</seg>
+            </u>
+            <u who="#HugodeJonge" ana="#regular" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg19">De kwalificatie neem ik niet onverkort over, maar ik denk dat u doelt op donoren die zichzelf als anoniem hebben laten aanmerken en daarbij meteen een geheimhoudingsverklaring hebben ondertekend, en donoren die zich wel als anoniem hebben laten aanmerken maar niet het vinkje bij "geheimhouding" daarop van toepassing hebben verklaard. Die laatste groep kun je natuurlijk niet opnieuw aanschrijven, want daarvan weet je niet wie het is, maar die eerste groep is voor de kliniek nog wel traceerbaar. Die groepen moet je niet met elkaar vermengen. Als kinderen zich melden, moet je die eerste groep wel degelijk de vraag voorleggen of ze zichzelf kenbaar willen maken. Ik denk dat u dat onderscheid bedoelt. Ja, dat onderscheid, die precisie, zit ook in dat actieplan. Want op die eerste groep is natuurlijk wel degelijk actie te ondernemen. Voor donoren die voor 2004 onder de belofte van anonimiteit donor zijn geworden, kun je niet met een wijziging van de wet die belofte eventjes tenietdoen. Dat is niet mogelijk en dat moeten we ook niet willen. Daar is geen wettelijke basis voor. Maar als dat niet het geval is, kun je hen wel degelijk de vraag opnieuw voorleggen: "Destijds heb je aangegeven anoniem te willen zijn, maar de kinderen die daaruit zijn voortgekomen, willen gewoon weten van wie ze afstammen. Zou je zoveel jaar na dato niet alsnog bereid zijn om?" Die vraag moet je met kracht willen voorleggen. Dat kan ook op basis van de gegevens die bij de klinieken aanwezig zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2018-02-13-tweedekamer-3.seg20">Dank u wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

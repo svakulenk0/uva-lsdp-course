@@ -1,0 +1,129 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-04-07 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-04-07 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 74, Session 10 (2016-04-07)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 74, Session 10 (2016-04-07)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="74">Meeting 74</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="10">Session 10</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="10">10 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="10">10 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="679">679 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="679">679 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-04-07">2016-04-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="11"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="10"/>
+               <tagUsage gi="note" occurs="15"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-04-07">2016-04-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Informele Raad Algemene Zaken d.d. 11-12 april</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg1">Heb ik goed begrepen dat mevrouw Van Veldhoven het woord voert namens de D66-fractie?</seg>
+            </u>
+            <u who="#StientjevanVeldhoven" ana="#regular" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg2">Nee, voorzitter, ik verwacht mijn collega Kees Verhoeven. Ik zal even kijken of ik zijn komst naar deze zaal kan bespoedigen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg3">Ik hoop dat hij zich realiseert dat wij allen op hem wachten.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg4">Voorzitter. Mijn excuses voor het feit dat ik wat later binnenloop. Ik zal eerst mijn motie indienen, zodat ik niet over de tijd heen ga. Wij hebben zojuist een AO over de Informele Raad Algemene Zaken gehad. Naar aanleiding daarvan leg ik de Kamer de volgende motie voor.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het niet voldoende duidelijk is of in de uitvoering van de EU-Turkijedeal beide partijen volledig voldoen aan de gestelde voorwaarden;</note>
+               <note>verzoekt de regering, bij de voorzitter van de Europese Raad te verzoeken op korte termijn een buitengewone Europese top bijeen te roepen om de uitvoering van de EU-Turkijedeal te bespreken;</note>
+               <note>verzoekt de regering voorts, ervoor te pleiten dat totdat aan alle (internationaalrechtelijke) voorwaarden voldaan is, de uitvoering van de EU-Turkijedeal opgeschort wordt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Verhoeven, Gesthuizen, Klaver en Voordewind. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-21501-02-1600</note>
+            </u>
+            <u who="#KeesVerhoeven" ana="#regular" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg5">Ik heb deze motie ingediend vanwege verontrustende berichten naar aanleiding van de inwerkingtreding van de Turkijedeal. Vluchtelingen zouden worden beschoten. De directeur van de Europese UNHCR heeft gesignaleerd dat dertien individuele asielaanvragen niet goed zijn afgerond. De minister heeft wel een reactie gegeven, maar een sluitend verhaal bleef uit. Hij heeft Turkije ook niet om opheldering gevraagd over de beschietingen, noch heeft hij een onafhankelijk onderzoek gestart. De minister heeft de Commissie gevraagd om onderzoek naar de Turkse schending van het non-refoulementbeginsel, maar onduidelijk blijft of alle naar Turkije uitgezette vluchtelingen wel een individuele behandeling hebben gehad. Een individuele behandeling is natuurlijk cruciaal, want opgenomen in de verdragen. Mijn fractie is er nog niet voldoende van overtuigd dat alles binnen de huidige deal overeenstemt met de mensenrechten, zoals per motie afgedwongen door de Kamer. Wij vinden daarom dat wij deze motie toch moeten indienen, ondanks het feit dat de minister al wel is ingegaan op een aantal zaken in het AO van vanmiddag.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg6">Dank u zeer. Ik kijk even of de minister direct kan antwoorden. Dat is niet het geval.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u7">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg7">Ik geef graag het woord aan de minister van Buitenlandse Zaken.</seg>
+            </u>
+            <u who="#BertKoenders" ana="#regular" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u8">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg8">Voorzitter. Ik dank de heer Verhoeven voor de mede namens mevrouw Gesthuizen, de heer Klaver en de heer Voordewind ingediende motie. Vanmiddag hebben wij hierover inderdaad overleg gehad. Ik zou deze motie willen ontraden, om een aantal redenen. Zelf had ik de indruk — kennelijk was dat voor de heer Verhoeven niet overtuigend genoeg — dat op een aantal aan de orde gestelde punten, eigenlijk alle, een antwoord is gekomen dat betrekking heeft op de internationaalrechtelijke waarborgen van het terugsturen van mensen naar Turkije. Ik heb vanmiddag gemeld hoe dat precies werkt. Migranten worden over hun recht op asiel geïnformeerd. Als zij aangeven dat zij hiervan gebruik willen maken, worden zij opgenomen in de Griekse asielprocedure. Dat betekent: een individuele behandeling van de aanvraag door de autoriteiten, de mogelijkheid van beroep tegen het besluit van de Griekse autoriteiten, toegang tot een rechter en rechtelijke bijstand door een advocaat en individuele toetsing door de rechter of het beroep van de individuele migrant niet ontvankelijk kan worden verklaard. Ik heb verteld hoe dat nu functioneert. Ik heb ook gezegd dat alleen mensen zijn teruggestuurd die geen asiel wilden aanvragen. Er worden dus helemaal geen mensen teruggestuurd buiten de internationale conventies om. Afgelopen dinsdag ben ik tijdens het vragenuur uitgebreid ingegaan op de stellingen met betrekking tot het rapport van Amnesty International.</seg>
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg9">Het is niet juist dat ik geen antwoord heb gegeven op de vragen ten aanzien van beschietingen. Uiteraard is het essentieel dat de uitvoering gebeurt op basis van internationale conventies, vandaar dat ik morgen met een aantal ministers naar Griekenland en Turkije ga om daar nauwkeurig naar te kijken. Ik heb echter geen enkele aanleiding om daar niet in te geloven. Ik heb ook de waarborgen gekregen dat dat het geval is. Ik zie dan ook geen enkele noodzaak om de voorzitter van de Europese Raad te verzoeken om op korte termijn een buitengewone Europese top bijeen te roepen. Voor het eerst sinds tijden hebben er geen verdrinkingen plaatsgevonden. In die zin is de mensenrechtensituatie aanmerkelijk verbeterd, juist vanwege deze actie. De eerste Syriërs, voornamelijk gezinnen, zijn op een veilige en legale manier voor hervestiging overgebracht naar Nederland. Ik zou de motie dan ook willen ontraden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u9">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg10">Daarmee zijn wij gekomen aan het einde van de tweede termijn van het kabinet.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.u10">
+               <seg xml:id="ParlaMint-NL_2016-04-07-tweedekamer-10.seg11">Ik dank de minister. Ik stel voor, hedenavond over de ingediende motie te stemmen.</seg>
+            </u>
+            <note>De vergadering wordt van 18.51 uur tot 19.05 uur geschorst.</note>
+            <note> </note>
+         </div>
+      </body>
+   </text>
+</TEI>

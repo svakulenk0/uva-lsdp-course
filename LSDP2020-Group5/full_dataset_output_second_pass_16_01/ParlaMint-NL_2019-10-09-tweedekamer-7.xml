@@ -1,0 +1,336 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-10-09 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-10-09 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 11, Session 7 (2019-10-09)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 11, Session 7 (2019-10-09)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="11">Meeting 11</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="7">Session 7</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="78">78 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="78">78 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2143">2143 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2143">2143 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-10-09">2019-10-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="93"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="78"/>
+               <tagUsage gi="note" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-10-09">2019-10-09</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg1">Dan is nu aan de orde de regeling van werkzaamheden. Ik deel aan de Kamer mee dat de fractie van de Partij voor de Dieren mevrouw Ouwehand tot haar fractievoorzitter heeft gekozen. Van harte gefeliciteerd.</seg>
+            </u>
+            <note>(Applaus)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg2">Ik stel voor dinsdag 15 oktober aanstaande ook te stemmen over de brief van de vaste commissie voor Binnenlandse Zaken over het opmaken van een voordracht ter vervulling van een vacature in de afdeling klachtbehandeling van de Commissie van Toezicht op de Inlichtingen- en Veiligheidsdiensten (35181, nr. 2).</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg3">Op verzoek van het lid Van Raan stel ik voor zijn motie op stuk 31369, nr. 18 opnieuw aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg4">Ik stel voor de volgende stukken van de stand van werkzaamheden af te voeren: 21501-02-2040; 2019Z18699; 32813-396; 32849-190; 30985-35; 33694-48; 33694-45; 35300; 31288-786; 31293-473; 35074-68; 35000-VIII-230; 31288-784; 31293-472; 35000-V-4; 21501-02-2025; 35300-VII-4; 20454-147; 20454-145; 20454-144; 2019Z17961; 20454-148; 20454-146; 28325-202; 32847-552; 2019Z17403; 2019Z16870; 31016-251; 29247-289; 29247-290; 31016-246; 29247-285; 29247-286; 27295-173; 35200-XVI-16; 29247-284; 34562-4; 30821-87; 30821-70; 35000-XVII-72; 22112-2816; 35000-VI-120; 32317-568; 35000-VI-118; 32637-373; 32637-377; 32637-357; 31936-684.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg5">Ik stel voor toe te voegen aan de agenda:</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg6">het VAO Raad Buitenlandse Zaken, met als eerste spreker mevrouw Karabulut namens de SP;</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg7">het VAO Techniekpact, met als eerste spreker de heer Moorlag namens de PvdA;</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg8">het VAO Raad Algemene Zaken, met als eerste spreker mevrouw Leijten namens de SP;</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg9">het VAO Jaarwisseling, met als eerste spreker de heer Krol namens 50PLUS.</seg>
+            </u>
+            <note>Overeenkomstig de voorstellen van de voorzitter wordt besloten.</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg10">Dan geef ik nu het woord aan mevrouw Van den Hul. Het blijkt mevrouw Kuiken te zijn.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg11">Voorzitter. Mevrouw Van den Hul zit nog in het algemeen overleg. Daarom sta ik hier om een verslag van een algemeen overleg aan te kondigen over het algemeen overleg Leraren, dat nu plaatsvindt. Volgende week zijn er weer onderhandelingen, en daarom kondig ik het nu aan.</seg>
+            </u>
+            <u who="#JeroenvanWijngaarden" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg12">Ik heb begrepen dat dit deze week zou moeten zijn, maar het kan wat ons betreft ook prima volgende week.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg13">Ik snap wat u prima vindt, maar ik wil het graag déze week.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg14">Als een meerderheid dat niet wil, dan doen we het niet. Ik ga dan toch iedereen het woord geven: morgen wel of niet stemmen?</seg>
+            </u>
+            <u who="#LauraBromet" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg15">Steun voor deze week.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg16">Steun voor deze week.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg17">Iedereen steun? Ja? Dan gaan we dat doen. Mevrouw Kuik?</seg>
+            </u>
+            <u who="#AnneKuik" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg18">Voorzitter. Wat het lastig maakt, is dat ze nu nog in een AO zitten. Vandaar dat ik daar maar uit afleid dat het ook volgende week kan. Anders kan het misschien aan het einde van het AO ook daar even worden aangegeven bij de woordvoerder zelf.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg19">Voorzitter ...</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg20">Nee, nee, nee, mevrouw Kuiken. U heeft al gezegd wat u wilt.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg21">Voorzitter. Ik heb ook even ruggespraak met de woordvoerder gehad. Mijn fractie ziet ook geen reden waarom het niet volgende week zou kunnen. Wat ons betreft dus volgende week.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg22">Voorzitter. Omdat het debat nog bezig is, is het wel ingewikkeld om dat nu te doen. Maar vooralsnog sluit ik me aan bij de vorige sprekers.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg23">Voorzitter. Ik zou het wel graag willen steunen, maar kan mevrouw Kuiken duidelijk maken of de stemmingen onder voorbehoud zijn? Als het debat tot een bevredigende uitkomst leidt, dan hoeven er misschien geen moties te worden ingediend en hoeven er geen stemmingen plaats te vinden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg24">Het is altijd zo dat die onder voorbehoud zijn.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg25">Ja, precies. Nou, dan steun ik stemmingen onder voorbehoud. Als die niet nodig zijn, horen we dat vanzelf. Als die wel nodig zijn, dan moeten we dat gewoon doen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg26">Er is volgens mij geen meerderheid voor stemmingen morgen.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg27">Nog wel even heel precies voor de Handelingen: ik vraag om het deze week te doen omdat volgende week de onderhandelingen al starten, dus dan zijn we te laat. Ik vraag om het nu te doen omdat het anders niet meer goed ingepland kan worden. Het debat loopt nog, maar de regeling is nu. Volgens mij is dat een hele heldere procedure en gebruikelijke weg om te volgen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg28">Nou, wel om een VAO in te plannen. Maar het is niet gebruikelijk om, als een meerderheid dat niet wil, dat alsnog te plannen. Er is geen meerderheid voor om morgen daarover te stemmen, maar wel om het VAO in te plannen. Dat gaan we dan ook doen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg29">De heer van Weyenberg namens D66.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg30">Ik ben zelf nog aan de beurt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg31">Pardon, mevrouw Kuiken! Het woord is aan mevrouw Kuiken namens de PvdA.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg32">Voorzitter. Op 18 december werd het 16-jarige meisje Hümeyra vermoord door haar ex op klaarlichte dag. De harde, maar ook heel trieste conclusie is dat deze moord voorkomen had kunnen worden. Dat blijkt uit het rapport van de inspectie, dat vandaag is verschenen. Zij was niet het eerste en zal ook niet het laatste slachtoffer zijn dat werd gestalkt of wordt gestalkt. Denk ook aan Linda van der Giesen uit Waalwijk. Ook toen, in 2015, gingen de politie en de instanties diep door het stof. Daarom wil ik nu een debat aanvragen, in ieder geval met minister Grapperhaus, over het brede probleem van stalking en het leed dat slachtoffers en nabestaanden wordt aangedaan.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg33">Ja. En meneer Grapperhaus is minister van Justitie en Veiligheid. Dan ga ik naar de heer Van Nispen, namens de SP.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg34">Voorzitter. De overheid heeft niet de bescherming geleverd die geboden had moeten worden. Het systeem heeft gefaald, met catastrofale gevolgen. Het is een vernietigend inspectierapport, met hele zware conclusies. Dat rechtvaardigt absoluut een debat met de minister van Justitie en Veiligheid.</seg>
+            </u>
+            <u who="#MaartenGroothuizen" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg35">Voorzitter. Het is een verdrietige zaak. In het rapport staan zware conclusies. Alle reden om een debat te voeren. Steun.</seg>
+            </u>
+            <u who="#JeroenvanWijngaarden" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg36">Volle steun vanuit de VVD, uiteraard.</seg>
+            </u>
+            <u who="#ChrisvanDam" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg37">Voorzitter. Over de casus zelf hebben wij al een keer gedebatteerd met minister Grapperhaus. Dit gaat nu echt over de keten, die niet gefunctioneerd heeft. Dat is schokkend om te lezen. Ik steun het debat, maar omdat het over de hele keten gaat, zou ik graag willen dat ook de minister voor Rechtsbescherming erbij is. Het gaat immers ook over de reclassering. Het gaat ook over de rechtspraak. Het gaat over van alles. Laten we dat debat ook goed kunnen voeren.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg38">Steun. Met beide ministers.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg39">Volledige steun van de ChristenUnie.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg40">Steun voor het verzoek.</seg>
+            </u>
+            <u who="#LauraBromet" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u33">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg41">Steun van GroenLinks.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u34">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg42">Ook de Partij voor de Dieren steunt dit verzoek.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u35">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg43">Mevrouw Kuiken, de Kamer steunt uw verzoek.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u36">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg44">Hartelijk dank. Ik zou de suggestie willen overnemen om ook minister Dekker daarbij uit te nodigen. Het gaat inderdaad over de hele veiligheidsketen. Hartelijk dank.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u37">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg45">Dank u wel, mevrouw Kuiken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg46">Dan geef ik nu het woord aan de heer Van Weyenberg namens D66.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u38">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg47">Dank u wel, voorzitter. Er is een rapport verschenen van het Sociaal en Cultureel Planbureau over de inclusieve arbeidsmarkt: een ingewikkeld woord voor de vraag of iedereen mee kan doen. De conclusie is dat dat absoluut nog niet het geval is. Van sommige groepen die er echt niet tussen komen wisten we dat natuurlijk al. Ik noem bijvoorbeeld ouderen en mensen met een migrantenachtergrond die echt worden gediscrimineerd of om andere redenen niet worden aangenomen. Het lijkt mij goed om daar eens een breder debat over te voeren. Dit lijkt mij een geschikt onderwerp, ook gezien de wens om wat meer hoofdlijnendebatten te voeren, want werk is voor mensen veel meer dan een loonstrookje.</seg>
+            </u>
+            <u who="#RenéPeters" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u39">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg48">Ik steun het verzoek.</seg>
+            </u>
+            <u who="#LilianHelder" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u40">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg49">Namens collega De Jong steun ik het verzoek.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u41">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg50">De SP steunt het verzoek ook.</seg>
+            </u>
+            <u who="#HenkKrol" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u42">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg51">Steun.</seg>
+            </u>
+            <u who="#ArneWeverling" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u43">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg52">Geen steun.</seg>
+            </u>
+            <u who="#Wim-JanRenkema" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u44">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg53">Steun, maar in dit geval graag ook in aanwezigheid van de staatssecretaris.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u45">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg54">Steun, voorzitter.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u46">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg55">Voorzitter. Het is een belangrijk onderwerp om over te debatteren, maar de ChristenUnie kan zich ook voorstellen dat we dit in verband met de overvolle plenaire agenda op een ander moment bespreken, bij een algemeen overleg of bij een van de reeds geplande debatten. Laten we daar even naar kijken. Voor nu geen steun.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u47">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg56">Toch heeft u een meerderheid, meneer Van Weyenberg, dus dan zetten we het op de agenda.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u48">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg57">Ik vond het een goede suggestie om dat met beide bewindslieden van Sociale Zaken te doen, voorzitter.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u49">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg58">Prima. Oké. Dank u wel.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg59">Mevrouw Kuik namens het CDA.</seg>
+            </u>
+            <u who="#AnneKuik" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u50">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg60">Voorzitter, dank. Kinderen laten we niet toe in de gokhal. Toch zien we dat er in games steeds meer verslavingselementen zitten, vergelijkbaar met gokken. Naar aanleiding van het bericht van Nieuwsuur willen we dan ook een debat aanvragen. Nu staat er al een debat over het bericht dat kinderen moeiteloos online kunnen gokken en de toezichthouder nooit ingreep. Ik wil namens het CDA en de CU dus voorstellen om dit debat te verbreden naar verslavende games en ook de staatssecretaris van Volksgezondheid hierbij aan te laten schuiven. Dat debat is eerder aangevraagd door de ChristenUnie, en dat wil ik verbreden. Ik kan ook een apart debat aanvragen, maar aangezien uw oproep is om niet te veel debatten te hebben, leek het mij goed om dit zo samen te voegen — als ik daar steun voor krijg.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u51">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg61">We gaan kijken welk debat u precies bedoelt, maar u weet zeker dat er zo'n debat op de lijst staat?</seg>
+            </u>
+            <u who="#AnneKuik" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u52">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg62">Ja, dat was een meerderheidsdebat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u53">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg63">En u wilt dit onderwerp daaraan toevoegen.</seg>
+            </u>
+            <u who="#AnneKuik" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u54">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg64">Ja.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u55">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg65">Dat lijkt mij toch een goed voorstel, vinden jullie niet?</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u56">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg66">Het klinkt heel redelijk, dus ik zou er niet per se voor willen gaan liggen. Ik had zelf het idee om dit te betrekken bij het algemeen overleg Kansspelen met de minister voor Rechtsbescherming. Om die reden zou ik graag willen vragen om een brief over dit bericht. Dan kunnen we altijd nog kijken wat er eerder komt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u57">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg67">Als jullie allemaal hetzelfde vinden, dan is dat prima. Ik constateer dat dat het geval is. Dan stel ik voor het stenogram van dit deel van de vergadering door te geleiden naar het kabinet. Dank u wel, mevrouw Kuik.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg68">Dan de heer Van Nispen namens de SP.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u58">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg69">Voorzitter. Al eerder was een heel groot deel van deze Kamer bijzonder verontwaardigd over het strafrechtelijk onderzoek dat wordt gedaan naar de klokkenluider, degene die de misstanden naar buiten had gebracht, in de WODC-affaire. Want niet de klokkenluider, maar de misstanden moeten worden aangepakt. Gisteren onthulde Nieuwsuur dat er op het moment dat de minister van Justitie en Veiligheid een groot compliment gaf aan deze klokkenluider vanwege het maatschappelijk belang dat zij had vertegenwoordigd en haar lof toezwaaide, een telefoontap naar haar liep en dat zij werd afgeluisterd. Hierover staat al een debat op de agenda. Daarom is mijn verzoek nu om dit debat spoedig in te plannen. Dat voorstel kan ik hier mede doen namens GroenLinks, Partij van de Arbeid, 50PLUS, PVV, D66, DENK en de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u59">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg70">We gaan snel tellen.</seg>
+            </u>
+            <u who="#MichielvanNispen" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u60">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg71">Ik had al geteld, en volgens mij is dat een meerderheid.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u61">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg72">Nou, even checken! Er is inderdaad een meerderheid die dit wil. Dan gaan we daar in de planning rekening mee houden. Wilt u nog wat zeggen, meneer Van Wijngaarden?</seg>
+            </u>
+            <u who="#JeroenvanWijngaarden" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u62">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg73">Ook vanuit de VVD volle steun hiervoor.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u63">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg74">Prima, dan heeft u helemaal een meerderheid. Dank u wel, meneer Van Nispen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg75">Dan ga ik naar mevrouw Karabulut.</seg>
+            </u>
+            <u who="#SadetKarabulut" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u64">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg76">Voorzitter. Ik zou graag het VAO RBZ deze week gepland willen zien, inclusief stemmingen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u65">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg77">Heeft niemand daar bezwaar tegen? Dan gaan we dat ook plannen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg78">Mevrouw Leijten, ook namens de SP.</seg>
+            </u>
+            <u who="#RenskeLeijten" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u66">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg79">Voorzitter. Hetzelfde geldt voor het verslag van het algemeen overleg over de Raad Algemene Zaken. Die is komend weekend. Het indienen van moties en het stemmen daarover moeten dus deze week plaatsvinden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u67">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg80">Heeft iemand daar bezwaar tegen? Nee. Dan gaan we ook daar rekening mee houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg81">Tot slot mevrouw Beckerman namens de SP.</seg>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u68">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg82">Goedemiddag, voorzitter en Kamerleden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u69">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg83">Goedemiddag, mevrouw Beckerman.</seg>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u70">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg84">Vandaag kwam The Guardian met een overzicht: twintig fossiele bedrijven zijn verantwoordelijk voor meer dan een derde van alle uitstoot van broeikasgassen sinds 1965. Shell staat op de zevende plek. Dat zijn twintig bedrijven die puur uit winstbejag het klimaat kapotmaken, waaronder onze Koninklijke Shell. Wat mij betreft moet het klimaatbeleid zich daarop richten. Ik zou graag een debat willen met de minister van EZK, alstublieft.</seg>
+            </u>
+            <u who="#FrankWassenberg" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u71">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg85">Dat verzoek wordt gesteund door de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#AlexanderKops" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u72">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg86">Geen steun.</seg>
+            </u>
+            <u who="#MarkHarbers" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u73">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg87">Voorzitter, geen steun. Dit kan betrokken worden bij het AO Klimaat of de begrotingsbehandeling, allebei de komende maand.</seg>
+            </u>
+            <u who="#WilliamMoorlag" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u74">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg88">Voorzitter. Ik vind dit belangrijk. Ik wil dit steunen, maar ik schat in dat het eerder tijdens het AO Klimaat en energie aan de orde zal komen. Ik zou het waarderen als mevrouw Beckerman het dan van de lijst haalt.</seg>
+            </u>
+            <u who="#CarlaDik-Faber" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u75">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg89">Voorzitter, ook mijn fractie vindt de begrotingsbehandeling een goed moment.</seg>
+            </u>
+            <u who="#LauraBromet" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u76">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg90">Ook GroenLinks vindt dit belangrijk, maar vindt het prima bij de begrotingsbehandeling.</seg>
+            </u>
+            <u who="#SandraBeckerman" ana="#regular" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u77">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg91">Voorzitter. Dan heb ik bij lange na geen meerderheid. Ik zou wel graag een brief willen als reactie hierop. Ik neem de suggestie van de collega's mee om dit bij het AO te betrekken. Die brief zou ik graag voor die tijd willen hebben.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.u78">
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg92">Inderdaad, want er is de begroting Economische Zaken en er is ook nog een algemeen overleg Klimaat en energie. Ik stel voor het stenogram van dit deel van de vergadering door te geleiden naar het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2019-10-09-tweedekamer-7.seg93">Daarmee zijn we aan het einde gekomen van de regeling van werkzaamheden.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

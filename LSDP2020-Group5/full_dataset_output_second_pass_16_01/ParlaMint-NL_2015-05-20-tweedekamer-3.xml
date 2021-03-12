@@ -1,0 +1,303 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-05-20 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-05-20 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 85, Session 3 (2015-05-20)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 85, Session 3 (2015-05-20)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="85">Meeting 85</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="3">Session 3</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="39">39 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="39">39 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3552">3552 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3552">3552 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-05-20">2015-05-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="52"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="39"/>
+               <tagUsage gi="note" occurs="90"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-05-20">2015-05-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Bevolkingsdaling/Krimp</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg1">Ik heet de minister voor Wonen en Rijksdienst van harte welkom. Ik geef de heer Van Vliet als eerste spreker het woord.</seg>
+            </u>
+            <u who="#RolandvanVliet" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg2">Voorzitter. In het algemeen overleg heb ik het al gezegd: krimp is een van de grootste uitdagingen waar wij in Nederland voor staan. Over honderd jaar behoren Zeeuws-Vlaanderen, Limburg, Drenthe, Groningen en de Achterhoek ook nog tot Nederland. Als krimp inderdaad de grootste uitdaging is, moeten we daarvoor ook serieus handvatten bieden, voor zover we dat hier in Den Haag kunnen. Daarom dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat leegstand van de particuliere woningvoorraad in krimpregio's een probleem is;</note>
+               <note>constaterende dat deze leegstand zorgt voor verloedering in buurten en wijken en vermindering van de leefbaarheid, ook in wijken met sociale huurwoningen;</note>
+               <note>overwegende dat woningcorporaties in sommige gevallen bereid zijn leegstaand particulier bezit geleidelijk aan de woningmarkt te onttrekken door de leegstaande koopwoningen op te kopen en deze tijdelijk te verhuren als sociale huurwoningen teneinde deze woningen vervolgens aan de woningmarkt te onttrekken;</note>
+               <note>verzoekt de regering, te onderzoeken hoe woningcorporaties een rol kunnen spelen bij het tegengaan van verloedering c.q. bij bevordering van leefbaarheid door het aanpakken van leegstand in de particuliere woningvoorraad in krimpgebieden, met inachtneming van de kerntaak van woningcorporaties, namelijk de verhuur van sociale huurwoningen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Van Vliet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31757-60</note>
+            </u>
+            <u who="#ArieSlob" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg3">Voorzitter. Naar aanleiding van het algemeen overleg heb ik twee moties die ik graag aan de Kamer zou willen voorleggen voor een uitspraak. Dit is de eerste.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat het Team Midterm Review Bevolkingsdaling geadviseerd heeft de regio's Noordoost-Friesland, Zuidoost-Friesland, Oost-Drenthe en de Achterhoek als krimpregio aan te wijzen;</note>
+               <note>overwegende dat het kabinet besloten heeft alleen de Achterhoek als krimpregio aan te wijzen en de regeringspartijen VVD en PvdA hebben uitgesproken daar Noordoost-Friesland nog aan te willen toevoegen;</note>
+               <note>overwegende dat ook in de regio's Oost-Drenthe en Zuidoost-Friesland sprake is van een significante huishoudensdaling;</note>
+               <note>verzoekt de regering, het advies van het Team Midterm Review Bevolkingsdaling over de aanwijzing van krimpregio's volledig over te nemen en niet alleen de Achterhoek, maar ook Noordoost-Friesland, Zuidoost-Friesland en Oost-Drenthe aan te wijzen als krimpregio,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat de regering voornemens is de tijdelijke maatstaf bevolkingskrimp in het Gemeentefonds per 2016 te beëindigen en de middelen via een decentralisatie-uitkering uit te keren aan acht gemeenten binnen de drie aangewezen topkrimpregio's;</note>
+               <note>overwegende dat uit de evaluatie van de krimpmaatstaf blijkt dat de relatieve achterstand van gemeenten met krimp enkele tientallen euro's per inwoner per jaar bedraagt als gevolg van hogere uitgaven voor ruimtelijke herstructurering en lagere inkomsten uit de grondexploitatie en dat dit evenzeer geldt voor krimpende gemeenten buiten de aangewezen krimpregio's;</note>
+               <note>overwegende dat in deze evaluatie wordt voorgesteld, de drempel van de krimpmaatstaf te verhogen van 1% naar 2% inwonersdaling;</note>
+               <note>overwegende dat de beperking tot gemeenten binnen aangewezen topkrimpregio's strijdig is met het gelijkheidsbeginsel en alle gemeenten met sterke krimp op basis van objectieve criteria in aanmerking moeten kunnen komen voor de gelden van de krimpmaatstaf, ongeacht of ze liggen in een krimpregio, een topkrimpregio of daarbuiten;</note>
+               <note>verzoekt de regering, alle gemeenten met sterke krimp — meer dan 2% inwonersdaling — per verloren inwoner boven deze drempel vanaf 2016 in aanmerking te laten komen voor de krimpmaatstaf,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Slob en Van Helvert. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31757-61</note>
+               <note>Deze motie is voorgesteld door het lid Slob. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31757-62</note>
+            </u>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg4">Voorzitter. Krimp staat weer duidelijk op de politieke agenda. De Partij van de Arbeid heeft daarvoor geijverd met een initiatiefnota. Verschillen in regio's nemen snel toe. Daar moet het beleid op worden aangepast. Het mag niet zo worden dat de regio waar je wieg staat, bepalend is voor de kansen die je hebt. Wij vragen de coördinerend minister om de komende tijd met verhoogde inzet te werken aan punten die voor krimpregio's van groot belang zijn, zoals hun economische vitaliteit, het effectiever tegengaan van de barrièrewerking van de grens, de ondersteuning van initiatieven voor sanering van de overschotten op de goedkope particuliere woningvoorraad en initiatieven voor de aanleg van snel internet.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg5">Ik dien twee moties in. De eerste motie is heel kort.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>verzoekt de regering, bij afspraken of convenanten met krimpregio's een termijn te hanteren van ten minste vijf jaar,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de regio Noordoost-Fryslân de komende jaren te maken krijgt met een daling van het aantal huishoudens;</note>
+               <note>overwegende dat deze verwachte daling in de gemeenten in deze regio, uitgezonderd de gemeente Tytsjerksteradiel, uitkomt op bijna 6%, terwijl het criterium voor krimpregio's een daling van 2,5% of meer bedraagt;</note>
+               <note>overwegende dat deze regio geen achterland heeft en nauwelijks stedelijkheid kent;</note>
+               <note>voorts overwegende dat in deze regio nauw wordt samengewerkt tussen overheden, bedrijfsleven, maatschappelijke organisaties en bewoners zodat men zich kan aanpassen aan de veranderende omstandigheden als gevolg van bevolkingsdaling;</note>
+               <note>verzoekt de regering, de regio Noordoost-Fryslân aan te merken als krimpregio,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Albert de Vries en Veldman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31757-63</note>
+               <note>Deze motie is voorgesteld door de leden Albert de Vries en Veldman. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31757-64</note>
+            </u>
+            <u who="#ArieSlob" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg6">Ik heb nog een vraag. De heer De Vries heeft ooit een initiatiefnota over krimpregio's ingediend. In die nota werd dit gebied inderdaad genoemd, maar daarin werd ook heel nadrukkelijk Oost-Drenthe genoemd. Laat de heer De Vries Oost-Drenthe nu vallen?</seg>
+            </u>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg7">Ik vind niet dat we Oost-Drenthe moeten laten vallen, maar we hebben gemerkt dat er in Zuidoost-Drenthe geen sprake is van dezelfde omstandigheden als in Noordoost-Friesland. Daar ligt de huishoudensdaling echt onder die 2,5%. Ik heb in de motie over Noordoost-Friesland gesproken over een heel sterke samenwerkingsgeest en -agenda tussen alle geledingen in de samenleving. Die ontbreken in dat gebied. Ik heb in het algemeen overleg een pleidooi gehouden om te kijken of er voor de twee gemeenten die het sterkst met krimp te maken hebben — Aa en Hunze en Borger-Odoorn — samenwerking met Oost-Groningen mogelijk is. Voor het overige zouden zij vooral moeten proberen om in het rijksbeleid als anticipeerregio ondersteuning te krijgen.</seg>
+            </u>
+            <u who="#ArieSlob" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg8">Ik verwees naar de initiatiefnota van de geachte afgevaardigde van de Partij van de Arbeid. Hij kent de verschillen tussen de regio's en de argumenten die daaraan ontleend worden. In die initiatiefnota wordt nadrukkelijk aangegeven dat Oost-Drenthe moet worden aangewezen als krimpregio. Inmiddels ligt er ook een dergelijk advies van de commissie-Krikke. Ik constateer dat de heer De Vries nu met een motie komt waarin deze regio niet wordt genoemd. Dus nogmaals mijn vraag: laat hij Oost-Drenthe vallen als krimpregio of is er misschien toch nog ruimte om na te denken over steun aan de motie die ik samen met het CDA heb ingediend?</seg>
+            </u>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg9">Ik heb duidelijk gemaakt dat de regio Zuidoost-Drenthe bij nader inzien, en ook gelet op de argumentatie van de minister in het AO, niet aan alle criteria voldoet om daadwerkelijk te worden aangewezen als krimpregio. Dat maakt dat wij er nu voor kiezen om Noordoost-Friesland toe te laten en over een aantal jaren te bekijken of Zuidoost-Drenthe zich dan eventueel wel kan kandideren.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg10">Het is toch wel een beetje opmerkelijk. Wat is er gebeurd in de tussentijd, in de tijd tussen het uitbrengen van de initiatiefnota van de heer De Vries en het AO? In de initiatiefnota van de heer De Vries wordt Oost-Drenthe nadrukkelijk genoemd. De commissie-Krikke heeft ook geadviseerd om Oost-Drenthe aan te wijzen als krimpregio. Wat is er bij de Partij van de Arbeid gebeurd? Waarom haalt zij nu haar eigen initiatiefnota onderuit en zegt zij dat het advies van de commissie-Krikke niet juist is?</seg>
+            </u>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg11">Die initiatiefnota van de Partij van de Arbeid staat volledig overeind. Daarin staan een heleboel voorstellen waarmee de krimpgebieden en de anticipeerregio's zeer gediend zouden zijn. Dat geldt ook voor Oost-Drenthe. Wij vinden dat een heleboel elementen uit die nota zeker ook van toepassing zijn op Oost-Drenthe. Het gaat nu over de vraag of Zuidoost-Drenthe zal worden aangewezen als krimpregio. Hoe je het ook bekijkt en hoe je ook rekent, volgens de criteria die de minister hanteert komt Zuidoost-Drenthe daarvoor niet in aanmerking. Bovendien is er in die regio een heel grote stad: Emmen. Er wordt daar betwijfeld of de aanwijzing tot krimpregio daadwerkelijk iets zal toevoegen. Er is nog heel veel ontkenning in deze regio, naast mensen die het voorstel al wel hebben omarmd. Daarom zeg ik: laten we nu Noordoost-Friesland kandideren en over een aantal jaren verder kijken.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg12">Ik doe een beroep op de leden om het kort te houden. Dit is een VAO. Ik neem aan dat er is het algemeen overleg genoeg van gedachten is gewisseld.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg13">Ik wil nog een vervolgvraag stellen. De heer De Vries geeft aan dat de maatstaven van de minister nu blijkbaar anders zijn. Aanvankelijk had de heer De Vries in de initiatiefnota zijn eigen maatstaven neergelegd. Kan ik dan constateren dat de Partij van de Arbeid ervoor heeft gekozen om de maatstaven van de minister leidend te laten zijn, en niet die van de Partij van de Arbeid zelf, waardoor Oost-Drenthe nu buiten de boot valt?</seg>
+            </u>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg14">Wij zeggen nog steeds dat Zuidoost-Drenthe de nodige aandacht moet krijgen. Ik heb twee gemeenten genoemd die extra aandacht zouden verdienen. Wij vinden het aanwijzen van de totale regio als krimpgebied nu echter een stap te ver.</seg>
+            </u>
+            <u who="#HaykeVeldman" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg15">Voorzitter. Regio's in Nederland waar sprake is van een serieuze bevolkings- en huishoudingsdaling hebben grote problemen. Problemen op de woningmarkt, op de arbeidsmarkt, in het onderwijs en in het overeind houden van voorzieningen. Dat vraagt vooral om een lokale en regionale aanpak. De rijksoverheid kan daarbij ondersteunen en dat doen we ook met een krimpagenda. Faciliteren waar mogelijk, ondersteunen waar mogelijk, regels schrappen en vooral ook kennis delen. Dat allemaal gericht op een lokale aanpak, want lokaal maatwerk is de oplossing voor de problematiek.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg16">Maar waar mogelijk moeten we ook zorgen voor een gelijk speelveld. Waar we dat logisch kunnen realiseren, moeten we dat ook doen. Dat doen we op dit moment niet. De Achterhoek is aangewezen als krimpregio, voldoet aan de norm van 2,5% maar deelt nog niet mee in de krimpmaatstaf in het Gemeentefonds. Daarom dient mijn fractie de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat gemeenten in erkende krimpregio's in aanmerking komen voor de tijdelijke krimpmaatstaf in het Gemeentefonds;</note>
+               <note>overwegende dat de Achterhoek aan de hand van het bijgestelde criterium zich ook kwalificeert als krimpregio en dat de Kamer de wens heeft geuit om ook Noordoost-Fryslân toe te laten als krimpregio;</note>
+               <note>verzoekt de regering, gemeenten in alle gebieden die de officiële krimpstatus hebben, binnen het daarvoor bestaande budget in aanmerking te laten komen voor de tijdelijke krimpmaatstaf in het Gemeentefonds,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Veldman en Albert de Vries. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31757-65</note>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg17">Voorzitter. Naar aanleiding van het algemeen overleg hebben de provincies Zeeland, Groningen en Limburg aangegeven dat zij samen met het Rijk tot een samenwerkingsagenda willen komen. Omdat de uitvoeringsfase is gestart en ook gezien de omvang en de duur van de transitie is een blijvende rijksbrede inzet en betrokkenheid van groot belang. De samenwerkingsagenda moet meer bieden dan inventariseren, analyseren en kennis delen. Het Rijk heeft voorgesteld om de komende twee jaar daarin samen te werken. Het CDA acht het van groot belang dat je als betrouwbare overheid in dit soort zaken een langdurig partnership aangaat. Daarom dienen we de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat anticipeerregio's in het kader van een op krimp gericht beleid een zinvolle rol spelen op onder andere het gebied van bewustwording van de nadelige gevolgen van krimp en bevolkingsdaling;</note>
+               <note>constaterende dat anticipeerregio's hun nut hebben bewezen en dat anticiperen op krimp noodzakelijk zal blijven;</note>
+               <note>verzoekt de regering, het beleid ten aanzien van anticipeerregio's niet te beëindigen en een langjarig commitment uit te spreken ten aanzien van de aanpak van krimp en bevolkingsdaling,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Van Helvert en Slob. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31757-66</note>
+            </u>
+            <u who="#JohanHouwers" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg18">Voorzitter. We hebben inderdaad in het AO het nodige overleg gehad over krimp, een serieus probleem. Economische ontwikkeling is nodig. Krimp is niet alleen een probleem, de krimpgebieden hebben ook kansen, dus we moeten proberen er met elkaar niet alleen negatief over te spreken. Het is inderdaad een kwestie van lokaal maatwerk en soms ook van de markt die dingen kan oppakken.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg19">Maar dat is het niet alleen. We moeten ook vanuit het Rijk dingen doen. Dat doen we met elkaar ook. Als we dat doen, is het wel belangrijk dat er een gelijk speelveld is. Een aantal zaken zijn al genoemd, maar op één punt is nog niet ingegaan, namelijk het punt van de heffingsvermindering. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>van mening dat voor alle aangewezen krimpgebieden dezelfde rechten en plichten moeten gelden, ook juist inzake sloop van woningen;</note>
+               <note>van mening dat er door de Kamer per motie enkele krimpgebieden aan het lijstje zullen worden toegevoegd en dat ook de Achterhoek inmiddels is aangewezen;</note>
+               <note>overwegende dat daarvoor een aanpassing van de Wet maatregelen woningmarkt 2014 II nodig is;</note>
+               <note>overwegende dat in artikel 1.11, lid 2 onder b, de namen van de gemeentes in de overige krimpgebieden moeten worden toegevoegd;</note>
+               <note>overwegende dat in artikel 1.11, lid 5, is geregeld dat bij ministeriële regeling die aanpassing mogelijk is;</note>
+               <note>verzoekt de regering, de gemeentes in de overige krimpgebieden toe te voegen of anders die maatregelen te nemen die ertoe bijdragen dat voor alle krimpgebieden dezelfde heffingsvermindering van kracht wordt,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Houwers. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31757-67</note>
+            </u>
+            <u who="#BarryMadlener" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg20">Voorzitter. We hebben vorige maand een goed algemeen overleg gehouden over krimp. Daarbij hebben we gezien dat alle partijen de urgentie voelen om waar mogelijk de krimpregio's te steunen. De PVV hecht veel waarde aan het in stand houden van de sociale en maatschappelijke voorzieningen. Hiervoor hebben wij ook al diverse voorstellen gedaan. Ik noem als voorbeelden het mobiele postkantoor van collega Graus of onze wens om de infrastructuur in krimpregio's te verbeteren om zo de bereikbaarheid te bevorderen. Het is daarnaast van groot belang dat de woningvoorraad in krimpregio's niet verloedert of dat te veel woningen leeg staan. Om de corporaties hierbij te helpen, dien ik de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat de verhuurderheffing een enorme aanslag is op de investeringscapaciteit van woningcorporaties zowel in krimpregio's als daarbuiten;</note>
+               <note>verzoekt de regering, de verhuurderheffing te schrappen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Madlener en Graus. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-31757-68</note>
+            </u>
+            <u who="#BarryMadlener" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg21">Voor de dekking verwijs ik naar het verkiezingsprogramma van de Partij voor de Vrijheid.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg22">Er is nog een motie die rondgedeeld moet worden. Ik zie dat de minister direct daarna kan antwoorden.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg23">Voorzitter. Zowel uit de inbreng van de Kamerleden als uit het aantal ingediende moties blijkt het belang dat de Kamer met mij hecht aan goed omgaan met de krimpproblematiek. Het is inderdaad een van de meest dringende vraagstukken in grote delen van Nederland. Kortheidshalve zal ik mij beperken tot een reactie op de ingediende moties.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg24">Allereerst kom ik op de motie-Van Vliet op stuk nr. 60. Daarin wordt de regering verzocht te onderzoeken hoe woningcorporaties een rol kunnen spelen bij het tegengaan van verloedering en bij het bevorderen van leefbaarheid, een en ander met inachtneming van de kerntaak van woningcorporaties. Zo ken ik de heer Van Vliet ook. Een groot aantal van de maatregelen die ik heb genomen, waaronder de vermindering van de verhuurderheffing maar ook de precieze vormgeving van de Woningwet, waarmee extra ruimte wordt geboden in krimpregio's, is juist hierop gericht. Ik versta de motie dan ook zo dat de heer Van Vliet mij verzoekt om in de gesprekken met verschillende regio's de uitwerking van de regioplannen concreet te maken en de Kamer daarover te rapporteren. De motie als zodanig is ondersteuning van beleid. Ik zal er op deze manier mee omgaan.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg25">In de motie-Slob/Van Helvert op stuk nr. 61 wordt de regering verzocht het advies van het Team Midterm Review Bevolkingsdaling over de aanwijzing van krimpregio's volledig over te nemen en niet alleen de Achterhoek, maar ook Noordoost-Friesland, Zuidoost-Friesland en Oost-Drenthe aan te wijzen als krimpregio. In mijn brief en tijdens het AO heb ik beargumenteerd dat ik op dit punt afwijk van het advies van de commissie-Krikke. Ik vind namelijk dat de criteria voor krimp helder en robuust moeten zijn. Wat betreft het robuust zijn baseer ik mij mede op het Planbureau voor de Leefomgeving, dat zegt dat met name huishoudenskrimp — dat is het meest ingrijpend in een regio — toch echt wel een bepaalde drempel moet overschrijden. Het PBL wijst daarbij op een drempel 2,5%. Iedere andere drempel leidt tot een groter risico dat krimpregio's de ene keer de status wel krijgen en de andere keer niet. Dat is ook de reden waarom ik hecht aan de drempel van 2,5%. Daarom moet ik deze motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg26">De motie-Slob op stuk nr. 62 gaat uitgebreid in op de verdeling van de krimpmaatstaf binnen het Gemeentefonds. In die motie wordt de regering verzocht alle gemeenten met sterke krimp — van meer dan 2% inwonersdaling — per verloren inwoner boven deze drempel vanaf 2016 in aanmerking te laten komen voor de krimpmaatstaf. Zoals de heer Slob ongetwijfeld weet, is mijn collega Plasterk bezig met een herijking van het Gemeentefonds, ook van de krimpmaatstaf ter zake. Daarover vindt momenteel ook nog een consultatie plaats. De heer Plasterk zal in de meicirculaire met zijn voorstellen komen en daarover dan ongetwijfeld met de Kamer in debat gaan. Ik verzoek de heer Slob dus dringend om deze motie aan te houden tot het debat met de heer Plasterk heeft plaatsgevonden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg27">De heer De Vries heeft mede namens de heer Veldman een motie ingediend, waarin de regering wordt verzocht om bij de afspraken en convenanten met de krimpregio's een termijn te hanteren van ten minste vijf jaar. Dat is ongetwijfeld naar aanleiding van het feit dat ik in mijn brief in eerste instantie over twee jaar sprak, parallel aan de resterende raadsperiode. Ik heb in het AO aangegeven dat ik, indien de regio's daar prijs op stellen, graag een langere periode hanteer. Als ik de motie zo mag interpreteren dat de regio's die daar prijs op stellen die termijn van vijf jaar met mij kunnen afspreken — ik kan een regio moeilijk tegen haar zin gelukkig maken — beschouw ik die als een ondersteuning van het beleid.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg28">Dan kom ik bij de tweede motie van de heer De Vries, ook namens de heer Veldman. Die motie gaat in op de problematiek in Noordoost-Friesland en geeft aan dat die juist in deze regio zodanig is dat Noordoost-Friesland ook als krimpregio zou moeten worden aangemerkt. Ook ik ben natuurlijk benaderd door Noordoost-Friesland met het verzoek om deze regio vanwege de specifieke problematiek in aanmerking te laten komen voor deze status maar ook hier geldt de redenering die ik zojuist in de richting van de heer Slob gebruikte, namelijk dat ik hecht aan objectieve criteria. Anders wordt het toch een proces van: wie reist het meest af naar Den Haag om zijn argumenten over te brengen? Dan loop je ook het risico dat regio's op een bepaald moment in de tijd hun status zo maar weer verliezen. Alles afwegend, hoewel ik de inzet van Noordoost-Friesland begrijp, ontraad ik ook deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg29">De heer Veldman heeft samen met de heer De Vries een motie ingediend, waarin ook wordt ingegaan op de hantering van de krimpmaatstaf in het Gemeentefonds. Daarin wordt de regering verzocht om gemeenten in alle gebieden die de officiële krimpstatus hebben binnen het daarvoor bestaande budget in aanmerking te laten komen voor de krimpmaatstaf. Ik begrijp het dictum heel goed. Ik vind die ook plausibel, maar ook wat dit betreft wil ik procedureel zuiver zijn. Daarom verzoek ik de heer Veldman deze motie aan te houden tot de meicirculaire is gepubliceerd en de motie zo nodig — wellicht wordt de kwestie in de meicirculaire opgelost — in stemming te brengen na het debat met collega Plasterk over het Gemeentefonds.</seg>
+            </u>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg30">Ik snap dat dit de afspraken zijn maar we hebben een debat gehad met een minister die coördinerend is als het gaat om het krimpbeleid. Dit gaat echt over de krimpregio's. Als de motie één of twee weken wordt aangehouden, is het denkbaar dat het oordeel van minister Plasterk dan aan de Kamer wordt gemeld? Wachten tot de meicirculaire vind ik niet passen met het feit dat wij nu met een coördinerend minister spreken die over de krimp gaat. Ik vind dat wij dit soort dingen echt integraal moeten kunnen bespreken.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg31">Minister Plasterk is minister van Binnenlandse Zaken en Koninkrijksrelaties.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg32">Ik ben graag bereid om collega Plasterk te vragen de Kamer binnen twee weken een reactie te geven, voorzien van zijn visie op de motie.</seg>
+            </u>
+            <u who="#AlbertdeVries" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg33">Als de heer Veldman dit met mij eens is, houden wij de motie aan tot het advies van de minister van Binnenlandse Zaken bekend is.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg34">Op verzoek van de heer Veldman stel ik voor, zijn motie (31757, nr. 65) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg35">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#ArieSlob" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg36">Ik ben het met de heer De Vries eens dat, als hier een coördinerend minister staat, dit debat in principe met deze minister gevoerd zou moeten kunnen worden. Maar goed, ik ben ook bereid om mijn motie over de krimpmaatstaf aan te houden. Ik hoop dat hetzelfde geldt als voor de motie van de heer Veldman en de heer De Vries, namelijk dat minister Plasterk daarop een reactie zal geven.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg37">Ik zal hetzelfde verzoek overbrengen.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg38">Op verzoek van de heer Slob stel ik voor, zijn motie (31757, nr. 62) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg39">Daartoe wordt besloten.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg40">In de motie-Van Helvert/Slob op stuk nr. 66 wordt de regering verzocht, het beleid ten aanzien van anticipeerregio's niet te beëindigen en een langjarig commitment uit te spreken ten aanzien de aanpak van krimp en bevolkingsdaling. Het is niet mijn voornemen om het beleid ten aanzien van antipeerregio's te beëindigen. Het is wel mijn voornemen om, in lijn met het advies van de commissie-Krikke, het aantal anticipeerregio's te verminderen. Als ik de motie zo mag uitleggen dat op het in lijn met de commissie-Krikke verminderde aantal anticipeerregio's beleid zal worden gevoerd, zie ik haar als ondersteuning van het beleid. Daar heb ik echt even uitleg voor nodig. Als u bedoelt "handhaaf alle anticipeerregio's" dan zou ik de motie moeten ontraden.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg41">In de motie wordt de regering verzocht, het beleid ten aanzien van anticipeerregio's niet te beëindigen en een langjarig commitment uit te spreken ten aanzien van de aanpak van krimp en bevolkingsdaling. Als de minister nu vraagt hoe hij de motie moet lezen, zeg ik: zoals hij zelf naar aanleiding van een eerdere motie uitsprak. Als de regio's er zelf behoefte aan hebben en daarover in gesprek willen gaan, dan zou het op die manier moeten worden opgepakt. Als de minister de motie zo zou willen oppakken, denk ik dat wij er samen heel goed uitkomen.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg42">Dat is een derde variant. Ik heb in lijn met de commissie-Krikke aangegeven voor welke gebieden ik de anticipeerstatus wil handhaven, en dus ook de ondersteuning waar de heer Van Helvert om vraagt. Ik voel er niet voor om daarbovenop nog een mogelijkheid te creëren in de trant van "u vraagt, wij draaien", voor eventuele andere regio's die zich zouden aanmelden. Dat is mij overigens ook niet bekend. Ik formuleer het als volgt. Als het gaat om de regio's die door de commissie-Krikke zijn aangewezen, is de motie ondersteuning van beleid. Als het de bedoeling is om andere regio's toe te voegen, moet ik de aanneming ervan ontraden.</seg>
+            </u>
+            <u who="#MartijnvanHelvert" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg43">Nee, het gaat hier niet om het toevoegen van regio's. Zoals ik bij de indiening van de motie heb gezegd — ook naar aanleiding van wat de provincies Groningen, Zeeland en Limburg nota bene hebben geschreven — gaat het erom het commitment, waarvan u hebt gezegd dat u het met twee jaar wilt verlengen, verder te verlengen, omdat de omvang en de duur van de transitie daarom vragen.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg44">Ik formuleer het zo: als het niet gaat om het toevoegen van regio's, anders dan die genoemd door de commissie-Krikke als regio's die de anticipeerstatus moeten behouden, is de motie ondersteuning van beleid.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg45">De heer Houwers heeft een motie ingediend op stuk nr. 67 waarin hij de regering verzoekt om gemeenten in de overige krimpgebieden toe te voegen, of anders die maatregel te nemen die ertoe bijdraagt dat voor alle krimpgebieden de heffingsvermindering van kracht wordt. Het gaat om de vermindering van de verhuurderheffing. Bij het in werking treden van de vermindering van de verhuurderheffing was het nadrukkelijk de bedoeling een helder investeringsklimaat te creëren, in ieder geval voor de periode tot 2017. Het aanbrengen van een wijziging in de tussentijd maakt daar inbreuk op, waardoor het aantal regio's, dus het aantal corporaties dat er een beroep op kan doen, groter zou worden. Om die reden moet ik deze motie ontraden.</seg>
+            </u>
+            <u who="#JohanHouwers" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg46">Er veranderen weleens vaker dingen in dit land. Dit gaat over het aanwijzen van extra krimpgebieden. Waarom zou het niet mogelijk zijn om die woningcorporaties die bijdragen aan een betere leefbaarheid, bijvoorbeeld door de sloop van woningen, daarvoor de heffingsvermindering te geven? Ik zou zeggen: gelijke monniken, gelijke kappen. Waarom past u dat in dit geval niet toe en voegt u bijvoorbeeld wel de Achterhoek toe en gaat u straks wel Friesland enzovoort toevoegen? Kortom, waarom geldt het principe "gelijke monniken, gelijke kappen" niet?</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg47">Ik heb al gezegd dat ik het van belang vind dat de vermindering van de verhuurderheffing gedurende de periode waarin deze geldig is, tot 2017, geldt voor de krimpregio's die daarvoor in aanmerking kwamen op het moment dat de vermindering inging. Dat betekent dus ook dat de Achterhoek in deze periode van de heffingsvermindering daarvoor nog niet in aanmerking komt. De motie waarin de heer Houwers mij oproept om de toepassing nog verder uit te breiden, ontraad ik, omdat ik het niet juist vind om een pot waar nu investeringsbeslissingen op gebaseerd worden, opeens over een grotere doelgroep te gaan verspreiden. Dan creëer je onzekerheid en dat vind ik onwenselijk.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg48">Tot slot de heer Houwers.</seg>
+            </u>
+            <u who="#JohanHouwers" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg49">In die regeling staat ook dat de minister, wanneer er meer gebruik wordt gemaakt van die pot dan gewenst, in staat is om per vermindering beperkingen op te leggen. Ik zou dus denken dat het probleem zich op die manier oplost. Ik vind dat de minister onvoldoende recht doet aan de uitspraak van de Kamer zo meteen dat er wellicht extra krimpregio's komen. Als het alleen een naam is, dan heb je er helemaal niets aan.</seg>
+            </u>
+            <u who="#StefBlok" ana="#regular" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg50">Het is niet alleen een naam, want het heeft gevolgen voor het Gemeentefonds. Mocht er na 2017 weer een vermindering van de verhuurderheffing zijn, dan neem ik aan dat op dat moment gekeken wordt naar de krimpregio's. Het gaat mij erom dat er voor de heffingsvermindering tot 2017 nu berekeningen worden gemaakt en nu investeringsbeslissingen worden genomen. In dat proces wil ik niet tussentijds inbreken.</seg>
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg51">De heer Madlener verzoekt er in zijn motie om, de verhuurderheffing te schrappen. Hij vindt de dekking daarvoor, zo begrijp ik uit zijn toelichting, in het verkiezingsprogramma van de PVV. Nu is het verkiezingsprogramma van de PVV niet omgezet in regeringsbeleid en dat leidt ertoe dat dit een ongedekte motie is. Een ongedekte motie moet ik altijd ontraden.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2015-05-20-tweedekamer-3.seg52">Dank u wel. Dan zijn wij aan het einde gekomen van dit VAO. Over de ingediende moties zullen we volgende week dinsdag stemmen.</seg>
+            </u>
+            <note>De vergadering wordt van 10.49 uur tot 11.00 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2015-10-01 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2015-10-01 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 9, Session 10 (2015-10-01)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 9, Session 10 (2015-10-01)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="9">Meeting 9</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="10">Session 10</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="8">8 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="8">8 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1393">1393 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1393">1393 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2015-10-01">2015-10-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="17"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="8"/>
+               <tagUsage gi="note" occurs="17"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-10-01">2015-10-01</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Wijzigingswet financiële markten 2016</note>
+            <note>(Zie wetgevingsoverleg van 7 september 2015.)</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg1">Een hartelijk woord van welkom aan de minister van Financiën. We hebben drie deelnemers van de zijde van de Kamer. De eerste spreker is mevrouw Aukje de Vries.</seg>
+            </u>
+            <note>De algemene beraadslaging wordt geopend.</note>
+            <u who="#AukjedeVries" ana="#regular" xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg2">Voorzitter. Een korte heropening van het debat die wij gebruiken om een motie in te dienen. De VVD heeft al een amendement ingediend om onder andere de telecomsector niet onder de regels van de Wet op het financieel toezicht te laten vallen. Het CDA heeft een motie ingediend om op basis van een convenant een vrijstelling te regelen. Die is door het CDA aangehouden, maar wij willen dat de sector duidelijkheid krijgt en ook de kans krijgt om eventueel een gedragscode af te sluiten, zodat men niet te maken krijgt met de administratieve lasten volgend uit de Wft en ook de consumenten daar geen last van hebben. Ik dien de volgende motie in.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>constaterende dat door een uitspraak van de Hoge Raad op 12 juni 2014 de telecomsector voor een toestel op afbetaling onder de regels van de Wet financieel toezicht (Wft) valt;</note>
+               <note>constaterende dat de Richtlijn 2008/48/EG (Richtlijn Consumentenkrediet) de mogelijkheid biedt voor vrijstelling van bijvoorbeeld het aanbieden van abonnement met telefoon;</note>
+               <note>overwegende dat de Wft-regels in dit geval leiden tot extra administratieve lasten en regeldruk voor bedrijven en consumenten;</note>
+               <note>overwegende dat er met de telecomsector al wordt gesproken over het voorkomen van problematische schulden en over preventiemaatregelen;</note>
+               <note>verzoekt de regering, de telecomsector uit te nodigen om als sector tot een gedragscode te komen waarin afspraken worden gemaakt over de preventie en aanpak van "mobiele schulden";</note>
+               <note>verzoekt de regering tevens, indien voor 1 januari 2016 tot een gedragscode wordt gekomen die zij voldoende in lijn acht met bovengenoemd doel, een vrijstellingsregeling vast te stellen voor de telecomsector met betrekking tot de Wft,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door het lid Aukje de Vries. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-34198-16</note>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg3">Staat er "1 januari 2016" of "1 januari 2017"?</seg>
+            </u>
+            <u who="#AukjedeVries" ana="#regular" xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg4">2016. Als u "2017" hebt gehoord, heb ik onduidelijk gesproken.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg5">Ik heb nog een laatste opmerking. Onze voorkeur gaat uit naar het amendement dat wij zelf hebben ingediend. Wat ons betreft is dit een second-bestoptie. Net zoals de minister in het nader verslag gaan wij ervan uit dat mochten er andere sectoren zijn met een vergelijkbare problematiek, zoals uitgeverijen, hun die mogelijkheid ook geboden wordt in de toekomst.</seg>
+            </u>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg6">Dank u wel. De heer Nijboer ziet af zijn spreektijd. Het woord is aan de heer Omtzigt, tevens de laatste spreker van de zijde van de Kamer.</seg>
+            </u>
+            <u who="#PieterOmtzigt" ana="#regular" xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg7">Voorzitter. Het debat ging eigenlijk over twee springende punten. Het eerste punt heeft mevrouw De Vries net al aangehaald. Dank voor de uitgebreide beantwoording op het tweede punt inzake de telecomsector en de Wft. Zoals mevrouw De Vries al opmerkte, aarzelen wij. De minister geeft aan dat het convenant noch een gedragscode op een of andere manier kan worden afgedwongen. De minister heeft hierover een vrij uitgebreide verhandeling gegeven. Aangezien wij wat meer problematische schulden bij de telecomsector zien dan wij hadden verwacht, weten wij nog niet of dat voldoende biedt, zeker niet als mevrouw De Vries zegt dat consumenten geen last moeten hebben van het onder de Wft vallen. Je hebt er last van omdat wij praktijken willen voorkomen die soms plaatsvinden — niet altijd en niet door iedereen — en die ertoe leiden dat een aantal jongeren problematisch in de schulden komen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg8">Ik wil terugkomen op het hoofdpunt: de roulatie van de accountants. Dank aan de regering om dit op een nette manier te regelen via een nota van wijzing. Ook dank dat het op korte termijn op deze manier in de wet terechtkomt. Op deze manier staat het er gewoon netjes in. Mij valt wel op dat al die tijd onopgemerkt lijkt te zijn gebleven — in de Kamer, bij de Raad van State en bij de regering — dat er een mogelijk conflict was. De regering geeft aan dat er inderdaad nog één advies lag met betrekking tot een andere wet. Zij is daar heel eerlijk over. Ik wil echter nog één opmerking maken. Er zijn bedrijven die op stel en sprong van accountantskantoor veranderd zijn, omdat zij dachten dat het amendement-Van Vliet op 1 januari 2016 in werking zou treden. Dat amendement zal nu dus niet in werking treden. Daardoor zal de verordening rechtstreekse werking hebben en gaat de wettelijke termijn van tien jaar in de meeste gevallen vanaf 2014 in. Voor 2024 zullen bedrijven dus wisselen van accountantskantoor. Lopen wij nu enig gevaar op claims? Deelt de minister de mening dat een aantal bedrijven door deze snelle wisseling wellicht even minder goed gecontroleerd is, omdat iedereen heel snel van accountant is gewisseld en er dus geen rustig overgangsproces heeft plaatsgevonden?</seg>
+            </u>
+            <u who="#JeroenDijsselbloem" ana="#regular" xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.u7">
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg9">Voorzitter. Ik zal eerst ingaan op het punt dat de heer Omtzigt heeft aangesneden en daarna op de motie van mevrouw De Vries.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg10">De Nederlandse wetgever — dat zijn de Kamer en het kabinet — heeft op het punt van accountancywetgeving op een aantal punten besloten om eerder stappen te zetten en om ook verdergaande stappen te zetten. Al per 1 januari 2013 is er nationale wetgeving tot stand gekomen, waarin amendementen van, als ik het mij goed herinner, de leden Plasterk en Van Vliet zijn opgenomen. Die amendementen zien op zaken als kantoorroulatie en scheiding van advies en accountancy. Daarin werd ook vastgelegd — dat is het punt waar de heer Omtzigt naar vraagt — hoeveel tijd bedrijven krijgen om te switchen. In die nationale wetgeving stond een overgangstermijn van drie jaar. Er is op zichzelf niets onoorbaars gebeurd. Het staat de Nederlandse wetgever natuurlijk vrij om dat in nationale wetten te zetten, zolang er geen Europese verordeningen met rechtstreekse werking zijn. In 2014, dus nadat die wet al van kracht was, is er een Europese verordening gekomen waarin een veel langere overgangstermijn wordt gegeven. Dat is niet door ons opgemerkt en overigens ook niet door de sector. Het is eigenlijk op geen enkele plek opgemerkt. Als bedrijven dat hadden opgemerkt en daarom hun roulatie hadden uitgesteld, dan was dat keurig in overeenstemming met de Europese wet geweest en die gaat in dit geval boven de Nederlandse bepalingen. De heer Omtzigt vroeg of er claims komen. Dat weet ik uiteraard niet. Ik weet wel dat de Nederlandse wetgever stappen heeft gezet die prima verdedigbaar zijn, want op dat moment was er nog geen Europese wetgeving.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg11">De heer Omtzigt vroeg ook: die bedrijven zijn wel heel snel gewisseld, is dat niet ten koste van de kwaliteit van het accountantsverslag gegaan? Dat denk ik niet. Die discussie speelde al langer. Ook in de Nederlandse wetgeving was een overgangsperiode van drie jaar voorzien. Zo onmogelijk was dat dus niet. De Europese overgangsregeling is veel en veel langer. Je kunt daar kritisch naar kijken, maar het is zoals het is.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg12">Ik kom op de motie van mevrouw De Vries. Dat is de motie op stuk nr. 16. De heer Omtzigt heeft inderdaad een motie ingediend waarin hij eigenlijk het idee aandraagt om eens met de sector te gaan praten om tot een convenant of een gedragscode — daar was nog wat discussie over — te komen, om zo te voorkomen dat de AFM de Wft moet gaan handhaven in deze sector. Het gaat dan vooral om telefoonabonnementen waarin het aankoopbedrag voor een telefoon versleuteld is. Die motie is nu aangehouden. De motie die mevrouw De Vries heeft ingediend, is weer net iets anders. Zij verzoekt de regering daarin om met de telecomsector te komen tot een gedragscode. Ik moet het preciezer zeggen, want de motie is ook preciezer: de telecomsector moet met een gedragscode komen. Wij kunnen die sector natuurlijk daartoe aanmoedigen. Als die gedragscode wordt gerealiseerd voor 1 januari, dan wordt de regering gevraagd om een vrijstelling voor de Wft-verplichtingen mogelijk te maken.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg13">Zoals ik al heb gezegd in reactie op de motie-Omtzigt, ben ik bereid om die route te bewandelen, maar ik plaats daar wel kanttekeningen bij. Dat zijn eigenlijk dezelfde kanttekeningen als de heer Omtzigt in zijn termijn hierbij plaatste. Voor mij blijft vooropstaan dat de belangen die in de Wft zijn geborgd, voldoende stevig en voldoende kwalitatief onderbouwd terugkomen in de gedragscode. De gedragscode biedt natuurlijk de mogelijkheid voor maatwerk voor de sector, en dat is ook prima. De achterliggende doelen: transparantie en het voorkomen van overcreditering et cetera, moeten echt goed geborgd zijn in de code.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg14">Mijn toetssteen zal zijn dat de gedragscode voldoende concrete aangrijpingspunten heeft voor handhaafbaarheid. Dan kun je daarna nog kijken door wie en hoe het wordt gehandhaafd. Die vraag parkeer ik maar even. De gedragscode moet handhaafbaar zijn, want anders doen we beloftes maar dan hebben we geen idee of men zich eraan houdt en wat de betekenis daarvan is.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg15">Verder zal gelden dat de vrijstelling wordt vormgegeven binnen de mogelijkheden die de Wft en de richtlijn consumentenkrediet daarvoor bieden. Dat is uiteraard een gegeven.</seg>
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg16">Voor mij is 1 januari wel een harde deadline. Indien de sector voor 1 januari geen adequate gedragscode opstelt, met de genoemde waarborgen, brede aansluiting en handhaving, en zich daaraan committeert, zal de AFM de Wft-bepalingen voor de sector onverkort handhaven. Met die strenge kanttekeningen erbij laat ik het oordeel over aan de Kamer.</seg>
+            </u>
+            <note>De algemene beraadslaging wordt gesloten.</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair" xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.u8">
+               <seg xml:id="ParlaMint-NL_2015-10-01-tweedekamer-10.seg17">Dank u wel. Dinsdag stemmen wij over het wetsvoorstel, het amendement en de motie. Als de staatssecretaris verschijnt, gaan wij aansluitend meteen door met het restant van de Algemene Financiële Beschouwingen. Ik schors tot dat moment.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

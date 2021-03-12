@@ -1,0 +1,158 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-03-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-03-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 61, Session 5 (2020-03-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 61, Session 5 (2020-03-10)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="61">Meeting 61</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="5">Session 5</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="21">21 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="21">21 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1711">1711 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1711">1711 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-03-10">2020-03-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="31"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="21"/>
+               <tagUsage gi="note" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-03-10">2020-03-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Vragenuur: Vragen Paternotte</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg1">Dan ga ik nu naar de heer Paternotte namens D66, die vragen stelt over zijn onbeantwoorde schriftelijke vragen over het heffen van €0,25 per vliegticket voor een garantiefonds. De vraag wordt gesteld aan de minister van Economische Zaken, die ik van harte welkom heet. Hij vervangt de minister van Infrastructuur en Waterstaat.</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg2">Voorzitter. Deze vragen hadden wat mij betreft nooit in het vragenuur moeten komen. Ze zijn in november gesteld, naar aanleiding van het faillissement van Thomas Cook. Op 12 december kwam een uitstelbrief, waarin werd aangekondigd dat er antwoord zou komen binnen zo kort mogelijke termijn. Sindsdien is er nog een luchtvaartmaatschappij failliet gegaan. De antwoorden kwamen zojuist, een kwartier voor het vragenuur. De eerste vraag die ik aan het kabinet wil stellen, is: wat heeft het kabinet hiervan geleerd?</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg3">Toch is er wel extra reden om het juist vandaag hierover te hebben, want het coronavirus raakt de luchtvaartindustrie hard. Vorige week was de klap van corona het laatste zetje voor Flybe, een maatschappij met een forse operatie op Schiphol. Wie met Flybe zou vliegen als onderdeel van een pakketreis, hoeft zich geen zorgen te maken. Die kan geld terug krijgen uit het garantiefonds. Voor wie een los ticket boekt of een boekingswebsite bezoekt, geldt precies het tegenovergestelde: geld weg. Wie al op reis was, moest zelf regelen en betalen om terug te komen. Steeds meer mensen regelen hun reizen zelf, via websites, en er worden steeds minder beschermde pakketreizen gekocht. Dan moet de gedupeerde een nieuw ticket kopen om thuis te komen, zoals Jacomien Pot, die aan het Dagblad van het Noorden vertelde: "Ik heb voor €300 tickets gekocht om in mei met mijn 13-jarige zoon Lars naar Londen te vliegen. Ik ga er vanuit gaat dat ik mijn geld kwijt ben."</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg4">De vraag is extra relevant nu de luchtvaartsector het moeilijk heeft. In de afgelopen drie jaar waren er al zestien faillissementen in Europa, en nu is er het coronavirus, waardoor meerdere luchtvaartmaatschappijen naar verluidt op omvallen staan. Om die reden zeggen bijvoorbeeld de ANWB en de Consumentenbond: trek dat nou gelijk; breng met een kwartje per vliegticket al die vliegtickets onder het garantiefonds, dan hebben alle reizigers dezelfde rechten. Denemarken doet dat ook.</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg5">Voorzitter. Ik heb drie vragen aan de minister. Een, vindt u het logisch dat pakketreizen beschermd zijn, maar dat de consument bij vliegreizen geen rechten heeft?</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg6">Kan de minister, gezien de situatie veroorzaakt door het coronavirus, een analyse maken van de impact die de situatie in de luchtvaart heeft op consumenten en kijken of er Nederlanders in de problemen zijn gekomen door het faillissement van Flybe?</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg7">En drie, is hij bereid om met de Europese collega's te kijken of het niet wenselijk is om de Europese consumentenbescherming zoals die in de richtlijn is opgenomen, uit te breiden, dus niet alleen voor pakketreizen maar ook voor losse tickets?</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg8">Dan is nu het woord aan de minister.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg9">Dank, voorzitter. Het is vervelend dat de vragen tot onlangs niet beantwoord konden worden. De verklaring is dat er eerst gewacht is op een onderzoek van de Europese Commissie naar passagiersrechten en insolventie van luchtvaartmaatschappijen. Bovendien moest er contact komen met de initiatiefnemers van het voorstel. Die hebben in januari een inhoudelijk voorstel gestuurd. En het heeft inderdaad tot een halfuur geleden geduurd voordat de antwoorden er waren.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg10">En we zijn nu in maart.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg11">Ja, dat klopt. Zeker. Het was wenselijk geweest om het sneller te doen, maar ik kan niet beoordelen of het ook mogelijk was geweest om het sneller te doen. Maar het is in elk geval iets waar het kabinet naar moet blijven streven. Dat is hier in elk geval de les.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg12">En anders staat u hier.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg13">Ik doe dat ook met liefde. Er is geen groter genoegen dan het beantwoorden van vragen van deze Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg14">Voorzitter. Of ik het logisch vind? De logica is de volgende. Er is een verschil in dekking per type consument. Bij een pakketreis zit de verzekering in de prijs, in het pakket. Bij een los ticket bepaalt de consument zelf of hij een verzekering afsluit. Maar in beide gevallen is het verzekerbaar. Daarbij organiseert de koper van het losse ticket in feite zijn eigen garantiefonds, door er een verzekering voor af te sluiten. Dat doen ook allerlei mensen. Daarom ziet mijn collega van IenW geen aanleiding om dit van bovenaf op te leggen. Het is aan consumenten zelf om die afweging te maken. Die afweging kan ook. Die wordt door de markt gefaciliteerd. Daarom ziet mijn collega ook geen aanleiding om daarover te praten met de EU-collega's. Immers, als je zelf iets niet nodig vindt, ga je ook niet bij je collega's lobbyen of zij zich daar toch in willen voegen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg15">In mijn ogen is het wel een verstandige suggestie van de heer Paternotte om te bezien wat dit kan betekenen in relatie tot het coronavirus. Dat wil ik namens de minister van IenW dan ook toezeggen. Ik zeg wel dat dit een heel andere kwestie is. In de eerste plaats gaat het natuurlijk niet om organisaties die failliet gaan, maar om vluchten die niet doorgaan. Ik denk dat het voor de minister van IenW goed mogelijk is om voor deze Kamer inzichtelijk te maken wat daarbij de gang van zaken is en op welke manier dit zich verhoudt tot de belangen van de consument.</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg16">Dank. Goed dat er een analyse komt van de impact van de huidige situatie op de consument. Wat mij betreft gaat het niet alleen om vluchten die niet doorgaan vanwege het coronavirus, want daarvoor bestaan natuurlijk regels. Er geldt een zorgplicht, ook voor luchtvaartmaatschappijen. Het gaat juist ook om maatschappijen die failliet gaan en daarna geen enkele zorgplicht meer hebben. Wat gebeurt er in dat soort gevallen? Dat gebeurt nu bij Flybe. Het zou ook bij andere maatschappijen kunnen gebeuren.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg17">Zeker.</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg18">Want over veel Europese maatschappijen wordt gezegd dat zij op omvallen staan. In de antwoorden op de schriftelijke vragen die een kwartier voor het vragenuur kwamen, noemde de minister dat mensen zichzelf kunnen verzekeren. U noemt dat nu ook. Maar heel veel websites en maatschappijen bieden dat helemaal niet actief aan. KLM en Transavia doen dat bijvoorbeeld niet op hun website. Hoe moet je dat als consument dan weten? Ja, je kunt elke verzekering overal zoeken, maar is het redelijk om bij pakketreizen te zeggen "het wordt helemaal voor u geregeld" terwijl er bij losse vliegtickets op reiswebsites, die daar heel erg op lijken, wordt gezegd "dat moet u helemaal zelf uitzoeken"? Daarnaast weet u waarschijnlijk dat dat soort verzekeringen vaak enorm duur zijn in vergelijking met het ticket dat mensen zelf kopen, waardoor bijna niemand ze gebruikt.</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg19">In de antwoorden werd ook nog genoemd dat je met een creditcard kunt betalen en dat je dan ook beter beschermd bent, maar de meeste Nederlanders hebben geen creditcard. Dus ik zou toch willen vragen of de minister erkent dat hier een gat zit in de bescherming van deze consumenten.</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg20">En dan ten aanzien van de beantwoording van de vragen zelf. Het is mooi dat er in januari nog een uitkomst van een onderzoek van de Europese Commissie kwam. Ik zag het niet terug in de antwoorden. Kunnen we in ieder geval met elkaar afspreken dat het gemeld wordt als er een reden is om vragen later te beantwoorden? Meestal lees ik dan dat er nog interdepartementale afstemming nodig is. Nu lazen we helemaal niets. Het lijkt mij dat de Kamer op zijn minst te horen kan krijgen waarom een antwoord uitblijft. Kan de minister beloven dat hij zijn best hiervoor zal doen, maar ook dat het in de toekomst simpelweg niet meer gebeurt?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg21">Het eerste wel, het tweede niet. Ik kan natuurlijk nooit beloven dat het nooit meer gebeurt, maar ik vind het een buitengewoon goede handelwijze die de heer Paternotte hier voorstelt. Het lijkt me goed en ik zal dat ook aan mijn collega overbrengen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg22">Hij zegt nu: dat doet bijna niemand, mensen moeten dat helemaal zelf uitzoeken en is dat nou redelijk? Ik zou het als volgt willen zeggen. De retourvraag is natuurlijk of de liberaal Paternotte het redelijk vindt dat de overheid besluit dat iemand voortaan verplicht verzekerd is en daar dus ook voor betaalt in plaats van dat hij daarin zelf keuzevrijheid heeft. De vraag die de heer Paternotte vervolgens stelt, luidt: is het nou eigenlijk wel toegankelijk; word je daar goed over voorgelicht? Ik stel voor dat mijn collega van IenW die punten meeneemt in de evaluatie die ik net heb toegezegd. Dan gaat het om vragen als: is het waar dat consumenten dat moeilijk kunnen vinden? Is het waar dat bijna niemand dat doet? En als dat zo is, wat zou daar dan aan gedaan kunnen worden? Dus dat is een toezegging die ik koppel aan de vorige toezeggingen. Dat zal in één brief verschijnen, hopelijk voor het AO Luchtvaart op 26 maart, waar de heer Paternotte hier nogmaals met mijn collega over in gesprek kan gaan.</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg23">Minister Wiebes is een groot voorstander van logica. Dus ik zou het toch nog een vraag willen stellen. Als je een pakketreis boekt, dan geldt daar wettelijk verplicht een garantiefonds voor, waardoor je geen enkel risico loopt, maar als je via diezelfde website een los vliegticket boekt of een combinatie met een huurauto, dan geldt daar geen enkele garantie voor. Vindt hij dat nou logisch?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg24">Een los ticket is iets anders dan een pakketreis. Vindt de heer Paternotte het logisch om consumenten een keuzemogelijkheid te onthouden, puur en alleen om iets gelijk te maken?</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg25">Als het gaat om een kwartje om ervoor te zorgen dat mensen niet het risico lopen dat ze stranden aan de andere kant van de wereld, lijkt me het een heel verstandige maatregel om ervoor te zorgen dat het voor de consument helemaal duidelijk is.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg26">Dan lijkt het me nuttig dat daarover op 26 maart wordt gesproken.</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg27">Het zou leuk zijn als de minister daarbij is, maar ik geloof dat dat niet het geval zal zijn.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg28">Nou, hij zei net dat hij graag naar de Kamer komt.</seg>
+            </u>
+            <u who="#JanPaternotte" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg29">Bij dezen is de minister uitgenodigd voor het algemeen overleg Luchtvaart.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg30">Ik ben zeer vereerd.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2020-03-10-tweedekamer-5.seg31">Goed, dank u wel. Daarmee zijn wij aan het einde gekomen van dit vragenuur. Ik schors de vergadering voor enkele ogenblikken. Dan gaan we daarna stemmen.</seg>
+            </u>
+            <note>De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

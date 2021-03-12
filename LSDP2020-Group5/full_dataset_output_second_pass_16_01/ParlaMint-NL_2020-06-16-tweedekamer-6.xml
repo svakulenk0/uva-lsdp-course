@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2020-06-16 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-06-16 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 83, Session 6 (2020-06-16)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 6 (2020-06-16)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="83">Meeting 83</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="13">13 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="13">13 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="305">305 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="305">305 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-01">2021-02-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2020-06-16">2020-06-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="16"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="13"/>
+               <tagUsage gi="note" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-06-16">2020-06-16</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg1">Dan geef ik nu het woord aan de heer De Groot namens D66.</seg>
+            </u>
+            <u who="#TjeerddeGroot" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg2">Voorzitter. Ik wil graag mede namens het CDA verzoeken om de stemmingen onder punt 6 met een week uit te stellen. Nee, het is punt 14; neem me niet kwalijk.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg3">Punt 14, ja.</seg>
+            </u>
+            <u who="#TjeerddeGroot" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg4">De moties ingediend bij het debat over onderzoeksresultaten over COVID-19 bij nertsen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg5">Heeft iemand daar bezwaar tegen? Nee? Dan stellen we de stemmingen bij agendapunt 14 uit.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg6">Mevrouw Ouwehand namens de Partij voor de Dieren.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg7">Voorzitter, dank u wel. Nu de stemmingen bij 14 een week worden uitgesteld, trek ik mijn amendement op stuk nr. 7 bij agendapunt 20, Wijziging van de begrotingsstaat van het Ministerie van Landbouw, Natuur en Voedselkwaliteit, voorlopig even in. Ik weet dat dat definitief is, maar wij komen met dit plan terug nadat de Kamer zich heeft uitgesproken over de moties.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg8">Het amendement-Ouwehand (stuk nr. 7 (35452)) is ingetrokken.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg9">Ik stel vast dat daarmee wordt ingestemd.</seg>
+            </u>
+            <note>Dank u wel.</note>
+            <note>Meneer Baudet, u wil ook wat vragen? Doet u dat in de microfoon. De heer Baudet namens Forum voor Democratie.</note>
+            <u who="#ThierryBaudet" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg10">Ik wil graag een hoofdelijke stemming over onze motie over biomassa (32813, nr. 515), omdat ik denk dat het ontzettend belangrijk is om eens te weten waar iedereen staat.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg11">Daar gaan we straks over stemmen. Is dat het verzoek, meneer Baudet?</seg>
+            </u>
+            <u who="#ThierryBaudet" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg12">Ja.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg13">Oké. Als niemand daar bezwaar tegen heeft, dan wordt deze motie toegevoegd aan de lijst van hoofdelijke stemmingen. De heer Van Otterloo of mevrouw Van Brenk? U staat op mijn lijstje. U zou een motie aanhouden.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg14">Voorzitter, ik had het in de pauze al even bij de Griffier gemeld, maar ik meld het nu graag aan alle collega's. De motie 34919 op stuk nr. 62 bij de stemmingen onder punt 23, het notaoverleg over vastgoed Defensie, houden we graag aan. Die gaat over de Westerscheldetunnel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair" xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg15">Op verzoek van de heer Van Otterloo stel ik voor zijn motie (34919, nr. 62) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-16-tweedekamer-6.seg16">Daartoe wordt besloten.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
