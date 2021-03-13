@@ -3,7 +3,7 @@ import pandas as pd
 def parse(files):
     df = pd.DataFrame()
     for f in files:
-        df_t = pd.read_csv(f, sep='\n', names=['Speech'])
+        df_t = pd.read_csv(f, sep='\n', names=['utterance'])
         df_t['Speaker'] = f.strip('.txt')
         df = pd.concat([df, df_t])
     df.reset_index(drop=True, inplace=True)
