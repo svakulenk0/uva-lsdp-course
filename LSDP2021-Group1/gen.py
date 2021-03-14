@@ -14,6 +14,8 @@ from nltk.corpus import stopwords
 from sklearn.linear_model import LogisticRegression
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn import svm
+from collections import Counter
+
 
 # Cleans string from JSON leftovers and interpunction
 def clean_text(text):
@@ -37,13 +39,14 @@ def train_MLR(xtrain, ytrain, xval, model='lr'):
         print('Wrong model type passed, choose for lr or svm. \n Training lr instead.')
         model = 'lr'
     elif model == 'lr':
-        clf = OneVsRestClassifier(LogisticRegression(), n_jobs=-1)
+        clf = OneVsRestClassifier(LogisticRegression())
     elif model == 'svm':
         clf = OneVsRestClassifier(svm.SVC(C = 1, probability=True, kernel = 'linear', degree=3), n_jobs=-1)
     # we fit on a copy, to avoid writing to protected memory
     clf.fit(xtraincopy, ytrain)
     y_pred = clf.predict(xval)
-    return y_pred
+    return y_pred, clf
+
 
 # Make genre dataset usable.
 def preprocess(meta):
@@ -91,3 +94,53 @@ def preprocess(meta):
     # Remove movies with no genres 
     movies_new = movies[~(movies['genre_new'].str.len() == 0)]
     return movies_new, new_genres_df
+
+def nw_acc(yval,ypred):
+    score = 0
+    for i,j in zip(yval,ypred):
+        if np.dot(i , j) / len(i) * 100 > 0:
+            score +=1
+    return score/ len(yval)
+
+def get_est(yval,ypred):
+    test = []
+    for i,j in zip(yval,ypred):
+        test.append(np.dot(i , j) / len(i) * 100)
+    return test
+
+def norma(ham, genre_counts):
+    norm = {}
+    dicts = {}
+    genre_counts.reset_index(drop=True, inplace=True)
+    for i in range(len(genre_counts)):
+        dicts[genre_counts["Genre"][i]] = genre_counts["Count"][i]
+        
+    for genre in ham.keys():
+        temp = ham[genre] / dicts[genre]
+        norm[genre] = temp
+    
+    return norm
+
+def over_rep(est, multilabel_binarizer, yval, y_pred):
+    kaas = []
+    ham = []
+    for i in range(len(est)):
+        if est[i] < 1:
+            kaas.append(multilabel_binarizer.inverse_transform(yval)[i])
+            ham.append(multilabel_binarizer.inverse_transform(y_pred)[i])
+    
+    kaas1 = list(sum(kaas, ()))
+    ham1 = list(sum(ham,()))
+    return Counter(kaas1), Counter(ham1)
+
+def rescale(lst, val):
+    tot = []
+    for l in lst:
+        nlist = []
+        for item in l:
+            if item >= val:
+                nlist.append(int(1))
+            else:
+                nlist.append(int(0))
+        tot.append(nlist)
+    return np.array(tot)
