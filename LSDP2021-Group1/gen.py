@@ -39,7 +39,7 @@ def train_MLR(xtrain, ytrain, xval, model='lr'):
         print('Wrong model type passed, choose for lr or svm. \n Training lr instead.')
         model = 'lr'
     elif model == 'lr':
-        clf = OneVsRestClassifier(LogisticRegression())
+        clf = OneVsRestClassifier(LogisticRegression(max_iter=200))
     elif model == 'svm':
         clf = OneVsRestClassifier(svm.SVC(C = 1, probability=True, kernel = 'linear', degree=3), n_jobs=-1)
     # we fit on a copy, to avoid writing to protected memory
@@ -87,7 +87,7 @@ def preprocess(meta):
     all_genres_df = pd.DataFrame({'Genre': list(all_genres.keys()), 
                                   'Count': list(all_genres.values())})
     # Remove genres with too little occurences
-    new_genres_df = all_genres_df[all_genres_df['Count'] > 1000]
+    new_genres_df = all_genres_df[all_genres_df['Count'] > 1500]
     for i in range(len(movies)):
         movies['genre_new'][i] = [x for x in movies['genre_new'][i] if x in list(new_genres_df['Genre'])]
     
@@ -108,16 +108,16 @@ def get_est(yval,ypred):
         test.append(np.dot(i , j) / len(i) * 100)
     return test
 
-def norma(ham, genre_counts):
+def norma(fp, genre_counts):
     norm = {}
     dicts = {}
     genre_counts.reset_index(drop=True, inplace=True)
     for i in range(len(genre_counts)):
         dicts[genre_counts["Genre"][i]] = genre_counts["Count"][i]
         
-    for genre in ham.keys():
-        temp = ham[genre] / dicts[genre]
-        norm[genre] = temp
+    for genre in fp.keys():
+        temp = fp[genre] / dicts[genre] 
+        norm[genre] = temp * 5
     
     return norm
 
@@ -126,12 +126,12 @@ def over_rep(est, multilabel_binarizer, yval, y_pred):
     ham = []
     for i in range(len(est)):
         if est[i] < 1:
-            kaas.append(multilabel_binarizer.inverse_transform(yval)[i])
-            ham.append(multilabel_binarizer.inverse_transform(y_pred)[i])
+            fn.append(multilabel_binarizer.inverse_transform(yval)[i])
+            fp.append(multilabel_binarizer.inverse_transform(y_pred)[i])
     
-    kaas1 = list(sum(kaas, ()))
-    ham1 = list(sum(ham,()))
-    return Counter(kaas1), Counter(ham1)
+    fn1 = list(sum(fn, ()))
+    fp1 = list(sum(fp,()))
+    return Counter(fn1), Counter(fp1)
 
 def rescale(lst, val):
     tot = []
