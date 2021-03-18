@@ -94,83 +94,29 @@ def preprocess_to_csv(data_path, save_to):
     print(name, 'done')
 
 
-# Implementation
+
+# Evaluation
 def get_predicted_symptoms(prediction):
     """
-    This function takes in the prediction of a sentence of the pre-trained model
+    This function takes in the prediction of a sentence of the pre-trained model 
     and returns the symptoms mentioned in that sentence.
     """
-
+    
     symptoms = []
-
+    
     # Check if there is a predicted entity
     if len(prediction[0]['entity']) > 0:
         number_of_entities = len(prediction[0]['entity'])
-
+    
         # Loop over predicted entities and get symptoms (here called: disease)
         for i in range(number_of_entities):
             if prediction[0]['entity'][i]['type'] == 'disease':
                 symptoms.append(prediction[0]['entity'][i]['mention'])
-
-    return symptoms
-
-
-def get_symptoms_data(df):
-    """
-    This function takes a (preprocessed) dataframe as input, determines the predicted
-    symptoms per phrase, and outputs a dictionary with the 5 most frequent symptoms used,
-    while also plotting the counts of the words in a barplot.
-
-    The steps (1-5) are explained in the report.
-    """
-
-    all_symptoms = []
-    skipped_sentences = 0
-
-    for ind in tqdm(df.index):
-        sentence = df['sentences'][ind]
-
-        # Padding is needed because algorithms is not used to small sentences
-        if len(sentence) < 45:
-            sentence = sentence + '...'
-
-        # Step 1
-        try:
-            prediction = trainer.predict([sentence])
-        except:
-            skipped_sentences += 1
-            continue
-
-        # Step 2
-        predicted_symptom = get_predicted_symptoms(prediction)
-        predicted_symptom = [x.lower() for x in predicted_symptom]
-        predicted_symptom = [x.split(', ')[0] for x in predicted_symptom]
-
-        # Step 3
-        for symptom in predicted_symptom:
-            if symptom != 'coronavirus':  # Remove 'coronavirus', because it is not a symptom
-                all_symptoms.append(symptom)
-
-    df_symptoms = DataFrame(all_symptoms, columns=['symptoms'])
-
-    # Step 4
-    count_symptoms = Counter()
-
-    # Split on 'enter(\n)' so that grouped words stay 1 symptom
-    df_symptoms['symptoms'].str.lower().str.split('\n').apply(count_symptoms.update)
-
-    # Most common symptoms: Step 5
-    print('Skipped sentences: ', skipped_sentences)
-    top5 = dict(count_symptoms.most_common(5))
-    print(top5)
-    plt.bar(range(len(top5)), list(top5.values()), align='center')
-    plt.xticks(range(len(top5)), list(top5.keys()))
-    plt.title('Most common symptoms')
-    plt.show()
-
-
-# Evaluation
-def accuracy(df, trainer):
+            
+    return symptoms 
+    
+    
+def accuracy(df, model):
     """
     This function computes the accuracy score, given a dataframe.
     """
@@ -185,7 +131,7 @@ def accuracy(df, trainer):
         if len(sentence) < 60:
             sentence = sentence + '...'
 
-        prediction = trainer.predict([sentence])
+        prediction = model.predict([sentence])
 
         predicted_symptom = get_predicted_symptoms(prediction)
         predicted_symptom = [x.lower() for x in predicted_symptom]
