@@ -24,7 +24,8 @@
 # Datasets
 The datasets as we use them can be downloaded from: https://drive.google.com/file/d/1zwCIyn9qavCYD13_ASmmIxSpb-Ak7n6i/view?usp=sharing
 They are a compiled version of the following datasets:
-- [Cornell](https://convokit.cornell.edu/documentation/movie.html)
 - [CMU](http://www.cs.cmu.edu/~ark/personas/)
 - [cetinsamet's Movie subtitles dataset+models](https://github.com/cetinsamet/movie-genre-classification)
 - [British Political Speech database](http://www.britishpoliticalspeech.org/speech-archive.htm)
+
+We also use the - [Convokit Cornell Movie Dialogue](https://convokit.cornell.edu/documentation/movie.html) dataset, which is downloaded upon execution of the code.
