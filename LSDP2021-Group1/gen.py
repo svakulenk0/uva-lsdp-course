@@ -122,8 +122,8 @@ def norma(fp, genre_counts):
     return norm
 
 def over_rep(est, multilabel_binarizer, yval, y_pred):
-    kaas = []
-    ham = []
+    fn = []
+    fp = []
     for i in range(len(est)):
         if est[i] < 1:
             fn.append(multilabel_binarizer.inverse_transform(yval)[i])
