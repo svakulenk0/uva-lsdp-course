@@ -15,7 +15,7 @@ df_convomet = pd.DataFrame({'Dataset':['Convokit'], '# of utterances':[3820], '#
 
 df_cmumet = pd.DataFrame({'Dataset':['CMU'], '# of movies':[39568], '# of genres':[24], 'average words/plot':[1771.6]})
 
-df_cetmet = pd.DataFrame({'Dataset':['cetinsamet'], '# of movies':[7868], '# of genres':[8], 'average utt/movie':[0] , 'average utt length':[0] })
+df_cetmet = pd.DataFrame({'Dataset':['cetinsamet'], '# of movies':[7868], '# of genres':[8], 'average line/movie':[1177] , 'average line length':[12.62] })
 
 df_BPSmet = pd.DataFrame({'Dataset':['BPS'], '# of utterances': [1308] , '# of agents':[5], '# of words/utt':[159.3]  })
 
