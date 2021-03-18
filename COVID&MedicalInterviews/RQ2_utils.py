@@ -61,52 +61,25 @@ from keras.preprocessing.sequence import pad_sequences
 ################
 
 
-def save_variables(saved_path, unique_emotions, v_size, matrix):
-    with open(saved_path+'unique_emotions.txt', 'wb') as filehandle:
-        pickle.dump(unique_emotions, filehandle)
-    with open(saved_path+'v_size.txt', 'wb') as filehandle:
-        pickle.dump(v_size, filehandle)
-    with open(saved_path+'matrix.txt', 'wb') as filehandle:
-        pickle.dump(matrix, filehandle)
-
-
-def save_x_y(saved_path, X_train, X_test, y_train, y_test):
-    with open(saved_path+'X_train.txt', 'wb') as filehandle:
-        pickle.dump(X_train, filehandle)
-    with open(saved_path+'X_test.txt', 'wb') as filehandle:
-        pickle.dump(X_test, filehandle)
-    with open(saved_path+'y_train.txt', 'wb') as filehandle:
-        pickle.dump(y_train, filehandle)
-    with open(saved_path+'y_test.txt', 'wb') as filehandle:
-        pickle.dump(y_test, filehandle)
-
-
-def save_vectors(saved_path, C_vec, M_vec):
-    with open(saved_path+'C_vec.txt', 'wb') as filehandle:
-        pickle.dump(C_vec, filehandle)
-    with open(saved_path+'M_vec.txt', 'wb') as filehandle:
-        pickle.dump(M_vec, filehandle)
-
-
-def save_dfs(saved_path, COVID_df, MED_df):
-    with open(saved_path+'COVID_df.txt', 'wb') as filehandle:
-        pickle.dump(COVID_df, filehandle)
-    with open(saved_path+'MED_df.txt', 'wb') as filehandle:
-        pickle.dump(MED_df, filehandle)
-
-
 def load_variables(saved_path):
+    """
+    Input: file path.
+    Returns list of unique emotions, vocabulary size and matrix.
+    """
     with open(saved_path+'unique_emotions.txt', 'rb') as filehandle:
         unique_emotions = pickle.load(filehandle)
     with open(saved_path+'v_size.txt', 'rb') as filehandle:
         v_size = pickle.load(filehandle)
     with open(saved_path+'matrix.txt', 'rb') as filehandle:
         matrix = pickle.load(filehandle)
-
     return unique_emotions, v_size, matrix
 
 
 def load_x_y(saved_path):
+    """
+    Input: file path.
+    Returns train and test set.
+    """
     with open(saved_path+'X_train.txt', 'rb') as filehandle:
         X_train = pickle.load(filehandle)
     with open(saved_path+'X_test.txt', 'rb') as filehandle:
@@ -121,6 +94,10 @@ def load_x_y(saved_path):
 
 
 def load_vectors(saved_path):
+    """
+    Input: file path.
+    Returns numerical representation of both datasets.
+    """
     with open(saved_path+'C_vec.txt', 'rb') as filehandle:
         C_vec = pickle.load(filehandle)
     with open(saved_path+'M_vec.txt', 'rb') as filehandle:
@@ -130,6 +107,10 @@ def load_vectors(saved_path):
 
 
 def load_dfs(saved_path):
+    """
+    Input: file path.
+    Returns dataframe of both datasets.
+    """
     with open(saved_path+'COVID_df.txt', 'rb') as filehandle:
         COVID_df = pickle.load(filehandle)
     with open(saved_path+'MED_df.txt', 'rb') as filehandle:
@@ -138,10 +119,18 @@ def load_dfs(saved_path):
 
 
 def load_trained_model(path, name):
+    """
+    Input: file path and file name.
+    Returns trained multi-label classification model.
+    """
     return load_model(path+name)
 
 
 def load_history(saved_path, name):
+    """
+    Input: file path and file name.
+    Returns history of the model.
+    """
     with open(saved_path+name, 'rb') as filehandle:
         history = pickle.load(filehandle)
     return history
@@ -153,6 +142,10 @@ def load_history(saved_path, name):
 
 
 def split_on_dialogue(file_path):
+    """
+    Input: file path.
+    Returns list with dialogues.
+    """
     with open(file_path) as f:
         lines = f.readlines()
         f.close()
@@ -178,18 +171,28 @@ def split_on_dialogue(file_path):
 
 
 def create_emotions(emotions_path):
+    """
+    Input: file path.
+    Returns list of unique emotions and dictionary with as key a word
+    and as value the corresponding emotion.
+    """
     emotions = dict()
     unique_emotions = []
     lemmatizer = WordNetLemmatizer()
     _, _, files = next(walk(emotions_path))
-
+    
+    # Process each emotion-score file in the folder.
     for file in files:
         emotion = file.replace('-scores.txt', '')
+
+        # Add emotion to the list of unique emotions.
         unique_emotions.append(emotion)
 
         with open(emotions_path+file, 'r') as f:
             for line in f:
                 word, p = line.split('\t')
+
+                # Add word to dictionary if the intensity score is greater than 0.6.
                 if float(p) > 0.6:
                     word = lemmatizer.lemmatize(word)
                     emotions[word] = emotion
@@ -197,10 +200,19 @@ def create_emotions(emotions_path):
 
 
 def remove_noise(token):
+    """
+    Input: token.
+    Returns token without URLs, punctuation and next line symbols.
+    """
+    # Remove next line symbols.
     token = re.sub(r"\\n", "", token)
     token = re.sub(r"\n", "", token)
+
+    # Remove URLs.
     token = re.sub(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+#]|[!*\(\),]|'
                    r'(?:%[0-9a-fA-F][0-9a-fA-F]))+', '', token)
+
+    # Remove punctuation and turn token to lower-case.
     token = re.sub(r"(@[A-Za-z0-9_]+)", "", token)
     token = re.sub(r"-", " ", token)
     token = token.lower().translate(str.maketrans('', '', string.punctuation))
@@ -208,126 +220,165 @@ def remove_noise(token):
 
 
 def lemmatize(token, tag):
+    """
+    Input: token and POS-tag.
+    Returns lemmatized token.
+    """
     lemmatizer = WordNetLemmatizer()
     pos = False
+
+    # Check if token is a noun.
     if tag.startswith("NN"):
         pos = 'n'
+
+    # Check if token is a verb.
     elif tag.startswith('VB'):
         pos = 'v'
+
+    # Check if token is an adjective.
     elif tag.startswith('JJ'):
         pos = 'a'
     if pos:
         return lemmatizer.lemmatize(token, pos)
+
+    # If token is not a noun, verb or adjective, return empty string.
     else:
         return ''
 
 
 def clean_text(raw_text):
+    """
+    Input: text sequence
+    Returns list of preprocessed tokens.
+    """
     cleaned = []
 
+    # Define set of stopwords.
     stop_words = set(stopwords.words('english')) | set(['http', 'patient', 'doctor'])
+    
+    # Tokenize text sequence.
     tokens = word_tokenize(str(raw_text), "english")
 
-    for token, tag in pos_tag(tokens):
+    # Give tokens a POS tag.
+    tagged_tokens = pos_tag(tokens)
+    for token, tag in tagged_tokens:
 
+        # Remove noise and stopwords, and lemmatize token.
         token = remove_noise(token)
         token = lemmatize(token, tag)
-
         if len(token) > 2 and len(token) < 20 and token not in stop_words:
             cleaned.append(token)
+
     return cleaned
 
 
 def create_label(text, emotions):
+    """
+    Input: text = list of tokens, emotions = dictionary with as key a word
+    and as value the corresponding emotion.
+    Returns list of emotions associated with the text.
+    """
     return [emotions[token] for token in text if token in emotions.keys()]
 
 
 def create_df(labelled):
+    """
+    Input: list of tuples containing text and label.
+    Returns Dataframe of list with as columns 'text' and 'labels'.
+    """
     df = pd.DataFrame(columns=['text', 'labels'])
     for text, label in labelled:
         df = df.append({'text': text, 'labels': label}, ignore_index=True)
     return df
 
 
+def append_dfs(df1, df2):
+    """
+    Input: df1 = Dataframe, df2 = Dataframe.
+    Returns one Dataframe with df1 and df2.
+    """
+    # Get two Dataframes of equal length.
+    if len(df1) < len(df2):
+        df2 = df2.sample(len(df1))
+    elif len(df2) < len(df1):
+        df1 = df1.sample(len(df2))
+
+    return pd.concat([df1, df2], ignore_index=True, sort=False)
+
+
+def split_x_y(df):
+    """
+    Input: Dataframe containing 'text' and label columns.
+    Returns X and y set of the Dataframe.
+    """
+    # Get column 'text' from Dataframe.
+    x = list(df['text'])
+    
+    # Get label columns from Dataframe.
+    y = df[list(set(df.columns) - {'text'})]
+
+    return x, y
+
+
+def process_dataset(path, emotions):
+    """
+    Input: path = file path, emotions = dictionary with as key a word
+    and as value the corresponding emotion.
+    Returns Dataframe with preprocessed text and binarized labels.
+    """
+    # Get dialogues from file.
+    dialogues = split_on_dialogue(path)
+    labelled = []
+    
+    # Process each dialogue.
+    for d in dialogues:
+        
+        # Remove noise and lemmatize tokens
+        text = clean_text(d)
+        
+        # Create label with emotions
+        label = create_label(text, emotions)
+        
+        # Add tuple of text and label to list if it is not in list yet.
+        if (text, label) not in labelled:
+            labelled.append((text, label))
+
+    # Create Dataframe of list with tuples.
+    df = create_df(labelled)
+
+    return df
+
+
 def binarizer(df):
-    # Binarise labels
+    """
+    Input: Dataframe containing 'text' and 'labels'
+    Returns Dataframe with binarized labels.
+    """
+    # Binarize labels.
     mlb = MultiLabelBinarizer()
     result = mlb.fit_transform(df['labels'])
+    
+    # Create Dataframe with as columns 'text' and each emotion.
     new_df = pd.concat([df['text'],
                         pd.DataFrame(result, columns=list(mlb.classes_))],
                        axis=1)
     return new_df
 
 
-def append_dfs(df1, df2):
-    if len(df1) < len(df2):
-        df2 = df2.sample(len(df1))
-    elif len(df2) < len(df1):
-        df1 = df1.sample(len(df2))
-    return pd.concat([df1, df2], ignore_index=True, sort=False)
-
-
-def split_x_y(df):
-    x = list(df['text'])
-    y = df[list(set(df.columns) - {'text'})]
-    return x, y
-
-
-def process_dataset(path, emotions):
-    dialogues = split_on_dialogue(path)
-    labelled = []
-    for d in dialogues:
-        text = clean_text(d)
-        label = create_label(text, emotions)
-        if (text, label) not in labelled:
-            labelled.append((text, label))
-    df = create_df(labelled)
-    return df
-
-
-def individual_labels(y, unique_emotions):
-    return [y[[emotion]].values for emotion in unique_emotions]
-
-
-def embedded_vectors(GloVe_path, X_train, X_test):
-    tokenizer = Tokenizer()
-    tokenizer.fit_on_texts(X_train)
-
-    X_train = tokenizer.texts_to_sequences(X_train)
-    X_test = tokenizer.texts_to_sequences(X_test)
-
-    X_train = pad_sequences(X_train, padding='post', maxlen=200)
-    X_test = pad_sequences(X_test, padding='post', maxlen=200)
-
-    v_size = len(tokenizer.word_index) + 1
-
-    embed_dict = dict()
-    _, _, files = next(walk(GloVe_path))
-
-    for file in files:
-        with open(GloVe_path+file, 'r') as file:
-            for line in file:
-                records = line.split()
-                embed_dict[records[0]] = np.asarray(records[1:], dtype='float32')
-
-    matrix = np.zeros((v_size, 100))
-    for word, index in tokenizer.word_index.items():
-        vector = embed_dict.get(word)
-        if vector is not None:
-            matrix[index] = vector
-
-    return X_train, X_test, v_size, matrix, tokenizer
-
-
 def preprocessing(paths):
+    """
+    Input: list of file paths.
+    Returns preprocessed dataframes of both datasets, a list of unique emotions
+    and a merged dataframe of both dataframes.
+    """
     print('Starting to preprocess...')
-    # paths to content of the data folder
+    # Paths to content of the data folder.
     emotions_path = paths[0]
     GloVe_path = paths[1]
     COVID_file = paths[2]
     MED_file = paths[3]
 
-    # path to content of the stored folder
+    # Path to content of the stored folder.
     saved_path = paths[4]
 
     unique_emotions, emotions = create_emotions(emotions_path)
@@ -344,18 +395,82 @@ def preprocessing(paths):
     return COVID_df, MED_df, unique_emotions, merged_df
 
 
+def individual_labels(y, unique_emotions):
+    """
+    Input: y = Dataframe with as columns the unique emotions,
+    unique_emotions = list of unique emotions
+    Returns list containing lists with values for each unique emotion.
+    """
+    return [y[[emotion]].values for emotion in unique_emotions]
+
+
+def embedded_vectors(GloVe_path, X_train, X_test):
+    """
+    Input: GloVe_path = file path, X_train = text of training set,
+    X_test = text of test set.
+    Returns numerical representation of X_train and X_test, vocabulary size, matrix
+    and tokenizer
+    """
+    # Initialize tokenizer
+    tokenizer = Tokenizer()
+    
+    # Fit tokenizer on train set.
+    tokenizer.fit_on_texts(X_train)
+
+    # Convert training and test set.
+    X_train = tokenizer.texts_to_sequences(X_train)
+    X_test = tokenizer.texts_to_sequences(X_test)
+
+    # Pad training and test set to length of 200.
+    X_train = pad_sequences(X_train, padding='post', maxlen=200)
+    X_test = pad_sequences(X_test, padding='post', maxlen=200)
+
+    # Get size of vocabulary.
+    v_size = len(tokenizer.word_index) + 1
+
+    embed_dict = dict()
+    
+    # Get files from GloVe folder.
+    _, _, files = next(walk(GloVe_path))
+
+    # Read each GloVe file into a dictionary.
+    for file in files:
+        with open(GloVe_path+file, 'r') as file:
+            for line in file:
+                records = line.split()
+                embed_dict[records[0]] = np.asarray(records[1:], dtype='float32')
+
+    # Create weight matrix.
+    matrix = np.zeros((v_size, 100))
+    for word, index in tokenizer.word_index.items():
+        vector = embed_dict.get(word)
+        if vector is not None:
+            matrix[index] = vector
+
+    return X_train, X_test, v_size, matrix, tokenizer
+
+
 def converting(merged_df, unique_emotions, paths):
+    """
+    Input: merged_df = Dataframe containing both preprocessed datasets,
+    unique_emotions = list of unique emotions, paths = list of file paths.
+    Returns training and test set, vocabulary size, weight matix and tokenizer.
+    """
     print('Starting to convert...')
     GloVe_path = paths[1]
 
+    # Separate text and labels from Dataframe.
     X, y = split_x_y(merged_df)
 
+    # Create training and test set.
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,
                                                         shuffle=True)
 
+    # Get individual label for each emotion.
     y_train = individual_labels(y_train, unique_emotions)
     y_test = individual_labels(y_test, unique_emotions)
 
+    # Create numerical representation.
     X_train, X_test, v_size, matrix, tokenizer = embedded_vectors(GloVe_path, X_train, X_test)
     print('Converting done!')
 
@@ -363,12 +478,20 @@ def converting(merged_df, unique_emotions, paths):
 
 
 def convert_df_to_num(tokenizer, COVID_df, MED_df):
+    """
+    Input: tokenizer = tokenizer fitted on training set, COVID_df = Dataframe
+    containing COVID dataset, MED_df = Dataframe containing MedDialog dataset.
+    Returns numerical representation of text in both dataframes.
+    """
+    # Turn text columns of dataframes into lists.
     COVID_list = COVID_df['text'].tolist()
     MED_list = MED_df['text'].tolist()
 
+    # Convert lists.
     COVID = tokenizer.texts_to_sequences(COVID_list)
     MED = tokenizer.texts_to_sequences(MED_list)
 
+    # Pad to same length.
     COVID_vec = pad_sequences(COVID, padding='post', maxlen=200)
     MED_vec = pad_sequences(MED, padding='post', maxlen=200)
     return COVID_vec, MED_vec
@@ -380,6 +503,10 @@ def convert_df_to_num(tokenizer, COVID_df, MED_df):
 
 
 def create_model(v_size, matrix):
+    """
+    Input: vocabulary size and weight matrix.
+    Returns multi-label classification model.
+    """
     input_1 = Input(shape=(200,))
     embedding_layer = Embedding(v_size, 100, weights=[matrix],
                                 trainable=False)(input_1)
@@ -399,7 +526,12 @@ def create_model(v_size, matrix):
     return model
 
 
-def main_model(X_train, y_train, v_size, matrix, epochs=10):
+def main_model(X_train, y_train, v_size, matrix, epochs):
+    """
+    Input: training set, vocabulary size, weights matrix and number of epochs.
+    This functions creates and trains a multi-label classification model.
+    Returns the model and the training history.
+    """
     print('Creating the model...')
     model = create_model(v_size, matrix)
     print('Training the model...')
@@ -410,13 +542,19 @@ def main_model(X_train, y_train, v_size, matrix, epochs=10):
 
 
 def evaluate_model(model, X_test, y_test):
+    """
+    Input: trained multi-label classification model and test set.
+    Prints loss and accuracy of each dense output layer.
+    """
+    # Evaluate the model on test set
     score = model.evaluate(x=X_test, y=y_test, verbose=1, return_dict=True)
+    
+    # Print loss and accuracy for each dense output layer.
     loss = ['dense_loss', 'dense_1_loss', 'dense_2_loss', 'dense_3_loss',
               'dense_4_loss']
     acc = ['dense_acc', 'dense_1_acc', 'dense_2_acc', 'dense_3_acc',
             'dense_4_acc']
     layers = ['dense', 'dense_1', 'dense_2', 'dense_3', 'dense_4']
-
     print('\nTotal loss: ', score['loss'])
     for i in range(len(layers)):
         print('')
@@ -430,8 +568,14 @@ def evaluate_model(model, X_test, y_test):
 
 
 def plot_loss(history):
+    """
+    Input: training history of the model.
+    Plots total loss and losses of each dense output layer.
+    """
+    # Initialize Dataframe to plot.
     df = pd.DataFrame(columns=['method', 'Epoch #', 'Loss'])
 
+    # Add total loss values to dataframe.
     for i in range(len(history['loss'])):
         df = df.append({'method': 'loss', 'Epoch #': i,
                         'Loss': history['loss'][i]}, ignore_index=True)
@@ -439,6 +583,7 @@ def plot_loss(history):
         df = df.append({'method': 'val_loss', 'Epoch #': i,
                         'Loss': history['val_loss'][i]}, ignore_index=True)
 
+    # Plot total loss.
     sns.lineplot(x='Epoch #', y='Loss', data=df, hue='method').set_title('Total Loss')
     plt.show()
 
@@ -448,9 +593,13 @@ def plot_loss(history):
                   'val_dense_3_loss', 'val_dense_4_loss']
     titles = ['dense', 'dense_1', 'dense_2', 'dense_3', 'dense_4']
 
+    # Plot losses for each dense output layer.
     for d in range(len(denses)):
+
+        # Initialize Dataframe to plot.
         df = pd.DataFrame(columns=['method', 'Epoch #', 'Loss'])
 
+        # Add loss values to dataframe.
         hd = history[denses[d]]
         for i in range(len(hd)):
             df = df.append({'method': 'loss', 'Epoch #': i, 'Loss': hd[i]},
@@ -460,20 +609,29 @@ def plot_loss(history):
             df = df.append({'method': 'val_loss', 'Epoch #': i, 'Loss': hvd[i]},
                            ignore_index=True)
 
+        # Plot loss of the current dense output layer.
         sns.lineplot(x='Epoch #', y='Loss', data=df, hue='method').set_title('Loss for '+ titles[d])
         plt.show()
 
 
 def plot_acc(history):
+    """
+    Input: training history of the model.
+    Plots accuracy of each dense output layer.
+    """
     denses = ['dense_acc', 'dense_1_acc', 'dense_2_acc', 'dense_3_acc',
               'dense_4_acc']
     val_denses = ['val_dense_acc', 'val_dense_1_acc', 'val_dense_2_acc', 'val_dense_3_acc',
                   'val_dense_4_acc']
     titles = ['dense', 'dense_1', 'dense_2', 'dense_3', 'dense_4']
 
+    # Plot accuracy for each dense output layer.
     for d in range(len(denses)):
+
+        # Initialize Dataframe to plot.
         df = pd.DataFrame(columns=['method', 'Epoch #', 'Loss'])
 
+        # Add loss values to dataframe.
         hd = history[denses[d]]
         for i in range(len(hd)):
             df = df.append({'method': 'acc', 'Epoch #': i, 'Accuracy': hd[i]},
@@ -483,6 +641,7 @@ def plot_acc(history):
             df = df.append({'method': 'val_acc', 'Epoch #': i, 'Accuracy': hvd[i]},
                            ignore_index=True)
 
+        # Plot accuracy of the current dense output layer.
         sns.lineplot(x='Epoch #', y='Accuracy', data=df, hue='method').set_title('Accuracy for '+ titles[d])
         plt.show()
 
@@ -493,26 +652,61 @@ def plot_acc(history):
 
 
 def annotate(df, unique_emotions):
+    """
+    Input: df = Dataframe with columns 'text' and 'labels',
+    unique_emotions = list of unique emotions.
+    Returns dictionary with as key the emotion and as value the amount
+    of occurences in the dataframe.
+    """
     annotated = defaultdict(int)
+
+    # Process each label in the Dataframe.
     for row in df['labels']:
+        
+        # For each emotion, if the emotion occurs in the label
+        # increase the count.
+        
         for emotion in unique_emotions:
             if emotion in set(row):
                 annotated[emotion] += 1
+
+    # Return sorted dictionary.
     return OrderedDict(sorted(annotated.items()))
 
 
 def annotate_with_model(X, model, unique_emotions):
+    """
+    Input: X = numerical representation of the dialogues,
+    model = trained muti-label classification model,
+    unique_emotions = list of unique emotions
+    Returns dictionary with as key the emotion and as value the amount
+    of occurences in the dataframe.
+    """
+    # Predict labels with trained model.
     y = model.predict(X)
     annotated = dict()
+    
+    # For each emotion, add emotions to dictionary with as value the amount
+    # of occurences in the dataframe.
     for i in range(len(y)):
+        
+        # Only add emotion if prediction is equal or greater than 0.5.
         annotated[unique_emotions[i]] = len([p for p in y[i] if p >= 0.5])
+
+    # Return sorted dictionary.
     return OrderedDict(sorted(annotated.items()))
 
 
 def compare_annotation(a, a_model, title):
-
+    """
+    Input: a = annotion with lexicon, a_model = annotation with trained model,
+    title = title for the figure.
+    Plots annotation differences of a dataset.
+    """
+    # Initialize Dataframe to plot.
     df = pd.DataFrame(columns=['method', 'emotion', 'count'])
 
+    # Add annotations to the dataframe.
     for emotion, count in a.items():
         df = df.append({'method': 'lexicon', 'emotion': emotion,
                         'count': count}, ignore_index=True)
@@ -520,6 +714,7 @@ def compare_annotation(a, a_model, title):
         df = df.append({'method': 'trained model', 'emotion': emotion,
                         'count': count}, ignore_index=True)
 
+    # Plot Dataframe.
     sns.barplot(x='emotion', y='count', data=df, hue='method').set_title(title)
     plt.show()
 
@@ -530,12 +725,26 @@ def compare_annotation(a, a_model, title):
 
 
 def normalize_dict(d):
+    """
+    Input: dictionary.
+    Returns normalized dictionary.
+    """
     factor = 100/sum(d.values())
     return {key: float(value*factor) for key, value in d.items()}
 
 
 def create_plot_df(MED, COVID):
+    """
+    Input: MED = dictionary with as key the emotion and as value the percentage
+    of occurences in the dataframe for the MedDialog dataset,
+    COVID = dictionary with as key the emotion and as value the percentage
+    of occurences in the dataframe for the COVID dataset.
+    Returns Dataframe to plot.
+    """
+    # Initialize Dataframe.
     df = pd.DataFrame(columns=['dataset', 'emotion', 'count'])
+
+    # Add dictionaries to the Dataframe.
     for emotion, percent in MED.items():
         df = df.append({'dataset': 'before', 'emotion': emotion,
                         'percentage': percent}, ignore_index=True)
@@ -546,8 +755,21 @@ def create_plot_df(MED, COVID):
 
 
 def compare_emotions(MED, COVID, title):
+    """
+    Input: ED = dictionary with as key the emotion and as value the amount
+    of occurences in the dataframe for the MedDialog dataset,
+    COVID = dictionary with as key the emotion and as value the amount
+    of occurences in the dataframe for the COVID dataset,
+    title = title for the figure.
+    Plots emotion distribution.
+    """
+    # Normalize dictionaries.
     MED = OrderedDict(sorted(normalize_dict(MED).items()))
     COVID = OrderedDict(sorted(normalize_dict(COVID).items()))
+
+    # Create Dataframe to plot.
     df = create_plot_df(MED, COVID)
+
+    # Plot emotion distribution.
     sns.barplot(x='emotion', y='percentage', data=df, hue='dataset').set_title(title)
     plt.show()
