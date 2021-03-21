@@ -105,7 +105,7 @@ def explain_index_2(idx, classifier, n_features, dataset, explainer) :
     print(dataset['utterance'][idx])
     exp = explainer.explain_instance(dataset['utterance'][idx], classifier.predict_proba, num_features=n_features)
     print('Document id: %d' % idx)
-    print('Probability(good intent) =', classifier.predict_proba([dataset['utterance'][idx]])[0,1])
+    print('Probability(good sentiment) =', classifier.predict_proba([dataset['utterance'][idx]])[0,1])
     print('True class: %s' % dataset.Character_label[idx])
     print("Speaker: %s" % dataset.Speaker[idx])
     

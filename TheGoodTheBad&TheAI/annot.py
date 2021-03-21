@@ -9,6 +9,17 @@ all_csvs = ["Datasets/together_StarWars_sinmpel.csv", "Datasets/togetherAustinP_
             "Datasets/togethermib_simpel.csv", "Datasets/togetherNightmareXmass_simpel.csv",
             "Datasets/togetherPoC_simpel.csv"]
 
+
+
+df_convomet = pd.DataFrame({'Dataset':['Convokit'], '# of utterances':[3820], '# of dialogues':[1154], '# of agents':[115], 'average worsd/utt':[60.48]})
+
+df_cmumet = pd.DataFrame({'Dataset':['CMU'], '# of movies':[39568], '# of genres':[24], 'average words/plot':[1771.6]})
+
+df_cetmet = pd.DataFrame({'Dataset':['cetinsamet'], '# of movies':[7868], '# of genres':[8], 'average line/movie':[1177] , 'average line length':[12.62] })
+
+df_BPSmet = pd.DataFrame({'Dataset':['BPS'], '# of utterances': [1308] , '# of agents':[5], '# of words/utt':[159.3]  })
+
+
 def annot(corpus, movie_title):
     conversation = list()
     df = pd.DataFrame()

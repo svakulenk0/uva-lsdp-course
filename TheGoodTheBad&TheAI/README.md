@@ -13,17 +13,17 @@
 - This report is made by Martijn van Raaphorst, Jens Ruhof and Luc Vink for the course Language, speech and dialogue processing, Bsc K.I. at the University of Amsterdam. It was supervised by Iris Lau, and Svitlana Vakulenko.
 
 # Dependencies
-- python 3.8
+- python 3.8 or lower
 	- pandas
 	- sklearn
     - tensorflow 1.15.0 (requires 3.8 or lower)
     - keras 2.3.1 
     - LIME
     - seaborn
+    - convokit
 
 # Datasets
-The datasets as we use them can be downloaded from: https://drive.google.com/file/d/1zwCIyn9qavCYD13_ASmmIxSpb-Ak7n6i/view?usp=sharing
-They are a compiled version of the following datasets:
+The datasets as we use them can be downloaded from:
 - [Cornell](https://convokit.cornell.edu/documentation/movie.html)
 - [CMU](http://www.cs.cmu.edu/~ark/personas/)
 - [cetinsamet's Movie subtitles dataset+models](https://github.com/cetinsamet/movie-genre-classification)
