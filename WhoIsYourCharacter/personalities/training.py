@@ -222,7 +222,7 @@ def train_cross_validation(attribute, ModelName):
 
         # save the best model & history
         filepath = f"models/{attribute}_cur.h5"
-        checkpoint = ModelCheckpoint(filepath, monitor='val_accuracy', verbose=1, save_best_only=True, mode='max')
+        checkpoint = ModelCheckpoint(filepath, monitor='val_accuracy', verbose=0, save_best_only=True, mode='max')
         history = History()
         callbacks_list = [history, checkpoint]
 
@@ -250,6 +250,8 @@ def train_cross_validation(attribute, ModelName):
             print(f"New best evaluation, saving model to models/{attribute}_best.h5")
 
     print("The 10-fold CV score is %s" % np.nanmean(cv_acc))
+    
+    return np.nanmean(cv_acc)
 
 def train_persona(configuration):
     global config
@@ -258,12 +260,16 @@ def train_persona(configuration):
     # model 
     ModelName = config.ModelName
 
+    cv_acc = 0
+
     # choose multiclass or multilabel
     if config.multilabel:
         dim = config.dims
-        train_cross_validation(dim, ModelName)
+        cv_acc = train_cross_validation(dim, ModelName)
     else:
         dims = config.dims
         for dim in dims:
-            train_cross_validation(dim, ModelName)
-
+            cv_acc += train_cross_validation(dim, ModelName)
+        cv_acc /= len(dims)
+    
+    return cv_acc
