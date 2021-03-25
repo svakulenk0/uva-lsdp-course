@@ -18,7 +18,7 @@ def split_on_dialogue(data_path):
     Format conversatoins: [[conversation1], [conversation2], ..., [conversation_n]]
     """
 
-    with open(data_path) as f:
+    with open(data_path, encoding='utf8') as f:
         lines = f.readlines()
         f.close()
 
@@ -114,14 +114,15 @@ def get_predicted_symptoms(prediction):
                 symptoms.append(prediction[0]['entity'][i]['mention'])
             
     return symptoms 
+
     
-    
-def accuracy(df, model):
+def eval(df, model):
     """
     This function computes the accuracy score, given a dataframe.
     """
     number_of_symptoms = 0
-    number_of_well_predicted = 0
+    TP = 0
+    FP = 0
 
     for ind in tqdm(df.index):
 
@@ -148,8 +149,10 @@ def accuracy(df, model):
 
                 # Keep track of well predicted symptoms
                 if symptom in predicted_symptom:
-                    number_of_well_predicted += 1
+                    TP += 1
+                else:
+                    FP += 1
 
-    print('Ground truth symptoms: ', number_of_symptoms)
-    print('Correctly predicted symptoms ', number_of_well_predicted)
-    print('accuracy: ', number_of_well_predicted / number_of_symptoms)
+    accuracy = TP/number_of_symptoms
+    
+    return accuracy, [TP, FP],  number_of_symptoms
