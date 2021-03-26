@@ -5,12 +5,15 @@ import sklearn
 import csv
 import matplotlib.pyplot as plt
 import seaborn as sn
+import nltk
+from nltk.tokenize import word_tokenize
 from collections import Counter
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments
 import torch
 import re
+import os
 
 # read tsv files and separate the labels from the text inputs
 # the different parameters account for slight differences in how the files are structured
@@ -106,7 +109,7 @@ def split_on_dialogue(data_path):
     Format conversatoins: [[conversation1], [conversation2], ..., [conversation_n]]
     """
     
-    with open(data_path) as f:
+    with open(data_path, encoding='utf8') as f:
         lines = f.readlines()
         f.close()
 
@@ -164,7 +167,7 @@ def preprocess_to_tsv(data_path, save_to):
     conversations = split_on_dialogue(data_path)
     
     # Make dataframe
-    df_raw = pd.DataFrame(np.array(conversations), columns=['dialogue'])
+    df_raw = pd.DataFrame(np.array(conversations, dtype=object), columns=['dialogue'])
     df_questions = get_patient_questions(df_raw).drop_duplicates()
     # Save
     name = os.path.basename(data_path)[:-4]+'_questions'
