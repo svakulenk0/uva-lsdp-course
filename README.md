@@ -1,7 +1,7 @@
 # uva-lsdp-course
 Language, Speech and Dialogue Processing course @ University of Amsterdam 2021
 
-* COVID&MedicalInterviews: what are symptoms, sentiments and question types in COVID-19 medical interviews?
+* COVID&MedicalInterviews: what are symptoms, sentiments and question types in COVID medical interviews?
 * DutchParliamentTalks: how did the topics and sentiments in the Dutch Parliament change with COVID-19?
 * LiveSlideCreator: how to build a system that generates presentation slides from speech?
 * SentimentalPodcasts: how does sentiment of the speakers change during a podcast?
